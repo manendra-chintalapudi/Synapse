@@ -1,2 +1,3 @@
 # Synapse
-An intelligence Plaform for Pharma Industries 
+### Industrial Knowledge Intelligence — A Unified Asset & Operations Brain
+

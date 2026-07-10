@@ -1,0 +1,2802 @@
+[
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1001"
+    },
+    "properties": {
+      "timestamp": "2026-06-24 21:55:31"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1002"
+    },
+    "properties": {
+      "timestamp": "2026-01-25 21:25:27"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1003"
+    },
+    "properties": {
+      "timestamp": "2026-06-28 13:37:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1004"
+    },
+    "properties": {
+      "timestamp": "2025-12-24 20:47:28"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1005"
+    },
+    "properties": {
+      "timestamp": "2025-12-30 11:42:58"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1006"
+    },
+    "properties": {
+      "timestamp": "2025-08-31 21:11:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1007"
+    },
+    "properties": {
+      "timestamp": "2025-12-13 03:22:51"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1008"
+    },
+    "properties": {
+      "timestamp": "2025-11-10 00:03:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1009"
+    },
+    "properties": {
+      "timestamp": "2026-04-07 02:34:55"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1010"
+    },
+    "properties": {
+      "timestamp": "2026-04-10 00:06:43"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1011"
+    },
+    "properties": {
+      "timestamp": "2025-07-24 17:08:07"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1012"
+    },
+    "properties": {
+      "timestamp": "2026-02-28 21:10:30"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1013"
+    },
+    "properties": {
+      "timestamp": "2025-10-12 12:55:31"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1014"
+    },
+    "properties": {
+      "timestamp": "2026-02-14 14:25:41"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1015"
+    },
+    "properties": {
+      "timestamp": "2026-05-14 19:40:09"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1016"
+    },
+    "properties": {
+      "timestamp": "2025-09-09 00:22:18"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1017"
+    },
+    "properties": {
+      "timestamp": "2026-01-15 04:21:36"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1018"
+    },
+    "properties": {
+      "timestamp": "2026-02-24 06:38:32"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1019"
+    },
+    "properties": {
+      "timestamp": "2026-03-03 00:09:44"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1020"
+    },
+    "properties": {
+      "timestamp": "2025-12-11 20:55:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1021"
+    },
+    "properties": {
+      "timestamp": "2025-08-23 14:00:19"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1022"
+    },
+    "properties": {
+      "timestamp": "2026-04-16 21:19:39"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1023"
+    },
+    "properties": {
+      "timestamp": "2025-11-01 11:15:05"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1024"
+    },
+    "properties": {
+      "timestamp": "2025-10-07 16:06:09"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1025"
+    },
+    "properties": {
+      "timestamp": "2026-02-07 05:26:40"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1026"
+    },
+    "properties": {
+      "timestamp": "2025-08-02 07:17:57"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1027"
+    },
+    "properties": {
+      "timestamp": "2025-11-30 19:21:55"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-SPF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1028"
+    },
+    "properties": {
+      "timestamp": "2026-01-16 18:55:20"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1029"
+    },
+    "properties": {
+      "timestamp": "2026-04-16 04:23:45"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1030"
+    },
+    "properties": {
+      "timestamp": "2026-05-27 07:41:12"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1031"
+    },
+    "properties": {
+      "timestamp": "2026-04-06 23:24:39"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1032"
+    },
+    "properties": {
+      "timestamp": "2026-02-18 05:38:05"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1033"
+    },
+    "properties": {
+      "timestamp": "2026-04-16 13:59:08"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1034"
+    },
+    "properties": {
+      "timestamp": "2026-01-28 01:33:58"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1035"
+    },
+    "properties": {
+      "timestamp": "2025-10-02 09:26:42"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1036"
+    },
+    "properties": {
+      "timestamp": "2025-10-17 19:27:33"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1037"
+    },
+    "properties": {
+      "timestamp": "2026-03-12 05:07:49"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1038"
+    },
+    "properties": {
+      "timestamp": "2026-01-26 18:06:35"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1039"
+    },
+    "properties": {
+      "timestamp": "2025-10-11 22:41:04"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1040"
+    },
+    "properties": {
+      "timestamp": "2025-08-22 18:55:57"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1041"
+    },
+    "properties": {
+      "timestamp": "2026-01-03 19:39:00"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1042"
+    },
+    "properties": {
+      "timestamp": "2025-07-13 02:06:35"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1043"
+    },
+    "properties": {
+      "timestamp": "2026-01-10 16:09:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-BF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1044"
+    },
+    "properties": {
+      "timestamp": "2025-09-29 17:37:52"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1045"
+    },
+    "properties": {
+      "timestamp": "2026-01-09 08:42:10"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1046"
+    },
+    "properties": {
+      "timestamp": "2026-01-06 19:59:19"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1047"
+    },
+    "properties": {
+      "timestamp": "2026-03-09 15:50:05"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1048"
+    },
+    "properties": {
+      "timestamp": "2026-01-21 21:42:40"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1049"
+    },
+    "properties": {
+      "timestamp": "2025-07-28 13:47:21"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1050"
+    },
+    "properties": {
+      "timestamp": "2026-01-03 02:25:53"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1051"
+    },
+    "properties": {
+      "timestamp": "2026-04-18 22:04:20"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1052"
+    },
+    "properties": {
+      "timestamp": "2025-09-02 23:44:45"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1053"
+    },
+    "properties": {
+      "timestamp": "2026-03-27 08:32:32"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1054"
+    },
+    "properties": {
+      "timestamp": "2026-03-22 14:29:07"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1055"
+    },
+    "properties": {
+      "timestamp": "2025-10-16 01:35:49"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1056"
+    },
+    "properties": {
+      "timestamp": "2026-02-25 00:26:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1057"
+    },
+    "properties": {
+      "timestamp": "2026-06-07 03:15:18"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1058"
+    },
+    "properties": {
+      "timestamp": "2026-02-26 23:57:50"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1059"
+    },
+    "properties": {
+      "timestamp": "2025-11-23 19:45:55"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1060"
+    },
+    "properties": {
+      "timestamp": "2025-09-14 07:12:22"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1061"
+    },
+    "properties": {
+      "timestamp": "2025-09-26 15:09:18"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1062"
+    },
+    "properties": {
+      "timestamp": "2025-09-27 13:13:49"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-BF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1063"
+    },
+    "properties": {
+      "timestamp": "2026-03-26 13:21:21"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1064"
+    },
+    "properties": {
+      "timestamp": "2025-10-19 14:57:48"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1065"
+    },
+    "properties": {
+      "timestamp": "2025-12-09 04:34:00"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1066"
+    },
+    "properties": {
+      "timestamp": "2026-02-24 01:40:48"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1067"
+    },
+    "properties": {
+      "timestamp": "2026-05-12 03:29:33"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1068"
+    },
+    "properties": {
+      "timestamp": "2026-03-10 23:22:58"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1069"
+    },
+    "properties": {
+      "timestamp": "2026-04-23 14:28:54"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1070"
+    },
+    "properties": {
+      "timestamp": "2026-04-09 23:10:42"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1071"
+    },
+    "properties": {
+      "timestamp": "2025-11-02 03:14:40"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1072"
+    },
+    "properties": {
+      "timestamp": "2026-04-01 01:34:37"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1073"
+    },
+    "properties": {
+      "timestamp": "2026-02-05 08:10:09"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-BF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1074"
+    },
+    "properties": {
+      "timestamp": "2025-12-24 08:08:03"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-BF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1075"
+    },
+    "properties": {
+      "timestamp": "2026-03-16 09:47:22"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1076"
+    },
+    "properties": {
+      "timestamp": "2026-03-13 06:17:03"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1077"
+    },
+    "properties": {
+      "timestamp": "2025-10-19 21:44:56"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1078"
+    },
+    "properties": {
+      "timestamp": "2026-02-17 16:24:38"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1079"
+    },
+    "properties": {
+      "timestamp": "2025-10-11 19:50:21"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1080"
+    },
+    "properties": {
+      "timestamp": "2025-09-17 22:02:07"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1081"
+    },
+    "properties": {
+      "timestamp": "2025-11-13 13:00:16"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1082"
+    },
+    "properties": {
+      "timestamp": "2025-09-12 14:56:05"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1083"
+    },
+    "properties": {
+      "timestamp": "2026-03-14 16:21:57"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1084"
+    },
+    "properties": {
+      "timestamp": "2026-05-24 15:38:29"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1085"
+    },
+    "properties": {
+      "timestamp": "2026-01-02 04:45:47"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1086"
+    },
+    "properties": {
+      "timestamp": "2026-05-31 19:19:53"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1087"
+    },
+    "properties": {
+      "timestamp": "2025-07-29 12:52:39"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1088"
+    },
+    "properties": {
+      "timestamp": "2026-04-24 03:35:41"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1089"
+    },
+    "properties": {
+      "timestamp": "2025-08-26 16:44:42"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1090"
+    },
+    "properties": {
+      "timestamp": "2026-03-26 23:13:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1091"
+    },
+    "properties": {
+      "timestamp": "2026-05-30 10:51:49"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1092"
+    },
+    "properties": {
+      "timestamp": "2026-05-05 09:33:02"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1093"
+    },
+    "properties": {
+      "timestamp": "2026-01-13 16:13:14"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1094"
+    },
+    "properties": {
+      "timestamp": "2026-02-19 14:24:02"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1095"
+    },
+    "properties": {
+      "timestamp": "2026-04-17 08:48:05"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1096"
+    },
+    "properties": {
+      "timestamp": "2026-06-03 03:15:59"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1097"
+    },
+    "properties": {
+      "timestamp": "2025-10-02 00:45:29"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1098"
+    },
+    "properties": {
+      "timestamp": "2026-02-03 15:55:29"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1099"
+    },
+    "properties": {
+      "timestamp": "2026-06-11 22:00:50"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1100"
+    },
+    "properties": {
+      "timestamp": "2025-12-09 10:01:34"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1101"
+    },
+    "properties": {
+      "timestamp": "2026-03-21 23:45:06"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1102"
+    },
+    "properties": {
+      "timestamp": "2025-09-30 17:38:04"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1103"
+    },
+    "properties": {
+      "timestamp": "2026-06-26 13:19:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1104"
+    },
+    "properties": {
+      "timestamp": "2025-09-30 19:34:18"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1105"
+    },
+    "properties": {
+      "timestamp": "2026-01-16 12:47:47"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-BF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1106"
+    },
+    "properties": {
+      "timestamp": "2025-10-25 18:39:30"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1107"
+    },
+    "properties": {
+      "timestamp": "2026-03-03 03:46:09"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1108"
+    },
+    "properties": {
+      "timestamp": "2025-11-02 13:51:46"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1109"
+    },
+    "properties": {
+      "timestamp": "2026-06-02 04:57:04"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1110"
+    },
+    "properties": {
+      "timestamp": "2026-06-27 17:39:01"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1111"
+    },
+    "properties": {
+      "timestamp": "2025-08-04 01:04:08"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1112"
+    },
+    "properties": {
+      "timestamp": "2026-03-24 06:43:08"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1113"
+    },
+    "properties": {
+      "timestamp": "2025-12-24 18:32:56"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1114"
+    },
+    "properties": {
+      "timestamp": "2026-05-11 20:57:41"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1115"
+    },
+    "properties": {
+      "timestamp": "2026-04-17 04:38:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1116"
+    },
+    "properties": {
+      "timestamp": "2026-03-11 15:11:54"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1117"
+    },
+    "properties": {
+      "timestamp": "2026-03-23 10:47:02"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1118"
+    },
+    "properties": {
+      "timestamp": "2025-12-29 20:14:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1119"
+    },
+    "properties": {
+      "timestamp": "2025-08-07 20:10:06"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1120"
+    },
+    "properties": {
+      "timestamp": "2025-08-07 21:59:04"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1121"
+    },
+    "properties": {
+      "timestamp": "2025-10-25 16:01:45"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1122"
+    },
+    "properties": {
+      "timestamp": "2025-10-28 04:24:15"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1123"
+    },
+    "properties": {
+      "timestamp": "2025-10-27 16:03:33"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1124"
+    },
+    "properties": {
+      "timestamp": "2025-09-25 09:12:47"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-SPF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1125"
+    },
+    "properties": {
+      "timestamp": "2026-06-23 19:09:38"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-SPF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1126"
+    },
+    "properties": {
+      "timestamp": "2025-09-18 16:57:38"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1127"
+    },
+    "properties": {
+      "timestamp": "2026-01-11 09:35:24"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1128"
+    },
+    "properties": {
+      "timestamp": "2026-06-08 02:47:00"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1129"
+    },
+    "properties": {
+      "timestamp": "2026-06-08 09:36:26"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1130"
+    },
+    "properties": {
+      "timestamp": "2025-07-23 19:48:17"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1131"
+    },
+    "properties": {
+      "timestamp": "2025-08-30 06:58:41"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1132"
+    },
+    "properties": {
+      "timestamp": "2025-08-15 08:59:51"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1133"
+    },
+    "properties": {
+      "timestamp": "2026-03-17 00:24:16"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1134"
+    },
+    "properties": {
+      "timestamp": "2025-10-24 05:40:53"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1135"
+    },
+    "properties": {
+      "timestamp": "2026-01-05 04:29:29"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1136"
+    },
+    "properties": {
+      "timestamp": "2025-08-13 12:22:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1137"
+    },
+    "properties": {
+      "timestamp": "2025-11-07 07:45:02"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1138"
+    },
+    "properties": {
+      "timestamp": "2026-01-31 03:54:26"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1139"
+    },
+    "properties": {
+      "timestamp": "2025-12-17 04:29:45"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1140"
+    },
+    "properties": {
+      "timestamp": "2025-07-10 18:36:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1141"
+    },
+    "properties": {
+      "timestamp": "2026-05-23 00:32:13"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1142"
+    },
+    "properties": {
+      "timestamp": "2026-03-25 03:06:07"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1143"
+    },
+    "properties": {
+      "timestamp": "2026-05-29 21:49:54"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1144"
+    },
+    "properties": {
+      "timestamp": "2025-08-21 17:21:08"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1145"
+    },
+    "properties": {
+      "timestamp": "2026-05-14 07:39:26"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1146"
+    },
+    "properties": {
+      "timestamp": "2025-12-28 16:33:48"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1147"
+    },
+    "properties": {
+      "timestamp": "2026-03-29 14:32:50"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1148"
+    },
+    "properties": {
+      "timestamp": "2026-04-09 16:51:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1149"
+    },
+    "properties": {
+      "timestamp": "2026-05-28 16:32:49"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1150"
+    },
+    "properties": {
+      "timestamp": "2025-10-27 12:22:32"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1151"
+    },
+    "properties": {
+      "timestamp": "2026-04-26 09:44:24"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1152"
+    },
+    "properties": {
+      "timestamp": "2026-02-18 15:43:18"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1153"
+    },
+    "properties": {
+      "timestamp": "2025-09-25 22:57:31"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1154"
+    },
+    "properties": {
+      "timestamp": "2026-03-23 07:24:23"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1155"
+    },
+    "properties": {
+      "timestamp": "2025-10-08 04:00:23"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1156"
+    },
+    "properties": {
+      "timestamp": "2025-08-03 03:41:15"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1157"
+    },
+    "properties": {
+      "timestamp": "2025-12-15 01:03:37"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1158"
+    },
+    "properties": {
+      "timestamp": "2025-11-18 07:11:57"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1159"
+    },
+    "properties": {
+      "timestamp": "2025-07-06 08:51:10"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1160"
+    },
+    "properties": {
+      "timestamp": "2025-12-08 06:18:27"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1161"
+    },
+    "properties": {
+      "timestamp": "2025-07-11 07:52:45"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1162"
+    },
+    "properties": {
+      "timestamp": "2026-05-07 01:30:37"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1163"
+    },
+    "properties": {
+      "timestamp": "2025-08-21 17:33:00"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1164"
+    },
+    "properties": {
+      "timestamp": "2025-12-13 03:46:33"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1165"
+    },
+    "properties": {
+      "timestamp": "2025-09-16 04:24:03"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1166"
+    },
+    "properties": {
+      "timestamp": "2026-02-01 15:48:39"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1167"
+    },
+    "properties": {
+      "timestamp": "2025-07-07 20:54:10"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1168"
+    },
+    "properties": {
+      "timestamp": "2026-04-30 11:17:33"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1169"
+    },
+    "properties": {
+      "timestamp": "2025-12-14 12:22:27"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1170"
+    },
+    "properties": {
+      "timestamp": "2026-03-10 08:06:59"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1171"
+    },
+    "properties": {
+      "timestamp": "2026-07-06 00:22:27"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1172"
+    },
+    "properties": {
+      "timestamp": "2026-02-24 05:53:23"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1173"
+    },
+    "properties": {
+      "timestamp": "2025-11-11 19:30:09"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1174"
+    },
+    "properties": {
+      "timestamp": "2025-09-25 13:43:47"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1175"
+    },
+    "properties": {
+      "timestamp": "2026-03-29 12:40:18"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-03"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1176"
+    },
+    "properties": {
+      "timestamp": "2026-03-03 02:32:28"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1177"
+    },
+    "properties": {
+      "timestamp": "2026-03-25 18:47:04"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1178"
+    },
+    "properties": {
+      "timestamp": "2026-03-30 07:05:09"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1179"
+    },
+    "properties": {
+      "timestamp": "2025-11-02 17:51:16"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1180"
+    },
+    "properties": {
+      "timestamp": "2025-10-19 12:14:19"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1181"
+    },
+    "properties": {
+      "timestamp": "2026-03-22 12:38:37"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1182"
+    },
+    "properties": {
+      "timestamp": "2026-06-27 21:27:22"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1183"
+    },
+    "properties": {
+      "timestamp": "2025-08-21 14:57:47"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1184"
+    },
+    "properties": {
+      "timestamp": "2026-02-17 18:48:40"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1185"
+    },
+    "properties": {
+      "timestamp": "2025-11-08 18:54:49"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1186"
+    },
+    "properties": {
+      "timestamp": "2025-11-12 16:49:05"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1187"
+    },
+    "properties": {
+      "timestamp": "2026-02-18 04:25:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1188"
+    },
+    "properties": {
+      "timestamp": "2026-05-05 09:00:00"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1189"
+    },
+    "properties": {
+      "timestamp": "2025-09-13 21:06:14"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1190"
+    },
+    "properties": {
+      "timestamp": "2026-01-02 12:20:28"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1191"
+    },
+    "properties": {
+      "timestamp": "2026-03-26 05:21:19"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1192"
+    },
+    "properties": {
+      "timestamp": "2026-02-12 22:04:42"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1193"
+    },
+    "properties": {
+      "timestamp": "2026-06-11 16:03:16"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1194"
+    },
+    "properties": {
+      "timestamp": "2025-11-03 05:00:06"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1195"
+    },
+    "properties": {
+      "timestamp": "2025-12-18 18:10:11"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1196"
+    },
+    "properties": {
+      "timestamp": "2026-04-21 16:37:43"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1197"
+    },
+    "properties": {
+      "timestamp": "2025-08-05 10:37:14"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1198"
+    },
+    "properties": {
+      "timestamp": "2025-08-10 12:22:12"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1199"
+    },
+    "properties": {
+      "timestamp": "2026-05-05 15:52:57"
+    }
+  },
+  {
+    "type": "EXPERIENCED",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CCM-01"
+    },
+    "to": {
+      "label": "Failure",
+      "key": "F1200"
+    },
+    "properties": {
+      "timestamp": "2026-03-26 00:25:48"
+    }
+  }
+]

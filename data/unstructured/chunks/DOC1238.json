@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1238",
+    "chunk_id": "DOC1238_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1238\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1182 \u2014 Tool Wear Failure\n**Equipment:** EQ-COL-02 \u2014 Downcoiler #2 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill)\n**Event timestamp:** 2026-06-27 21:27:22  |  **RCA:** RCA1182 (closed 2026-06-28)\n\n## 1. Incident Narrative\nAt 21:27:22 on 2026-06-27, the Downcoiler #2 raised a tool wear failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 300.6 K, process temperature 311.6 K, rotational speed 2023 rpm, torque 18.7 Nm and accumulated tool wear 155 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nAnjali Nair (Shift A), Sunita Rao (Shift A) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1182, performed by Shalini Naidu (equipment engineer, Shift B), concluded: Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "char_count": 1312,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1182",
+      "source_file_path": "data/unstructured/documents/DOC1238.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1238",
+    "chunk_id": "DOC1238_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-028 for this asset and recorded a compliance finding: Step 2 of PROC-028 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReplaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling. Post-repair verification confirmed return to the qualified operating envelope before release to production. Quality review linked 12 failed quality test(s) across coils C10048, C10242, C10337, C10389 produced on this equipment in the surrounding production window; the associated deviations were referenced back to this work order for disposition tracking.\n\n## 5. Closure\nWork order closed on 2026-06-28 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and tagged accordingly. Linked records: failure F1182, RCA RCA1182, procedure PROC-028, equipment EQ-COL-02.",
+    "char_count": 1292,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1182",
+      "source_file_path": "data/unstructured/documents/DOC1238.md"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1195",
+    "chunk_id": "DOC1195_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1195\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1137 \u2014 Tool Wear Failure\n**Equipment:** EQ-CNV-01 \u2014 Raw Material Conveyor #1 (Rajendra Steel Plant, Mumbai Unit - Raw Material Yard)\n**Event timestamp:** 2025-11-07 07:45:02  |  **RCA:** RCA1137 (closed 2025-11-11)\n\n## 1. Incident Narrative\nAt 07:45:02 on 2025-11-07, the Raw Material Conveyor #1 raised a tool wear failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 300.3 K, process temperature 312.2 K, rotational speed 2703 rpm, torque 41.7 Nm and accumulated tool wear 137 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nDeepa Banerjee (Shift A), Naveen Malhotra (Shift C) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1137, performed by Naveen Malhotra (equipment engineer, Shift C), concluded: Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "char_count": 1349,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1137",
+      "source_file_path": "data/unstructured/documents/DOC1195.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1195",
+    "chunk_id": "DOC1195_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-003 for this asset and recorded a compliance finding: Step 2 of PROC-003 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReplaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2025-11-11 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1137, RCA RCA1137, procedure PROC-003, equipment EQ-CNV-01.",
+    "char_count": 1167,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1137",
+      "source_file_path": "data/unstructured/documents/DOC1195.md"
+    }
+  }
+]

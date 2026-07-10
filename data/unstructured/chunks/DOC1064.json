@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1064",
+    "chunk_id": "DOC1064_chunk_0",
+    "chunk_index": 0,
+    "text": "# Equipment Manual \u2014 DOC1064\n**Equipment:** EQ-COL-01 \u2014 Downcoiler #1\n**Type:** Coiler Unit  |  **Location:** Rajendra Steel Plant, Mumbai Unit - Rolling Mill  |  **Commissioned:** 2016-10-14\n**Preventive-maintenance interval:** quarterly\n\n## 1. Overview\nThe Downcoiler #1 (EQ-COL-01) is the downcoiler that winds the finished hot strip into coils under controlled tension. It is installed at Rajendra Steel Plant, Mumbai Unit - Rolling Mill and was\ncommissioned on 2016-10-14. It is a critical asset in the plant's production flow and is managed under the\nCMMS reliability programme, with a formal preventive-maintenance interval of **quarterly**. This manual excerpt\nsummarises the machine's key specifications, normal operating envelope, common failure modes and maintenance and safety\nrequirements. It should be read together with the original equipment manufacturer (OEM) documentation and the relevant\nstandard operating procedures; the values quoted here are indicative, industry-typical figures for a machine of this\nclass rather than exact OEM design data.\n\n## 2. Key Specifications\n- **coiler type**: downcoiler\n- **coil weight capacity t**: 32\n- **wrapping tension kN**: 2-14\n- **mandrel dia mm**: 762\n- **strip entry temp C**: 600\n\n## 3. Operating Parameters\nThe equipment must be operated within its qualified envelope; representative set-points include coiler type = downcoiler, coil weight capacity t = 32, wrapping tension kN = 2-14. Operators\nlog the principal parameters each shift and compare them against these limits. Any sustained excursion outside the\nnormal band \u2014 particularly on temperature, pressure, tension, cooling-water flow or drive load as applicable to this\nmachine \u2014 must be raised through the CMMS and, where product or safety is affected, escalated for root cause analysis.\nStart-up and shutdown follow the dedicated SOP, bringing the machine to condition gradually while watching for abnormal\nvibration, noise or thermal signatures.\n\n## 4. Common Failure Modes\nThe following failure modes are characteristic of this machine type and drive its inspection and spares strategy:\n- **wrapper arm misalignment**\n- **mandrel wear**\n- **tension control fault**\n- **pinch roll wear**\n- **coil telescoping / cobble**",
+    "char_count": 2244,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-COL-01",
+      "source_file_path": "data/unstructured/documents/DOC1064.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1064",
+    "chunk_id": "DOC1064_chunk_1",
+    "chunk_index": 1,
+    "text": "Early-warning indicators for these modes (temperature drift, abnormal vibration, tension/level instability, water-flow\nloss) are trended in the condition-monitoring system so that developing faults are caught before they cause an\nunplanned outage or a quality deviation on the product.\n\n## 5. Maintenance Schedule\n| Frequency | Task |\n|-----------|------|\n| Daily / per-shift | Operator checks of key parameters, lubrication, cooling flows and abnormal noise/vibration. |\n| Weekly | Inspection of drives, couplings, sensors and instrumentation against reference values. |\n| Quarterly (primary PM) | Full preventive-maintenance service per the CMMS schedule for this asset type, including wear-part inspection and calibration. |\n| Annual / campaign | Major inspection, structural/refractory assessment and overhaul of critical sub-assemblies. |\n\nAll maintenance is recorded against EQ-COL-01 in the CMMS. Findings that affect product or safety are raised\nas work orders and, where warranted, as formal deviations.\n\n## 6. Safety Warnings\n- Hot strip and rotating mandrel/wrapper rolls \u2014 severe entanglement and burn hazard.\n- Coil handling and ejection \u2014 never stand in the coil-car path; observe exclusion zones.\n- Hydraulic wrapper and pinch-roll systems \u2014 isolate and bleed before adjustment.\n- Only trained, authorised personnel may operate or maintain this equipment, under the plant permit-to-work system and\n  in compliance with The Factories Act, 1948 safety provisions.\n\n## 7. Document Control\nControlled equipment manual \u2014 review at each PM interval (quarterly) or after any major modification or related\nincident. Linked to the plant knowledge graph as DOC1064, referencing equipment node EQ-COL-01.",
+    "char_count": 1708,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-COL-01",
+      "source_file_path": "data/unstructured/documents/DOC1064.md"
+    }
+  }
+]

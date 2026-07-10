@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1011",
+    "chunk_id": "DOC1011_chunk_0",
+    "chunk_index": 0,
+    "text": "# Equipment Manual \u2014 DOC1011\n**Equipment:** EQ-SPF-01 \u2014 Sinter Plant Weigh-Belt Feeder #1\n**Type:** Sinter Plant Feeder  |  **Location:** Rajendra Steel Plant, Mumbai Unit - Sinter Plant  |  **Commissioned:** 2013-03-15\n**Preventive-maintenance interval:** monthly\n\n## 1. Overview\nThe Sinter Plant Weigh-Belt Feeder #1 (EQ-SPF-01) is the weigh-belt feeder that meters the raw sinter mix (ore fines, coke breeze, flux) onto the sinter strand. It is installed at Rajendra Steel Plant, Mumbai Unit - Sinter Plant and was\ncommissioned on 2013-03-15. It is a critical asset in the plant's production flow and is managed under the\nCMMS reliability programme, with a formal preventive-maintenance interval of **monthly**. This manual excerpt\nsummarises the machine's key specifications, normal operating envelope, common failure modes and maintenance and safety\nrequirements. It should be read together with the original equipment manufacturer (OEM) documentation and the relevant\nstandard operating procedures; the values quoted here are indicative, industry-typical figures for a machine of this\nclass rather than exact OEM design data.\n\n## 2. Key Specifications\n- **feed capacity tph**: 400\n- **feeder type**: weigh belt feeder\n- **material**: iron ore fines, coke breeze, flux\n- **belt width mm**: 1200\n\n## 3. Operating Parameters\nThe equipment must be operated within its qualified envelope; representative set-points include feed capacity tph = 400, feeder type = weigh belt feeder, material = iron ore fines, coke breeze, flux. Operators\nlog the principal parameters each shift and compare them against these limits. Any sustained excursion outside the\nnormal band \u2014 particularly on temperature, pressure, tension, cooling-water flow or drive load as applicable to this\nmachine \u2014 must be raised through the CMMS and, where product or safety is affected, escalated for root cause analysis.\nStart-up and shutdown follow the dedicated SOP, bringing the machine to condition gradually while watching for abnormal\nvibration, noise or thermal signatures.",
+    "char_count": 2048,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-SPF-01",
+      "source_file_path": "data/unstructured/documents/DOC1011.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1011",
+    "chunk_id": "DOC1011_chunk_1",
+    "chunk_index": 1,
+    "text": "## 4. Common Failure Modes\nThe following failure modes are characteristic of this machine type and drive its inspection and spares strategy:\n- **belt mistracking**\n- **weigh load-cell drift**\n- **chute blockage**\n- **idler / roller seizure**\n- **feeder drive failure**\n\nEarly-warning indicators for these modes (temperature drift, abnormal vibration, tension/level instability, water-flow\nloss) are trended in the condition-monitoring system so that developing faults are caught before they cause an\nunplanned outage or a quality deviation on the product.\n\n## 5. Maintenance Schedule\n| Frequency | Task |\n|-----------|------|\n| Daily / per-shift | Operator checks of key parameters, lubrication, cooling flows and abnormal noise/vibration. |\n| Weekly | Inspection of drives, couplings, sensors and instrumentation against reference values. |\n| Monthly (primary PM) | Full preventive-maintenance service per the CMMS schedule for this asset type, including wear-part inspection and calibration. |\n| Annual / campaign | Major inspection, structural/refractory assessment and overhaul of critical sub-assemblies. |\n\nAll maintenance is recorded against EQ-SPF-01 in the CMMS. Findings that affect product or safety are raised\nas work orders and, where warranted, as formal deviations.\n\n## 6. Safety Warnings\n- Moving belt, drive drum and idlers \u2014 guards in place and lockout-tagout before clearing blockages.\n- Abrasive dust (ore fines, coke breeze) \u2014 respiratory protection and dust suppression required.\n- Stored material in the hopper above the feeder \u2014 never work under a live surge load.\n- Only trained, authorised personnel may operate or maintain this equipment, under the plant permit-to-work system and\n  in compliance with The Factories Act, 1948 safety provisions.\n\n## 7. Document Control\nControlled equipment manual \u2014 review at each PM interval (monthly) or after any major modification or related\nincident. Linked to the plant knowledge graph as DOC1011, referencing equipment node EQ-SPF-01.",
+    "char_count": 2001,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-SPF-01",
+      "source_file_path": "data/unstructured/documents/DOC1011.md"
+    }
+  }
+]

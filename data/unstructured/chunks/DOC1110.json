@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1110",
+    "chunk_id": "DOC1110_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1110\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1046 \u2014 Overstrain Failure\n**Equipment:** EQ-FMS-02 \u2014 Finishing Mill Stand F2 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill)\n**Event timestamp:** 2026-01-06 19:59:19  |  **RCA:** RCA1046 (closed 2026-01-09)\n\n## 1. Incident Narrative\nAt 19:59:19 on 2026-01-06, the Finishing Mill Stand F2 raised a overstrain failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 304.0 K, process temperature 313.4 K, rotational speed 2545 rpm, torque 58.1 Nm and accumulated tool wear 206 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nRavi Singh (Shift C), Karthik Chatterjee (Shift A) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1046, performed by Suresh Malhotra (equipment engineer, Shift C), concluded: Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "char_count": 1357,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1046",
+      "source_file_path": "data/unstructured/documents/DOC1110.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1110",
+    "chunk_id": "DOC1110_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-026 for this asset and recorded a compliance finding: Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReplaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval. Post-repair verification confirmed return to the qualified operating envelope before release to production. Quality review linked 6 failed quality test(s) across coils C10002, C10014, C10274, C10292 produced on this equipment in the surrounding production window; the associated deviations were referenced back to this work order for disposition tracking.\n\n## 5. Closure\nWork order closed on 2026-01-09 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and tagged accordingly. Linked records: failure F1046, RCA RCA1046, procedure PROC-026, equipment EQ-FMS-02.",
+    "char_count": 1348,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1046",
+      "source_file_path": "data/unstructured/documents/DOC1110.md"
+    }
+  }
+]

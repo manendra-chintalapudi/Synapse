@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1029",
+    "chunk_id": "DOC1029_chunk_0",
+    "chunk_index": 0,
+    "text": "# Deviation Report \u2014 DOC1029\n**Document type:** Deviation / Non-Conformance Report\n**Related deviation:** DEV1297  |  **Severity:** HIGH\n**Affected coil:** C10149 \u2014 grade IS1786-Fe500, 19.54 mm \u00d7 1255.3 mm, 18468.7 kg (heat H2026-0126, produced 2026-01-21)\n**Associated equipment:** EQ-BF-02 \u2014 Blast Furnace Line 2\n\n## 1. Description of Deviation\nSurface staining observed on coil, indicating possible contamination. The non-conformance was identified during routine quality inspection and flagged in the QMS\nagainst the affected material. The condition falls outside the visual and dimensional acceptance criteria applied at\nthis stage of production and was therefore raised as a formal deviation for disposition.\n\n## 2. Standard / Specification Breached\nThe deviation is assessed against BIS IS:1786 (High Strength Deformed Steel Bars) [STD-IS1786-01] surface-quality / acceptance requirements. The relevant clauses cover surface finish, freedom from injurious defects,\nand conformance of the delivered product to its declared grade. Because the observed condition compromises conformance,\nthe material cannot be released against the standard without disposition.\n\n## 3. Severity Assessment\nThis deviation is classified as **HIGH** severity. Classification reflects the defect type, its likely effect\non downstream performance and the frequency with which this defect class is observed. Rarer and structurally\nsignificant defects are escalated to higher severity to ensure appropriate engineering review.",
+    "char_count": 1506,
+    "metadata": {
+      "doc_type": "deviation_report",
+      "related_entity_id": "DEV1297",
+      "source_file_path": "data/unstructured/documents/DOC1029.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1029",
+    "chunk_id": "DOC1029_chunk_1",
+    "chunk_index": 1,
+    "text": "## 4. Root Cause (Preliminary)\nA preliminary review points to process variation during production on EQ-BF-02\n(Blast Furnace Line 2). A full root cause analysis is initiated where the severity or recurrence\nof the defect warrants it, linking this deviation to any related equipment failures or maintenance events.\n\n## 5. Disposition\n**Decision:** Reject / hold for material review board (MRB); do not dispatch.\nMaterial is held in the QMS with this deviation reference until the disposition is completed and verified. Any rework\nis re-inspected and re-tested against the applicable standard before the hold is released.\n\n## 6. Sign-off\nRaised by: Arjun Menon (Quality Inspector, Shift B)\nCertification: ASNT NDT Level II\nStatus: Open \u2014 pending disposition closure.",
+    "char_count": 764,
+    "metadata": {
+      "doc_type": "deviation_report",
+      "related_entity_id": "DEV1297",
+      "source_file_path": "data/unstructured/documents/DOC1029.md"
+    }
+  }
+]

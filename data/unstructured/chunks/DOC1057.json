@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1057",
+    "chunk_id": "DOC1057_chunk_0",
+    "chunk_index": 0,
+    "text": "# ASTM A370 \u2014 Standard Test Methods and Definitions for Mechanical Testing of Steel Products\n\n> **Scope / Summary Reference \u2014 full standard text is licensed by ASTM International and is not reproduced here.**\n> This document paraphrases only publicly available scope information for use as RAG search context. It intentionally omits copyrighted content such as specimen-dimension tables, exact procedure steps, calculation formulae, and numbered clause/section text. For the authoritative text, purchase the standard from ASTM (see *Where to obtain the full text* below).\n\n- **Standard number:** ASTM A370 (revised periodically; recent editions include A370-20 and A370-24)\n- **Issuing body:** ASTM International\n- **Title:** Standard Test Methods and Definitions for Mechanical Testing of Steel Products\n\n## Scope (high level)\n\nASTM A370 defines the **test methods and terminology used for the mechanical testing of steel products** \u2014 wrought and cast carbon steels, stainless steels, and related alloys. Its purpose is to establish uniform procedures so that mechanical properties determined by different laboratories can be compared and used to evaluate a product's conformance to its material specification. The standard describes how tests are set up, how specimens are taken and oriented, and how results are reported and rounded \u2014 the exact specimen geometries, apparatus requirements, and calculation details are in the licensed full text and are **not** reproduced here.",
+    "char_count": 1479,
+    "metadata": {
+      "doc_type": "standard_reference",
+      "related_entity_id": "STD-ASTMA370-01",
+      "source_file_path": "data/unstructured/standards/astm_a370.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1057",
+    "chunk_id": "DOC1057_chunk_1",
+    "chunk_index": 1,
+    "text": "## Test methods covered (publicly known)\n\nASTM A370 is an umbrella standard covering several categories of mechanical test:\n\n- **Tension test** \u2014 for properties such as yield strength, tensile strength, elongation, and reduction of area\n- **Bend test** \u2014 a ductility check via guided bending\n- **Hardness testing** \u2014 including **Brinell** and **Rockwell** methods (and reference to portable hardness testing)\n- **Charpy impact test** \u2014 notch-toughness assessment (Charpy V-notch)\n\nIt also includes definitions/terminology and, in its annexes, product-specific testing guidance (e.g., for bars, tubes, fasteners, and similar product forms).\n\n## Purpose\n\nTo provide a single, internationally recognized reference for *how* to mechanically test steel products, so that material specifications can simply cite A370 rather than re-describe each test \u2014 supporting consistent quality evaluation across producers, fabricators, and inspection labs in construction, mechanical, automotive, and other industries.\n\n## Where to obtain the full text\n\nThe complete, authoritative standard is available for purchase/download from ASTM International:\n\n- ASTM standard page: https://www.astm.org/a0370\n- ASTM store: https://store.astm.org/standards/a370\n\n## Sources (public scope information)\n\n- ASTM International \u2014 A370 standard page \u2014 https://www.astm.org/Standards/A370.htm\n- ASTM store listing \u2014 https://store.astm.org/standards/a370\n- ZwickRoell overview of ASTM A370 test methods \u2014 https://www.zwickroell.com/industries/metals/metals-standards/astm-a370-steel-standard-test-method/\n- ANSI Blog summary of ASTM A370-24 \u2014 https://blog.ansi.org/ansi/astm-a370-24-mechanical-testing-steel-products/",
+    "char_count": 1683,
+    "metadata": {
+      "doc_type": "standard_reference",
+      "related_entity_id": "STD-ASTMA370-01",
+      "source_file_path": "data/unstructured/standards/astm_a370.md"
+    }
+  }
+]

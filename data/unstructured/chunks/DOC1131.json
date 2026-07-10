@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1131",
+    "chunk_id": "DOC1131_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1131\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1068 \u2014 Power Failure\n**Equipment:** EQ-FMS-01 \u2014 Finishing Mill Stand F1 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill)\n**Event timestamp:** 2026-03-10 23:22:58  |  **RCA:** RCA1068 (closed 2026-03-11)\n\n## 1. Incident Narrative\nAt 23:22:58 on 2026-03-10, the Finishing Mill Stand F1 raised a power failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 302.2 K, process temperature 312.0 K, rotational speed 1681 rpm, torque 33.7 Nm and accumulated tool wear 227 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nShalini Rao (Shift A), Rajesh Naidu (Shift B) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1068, performed by Divya Banerjee (equipment engineer, Shift B), concluded: Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "char_count": 1327,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1068",
+      "source_file_path": "data/unstructured/documents/DOC1131.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1131",
+    "chunk_id": "DOC1131_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-020 for this asset and recorded a compliance finding: Step 3 of PROC-020 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nInspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip. Post-repair verification confirmed return to the qualified operating envelope before release to production. Quality review linked 18 failed quality test(s) across coils C10045, C10120, C10145, C10215, C10246, C10324\u2026 produced on this equipment in the surrounding production window; the associated deviations were referenced back to this work order for disposition tracking.\n\n## 5. Closure\nWork order closed on 2026-03-11 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and tagged accordingly. Linked records: failure F1068, RCA RCA1068, procedure PROC-020, equipment EQ-FMS-01.",
+    "char_count": 1294,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1068",
+      "source_file_path": "data/unstructured/documents/DOC1131.md"
+    }
+  }
+]

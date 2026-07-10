@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Relationship type definitions for the Synapse steel-plant knowledge graph. Each entry defines one Neo4j relationship type and the valid (from_label -> to_label) pairs it may connect. 'implementation' is 'edge' for real graph relationships, or 'property' for cases the spec allows modeling as a property instead of a dedicated edge.",
+  "relationships": [
+    {
+      "type": "PRODUCED_AT",
+      "implementation": "edge",
+      "source_system": "ERP (production order)",
+      "pairs": [
+        { "from_label": "Coil", "to_label": "Equipment" }
+      ],
+      "properties": [
+        { "name": "date", "type": "date", "notes": "Date the coil was produced on this equipment" }
+      ]
+    },
+    {
+      "type": "MADE_FROM",
+      "implementation": "edge",
+      "source_system": "ERP (BOM)",
+      "pairs": [
+        { "from_label": "Coil", "to_label": "RawMaterial" }
+      ],
+      "properties": [
+        { "name": "quantity_used", "type": "float", "notes": "Quantity of raw material consumed for this coil" }
+      ]
+    },
+    {
+      "type": "TESTED_BY",
+      "implementation": "edge",
+      "source_system": "QMS",
+      "pairs": [
+        { "from_label": "Coil", "to_label": "QualityTest" }
+      ],
+      "properties": [
+        { "name": "test_date", "type": "date", "notes": "Date the quality test was performed" }
+      ]
+    },
+    {
+      "type": "FAILED_STANDARD",
+      "implementation": "edge",
+      "source_system": "QMS / Compliance",
+      "pairs": [
+        { "from_label": "QualityTest", "to_label": "Standard" }
+      ],
+      "properties": [],
+      "notes": "Only QualityTests that actually breached their standard -- i.e. that have a linked Deviation (644). Tests performed with no resulting deviation use TESTED_AGAINST instead. FAILED_STANDARD + TESTED_AGAINST together cover all 1941 QualityTests."
+    },
+    {
+      "type": "TESTED_AGAINST",
+      "implementation": "edge",
+      "source_system": "QMS",
+      "pairs": [
+        { "from_label": "QualityTest", "to_label": "Standard" }
+      ],
+      "properties": [],
+      "notes": "A QualityTest evaluated against a Standard that did NOT breach it (no linked Deviation). Complement of FAILED_STANDARD; the two are mutually exclusive and jointly exhaustive over all QualityTests, so compliance rate = FAILED_STANDARD / (FAILED_STANDARD + TESTED_AGAINST) and every test still traces back to a standard."
+    },
+    {
+      "type": "HAS_DEVIATION",
+      "implementation": "edge",
+      "source_system": "QMS / CMMS",
+      "pairs": [
+        { "from_label": "Coil", "to_label": "Deviation", "source_system": "QMS" },
+        { "from_label": "Equipment", "to_label": "Deviation", "source_system": "CMMS" }
+      ],
+      "properties": [
+        { "name": "date_flagged", "type": "date", "notes": "Date the deviation was flagged" }
+      ]
+    },
+    {
+      "type": "EXPERIENCED",
+      "implementation": "edge",
+      "source_system": "CMMS",
+      "pairs": [
+        { "from_label": "Equipment", "to_label": "Failure" }
+      ],
+      "properties": [
+        { "name": "timestamp", "type": "datetime", "notes": "Date and time the failure occurred" }
+      ]
+    },
+    {
+      "type": "DIAGNOSED_BY",
+      "implementation": "edge",
+      "source_system": "CMMS",
+      "pairs": [
+        { "from_label": "Failure", "to_label": "RCA" }
+      ],
+      "properties": []
+    },
+    {
+      "type": "PERFORMED_BY",
+      "implementation": "edge",
+      "source_system": "CMMS",
+      "pairs": [
+        { "from_label": "RCA", "to_label": "Technician" }
+      ],
+      "properties": []
+    },
+    {
+      "type": "MAINTAINED_BY",
+      "implementation": "edge",
+      "source_system": "CMMS",
+      "pairs": [
+        { "from_label": "Equipment", "to_label": "Technician" }
+      ],
+      "properties": [
+        { "name": "shift_date", "type": "date", "notes": "Date of the maintenance shift" }
+      ]
+    },
+    {
+      "type": "FOLLOWS_PROCEDURE",
+      "implementation": "edge",
+      "source_system": "Document Management",
+      "pairs": [
+        { "from_label": "Equipment", "to_label": "Procedure" },
+        { "from_label": "Technician", "to_label": "Procedure" }
+      ],
+      "properties": []
+    },
+    {
+      "type": "REFERENCES_STANDARD",
+      "implementation": "edge",
+      "source_system": "Compliance",
+      "pairs": [
+        { "from_label": "Procedure", "to_label": "Standard" }
+      ],
+      "properties": []
+    },
+    {
+      "type": "DOCUMENTED_IN",
+      "implementation": "edge",
+      "source_system": "Document Management",
+      "pairs": [
+        { "from_label": "Failure", "to_label": "Document" },
+        { "from_label": "Deviation", "to_label": "Document" }
+      ],
+      "properties": []
+    },
+    {
+      "type": "SUPPLIED_BY",
+      "implementation": "property",
+      "source_system": "ERP (Vendors)",
+      "pairs": [
+        { "from_label": "RawMaterial", "to_label": "Vendor" }
+      ],
+      "properties": [],
+      "notes": "Represented today as the RawMaterial.supplier_id property rather than a dedicated edge. If a Vendor node label is introduced later, promote this to a real edge: (RawMaterial)-[:SUPPLIED_BY]->(Vendor)."
+    },
+    {
+      "type": "LOCATED_AT",
+      "implementation": "property",
+      "source_system": "ERP / CMMS",
+      "pairs": [
+        { "from_label": "Equipment", "to_label": "Location" }
+      ],
+      "properties": [],
+      "notes": "Represented today as the Equipment.location property rather than a dedicated edge. If a Warehouse/Location node label is introduced later, promote this to a real edge: (Equipment)-[:LOCATED_AT]->(Location)."
+    },
+    {
+      "type": "VERSION_OF",
+      "implementation": "edge",
+      "source_system": "Document Management",
+      "pairs": [
+        { "from_label": "Document", "to_label": "Document" }
+      ],
+      "properties": [
+        { "name": "version_number", "type": "integer", "notes": "Version number of the revision chain; edge points from the newer version to the prior version it supersedes" }
+      ],
+      "notes": "Self-referential revision chain."
+    }
+  ]
+}

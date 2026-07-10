@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1154",
+    "chunk_id": "DOC1154_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1154\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1094 \u2014 Random Trip\n**Equipment:** EQ-ROT-01 \u2014 Runout Table Cooling System #1 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill)\n**Event timestamp:** 2026-02-19 14:24:02  |  **RCA:** RCA1094 (closed 2026-02-21)\n\n## 1. Incident Narrative\nAt 14:24:02 on 2026-02-19, the Runout Table Cooling System #1 raised a random trip alarm and was taken out of normal operation. Condition monitoring captured air temperature 298.3 K, process temperature 308.6 K, rotational speed 1968 rpm, torque 47.2 Nm and accumulated tool wear 221 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nAnjali Nair (Shift A) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1094, performed by Shalini Naidu (equipment engineer, Shift B), concluded: No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "char_count": 1299,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1094",
+      "source_file_path": "data/unstructured/documents/DOC1154.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1154",
+    "chunk_id": "DOC1154_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-002 for this asset and recorded a compliance finding: Step 3 of PROC-002 (\"Photograph and log any zones below the minimum thickness threshold.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2026-02-21 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1094, RCA RCA1094, procedure PROC-002, equipment EQ-ROT-01.",
+    "char_count": 1209,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1094",
+      "source_file_path": "data/unstructured/documents/DOC1154.md"
+    }
+  }
+]

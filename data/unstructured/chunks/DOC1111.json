@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1111",
+    "chunk_id": "DOC1111_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1111\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1047 \u2014 Power Failure\n**Equipment:** EQ-LF-01 \u2014 Ladle Furnace #1 (Rajendra Steel Plant, Mumbai Unit - Melt Shop)\n**Event timestamp:** 2026-03-09 15:50:05  |  **RCA:** RCA1047 (closed 2026-03-12)\n\n## 1. Incident Narrative\nAt 15:50:05 on 2026-03-09, the Ladle Furnace #1 raised a power failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 296.5 K, process temperature 306.8 K, rotational speed 2466 rpm, torque 43.9 Nm and accumulated tool wear 64 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nRavi Singh (Shift C), Neha Menon (Shift C) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1047, performed by Suresh Malhotra (equipment engineer, Shift C), concluded: Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "char_count": 1306,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1047",
+      "source_file_path": "data/unstructured/documents/DOC1111.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1111",
+    "chunk_id": "DOC1111_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-004 for this asset and recorded a compliance finding: Step 2 of PROC-004 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nInspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2026-03-12 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1047, RCA RCA1047, procedure PROC-004, equipment EQ-LF-01.",
+    "char_count": 1251,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1047",
+      "source_file_path": "data/unstructured/documents/DOC1111.md"
+    }
+  }
+]

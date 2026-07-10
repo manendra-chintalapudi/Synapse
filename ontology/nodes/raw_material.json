@@ -1,0 +1,482 @@
+[
+  {
+    "material_id": "RM1001",
+    "type": "iron_ore",
+    "composition": {
+      "Fe": 60.24,
+      "SiO2": 6.81,
+      "Al2O3": 3.94,
+      "Moisture": 7.76,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-004"
+  },
+  {
+    "material_id": "RM1002",
+    "type": "ferro_manganese",
+    "composition": {
+      "Mn": 76.21,
+      "C": 6.63,
+      "Si": 1.57,
+      "Fe": 18.74,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1003",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 67.73,
+      "C": 6.88,
+      "Si": 2.01,
+      "Fe": 18.97,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-005"
+  },
+  {
+    "material_id": "RM1004",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 60.98,
+      "C": 6.02,
+      "Si": 3.78,
+      "Fe": 23.88,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-006"
+  },
+  {
+    "material_id": "RM1005",
+    "type": "scrap_steel",
+    "composition": {
+      "Fe": 94.38,
+      "C": 0.24,
+      "Mn": 0.8,
+      "Cu": 0.21,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-007"
+  },
+  {
+    "material_id": "RM1006",
+    "type": "ferro_silicon",
+    "composition": {
+      "Si": 74.11,
+      "Fe": 20.61,
+      "Al": 1.34,
+      "C": 0.13,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-005"
+  },
+  {
+    "material_id": "RM1007",
+    "type": "coking_coal",
+    "composition": {
+      "Fixed_Carbon": 59.57,
+      "Ash": 11.51,
+      "Volatile_Matter": 25.63,
+      "S": 0.73,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-001"
+  },
+  {
+    "material_id": "RM1008",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 67.11,
+      "C": 6.73,
+      "Si": 2.84,
+      "Fe": 22.79,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  },
+  {
+    "material_id": "RM1009",
+    "type": "limestone",
+    "composition": {
+      "CaO": 54.34,
+      "MgO": 1.85,
+      "SiO2": 2.61,
+      "LOI": 42.33,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1010",
+    "type": "limestone",
+    "composition": {
+      "CaO": 54.58,
+      "MgO": 1.52,
+      "SiO2": 1.84,
+      "LOI": 42.63,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1011",
+    "type": "ferro_manganese",
+    "composition": {
+      "Mn": 75.18,
+      "C": 6.04,
+      "Si": 1.22,
+      "Fe": 13.03,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-001"
+  },
+  {
+    "material_id": "RM1012",
+    "type": "ferro_silicon",
+    "composition": {
+      "Si": 74.19,
+      "Fe": 25.36,
+      "Al": 1.72,
+      "C": 0.11,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-003"
+  },
+  {
+    "material_id": "RM1013",
+    "type": "limestone",
+    "composition": {
+      "CaO": 54.42,
+      "MgO": 2.7,
+      "SiO2": 1.24,
+      "LOI": 41.5,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1014",
+    "type": "ferro_silicon",
+    "composition": {
+      "Si": 77.44,
+      "Fe": 27.9,
+      "Al": 1.55,
+      "C": 0.13,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-005"
+  },
+  {
+    "material_id": "RM1015",
+    "type": "ferro_manganese",
+    "composition": {
+      "Mn": 78.0,
+      "C": 6.75,
+      "Si": 1.48,
+      "Fe": 19.08,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-007"
+  },
+  {
+    "material_id": "RM1016",
+    "type": "scrap_steel",
+    "composition": {
+      "Fe": 93.77,
+      "C": 0.21,
+      "Mn": 0.32,
+      "Cu": 0.3,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1017",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 65.23,
+      "C": 6.98,
+      "Si": 3.84,
+      "Fe": 21.12,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1018",
+    "type": "limestone",
+    "composition": {
+      "CaO": 52.56,
+      "MgO": 2.65,
+      "SiO2": 2.62,
+      "LOI": 40.79,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-001"
+  },
+  {
+    "material_id": "RM1019",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 62.9,
+      "C": 6.92,
+      "Si": 3.62,
+      "Fe": 23.26,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  },
+  {
+    "material_id": "RM1020",
+    "type": "coking_coal",
+    "composition": {
+      "Fixed_Carbon": 59.53,
+      "Ash": 11.86,
+      "Volatile_Matter": 27.74,
+      "S": 0.84,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1021",
+    "type": "iron_ore",
+    "composition": {
+      "Fe": 62.54,
+      "SiO2": 6.61,
+      "Al2O3": 3.11,
+      "Moisture": 3.97,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-007"
+  },
+  {
+    "material_id": "RM1022",
+    "type": "scrap_steel",
+    "composition": {
+      "Fe": 94.7,
+      "C": 0.11,
+      "Mn": 0.3,
+      "Cu": 0.27,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-002"
+  },
+  {
+    "material_id": "RM1023",
+    "type": "ferro_manganese",
+    "composition": {
+      "Mn": 77.94,
+      "C": 6.37,
+      "Si": 1.62,
+      "Fe": 18.01,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-005"
+  },
+  {
+    "material_id": "RM1024",
+    "type": "ferro_silicon",
+    "composition": {
+      "Si": 76.06,
+      "Fe": 22.86,
+      "Al": 1.01,
+      "C": 0.15,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-008"
+  },
+  {
+    "material_id": "RM1025",
+    "type": "ferro_silicon",
+    "composition": {
+      "Si": 75.76,
+      "Fe": 21.08,
+      "Al": 1.22,
+      "C": 0.14,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  },
+  {
+    "material_id": "RM1026",
+    "type": "coking_coal",
+    "composition": {
+      "Fixed_Carbon": 55.84,
+      "Ash": 10.67,
+      "Volatile_Matter": 27.48,
+      "S": 0.81,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-005"
+  },
+  {
+    "material_id": "RM1027",
+    "type": "ferro_manganese",
+    "composition": {
+      "Mn": 74.12,
+      "C": 7.21,
+      "Si": 1.52,
+      "Fe": 13.57,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-001"
+  },
+  {
+    "material_id": "RM1028",
+    "type": "iron_ore",
+    "composition": {
+      "Fe": 60.73,
+      "SiO2": 3.29,
+      "Al2O3": 4.5,
+      "Moisture": 6.23,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-001"
+  },
+  {
+    "material_id": "RM1029",
+    "type": "iron_ore",
+    "composition": {
+      "Fe": 61.57,
+      "SiO2": 4.31,
+      "Al2O3": 2.91,
+      "Moisture": 4.63,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-002"
+  },
+  {
+    "material_id": "RM1030",
+    "type": "limestone",
+    "composition": {
+      "CaO": 54.74,
+      "MgO": 2.14,
+      "SiO2": 2.61,
+      "LOI": 38.77,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  },
+  {
+    "material_id": "RM1031",
+    "type": "scrap_steel",
+    "composition": {
+      "Fe": 94.6,
+      "C": 0.23,
+      "Mn": 0.6,
+      "Cu": 0.3,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-002"
+  },
+  {
+    "material_id": "RM1032",
+    "type": "ferro_manganese",
+    "composition": {
+      "Mn": 73.99,
+      "C": 6.29,
+      "Si": 1.92,
+      "Fe": 12.36,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  },
+  {
+    "material_id": "RM1033",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 60.48,
+      "C": 7.74,
+      "Si": 3.28,
+      "Fe": 23.81,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-001"
+  },
+  {
+    "material_id": "RM1034",
+    "type": "scrap_steel",
+    "composition": {
+      "Fe": 95.87,
+      "C": 0.19,
+      "Mn": 0.74,
+      "Cu": 0.37,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-003"
+  },
+  {
+    "material_id": "RM1035",
+    "type": "scrap_steel",
+    "composition": {
+      "Fe": 95.97,
+      "C": 0.17,
+      "Mn": 0.44,
+      "Cu": 0.26,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-002"
+  },
+  {
+    "material_id": "RM1036",
+    "type": "limestone",
+    "composition": {
+      "CaO": 51.52,
+      "MgO": 1.69,
+      "SiO2": 1.53,
+      "LOI": 40.49,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-007"
+  },
+  {
+    "material_id": "RM1037",
+    "type": "coking_coal",
+    "composition": {
+      "Fixed_Carbon": 59.68,
+      "Ash": 9.3,
+      "Volatile_Matter": 23.86,
+      "S": 0.55,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  },
+  {
+    "material_id": "RM1038",
+    "type": "ferro_chromium",
+    "composition": {
+      "Cr": 62.74,
+      "C": 6.19,
+      "Si": 2.43,
+      "Fe": 18.06,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-002"
+  },
+  {
+    "material_id": "RM1039",
+    "type": "limestone",
+    "composition": {
+      "CaO": 53.23,
+      "MgO": 1.82,
+      "SiO2": 2.57,
+      "LOI": 42.25,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-003"
+  },
+  {
+    "material_id": "RM1040",
+    "type": "iron_ore",
+    "composition": {
+      "Fe": 60.46,
+      "SiO2": 3.63,
+      "Al2O3": 3.69,
+      "Moisture": 5.86,
+      "basis": "illustrative_reference_ranges"
+    },
+    "supplier_id": "SUP-009"
+  }
+]

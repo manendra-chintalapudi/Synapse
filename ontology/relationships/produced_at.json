@@ -1,0 +1,5602 @@
+[
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10001"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10002"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10004"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-02-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10005"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10006"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10007"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10008"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10009"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10010"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10011"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10013"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10014"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10015"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10016"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10017"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10018"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10019"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10020"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-02-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10021"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10022"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10023"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10024"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10025"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10026"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10027"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10028"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-03-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10029"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10030"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10032"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10033"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10034"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10035"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10036"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10037"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10038"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10039"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10040"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10041"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10042"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10043"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10045"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10046"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10047"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-07-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10049"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10050"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-03-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10051"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10052"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10053"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10054"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10057"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10058"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10059"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-07-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10060"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10061"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10062"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10063"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10065"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10067"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10068"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10069"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10070"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10071"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10072"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10073"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10074"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10075"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10076"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10077"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10078"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10079"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10080"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10081"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10082"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10083"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10084"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10085"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10086"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10087"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10088"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10089"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10090"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10091"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10092"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10093"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10094"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10095"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10096"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10097"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10099"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-07-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10101"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10102"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10103"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10104"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10105"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10106"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10107"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10108"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10109"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10110"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10111"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10112"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10113"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10114"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-07-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10117"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10118"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10119"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10120"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10121"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10122"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-02-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10123"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10124"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10125"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10126"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10127"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10128"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10129"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10130"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10132"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10134"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10135"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10136"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10137"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10138"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10139"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10140"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10141"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10142"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10143"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10144"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10145"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10146"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10147"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10148"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10149"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10150"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10151"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10152"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10153"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10154"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10155"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10156"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10157"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10158"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10159"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10160"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10161"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10162"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10163"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10165"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10167"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10168"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10169"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-01-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10170"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10171"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10174"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10176"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10178"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10179"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10180"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10181"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10182"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10183"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10185"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10186"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10187"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10188"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10189"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10190"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10191"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10192"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10193"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10194"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10195"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10196"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10197"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10198"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10199"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10200"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10201"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10202"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10203"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10204"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10205"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10206"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10207"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10208"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-07-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10209"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10210"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10211"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10212"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10213"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10215"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10216"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10217"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10218"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10222"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-07-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10223"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10224"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10225"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10226"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10227"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10228"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10229"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10230"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10231"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10232"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10233"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10234"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10235"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10236"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10237"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10238"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10240"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10241"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10242"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10243"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10244"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10245"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-07-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10246"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10247"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10248"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10249"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10250"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10251"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10252"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-01-31"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10253"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10254"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10255"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10256"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10257"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-01-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10258"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10259"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10260"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10261"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10262"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10263"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10264"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10265"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10266"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10267"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10268"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10269"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-07-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10271"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10274"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10275"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10276"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10277"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10278"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10279"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10280"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10282"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10283"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10284"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10286"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10287"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10288"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10289"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10290"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10292"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10293"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-31"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10294"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10295"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10296"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10297"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10298"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10299"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10300"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10301"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10302"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-01-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10303"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10304"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10305"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-07-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10306"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10307"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10308"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10309"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10310"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10311"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10312"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-02-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10313"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-07-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10314"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10315"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10316"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-05-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10317"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10318"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10319"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10320"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10321"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10322"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10323"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10324"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10325"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-14"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10326"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10328"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10329"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-01-26"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10330"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10331"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10333"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10334"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-02-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10335"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10336"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-07-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10337"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10338"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-20"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10339"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-13"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10341"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10342"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-03"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10343"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10344"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10345"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-06-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10346"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-02-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10348"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10349"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-30"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10350"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-05-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10351"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-06-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10352"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-05-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10353"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-04-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10354"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-02-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10355"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10356"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10357"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-25"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10358"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10359"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10360"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10361"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-24"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10363"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10364"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10365"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10366"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-06-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10367"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-04-21"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10368"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10369"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-16"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10370"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-09"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10371"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-03-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10372"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10373"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-02-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10375"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-07-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10376"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-05-02"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10377"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-05-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10378"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-05"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10379"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-04-15"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10380"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-06-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10381"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-06"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10382"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-05-07"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10383"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-03-11"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10384"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-10"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10385"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-02-22"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10386"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-04-27"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10388"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-19"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-02"
+    },
+    "properties": {
+      "date": "2026-06-28"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-03-31"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10391"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-01"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10392"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-04-29"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10393"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "properties": {
+      "date": "2026-06-18"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10394"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "properties": {
+      "date": "2026-03-17"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10396"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "properties": {
+      "date": "2026-03-08"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10397"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-02-12"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10398"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-COL-01"
+    },
+    "properties": {
+      "date": "2026-05-23"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10399"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-07-04"
+    }
+  },
+  {
+    "type": "PRODUCED_AT",
+    "from": {
+      "label": "Coil",
+      "key": "C10400"
+    },
+    "to": {
+      "label": "Equipment",
+      "key": "EQ-RMS-01"
+    },
+    "properties": {
+      "date": "2026-01-21"
+    }
+  }
+]

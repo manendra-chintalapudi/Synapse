@@ -1,0 +1,178 @@
+Component Name,Module Code,Module Name,Table Name,Table Category,Table Category Notes,Dependency Tables Name,Dependency Tables Count,Cross-module Dependencies Names,Cross-module Dependencies Count,Complexity
+HR ,A,Module A - Core HR,Marital Status,Lookup Table,Static values,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Forms,Lookup Table,Form templates,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Calendars,Reference Table	,Company holidays/workdays,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Bonuses Type,Lookup Table,Bonus categories,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Deduction Type,Lookup Table,Deduction categories,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Departments Types,Dimension Table,Organizational structure,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Hierarchy,Table with Hierarchy,Org chart relationships,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Sections,Table with Hierarchy,Sub-departments,"Departments Types, Hierarchy ",2,No module ,0,Normal complex
+HR,A,Module A - Core HR,Employees,Master Data Table,Core employee records,"Departments Types, Sections, Marital Status, Salary Grades",4,No module ,0,Middle complex
+HR,A,Module A - Core HR,HR Rules,Reference Table	,Business rules,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Approval Workflows,Reference Table	,Workflow definitions,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Company Policies,Reference Table	,Policy documents,No,0,No module ,0,Not complex
+HR,A,Module A - Core HR,Employee Absence,Fact Table,Transactional absence records,"Employees, Time Logs, Leave Policies, Calendars, Approval Workflows",5,"Module C - Time & Attendance, Module A - Core HR",2,Deep complex
+HR,B,Module B - Payroll,Earning Types,Lookup Table,Salary components,No,0,No module ,0,Not complex
+HR,B,Module B - Payroll,Tax Rules,Reference Table	,Tax regulations,No,0,No module ,0,Not complex
+HR,B,Module B - Payroll,Salary Grades,Lookup Table,Pay scales,No,0,No module ,0,Not complex
+HR,B,Module B - Payroll,Bonuses,Fact Table,Bonus payments,Employees,1,Module A - Core HR,1,Normal complex
+HR,B,Module B - Payroll,Deductions,Fact Table,Deduction records,Employees,1,Module A - Core HR,1,Normal complex
+HR,B,Module B - Payroll,Payroll Status,Lookup Table,Payroll states (draft/approved),No,0,No module ,0,Not complex
+HR,B,Module B - Payroll,Payroll,Fact Table,Payroll run summary,Payroll Status,1,No module ,0,Normal complex
+HR,B,Module B - Payroll,Payslips,Fact Table,Individual pay statements,"Employees, Payroll, Bonuses, Deductions, Tax Rules, Earning Types",6,"Module A - Core HR, Module B - Payroll",2,Deep complex
+HR,C,Module C - Time & Attendance,Leave Policies,Reference Table,Leave rules,No,0,No module ,0,Not complex
+HR,C,Module C - Time & Attendance,Leave Balances,Fact Table,Accrued leave,No,0,No module ,0,Not complex
+HR,C,Module C - Time & Attendance,Shift Patterns,Reference Table	,Shift templates,No,0,No module ,0,Not complex
+HR,C,Module C - Time & Attendance,Time Logs,Fact Table,Clock-in/out records,"Shift Patterns, Employees",2,Module A - Core HR,1,Normal complex
+HR,C,Module C - Time & Attendance,Leave Requests,Fact Table,Leave applications,"Time Logs, Approval Workflows, Leave Balances",3,Module A - Core HR,1,Middle complex
+HR,D,Module D - Recruitment,Interviewers,Dimension Table,Employee subset,No,0,No module ,0,Not complex
+HR,D,Module D - Recruitment,Candidates,Master Data Table,Applicant records,No,0,No module ,0,Not complex
+HR,D,Module D - Recruitment,Evaluation Forms,Reference Table	,Interview scoring,No,0,No module ,0,Not complex
+HR,D,Module D - Recruitment,Job Postings,Fact Table,Open positions,Departments Types,1,Module A - Core HR,1,Normal complex
+HR,D,Module D - Recruitment,Applications,Fact Table,Job applications,"Job Postings, Candidates",3,No module ,0,Normal complex
+HR,D,Module D - Recruitment,Interviews,Fact Table,Interview events,"Applications, Interviewers, Evaluation Forms",4,No module ,0,Middle complex
+HR,E,Module E - Performance,Competencies,Lookup Table,Skills/behaviors,No,0,No module ,0,Not complex
+HR,E,Module E - Performance,Feedback Forms,Reference Table	,Appraisal templates,No,0,No module ,0,Not complex
+HR,E,Module E - Performance,Review Cycles,Reference Table	,Performance periods,No,0,No module ,0,Not complex
+HR,E,Module E - Performance,Goals,Fact Table,Employee objectives,No,0,No module ,0,Not complex
+HR,E,Module E - Performance,KPIs,Lookup Table,Performance metrics,No,0,No module ,0,Not complex
+HR,E,Module E - Performance,Appraisals,Fact Table,Appraisal records,"KPIs, Goals, Competencies, Feedback Forms, Review Cycles",5,No module ,0,Deep complex
+HR,F,Module F - Training,Courses,Master Data Table,Training programs,No,0,No module ,0,Not complex
+HR,F,Module F - Training,Enrollments,Fact Table,Course registrations,"Courses, Employees",2,Module A - Core HR,1,Normal complex
+HR,F,Module F - Training,Training History,Fact Table,Completed training,Enrollments,1,No module ,0,Normal complex
+HR,F,Module F - Training,Performance Indicators,Lookup Table,Training KPIs,No,0,No module ,0,Not complex
+HR,F,Module F - Training,Department Metrics,Fact Table,Aggregated training stats,Departments Types,1,No module ,0,Normal complex
+HR,H,Module H - Analytics,HR Reports,Fact Table,Aggregated analytics,"Employees, Department Metrics, Performance Indicators",3,No module ,0,Middle complex
+HR,H,Module H - Analytics,Predictive Models,Fact Table,Forecast data,HR Reports,1,No module ,0,Normal complex
+Purchasing,P1,Module P1 - Vendor Management,Vendors,Master Data Table,Supplier records,No,0,No module ,0,Not complex
+Purchasing,P1,Module P1 - Vendor Management,Vendor Contracts,Reference Table	,Contract terms,Vendors,1,No module ,0,Normal complex
+Purchasing,P1,Module P1 - Vendor Management,Vendor Ratings,Fact Table,Performance metrics,Vendors,1,No module ,0,Normal complex
+Purchasing,P2,Module P2 - Procurement,Purchase Requisitions,Fact Table,Request for goods/services,"Vendors, Departments Types",2,No module ,0,Normal complex
+Purchasing,P2,Module P2 - Procurement,Purchase Orders,Fact Table,Order records,"Purchase Requisitions, Vendors, Approval Workflows",3,Module A - Core HR,1,Middle complex
+Purchasing,P2,Module P2 - Procurement,Goods Receipts,Fact Table,Delivery verification,Purchase Orders,1,No module ,0,Normal complex
+Purchasing,P2,Module P2 - Procurement,Invoice Matching,Fact Table,PO/Receipt/Invoice reconciliation,"Purchase Orders, Goods Receipts",2,No module ,0,Normal complex
+Purchasing,P3,Module P3 - Inventory,Inventory Items,Master Data Table,Product catalog,No,0,No module ,0,Not complex
+Purchasing,P3,Module P3 - Inventory,Stock Levels,Fact Table,Current inventory,Inventory Items,1,No module ,0,Normal complex
+Purchasing,P3,Module P3 - Inventory,Inventory Transfers,Fact Table,Movement between locations,"Inventory Items, Stock Levels",2,No module ,0,Normal complex
+Purchasing,P4,Module P4 - Analytics,Procurement Reports,Fact Table,Spend analysis,"Purchase Orders, Vendors, Inventory Items",3,"Module P1 - Vendor Management, Module P3 - Inventory",2,Middle complex
+Sales,S1,Module S1 - Customer Management,Customers,Master Data Table,Customer records,No,0,No module ,0,Not complex
+Sales,S1,Module S1 - Customer Management,Customer Contracts,Reference Table	,Agreement terms,Customers,1,No module ,0,Normal complex
+Sales,S1,Module S1 - Customer Management,Credit Limits,Reference Table	,Credit policies,Customers,1,No module ,0,Normal complex
+Sales,S2,Module S2 - Order Processing,Sales Quotes,Fact Table,Preliminary offers,"Customers, Inventory Items",2,No module ,0,Normal complex
+Sales,S2,Module S2 - Order Processing,Sales Orders,Fact Table,Confirmed orders,"Sales Quotes, Customers, Approval Workflows",3,Module A - Core HR,1,Middle complex
+Sales,S2,Module S2 - Order Processing,Order Fulfillment,Fact Table,Shipping/delivery tracking,"Sales Orders, Inventory Items",2,No module ,0,Normal complex
+Sales,S2,Module S2 - Order Processing,Invoices,Fact Table,Billing records,"Sales Orders, Order Fulfillment",2,No module ,0,Normal complex
+Sales,S3,Module S3 - Pricing,Price Lists,Reference Table	,Product pricing,Inventory Items,1,No module ,0,Normal complex
+Sales,S3,Module S3 - Pricing,Discounts,Reference Table	,Promotion rules,"Price Lists, Customers",2,No module ,0,Normal complex
+Sales,S4,Module S4 - Analytics,Sales Reports,Fact Table,Revenue/customer analysis,"Sales Orders, Invoices, Customers",3,No module ,0,Middle complex
+Sales,S4,Module S4 - Analytics,Sales Forecasts,Fact Table,Demand projections,"Sales Reports, Inventory Items",2,Module P3 - Inventory,1,Normal complex
+Inventory,I1,Module I1 - Inventory Master,Item Categories,Lookup Table,Product classification,No,0,No module,0,Not complex
+Inventory,I1,Module I1 - Inventory Master,Units of Measure,Lookup Table,Measurement standards,No,0,No module,0,Not complex
+Inventory,I1,Module I1 - Inventory Master,Warehouses,Dimension Table,Storage locations,No,0,No module,0,Not complex
+Inventory,I1,Module I1 - Inventory Master,Bins_Locations,Dimension Table,Sub-location tracking,Warehouses,1,No module,0,Normal complex
+Inventory,I2,Module I2 - Inventory Control,Stock Movements,Fact Table,Item transfers,"Inventory Items, Warehouses, Bins_Locations",3,Module I1 - Inventory Master,1,Middle complex
+Inventory,I2,Module I2 - Inventory Control,Inventory Adjustments,Fact Table,Quantity corrections,"Inventory Items, Warehouses",2,Module I1 - Inventory Master,1,Normal complex
+Inventory,I2,Module I2 - Inventory Control,Cycle Counts,Fact Table,Physical inventory audits,"Inventory Items, Warehouses",2,Module I1 - Inventory Master,1,Normal complex
+Inventory,I2,Module I2 - Inventory Control,Reorder Points,Reference Table,Auto-replenishment rules,Inventory Items,1,Module I1 - Inventory Master,1,Normal complex
+Inventory,I3,Module I3 - Lot/Serial Tracking,Lot Numbers,Master Data Table,Batch tracking,Inventory Items,1,Module I1 - Inventory Master,1,Normal complex
+Inventory,I3,Module I3 - Lot/Serial Tracking,Serial Numbers,Master Data Table,Individual item tracking,Inventory Items,1,Module I1 - Inventory Master,1,Normal complex
+Inventory,I3,Module I3 - Lot/Serial Tracking,Expiration Dates,Reference Table	,Shelf-life management,Lot Numbers,1,Module I3 - Lot/Serial Tracking,1,Normal complex
+Inventory,I4,Module I4 - Inventory Valuation,Cost Methods,Reference Table	,FIFO/LIFO/Standard,No,0,No module,0,Not complex
+Inventory,I4,Module I4 - Inventory Valuation,Item Costs,Fact Table,Historical cost records,"Inventory Items, Cost Methods",2,Module I1 - Inventory Master,1,Normal complex
+Inventory,I4,Module I4 - Inventory Valuation,Inventory Valuation,Fact Table,Current stock value,"Item Costs, Stock Levels",2,Module I1 - Inventory Master,1,Normal complex
+Inventory,I5,Module I5 - Inventory Analytics,Inventory Turnover,Fact Table,Usage rate metrics,"Inventory Items, Stock Movements",2,Module I1 - Inventory Master,1,Normal complex
+Inventory,I5,Module I5 - Inventory Analytics,Stock Aging,Fact Table,Duration in warehouse,"Inventory Items, Stock Movements",2,Module I1 - Inventory Master,1,Normal complex
+Inventory,I5,Module I5 - Inventory Analytics,Inventory Forecasts,Fact Table,Demand projections,"Inventory Turnover, Purchase Orders",2,"Module I1 - Inventory Master, Module P2 - Procurement",2,Normal complex
+Assets,M1,Module M1 - Asset Master,Asset Categories,Lookup Table,Classification of assets (IT/Vehicles/etc.),No,0,No module,0,Not complex
+Assets,M1,Module M1 - Asset Master,Asset Types,Lookup Table,Detailed types (Laptop/Truck/etc.),Asset Categories,1,No module,0,Normal complex
+Assets,M1,Module M1 - Asset Master,Depreciation Methods,Lookup Table,Detailed types,No,0,No module,0,Not complex
+Assets,M1,Module M1 - Asset Master,Locations,Dimension Table,Physical asset locations,No,0,No module,0,Not complex
+Assets,M1,Module M1 - Asset Master,Assets,Master Data Table,Core asset records,"Asset Types, Locations, Departments Types",3,Module A - Core HR,1,Middle complex
+Assets,M2,Module M2 - Lifecycle,Acquisitions,Fact Table,Purchase/creation records,"Assets, Vendors",2,"Module M1 - Asset Master, Module P1 - Vendor Management",2,Normal complex
+Assets,M2,Module M2 - Lifecycle,Depreciation,Fact Table,Value calculations,"Assets, Depreciation Methods",2,Module M1 - Asset Master,1,Normal complex
+Assets,M2,Module M2 - Lifecycle,Disposals,Fact Table,Retirement/sale records,Assets,1,Module M1 - Asset Master,1,Normal complex
+Assets,M2,Module M2 - Lifecycle,Transfers,Fact Table,Location/department changes,"Assets, Locations, Departments Types",3,"Module M1 - Asset Master, Module A - Core HR",2,Middle complex
+Assets,M3,Module M3 - Maintenance,Maintenance Types,Lookup Table,Service categories,No,0,No module,0,Not complex
+Assets,M3,Module M3 - Maintenance,Maintenance Schedules,Reference Table	,Preventive maintenance plans,Assets,1,Module M1 - Asset Master,1,Normal complex
+Assets,M3,Module M3 - Maintenance,Work Orders,Fact Table,Maintenance tasks,"Assets, Maintenance Types",2,Module M1 - Asset Master,1,Normal complex
+Assets,M3,Module M3 - Maintenance,Service History,Fact Table,Completed maintenance,Work Orders,1,No module,0,Normal complex
+Assets,M4,Module M4 - Tracking,Assignments,Fact Table,Employee assignments,"Assets, Employees",2,"Module M1 - Asset Master, Module A - Core HR",2,Normal complex
+Assets,M4,Module M4 - Tracking,Checkouts,Fact Table,Temporary usage tracking,"Assets, Employees",2,"Module M1 - Asset Master, Module A - Core HR",2,Normal complex
+Assets,M4,Module M4 - Tracking,Audits,Fact Table,Physical verification,"Assets, Locations",2,Module M1 - Asset Master,1,Normal complex
+Assets,M5,Module M5 - Analytics,Asset Valuation,Fact Table,Current net worth,"Assets, Depreciation",2,"Module M1 - Asset Master, Module M2 - Lifecycle",2,Normal complex
+Assets,M5,Module M5 - Analytics,Utilization Reports,Fact Table,Usage efficiency metrics,"Assets, Assignments",2,"Module M1 - Asset Master, Module M4 - Tracking",2,Normal complex
+Assets,M5,Module M5 - Analytics,Replacement Forecasts,Fact Table,End-of-life predictions,"Assets, Depreciation, Maintenance History",3,"Module M1 - Asset Master, Module M2 - Lifecycle, Module M3 - Maintenance",3,Middle complex
+Finance,F1,Module F1 - General Ledger,Chart of Accounts,Master Data Table,Account hierarchy structure,No,0,No module,0,Not complex
+Finance,F1,Module F1 - General Ledger,Accounting Periods,Reference Table	,Fiscal calendar,No,0,No module,0,Not complex
+Finance,F1,Module F1 - General Ledger,Journal Entries,Fact Table,Accounting transactions,Chart of Accounts,1,No module,0,Normal complex
+Finance,F1,Module F1 - General Ledger,General Ledger,Fact Table,Aggregated balances,Journal Entries,1,No module,0,Normal complex
+Finance,F1,Module F1 - General Ledger,Trial Balance,Fact Table,Period-end snapshot,General Ledger,1,No module,0,Normal complex
+Finance,F2,Module F2 - Accounts Payable,Vendor Invoices,Fact Table,Bill records,"Vendors, Purchase Orders",2,"Module P1 - Vendor Management, Module P2 - Procurement",2,Normal complex
+Finance,F2,Module F2 - Accounts Payable,Payments,Fact Table,Disbursements,Vendor Invoices,1,No module,0,Normal complex
+Finance,F2,Module F2 - Accounts Payable,Aging Reports,Fact Table,Outstanding payables,Vendor Invoices,1,No module,0,Normal complex
+Finance,F3,Module F3 - Accounts Receivable,Customer Invoices,Fact Table,Billing records,"Sales Orders, Customers",2,"Module S1 - Customer Management, Module S2 - Order Processing",2,Normal complex
+Finance,F3,Module F3 - Accounts Receivable,Receipts,Fact Table,Payment collections,Customer Invoices,1,No module,0,Normal complex
+Finance,F3,Module F3 - Accounts Receivable,Aging Reports,Fact Table,Outstanding receivables,Customer Invoices,1,No module,0,Normal complex
+Finance,F4,Module F4 - Fixed Assets,Asset Register,Master Data Table,Capital asset records,Assets,1,Module M1 - Asset Master,1,Normal complex
+Finance,F4,Module F4 - Fixed Assets,Depreciation Schedules,Fact Table,Calculated depreciation,Asset Register,1,No module,0,Normal complex
+Finance,F4,Module F4 - Fixed Assets,Disposals,Fact Table,Asset retirement,Asset Register,1,No module,0,Normal complex
+Finance,F5,Module F5 - Financial Reporting,Balance Sheet,Fact Table,Financial position,"General Ledger, Trial Balance",2,Module F1 - General Ledger,1,Normal complex
+Finance,F5,Module F5 - Financial Reporting,Income Statement,Fact Table,Profit/loss,General Ledger,1,Module F1 - General Ledger,1,Normal complex
+Finance,F5,Module F5 - Financial Reporting,Cash Flow,Fact Table,Liquidity analysis,"General Ledger, Payments, Receipts",3,"Module F1 - General Ledger, Module F2 - Accounts Payable, Module F3 - Accounts Receivable",3,Middle complex
+Finance,F5,Module F5 - Financial Reporting,Budget vs Actual,Fact Table,Performance tracking,"General Ledger, Project Budgets",2,Module F1 - General Ledger,1,Normal complex
+Project Management,J1,Module J1 - Project Setup,Project Types,Lookup Table,Project classifications,No,0,No module,0,Not complex
+Project Management,J1,Module J1 - Project Setup,Project Templates,Reference Table	,Predefined project structures,No,0,No module,0,Not complex
+Project Management,J1,Module J1 - Project Setup,Work Breakdown,Master Data Table,Task hierarchy,No,0,No module,0,Not complex
+Project Management,J1,Module J1 - Project Setup,Projects,Master Data Table,Core project records,"Project Types, Departments Types",2,Module A - Core HR,1,Normal complex
+Project Management,J2,Module J2 - Planning,Phases,Dimension Table,Project stages,No,0,No module,0,Not complex
+Project Management,J2,Module J2 - Planning,Milestones,Reference Table	,Key deliverables,Projects,1,Module J1 - Project Setup,1,Normal complex
+Project Management,J2,Module J2 - Planning,Tasks,Fact Table,Work items,"Work Breakdown, Projects",2,Module J1 - Project Setup,1,Normal complex
+Project Management,J2,Module J2 - Planning,Resource Allocation,Fact Table,Team assignments,"Tasks, Employees",2,"Module J1 - Project Setup, Module A - Core HR",2,Normal complex
+Project Management,J2,Module J2 - Planning,Project Budgets,Fact Table,Cost estimates,"Projects, Tasks",2,Module J1 - Project Setup,1,Normal complex
+Project Management,J3,Module J3 - Execution,Time Tracking,Fact Table,Hours worked,"Tasks, Employees",2,"Module J1 - Project Setup, Module A - Core HR",2,Normal complex
+Project Management,J3,Module J3 - Execution,Expenses,Fact Table,Project costs,"Projects, Tasks, Vendors",3,"Module J1 - Project Setup, Module P1 - Vendor Management",2,Middle complex
+Project Management,J3,Module J3 - Execution,Deliverables,Fact Table,Completed outputs,Tasks,1,Module J1 - Project Setup,1,Normal complex
+Project Management,J3,Module J3 - Execution,Issues,Fact Table,Problems tracking,"Projects, Tasks",2,Module J1 - Project Setup,1,Normal complex
+Project Management,J3,Module J3 - Execution,Change Requests,Fact Table,Scope changes,"Projects, Tasks",2,Module J1 - Project Setup,1,Normal complex
+Project Management,J4,Module J4 - Monitoring,Progress Reports,Fact Table,Status updates,"Tasks, Time Tracking",2,"Module J1 - Project Setup, Module J3 - Execution",2,Normal complex
+Project Management,J4,Module J4 - Monitoring,Budget Variance,Fact Table,Cost performance,"Project Budgets, Expenses",2,"Module J2 - Planning, Module J3 - Execution",2,Normal complex
+Project Management,J4,Module J4 - Monitoring,Risk Register,Fact Table,Potential issues,Projects,1,Module J1 - Project Setup,1,Normal complex
+Project Management,J5,Module J5 - Analytics,Project KPIs,Fact Table,Performance metrics,"Progress Reports, Budget Variance",2,Module J4 - Monitoring,1,Normal complex
+Project Management,J5,Module J5 - Analytics,Portfolio Dashboard,Fact Table,Multi-project view,"Projects, Progress Reports",2,"Module J1 - Project Setup, Module J4 - Monitoring",2,Normal complex
+Project Management,J5,Module J5 - Analytics,Lessons Learned,Fact Table,Post-project review,"Projects, Deliverables",2,"Module J1 - Project Setup, Module J3 - Execution",2,Normal complex
+CRM,C1,Module C1 - Customer Data,Customer Profiles,Master Data Table,Core customer records,No,0,No module,0,Not complex
+CRM,C1,Module C1 - Customer Data,Contact Persons,Dimension Table,Individual contacts,Customer Profiles,1,No module,0,Normal complex
+CRM,C1,Module C1 - Customer Data,Customer Segments,Lookup Table,Market classifications,No,0,No module,0,Not complex
+CRM,C1,Module C1 - Customer Data,Communication Logs,Fact Table,Interaction history,Contact Persons,1,No module,0,Normal complex
+CRM,C2,Module C2 - Sales Pipeline,Leads,Master Data Table,Potential customers,No,0,No module,0,Not complex
+CRM,C2,Module C2 - Sales Pipeline,Opportunities,Fact Table,Sales prospects,"Leads, Customer Profiles",2,Module C1 - Customer Data,1,Normal complex
+CRM,C2,Module C2 - Sales Pipeline,Sales Activities,Fact Table,Customer engagements,"Opportunities, Employees",2,"Module C1 - Customer Data, Module A - Core HR",2,Normal complex
+CRM,C2,Module C2 - Sales Pipeline,Quotes,Fact Table,Price proposals,"Opportunities, Inventory Items",2,"Module C1 - Customer Data, Module I1 - Inventory Master",2,Normal complex
+CRM,C3,Module C3 - Customer Service,Service Tickets,Fact Table,Support cases,Customer Profiles,1,Module C1 - Customer Data,1,Normal complex
+CRM,C3,Module C3 - Customer Service,Knowledge Base,Reference Table	,Solution articles,No,0,No module,0,Not complex
+CRM,C3,Module C3 - Customer Service,SLAs,Reference Table	,Service agreements,Customer Contracts,1,Module S1 - Customer Management,1,Normal complex
+CRM,C3,Module C3 - Customer Service,Customer Feedback,Fact Table,Satisfaction surveys,Service Tickets,1,Module C3 - Customer Service,1,Normal complex
+CRM,C4,Module C4 - Marketing,Campaigns,Master Data Table,Marketing initiatives,No,0,No module,0,Not complex
+CRM,C4,Module C4 - Marketing,Email Templates,Reference Table	,Message formats,No,0,No module,0,Not complex
+CRM,C4,Module C4 - Marketing,Lead Sources,Lookup Table,Acquisition channels,No,0,No module,0,Not complex
+CRM,C4,Module C4 - Marketing,Marketing ROI,Fact Table,Campaign effectiveness,"Campaigns, Opportunities",2,"Module C4 - Marketing, Module C2 - Sales Pipeline",2,Normal complex
+CRM,C5,Module C5 - Analytics,Customer Lifetime Value,Fact Table,Revenue projections,"Customer Profiles, Invoices",2,"Module C1 - Customer Data, Module S4 - Analytics",2,Normal complex
+CRM,C5,Module C5 - Analytics,Churn Analysis,Fact Table,Retention metrics,"Customer Profiles, Service Tickets",2,"Module C1 - Customer Data, Module C3 - Customer Service",2,Normal complex
+CRM,C5,Module C5 - Analytics,Sales Performance,Fact Table,Team/individual metrics,"Sales Activities, Employees",2,"Module C2 - Sales Pipeline, Module A - Core HR",2,Normal complex
+Manufacturing,M1,Module M1 - Product Definition,Product Catalog,Master Data Table,Finished goods specs,No,0,No module,0,Not complex
+Manufacturing,M1,Module M1 - Product Definition,BOM,Reference Table	,Component lists  (Bill of Materials),"Product Catalog, Inventory Items",2,"Module M1 - Product Definition, Module I1 - Inventory Master",2,Normal complex
+Manufacturing,M1,Module M1 - Product Definition,Routing,Reference Table	,Production steps,Product Catalog,1,Module M1 - Product Definition,1,Normal complex
+Manufacturing,M1,Module M1 - Product Definition,Work Centers,Dimension Table,Production resources,Departments Types,1,Module A - Core HR,1,Normal complex
+Manufacturing,M2,Module M2 - Planning,Production Orders,Fact Table,Manufacturing requests,"Product Catalog, BOM",2,Module M1 - Product Definition,1,Normal complex
+Manufacturing,M2,Module M2 - Planning,Material Requirements,Fact Table,Component needs,"Production Orders, BOM",2,"Module M1 - Product Definition, Module M2 - Planning",2,Normal complex
+Manufacturing,M2,Module M2 - Planning,Capacity Plans,Fact Table,Resource allocation,"Production Orders, Work Centers",2,"Module M1 - Product Definition, Module M2 - Planning",2,Normal complex
+Manufacturing,M3,Module M3 - Execution,Work Orders,Fact Table,Shop floor tasks,"Production Orders, Routing",2,"Module M1 - Product Definition, Module M2 - Planning",2,Normal complex
+Manufacturing,M3,Module M3 - Execution,Material Issues,Fact Table,Component consumption,"Work Orders, Inventory Items",2,"Module M3 - Execution, Module I1 - Inventory Master",2,Normal complex
+Manufacturing,M3,Module M3 - Execution,Production Logs,Fact Table,Activity records,"Work Orders, Employees",2,"Module M3 - Execution, Module A - Core HR",2,Normal complex
+Manufacturing,M3,Module M3 - Execution,Quality Checks,Fact Table,Inspection results,Work Orders,1,Module M3 - Execution,1,Normal complex
+Manufacturing,M4,Module M4 - Costing,Standard Costs,Reference Table	,Expected expenses,"BOM, Routing",2,Module M1 - Product Definition,1,Normal complex
+Manufacturing,M4,Module M4 - Costing,Actual Costs,Fact Table,Production expenses,"Work Orders, Material Issues",2,"Module M3 - Execution, Module M4 - Costing",2,Normal complex
+Manufacturing,M4,Module M4 - Costing,Variance Analysis,Fact Table,Cost comparisons,"Standard Costs, Actual Costs",2,Module M4 - Costing,1,Normal complex
+Manufacturing,M5,Module M5 - Analytics,OEE (Overall Equipment Effectiveness),Fact Table,Equipment performance,"Production Logs, Work Centers",2,"Module M3 - Execution, Module M1 - Product Definition",2,Normal complex
+Manufacturing,M5,Module M5 - Analytics,Production Yield,Fact Table,Output efficiency,"Work Orders, Quality Checks",2,"Module M3 - Execution, Module M5 - Analytics",2,Normal complex
+Manufacturing,M5,Module M5 - Analytics,Maintenance History,Fact Table,Equipment servicing,"Work Centers, Work Orders",2,"Module M1 - Product Definition, Module M3 - Execution",2,Normal complex

@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1114",
+    "chunk_id": "DOC1114_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1114\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1050 \u2014 Random Trip\n**Equipment:** EQ-LF-01 \u2014 Ladle Furnace #1 (Rajendra Steel Plant, Mumbai Unit - Melt Shop)\n**Event timestamp:** 2026-01-03 02:25:53  |  **RCA:** RCA1050 (closed 2026-01-04)\n\n## 1. Incident Narrative\nAt 02:25:53 on 2026-01-03, the Ladle Furnace #1 raised a random trip alarm and was taken out of normal operation. Condition monitoring captured air temperature 303.4 K, process temperature 312.7 K, rotational speed 2421 rpm, torque 12.0 Nm and accumulated tool wear 52 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nRavi Singh (Shift C), Neha Menon (Shift C) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1050, performed by Shalini Naidu (equipment engineer, Shift B), concluded: No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "char_count": 1287,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1050",
+      "source_file_path": "data/unstructured/documents/DOC1114.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1114",
+    "chunk_id": "DOC1114_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-004 for this asset and recorded a compliance finding: Step 3 of PROC-004 (\"Photograph and log any zones below the minimum thickness threshold.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2026-01-04 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1050, RCA RCA1050, procedure PROC-004, equipment EQ-LF-01.",
+    "char_count": 1208,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1050",
+      "source_file_path": "data/unstructured/documents/DOC1114.md"
+    }
+  }
+]

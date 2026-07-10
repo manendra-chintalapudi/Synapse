@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1006",
+    "chunk_id": "DOC1006_chunk_0",
+    "chunk_index": 0,
+    "text": "# Inspection Report \u2014 DOC1006\n**Document type:** Inspection Report\n**Subject:** coil C10128 / EQ-HRM-03\n**Related deviation:** DEV1596  |  **Severity:** MEDIUM\n**Equipment:** EQ-HRM-03 \u2014 Hot Rolling Mill Line 3 (Hot Rolling Mill)\n\n## 1. Scope of Inspection\nThis report documents a targeted inspection of coil C10128 (grade IS2062-E350, 5.22 mm \u00d7 1249.5 mm, heat H2026-0070) and its production equipment EQ-HRM-03 (Hot Rolling Mill Line 3). The inspection was triggered by deviation DEV1596 and aimed to\nconfirm the reported condition, assess its extent, and recommend disposition. It was carried out at\nRaigarh Unit - Rolling Zone using visual examination and standard measurement practice.\n\n## 2. Method\nThe inspection combined visual surface examination, dimensional checks where applicable, and a review of the associated\nprocess and maintenance records for EQ-HRM-03. Findings were compared against the applicable acceptance\ncriteria for the product grade and the equipment's normal operating condition.\n\n## 3. Findings\nUnclassified surface defect flagged for further metallurgical review. The condition was verified to be consistent with the raised deviation. The affected region was\ncharacterised and photographed for the record. Surrounding material/equipment was checked for similar indications to\ndetermine whether the issue is isolated or systematic. No additional unrelated defects were noted beyond those\ndescribed here.",
+    "char_count": 1432,
+    "metadata": {
+      "doc_type": "inspection_report",
+      "related_entity_id": "DEV1596",
+      "source_file_path": "data/unstructured/documents/DOC1006.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1006",
+    "chunk_id": "DOC1006_chunk_1",
+    "chunk_index": 1,
+    "text": "## 4. Assessment\nBased on the findings, the condition is classified as **MEDIUM** severity, consistent with the\noriginating deviation. The likely origin is process variation on EQ-HRM-03\n(Hot Rolling Mill Line 3); this is referred for root cause analysis where severity or recurrence warrants.\n\n## 5. Recommended Actions\n- Apply the disposition defined in deviation DEV1596 (re-inspection, rework/re-grade or hold as appropriate).\n- Reinforce monitoring on EQ-HRM-03 and review the relevant operating procedure.\n- Verify effectiveness at the next production run and close the deviation once confirmed.\n\n## 6. Sign-off\nInspected by: Shalini Kulkarni (Quality Inspector, Shift C)\nCertification: IS/ISO 9001 Internal Auditor\nStatus: Findings issued \u2014 actions tracked against deviation DEV1596.",
+    "char_count": 790,
+    "metadata": {
+      "doc_type": "inspection_report",
+      "related_entity_id": "DEV1596",
+      "source_file_path": "data/unstructured/documents/DOC1006.md"
+    }
+  }
+]

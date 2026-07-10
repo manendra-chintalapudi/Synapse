@@ -1,0 +1,10894 @@
+[
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10001"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 228.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10001"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 282.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10002"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 462.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10002"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 235.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 256.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 295.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 96.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10004"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 258.39
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10005"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 316.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10005"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 397.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10006"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 51.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10007"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 155.18
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10008"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 49.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10008"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 405.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10009"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 348.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10009"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 25.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10010"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 491.19
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10010"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 482.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10010"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 328.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10011"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 309.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10011"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 82.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 12.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 266.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 34.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10013"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 99.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10013"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 124.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10014"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 19.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10014"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 234.65
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10015"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 223.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10016"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 422.0
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10016"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 261.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10017"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 321.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10017"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 252.39
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10018"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 332.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10019"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 231.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10019"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 142.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10020"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 498.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10020"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 497.87
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10020"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 420.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10021"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 355.37
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10021"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 161.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10022"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 118.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10023"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 148.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10024"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 39.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10025"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 384.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10025"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 203.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10026"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 424.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10027"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 196.32
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10027"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 479.23
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10028"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 424.42
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10028"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 5.27
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10028"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 108.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10029"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 455.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10029"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 237.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10029"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 490.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10030"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 201.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 41.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 316.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 390.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10032"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 138.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10032"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 48.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10032"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 169.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10033"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 482.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10033"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 380.23
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10034"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 63.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10034"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 126.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10034"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 55.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10035"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 34.65
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10036"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 399.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10037"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 92.95
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10037"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 281.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10037"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 226.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10038"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 99.39
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10038"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 367.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10038"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 69.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10039"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 323.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10039"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 62.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10039"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 213.27
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10040"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 110.37
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10041"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 138.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10042"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 485.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10042"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 402.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10042"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 155.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10043"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 443.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 109.3
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 200.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 427.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10045"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 322.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10046"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 54.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10047"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 494.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10047"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 110.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10047"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 132.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 387.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10049"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 167.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10050"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 151.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10050"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 41.33
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10050"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 49.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10051"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 293.45
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10051"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 125.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10052"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 302.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10052"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 188.99
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10053"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 229.34
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10054"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 479.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10054"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 244.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10054"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 289.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 433.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 95.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 81.3
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 454.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 409.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 128.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10057"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 98.95
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10058"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 371.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10058"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 470.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10059"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 102.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10059"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 475.32
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10060"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 441.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10060"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 303.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10060"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 213.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10061"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 56.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10061"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 24.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10061"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 481.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10062"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 123.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10062"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 353.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10063"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 132.21
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 412.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 300.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 150.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10065"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 91.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 361.57
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 39.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 118.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10067"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 281.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10068"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 426.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10069"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 309.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10070"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 143.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10070"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 459.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10070"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 105.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10071"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 13.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10072"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 138.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10072"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 225.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10072"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 34.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10073"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 92.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10073"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 187.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10074"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 288.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10075"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 70.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10075"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 184.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10076"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 446.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10076"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 490.34
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10076"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 330.18
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10077"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 347.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10078"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 294.3
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10078"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 74.47
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10078"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 22.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10079"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 13.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10079"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 455.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10079"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 351.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10080"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 481.57
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10081"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 15.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10081"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 319.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10082"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 243.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10082"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 366.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10083"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 162.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10084"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 499.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10085"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 42.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10085"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 275.32
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10085"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 369.82
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10086"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 450.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10086"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 369.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10087"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 353.33
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10087"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 397.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10088"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 457.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10089"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 179.16
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10090"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 344.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10090"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 450.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10090"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 436.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10091"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 211.49
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10091"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 396.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10092"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 432.42
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10092"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 288.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10093"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 314.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10094"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 194.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10094"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 293.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10095"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 306.39
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10096"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 44.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10096"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 321.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10097"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 496.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 440.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 365.46
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10099"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 197.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10099"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 368.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10099"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 292.57
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 223.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 419.99
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 46.47
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10101"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 376.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10101"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 19.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10102"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 302.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10102"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 243.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10103"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 118.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10104"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 350.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10104"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 251.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10104"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 309.18
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10105"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 460.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10105"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 131.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10106"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 10.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10107"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 154.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10108"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 340.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10109"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 105.27
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10110"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 88.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10110"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 453.33
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10110"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 331.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10111"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 223.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10111"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 446.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10112"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 166.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10112"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 334.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10113"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 103.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10113"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 218.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10114"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 403.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10114"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 457.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10114"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 440.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 195.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 293.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 161.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 72.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 250.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 419.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10117"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 425.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10118"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 357.05
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10118"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 475.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10118"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 142.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10119"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 88.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10120"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 228.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10121"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 141.21
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10122"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 110.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10122"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 209.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10122"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 314.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10123"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 249.47
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10124"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 161.11
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10124"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 420.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10125"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 491.11
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10126"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 228.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10126"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 41.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10127"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 20.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10128"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 437.05
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10128"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 25.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10128"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 355.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10129"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 287.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10129"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 157.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10129"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 396.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10130"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 14.46
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10130"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 72.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10130"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 230.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 17.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 415.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10132"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 122.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10132"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 74.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 28.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 316.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10134"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 226.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10134"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 316.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10135"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 329.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10135"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 404.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10135"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 479.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10136"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 343.82
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10136"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 103.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10137"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 240.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10137"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 93.45
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10138"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 10.33
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10139"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 238.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10140"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 358.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10141"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 93.65
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10142"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 139.82
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10142"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 176.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10143"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 350.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10144"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 262.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10144"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 309.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10145"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 379.32
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10145"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 199.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10145"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 397.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10146"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 453.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10147"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 48.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10147"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 466.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10148"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 362.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10149"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 69.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10149"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 229.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10150"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 314.65
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10151"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 455.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10151"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 191.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10152"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 286.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10153"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 440.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10154"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 399.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10154"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 472.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10155"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 234.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10156"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 327.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10156"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 106.42
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10157"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 362.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10157"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 410.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10157"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 322.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10158"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 360.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10158"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 110.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10158"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 450.49
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10159"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 490.34
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10159"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 488.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10159"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 270.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10160"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 396.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10160"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 163.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10161"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 455.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10161"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 428.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10162"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 177.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10163"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 45.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10163"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 223.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 277.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 385.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10165"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 246.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10165"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 19.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10165"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 405.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 36.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 400.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 90.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10167"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 170.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10167"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 395.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10168"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 74.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10168"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 78.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10169"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 260.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10169"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 363.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10169"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 420.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10170"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 346.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10170"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 473.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10171"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 248.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10171"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 474.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10171"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 47.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 114.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 265.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 148.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 365.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 321.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 263.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10174"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 422.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 282.19
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 159.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10176"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 193.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 423.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 450.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 108.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10178"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 426.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10179"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 484.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10179"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 264.49
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10179"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 288.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10180"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 104.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10180"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 270.27
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10180"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 254.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10181"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 304.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10181"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 18.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10181"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 484.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10182"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 260.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10182"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 203.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10183"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 401.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10183"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 283.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 248.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 347.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10185"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 37.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10185"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 271.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10185"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 209.82
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10186"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 478.65
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10186"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 462.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10187"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 138.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10187"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 239.21
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10188"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 67.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10188"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 219.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10189"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 408.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10190"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 450.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10191"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 240.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10191"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 162.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10191"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 99.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10192"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 310.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10192"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 463.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10193"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 69.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10193"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 390.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10193"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 16.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10194"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 101.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10195"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 117.49
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10195"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 345.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10196"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 164.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10196"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 180.9
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10197"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 311.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10198"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 56.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10198"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 366.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10199"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 65.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10199"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 257.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10200"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 129.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10201"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 102.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10201"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 267.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10202"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 221.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10202"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 190.99
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10202"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 209.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10203"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 267.03
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10204"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 84.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10205"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 106.11
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10205"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 317.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10206"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 321.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10206"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 267.16
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10206"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 426.37
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10207"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 307.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10207"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 429.1
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10207"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 120.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10208"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 371.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10208"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 406.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10209"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 451.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10210"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 161.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10211"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 160.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10212"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 461.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10212"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 112.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10213"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 499.19
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 444.33
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 71.3
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 123.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10215"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 364.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10215"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 133.45
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10215"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 53.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10216"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 416.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10216"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 213.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10217"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 396.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10217"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 67.37
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10217"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 204.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10218"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 344.18
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 13.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 104.46
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 342.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 456.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 484.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 62.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 255.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 380.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10222"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 253.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10223"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 344.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10223"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 98.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10223"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 39.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10224"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 57.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10224"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 23.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10225"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 278.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10226"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 259.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10227"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 286.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10227"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 77.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10228"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 96.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10228"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 105.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10229"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 420.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10230"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 495.2
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10231"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 463.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10232"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 52.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10233"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 35.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10234"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 475.99
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10234"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 233.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10235"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 383.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10236"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 166.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10236"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 236.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10236"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 260.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10237"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 217.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10237"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 302.46
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10238"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 11.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10238"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 352.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10238"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 422.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 94.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 229.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10240"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 370.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10241"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 205.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10241"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 101.59
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10242"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 86.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10243"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 258.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10243"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 12.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10244"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 447.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10245"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 401.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10245"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 353.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10246"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 431.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10247"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 316.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10247"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 205.23
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10248"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 301.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10248"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 254.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10248"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 491.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10249"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 403.39
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10249"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 132.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10250"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 456.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10251"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 373.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10251"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 390.1
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10252"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 408.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10252"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 205.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10253"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 448.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10253"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 440.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10254"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 348.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10254"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 384.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10255"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 383.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10256"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 205.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10257"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 362.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10258"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 39.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10258"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 174.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10258"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 237.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10259"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 10.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10259"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 181.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10260"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 321.16
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10260"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 313.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10260"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 119.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10261"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 472.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10261"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 334.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10262"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 172.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10262"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 331.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10263"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 286.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10263"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 268.87
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10263"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 197.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10264"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 499.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10264"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 322.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10265"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 352.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10266"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 382.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10266"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 490.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10267"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 16.3
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10267"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 309.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10267"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 370.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10268"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 132.03
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10268"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 203.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10268"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 29.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10269"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 101.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10269"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 190.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10269"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 53.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 129.19
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 453.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 277.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10271"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 256.37
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10271"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 483.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 286.15
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 497.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 320.82
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10274"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 405.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10275"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 42.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10275"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 300.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10275"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 380.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10276"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 27.33
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10276"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 465.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10277"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 84.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10277"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 238.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10277"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 88.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10278"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 250.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10278"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 307.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10279"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 33.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10279"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 472.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10279"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 213.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10280"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 265.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10280"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 300.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10280"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 185.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 146.45
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10282"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 329.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10283"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 282.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10283"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 145.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10283"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 359.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10284"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 151.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10284"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 11.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10284"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 126.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 26.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 82.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 378.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10286"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 198.03
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10287"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 449.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10287"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 375.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10287"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 29.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10288"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 494.44
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10289"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 472.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10289"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 41.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10289"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 453.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10290"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 217.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 241.42
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 486.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10292"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 125.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10292"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 264.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10292"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 468.95
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10293"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 362.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10293"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 236.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10294"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 489.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10294"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 409.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10295"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 303.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10295"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 61.97
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10296"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 314.0
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10296"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 230.57
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10297"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 105.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10298"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 30.77
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10299"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 266.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10299"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 66.54
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10299"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 224.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10300"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 335.61
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10300"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 230.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10301"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 134.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10302"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 293.21
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10302"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 212.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10302"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 390.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10303"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 267.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10304"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 498.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10305"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 476.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10305"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 368.47
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10305"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 123.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10306"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 61.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10306"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 446.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10307"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 393.23
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10308"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 314.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10308"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 182.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10309"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 139.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10309"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 344.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10309"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 284.62
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10310"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 297.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10310"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 318.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10311"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 377.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10312"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 98.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10312"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 128.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10312"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 489.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10313"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 458.28
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10313"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 439.99
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10313"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 24.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10314"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 35.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10315"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 139.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10315"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 215.47
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10315"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 313.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10316"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 55.72
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10316"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 273.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10317"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 40.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10318"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 47.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10319"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 339.76
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10319"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 277.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10320"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 317.4
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10321"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 189.73
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10321"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 241.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10322"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 109.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10323"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 175.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10323"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 373.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10324"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 420.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10324"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 41.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10325"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 64.3
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10325"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 405.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10326"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 313.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 385.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 110.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 215.06
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10328"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 132.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10328"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 405.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10329"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 187.63
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10330"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 328.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10330"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 494.64
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10331"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 166.07
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 276.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 374.32
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 460.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10333"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 216.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10333"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 187.78
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10333"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 53.02
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10334"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 438.21
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10334"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1001"
+    },
+    "properties": {
+      "quantity_used": 43.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10335"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 46.1
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10336"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 284.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10336"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 245.0
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10337"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 344.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10338"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 152.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10338"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 388.87
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10339"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 42.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 110.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 332.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 45.45
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10341"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 155.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10341"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 363.87
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10341"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1040"
+    },
+    "properties": {
+      "quantity_used": 348.52
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10342"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 145.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10342"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 75.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10343"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 182.11
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10343"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1025"
+    },
+    "properties": {
+      "quantity_used": 364.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10344"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 186.37
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10344"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1036"
+    },
+    "properties": {
+      "quantity_used": 63.1
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10344"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 356.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10345"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 286.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10346"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 459.69
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 470.27
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10348"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 457.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10349"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 221.81
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10349"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1033"
+    },
+    "properties": {
+      "quantity_used": 402.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10349"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 155.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10350"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 162.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10350"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 202.8
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10350"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 467.66
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10351"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 447.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10351"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 127.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10351"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 184.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10352"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1011"
+    },
+    "properties": {
+      "quantity_used": 185.95
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10352"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 184.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10353"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 200.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10353"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 196.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10353"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 101.51
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10354"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 284.08
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10354"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1027"
+    },
+    "properties": {
+      "quantity_used": 399.56
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10354"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 272.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10355"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 419.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10355"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 283.58
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10355"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 92.41
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10356"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1017"
+    },
+    "properties": {
+      "quantity_used": 380.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10356"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 441.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10356"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 144.32
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10357"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 16.0
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10358"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 260.24
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10359"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 274.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10359"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 285.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10360"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 483.38
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10361"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 327.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 403.14
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 36.71
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 275.67
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10363"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 395.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10363"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 46.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10364"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1038"
+    },
+    "properties": {
+      "quantity_used": 45.43
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10365"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 369.84
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10365"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 450.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10366"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 46.93
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10366"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1020"
+    },
+    "properties": {
+      "quantity_used": 318.89
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10367"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 76.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10367"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1014"
+    },
+    "properties": {
+      "quantity_used": 374.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10368"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 326.26
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10368"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 126.5
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10368"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 114.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10369"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 383.85
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10369"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 263.17
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10370"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 383.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10370"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 200.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10371"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 172.22
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10371"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 484.29
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10372"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 337.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10372"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 249.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10373"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1034"
+    },
+    "properties": {
+      "quantity_used": 270.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 361.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 355.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1015"
+    },
+    "properties": {
+      "quantity_used": 457.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10375"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 208.25
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10376"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1024"
+    },
+    "properties": {
+      "quantity_used": 413.98
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10376"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 335.03
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10376"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1030"
+    },
+    "properties": {
+      "quantity_used": 427.48
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10377"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 403.92
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10377"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 417.74
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10377"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1005"
+    },
+    "properties": {
+      "quantity_used": 444.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10378"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 479.1
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10378"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1021"
+    },
+    "properties": {
+      "quantity_used": 321.94
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10378"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 264.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10379"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 356.49
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10380"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 402.12
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10381"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 213.7
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10382"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1026"
+    },
+    "properties": {
+      "quantity_used": 213.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10382"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 77.36
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10382"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 371.91
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10383"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 495.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10384"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 190.88
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10384"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 87.99
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10384"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1002"
+    },
+    "properties": {
+      "quantity_used": 106.16
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10385"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 215.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10385"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 149.55
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10386"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1018"
+    },
+    "properties": {
+      "quantity_used": 485.03
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 34.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1004"
+    },
+    "properties": {
+      "quantity_used": 157.68
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10388"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1013"
+    },
+    "properties": {
+      "quantity_used": 61.83
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1039"
+    },
+    "properties": {
+      "quantity_used": 325.75
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 389.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1023"
+    },
+    "properties": {
+      "quantity_used": 93.82
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1019"
+    },
+    "properties": {
+      "quantity_used": 35.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10391"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 232.09
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10391"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1031"
+    },
+    "properties": {
+      "quantity_used": 294.11
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10391"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1012"
+    },
+    "properties": {
+      "quantity_used": 455.1
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10392"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1037"
+    },
+    "properties": {
+      "quantity_used": 23.01
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10393"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1016"
+    },
+    "properties": {
+      "quantity_used": 58.79
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10393"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1029"
+    },
+    "properties": {
+      "quantity_used": 96.35
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10394"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1010"
+    },
+    "properties": {
+      "quantity_used": 112.6
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10394"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 121.53
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1022"
+    },
+    "properties": {
+      "quantity_used": 360.04
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1006"
+    },
+    "properties": {
+      "quantity_used": 299.42
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1032"
+    },
+    "properties": {
+      "quantity_used": 115.86
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10396"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1035"
+    },
+    "properties": {
+      "quantity_used": 96.57
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10397"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1028"
+    },
+    "properties": {
+      "quantity_used": 144.13
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10398"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1009"
+    },
+    "properties": {
+      "quantity_used": 90.39
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10398"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1008"
+    },
+    "properties": {
+      "quantity_used": 379.96
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10399"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1007"
+    },
+    "properties": {
+      "quantity_used": 159.31
+    }
+  },
+  {
+    "type": "MADE_FROM",
+    "from": {
+      "label": "Coil",
+      "key": "C10400"
+    },
+    "to": {
+      "label": "RawMaterial",
+      "key": "RM1003"
+    },
+    "properties": {
+      "quantity_used": 276.38
+    }
+  }
+]

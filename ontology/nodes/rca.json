@@ -1,0 +1,2092 @@
+[
+  {
+    "rca_id": "RCA1001",
+    "failure_id": "F1001",
+    "rca_date": "2026-06-25",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 4 of PROC-003 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1015"
+  },
+  {
+    "rca_id": "RCA1002",
+    "failure_id": "F1002",
+    "rca_date": "2026-01-28",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 3 of PROC-031 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1010"
+  },
+  {
+    "rca_id": "RCA1003",
+    "failure_id": "F1003",
+    "rca_date": "2026-07-03",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1004",
+    "failure_id": "F1004",
+    "rca_date": "2025-12-29",
+    "root_cause_text": "Ladle Furnace #2 experienced a power failure when the transformer/electrode drive saw overcurrent: swinging arc load and a marginal supply drove delivered power outside the acceptable band. Contributing factors were an unstable supply and drive fault, not refractory or cooling.",
+    "corrective_action": "Inspected and repaired the drive, confirmed transformer cooling and supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "industry_reference": {
+      "source_name": "Precision Electric \u2014 VFD Overcurrent Fault & Motor Overload: Causes & Fixes",
+      "source_url": "https://www.precision-elec.com/vfd-overcurrent-fault-motor-overload-causes-fixes/",
+      "summary_text": "General electrical-engineering knowledge: drive/motor power failures commonly stem from overcurrent conditions \u2014 ground faults, winding-to-winding or phase-to-ground shorts from insulation breakdown, or mechanical overload reflected back into the motor. Voltage spikes and PWM harmonics from variable-frequency drives accelerate insulation and bearing wear, and an unstable supply or too-short acceleration ramp can trip or damage the drive."
+    },
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1005",
+    "failure_id": "F1005",
+    "rca_date": "2025-12-31",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1006",
+    "failure_id": "F1006",
+    "rca_date": "2025-09-02",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 3 of PROC-020 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1007",
+    "failure_id": "F1007",
+    "rca_date": "2025-12-18",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-022",
+    "violated_step": "Step 4 of PROC-022 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1008",
+    "failure_id": "F1008",
+    "rca_date": "2025-11-15",
+    "root_cause_text": "Overhead Crane (Rolling Mill Bay) #1 flagged an overstrain on the main hoist: a lift near rated capacity combined with a shock (snatch) load drove hoist-gearbox and rope-drum stresses above their fatigue-safe range. An off-vertical pick and slow brake response contributed.",
+    "corrective_action": "Inspected and load-tested the hoist, replaced worn brake components, and reinforced rigging practice (no snatch or side pulls) with an overload-cutout verification added to the monthly check.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "industry_reference": {
+      "source_name": "American Roller Bearing \u2014 Common Causes of Bearing Failure",
+      "source_url": "https://www.amroll.com/bearing-failure-modes.html",
+      "summary_text": "General mechanical-engineering knowledge: overload / overstrain failures occur when loads exceed design limits, over-stressing rolling elements, raceways and structural members. Excess contact pressure and uneven stress distribution deform surfaces, initiate micro-cracks and drive subsurface fatigue that shows up as flaking/spalling, shortening life. Stalls, jams, misalignment and inadequate lubrication are common overload triggers."
+    },
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1009",
+    "failure_id": "F1009",
+    "rca_date": "2026-04-12",
+    "root_cause_text": "Roughing Mill Stand R2's work rolls lost profile through the campaign: abrasive contact with hot, scaled stock caused roll-surface wear and localized spalling, degrading the bar and its surface before the scheduled change. Extended run time between grinds was the main driver.",
+    "corrective_action": "Replaced/reground the affected rolls and moved to wear- and tonnage-based roll-change scheduling with in-mill profile checks, rather than purely time-based changes.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 2 of PROC-024 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "industry_reference": {
+      "source_name": "ScienceDirect Topics \u2014 Wear of Materials",
+      "source_url": "https://www.sciencedirect.com/topics/materials-science/wear-of-materials",
+      "summary_text": "General tribology knowledge: working surfaces lose material progressively through abrasive wear (hard particles ploughing/grooving the surface), adhesive wear (asperities bonding then shearing as surfaces slide) and surface fatigue. Wear rate rises with contact load, sliding speed, temperature and abrasive contamination and falls with surface hardness \u2014 so rolls, mandrels, tools and belts in contact with hard or abrasive stock wear predictably and must be reground/replaced on condition."
+    },
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1010",
+    "failure_id": "F1010",
+    "rca_date": "2026-04-14",
+    "root_cause_text": "On the Runout Table Cooling System, strip coiling temperature crept above target because a bank of laminar headers delivered reduced flow \u2014 nozzle scaling and a sticking flow-control valve cut water to the top headers, so the strip was under-cooled across part of the table.",
+    "corrective_action": "Cleared the scaled header nozzles, overhauled the flow-control valve, and added header-bank flow monitoring tied to the coiling-temperature model so an under-delivering bank is detected immediately.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 1 of PROC-002 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "industry_reference": {
+      "source_name": "Dacpol \u2014 Industrial Equipment Overheating: Common Causes and Solutions",
+      "source_url": "https://www.dacpol.eu/en/knowledge-base/post/industrial-equipment-overheating-the-most-common-causes-and-effective-solutions.html",
+      "summary_text": "General engineering knowledge: heat-dissipation / overheating failures arise when a cooling system can no longer remove heat as fast as the process generates it \u2014 commonly from fouled or scaled heat-exchange surfaces, restricted airflow, clogged or leaking coolant passages, degraded coolant, or worn pumps reducing circulation. As heat extraction falls below the generated load, component temperatures climb past their rated band and thermal damage follows."
+    },
+    "analyst": "T1003"
+  },
+  {
+    "rca_id": "RCA1011",
+    "failure_id": "F1011",
+    "rca_date": "2025-07-29",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1024"
+  },
+  {
+    "rca_id": "RCA1012",
+    "failure_id": "F1012",
+    "rca_date": "2026-03-05",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1013",
+    "failure_id": "F1013",
+    "rca_date": "2025-10-16",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 1 of PROC-002 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1014",
+    "failure_id": "F1014",
+    "rca_date": "2026-02-19",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1015",
+    "failure_id": "F1015",
+    "rca_date": "2026-05-18",
+    "root_cause_text": "Ladle Furnace #1's water-cooled roof panel ran above its rated temperature during an extended hold: coolant flow drifted low relative to arc load while scale in the roof cooling passages cut heat extraction. Degraded coolant compounded the loss, so the panel could not shed the arc's radiant heat.",
+    "corrective_action": "Descaled and recharged the roof-panel cooling circuit, replaced the coolant, and interlocked extended holds against measured cooling-water flow so a hold cannot outrun available cooling.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "industry_reference": {
+      "source_name": "Dacpol \u2014 Industrial Equipment Overheating: Common Causes and Solutions",
+      "source_url": "https://www.dacpol.eu/en/knowledge-base/post/industrial-equipment-overheating-the-most-common-causes-and-effective-solutions.html",
+      "summary_text": "General engineering knowledge: heat-dissipation / overheating failures arise when a cooling system can no longer remove heat as fast as the process generates it \u2014 commonly from fouled or scaled heat-exchange surfaces, restricted airflow, clogged or leaking coolant passages, degraded coolant, or worn pumps reducing circulation. As heat extraction falls below the generated load, component temperatures climb past their rated band and thermal damage follows."
+    },
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1016",
+    "failure_id": "F1016",
+    "rca_date": "2025-09-11",
+    "root_cause_text": "Overhead Crane (Rolling Mill Bay) #1 tripped its travel/hoist drive on overcurrent: a stalled motion under load drew fault current, indicating an electrical/drive fault rather than structural overload. A worn contactor and marginal motor insulation contributed.",
+    "corrective_action": "Replaced the affected drive components and contactor, megger-tested the motor windings, and added overcurrent-trend logging to the monthly electrical check.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "industry_reference": {
+      "source_name": "Precision Electric \u2014 VFD Overcurrent Fault & Motor Overload: Causes & Fixes",
+      "source_url": "https://www.precision-elec.com/vfd-overcurrent-fault-motor-overload-causes-fixes/",
+      "summary_text": "General electrical-engineering knowledge: drive/motor power failures commonly stem from overcurrent conditions \u2014 ground faults, winding-to-winding or phase-to-ground shorts from insulation breakdown, or mechanical overload reflected back into the motor. Voltage spikes and PWM harmonics from variable-frequency drives accelerate insulation and bearing wear, and an unstable supply or too-short acceleration ramp can trip or damage the drive."
+    },
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1017",
+    "failure_id": "F1017",
+    "rca_date": "2026-01-16",
+    "root_cause_text": "Electric Arc Furnace #1 developed a refractory hot spot on the slag line: with an arc/O2 profile that ran hard, localized lining thinning let the shell temperature at that panel climb toward its limit. Slag chemistry drifting off-target accelerated chemical attack of the lining at the hot face.",
+    "corrective_action": "Gunned and repaired the slag-line hot spot, corrected the slag-basicity practice, and added slag-line thermography to the shift checks so thinning is caught before any burn-through risk.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "industry_reference": {
+      "source_name": "IspatGuru \u2014 Refractory Lining of the Electric Arc Furnace",
+      "source_url": "https://www.ispatguru.com/refractory-lining-of-the-electric-arc-furnace/",
+      "summary_text": "General metallurgical-engineering knowledge: furnace refractory linings degrade by thermal spalling from rapid temperature cycling, chemical dissolution/penetration by slag when slag and refractory chemistries mismatch, and mechanical erosion by molten metal, slag and dust-laden gases. These mechanisms compound \u2014 thermal shock cracks the hot face, chemical attack penetrates the cracks, erosion strips the weakened material \u2014 progressively thinning the lining and reducing its ability to contain and manage furnace heat."
+    },
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1018",
+    "failure_id": "F1018",
+    "rca_date": "2026-03-01",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 3 of PROC-027 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1012"
+  },
+  {
+    "rca_id": "RCA1019",
+    "failure_id": "F1019",
+    "rca_date": "2026-03-04",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1020",
+    "failure_id": "F1020",
+    "rca_date": "2025-12-12",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 3 of PROC-020 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1021",
+    "failure_id": "F1021",
+    "rca_date": "2025-08-26",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 4 of PROC-009 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1022",
+    "failure_id": "F1022",
+    "rca_date": "2026-04-17",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 4 of PROC-009 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1023",
+    "failure_id": "F1023",
+    "rca_date": "2025-11-05",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1024",
+    "failure_id": "F1024",
+    "rca_date": "2025-10-08",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1025",
+    "failure_id": "F1025",
+    "rca_date": "2026-02-11",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1026",
+    "failure_id": "F1026",
+    "rca_date": "2025-08-05",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-013",
+    "violated_step": "Step 2 of PROC-013 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1010"
+  },
+  {
+    "rca_id": "RCA1027",
+    "failure_id": "F1027",
+    "rca_date": "2025-12-02",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 2 of PROC-004 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1028",
+    "failure_id": "F1028",
+    "rca_date": "2026-01-20",
+    "root_cause_text": "The Sinter Plant Weigh-Belt Feeder degraded as abrasive ore fines and coke breeze wore the belt surface and idlers, so feed accuracy and belt tracking drifted. Continuous contact with hard, abrasive stock thinned the belt and grooved the idler faces \u2014 a wear-driven loss of feed control.",
+    "corrective_action": "Replaced the worn belt and idlers, added skirt/scraper maintenance to cut carryback abrasion, and moved to condition-based belt replacement from wear measurement rather than time alone.",
+    "procedure_ref": "PROC-025",
+    "violated_step": "Step 2 of PROC-025 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "industry_reference": {
+      "source_name": "ScienceDirect Topics \u2014 Wear of Materials",
+      "source_url": "https://www.sciencedirect.com/topics/materials-science/wear-of-materials",
+      "summary_text": "General tribology knowledge: working surfaces lose material progressively through abrasive wear (hard particles ploughing/grooving the surface), adhesive wear (asperities bonding then shearing as surfaces slide) and surface fatigue. Wear rate rises with contact load, sliding speed, temperature and abrasive contamination and falls with surface hardness \u2014 so rolls, mandrels, tools and belts in contact with hard or abrasive stock wear predictably and must be reground/replaced on condition."
+    },
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1029",
+    "failure_id": "F1029",
+    "rca_date": "2026-04-19",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 4 of PROC-009 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1030",
+    "failure_id": "F1030",
+    "rca_date": "2026-05-30",
+    "root_cause_text": "Reheating Furnace #1 could not hold soak-zone temperature within band without over-firing, and roof/skid thermocouples showed rising heat loss \u2014 consistent with refractory wear opening the lining and skid-button wear letting billets contact the water-cooled skids. Degraded lining and worn buttons together raised parasitic heat loss and produced uneven billet heating.",
+    "corrective_action": "Patched the worn soak-zone refractory, replaced the skid buttons and re-tuned the zone firing curve; added a soak-zone heat-loss check to the quarterly refractory survey.",
+    "procedure_ref": "PROC-022",
+    "violated_step": "Step 4 of PROC-022 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "industry_reference": {
+      "source_name": "IspatGuru \u2014 Refractory Lining of the Electric Arc Furnace",
+      "source_url": "https://www.ispatguru.com/refractory-lining-of-the-electric-arc-furnace/",
+      "summary_text": "General metallurgical-engineering knowledge: furnace refractory linings degrade by thermal spalling from rapid temperature cycling, chemical dissolution/penetration by slag when slag and refractory chemistries mismatch, and mechanical erosion by molten metal, slag and dust-laden gases. These mechanisms compound \u2014 thermal shock cracks the hot face, chemical attack penetrates the cracks, erosion strips the weakened material \u2014 progressively thinning the lining and reducing its ability to contain and manage furnace heat."
+    },
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1031",
+    "failure_id": "F1031",
+    "rca_date": "2026-04-09",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1032",
+    "failure_id": "F1032",
+    "rca_date": "2026-02-22",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 3 of PROC-031 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1006"
+  },
+  {
+    "rca_id": "RCA1033",
+    "failure_id": "F1033",
+    "rca_date": "2026-04-21",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 4 of PROC-029 (\"Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1034",
+    "failure_id": "F1034",
+    "rca_date": "2026-01-29",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1035",
+    "failure_id": "F1035",
+    "rca_date": "2025-10-05",
+    "root_cause_text": "Finishing Mill Stand F1's work rolls developed thermal-fatigue crazing and surface wear from repeated hot contact and descaling cycles, marking the strip and pushing gauge/finish out of band. Accumulated rolling time beyond the qualified roll life was the primary cause.",
+    "corrective_action": "Replaced the crazed rolls, improved work-roll cooling uniformity, and implemented condition-based roll changes keyed to surface inspection and rolled tonnage.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "industry_reference": {
+      "source_name": "ScienceDirect Topics \u2014 Wear of Materials",
+      "source_url": "https://www.sciencedirect.com/topics/materials-science/wear-of-materials",
+      "summary_text": "General tribology knowledge: working surfaces lose material progressively through abrasive wear (hard particles ploughing/grooving the surface), adhesive wear (asperities bonding then shearing as surfaces slide) and surface fatigue. Wear rate rises with contact load, sliding speed, temperature and abrasive contamination and falls with surface hardness \u2014 so rolls, mandrels, tools and belts in contact with hard or abrasive stock wear predictably and must be reground/replaced on condition."
+    },
+    "analyst": "T1012"
+  },
+  {
+    "rca_id": "RCA1036",
+    "failure_id": "F1036",
+    "rca_date": "2025-10-18",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1037",
+    "failure_id": "F1037",
+    "rca_date": "2026-03-17",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-030",
+    "violated_step": "Step 3 of PROC-030 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1018"
+  },
+  {
+    "rca_id": "RCA1038",
+    "failure_id": "F1038",
+    "rca_date": "2026-01-31",
+    "root_cause_text": "Roughing Mill Stand R2's main drive tripped on overcurrent during a heavy reversing pass: the product of speed and torque pushed drive power outside its window, consistent with a supply/drive anomaly aggravated by an aggressive draft. No mechanical binding was found.",
+    "corrective_action": "Inspected and repaired the main drive, verified supply stability, and capped the draft schedule with a power-envelope trip so a single pass cannot overrun the drive.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "industry_reference": {
+      "source_name": "Precision Electric \u2014 VFD Overcurrent Fault & Motor Overload: Causes & Fixes",
+      "source_url": "https://www.precision-elec.com/vfd-overcurrent-fault-motor-overload-causes-fixes/",
+      "summary_text": "General electrical-engineering knowledge: drive/motor power failures commonly stem from overcurrent conditions \u2014 ground faults, winding-to-winding or phase-to-ground shorts from insulation breakdown, or mechanical overload reflected back into the motor. Voltage spikes and PWM harmonics from variable-frequency drives accelerate insulation and bearing wear, and an unstable supply or too-short acceleration ramp can trip or damage the drive."
+    },
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1039",
+    "failure_id": "F1039",
+    "rca_date": "2025-10-14",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 3 of PROC-028 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1040",
+    "failure_id": "F1040",
+    "rca_date": "2025-08-25",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1041",
+    "failure_id": "F1041",
+    "rca_date": "2026-01-07",
+    "root_cause_text": "Downcoiler #2 lost coil-tension control when the mandrel/pinch drive faulted: the drive tripped on overcurrent and tension collapsed, letting wraps loosen. The cause was a drive/tension-control fault \u2014 an unstable current loop, not a mechanical seizure.",
+    "corrective_action": "Repaired the coiler drive, retuned the tension-control loop, and added tension-deviation alarming so a failing loop is caught before the coil telescopes or cobbles.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 3 of PROC-028 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "industry_reference": {
+      "source_name": "Precision Electric \u2014 VFD Overcurrent Fault & Motor Overload: Causes & Fixes",
+      "source_url": "https://www.precision-elec.com/vfd-overcurrent-fault-motor-overload-causes-fixes/",
+      "summary_text": "General electrical-engineering knowledge: drive/motor power failures commonly stem from overcurrent conditions \u2014 ground faults, winding-to-winding or phase-to-ground shorts from insulation breakdown, or mechanical overload reflected back into the motor. Voltage spikes and PWM harmonics from variable-frequency drives accelerate insulation and bearing wear, and an unstable supply or too-short acceleration ramp can trip or damage the drive."
+    },
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1042",
+    "failure_id": "F1042",
+    "rca_date": "2025-07-15",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 4 of PROC-014 (\"Raise a maintenance work order if wear exceeds the acceptance limit.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1043",
+    "failure_id": "F1043",
+    "rca_date": "2026-01-15",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1044",
+    "failure_id": "F1044",
+    "rca_date": "2025-10-02",
+    "root_cause_text": "On Blast Furnace #1 the hearth-wall thermocouples trended upward through the cast while cooling-stave water flow sat below its campaign setpoint, signalling that heat was not being pulled from the refractory hot face fast enough. The excursion traced to partially fouled stave passages and a spell of degraded circulating-water quality, which thinned the protective accretion layer and let the lining run hot.",
+    "corrective_action": "Back-flushed and chemically cleaned the affected stave circuits, restored cooling-water treatment to specification, and added per-stave delta-T trending with an early alarm so falling heat extraction is flagged before the hearth lining is at risk.",
+    "procedure_ref": "PROC-016",
+    "violated_step": "Step 2 of PROC-016 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "industry_reference": {
+      "source_name": "IspatGuru \u2014 Refractory Lining of the Electric Arc Furnace",
+      "source_url": "https://www.ispatguru.com/refractory-lining-of-the-electric-arc-furnace/",
+      "summary_text": "General metallurgical-engineering knowledge: furnace refractory linings degrade by thermal spalling from rapid temperature cycling, chemical dissolution/penetration by slag when slag and refractory chemistries mismatch, and mechanical erosion by molten metal, slag and dust-laden gases. These mechanisms compound \u2014 thermal shock cracks the hot face, chemical attack penetrates the cracks, erosion strips the weakened material \u2014 progressively thinning the lining and reducing its ability to contain and manage furnace heat."
+    },
+    "analyst": "T1015"
+  },
+  {
+    "rca_id": "RCA1045",
+    "failure_id": "F1045",
+    "rca_date": "2026-01-10",
+    "root_cause_text": "Finishing Mill Stand F1 saw a mechanical overstrain event when separating force spiked beyond the stand's limit \u2014 consistent with a hard/thick transfer bar and a screwdown position error that closed the gap too far. The back-up-roll bearings and mill housing saw contact stress above design, risking spalling.",
+    "corrective_action": "Reset the screwdown calibration, added a force-limit trip referenced to the pass schedule, and inspected and added trending on the back-up-roll bearings.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "industry_reference": {
+      "source_name": "American Roller Bearing \u2014 Common Causes of Bearing Failure",
+      "source_url": "https://www.amroll.com/bearing-failure-modes.html",
+      "summary_text": "General mechanical-engineering knowledge: overload / overstrain failures occur when loads exceed design limits, over-stressing rolling elements, raceways and structural members. Excess contact pressure and uneven stress distribution deform surfaces, initiate micro-cracks and drive subsurface fatigue that shows up as flaking/spalling, shortening life. Stalls, jams, misalignment and inadequate lubrication are common overload triggers."
+    },
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1046",
+    "failure_id": "F1046",
+    "rca_date": "2026-01-09",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1047",
+    "failure_id": "F1047",
+    "rca_date": "2026-03-12",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 2 of PROC-004 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1048",
+    "failure_id": "F1048",
+    "rca_date": "2026-01-25",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1049",
+    "failure_id": "F1049",
+    "rca_date": "2025-08-01",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1050",
+    "failure_id": "F1050",
+    "rca_date": "2026-01-04",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 3 of PROC-004 (\"Photograph and log any zones below the minimum thickness threshold.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1051",
+    "failure_id": "F1051",
+    "rca_date": "2026-04-22",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1017"
+  },
+  {
+    "rca_id": "RCA1052",
+    "failure_id": "F1052",
+    "rca_date": "2025-09-07",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 3 of PROC-027 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1053",
+    "failure_id": "F1053",
+    "rca_date": "2026-04-01",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 2 of PROC-004 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1017"
+  },
+  {
+    "rca_id": "RCA1054",
+    "failure_id": "F1054",
+    "rca_date": "2026-03-26",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-030",
+    "violated_step": "Step 3 of PROC-030 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1055",
+    "failure_id": "F1055",
+    "rca_date": "2025-10-17",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1056",
+    "failure_id": "F1056",
+    "rca_date": "2026-03-01",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1057",
+    "failure_id": "F1057",
+    "rca_date": "2026-06-12",
+    "root_cause_text": "Raw Material Conveyor #2 wore out ahead of schedule: abrasive ore/coke/flux plus persistent material carryback ground the belt cover and seized idlers, causing mistracking and cover tears. Wear from hard-stock contact was the dominant mechanism.",
+    "corrective_action": "Replaced the worn belt section and seized idlers, improved chute/skirt sealing and belt-cleaner performance to reduce carryback, and added belt-thickness monitoring for condition-based replacement.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 2 of PROC-031 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "industry_reference": {
+      "source_name": "ScienceDirect Topics \u2014 Wear of Materials",
+      "source_url": "https://www.sciencedirect.com/topics/materials-science/wear-of-materials",
+      "summary_text": "General tribology knowledge: working surfaces lose material progressively through abrasive wear (hard particles ploughing/grooving the surface), adhesive wear (asperities bonding then shearing as surfaces slide) and surface fatigue. Wear rate rises with contact load, sliding speed, temperature and abrasive contamination and falls with surface hardness \u2014 so rolls, mandrels, tools and belts in contact with hard or abrasive stock wear predictably and must be reground/replaced on condition."
+    },
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1058",
+    "failure_id": "F1058",
+    "rca_date": "2026-03-03",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 1 of PROC-002 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1059",
+    "failure_id": "F1059",
+    "rca_date": "2025-11-27",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1060",
+    "failure_id": "F1060",
+    "rca_date": "2025-09-18",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1061",
+    "failure_id": "F1061",
+    "rca_date": "2025-10-01",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1062",
+    "failure_id": "F1062",
+    "rca_date": "2025-09-30",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1006"
+  },
+  {
+    "rca_id": "RCA1063",
+    "failure_id": "F1063",
+    "rca_date": "2026-03-30",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-016",
+    "violated_step": "Step 2 of PROC-016 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1064",
+    "failure_id": "F1064",
+    "rca_date": "2025-10-24",
+    "root_cause_text": "Electric Arc Furnace #1 tripped on a power-delivery fault: the electrode-regulation drive drew overcurrent as arc impedance swung, pointing to an unstable supply interacting with the regulation loop rather than a mechanical cause. A marginal electrode contact and supply dips triggered the trip.",
+    "corrective_action": "Inspected and repaired the electrode-regulation drive, verified supply stability, and added a power-envelope monitor with an automatic trip so out-of-window excursions cut power cleanly.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 3 of PROC-005 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "industry_reference": {
+      "source_name": "Precision Electric \u2014 VFD Overcurrent Fault & Motor Overload: Causes & Fixes",
+      "source_url": "https://www.precision-elec.com/vfd-overcurrent-fault-motor-overload-causes-fixes/",
+      "summary_text": "General electrical-engineering knowledge: drive/motor power failures commonly stem from overcurrent conditions \u2014 ground faults, winding-to-winding or phase-to-ground shorts from insulation breakdown, or mechanical overload reflected back into the motor. Voltage spikes and PWM harmonics from variable-frequency drives accelerate insulation and bearing wear, and an unstable supply or too-short acceleration ramp can trip or damage the drive."
+    },
+    "analyst": "T1008"
+  },
+  {
+    "rca_id": "RCA1065",
+    "failure_id": "F1065",
+    "rca_date": "2025-12-13",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 3 of PROC-028 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1066",
+    "failure_id": "F1066",
+    "rca_date": "2026-03-01",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1067",
+    "failure_id": "F1067",
+    "rca_date": "2026-05-17",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 1 of PROC-002 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1068",
+    "failure_id": "F1068",
+    "rca_date": "2026-03-11",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 3 of PROC-020 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1069",
+    "failure_id": "F1069",
+    "rca_date": "2026-04-28",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-030",
+    "violated_step": "Step 3 of PROC-030 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1070",
+    "failure_id": "F1070",
+    "rca_date": "2026-04-11",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 2 of PROC-021 (\"Notify the control room and shift supervisor immediately.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1071",
+    "failure_id": "F1071",
+    "rca_date": "2025-11-04",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1072",
+    "failure_id": "F1072",
+    "rca_date": "2026-04-02",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1073",
+    "failure_id": "F1073",
+    "rca_date": "2026-02-10",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-030",
+    "violated_step": "Step 4 of PROC-030 (\"Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1006"
+  },
+  {
+    "rca_id": "RCA1074",
+    "failure_id": "F1074",
+    "rca_date": "2025-12-25",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-016",
+    "violated_step": "Step 2 of PROC-016 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1075",
+    "failure_id": "F1075",
+    "rca_date": "2026-03-21",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-016",
+    "violated_step": "Step 2 of PROC-016 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1076",
+    "failure_id": "F1076",
+    "rca_date": "2026-03-17",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1077",
+    "failure_id": "F1077",
+    "rca_date": "2025-10-23",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1078",
+    "failure_id": "F1078",
+    "rca_date": "2026-02-19",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 2 of PROC-014 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1010"
+  },
+  {
+    "rca_id": "RCA1079",
+    "failure_id": "F1079",
+    "rca_date": "2025-10-15",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1019"
+  },
+  {
+    "rca_id": "RCA1080",
+    "failure_id": "F1080",
+    "rca_date": "2025-09-19",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 3 of PROC-028 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1081",
+    "failure_id": "F1081",
+    "rca_date": "2025-11-14",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 2 of PROC-004 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1082",
+    "failure_id": "F1082",
+    "rca_date": "2025-09-16",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1083",
+    "failure_id": "F1083",
+    "rca_date": "2026-03-18",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1084",
+    "failure_id": "F1084",
+    "rca_date": "2026-05-29",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-030",
+    "violated_step": "Step 3 of PROC-030 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1085",
+    "failure_id": "F1085",
+    "rca_date": "2026-01-05",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 3 of PROC-028 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1010"
+  },
+  {
+    "rca_id": "RCA1086",
+    "failure_id": "F1086",
+    "rca_date": "2026-06-05",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1087",
+    "failure_id": "F1087",
+    "rca_date": "2025-08-02",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1088",
+    "failure_id": "F1088",
+    "rca_date": "2026-04-27",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 3 of PROC-017 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1089",
+    "failure_id": "F1089",
+    "rca_date": "2025-08-31",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 3 of PROC-005 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1090",
+    "failure_id": "F1090",
+    "rca_date": "2026-03-31",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1091",
+    "failure_id": "F1091",
+    "rca_date": "2026-06-03",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 2 of PROC-002 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1092",
+    "failure_id": "F1092",
+    "rca_date": "2026-05-09",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 3 of PROC-027 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1093",
+    "failure_id": "F1093",
+    "rca_date": "2026-01-17",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1094",
+    "failure_id": "F1094",
+    "rca_date": "2026-02-21",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 3 of PROC-002 (\"Photograph and log any zones below the minimum thickness threshold.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1095",
+    "failure_id": "F1095",
+    "rca_date": "2026-04-20",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 2 of PROC-031 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1096",
+    "failure_id": "F1096",
+    "rca_date": "2026-06-06",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 2 of PROC-021 (\"Notify the control room and shift supervisor immediately.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1097",
+    "failure_id": "F1097",
+    "rca_date": "2025-10-03",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1098",
+    "failure_id": "F1098",
+    "rca_date": "2026-02-04",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1011"
+  },
+  {
+    "rca_id": "RCA1099",
+    "failure_id": "F1099",
+    "rca_date": "2026-06-13",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-007",
+    "violated_step": "Step 1 of PROC-007 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1100",
+    "failure_id": "F1100",
+    "rca_date": "2025-12-14",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1101",
+    "failure_id": "F1101",
+    "rca_date": "2026-03-25",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 3 of PROC-031 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1102",
+    "failure_id": "F1102",
+    "rca_date": "2025-10-05",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 2 of PROC-014 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1009"
+  },
+  {
+    "rca_id": "RCA1103",
+    "failure_id": "F1103",
+    "rca_date": "2026-06-30",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-010",
+    "violated_step": "Step 1 of PROC-010 (\"Confirm all interlocks and emergency stops on the electric arc furnace are healthy before energising.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1104",
+    "failure_id": "F1104",
+    "rca_date": "2025-10-03",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-010",
+    "violated_step": "Step 1 of PROC-010 (\"Confirm all interlocks and emergency stops on the electric arc furnace are healthy before energising.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1105",
+    "failure_id": "F1105",
+    "rca_date": "2026-01-18",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1003"
+  },
+  {
+    "rca_id": "RCA1106",
+    "failure_id": "F1106",
+    "rca_date": "2025-10-28",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-016",
+    "violated_step": "Step 2 of PROC-016 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1107",
+    "failure_id": "F1107",
+    "rca_date": "2026-03-07",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1108",
+    "failure_id": "F1108",
+    "rca_date": "2025-11-06",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 2 of PROC-026 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1025"
+  },
+  {
+    "rca_id": "RCA1109",
+    "failure_id": "F1109",
+    "rca_date": "2026-06-07",
+    "root_cause_text": "Continuous Casting Machine #1 tripped on segment overload: a withdrawal/strand-guide roll bound under load, driving segment forces above their limit during casting. Bearing wear and a misaligned roll concentrated stress on the segment, and the drive saw the reflected overload.",
+    "corrective_action": "Replaced the seized roll and its bearings, re-aligned the affected segment, and added segment load-cell trending to catch a binding roll before it overloads the strand.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 3 of PROC-009 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "industry_reference": {
+      "source_name": "American Roller Bearing \u2014 Common Causes of Bearing Failure",
+      "source_url": "https://www.amroll.com/bearing-failure-modes.html",
+      "summary_text": "General mechanical-engineering knowledge: overload / overstrain failures occur when loads exceed design limits, over-stressing rolling elements, raceways and structural members. Excess contact pressure and uneven stress distribution deform surfaces, initiate micro-cracks and drive subsurface fatigue that shows up as flaking/spalling, shortening life. Stalls, jams, misalignment and inadequate lubrication are common overload triggers."
+    },
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1110",
+    "failure_id": "F1110",
+    "rca_date": "2026-07-01",
+    "root_cause_text": "Hot Blast Stove B tripped in a way that did not resolve to a single deterministic cause: sensor traces were within normal bands before the event and no refractory, valve or burner defect was found. It is classified as a random failure, most consistent with a transient external disturbance during otherwise-normal useful-life operation.",
+    "corrective_action": "Reset and returned the stove to service under enhanced monitoring and scheduled a confirmatory inspection; no design change is indicated for a one-off random event.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "industry_reference": {
+      "source_name": "Wikipedia \u2014 Bathtub curve (reliability engineering)",
+      "source_url": "https://en.wikipedia.org/wiki/Bathtub_curve",
+      "summary_text": "General reliability-engineering knowledge: during the 'useful life' (flat) region of the bathtub curve, equipment shows a low, roughly constant failure rate driven by random external stressors \u2014 power surges, physical impacts, environmental fluctuations, operator error or occasional undetected defects \u2014 rather than by age or wear-out. Such failures are stochastic and not attributable to a single deterministic root cause."
+    },
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1111",
+    "failure_id": "F1111",
+    "rca_date": "2025-08-08",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 3 of PROC-028 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1112",
+    "failure_id": "F1112",
+    "rca_date": "2026-03-29",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1113",
+    "failure_id": "F1113",
+    "rca_date": "2025-12-25",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 3 of PROC-031 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1114",
+    "failure_id": "F1114",
+    "rca_date": "2026-05-14",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1115",
+    "failure_id": "F1115",
+    "rca_date": "2026-04-20",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 2 of PROC-024 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1116",
+    "failure_id": "F1116",
+    "rca_date": "2026-03-15",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1117",
+    "failure_id": "F1117",
+    "rca_date": "2026-03-24",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 2 of PROC-027 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1118",
+    "failure_id": "F1118",
+    "rca_date": "2026-01-02",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 2 of PROC-014 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1119",
+    "failure_id": "F1119",
+    "rca_date": "2025-08-12",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1120",
+    "failure_id": "F1120",
+    "rca_date": "2025-08-10",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1121",
+    "failure_id": "F1121",
+    "rca_date": "2025-10-29",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1122",
+    "failure_id": "F1122",
+    "rca_date": "2025-10-30",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1123",
+    "failure_id": "F1123",
+    "rca_date": "2025-10-31",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-013",
+    "violated_step": "Step 2 of PROC-013 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1124",
+    "failure_id": "F1124",
+    "rca_date": "2025-09-29",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 3 of PROC-027 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1125",
+    "failure_id": "F1125",
+    "rca_date": "2026-06-24",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-025",
+    "violated_step": "Step 3 of PROC-025 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1126",
+    "failure_id": "F1126",
+    "rca_date": "2025-09-21",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-025",
+    "violated_step": "Step 2 of PROC-025 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1127",
+    "failure_id": "F1127",
+    "rca_date": "2026-01-15",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1128",
+    "failure_id": "F1128",
+    "rca_date": "2026-06-11",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 2 of PROC-024 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1129",
+    "failure_id": "F1129",
+    "rca_date": "2026-06-09",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 3 of PROC-017 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1130",
+    "failure_id": "F1130",
+    "rca_date": "2025-07-25",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-022",
+    "violated_step": "Step 4 of PROC-022 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1131",
+    "failure_id": "F1131",
+    "rca_date": "2025-09-03",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 2 of PROC-027 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1132",
+    "failure_id": "F1132",
+    "rca_date": "2025-08-17",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-007",
+    "violated_step": "Step 1 of PROC-007 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1133",
+    "failure_id": "F1133",
+    "rca_date": "2026-03-21",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 3 of PROC-031 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1010"
+  },
+  {
+    "rca_id": "RCA1134",
+    "failure_id": "F1134",
+    "rca_date": "2025-10-25",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 3 of PROC-009 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1018"
+  },
+  {
+    "rca_id": "RCA1135",
+    "failure_id": "F1135",
+    "rca_date": "2026-01-06",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-013",
+    "violated_step": "Step 2 of PROC-013 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1017"
+  },
+  {
+    "rca_id": "RCA1136",
+    "failure_id": "F1136",
+    "rca_date": "2025-08-14",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1137",
+    "failure_id": "F1137",
+    "rca_date": "2025-11-11",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 2 of PROC-003 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1138",
+    "failure_id": "F1138",
+    "rca_date": "2026-02-05",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1006"
+  },
+  {
+    "rca_id": "RCA1139",
+    "failure_id": "F1139",
+    "rca_date": "2025-12-22",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 4 of PROC-009 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1140",
+    "failure_id": "F1140",
+    "rca_date": "2025-07-11",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1024"
+  },
+  {
+    "rca_id": "RCA1141",
+    "failure_id": "F1141",
+    "rca_date": "2026-05-28",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 2 of PROC-014 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1142",
+    "failure_id": "F1142",
+    "rca_date": "2026-03-27",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 2 of PROC-014 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1143",
+    "failure_id": "F1143",
+    "rca_date": "2026-05-31",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1144",
+    "failure_id": "F1144",
+    "rca_date": "2025-08-22",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 3 of PROC-031 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1145",
+    "failure_id": "F1145",
+    "rca_date": "2026-05-19",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1146",
+    "failure_id": "F1146",
+    "rca_date": "2025-12-29",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1147",
+    "failure_id": "F1147",
+    "rca_date": "2026-04-03",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1148",
+    "failure_id": "F1148",
+    "rca_date": "2026-04-12",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 3 of PROC-005 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1149",
+    "failure_id": "F1149",
+    "rca_date": "2026-05-31",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-007",
+    "violated_step": "Step 1 of PROC-007 (\"Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1150",
+    "failure_id": "F1150",
+    "rca_date": "2025-10-29",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1151",
+    "failure_id": "F1151",
+    "rca_date": "2026-04-27",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 2 of PROC-021 (\"Notify the control room and shift supervisor immediately.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1152",
+    "failure_id": "F1152",
+    "rca_date": "2026-02-21",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-010",
+    "violated_step": "Step 2 of PROC-010 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1017"
+  },
+  {
+    "rca_id": "RCA1153",
+    "failure_id": "F1153",
+    "rca_date": "2025-09-30",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-027",
+    "violated_step": "Step 3 of PROC-027 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1154",
+    "failure_id": "F1154",
+    "rca_date": "2026-03-28",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1012"
+  },
+  {
+    "rca_id": "RCA1155",
+    "failure_id": "F1155",
+    "rca_date": "2025-10-12",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-010",
+    "violated_step": "Step 1 of PROC-010 (\"Confirm all interlocks and emergency stops on the electric arc furnace are healthy before energising.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1156",
+    "failure_id": "F1156",
+    "rca_date": "2025-08-05",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 3 of PROC-009 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1157",
+    "failure_id": "F1157",
+    "rca_date": "2025-12-20",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1158",
+    "failure_id": "F1158",
+    "rca_date": "2025-11-20",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1159",
+    "failure_id": "F1159",
+    "rca_date": "2025-07-10",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-030",
+    "violated_step": "Step 3 of PROC-030 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1160",
+    "failure_id": "F1160",
+    "rca_date": "2025-12-13",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1161",
+    "failure_id": "F1161",
+    "rca_date": "2025-07-13",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1162",
+    "failure_id": "F1162",
+    "rca_date": "2026-05-12",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1163",
+    "failure_id": "F1163",
+    "rca_date": "2025-08-26",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1164",
+    "failure_id": "F1164",
+    "rca_date": "2025-12-16",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 3 of PROC-020 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1165",
+    "failure_id": "F1165",
+    "rca_date": "2025-09-17",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 2 of PROC-026 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1010"
+  },
+  {
+    "rca_id": "RCA1166",
+    "failure_id": "F1166",
+    "rca_date": "2026-02-05",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1167",
+    "failure_id": "F1167",
+    "rca_date": "2025-07-09",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1168",
+    "failure_id": "F1168",
+    "rca_date": "2026-05-02",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-017",
+    "violated_step": "Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1169",
+    "failure_id": "F1169",
+    "rca_date": "2025-12-19",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-013",
+    "violated_step": "Step 2 of PROC-013 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1170",
+    "failure_id": "F1170",
+    "rca_date": "2026-03-13",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1171",
+    "failure_id": "F1171",
+    "rca_date": "2026-07-07",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1172",
+    "failure_id": "F1172",
+    "rca_date": "2026-02-28",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 2 of PROC-003 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1173",
+    "failure_id": "F1173",
+    "rca_date": "2025-11-15",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1174",
+    "failure_id": "F1174",
+    "rca_date": "2025-09-27",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-026",
+    "violated_step": "Step 3 of PROC-026 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1175",
+    "failure_id": "F1175",
+    "rca_date": "2026-04-03",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-004",
+    "violated_step": "Step 1 of PROC-004 (\"Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1176",
+    "failure_id": "F1176",
+    "rca_date": "2026-03-05",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-014",
+    "violated_step": "Step 2 of PROC-014 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1177",
+    "failure_id": "F1177",
+    "rca_date": "2026-03-29",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1178",
+    "failure_id": "F1178",
+    "rca_date": "2026-03-31",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 3 of PROC-009 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1179",
+    "failure_id": "F1179",
+    "rca_date": "2025-11-03",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1180",
+    "failure_id": "F1180",
+    "rca_date": "2025-10-23",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1181",
+    "failure_id": "F1181",
+    "rca_date": "2026-03-23",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 3 of PROC-005 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1182",
+    "failure_id": "F1182",
+    "rca_date": "2026-06-28",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 2 of PROC-028 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1183",
+    "failure_id": "F1183",
+    "rca_date": "2025-08-24",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-020",
+    "violated_step": "Step 2 of PROC-020 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1184",
+    "failure_id": "F1184",
+    "rca_date": "2026-02-20",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-028",
+    "violated_step": "Step 2 of PROC-028 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1005"
+  },
+  {
+    "rca_id": "RCA1185",
+    "failure_id": "F1185",
+    "rca_date": "2025-11-09",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1186",
+    "failure_id": "F1186",
+    "rca_date": "2025-11-13",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-022",
+    "violated_step": "Step 4 of PROC-022 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1187",
+    "failure_id": "F1187",
+    "rca_date": "2026-02-23",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 3 of PROC-009 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1188",
+    "failure_id": "F1188",
+    "rca_date": "2026-05-09",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-021",
+    "violated_step": "Step 3 of PROC-021 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1189",
+    "failure_id": "F1189",
+    "rca_date": "2025-09-16",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1020"
+  },
+  {
+    "rca_id": "RCA1190",
+    "failure_id": "F1190",
+    "rca_date": "2026-01-05",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-005",
+    "violated_step": "Step 2 of PROC-005 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1191",
+    "failure_id": "F1191",
+    "rca_date": "2026-03-30",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-008",
+    "violated_step": "Step 4 of PROC-008 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1002"
+  },
+  {
+    "rca_id": "RCA1192",
+    "failure_id": "F1192",
+    "rca_date": "2026-02-15",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-013",
+    "violated_step": "Step 2 of PROC-013 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1001"
+  },
+  {
+    "rca_id": "RCA1193",
+    "failure_id": "F1193",
+    "rca_date": "2026-06-12",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-031",
+    "violated_step": "Step 2 of PROC-031 (\"Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1194",
+    "failure_id": "F1194",
+    "rca_date": "2025-11-07",
+    "root_cause_text": "No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "corrective_action": "Reset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault.",
+    "procedure_ref": "PROC-010",
+    "violated_step": "Step 2 of PROC-010 (\"Verify lubrication, coolant and hydraulic pressures are within the specified operating band.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event.",
+    "analyst": "T1004"
+  },
+  {
+    "rca_id": "RCA1195",
+    "failure_id": "F1195",
+    "rca_date": "2025-12-22",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-003",
+    "violated_step": "Step 2 of PROC-003 (\"Allow residual stock to clear before de-energising the main drive.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1196",
+    "failure_id": "F1196",
+    "rca_date": "2026-04-26",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-024",
+    "violated_step": "Step 3 of PROC-024 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1007"
+  },
+  {
+    "rca_id": "RCA1197",
+    "failure_id": "F1197",
+    "rca_date": "2025-08-10",
+    "root_cause_text": "Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "corrective_action": "Inspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.",
+    "procedure_ref": "PROC-029",
+    "violated_step": "Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1198",
+    "failure_id": "F1198",
+    "rca_date": "2025-08-12",
+    "root_cause_text": "Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+    "corrective_action": "Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.",
+    "procedure_ref": "PROC-002",
+    "violated_step": "Step 2 of PROC-002 (\"Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points.\") \u2014 the wear-inspection interval was exceeded before the event.",
+    "analyst": "T1016"
+  },
+  {
+    "rca_id": "RCA1199",
+    "failure_id": "F1199",
+    "rca_date": "2026-05-07",
+    "root_cause_text": "Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant.",
+    "corrective_action": "Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 4 of PROC-009 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.",
+    "analyst": "T1013"
+  },
+  {
+    "rca_id": "RCA1200",
+    "failure_id": "F1200",
+    "rca_date": "2026-03-31",
+    "root_cause_text": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "corrective_action": "Replaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval.",
+    "procedure_ref": "PROC-009",
+    "violated_step": "Step 3 of PROC-009 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 operating-limit verification was not performed prior to the event.",
+    "analyst": "T1013"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1049",
+    "chunk_id": "DOC1049_chunk_0",
+    "chunk_index": 0,
+    "text": "# Standard Operating Procedure \u2014 DOC1049\n**Title:** EOT Crane Emergency Response Procedure\n**Procedure ID:** PROC-019  |  **Applies to:** EQ-CR-03 \u2014 EOT Crane Line 3 (EOT Crane)\n**Location:** Pune Unit - Bay 2\n\n## 1. Purpose\nThis procedure defines the standard method for the task titled \"EOT Crane Emergency Response Procedure\" on the eot crane. It exists\nto ensure the activity is carried out safely, consistently and in a way that protects personnel, equipment and product\nquality, and to provide a training and audit reference for operators and maintenance staff.\n\n## 2. Scope\nThis SOP applies to all operators, maintenance technicians and supervisors who operate or work on EQ-CR-03\n(EOT Crane Line 3) at Pune Unit - Bay 2. It covers the normal execution of the task and the\nassociated safety controls. It does not replace equipment-specific manufacturer instructions or statutory requirements.\n\n## 3. Responsibilities\nThe shift supervisor authorises the activity and confirms isolation where required. The assigned technician executes the\nsteps and records completion. The equipment engineer maintains this procedure and reviews it after any related incident.\n\n## 4. Prerequisites & PPE\nConfirm the correct permit-to-work is in place, required isolations are applied, and standard PPE plus any\ntask-specific protection (as noted below) is worn. Ensure tools, spares and measuring equipment are available and\ncalibrated before starting.",
+    "char_count": 1441,
+    "metadata": {
+      "doc_type": "sop",
+      "related_entity_id": "PROC-019",
+      "source_file_path": "data/unstructured/documents/DOC1049.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1049",
+    "chunk_id": "DOC1049_chunk_1",
+    "chunk_index": 1,
+    "text": "## 5. Procedure Steps\n1. On detection of an abnormal condition on the eot crane, actuate the nearest emergency stop and evacuate personnel from the hazard zone.\n2. Notify the control room and shift supervisor immediately.\n3. Isolate energy sources and, if safe, contain any spill or leak.\n4. Do not restart until a root-cause check and safety clearance are complete.\n\n## 6. Safety Notes\n- Suspended loads - never travel a load over personnel; observe SWL strictly.\n- Overhead work at height - fall-arrest required on the crane gantry.\n- Pinch/crush points at wheels and drums - lockout before maintenance.\n- Stop work and escalate to the shift supervisor if any parameter falls outside the normal operating band\n  (reference: Safe Working Load (SWL): per rated capacity plate, Span: as installed for the bay).\n\n## 7. References\n- Related equipment manual for EQ-CR-03.\n- Applicable BIS / ASTM quality standards and The Factories Act, 1948 safety provisions.\n- Plant CMMS maintenance schedule for the eot crane.\n\n## 8. Approval\nAuthor: Shalini Naidu (Equipment Engineer)\nApproved by: Rajesh Naidu (Shift Supervisor, Shift B)\nRevision: 1.0 \u2014 controlled document, review annually or after any related incident.",
+    "char_count": 1207,
+    "metadata": {
+      "doc_type": "sop",
+      "related_entity_id": "PROC-019",
+      "source_file_path": "data/unstructured/documents/DOC1049.md"
+    }
+  }
+]

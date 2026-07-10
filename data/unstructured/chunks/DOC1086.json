@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1086",
+    "chunk_id": "DOC1086_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1086\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1019 \u2014 Random Trip\n**Equipment:** EQ-RMS-01 \u2014 Roughing Mill Stand R1 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill)\n**Event timestamp:** 2026-03-03 00:09:44  |  **RCA:** RCA1019 (closed 2026-03-04)\n\n## 1. Incident Narrative\nAt 00:09:44 on 2026-03-03, the Roughing Mill Stand R1 raised a random trip alarm and was taken out of normal operation. Condition monitoring captured air temperature 300.0 K, process temperature 310.5 K, rotational speed 2139 rpm, torque 31.1 Nm and accumulated tool wear 106 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nDivya Banerjee (Shift B) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1019, performed by Shalini Naidu (equipment engineer, Shift B), concluded: No single dominant cause was isolated; the event is classified as a random failure with low recurrence probability. Sensor traces were within normal bands prior to the trip, suggesting a transient or latent component issue.",
+    "char_count": 1286,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1019",
+      "source_file_path": "data/unstructured/documents/DOC1086.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1086",
+    "chunk_id": "DOC1086_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-017 for this asset and recorded a compliance finding: Step 2 of PROC-017 (\"Notify the control room and shift supervisor immediately.\") \u2014 the routine monitoring entry was missing from the shift log prior to the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReset and returned equipment to service under enhanced monitoring; scheduled a follow-up inspection to confirm no developing fault. Post-repair verification confirmed return to the qualified operating envelope before release to production. Quality review linked 24 failed quality test(s) across coils C10016, C10064, C10086, C10135, C10175, C10177\u2026 produced on this equipment in the surrounding production window; the associated deviations were referenced back to this work order for disposition tracking.\n\n## 5. Closure\nWork order closed on 2026-03-04 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and tagged accordingly. Linked records: failure F1019, RCA RCA1019, procedure PROC-017, equipment EQ-RMS-01.",
+    "char_count": 1295,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1019",
+      "source_file_path": "data/unstructured/documents/DOC1086.md"
+    }
+  }
+]

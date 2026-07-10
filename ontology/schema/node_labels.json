@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Node label definitions for the Synapse steel-plant knowledge graph. 'source' on each property is 'real' (derived from a downloaded real-world dataset in synapse/data/), 'synthetic' (generated), or 'hybrid' (synthetic values whose structure/ranges are informed by a real dataset).",
+  "labels": [
+    {
+      "label": "Coil",
+      "primary_key": "coil_id",
+      "description": "A single produced steel coil, the core traceability unit of the plant.",
+      "properties": [
+        { "name": "coil_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique coil identifier, e.g. COIL-000001" },
+        { "name": "grade", "type": "string", "source": "synthetic", "notes": "IS 2062/IS 1786 style values, e.g. Fe415, Fe500, E250" },
+        { "name": "thickness_mm", "type": "float", "source": "synthetic", "notes": "Coil thickness in millimeters" },
+        { "name": "width_mm", "type": "float", "source": "synthetic", "notes": "Coil width in millimeters" },
+        { "name": "weight_kg", "type": "float", "source": "synthetic", "notes": "Coil weight in kilograms" },
+        { "name": "heat_number", "type": "string", "source": "synthetic", "notes": "Heat/batch identifier linking coil to a melt" },
+        { "name": "production_date", "type": "date", "source": "synthetic", "notes": "Date the coil was produced" },
+        { "name": "status", "type": "string", "source": "synthetic", "notes": "One of: in_stock, dispatched, on_hold" },
+        { "name": "equipment_id", "type": "string", "source": "synthetic", "notes": "Denormalized FK to Equipment.equipment_id (equipment that produced the coil); persisted on the node and used to build the PRODUCED_AT edge" },
+        { "name": "material_ids", "type": "list[string]", "source": "synthetic", "notes": "Denormalized list of FKs to RawMaterial.material_id (materials used in the coil); persisted on the node and used to build MADE_FROM edges" }
+      ]
+    },
+    {
+      "label": "Equipment",
+      "primary_key": "equipment_id",
+      "description": "A physical plant asset in a hot-rolling-mill + blast-furnace steel plant (Rajendra Steel Plant, Mumbai Unit). Grounded to specific named machinery types.",
+      "properties": [
+        { "name": "equipment_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique equipment identifier, type-prefixed, e.g. EQ-BF-01, EQ-RHF-02, EQ-FMS-01" },
+        { "name": "name", "type": "string", "source": "synthetic", "notes": "Human-readable equipment name, e.g. 'Reheating Furnace #1'" },
+        { "name": "type", "type": "string", "source": "synthetic", "notes": "Machine type (snake_case), one of: blast_furnace, hot_blast_stove, sinter_plant_feeder, electric_arc_furnace, ladle_furnace, continuous_casting_machine, reheating_furnace, roughing_mill_stand, finishing_mill_stand, coiler_unit, runout_table, overhead_crane, conveyor_system" },
+        { "name": "installed_date", "type": "date", "source": "synthetic", "notes": "Date equipment was commissioned" },
+        { "name": "location", "type": "string", "source": "synthetic", "notes": "Plant area/zone, e.g. 'Rajendra Steel Plant, Mumbai Unit - Rolling Mill'" },
+        { "name": "real_data_link", "type": "string", "source": "real", "optional": true, "notes": "AI4I Product ID/Type remapped, used to join equipment to real sensor/failure records; null until AI4I is ingested" },
+        { "name": "key_specifications", "type": "json", "source": "hybrid", "notes": "Machine-type-specific spec object (e.g. reheating furnace: capacity_tph/fuel/max_temp_C; coiler: coil_weight_capacity_t/wrapping_tension_kN). Illustrative, industry-typical values grounded in public references, not proprietary OEM data" },
+        { "name": "typical_failure_modes", "type": "list[string]", "source": "hybrid", "notes": "Realistic failure modes for that specific machine type (e.g. reheating furnace: refractory wear, burner malfunction, thermocouple failure), grounded in public references" },
+        { "name": "maintenance_interval", "type": "string", "source": "synthetic", "notes": "Preventive-maintenance frequency, e.g. monthly, quarterly, 6-monthly, annual" }
+      ]
+    },
+    {
+      "label": "Failure",
+      "primary_key": "failure_id",
+      "description": "A recorded equipment failure event.",
+      "properties": [
+        { "name": "failure_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique failure event identifier" },
+        { "name": "equipment_id", "type": "string", "source": "synthetic", "notes": "Denormalized FK to Equipment.equipment_id (equipment that experienced the failure); persisted on the node and used to build the EXPERIENCED edge" },
+        { "name": "failure_mode", "type": "string", "source": "real", "notes": "AI4I dataset TWF/HDF/PWF/OSF/RNF remapped to steel failure terms (e.g. tool wear -> roll wear failure)" },
+        { "name": "timestamp", "type": "datetime", "source": "synthetic", "notes": "Date and time the failure was recorded" },
+        { "name": "sensor_values", "type": "json", "source": "synthetic", "notes": "AI4I-shaped torque/tool-wear/temperature values, currently SYNTHETIC until the AI4I 2020 dataset is downloaded and ingested; retains a source_failure_flag trace field (TWF/HDF/PWF/OSF/RNF). Flip source back to 'real' once AI4I is used." },
+        { "name": "impacted_coil_ids", "type": "list[string]", "source": "synthetic", "optional": true, "notes": "Quality-impact tagging: coils produced on this equipment in a window around the failure whose quality tests have linked deviations. Derived from the existing TESTED_BY/FAILED_STANDARD chain — no new QT links, deviation rate untouched." },
+        { "name": "impacted_failed_tests", "type": "integer", "source": "synthetic", "optional": true, "notes": "Count of deviation-linked quality tests attributed to this failure's window (answers 'what did this failure cost in quality terms')" }
+      ]
+    },
+    {
+      "label": "RCA",
+      "primary_key": "rca_id",
+      "description": "Root Cause Analysis record for a failure.",
+      "properties": [
+        { "name": "rca_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique RCA record identifier" },
+        { "name": "failure_id", "type": "string", "source": "synthetic", "notes": "Denormalized FK to Failure.failure_id (failure this RCA diagnoses); persisted on the node and used to build the DIAGNOSED_BY edge" },
+        { "name": "rca_date", "type": "date", "source": "synthetic", "notes": "Date the RCA was completed; generated as the linked Failure.timestamp date plus a realistic 1-5 day investigation lag, so it always follows the failure" },
+        { "name": "root_cause_text", "type": "string", "source": "synthetic", "notes": "Free-text root cause narrative" },
+        { "name": "corrective_action", "type": "string", "source": "synthetic", "notes": "Free-text corrective action taken" },
+        { "name": "procedure_ref", "type": "string", "source": "synthetic", "notes": "FK to Procedure.procedure_id — the governing procedure this RCA reviewed. Matched to the failed equipment's PM/inspection SOP." },
+        { "name": "violated_step", "type": "string", "source": "synthetic", "notes": "Which step of procedure_ref was missed/violated (quoted step + mode-specific violation phrasing) — lets the synthesizer correlate recurring procedure gaps across units" },
+        { "name": "industry_reference", "type": "json", "source": "reference", "optional": true, "notes": "GENERAL domain-knowledge citation for why this failure-mechanism CLASS occurs (object: {source_name, source_url, summary_text}), researched from public engineering sources. Present on golden-path hero RCAs. Deliberately separate from plant-specific facts — it explains the mechanism in general, it is NOT a claim about this plant's specific equipment. Cited by the synthesizer as [Industry Reference: <source_name>]." },
+        { "name": "analyst", "type": "string", "source": "synthetic", "notes": "References Technician.technician_id who authored the RCA" }
+      ]
+    },
+    {
+      "label": "Procedure",
+      "primary_key": "procedure_id",
+      "description": "A documented standard operating procedure (SOP) for operating or maintaining equipment.",
+      "properties": [
+        { "name": "procedure_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique procedure identifier" },
+        { "name": "title", "type": "string", "source": "synthetic", "notes": "Procedure title" },
+        { "name": "steps_text", "type": "string", "source": "synthetic", "notes": "Full step-by-step procedure text, used for RAG ingestion" },
+        { "name": "equipment_ref", "type": "string", "source": "synthetic", "notes": "References Equipment.equipment_id this procedure applies to" }
+      ]
+    },
+    {
+      "label": "Technician",
+      "primary_key": "technician_id",
+      "description": "A plant employee performing maintenance, quality, or RCA work.",
+      "properties": [
+        { "name": "technician_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique technician identifier" },
+        { "name": "name", "type": "string", "source": "synthetic", "notes": "Technician full name" },
+        { "name": "role", "type": "string", "source": "synthetic", "notes": "e.g. Maintenance Engineer, Quality Inspector, Shift Supervisor" },
+        { "name": "shift", "type": "string", "source": "synthetic", "notes": "e.g. A, B, C shift" },
+        { "name": "certification", "type": "string", "source": "synthetic", "notes": "Relevant certification or qualification" }
+      ]
+    },
+    {
+      "label": "QualityTest",
+      "primary_key": "test_id",
+      "description": "A quality inspection/test performed on a coil.",
+      "properties": [
+        { "name": "test_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique quality test identifier" },
+        { "name": "coil_id", "type": "string", "source": "synthetic", "notes": "Denormalized FK to Coil.coil_id (coil that was tested); persisted on the node and used to build the TESTED_BY edge" },
+        { "name": "feature_values", "type": "json", "source": "real", "notes": "Steel Plates Faults dataset, all 27 feature columns (X_Minimum..SigmoidOfAreas), stored as a JSON blob" },
+        { "name": "fault_type", "type": "string", "source": "real", "notes": "Steel Plates Faults dataset, the 7 one-hot fault columns (Pastry/Z_Scratch/K_Scatch/Stains/Dirtiness/Bumps/Other_Faults) remapped to a single categorical label" },
+        { "name": "test_date", "type": "date", "source": "synthetic", "notes": "Date the test was performed" },
+        { "name": "standard_ref", "type": "string", "source": "synthetic", "notes": "References Standard.standard_id this test was evaluated against" }
+      ]
+    },
+    {
+      "label": "Standard",
+      "primary_key": "standard_id",
+      "description": "A quality/compliance standard or code clause.",
+      "properties": [
+        { "name": "standard_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique standard identifier" },
+        { "name": "name", "type": "string", "source": "synthetic", "notes": "e.g. BIS IS:1786, BIS IS:2062, ASTM A370, The Factories Act 1948. (OISD standards were removed as out-of-scope for iron & steel; IS:226 retained only as a withdrawn/superseded marker.)" },
+        { "name": "clause_text", "type": "string", "source": "synthetic", "notes": "Paraphrased scope/rule text for the standard; illustrative values only (full standard text is licensed)" },
+        { "name": "superseded_by", "type": "string", "source": "synthetic", "optional": true, "notes": "Present only on withdrawn/superseded standards; FK to the standard_id of the replacement (e.g. IS:226 -> STD-IS2062-01)" }
+      ]
+    },
+    {
+      "label": "Deviation",
+      "primary_key": "deviation_id",
+      "description": "A flagged deviation from spec/process, linked to a coil and/or equipment.",
+      "properties": [
+        { "name": "deviation_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique deviation identifier" },
+        { "name": "coil_id_fk", "type": "string", "source": "synthetic", "notes": "References Coil.coil_id, if the deviation is coil-related" },
+        { "name": "failure_id_fk", "type": "string", "source": "synthetic", "optional": true, "notes": "References Failure.failure_id when the deviation is attributed to a specific failure (nearest failure on the same equipment / within the production window). Connective tissue only — deviation counts unchanged." },
+        { "name": "equipment_id_fk", "type": "string", "source": "synthetic", "notes": "References Equipment.equipment_id, if the deviation is equipment-related" },
+        { "name": "description", "type": "string", "source": "synthetic", "notes": "Free-text deviation description, informed by real fault distribution from the Steel Plates Faults dataset" },
+        { "name": "severity", "type": "string", "source": "synthetic", "notes": "e.g. low, medium, high, critical" }
+      ]
+    },
+    {
+      "label": "RawMaterial",
+      "primary_key": "material_id",
+      "description": "A raw material or input consumed in steel production.",
+      "properties": [
+        { "name": "material_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique raw material identifier" },
+        { "name": "type", "type": "string", "source": "hybrid", "notes": "e.g. iron ore, scrap, ferro-alloy; category list and structure informed by ERP BOM sheet and steel_bom_grades.csv" },
+        { "name": "composition", "type": "json", "source": "synthetic", "notes": "Chemical/material composition breakdown, informed by the Steel Manufacturing Materials dataset (steel_bom_grades.csv)" },
+        { "name": "supplier_id", "type": "string", "source": "synthetic", "notes": "Identifier of the supplying vendor" }
+      ]
+    },
+    {
+      "label": "Document",
+      "primary_key": "document_id",
+      "description": "A managed document (procedure, report, certificate, RCA writeup, etc.) with a pointer into the vector store.",
+      "properties": [
+        { "name": "document_id", "type": "string", "source": "synthetic", "primary_key": true, "notes": "Unique document identifier" },
+        { "name": "title", "type": "string", "source": "synthetic", "notes": "Document title" },
+        { "name": "doc_type", "type": "string", "source": "synthetic", "notes": "e.g. SOP, RCA Report, Test Certificate, Audit Report" },
+        { "name": "vector_ref", "type": "string", "source": "synthetic", "notes": "Bridges to the Chroma vector store collection/id for this document's embedding" },
+        { "name": "source_type", "type": "string", "source": "synthetic", "optional": true, "notes": "'synthetic' marks generated narrative records (e.g. the per-failure work_order incident reports) so retrieval consumers can flag data character; absent on the original corpus" },
+        { "name": "related_entity_id", "type": "string", "source": "synthetic", "notes": "Denormalized polymorphic FK to the primary entity this document is about (Failure/Deviation/Procedure/Equipment id, per doc_type); persisted on the node and used to build the DOCUMENTED_IN edge" }
+      ]
+    }
+  ]
+}

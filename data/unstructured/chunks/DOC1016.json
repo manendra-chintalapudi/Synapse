@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1016",
+    "chunk_id": "DOC1016_chunk_0",
+    "chunk_index": 0,
+    "text": "# Equipment Manual \u2014 DOC1016\n**Equipment:** EQ-EAF-01 \u2014 Electric Arc Furnace #1\n**Type:** Electric Arc Furnace  |  **Location:** Rajendra Steel Plant, Mumbai Unit - Melt Shop  |  **Commissioned:** 2018-06-08\n**Preventive-maintenance interval:** monthly\n\n## 1. Overview\nThe Electric Arc Furnace #1 (EQ-EAF-01) is the steelmaking furnace that melts scrap and DRI using a three-phase electric arc. It is installed at Rajendra Steel Plant, Mumbai Unit - Melt Shop and was\ncommissioned on 2018-06-08. It is a critical asset in the plant's production flow and is managed under the\nCMMS reliability programme, with a formal preventive-maintenance interval of **monthly**. This manual excerpt\nsummarises the machine's key specifications, normal operating envelope, common failure modes and maintenance and safety\nrequirements. It should be read together with the original equipment manufacturer (OEM) documentation and the relevant\nstandard operating procedures; the values quoted here are indicative, industry-typical figures for a machine of this\nclass rather than exact OEM design data.\n\n## 2. Key Specifications\n- **transformer MVA**: 75\n- **tap to tap min**: 55\n- **heat size t**: 130\n- **electrode dia mm**: 610\n- **electrode consumption kg per t**: 1.8\n\n## 3. Operating Parameters\nThe equipment must be operated within its qualified envelope; representative set-points include transformer MVA = 75, tap to tap min = 55, heat size t = 130. Operators\nlog the principal parameters each shift and compare them against these limits. Any sustained excursion outside the\nnormal band \u2014 particularly on temperature, pressure, tension, cooling-water flow or drive load as applicable to this\nmachine \u2014 must be raised through the CMMS and, where product or safety is affected, escalated for root cause analysis.\nStart-up and shutdown follow the dedicated SOP, bringing the machine to condition gradually while watching for abnormal\nvibration, noise or thermal signatures.",
+    "char_count": 1958,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-EAF-01",
+      "source_file_path": "data/unstructured/documents/DOC1016.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1016",
+    "chunk_id": "DOC1016_chunk_1",
+    "chunk_index": 1,
+    "text": "## 4. Common Failure Modes\nThe following failure modes are characteristic of this machine type and drive its inspection and spares strategy:\n- **electrode breakage**\n- **water-cooled panel leak**\n- **refractory hot spot**\n- **transformer / electrical fault**\n- **tilting hydraulic failure**\n\nEarly-warning indicators for these modes (temperature drift, abnormal vibration, tension/level instability, water-flow\nloss) are trended in the condition-monitoring system so that developing faults are caught before they cause an\nunplanned outage or a quality deviation on the product.\n\n## 5. Maintenance Schedule\n| Frequency | Task |\n|-----------|------|\n| Daily / per-shift | Operator checks of key parameters, lubrication, cooling flows and abnormal noise/vibration. |\n| Weekly | Inspection of drives, couplings, sensors and instrumentation against reference values. |\n| Monthly (primary PM) | Full preventive-maintenance service per the CMMS schedule for this asset type, including wear-part inspection and calibration. |\n| Annual / campaign | Major inspection, structural/refractory assessment and overhaul of critical sub-assemblies. |\n\nAll maintenance is recorded against EQ-EAF-01 in the CMMS. Findings that affect product or safety are raised\nas work orders and, where warranted, as formal deviations.\n\n## 6. Safety Warnings\n- Arc flash, molten-metal and slag ejection during power-on \u2014 strict exclusion of personnel.\n- Very high noise (>100 dB) in the melt shop \u2014 hearing protection is mandatory.\n- High-voltage electrode system and cooling water \u2014 isolate, earth and confirm dead before work.\n- Only trained, authorised personnel may operate or maintain this equipment, under the plant permit-to-work system and\n  in compliance with The Factories Act, 1948 safety provisions.\n\n## 7. Document Control\nControlled equipment manual \u2014 review at each PM interval (monthly) or after any major modification or related\nincident. Linked to the plant knowledge graph as DOC1016, referencing equipment node EQ-EAF-01.",
+    "char_count": 2008,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-EAF-01",
+      "source_file_path": "data/unstructured/documents/DOC1016.md"
+    }
+  }
+]

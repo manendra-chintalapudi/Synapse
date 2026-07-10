@@ -1,0 +1,188 @@
+[
+  {
+    "procedure_id": "PROC-001",
+    "title": "Ladle Furnace Shutdown Procedure",
+    "steps_text": "Reduce load on the ladle furnace gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "equipment_ref": "EQ-LF-01"
+  },
+  {
+    "procedure_id": "PROC-002",
+    "title": "Cooling Bed Refractory / Lining Inspection SOP",
+    "steps_text": "Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach. Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points. Photograph and log any zones below the minimum thickness threshold. Raise a maintenance work order if wear exceeds the acceptance limit.",
+    "equipment_ref": "EQ-ROT-01"
+  },
+  {
+    "procedure_id": "PROC-003",
+    "title": "EOT Crane Shutdown Procedure",
+    "steps_text": "Reduce load on the eot crane gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "equipment_ref": "EQ-CNV-01"
+  },
+  {
+    "procedure_id": "PROC-004",
+    "title": "Ladle Furnace Refractory / Lining Inspection SOP",
+    "steps_text": "Allow the ladle furnace to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach. Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points. Photograph and log any zones below the minimum thickness threshold. Raise a maintenance work order if wear exceeds the acceptance limit.",
+    "equipment_ref": "EQ-LF-01"
+  },
+  {
+    "procedure_id": "PROC-005",
+    "title": "Electric Arc Furnace Preventive Maintenance Checklist",
+    "steps_text": "Perform the scheduled preventive maintenance on the electric arc furnace per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Check sensor and instrumentation calibration against reference values. Close out the work order with parts used and observations.",
+    "equipment_ref": "EQ-EAF-01"
+  },
+  {
+    "procedure_id": "PROC-006",
+    "title": "Cooling Bed Preventive Maintenance Checklist",
+    "steps_text": "Perform the scheduled preventive maintenance on the cooling bed per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Check sensor and instrumentation calibration against reference values. Close out the work order with parts used and observations.",
+    "equipment_ref": "EQ-ROT-01"
+  },
+  {
+    "procedure_id": "PROC-007",
+    "title": "Cooling Bed Refractory / Lining Inspection SOP",
+    "steps_text": "Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach. Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points. Photograph and log any zones below the minimum thickness threshold. Raise a maintenance work order if wear exceeds the acceptance limit.",
+    "equipment_ref": "EQ-RHF-02"
+  },
+  {
+    "procedure_id": "PROC-008",
+    "title": "Blast Furnace Shutdown Procedure",
+    "steps_text": "Reduce load on the blast furnace gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "equipment_ref": "EQ-HBS-02"
+  },
+  {
+    "procedure_id": "PROC-009",
+    "title": "Ladle Furnace Shutdown Procedure",
+    "steps_text": "Reduce load on the ladle furnace gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "equipment_ref": "EQ-CCM-01"
+  },
+  {
+    "procedure_id": "PROC-010",
+    "title": "Electric Arc Furnace Startup Procedure",
+    "steps_text": "Confirm all interlocks and emergency stops on the electric arc furnace are healthy before energising. Verify lubrication, coolant and hydraulic pressures are within the specified operating band. Ramp the drive to idle speed and hold while checking for abnormal vibration or noise. Only release to production once temperatures and pressures have stabilised and the shift supervisor has signed off.",
+    "equipment_ref": "EQ-EAF-02"
+  },
+  {
+    "procedure_id": "PROC-011",
+    "title": "Ladle Furnace Emergency Response Procedure",
+    "steps_text": "On detection of an abnormal condition on the ladle furnace, actuate the nearest emergency stop and evacuate personnel from the hazard zone. Notify the control room and shift supervisor immediately. Isolate energy sources and, if safe, contain any spill or leak. Do not restart until a root-cause check and safety clearance are complete.",
+    "equipment_ref": "EQ-LF-01"
+  },
+  {
+    "procedure_id": "PROC-012",
+    "title": "Ladle Furnace Startup Procedure",
+    "steps_text": "Confirm all interlocks and emergency stops on the ladle furnace are healthy before energising. Verify lubrication, coolant and hydraulic pressures are within the specified operating band. Ramp the drive to idle speed and hold while checking for abnormal vibration or noise. Only release to production once temperatures and pressures have stabilised and the shift supervisor has signed off.",
+    "equipment_ref": "EQ-CCM-01"
+  },
+  {
+    "procedure_id": "PROC-013",
+    "title": "Blast Furnace Startup Procedure",
+    "steps_text": "Confirm all interlocks and emergency stops on the blast furnace are healthy before energising. Verify lubrication, coolant and hydraulic pressures are within the specified operating band. Ramp the drive to idle speed and hold while checking for abnormal vibration or noise. Only release to production once temperatures and pressures have stabilised and the shift supervisor has signed off.",
+    "equipment_ref": "EQ-HBS-01"
+  },
+  {
+    "procedure_id": "PROC-014",
+    "title": "EOT Crane Refractory / Lining Inspection SOP",
+    "steps_text": "Allow the eot crane to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach. Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points. Photograph and log any zones below the minimum thickness threshold. Raise a maintenance work order if wear exceeds the acceptance limit.",
+    "equipment_ref": "EQ-CR-03"
+  },
+  {
+    "procedure_id": "PROC-015",
+    "title": "Cooling Bed Refractory / Lining Inspection SOP",
+    "steps_text": "Allow the cooling bed to cool to a safe inspection temperature and confirm atmosphere is safe to enter or approach. Visually inspect refractory lining for cracking, spalling and wear, measuring residual thickness at marked reference points. Photograph and log any zones below the minimum thickness threshold. Raise a maintenance work order if wear exceeds the acceptance limit.",
+    "equipment_ref": "EQ-ROT-01"
+  },
+  {
+    "procedure_id": "PROC-016",
+    "title": "Blast Furnace Startup Procedure",
+    "steps_text": "Confirm all interlocks and emergency stops on the blast furnace are healthy before energising. Verify lubrication, coolant and hydraulic pressures are within the specified operating band. Ramp the drive to idle speed and hold while checking for abnormal vibration or noise. Only release to production once temperatures and pressures have stabilised and the shift supervisor has signed off.",
+    "equipment_ref": "EQ-BF-01"
+  },
+  {
+    "procedure_id": "PROC-017",
+    "title": "Hot Rolling Mill Emergency Response Procedure",
+    "steps_text": "On detection of an abnormal condition on the hot rolling mill, actuate the nearest emergency stop and evacuate personnel from the hazard zone. Notify the control room and shift supervisor immediately. Isolate energy sources and, if safe, contain any spill or leak. Do not restart until a root-cause check and safety clearance are complete.",
+    "equipment_ref": "EQ-RMS-01"
+  },
+  {
+    "procedure_id": "PROC-018",
+    "title": "Blast Furnace Emergency Response Procedure",
+    "steps_text": "On detection of an abnormal condition on the blast furnace, actuate the nearest emergency stop and evacuate personnel from the hazard zone. Notify the control room and shift supervisor immediately. Isolate energy sources and, if safe, contain any spill or leak. Do not restart until a root-cause check and safety clearance are complete.",
+    "equipment_ref": "EQ-HBS-02"
+  },
+  {
+    "procedure_id": "PROC-019",
+    "title": "EOT Crane Emergency Response Procedure",
+    "steps_text": "On detection of an abnormal condition on the eot crane, actuate the nearest emergency stop and evacuate personnel from the hazard zone. Notify the control room and shift supervisor immediately. Isolate energy sources and, if safe, contain any spill or leak. Do not restart until a root-cause check and safety clearance are complete.",
+    "equipment_ref": "EQ-CR-03"
+  },
+  {
+    "procedure_id": "PROC-020",
+    "title": "Hot Rolling Mill Preventive Maintenance Checklist",
+    "steps_text": "Perform the scheduled preventive maintenance on the hot rolling mill per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Check sensor and instrumentation calibration against reference values. Close out the work order with parts used and observations.",
+    "equipment_ref": "EQ-FMS-01"
+  },
+  {
+    "procedure_id": "PROC-021",
+    "title": "Ladle Furnace Emergency Response Procedure",
+    "steps_text": "On detection of an abnormal condition on the ladle furnace, actuate the nearest emergency stop and evacuate personnel from the hazard zone. Notify the control room and shift supervisor immediately. Isolate energy sources and, if safe, contain any spill or leak. Do not restart until a root-cause check and safety clearance are complete.",
+    "equipment_ref": "EQ-LF-02"
+  },
+  {
+    "procedure_id": "PROC-022",
+    "title": "Electric Arc Furnace Shutdown Procedure",
+    "steps_text": "Reduce load on the electric arc furnace gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "equipment_ref": "EQ-RHF-01"
+  },
+  {
+    "procedure_id": "PROC-023",
+    "title": "Electric Arc Furnace Startup Procedure",
+    "steps_text": "Confirm all interlocks and emergency stops on the electric arc furnace are healthy before energising. Verify lubrication, coolant and hydraulic pressures are within the specified operating band. Ramp the drive to idle speed and hold while checking for abnormal vibration or noise. Only release to production once temperatures and pressures have stabilised and the shift supervisor has signed off.",
+    "equipment_ref": "EQ-RHF-01"
+  },
+  {
+    "procedure_id": "PROC-024",
+    "title": "Hot Rolling Mill Shutdown Procedure",
+    "steps_text": "Reduce load on the hot rolling mill gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "equipment_ref": "EQ-RMS-02"
+  },
+  {
+    "procedure_id": "PROC-025",
+    "title": "Sinter Plant Feeder Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the sinter plant feeder per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-SPF-01"
+  },
+  {
+    "procedure_id": "PROC-026",
+    "title": "Finishing Mill Stand Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the finishing mill stand per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-FMS-02"
+  },
+  {
+    "procedure_id": "PROC-027",
+    "title": "Coiler Unit Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the coiler unit per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-COL-01"
+  },
+  {
+    "procedure_id": "PROC-028",
+    "title": "Coiler Unit Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the coiler unit per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-COL-02"
+  },
+  {
+    "procedure_id": "PROC-029",
+    "title": "Overhead Crane Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the overhead crane per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-CR-01"
+  },
+  {
+    "procedure_id": "PROC-030",
+    "title": "Overhead Crane Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the overhead crane per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-CR-02"
+  },
+  {
+    "procedure_id": "PROC-031",
+    "title": "Conveyor System Preventive Maintenance & Inspection SOP",
+    "steps_text": "Perform the scheduled preventive maintenance on the conveyor system per the maintenance calendar. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified. Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values. Check sensor and instrumentation readings against the qualified operating envelope and record them in the shift log. Close out the work order with parts used, measured wear values and observations.",
+    "equipment_ref": "EQ-CNV-02"
+  }
+]

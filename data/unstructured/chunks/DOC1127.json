@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1127",
+    "chunk_id": "DOC1127_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1127\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1064 \u2014 Power Failure\n**Equipment:** EQ-EAF-01 \u2014 Electric Arc Furnace #1 (Rajendra Steel Plant, Mumbai Unit - Melt Shop)\n**Event timestamp:** 2025-10-19 14:57:48  |  **RCA:** RCA1064 (closed 2025-10-24)\n\n## 1. Incident Narrative\nAt 14:57:48 on 2025-10-19, the Electric Arc Furnace #1 raised a power failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 295.5 K, process temperature 304.4 K, rotational speed 1393 rpm, torque 40.7 Nm and accumulated tool wear 29 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nShalini Naidu (Shift B) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1064, performed by Shalini Kulkarni (quality inspector, Shift C), concluded: Electric Arc Furnace #1 tripped on a power-delivery fault: the electrode-regulation drive drew overcurrent as arc impedance swung, pointing to an unstable supply interacting with the regulation loop rather than a mechanical cause. A marginal electrode contact and supply dips triggered the trip.",
+    "char_count": 1361,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1064",
+      "source_file_path": "data/unstructured/documents/DOC1127.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1127",
+    "chunk_id": "DOC1127_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-005 for this asset and recorded a compliance finding: Step 3 of PROC-005 (\"Check sensor and instrumentation calibration against reference values.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nInspected and repaired the electrode-regulation drive, verified supply stability, and added a power-envelope monitor with an automatic trip so out-of-window excursions cut power cleanly. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2025-10-24 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1064, RCA RCA1064, procedure PROC-005, equipment EQ-EAF-01.",
+    "char_count": 1264,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1064",
+      "source_file_path": "data/unstructured/documents/DOC1127.md"
+    }
+  }
+]

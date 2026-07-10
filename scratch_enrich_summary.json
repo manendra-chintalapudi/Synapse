@@ -1,0 +1,27 @@
+{
+  "summary": {
+    "procedures_added": 7,
+    "follows_procedure_edges_added": 7,
+    "maintained_by_edges_added": 6,
+    "rcas_procedure_ref_set": 200,
+    "equipment_deviations_linked": 20,
+    "coil_deviations_linked": 306,
+    "failures_quality_tagged": 27,
+    "work_order_docs_added": 188,
+    "documented_in_edges_added": 188,
+    "chunks_added": 376
+  },
+  "new_procedures": [
+    "PROC-025",
+    "PROC-026",
+    "PROC-027",
+    "PROC-028",
+    "PROC-029",
+    "PROC-030",
+    "PROC-031"
+  ],
+  "new_doc_range": [
+    "DOC1068",
+    "DOC1255"
+  ]
+}

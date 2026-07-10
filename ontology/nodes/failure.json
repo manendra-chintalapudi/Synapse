@@ -1,0 +1,3032 @@
+[
+  {
+    "failure_id": "F1001",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-06-24 21:55:31",
+    "sensor_values": {
+      "air_temperature_k": 301.6,
+      "process_temperature_k": 312.0,
+      "rotational_speed_rpm": 1878,
+      "torque_nm": 28.2,
+      "tool_wear_min": 54,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1002",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-01-25 21:25:27",
+    "sensor_values": {
+      "air_temperature_k": 295.4,
+      "process_temperature_k": 304.6,
+      "rotational_speed_rpm": 2785,
+      "torque_nm": 67.2,
+      "tool_wear_min": 27,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1003",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-06-28 13:37:17",
+    "sensor_values": {
+      "air_temperature_k": 303.5,
+      "process_temperature_k": 313.3,
+      "rotational_speed_rpm": 2149,
+      "torque_nm": 55.8,
+      "tool_wear_min": 176,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1004",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-24 20:47:28",
+    "sensor_values": {
+      "air_temperature_k": 300.8,
+      "process_temperature_k": 311.9,
+      "rotational_speed_rpm": 1658,
+      "torque_nm": 62.4,
+      "tool_wear_min": 125,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1005",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-30 11:42:58",
+    "sensor_values": {
+      "air_temperature_k": 299.1,
+      "process_temperature_k": 308.9,
+      "rotational_speed_rpm": 1417,
+      "torque_nm": 4.2,
+      "tool_wear_min": 27,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1006",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-08-31 21:11:11",
+    "sensor_values": {
+      "air_temperature_k": 298.5,
+      "process_temperature_k": 309.9,
+      "rotational_speed_rpm": 1769,
+      "torque_nm": 50.9,
+      "tool_wear_min": 58,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1007",
+    "equipment_id": "EQ-RHF-01",
+    "failure_mode": "random_failure",
+    "timestamp": "2025-12-13 03:22:51",
+    "sensor_values": {
+      "air_temperature_k": 298.4,
+      "process_temperature_k": 307.8,
+      "rotational_speed_rpm": 1915,
+      "torque_nm": 20.0,
+      "tool_wear_min": 13,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1008",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-11-10 00:03:17",
+    "sensor_values": {
+      "air_temperature_k": 297.4,
+      "process_temperature_k": 306.3,
+      "rotational_speed_rpm": 1544,
+      "torque_nm": 24.2,
+      "tool_wear_min": 104,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1009",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-04-07 02:34:55",
+    "sensor_values": {
+      "air_temperature_k": 301.6,
+      "process_temperature_k": 312.5,
+      "rotational_speed_rpm": 1247,
+      "torque_nm": 9.2,
+      "tool_wear_min": 4,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10186",
+      "C10203"
+    ],
+    "impacted_failed_tests": 3
+  },
+  {
+    "failure_id": "F1010",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-10 00:06:43",
+    "sensor_values": {
+      "air_temperature_k": 301.7,
+      "process_temperature_k": 310.9,
+      "rotational_speed_rpm": 1880,
+      "torque_nm": 9.5,
+      "tool_wear_min": 219,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1011",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-07-24 17:08:07",
+    "sensor_values": {
+      "air_temperature_k": 301.4,
+      "process_temperature_k": 311.2,
+      "rotational_speed_rpm": 1629,
+      "torque_nm": 19.3,
+      "tool_wear_min": 20,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1012",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-02-28 21:10:30",
+    "sensor_values": {
+      "air_temperature_k": 301.0,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 2364,
+      "torque_nm": 59.1,
+      "tool_wear_min": 17,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1013",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-10-12 12:55:31",
+    "sensor_values": {
+      "air_temperature_k": 297.5,
+      "process_temperature_k": 308.2,
+      "rotational_speed_rpm": 2480,
+      "torque_nm": 72.2,
+      "tool_wear_min": 242,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1014",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-02-14 14:25:41",
+    "sensor_values": {
+      "air_temperature_k": 300.5,
+      "process_temperature_k": 312.1,
+      "rotational_speed_rpm": 1604,
+      "torque_nm": 34.6,
+      "tool_wear_min": 6,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1015",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-14 19:40:09",
+    "sensor_values": {
+      "air_temperature_k": 302.5,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 1917,
+      "torque_nm": 65.5,
+      "tool_wear_min": 108,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1016",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-09 00:22:18",
+    "sensor_values": {
+      "air_temperature_k": 303.0,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 1226,
+      "torque_nm": 74.8,
+      "tool_wear_min": 67,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1017",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-01-15 04:21:36",
+    "sensor_values": {
+      "air_temperature_k": 297.4,
+      "process_temperature_k": 307.9,
+      "rotational_speed_rpm": 2738,
+      "torque_nm": 37.9,
+      "tool_wear_min": 123,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1018",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-02-24 06:38:32",
+    "sensor_values": {
+      "air_temperature_k": 304.1,
+      "process_temperature_k": 314.2,
+      "rotational_speed_rpm": 1399,
+      "torque_nm": 33.1,
+      "tool_wear_min": 76,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10028",
+      "C10122",
+      "C10347"
+    ],
+    "impacted_failed_tests": 9
+  },
+  {
+    "failure_id": "F1019",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-03-03 00:09:44",
+    "sensor_values": {
+      "air_temperature_k": 300.0,
+      "process_temperature_k": 310.5,
+      "rotational_speed_rpm": 2139,
+      "torque_nm": 31.1,
+      "tool_wear_min": 106,
+      "source_failure_flag": "RNF"
+    },
+    "impacted_coil_ids": [
+      "C10016",
+      "C10064",
+      "C10086",
+      "C10135",
+      "C10175",
+      "C10177",
+      "C10212",
+      "C10216",
+      "C10221",
+      "C10259",
+      "C10357"
+    ],
+    "impacted_failed_tests": 24
+  },
+  {
+    "failure_id": "F1020",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-11 20:55:17",
+    "sensor_values": {
+      "air_temperature_k": 303.0,
+      "process_temperature_k": 313.1,
+      "rotational_speed_rpm": 1261,
+      "torque_nm": 18.6,
+      "tool_wear_min": 115,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1021",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-08-23 14:00:19",
+    "sensor_values": {
+      "air_temperature_k": 302.9,
+      "process_temperature_k": 313.0,
+      "rotational_speed_rpm": 1190,
+      "torque_nm": 75.1,
+      "tool_wear_min": 89,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1022",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-16 21:19:39",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 311.9,
+      "rotational_speed_rpm": 1481,
+      "torque_nm": 35.2,
+      "tool_wear_min": 239,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1023",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-11-01 11:15:05",
+    "sensor_values": {
+      "air_temperature_k": 296.3,
+      "process_temperature_k": 305.2,
+      "rotational_speed_rpm": 2300,
+      "torque_nm": 63.3,
+      "tool_wear_min": 36,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1024",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-10-07 16:06:09",
+    "sensor_values": {
+      "air_temperature_k": 301.2,
+      "process_temperature_k": 312.8,
+      "rotational_speed_rpm": 2818,
+      "torque_nm": 55.9,
+      "tool_wear_min": 77,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1025",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-02-07 05:26:40",
+    "sensor_values": {
+      "air_temperature_k": 299.6,
+      "process_temperature_k": 311.3,
+      "rotational_speed_rpm": 1851,
+      "torque_nm": 23.2,
+      "tool_wear_min": 221,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10019",
+      "C10061",
+      "C10093",
+      "C10182",
+      "C10232",
+      "C10294",
+      "C10373"
+    ],
+    "impacted_failed_tests": 10
+  },
+  {
+    "failure_id": "F1026",
+    "equipment_id": "EQ-HBS-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-08-02 07:17:57",
+    "sensor_values": {
+      "air_temperature_k": 295.6,
+      "process_temperature_k": 307.4,
+      "rotational_speed_rpm": 2331,
+      "torque_nm": 28.3,
+      "tool_wear_min": 82,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1027",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-11-30 19:21:55",
+    "sensor_values": {
+      "air_temperature_k": 300.4,
+      "process_temperature_k": 309.5,
+      "rotational_speed_rpm": 1804,
+      "torque_nm": 37.4,
+      "tool_wear_min": 208,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1028",
+    "equipment_id": "EQ-SPF-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-01-16 18:55:20",
+    "sensor_values": {
+      "air_temperature_k": 301.2,
+      "process_temperature_k": 310.3,
+      "rotational_speed_rpm": 2277,
+      "torque_nm": 37.9,
+      "tool_wear_min": 101,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1029",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-16 04:23:45",
+    "sensor_values": {
+      "air_temperature_k": 303.9,
+      "process_temperature_k": 314.7,
+      "rotational_speed_rpm": 2330,
+      "torque_nm": 72.7,
+      "tool_wear_min": 217,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1030",
+    "equipment_id": "EQ-RHF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-27 07:41:12",
+    "sensor_values": {
+      "air_temperature_k": 301.7,
+      "process_temperature_k": 312.9,
+      "rotational_speed_rpm": 2447,
+      "torque_nm": 41.8,
+      "tool_wear_min": 188,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1031",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-06 23:24:39",
+    "sensor_values": {
+      "air_temperature_k": 296.4,
+      "process_temperature_k": 306.1,
+      "rotational_speed_rpm": 2132,
+      "torque_nm": 8.2,
+      "tool_wear_min": 234,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1032",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-02-18 05:38:05",
+    "sensor_values": {
+      "air_temperature_k": 298.9,
+      "process_temperature_k": 310.5,
+      "rotational_speed_rpm": 2685,
+      "torque_nm": 67.8,
+      "tool_wear_min": 8,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1033",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-04-16 13:59:08",
+    "sensor_values": {
+      "air_temperature_k": 298.1,
+      "process_temperature_k": 310.1,
+      "rotational_speed_rpm": 1429,
+      "torque_nm": 7.7,
+      "tool_wear_min": 116,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1034",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-01-28 01:33:58",
+    "sensor_values": {
+      "air_temperature_k": 298.5,
+      "process_temperature_k": 308.2,
+      "rotational_speed_rpm": 1670,
+      "torque_nm": 21.3,
+      "tool_wear_min": 222,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1035",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-10-02 09:26:42",
+    "sensor_values": {
+      "air_temperature_k": 301.9,
+      "process_temperature_k": 312.0,
+      "rotational_speed_rpm": 2507,
+      "torque_nm": 71.0,
+      "tool_wear_min": 129,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1036",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-17 19:27:33",
+    "sensor_values": {
+      "air_temperature_k": 300.6,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 1598,
+      "torque_nm": 10.0,
+      "tool_wear_min": 53,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1037",
+    "equipment_id": "EQ-CR-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-03-12 05:07:49",
+    "sensor_values": {
+      "air_temperature_k": 297.9,
+      "process_temperature_k": 308.1,
+      "rotational_speed_rpm": 2092,
+      "torque_nm": 67.2,
+      "tool_wear_min": 95,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1038",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-01-26 18:06:35",
+    "sensor_values": {
+      "air_temperature_k": 298.9,
+      "process_temperature_k": 308.8,
+      "rotational_speed_rpm": 2033,
+      "torque_nm": 51.3,
+      "tool_wear_min": 233,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10003",
+      "C10088",
+      "C10094",
+      "C10128",
+      "C10138",
+      "C10224",
+      "C10249",
+      "C10296",
+      "C10329"
+    ],
+    "impacted_failed_tests": 21
+  },
+  {
+    "failure_id": "F1039",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-10-11 22:41:04",
+    "sensor_values": {
+      "air_temperature_k": 302.3,
+      "process_temperature_k": 313.9,
+      "rotational_speed_rpm": 2773,
+      "torque_nm": 67.9,
+      "tool_wear_min": 12,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1040",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-08-22 18:55:57",
+    "sensor_values": {
+      "air_temperature_k": 300.3,
+      "process_temperature_k": 308.9,
+      "rotational_speed_rpm": 1884,
+      "torque_nm": 54.3,
+      "tool_wear_min": 69,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1041",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-01-03 19:39:00",
+    "sensor_values": {
+      "air_temperature_k": 299.4,
+      "process_temperature_k": 308.2,
+      "rotational_speed_rpm": 1902,
+      "torque_nm": 75.0,
+      "tool_wear_min": 215,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1042",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-07-13 02:06:35",
+    "sensor_values": {
+      "air_temperature_k": 301.7,
+      "process_temperature_k": 312.0,
+      "rotational_speed_rpm": 2220,
+      "torque_nm": 66.8,
+      "tool_wear_min": 230,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1043",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-01-10 16:09:17",
+    "sensor_values": {
+      "air_temperature_k": 303.7,
+      "process_temperature_k": 314.1,
+      "rotational_speed_rpm": 1482,
+      "torque_nm": 22.2,
+      "tool_wear_min": 134,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1044",
+    "equipment_id": "EQ-BF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-09-29 17:37:52",
+    "sensor_values": {
+      "air_temperature_k": 295.8,
+      "process_temperature_k": 306.3,
+      "rotational_speed_rpm": 2212,
+      "torque_nm": 31.4,
+      "tool_wear_min": 216,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1045",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-01-09 08:42:10",
+    "sensor_values": {
+      "air_temperature_k": 296.1,
+      "process_temperature_k": 305.1,
+      "rotational_speed_rpm": 1833,
+      "torque_nm": 42.4,
+      "tool_wear_min": 184,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10053",
+      "C10060",
+      "C10219",
+      "C10356"
+    ],
+    "impacted_failed_tests": 10
+  },
+  {
+    "failure_id": "F1046",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-01-06 19:59:19",
+    "sensor_values": {
+      "air_temperature_k": 304.0,
+      "process_temperature_k": 313.4,
+      "rotational_speed_rpm": 2545,
+      "torque_nm": 58.1,
+      "tool_wear_min": 206,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10002",
+      "C10014",
+      "C10274",
+      "C10292"
+    ],
+    "impacted_failed_tests": 6
+  },
+  {
+    "failure_id": "F1047",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-09 15:50:05",
+    "sensor_values": {
+      "air_temperature_k": 296.5,
+      "process_temperature_k": 306.8,
+      "rotational_speed_rpm": 2466,
+      "torque_nm": 43.9,
+      "tool_wear_min": 64,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1048",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-01-21 21:42:40",
+    "sensor_values": {
+      "air_temperature_k": 302.9,
+      "process_temperature_k": 314.6,
+      "rotational_speed_rpm": 2853,
+      "torque_nm": 6.0,
+      "tool_wear_min": 119,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1049",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-07-28 13:47:21",
+    "sensor_values": {
+      "air_temperature_k": 299.8,
+      "process_temperature_k": 310.2,
+      "rotational_speed_rpm": 1519,
+      "torque_nm": 4.1,
+      "tool_wear_min": 29,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1050",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-01-03 02:25:53",
+    "sensor_values": {
+      "air_temperature_k": 303.4,
+      "process_temperature_k": 312.7,
+      "rotational_speed_rpm": 2421,
+      "torque_nm": 12.0,
+      "tool_wear_min": 52,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1051",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-18 22:04:20",
+    "sensor_values": {
+      "air_temperature_k": 303.3,
+      "process_temperature_k": 312.6,
+      "rotational_speed_rpm": 1650,
+      "torque_nm": 32.5,
+      "tool_wear_min": 151,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1052",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-09-02 23:44:45",
+    "sensor_values": {
+      "air_temperature_k": 298.4,
+      "process_temperature_k": 309.9,
+      "rotational_speed_rpm": 2245,
+      "torque_nm": 56.5,
+      "tool_wear_min": 117,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1053",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-27 08:32:32",
+    "sensor_values": {
+      "air_temperature_k": 300.8,
+      "process_temperature_k": 311.2,
+      "rotational_speed_rpm": 1958,
+      "torque_nm": 64.7,
+      "tool_wear_min": 241,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1054",
+    "equipment_id": "EQ-CR-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-22 14:29:07",
+    "sensor_values": {
+      "air_temperature_k": 303.7,
+      "process_temperature_k": 315.6,
+      "rotational_speed_rpm": 2769,
+      "torque_nm": 65.8,
+      "tool_wear_min": 21,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1055",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-16 01:35:49",
+    "sensor_values": {
+      "air_temperature_k": 304.1,
+      "process_temperature_k": 315.7,
+      "rotational_speed_rpm": 1601,
+      "torque_nm": 13.4,
+      "tool_wear_min": 193,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1056",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-02-25 00:26:17",
+    "sensor_values": {
+      "air_temperature_k": 304.2,
+      "process_temperature_k": 313.3,
+      "rotational_speed_rpm": 1862,
+      "torque_nm": 44.7,
+      "tool_wear_min": 81,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1057",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-06-07 03:15:18",
+    "sensor_values": {
+      "air_temperature_k": 302.3,
+      "process_temperature_k": 312.8,
+      "rotational_speed_rpm": 2650,
+      "torque_nm": 25.1,
+      "tool_wear_min": 20,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1058",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-02-26 23:57:50",
+    "sensor_values": {
+      "air_temperature_k": 297.1,
+      "process_temperature_k": 308.2,
+      "rotational_speed_rpm": 1812,
+      "torque_nm": 43.8,
+      "tool_wear_min": 66,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1059",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-11-23 19:45:55",
+    "sensor_values": {
+      "air_temperature_k": 302.3,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 1580,
+      "torque_nm": 25.9,
+      "tool_wear_min": 222,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1060",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-14 07:12:22",
+    "sensor_values": {
+      "air_temperature_k": 304.3,
+      "process_temperature_k": 314.8,
+      "rotational_speed_rpm": 1525,
+      "torque_nm": 68.9,
+      "tool_wear_min": 35,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1061",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-09-26 15:09:18",
+    "sensor_values": {
+      "air_temperature_k": 300.6,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 1980,
+      "torque_nm": 50.9,
+      "tool_wear_min": 169,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1062",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-27 13:13:49",
+    "sensor_values": {
+      "air_temperature_k": 296.4,
+      "process_temperature_k": 307.9,
+      "rotational_speed_rpm": 1543,
+      "torque_nm": 24.0,
+      "tool_wear_min": 70,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1063",
+    "equipment_id": "EQ-BF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-03-26 13:21:21",
+    "sensor_values": {
+      "air_temperature_k": 297.5,
+      "process_temperature_k": 308.9,
+      "rotational_speed_rpm": 2883,
+      "torque_nm": 28.8,
+      "tool_wear_min": 107,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1064",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-19 14:57:48",
+    "sensor_values": {
+      "air_temperature_k": 295.5,
+      "process_temperature_k": 304.4,
+      "rotational_speed_rpm": 1393,
+      "torque_nm": 40.7,
+      "tool_wear_min": 29,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1065",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-09 04:34:00",
+    "sensor_values": {
+      "air_temperature_k": 295.5,
+      "process_temperature_k": 307.0,
+      "rotational_speed_rpm": 2687,
+      "torque_nm": 34.7,
+      "tool_wear_min": 23,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1066",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-02-24 01:40:48",
+    "sensor_values": {
+      "air_temperature_k": 299.4,
+      "process_temperature_k": 310.9,
+      "rotational_speed_rpm": 2885,
+      "torque_nm": 17.4,
+      "tool_wear_min": 137,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10030",
+      "C10046",
+      "C10143",
+      "C10158",
+      "C10298"
+    ],
+    "impacted_failed_tests": 12
+  },
+  {
+    "failure_id": "F1067",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-12 03:29:33",
+    "sensor_values": {
+      "air_temperature_k": 304.3,
+      "process_temperature_k": 316.2,
+      "rotational_speed_rpm": 2807,
+      "torque_nm": 54.4,
+      "tool_wear_min": 2,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1068",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-10 23:22:58",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 312.0,
+      "rotational_speed_rpm": 1681,
+      "torque_nm": 33.7,
+      "tool_wear_min": 227,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10045",
+      "C10120",
+      "C10145",
+      "C10215",
+      "C10246",
+      "C10324",
+      "C10332",
+      "C10341",
+      "C10383"
+    ],
+    "impacted_failed_tests": 18
+  },
+  {
+    "failure_id": "F1069",
+    "equipment_id": "EQ-CR-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-04-23 14:28:54",
+    "sensor_values": {
+      "air_temperature_k": 302.6,
+      "process_temperature_k": 312.1,
+      "rotational_speed_rpm": 1243,
+      "torque_nm": 52.3,
+      "tool_wear_min": 165,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1070",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-09 23:10:42",
+    "sensor_values": {
+      "air_temperature_k": 295.9,
+      "process_temperature_k": 306.4,
+      "rotational_speed_rpm": 2811,
+      "torque_nm": 48.9,
+      "tool_wear_min": 44,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1071",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-11-02 03:14:40",
+    "sensor_values": {
+      "air_temperature_k": 296.3,
+      "process_temperature_k": 305.4,
+      "rotational_speed_rpm": 1444,
+      "torque_nm": 67.4,
+      "tool_wear_min": 221,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1072",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-01 01:34:37",
+    "sensor_values": {
+      "air_temperature_k": 298.5,
+      "process_temperature_k": 310.3,
+      "rotational_speed_rpm": 2572,
+      "torque_nm": 56.2,
+      "tool_wear_min": 141,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1073",
+    "equipment_id": "EQ-CR-02",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-02-05 08:10:09",
+    "sensor_values": {
+      "air_temperature_k": 301.3,
+      "process_temperature_k": 311.8,
+      "rotational_speed_rpm": 1580,
+      "torque_nm": 55.6,
+      "tool_wear_min": 5,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1074",
+    "equipment_id": "EQ-BF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-12-24 08:08:03",
+    "sensor_values": {
+      "air_temperature_k": 303.8,
+      "process_temperature_k": 314.2,
+      "rotational_speed_rpm": 2206,
+      "torque_nm": 20.9,
+      "tool_wear_min": 85,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1075",
+    "equipment_id": "EQ-BF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-03-16 09:47:22",
+    "sensor_values": {
+      "air_temperature_k": 303.2,
+      "process_temperature_k": 315.1,
+      "rotational_speed_rpm": 1398,
+      "torque_nm": 34.0,
+      "tool_wear_min": 34,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1076",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-03-13 06:17:03",
+    "sensor_values": {
+      "air_temperature_k": 299.6,
+      "process_temperature_k": 309.6,
+      "rotational_speed_rpm": 1893,
+      "torque_nm": 46.8,
+      "tool_wear_min": 136,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10180",
+      "C10204",
+      "C10239"
+    ],
+    "impacted_failed_tests": 7
+  },
+  {
+    "failure_id": "F1077",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-10-19 21:44:56",
+    "sensor_values": {
+      "air_temperature_k": 298.3,
+      "process_temperature_k": 309.5,
+      "rotational_speed_rpm": 2704,
+      "torque_nm": 76.6,
+      "tool_wear_min": 95,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1078",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-02-17 16:24:38",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 314.2,
+      "rotational_speed_rpm": 2659,
+      "torque_nm": 40.9,
+      "tool_wear_min": 20,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1079",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-10-11 19:50:21",
+    "sensor_values": {
+      "air_temperature_k": 304.2,
+      "process_temperature_k": 316.1,
+      "rotational_speed_rpm": 2768,
+      "torque_nm": 22.6,
+      "tool_wear_min": 253,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1080",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-17 22:02:07",
+    "sensor_values": {
+      "air_temperature_k": 298.3,
+      "process_temperature_k": 308.0,
+      "rotational_speed_rpm": 1928,
+      "torque_nm": 61.8,
+      "tool_wear_min": 71,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1081",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-11-13 13:00:16",
+    "sensor_values": {
+      "air_temperature_k": 301.4,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 1326,
+      "torque_nm": 7.8,
+      "tool_wear_min": 158,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1082",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-09-12 14:56:05",
+    "sensor_values": {
+      "air_temperature_k": 302.5,
+      "process_temperature_k": 311.5,
+      "rotational_speed_rpm": 1980,
+      "torque_nm": 11.4,
+      "tool_wear_min": 43,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1083",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-14 16:21:57",
+    "sensor_values": {
+      "air_temperature_k": 297.9,
+      "process_temperature_k": 308.7,
+      "rotational_speed_rpm": 1314,
+      "torque_nm": 7.0,
+      "tool_wear_min": 228,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1084",
+    "equipment_id": "EQ-CR-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-05-24 15:38:29",
+    "sensor_values": {
+      "air_temperature_k": 295.8,
+      "process_temperature_k": 304.9,
+      "rotational_speed_rpm": 1649,
+      "torque_nm": 6.2,
+      "tool_wear_min": 182,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1085",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-01-02 04:45:47",
+    "sensor_values": {
+      "air_temperature_k": 299.5,
+      "process_temperature_k": 308.6,
+      "rotational_speed_rpm": 1172,
+      "torque_nm": 6.0,
+      "tool_wear_min": 105,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1086",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-31 19:19:53",
+    "sensor_values": {
+      "air_temperature_k": 304.1,
+      "process_temperature_k": 315.0,
+      "rotational_speed_rpm": 2351,
+      "torque_nm": 73.4,
+      "tool_wear_min": 159,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1087",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-07-29 12:52:39",
+    "sensor_values": {
+      "air_temperature_k": 297.0,
+      "process_temperature_k": 308.7,
+      "rotational_speed_rpm": 2336,
+      "torque_nm": 65.0,
+      "tool_wear_min": 65,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1088",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-04-24 03:35:41",
+    "sensor_values": {
+      "air_temperature_k": 295.5,
+      "process_temperature_k": 306.0,
+      "rotational_speed_rpm": 1234,
+      "torque_nm": 28.0,
+      "tool_wear_min": 162,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10082",
+      "C10098",
+      "C10123",
+      "C10155",
+      "C10173",
+      "C10206",
+      "C10236",
+      "C10278",
+      "C10388"
+    ],
+    "impacted_failed_tests": 23
+  },
+  {
+    "failure_id": "F1089",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-08-26 16:44:42",
+    "sensor_values": {
+      "air_temperature_k": 298.2,
+      "process_temperature_k": 307.4,
+      "rotational_speed_rpm": 2694,
+      "torque_nm": 26.4,
+      "tool_wear_min": 143,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1090",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-26 23:13:17",
+    "sensor_values": {
+      "air_temperature_k": 300.7,
+      "process_temperature_k": 311.1,
+      "rotational_speed_rpm": 1995,
+      "torque_nm": 60.2,
+      "tool_wear_min": 86,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1091",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-05-30 10:51:49",
+    "sensor_values": {
+      "air_temperature_k": 298.2,
+      "process_temperature_k": 309.9,
+      "rotational_speed_rpm": 2592,
+      "torque_nm": 27.3,
+      "tool_wear_min": 195,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1092",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-05-05 09:33:02",
+    "sensor_values": {
+      "air_temperature_k": 304.2,
+      "process_temperature_k": 313.0,
+      "rotational_speed_rpm": 2741,
+      "torque_nm": 45.9,
+      "tool_wear_min": 253,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10073",
+      "C10362",
+      "C10377",
+      "C10382"
+    ],
+    "impacted_failed_tests": 8
+  },
+  {
+    "failure_id": "F1093",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-01-13 16:13:14",
+    "sensor_values": {
+      "air_temperature_k": 301.4,
+      "process_temperature_k": 311.5,
+      "rotational_speed_rpm": 1985,
+      "torque_nm": 23.8,
+      "tool_wear_min": 55,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1094",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-02-19 14:24:02",
+    "sensor_values": {
+      "air_temperature_k": 298.3,
+      "process_temperature_k": 308.6,
+      "rotational_speed_rpm": 1968,
+      "torque_nm": 47.2,
+      "tool_wear_min": 221,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1095",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-04-17 08:48:05",
+    "sensor_values": {
+      "air_temperature_k": 295.3,
+      "process_temperature_k": 306.8,
+      "rotational_speed_rpm": 2660,
+      "torque_nm": 11.9,
+      "tool_wear_min": 244,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1096",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-06-03 03:15:59",
+    "sensor_values": {
+      "air_temperature_k": 299.9,
+      "process_temperature_k": 310.5,
+      "rotational_speed_rpm": 2684,
+      "torque_nm": 58.1,
+      "tool_wear_min": 154,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1097",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-10-02 00:45:29",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 313.7,
+      "rotational_speed_rpm": 2003,
+      "torque_nm": 69.1,
+      "tool_wear_min": 148,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1098",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-02-03 15:55:29",
+    "sensor_values": {
+      "air_temperature_k": 297.0,
+      "process_temperature_k": 305.8,
+      "rotational_speed_rpm": 1727,
+      "torque_nm": 76.2,
+      "tool_wear_min": 243,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10068",
+      "C10240",
+      "C10384"
+    ],
+    "impacted_failed_tests": 4
+  },
+  {
+    "failure_id": "F1099",
+    "equipment_id": "EQ-RHF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-06-11 22:00:50",
+    "sensor_values": {
+      "air_temperature_k": 299.0,
+      "process_temperature_k": 307.8,
+      "rotational_speed_rpm": 2774,
+      "torque_nm": 7.2,
+      "tool_wear_min": 173,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1100",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-12-09 10:01:34",
+    "sensor_values": {
+      "air_temperature_k": 300.5,
+      "process_temperature_k": 310.9,
+      "rotational_speed_rpm": 2417,
+      "torque_nm": 28.9,
+      "tool_wear_min": 4,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1101",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-21 23:45:06",
+    "sensor_values": {
+      "air_temperature_k": 297.4,
+      "process_temperature_k": 307.5,
+      "rotational_speed_rpm": 2657,
+      "torque_nm": 7.0,
+      "tool_wear_min": 17,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1102",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-30 17:38:04",
+    "sensor_values": {
+      "air_temperature_k": 301.4,
+      "process_temperature_k": 310.1,
+      "rotational_speed_rpm": 2389,
+      "torque_nm": 17.6,
+      "tool_wear_min": 69,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1103",
+    "equipment_id": "EQ-EAF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-06-26 13:19:11",
+    "sensor_values": {
+      "air_temperature_k": 297.0,
+      "process_temperature_k": 308.7,
+      "rotational_speed_rpm": 1768,
+      "torque_nm": 22.0,
+      "tool_wear_min": 123,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1104",
+    "equipment_id": "EQ-EAF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-30 19:34:18",
+    "sensor_values": {
+      "air_temperature_k": 301.1,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 2682,
+      "torque_nm": 17.8,
+      "tool_wear_min": 220,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1105",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-01-16 12:47:47",
+    "sensor_values": {
+      "air_temperature_k": 299.6,
+      "process_temperature_k": 309.0,
+      "rotational_speed_rpm": 1639,
+      "torque_nm": 24.4,
+      "tool_wear_min": 85,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1106",
+    "equipment_id": "EQ-BF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-10-25 18:39:30",
+    "sensor_values": {
+      "air_temperature_k": 295.7,
+      "process_temperature_k": 306.3,
+      "rotational_speed_rpm": 1379,
+      "torque_nm": 66.6,
+      "tool_wear_min": 238,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1107",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-03 03:46:09",
+    "sensor_values": {
+      "air_temperature_k": 299.6,
+      "process_temperature_k": 309.3,
+      "rotational_speed_rpm": 2771,
+      "torque_nm": 63.0,
+      "tool_wear_min": 52,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1108",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-11-02 13:51:46",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 311.2,
+      "rotational_speed_rpm": 2390,
+      "torque_nm": 44.3,
+      "tool_wear_min": 87,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1109",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-06-02 04:57:04",
+    "sensor_values": {
+      "air_temperature_k": 303.2,
+      "process_temperature_k": 311.7,
+      "rotational_speed_rpm": 1186,
+      "torque_nm": 12.5,
+      "tool_wear_min": 8,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1110",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "random_failure",
+    "timestamp": "2026-06-27 17:39:01",
+    "sensor_values": {
+      "air_temperature_k": 300.8,
+      "process_temperature_k": 310.8,
+      "rotational_speed_rpm": 1170,
+      "torque_nm": 37.1,
+      "tool_wear_min": 182,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1111",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-08-04 01:04:08",
+    "sensor_values": {
+      "air_temperature_k": 300.9,
+      "process_temperature_k": 309.7,
+      "rotational_speed_rpm": 2554,
+      "torque_nm": 35.9,
+      "tool_wear_min": 4,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1112",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-24 06:43:08",
+    "sensor_values": {
+      "air_temperature_k": 295.6,
+      "process_temperature_k": 307.1,
+      "rotational_speed_rpm": 1417,
+      "torque_nm": 33.9,
+      "tool_wear_min": 125,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1113",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-24 18:32:56",
+    "sensor_values": {
+      "air_temperature_k": 304.5,
+      "process_temperature_k": 313.4,
+      "rotational_speed_rpm": 1521,
+      "torque_nm": 63.8,
+      "tool_wear_min": 80,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1114",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-05-11 20:57:41",
+    "sensor_values": {
+      "air_temperature_k": 295.4,
+      "process_temperature_k": 304.5,
+      "rotational_speed_rpm": 2166,
+      "torque_nm": 54.1,
+      "tool_wear_min": 227,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10005",
+      "C10040",
+      "C10081",
+      "C10108",
+      "C10166",
+      "C10197",
+      "C10205",
+      "C10207",
+      "C10229",
+      "C10340",
+      "C10343",
+      "C10374",
+      "C10376"
+    ],
+    "impacted_failed_tests": 29
+  },
+  {
+    "failure_id": "F1115",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-04-17 04:38:17",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 2062,
+      "torque_nm": 44.7,
+      "tool_wear_min": 192,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1116",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-03-11 15:11:54",
+    "sensor_values": {
+      "air_temperature_k": 296.7,
+      "process_temperature_k": 305.7,
+      "rotational_speed_rpm": 1355,
+      "torque_nm": 6.4,
+      "tool_wear_min": 62,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1117",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-03-23 10:47:02",
+    "sensor_values": {
+      "air_temperature_k": 298.9,
+      "process_temperature_k": 309.1,
+      "rotational_speed_rpm": 2134,
+      "torque_nm": 6.4,
+      "tool_wear_min": 38,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10050",
+      "C10148",
+      "C10279"
+    ],
+    "impacted_failed_tests": 5
+  },
+  {
+    "failure_id": "F1118",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-29 20:14:17",
+    "sensor_values": {
+      "air_temperature_k": 299.4,
+      "process_temperature_k": 310.9,
+      "rotational_speed_rpm": 2576,
+      "torque_nm": 29.8,
+      "tool_wear_min": 30,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1119",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-08-07 20:10:06",
+    "sensor_values": {
+      "air_temperature_k": 302.9,
+      "process_temperature_k": 311.5,
+      "rotational_speed_rpm": 1679,
+      "torque_nm": 49.9,
+      "tool_wear_min": 227,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1120",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-08-07 21:59:04",
+    "sensor_values": {
+      "air_temperature_k": 297.5,
+      "process_temperature_k": 306.9,
+      "rotational_speed_rpm": 1603,
+      "torque_nm": 14.8,
+      "tool_wear_min": 41,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1121",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-10-25 16:01:45",
+    "sensor_values": {
+      "air_temperature_k": 296.3,
+      "process_temperature_k": 306.4,
+      "rotational_speed_rpm": 2865,
+      "torque_nm": 18.7,
+      "tool_wear_min": 224,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1122",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-28 04:24:15",
+    "sensor_values": {
+      "air_temperature_k": 299.3,
+      "process_temperature_k": 311.2,
+      "rotational_speed_rpm": 1829,
+      "torque_nm": 66.1,
+      "tool_wear_min": 86,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1123",
+    "equipment_id": "EQ-HBS-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-10-27 16:03:33",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 311.4,
+      "rotational_speed_rpm": 2323,
+      "torque_nm": 25.5,
+      "tool_wear_min": 126,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1124",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-09-25 09:12:47",
+    "sensor_values": {
+      "air_temperature_k": 299.3,
+      "process_temperature_k": 309.6,
+      "rotational_speed_rpm": 2332,
+      "torque_nm": 32.2,
+      "tool_wear_min": 91,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1125",
+    "equipment_id": "EQ-SPF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-06-23 19:09:38",
+    "sensor_values": {
+      "air_temperature_k": 299.4,
+      "process_temperature_k": 308.2,
+      "rotational_speed_rpm": 1181,
+      "torque_nm": 47.0,
+      "tool_wear_min": 213,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1126",
+    "equipment_id": "EQ-SPF-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-09-18 16:57:38",
+    "sensor_values": {
+      "air_temperature_k": 299.9,
+      "process_temperature_k": 311.0,
+      "rotational_speed_rpm": 1575,
+      "torque_nm": 68.1,
+      "tool_wear_min": 215,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1127",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-01-11 09:35:24",
+    "sensor_values": {
+      "air_temperature_k": 299.4,
+      "process_temperature_k": 310.1,
+      "rotational_speed_rpm": 2867,
+      "torque_nm": 43.5,
+      "tool_wear_min": 253,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10017",
+      "C10291"
+    ],
+    "impacted_failed_tests": 6
+  },
+  {
+    "failure_id": "F1128",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-06-08 02:47:00",
+    "sensor_values": {
+      "air_temperature_k": 301.0,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 2218,
+      "torque_nm": 64.1,
+      "tool_wear_min": 172,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10024",
+      "C10042",
+      "C10078",
+      "C10090",
+      "C10121",
+      "C10139",
+      "C10147",
+      "C10170",
+      "C10210",
+      "C10225",
+      "C10350"
+    ],
+    "impacted_failed_tests": 19
+  },
+  {
+    "failure_id": "F1129",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-06-08 09:36:26",
+    "sensor_values": {
+      "air_temperature_k": 298.2,
+      "process_temperature_k": 309.5,
+      "rotational_speed_rpm": 2831,
+      "torque_nm": 27.4,
+      "tool_wear_min": 198,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10025",
+      "C10140",
+      "C10271"
+    ],
+    "impacted_failed_tests": 4
+  },
+  {
+    "failure_id": "F1130",
+    "equipment_id": "EQ-RHF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-07-23 19:48:17",
+    "sensor_values": {
+      "air_temperature_k": 297.2,
+      "process_temperature_k": 307.3,
+      "rotational_speed_rpm": 2802,
+      "torque_nm": 43.2,
+      "tool_wear_min": 15,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1131",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-08-30 06:58:41",
+    "sensor_values": {
+      "air_temperature_k": 298.3,
+      "process_temperature_k": 307.8,
+      "rotational_speed_rpm": 2026,
+      "torque_nm": 58.2,
+      "tool_wear_min": 229,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1132",
+    "equipment_id": "EQ-RHF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-08-15 08:59:51",
+    "sensor_values": {
+      "air_temperature_k": 300.4,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 2229,
+      "torque_nm": 17.9,
+      "tool_wear_min": 138,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1133",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-17 00:24:16",
+    "sensor_values": {
+      "air_temperature_k": 296.7,
+      "process_temperature_k": 306.6,
+      "rotational_speed_rpm": 2449,
+      "torque_nm": 52.6,
+      "tool_wear_min": 71,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1134",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-10-24 05:40:53",
+    "sensor_values": {
+      "air_temperature_k": 303.3,
+      "process_temperature_k": 314.8,
+      "rotational_speed_rpm": 2571,
+      "torque_nm": 73.8,
+      "tool_wear_min": 73,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1135",
+    "equipment_id": "EQ-HBS-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-01-05 04:29:29",
+    "sensor_values": {
+      "air_temperature_k": 301.8,
+      "process_temperature_k": 313.1,
+      "rotational_speed_rpm": 1895,
+      "torque_nm": 73.2,
+      "tool_wear_min": 156,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1136",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-08-13 12:22:11",
+    "sensor_values": {
+      "air_temperature_k": 298.1,
+      "process_temperature_k": 308.7,
+      "rotational_speed_rpm": 2032,
+      "torque_nm": 38.7,
+      "tool_wear_min": 77,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1137",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-11-07 07:45:02",
+    "sensor_values": {
+      "air_temperature_k": 300.3,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 2703,
+      "torque_nm": 41.7,
+      "tool_wear_min": 137,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1138",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-01-31 03:54:26",
+    "sensor_values": {
+      "air_temperature_k": 297.0,
+      "process_temperature_k": 308.3,
+      "rotational_speed_rpm": 2215,
+      "torque_nm": 26.4,
+      "tool_wear_min": 30,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10076",
+      "C10124",
+      "C10320",
+      "C10344",
+      "C10400"
+    ],
+    "impacted_failed_tests": 7
+  },
+  {
+    "failure_id": "F1139",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-12-17 04:29:45",
+    "sensor_values": {
+      "air_temperature_k": 301.3,
+      "process_temperature_k": 312.7,
+      "rotational_speed_rpm": 1625,
+      "torque_nm": 31.3,
+      "tool_wear_min": 1,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1140",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-07-10 18:36:11",
+    "sensor_values": {
+      "air_temperature_k": 300.0,
+      "process_temperature_k": 309.0,
+      "rotational_speed_rpm": 2054,
+      "torque_nm": 4.0,
+      "tool_wear_min": 56,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1141",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-05-23 00:32:13",
+    "sensor_values": {
+      "air_temperature_k": 303.8,
+      "process_temperature_k": 314.9,
+      "rotational_speed_rpm": 2449,
+      "torque_nm": 13.8,
+      "tool_wear_min": 180,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1142",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-25 03:06:07",
+    "sensor_values": {
+      "air_temperature_k": 299.6,
+      "process_temperature_k": 311.1,
+      "rotational_speed_rpm": 1999,
+      "torque_nm": 64.0,
+      "tool_wear_min": 25,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1143",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-29 21:49:54",
+    "sensor_values": {
+      "air_temperature_k": 302.9,
+      "process_temperature_k": 312.1,
+      "rotational_speed_rpm": 1792,
+      "torque_nm": 33.6,
+      "tool_wear_min": 145,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1144",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-08-21 17:21:08",
+    "sensor_values": {
+      "air_temperature_k": 296.1,
+      "process_temperature_k": 306.7,
+      "rotational_speed_rpm": 1458,
+      "torque_nm": 58.0,
+      "tool_wear_min": 180,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1145",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-05-14 07:39:26",
+    "sensor_values": {
+      "air_temperature_k": 302.4,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 1713,
+      "torque_nm": 59.3,
+      "tool_wear_min": 82,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10026",
+      "C10074",
+      "C10352"
+    ],
+    "impacted_failed_tests": 5
+  },
+  {
+    "failure_id": "F1146",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-12-28 16:33:48",
+    "sensor_values": {
+      "air_temperature_k": 301.6,
+      "process_temperature_k": 312.2,
+      "rotational_speed_rpm": 1944,
+      "torque_nm": 36.9,
+      "tool_wear_min": 66,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1147",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-29 14:32:50",
+    "sensor_values": {
+      "air_temperature_k": 302.5,
+      "process_temperature_k": 313.9,
+      "rotational_speed_rpm": 1864,
+      "torque_nm": 64.8,
+      "tool_wear_min": 34,
+      "source_failure_flag": "PWF"
+    },
+    "impacted_coil_ids": [
+      "C10031",
+      "C10137",
+      "C10174",
+      "C10318",
+      "C10333",
+      "C10349",
+      "C10361"
+    ],
+    "impacted_failed_tests": 12
+  },
+  {
+    "failure_id": "F1148",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-04-09 16:51:11",
+    "sensor_values": {
+      "air_temperature_k": 300.9,
+      "process_temperature_k": 312.7,
+      "rotational_speed_rpm": 2318,
+      "torque_nm": 61.8,
+      "tool_wear_min": 157,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1149",
+    "equipment_id": "EQ-RHF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-28 16:32:49",
+    "sensor_values": {
+      "air_temperature_k": 301.1,
+      "process_temperature_k": 311.5,
+      "rotational_speed_rpm": 1564,
+      "torque_nm": 40.8,
+      "tool_wear_min": 170,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1150",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-27 12:22:32",
+    "sensor_values": {
+      "air_temperature_k": 303.6,
+      "process_temperature_k": 312.4,
+      "rotational_speed_rpm": 2555,
+      "torque_nm": 56.7,
+      "tool_wear_min": 167,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1151",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-04-26 09:44:24",
+    "sensor_values": {
+      "air_temperature_k": 296.0,
+      "process_temperature_k": 304.6,
+      "rotational_speed_rpm": 1629,
+      "torque_nm": 17.1,
+      "tool_wear_min": 149,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1152",
+    "equipment_id": "EQ-EAF-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-02-18 15:43:18",
+    "sensor_values": {
+      "air_temperature_k": 297.1,
+      "process_temperature_k": 306.7,
+      "rotational_speed_rpm": 2743,
+      "torque_nm": 69.5,
+      "tool_wear_min": 130,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1153",
+    "equipment_id": "EQ-COL-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-25 22:57:31",
+    "sensor_values": {
+      "air_temperature_k": 295.8,
+      "process_temperature_k": 304.6,
+      "rotational_speed_rpm": 2481,
+      "torque_nm": 53.7,
+      "tool_wear_min": 34,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1154",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-23 07:24:23",
+    "sensor_values": {
+      "air_temperature_k": 303.2,
+      "process_temperature_k": 313.9,
+      "rotational_speed_rpm": 1886,
+      "torque_nm": 32.0,
+      "tool_wear_min": 108,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1155",
+    "equipment_id": "EQ-EAF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-08 04:00:23",
+    "sensor_values": {
+      "air_temperature_k": 298.9,
+      "process_temperature_k": 309.5,
+      "rotational_speed_rpm": 1917,
+      "torque_nm": 44.3,
+      "tool_wear_min": 106,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1156",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-08-03 03:41:15",
+    "sensor_values": {
+      "air_temperature_k": 303.3,
+      "process_temperature_k": 314.0,
+      "rotational_speed_rpm": 2437,
+      "torque_nm": 17.1,
+      "tool_wear_min": 94,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1157",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-12-15 01:03:37",
+    "sensor_values": {
+      "air_temperature_k": 298.2,
+      "process_temperature_k": 307.8,
+      "rotational_speed_rpm": 2492,
+      "torque_nm": 8.9,
+      "tool_wear_min": 71,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1158",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-11-18 07:11:57",
+    "sensor_values": {
+      "air_temperature_k": 302.7,
+      "process_temperature_k": 313.8,
+      "rotational_speed_rpm": 2640,
+      "torque_nm": 14.2,
+      "tool_wear_min": 244,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1159",
+    "equipment_id": "EQ-CR-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-07-06 08:51:10",
+    "sensor_values": {
+      "air_temperature_k": 297.2,
+      "process_temperature_k": 308.9,
+      "rotational_speed_rpm": 2794,
+      "torque_nm": 28.7,
+      "tool_wear_min": 160,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1160",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-12-08 06:18:27",
+    "sensor_values": {
+      "air_temperature_k": 299.9,
+      "process_temperature_k": 310.8,
+      "rotational_speed_rpm": 2262,
+      "torque_nm": 48.3,
+      "tool_wear_min": 4,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1161",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-07-11 07:52:45",
+    "sensor_values": {
+      "air_temperature_k": 299.8,
+      "process_temperature_k": 311.0,
+      "rotational_speed_rpm": 1737,
+      "torque_nm": 70.7,
+      "tool_wear_min": 52,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1162",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-05-07 01:30:37",
+    "sensor_values": {
+      "air_temperature_k": 300.0,
+      "process_temperature_k": 311.8,
+      "rotational_speed_rpm": 1280,
+      "torque_nm": 16.3,
+      "tool_wear_min": 82,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1163",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-08-21 17:33:00",
+    "sensor_values": {
+      "air_temperature_k": 301.5,
+      "process_temperature_k": 312.8,
+      "rotational_speed_rpm": 1189,
+      "torque_nm": 36.1,
+      "tool_wear_min": 66,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1164",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-12-13 03:46:33",
+    "sensor_values": {
+      "air_temperature_k": 297.5,
+      "process_temperature_k": 306.0,
+      "rotational_speed_rpm": 2666,
+      "torque_nm": 6.8,
+      "tool_wear_min": 242,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1165",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-09-16 04:24:03",
+    "sensor_values": {
+      "air_temperature_k": 301.3,
+      "process_temperature_k": 312.6,
+      "rotational_speed_rpm": 2331,
+      "torque_nm": 16.4,
+      "tool_wear_min": 107,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1166",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-02-01 15:48:39",
+    "sensor_values": {
+      "air_temperature_k": 299.5,
+      "process_temperature_k": 310.1,
+      "rotational_speed_rpm": 2619,
+      "torque_nm": 58.6,
+      "tool_wear_min": 56,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10183"
+    ],
+    "impacted_failed_tests": 2
+  },
+  {
+    "failure_id": "F1167",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-07-07 20:54:10",
+    "sensor_values": {
+      "air_temperature_k": 299.8,
+      "process_temperature_k": 309.8,
+      "rotational_speed_rpm": 2865,
+      "torque_nm": 25.3,
+      "tool_wear_min": 162,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1168",
+    "equipment_id": "EQ-RMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-04-30 11:17:33",
+    "sensor_values": {
+      "air_temperature_k": 299.6,
+      "process_temperature_k": 310.0,
+      "rotational_speed_rpm": 1686,
+      "torque_nm": 38.0,
+      "tool_wear_min": 83,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10054",
+      "C10266"
+    ],
+    "impacted_failed_tests": 4
+  },
+  {
+    "failure_id": "F1169",
+    "equipment_id": "EQ-HBS-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-12-14 12:22:27",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 310.9,
+      "rotational_speed_rpm": 2796,
+      "torque_nm": 21.3,
+      "tool_wear_min": 161,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1170",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-03-10 08:06:59",
+    "sensor_values": {
+      "air_temperature_k": 296.6,
+      "process_temperature_k": 305.3,
+      "rotational_speed_rpm": 2007,
+      "torque_nm": 66.5,
+      "tool_wear_min": 238,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10012",
+      "C10044",
+      "C10067",
+      "C10070",
+      "C10111",
+      "C10150",
+      "C10192",
+      "C10196",
+      "C10209",
+      "C10238",
+      "C10330"
+    ],
+    "impacted_failed_tests": 22
+  },
+  {
+    "failure_id": "F1171",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-07-06 00:22:27",
+    "sensor_values": {
+      "air_temperature_k": 298.7,
+      "process_temperature_k": 309.3,
+      "rotational_speed_rpm": 1845,
+      "torque_nm": 38.8,
+      "tool_wear_min": 66,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1172",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-02-24 05:53:23",
+    "sensor_values": {
+      "air_temperature_k": 299.3,
+      "process_temperature_k": 308.2,
+      "rotational_speed_rpm": 2622,
+      "torque_nm": 23.0,
+      "tool_wear_min": 102,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1173",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-11-11 19:30:09",
+    "sensor_values": {
+      "air_temperature_k": 298.5,
+      "process_temperature_k": 307.8,
+      "rotational_speed_rpm": 1263,
+      "torque_nm": 30.5,
+      "tool_wear_min": 48,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1174",
+    "equipment_id": "EQ-FMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-09-25 13:43:47",
+    "sensor_values": {
+      "air_temperature_k": 303.6,
+      "process_temperature_k": 315.5,
+      "rotational_speed_rpm": 2329,
+      "torque_nm": 36.3,
+      "tool_wear_min": 57,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1175",
+    "equipment_id": "EQ-LF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-03-29 12:40:18",
+    "sensor_values": {
+      "air_temperature_k": 302.1,
+      "process_temperature_k": 312.7,
+      "rotational_speed_rpm": 1779,
+      "torque_nm": 63.1,
+      "tool_wear_min": 45,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1176",
+    "equipment_id": "EQ-CR-03",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-03 02:32:28",
+    "sensor_values": {
+      "air_temperature_k": 302.4,
+      "process_temperature_k": 314.1,
+      "rotational_speed_rpm": 2309,
+      "torque_nm": 23.1,
+      "tool_wear_min": 1,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1177",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-25 18:47:04",
+    "sensor_values": {
+      "air_temperature_k": 296.0,
+      "process_temperature_k": 306.1,
+      "rotational_speed_rpm": 2324,
+      "torque_nm": 67.6,
+      "tool_wear_min": 95,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1178",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-03-30 07:05:09",
+    "sensor_values": {
+      "air_temperature_k": 300.7,
+      "process_temperature_k": 311.9,
+      "rotational_speed_rpm": 1991,
+      "torque_nm": 76.3,
+      "tool_wear_min": 61,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1179",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-11-02 17:51:16",
+    "sensor_values": {
+      "air_temperature_k": 301.2,
+      "process_temperature_k": 310.1,
+      "rotational_speed_rpm": 2855,
+      "torque_nm": 18.8,
+      "tool_wear_min": 214,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1180",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-10-19 12:14:19",
+    "sensor_values": {
+      "air_temperature_k": 301.5,
+      "process_temperature_k": 312.5,
+      "rotational_speed_rpm": 1785,
+      "torque_nm": 69.1,
+      "tool_wear_min": 141,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1181",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-03-22 12:38:37",
+    "sensor_values": {
+      "air_temperature_k": 299.4,
+      "process_temperature_k": 309.2,
+      "rotational_speed_rpm": 2672,
+      "torque_nm": 35.9,
+      "tool_wear_min": 210,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1182",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-06-27 21:27:22",
+    "sensor_values": {
+      "air_temperature_k": 300.6,
+      "process_temperature_k": 311.6,
+      "rotational_speed_rpm": 2023,
+      "torque_nm": 18.7,
+      "tool_wear_min": 155,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10048",
+      "C10242",
+      "C10337",
+      "C10389"
+    ],
+    "impacted_failed_tests": 12
+  },
+  {
+    "failure_id": "F1183",
+    "equipment_id": "EQ-FMS-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2025-08-21 14:57:47",
+    "sensor_values": {
+      "air_temperature_k": 300.8,
+      "process_temperature_k": 309.4,
+      "rotational_speed_rpm": 1876,
+      "torque_nm": 50.2,
+      "tool_wear_min": 216,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1184",
+    "equipment_id": "EQ-COL-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-02-17 18:48:40",
+    "sensor_values": {
+      "air_temperature_k": 299.5,
+      "process_temperature_k": 309.3,
+      "rotational_speed_rpm": 1810,
+      "torque_nm": 55.8,
+      "tool_wear_min": 168,
+      "source_failure_flag": "TWF"
+    },
+    "impacted_coil_ids": [
+      "C10034",
+      "C10041",
+      "C10250",
+      "C10256",
+      "C10299",
+      "C10334"
+    ],
+    "impacted_failed_tests": 14
+  },
+  {
+    "failure_id": "F1185",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-11-08 18:54:49",
+    "sensor_values": {
+      "air_temperature_k": 298.7,
+      "process_temperature_k": 308.0,
+      "rotational_speed_rpm": 2532,
+      "torque_nm": 76.3,
+      "tool_wear_min": 34,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1186",
+    "equipment_id": "EQ-RHF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2025-11-12 16:49:05",
+    "sensor_values": {
+      "air_temperature_k": 297.4,
+      "process_temperature_k": 307.6,
+      "rotational_speed_rpm": 2634,
+      "torque_nm": 51.8,
+      "tool_wear_min": 240,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1187",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-02-18 04:25:11",
+    "sensor_values": {
+      "air_temperature_k": 297.7,
+      "process_temperature_k": 306.5,
+      "rotational_speed_rpm": 2716,
+      "torque_nm": 48.0,
+      "tool_wear_min": 221,
+      "source_failure_flag": "OSF"
+    }
+  },
+  {
+    "failure_id": "F1188",
+    "equipment_id": "EQ-LF-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2026-05-05 09:00:00",
+    "sensor_values": {
+      "air_temperature_k": 300.3,
+      "process_temperature_k": 309.6,
+      "rotational_speed_rpm": 2743,
+      "torque_nm": 69.2,
+      "tool_wear_min": 167,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1189",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-09-13 21:06:14",
+    "sensor_values": {
+      "air_temperature_k": 295.5,
+      "process_temperature_k": 306.3,
+      "rotational_speed_rpm": 2291,
+      "torque_nm": 10.0,
+      "tool_wear_min": 129,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1190",
+    "equipment_id": "EQ-EAF-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-01-02 12:20:28",
+    "sensor_values": {
+      "air_temperature_k": 301.7,
+      "process_temperature_k": 311.4,
+      "rotational_speed_rpm": 1172,
+      "torque_nm": 73.5,
+      "tool_wear_min": 195,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1191",
+    "equipment_id": "EQ-HBS-02",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-03-26 05:21:19",
+    "sensor_values": {
+      "air_temperature_k": 302.2,
+      "process_temperature_k": 311.4,
+      "rotational_speed_rpm": 2310,
+      "torque_nm": 48.9,
+      "tool_wear_min": 122,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1192",
+    "equipment_id": "EQ-HBS-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-02-12 22:04:42",
+    "sensor_values": {
+      "air_temperature_k": 297.4,
+      "process_temperature_k": 309.3,
+      "rotational_speed_rpm": 2812,
+      "torque_nm": 9.3,
+      "tool_wear_min": 63,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1193",
+    "equipment_id": "EQ-CNV-02",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2026-06-11 16:03:16",
+    "sensor_values": {
+      "air_temperature_k": 300.9,
+      "process_temperature_k": 311.1,
+      "rotational_speed_rpm": 2556,
+      "torque_nm": 39.5,
+      "tool_wear_min": 95,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1194",
+    "equipment_id": "EQ-EAF-02",
+    "failure_mode": "random_failure",
+    "timestamp": "2025-11-03 05:00:06",
+    "sensor_values": {
+      "air_temperature_k": 301.8,
+      "process_temperature_k": 310.7,
+      "rotational_speed_rpm": 2136,
+      "torque_nm": 50.5,
+      "tool_wear_min": 121,
+      "source_failure_flag": "RNF"
+    }
+  },
+  {
+    "failure_id": "F1195",
+    "equipment_id": "EQ-CNV-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-12-18 18:10:11",
+    "sensor_values": {
+      "air_temperature_k": 298.0,
+      "process_temperature_k": 307.4,
+      "rotational_speed_rpm": 2272,
+      "torque_nm": 24.7,
+      "tool_wear_min": 215,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1196",
+    "equipment_id": "EQ-RMS-02",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-04-21 16:37:43",
+    "sensor_values": {
+      "air_temperature_k": 297.0,
+      "process_temperature_k": 305.7,
+      "rotational_speed_rpm": 1879,
+      "torque_nm": 25.7,
+      "tool_wear_min": 138,
+      "source_failure_flag": "OSF"
+    },
+    "impacted_coil_ids": [
+      "C10008",
+      "C10049",
+      "C10179",
+      "C10368",
+      "C10387"
+    ],
+    "impacted_failed_tests": 10
+  },
+  {
+    "failure_id": "F1197",
+    "equipment_id": "EQ-CR-01",
+    "failure_mode": "power_failure",
+    "timestamp": "2025-08-05 10:37:14",
+    "sensor_values": {
+      "air_temperature_k": 298.3,
+      "process_temperature_k": 308.4,
+      "rotational_speed_rpm": 1752,
+      "torque_nm": 56.7,
+      "tool_wear_min": 44,
+      "source_failure_flag": "PWF"
+    }
+  },
+  {
+    "failure_id": "F1198",
+    "equipment_id": "EQ-ROT-01",
+    "failure_mode": "tool_wear_failure",
+    "timestamp": "2025-08-10 12:22:12",
+    "sensor_values": {
+      "air_temperature_k": 296.2,
+      "process_temperature_k": 305.9,
+      "rotational_speed_rpm": 1948,
+      "torque_nm": 23.4,
+      "tool_wear_min": 91,
+      "source_failure_flag": "TWF"
+    }
+  },
+  {
+    "failure_id": "F1199",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "heat_dissipation_failure",
+    "timestamp": "2026-05-05 15:52:57",
+    "sensor_values": {
+      "air_temperature_k": 297.7,
+      "process_temperature_k": 308.3,
+      "rotational_speed_rpm": 1780,
+      "torque_nm": 36.4,
+      "tool_wear_min": 151,
+      "source_failure_flag": "HDF"
+    }
+  },
+  {
+    "failure_id": "F1200",
+    "equipment_id": "EQ-CCM-01",
+    "failure_mode": "overstrain_failure",
+    "timestamp": "2026-03-26 00:25:48",
+    "sensor_values": {
+      "air_temperature_k": 295.9,
+      "process_temperature_k": 304.5,
+      "rotational_speed_rpm": 1715,
+      "torque_nm": 26.8,
+      "tool_wear_min": 35,
+      "source_failure_flag": "OSF"
+    }
+  }
+]

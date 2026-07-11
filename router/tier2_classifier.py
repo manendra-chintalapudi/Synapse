@@ -36,7 +36,10 @@ DOCUMENT_PATTERNS = [
     r"\bsop for\b", r"\bsop\b", r"\bmanual\b", r"\bprocedure for\b",
     r"\baccording to\b", r"\bsummar(y|ise|ize)\b",
 ]
-ROOT_CAUSE_PATTERNS = [r"\bwhy\b", r"\broot cause\b"]      # -> graph + documents
+ROOT_CAUSE_PATTERNS = [
+    r"\bwhy\b", r"\broot cause\b", r"\bwhat caused\b", r"\bcause of\b",
+    r"\b(?:factor|gap) contributed\b", r"\bcontributing factor",
+]      # -> graph + documents
 
 # light hints mapping question vocabulary -> structured systems
 SYSTEM_HINTS = [

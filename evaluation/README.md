@@ -31,3 +31,15 @@ python evaluation/graph_completeness_audit.py
 
 The audit verifies node/edge totals, primary-key uniqueness, relationship uniqueness, endpoint
 existence and conformance to every allowed directed pair in the locked ontology schema.
+
+## Domain-expert answer quality
+
+Run the three golden-path questions against a deployment:
+
+```bash
+python evaluation/answer_quality_benchmark.py --base-url https://your-synapse.example
+```
+
+The automated rubric checks factual anchors, citations, the four-layer synthesis contract and
+execution health. It does not masquerade as expert validation: factual correctness and
+operational usefulness remain explicitly `pending` until a domain expert supplies 1–5 scores.

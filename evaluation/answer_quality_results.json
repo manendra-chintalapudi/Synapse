@@ -1,0 +1,198 @@
+{
+  "benchmark": "domain-expert answer quality",
+  "generated_at": "2026-07-11T11:38:23.145545+00:00",
+  "base_url": "https://web-production-a9e7.up.railway.app",
+  "case_count": 3,
+  "automated_mean_pass_rate": 0.333,
+  "expert_validation_complete": false,
+  "scope_note": "Automated rubric results are not a substitute for domain-expert scoring.",
+  "cases": [
+    {
+      "id": "rhf_cooling_circuit_rca",
+      "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+      "expected_fact_patterns": [
+        "F1186",
+        "RCA1186",
+        "EQ-RHF-01|Reheating Furnace #?1",
+        "insufficient heat dissipation|cooling (?:airflow|flow)",
+        "PROC-022",
+        "cooling/lubrication verification|Step 4",
+        "temperature-differential alarm|restored cooling circuit"
+      ],
+      "expected_source_layers": [
+        "Graph",
+        "RAG"
+      ],
+      "expected_role": "maintenance",
+      "ground_truth": "ontology/nodes/failure.json:F1186 + ontology/nodes/rca.json:RCA1186",
+      "response": {
+        "answer": "**Direct answer:**  \nThe available evidence does not contain any record of failure\u202fF1186, its cause, or a linked procedure gap, so I cannot state what caused it or which step was missed.  \n\n**Insight:**  \nAll supplied data sources\u2014Neo4j graph (showing no relationships), structured ERP/SCADA/QMS aggregates, and the four retrieved work\u2011order narratives\u2014refer only to other failures (F1030, F1166, F1174, F1111) and generic equipment/status metrics. There is no mention of F1186 in any DFS/Trino table, RAG document, or graph node/edge, meaning the failure\u2019s RCA, associated work order, or procedure compliance finding is absent from the current evidence set.  \n\n**Recommended next step for Maintenance:**  \nQuery the CMMS/QMS for the work order and RCA record tied to failure\u202fF1186 (e.g., search for \u201cF1186\u201d in the work_order table, retrieve the linked RCA, and examine the governing procedure cited in that RCA) to identify the specific procedural step that was omitted or not performed.  \n\n**Sources used:**  \n- [Graph: none found] \u2013 Neo4j graph returned no relationships or nodes for F1186.  \n- No matching entries in [DFS/Trino \u2014 ERP (COILS BY STATUS)], [DFS/Trino \u2014 SCADA (EQUIPMENT BY TYPE)], or [DFS/Trino \u2014 QMS (QUALITY TESTS BY FAULT TYPE)] that reference F1186.  \n- No RAG chunks (DOC1096, DOC1223, DOC1231, DOC1171) mention F1186; they only cover F1030, F1166, F1174, F1111.  \n\n**So\u2011what:**  \nWithout confirming the root cause and procedural gap for F1186, Maintenance risks repeating the same failure, leading to unplanned downtime, potential quality defects, and unnecessary repeat repairs.",
+        "sources": [
+          "[Graph: none found]",
+          "[DFS/Trino \u2014 ERP (COILS BY STATUS)]",
+          "[DFS/Trino \u2014 SCADA (EQUIPMENT BY TYPE)]",
+          "[DFS/Trino \u2014 QMS (QUALITY TESTS BY FAULT TYPE)]"
+        ],
+        "model_used": "nvidia/nemotron-3-super-120b-a12b:free",
+        "retrieval_plan": {
+          "layers": [
+            "graph",
+            "structured",
+            "documents"
+          ],
+          "details": {
+            "reason": "Tier-3 router LLM unavailable; best-effort all-layers retrieval",
+            "error": "model returned no valid layers: None",
+            "structured_systems": [
+              "erp",
+              "scada",
+              "qms",
+              "cmms"
+            ],
+            "graph_focus": "",
+            "document_filters": {},
+            "search_text": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+            "tier1_entities": []
+          },
+          "confidence": "ambiguous-resolved",
+          "tier": "tier3",
+          "tier3_source": "tier3_degraded"
+        },
+        "retrieval_errors": {},
+        "latency": {
+          "routing_s": 9.22,
+          "retrieval_s": 21.58,
+          "synthesis_s": 32.33,
+          "total_s": 63.12,
+          "cache_hit": false
+        },
+        "observed_wall_time_s": 63.79
+      },
+      "automated_score": {
+        "direct_fact_coverage": 0.143,
+        "correlation_or_insight": true,
+        "implication_with_confidence": false,
+        "role_scoped_action": true,
+        "required_source_layers": [
+          "Graph"
+        ],
+        "all_required_layers_cited": false,
+        "healthy_execution": true,
+        "automated_pass_count": 3,
+        "automated_check_count": 6,
+        "automated_pass_rate": 0.5
+      },
+      "expert_review": {
+        "status": "pending",
+        "factual_correctness_1_to_5": null,
+        "operational_usefulness_1_to_5": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "coil_equipment_lineage",
+      "question": "Which equipment produced coil C10234, and what is the operational implication?",
+      "expected_fact_patterns": [
+        "C10234",
+        "EQ-FMS-01|Finishing Mill Stand F1",
+        "PRODUCED_AT"
+      ],
+      "expected_source_layers": [
+        "Graph"
+      ],
+      "expected_role": "operations",
+      "ground_truth": "ontology/nodes/coil.json:C10234",
+      "response": {
+        "answer": "Coil C10234 was produced on equipment EQ-FMS-01 (Finishing Mill Stand F1), and carries a low-severity surface bump deviation (DEV1396) despite being already dispatched.\n\nThe Neo4j record links C10234 exclusively to Finishing Mill Stand F1 via PRODUCED_AT, with a single deviation node for a raised surface defect [Graph: PRODUCED_AT, deviation]. No corroborating DFS production logs or RAG quality reports are provided, so this is a single-coil observation. Because a finishing mill stand directly governs strip surface profile, the bump most plausibly traces to roll condition or stand calibration at EQ-FMS-01 rather than the scrap/coking coal inputs listed. Confidence is low-medium: one data point, no cross-layer confirmation of defect rate or roll history.\n\nRecommended action: Maintenance should inspect EQ-FMS-01 roll surfaces and alignment for localized raised/profile damage; QA should register DEV1396 against IS:1786 Fe500D surface tolerance and track any customer return or complaint on dispatched coil C10234.\n\nSources used: [Graph: PRODUCED_AT relationship (EQ-FMS-01)], [Graph: deviation DEV1396",
+        "sources": [
+          "[Graph: PRODUCED_AT, deviation]",
+          "[Graph: PRODUCED_AT relationship (EQ-FMS-01)]"
+        ],
+        "model_used": "tencent/hy3:free",
+        "retrieval_plan": {
+          "layers": [
+            "graph"
+          ],
+          "details": {
+            "matched_entities": [
+              {
+                "entity_type": "coil",
+                "entity_id": "C10234",
+                "matched_text": "C10234"
+              }
+            ],
+            "intent_signals": {
+              "graph": [
+                "\\bwhich equipment produced\\b",
+                "\\bwhich .* (produced|made|tested|maintained)\\b"
+              ]
+            },
+            "structured_systems": [],
+            "graph_start_entities": [
+              "C10234"
+            ],
+            "document_filters": {},
+            "search_text": "Which equipment produced coil C10234, and what is the operational implication?"
+          },
+          "confidence": "confident",
+          "tier": "tier2"
+        },
+        "retrieval_errors": {},
+        "latency": {
+          "routing_s": 0.0,
+          "retrieval_s": 1.94,
+          "synthesis_s": 24.41,
+          "total_s": 26.35,
+          "cache_hit": false
+        },
+        "observed_wall_time_s": 26.78
+      },
+      "automated_score": {
+        "direct_fact_coverage": 1.0,
+        "correlation_or_insight": false,
+        "implication_with_confidence": false,
+        "role_scoped_action": false,
+        "required_source_layers": [
+          "Graph"
+        ],
+        "all_required_layers_cited": true,
+        "healthy_execution": true,
+        "automated_pass_count": 3,
+        "automated_check_count": 6,
+        "automated_pass_rate": 0.5
+      },
+      "expert_review": {
+        "status": "pending",
+        "factual_correctness_1_to_5": null,
+        "operational_usefulness_1_to_5": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "is2062_scope_and_action",
+      "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
+      "expected_fact_patterns": [
+        "IS\\s*:?[ -]?2062",
+        "hot.?rolled",
+        "structural steel",
+        "chemical|mechanical",
+        "test"
+      ],
+      "expected_source_layers": [
+        "RAG"
+      ],
+      "expected_role": "qa|quality",
+      "ground_truth": "data/unstructured/standards/is_2062.md + DOC1058",
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "automated_score": {
+        "automated_pass_rate": 0
+      },
+      "expert_review": {
+        "status": "pending",
+        "factual_correctness_1_to_5": null,
+        "operational_usefulness_1_to_5": null,
+        "notes": null
+      }
+    }
+  ]
+}

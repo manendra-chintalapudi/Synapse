@@ -4,7 +4,8 @@
   "trailingSlash": false,
   "rewrites": [
     { "source": "/", "destination": "/landing" },
-    { "source": "/app", "destination": "/chat" }
+    { "source": "/app", "destination": "/chat" },
+    { "source": "/login", "destination": "/auth" }
   ],
   "headers": [
     {

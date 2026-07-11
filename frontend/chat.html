@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Synapse — Plant Brain</title>
 <script src="config.js"></script>
+<script type="module" src="auth.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -22,6 +23,7 @@
   *{box-sizing:border-box}
   html,body{height:100%}
   body{margin:0;background:var(--shell);color:var(--ink);font-family:var(--f);-webkit-font-smoothing:antialiased;overflow:hidden}
+  body.auth-loading{visibility:hidden}
   button{font-family:var(--f)}
 
   .app{display:flex;height:100vh;padding:14px;gap:14px}
@@ -593,7 +595,7 @@
   }
 </style>
 </head>
-<body>
+<body class="auth-loading" data-auth-required="true">
 <div class="app">
 
   <!-- ================= SIDEBAR ================= -->
@@ -857,7 +859,8 @@ function applyUser(){
 }
 const umenu = document.getElementById("umenu");
 umenu.innerHTML = USERS.map(u =>
-  `<button onclick="switchUser('${u.id}')"><span class="uavatar">${u.name[0]}</span>${u.name}<span class="r">${u.label}</span></button>`).join("");
+  `<button onclick="switchUser('${u.id}')"><span class="uavatar">${u.name[0]}</span>${u.name}<span class="r">${u.label}</span></button>`).join("")
+  + `<button onclick="window.synapseSignOut()"><span class="uavatar">&#8594;</span>Sign out<span class="r" id="auth-email"></span></button>`;
 document.getElementById("userbtn").addEventListener("click", () => umenu.classList.toggle("open"));
 document.addEventListener("click", e => { if (!e.target.closest(".userchip")) umenu.classList.remove("open"); });
 function switchUser(id){ user = USERS.find(u => u.id === id); localStorage.setItem("synapse_user", id); umenu.classList.remove("open"); applyUser(); }

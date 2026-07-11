@@ -16,3 +16,6 @@
 window.SYNAPSE_API_URL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)
   ? ""
   : "https://web-production-a9e7.up.railway.app";
+
+window.SYNAPSE_SUPABASE_URL = "https://oybxogkpkkzywmmivkzy.supabase.co";
+window.SYNAPSE_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_Sz8R-hi_ccyAXoSjSeJu4g_xmv17UeE";

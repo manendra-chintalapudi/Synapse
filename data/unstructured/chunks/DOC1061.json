@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1061",
+    "chunk_id": "DOC1061_chunk_0",
+    "chunk_index": 0,
+    "text": "# Equipment Manual \u2014 DOC1061\n**Equipment:** EQ-RHF-01 \u2014 Reheating Furnace #1\n**Type:** Reheating Furnace  |  **Location:** Rajendra Steel Plant, Mumbai Unit - Reheating Bay  |  **Commissioned:** 2020-05-15\n**Preventive-maintenance interval:** quarterly\n\n## 1. Overview\nThe Reheating Furnace #1 (EQ-RHF-01) is the walking-beam furnace that reheats billets to rolling temperature ahead of the mill. It is installed at Rajendra Steel Plant, Mumbai Unit - Reheating Bay and was\ncommissioned on 2020-05-15. It is a critical asset in the plant's production flow and is managed under the\nCMMS reliability programme, with a formal preventive-maintenance interval of **quarterly**. This manual excerpt\nsummarises the machine's key specifications, normal operating envelope, common failure modes and maintenance and safety\nrequirements. It should be read together with the original equipment manufacturer (OEM) documentation and the relevant\nstandard operating procedures; the values quoted here are indicative, industry-typical figures for a machine of this\nclass rather than exact OEM design data.\n\n## 2. Key Specifications\n- **capacity tph**: 150\n- **furnace type**: walking beam\n- **fuel**: mixed BF/coke oven gas\n- **discharge temp C**: 1200\n- **max temp C**: 1250\n\n## 3. Operating Parameters\nThe equipment must be operated within its qualified envelope; representative set-points include capacity tph = 150, furnace type = walking beam, fuel = mixed BF/coke oven gas. Operators\nlog the principal parameters each shift and compare them against these limits. Any sustained excursion outside the\nnormal band \u2014 particularly on temperature, pressure, tension, cooling-water flow or drive load as applicable to this\nmachine \u2014 must be raised through the CMMS and, where product or safety is affected, escalated for root cause analysis.\nStart-up and shutdown follow the dedicated SOP, bringing the machine to condition gradually while watching for abnormal\nvibration, noise or thermal signatures.\n\n## 4. Common Failure Modes\nThe following failure modes are characteristic of this machine type and drive its inspection and spares strategy:\n- **refractory wear**\n- **burner malfunction**\n- **thermocouple failure**\n- **skid pipe / skid button wear**\n- **walking beam drive fault**",
+    "char_count": 2266,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-RHF-01",
+      "source_file_path": "data/unstructured/documents/DOC1061.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1061",
+    "chunk_id": "DOC1061_chunk_1",
+    "chunk_index": 1,
+    "text": "Early-warning indicators for these modes (temperature drift, abnormal vibration, tension/level instability, water-flow\nloss) are trended in the condition-monitoring system so that developing faults are caught before they cause an\nunplanned outage or a quality deviation on the product.\n\n## 5. Maintenance Schedule\n| Frequency | Task |\n|-----------|------|\n| Daily / per-shift | Operator checks of key parameters, lubrication, cooling flows and abnormal noise/vibration. |\n| Weekly | Inspection of drives, couplings, sensors and instrumentation against reference values. |\n| Quarterly (primary PM) | Full preventive-maintenance service per the CMMS schedule for this asset type, including wear-part inspection and calibration. |\n| Annual / campaign | Major inspection, structural/refractory assessment and overhaul of critical sub-assemblies. |\n\nAll maintenance is recorded against EQ-RHF-01 in the CMMS. Findings that affect product or safety are raised\nas work orders and, where warranted, as formal deviations.\n\n## 6. Safety Warnings\n- Furnace atmosphere and combustion gases \u2014 gas testing before entry; risk of CO and low-oxygen zones.\n- Radiant heat and hot billets on the walking beam \u2014 exclusion zone and heat PPE.\n- Fuel-gas system \u2014 follow burner light-up and purge sequence; a failed purge risks explosion.\n- Only trained, authorised personnel may operate or maintain this equipment, under the plant permit-to-work system and\n  in compliance with The Factories Act, 1948 safety provisions.\n\n## 7. Document Control\nControlled equipment manual \u2014 review at each PM interval (quarterly) or after any major modification or related\nincident. Linked to the plant knowledge graph as DOC1061, referencing equipment node EQ-RHF-01.",
+    "char_count": 1730,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-RHF-01",
+      "source_file_path": "data/unstructured/documents/DOC1061.md"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1079",
+    "chunk_id": "DOC1079_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1079\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1012 \u2014 Overstrain Failure\n**Equipment:** EQ-CR-01 \u2014 Overhead Crane (Rolling Mill Bay) #1 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill Bay)\n**Event timestamp:** 2026-02-28 21:10:30  |  **RCA:** RCA1012 (closed 2026-03-05)\n\n## 1. Incident Narrative\nAt 21:10:30 on 2026-02-28, the Overhead Crane (Rolling Mill Bay) #1 raised a overstrain failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 301.0 K, process temperature 311.6 K, rotational speed 2364 rpm, torque 59.1 Nm and accumulated tool wear 17 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nKarthik Chatterjee (Shift A), Swati Desai (Shift A) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1012, performed by Naveen Malhotra (equipment engineer, Shift C), concluded: Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "char_count": 1386,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1012",
+      "source_file_path": "data/unstructured/documents/DOC1079.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1079",
+    "chunk_id": "DOC1079_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-029 for this asset and recorded a compliance finding: Step 3 of PROC-029 (\"Verify cooling and hydraulic circuits are at specified flow and pressure, and confirm electrical isolation points and drive calibration against reference values.\") \u2014 operating-limit verification was not performed prior to the event. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nReplaced worn tooling, re-balanced feed and speed set-points, and tightened the tool-wear replacement interval. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2026-03-05 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1012, RCA RCA1012, procedure PROC-029, equipment EQ-CR-01.",
+    "char_count": 1269,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1012",
+      "source_file_path": "data/unstructured/documents/DOC1079.md"
+    }
+  }
+]

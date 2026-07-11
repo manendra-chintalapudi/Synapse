@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1212",
+    "chunk_id": "DOC1212_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1212\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1154 \u2014 Power Failure\n**Equipment:** EQ-CNV-01 \u2014 Raw Material Conveyor #1 (Rajendra Steel Plant, Mumbai Unit - Raw Material Yard)\n**Event timestamp:** 2026-03-23 07:24:23  |  **RCA:** RCA1154 (closed 2026-03-28)\n\n## 1. Incident Narrative\nAt 07:24:23 on 2026-03-23, the Raw Material Conveyor #1 raised a power failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 303.2 K, process temperature 313.9 K, rotational speed 1886 rpm, torque 32.0 Nm and accumulated tool wear 108 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nDeepa Banerjee (Shift A), Naveen Malhotra (Shift C) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1154, performed by Naveen Pillai (maintenance technician, Shift A), concluded: Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "char_count": 1343,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1154",
+      "source_file_path": "data/unstructured/documents/DOC1212.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1212",
+    "chunk_id": "DOC1212_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-003 for this asset and recorded a compliance finding: Step 3 of PROC-003 (\"Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nInspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip. Parts and consumables used were booked to this work order, and post-repair verification confirmed the equipment returned to its qualified operating envelope before release back to production.\n\n## 5. Closure\nWork order closed on 2026-03-28 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and is tagged accordingly; it mirrors the structure of plant work-order documentation for retrieval purposes. Linked records: failure F1154, RCA RCA1154, procedure PROC-003, equipment EQ-CNV-01.",
+    "char_count": 1220,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1154",
+      "source_file_path": "data/unstructured/documents/DOC1212.md"
+    }
+  }
+]

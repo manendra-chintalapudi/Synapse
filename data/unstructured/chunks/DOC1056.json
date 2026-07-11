@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1056",
+    "chunk_id": "DOC1056_chunk_0",
+    "chunk_index": 0,
+    "text": "# IS 1786 \u2014 High Strength Deformed Steel Bars and Wires for Concrete Reinforcement\n\n> **Scope / Summary Reference \u2014 full standard text is licensed by the Bureau of Indian Standards (BIS) and is not reproduced here.**\n> This document paraphrases only publicly available scope and classification information for use as RAG search context. It intentionally omits copyrighted content such as exact chemical-composition limits, mechanical-property thresholds, tolerances, and numbered clause text. For the authoritative text, purchase the standard from the BIS e-Standards store (see *Where to obtain the full text* below).\n\n- **Standard number:** IS 1786 (current edition commonly referenced: IS 1786:2008, with subsequent amendments)\n- **Issuing body:** Bureau of Indian Standards (BIS), India\n- **Title:** High Strength Deformed Steel Bars and Wires for Concrete Reinforcement \u2014 Specification\n\n## Scope (high level)\n\nIS 1786 specifies requirements for **high-strength deformed steel bars and wires used as reinforcement in concrete**. It is one of the primary Indian material specifications a producer of reinforcement (rebar) steel must conform to. At a high level the standard addresses the manufacture, chemical composition, mechanical properties, deformation/rib requirements for bond with concrete, testing, and marking of reinforcing bars \u2014 the specific numeric requirements for each of these are given in the licensed full text and are **not** reproduced here.\n\n## Grade designations (publicly known names)\n\nThe standard defines reinforcement in a set of strength grades. The grade names are public classification labels (the numeric part broadly corresponds to a specified yield-strength level in MPa; a trailing **\"D\"** denotes a variant with enhanced ductility requirements):",
+    "char_count": 1783,
+    "metadata": {
+      "doc_type": "standard_reference",
+      "related_entity_id": "STD-IS1786-01",
+      "source_file_path": "data/unstructured/standards/is_1786.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1056",
+    "chunk_id": "DOC1056_chunk_1",
+    "chunk_index": 1,
+    "text": "- **Fe 415**, **Fe 415D**\n- **Fe 500**, **Fe 500D**\n- **Fe 550**, **Fe 550D**\n- **Fe 600**\n\n> Note: only the grade *names* are listed here. The associated yield-strength, tensile-strength, elongation, and bend/re-bend acceptance values are part of the copyrighted standard and are not restated in this reference.\n\n## Purpose\n\nTo provide a common, testable material specification so that reinforcing steel supplied by different producers has consistent, verifiable strength, ductility, weldability, and bond characteristics \u2014 enabling safe and predictable design of reinforced-concrete structures.\n\n## Governing committee\n\nDeveloped and maintained under the BIS **Civil Engineering Division**, by the **Concrete Reinforcement Sectional Committee, CED 54**.\n\n## Where to obtain the full text\n\nThe complete, authoritative standard (including all numeric limits and clauses) is available for purchase/download from the **BIS e-Standards / \"Standards\" portal**:\n\n- BIS official site: https://www.bis.gov.in\n- BIS standards catalogue / e-store: https://www.services.bis.gov.in\n\n## Sources (public scope information)\n\n- BIS product/standard listing and overview \u2014 https://www.bis.gov.in\n- Overview of IS 1786 (grades and committee CED 54) \u2014 https://www.bhadanisrecordedlectures.com/blog/overview-of-is-1786-high-strength-deformed-steel-bars-and-wires-for-concrete-reinforcement\n- Archived BIS record of IS 1786:2008 (bibliographic/scope reference) \u2014 https://archive.org/details/gov.in.is.1786.2008",
+    "char_count": 1490,
+    "metadata": {
+      "doc_type": "standard_reference",
+      "related_entity_id": "STD-IS1786-01",
+      "source_file_path": "data/unstructured/standards/is_1786.md"
+    }
+  }
+]

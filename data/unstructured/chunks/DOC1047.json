@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1047",
+    "chunk_id": "DOC1047_chunk_0",
+    "chunk_index": 0,
+    "text": "# RCA Report \u2014 DOC1047\n**Document type:** Root Cause Analysis Report\n**Related failure:** F1165  |  **RCA record:** RCA1165\n**Equipment:** EQ-LF-02 \u2014 Ladle Furnace Line 2 (Ladle Furnace)\n**Location:** Mumbai Unit - Bay 1\n**Event timestamp:** 2025-09-16 04:24:03\n**Failure mode:** Tool Wear Failure (source flag: TWF)\n\n## 1. Incident Summary\nOn 2025-09-16 04:24:03, EQ-LF-02 (Ladle Furnace Line 2) experienced a tool wear failure that\ninterrupted normal operation. The condition-monitoring system captured the following process values at the time of\nthe event: air temperature 301.3 K, process temperature 312.6 K,\nrotational speed 2331 rpm, torque 16.4 Nm, and accumulated tool wear\n107 minutes. The event was logged by the quality inspector on shift and escalated for formal\nroot cause analysis under the plant's CMMS reliability programme.\n\n## 2. Investigation & Findings\nA cross-functional review examined operating logs, the sensor trace immediately preceding the trip, recent maintenance\nhistory and the applicable operating procedure for the ladle furnace. Trends in the minutes before the event were\ncompared against the equipment's qualified operating envelope. The investigation focused on whether the observed values\nrepresented a developing fault or a transient excursion, and whether any preventive-maintenance trigger had been missed.",
+    "char_count": 1347,
+    "metadata": {
+      "doc_type": "rca_report",
+      "related_entity_id": "F1165",
+      "source_file_path": "data/unstructured/documents/DOC1047.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1047",
+    "chunk_id": "DOC1047_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Root Cause\nRoot cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.\n\n## 4. Corrective Action\nReplaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.\n\n## 5. Preventive Recommendations\nTo reduce recurrence risk, the team recommends reinforcing the condition-based maintenance thresholds associated with\nthis failure mode, updating the relevant operating procedure, and adding the event to the equipment's reliability\nhistory for trend analysis. Spare-part availability for the affected sub-assembly should be confirmed, and operators\nbriefed on the early-warning indicators identified during this investigation.\n\n## 6. Sign-off\nPrepared by: Rekha Pillai (Quality Inspector)\nReviewed by: Shalini Rao (Shift Supervisor, Shift A)\nStatus: Closed \u2014 corrective action implemented and verified.",
+    "char_count": 1026,
+    "metadata": {
+      "doc_type": "rca_report",
+      "related_entity_id": "F1165",
+      "source_file_path": "data/unstructured/documents/DOC1047.md"
+    }
+  }
+]

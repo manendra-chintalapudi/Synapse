@@ -1,0 +1,9298 @@
+[
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10204"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1001"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10348"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1002"
+    },
+    "properties": {
+      "date_flagged": "2026-02-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1003"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10050"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1004"
+    },
+    "properties": {
+      "date_flagged": "2026-04-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10139"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1005"
+    },
+    "properties": {
+      "date_flagged": "2026-06-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10045"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1006"
+    },
+    "properties": {
+      "date_flagged": "2026-03-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10244"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1007"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10076"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1008"
+    },
+    "properties": {
+      "date_flagged": "2026-02-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10080"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1009"
+    },
+    "properties": {
+      "date_flagged": "2026-05-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10209"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1010"
+    },
+    "properties": {
+      "date_flagged": "2026-04-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1011"
+    },
+    "properties": {
+      "date_flagged": "2026-06-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10068"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1012"
+    },
+    "properties": {
+      "date_flagged": "2026-02-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10228"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1013"
+    },
+    "properties": {
+      "date_flagged": "2026-05-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1014"
+    },
+    "properties": {
+      "date_flagged": "2026-05-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10132"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1015"
+    },
+    "properties": {
+      "date_flagged": "2026-03-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10203"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1016"
+    },
+    "properties": {
+      "date_flagged": "2026-04-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1017"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10088"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1018"
+    },
+    "properties": {
+      "date_flagged": "2026-02-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10046"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1019"
+    },
+    "properties": {
+      "date_flagged": "2026-03-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10271"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1020"
+    },
+    "properties": {
+      "date_flagged": "2026-05-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10068"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1021"
+    },
+    "properties": {
+      "date_flagged": "2026-03-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10320"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1022"
+    },
+    "properties": {
+      "date_flagged": "2026-02-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10049"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1023"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10358"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1024"
+    },
+    "properties": {
+      "date_flagged": "2026-04-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1025"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10360"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1026"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1027"
+    },
+    "properties": {
+      "date_flagged": "2026-03-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10385"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1028"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10142"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1029"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1030"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10265"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1031"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10318"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1032"
+    },
+    "properties": {
+      "date_flagged": "2026-04-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1033"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10399"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1034"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1035"
+    },
+    "properties": {
+      "date_flagged": "2026-05-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10135"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1036"
+    },
+    "properties": {
+      "date_flagged": "2026-04-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10337"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1037"
+    },
+    "properties": {
+      "date_flagged": "2026-06-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10243"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1038"
+    },
+    "properties": {
+      "date_flagged": "2026-02-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10093"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1039"
+    },
+    "properties": {
+      "date_flagged": "2026-03-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10094"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1040"
+    },
+    "properties": {
+      "date_flagged": "2026-02-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10195"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1041"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10071"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1042"
+    },
+    "properties": {
+      "date_flagged": "2026-05-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10385"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1043"
+    },
+    "properties": {
+      "date_flagged": "2026-02-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1044"
+    },
+    "properties": {
+      "date_flagged": "2026-04-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10242"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1045"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10120"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1046"
+    },
+    "properties": {
+      "date_flagged": "2026-03-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10152"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1047"
+    },
+    "properties": {
+      "date_flagged": "2026-05-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10335"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1048"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10225"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1049"
+    },
+    "properties": {
+      "date_flagged": "2026-06-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10024"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1050"
+    },
+    "properties": {
+      "date_flagged": "2026-06-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1051"
+    },
+    "properties": {
+      "date_flagged": "2026-02-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10207"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1052"
+    },
+    "properties": {
+      "date_flagged": "2026-06-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10299"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1053"
+    },
+    "properties": {
+      "date_flagged": "2026-03-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10254"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1054"
+    },
+    "properties": {
+      "date_flagged": "2026-06-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10053"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1055"
+    },
+    "properties": {
+      "date_flagged": "2026-02-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10022"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1056"
+    },
+    "properties": {
+      "date_flagged": "2026-04-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1057"
+    },
+    "properties": {
+      "date_flagged": "2026-04-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10079"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1058"
+    },
+    "properties": {
+      "date_flagged": "2026-03-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10181"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1059"
+    },
+    "properties": {
+      "date_flagged": "2026-02-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1060"
+    },
+    "properties": {
+      "date_flagged": "2026-01-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10339"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1061"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10060"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1062"
+    },
+    "properties": {
+      "date_flagged": "2026-02-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10376"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1063"
+    },
+    "properties": {
+      "date_flagged": "2026-06-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1064"
+    },
+    "properties": {
+      "date_flagged": "2026-03-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10224"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1065"
+    },
+    "properties": {
+      "date_flagged": "2026-01-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1066"
+    },
+    "properties": {
+      "date_flagged": "2026-02-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10312"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1067"
+    },
+    "properties": {
+      "date_flagged": "2026-03-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1068"
+    },
+    "properties": {
+      "date_flagged": "2026-05-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10249"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1069"
+    },
+    "properties": {
+      "date_flagged": "2026-02-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10138"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1070"
+    },
+    "properties": {
+      "date_flagged": "2026-02-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1071"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10348"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1072"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10126"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1073"
+    },
+    "properties": {
+      "date_flagged": "2026-04-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10359"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1074"
+    },
+    "properties": {
+      "date_flagged": "2026-05-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10121"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1075"
+    },
+    "properties": {
+      "date_flagged": "2026-07-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1076"
+    },
+    "properties": {
+      "date_flagged": "2026-04-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1077"
+    },
+    "properties": {
+      "date_flagged": "2026-02-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10206"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1078"
+    },
+    "properties": {
+      "date_flagged": "2026-04-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10307"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1079"
+    },
+    "properties": {
+      "date_flagged": "2026-04-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10024"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1080"
+    },
+    "properties": {
+      "date_flagged": "2026-06-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10070"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1081"
+    },
+    "properties": {
+      "date_flagged": "2026-04-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10333"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1082"
+    },
+    "properties": {
+      "date_flagged": "2026-04-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10028"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1083"
+    },
+    "properties": {
+      "date_flagged": "2026-03-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1084"
+    },
+    "properties": {
+      "date_flagged": "2026-04-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10096"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1085"
+    },
+    "properties": {
+      "date_flagged": "2026-06-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10282"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1086"
+    },
+    "properties": {
+      "date_flagged": "2026-03-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10266"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1087"
+    },
+    "properties": {
+      "date_flagged": "2026-06-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1088"
+    },
+    "properties": {
+      "date_flagged": "2026-02-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10201"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1089"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10373"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1090"
+    },
+    "properties": {
+      "date_flagged": "2026-02-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10319"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1091"
+    },
+    "properties": {
+      "date_flagged": "2026-05-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10329"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1092"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10213"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1093"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1094"
+    },
+    "properties": {
+      "date_flagged": "2026-03-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1095"
+    },
+    "properties": {
+      "date_flagged": "2026-03-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10262"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1096"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1097"
+    },
+    "properties": {
+      "date_flagged": "2026-02-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10290"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1098"
+    },
+    "properties": {
+      "date_flagged": "2026-06-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1099"
+    },
+    "properties": {
+      "date_flagged": "2026-02-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10148"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1100"
+    },
+    "properties": {
+      "date_flagged": "2026-04-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10008"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1101"
+    },
+    "properties": {
+      "date_flagged": "2026-04-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10216"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1102"
+    },
+    "properties": {
+      "date_flagged": "2026-03-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1103"
+    },
+    "properties": {
+      "date_flagged": "2026-02-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10359"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1104"
+    },
+    "properties": {
+      "date_flagged": "2026-05-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10384"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1105"
+    },
+    "properties": {
+      "date_flagged": "2026-03-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10201"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1106"
+    },
+    "properties": {
+      "date_flagged": "2026-05-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10139"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1107"
+    },
+    "properties": {
+      "date_flagged": "2026-06-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1108"
+    },
+    "properties": {
+      "date_flagged": "2026-02-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10355"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1109"
+    },
+    "properties": {
+      "date_flagged": "2026-03-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1110"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10178"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1111"
+    },
+    "properties": {
+      "date_flagged": "2026-03-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10242"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1112"
+    },
+    "properties": {
+      "date_flagged": "2026-07-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10380"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1113"
+    },
+    "properties": {
+      "date_flagged": "2026-06-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10067"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1114"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1115"
+    },
+    "properties": {
+      "date_flagged": "2026-04-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10338"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1116"
+    },
+    "properties": {
+      "date_flagged": "2026-05-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1117"
+    },
+    "properties": {
+      "date_flagged": "2026-05-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10305"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1118"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10343"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1119"
+    },
+    "properties": {
+      "date_flagged": "2026-05-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10364"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1120"
+    },
+    "properties": {
+      "date_flagged": "2026-02-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10004"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1121"
+    },
+    "properties": {
+      "date_flagged": "2026-03-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10074"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1122"
+    },
+    "properties": {
+      "date_flagged": "2026-05-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10246"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1123"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1124"
+    },
+    "properties": {
+      "date_flagged": "2026-05-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10325"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1125"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10372"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1126"
+    },
+    "properties": {
+      "date_flagged": "2026-06-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10019"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1127"
+    },
+    "properties": {
+      "date_flagged": "2026-02-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10108"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1128"
+    },
+    "properties": {
+      "date_flagged": "2026-05-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10290"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1129"
+    },
+    "properties": {
+      "date_flagged": "2026-06-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1130"
+    },
+    "properties": {
+      "date_flagged": "2026-04-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10036"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1131"
+    },
+    "properties": {
+      "date_flagged": "2026-05-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10081"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1132"
+    },
+    "properties": {
+      "date_flagged": "2026-06-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10383"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1133"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10232"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1134"
+    },
+    "properties": {
+      "date_flagged": "2026-02-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10342"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1135"
+    },
+    "properties": {
+      "date_flagged": "2026-07-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10244"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1136"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10006"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1137"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10040"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1138"
+    },
+    "properties": {
+      "date_flagged": "2026-05-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10381"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1139"
+    },
+    "properties": {
+      "date_flagged": "2026-06-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10105"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1140"
+    },
+    "properties": {
+      "date_flagged": "2026-05-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10155"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1141"
+    },
+    "properties": {
+      "date_flagged": "2026-05-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1142"
+    },
+    "properties": {
+      "date_flagged": "2026-01-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1143"
+    },
+    "properties": {
+      "date_flagged": "2026-04-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1144"
+    },
+    "properties": {
+      "date_flagged": "2026-02-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10398"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1145"
+    },
+    "properties": {
+      "date_flagged": "2026-06-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1146"
+    },
+    "properties": {
+      "date_flagged": "2026-03-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10149"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1147"
+    },
+    "properties": {
+      "date_flagged": "2026-02-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10150"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1148"
+    },
+    "properties": {
+      "date_flagged": "2026-03-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1149"
+    },
+    "properties": {
+      "date_flagged": "2026-01-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10034"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1150"
+    },
+    "properties": {
+      "date_flagged": "2026-03-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10042"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1151"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1152"
+    },
+    "properties": {
+      "date_flagged": "2026-04-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10183"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1153"
+    },
+    "properties": {
+      "date_flagged": "2026-02-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1154"
+    },
+    "properties": {
+      "date_flagged": "2026-05-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10383"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1155"
+    },
+    "properties": {
+      "date_flagged": "2026-03-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10245"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1156"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10007"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1157"
+    },
+    "properties": {
+      "date_flagged": "2026-07-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10276"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1158"
+    },
+    "properties": {
+      "date_flagged": "2026-04-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10307"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1159"
+    },
+    "properties": {
+      "date_flagged": "2026-04-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10192"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1160"
+    },
+    "properties": {
+      "date_flagged": "2026-03-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10359"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1161"
+    },
+    "properties": {
+      "date_flagged": "2026-05-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1162"
+    },
+    "properties": {
+      "date_flagged": "2026-05-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1163"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10292"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1164"
+    },
+    "properties": {
+      "date_flagged": "2026-01-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10102"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1165"
+    },
+    "properties": {
+      "date_flagged": "2026-04-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1166"
+    },
+    "properties": {
+      "date_flagged": "2026-04-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10388"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1167"
+    },
+    "properties": {
+      "date_flagged": "2026-04-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1168"
+    },
+    "properties": {
+      "date_flagged": "2026-02-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10205"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1169"
+    },
+    "properties": {
+      "date_flagged": "2026-05-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10137"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1170"
+    },
+    "properties": {
+      "date_flagged": "2026-04-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10225"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1171"
+    },
+    "properties": {
+      "date_flagged": "2026-06-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10122"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1172"
+    },
+    "properties": {
+      "date_flagged": "2026-03-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10377"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1173"
+    },
+    "properties": {
+      "date_flagged": "2026-06-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10150"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1174"
+    },
+    "properties": {
+      "date_flagged": "2026-03-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10266"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1175"
+    },
+    "properties": {
+      "date_flagged": "2026-05-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1176"
+    },
+    "properties": {
+      "date_flagged": "2026-02-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10045"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1177"
+    },
+    "properties": {
+      "date_flagged": "2026-04-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10388"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1178"
+    },
+    "properties": {
+      "date_flagged": "2026-05-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10061"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1179"
+    },
+    "properties": {
+      "date_flagged": "2026-02-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10256"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1180"
+    },
+    "properties": {
+      "date_flagged": "2026-03-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1181"
+    },
+    "properties": {
+      "date_flagged": "2026-05-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10132"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1182"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10146"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1183"
+    },
+    "properties": {
+      "date_flagged": "2026-06-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1184"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1185"
+    },
+    "properties": {
+      "date_flagged": "2026-04-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10025"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1186"
+    },
+    "properties": {
+      "date_flagged": "2026-06-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1187"
+    },
+    "properties": {
+      "date_flagged": "2026-04-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10112"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1188"
+    },
+    "properties": {
+      "date_flagged": "2026-06-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10352"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1189"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10344"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1190"
+    },
+    "properties": {
+      "date_flagged": "2026-02-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1191"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10160"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1192"
+    },
+    "properties": {
+      "date_flagged": "2026-04-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10010"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1193"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10381"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1194"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10072"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1195"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10238"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1196"
+    },
+    "properties": {
+      "date_flagged": "2026-03-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1197"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10299"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1198"
+    },
+    "properties": {
+      "date_flagged": "2026-02-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10013"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1199"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10176"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1200"
+    },
+    "properties": {
+      "date_flagged": "2026-04-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10230"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1201"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10002"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1202"
+    },
+    "properties": {
+      "date_flagged": "2026-02-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1203"
+    },
+    "properties": {
+      "date_flagged": "2026-07-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10268"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1204"
+    },
+    "properties": {
+      "date_flagged": "2026-05-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1205"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10014"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1206"
+    },
+    "properties": {
+      "date_flagged": "2026-02-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1207"
+    },
+    "properties": {
+      "date_flagged": "2026-04-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10009"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1208"
+    },
+    "properties": {
+      "date_flagged": "2026-06-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10349"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1209"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10302"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1210"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1211"
+    },
+    "properties": {
+      "date_flagged": "2026-05-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10057"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1212"
+    },
+    "properties": {
+      "date_flagged": "2026-05-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10230"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1213"
+    },
+    "properties": {
+      "date_flagged": "2026-04-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10093"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1214"
+    },
+    "properties": {
+      "date_flagged": "2026-02-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10319"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1215"
+    },
+    "properties": {
+      "date_flagged": "2026-04-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10190"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1216"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1217"
+    },
+    "properties": {
+      "date_flagged": "2026-06-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10094"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1218"
+    },
+    "properties": {
+      "date_flagged": "2026-02-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10170"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1219"
+    },
+    "properties": {
+      "date_flagged": "2026-06-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10038"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1220"
+    },
+    "properties": {
+      "date_flagged": "2026-01-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10158"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1221"
+    },
+    "properties": {
+      "date_flagged": "2026-02-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10247"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1222"
+    },
+    "properties": {
+      "date_flagged": "2026-06-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1223"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10275"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1224"
+    },
+    "properties": {
+      "date_flagged": "2026-05-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1225"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10070"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1226"
+    },
+    "properties": {
+      "date_flagged": "2026-04-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10155"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1227"
+    },
+    "properties": {
+      "date_flagged": "2026-05-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10018"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1228"
+    },
+    "properties": {
+      "date_flagged": "2026-03-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10103"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1229"
+    },
+    "properties": {
+      "date_flagged": "2026-01-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10170"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1230"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10077"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1231"
+    },
+    "properties": {
+      "date_flagged": "2026-02-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10305"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1232"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10191"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1233"
+    },
+    "properties": {
+      "date_flagged": "2026-06-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1234"
+    },
+    "properties": {
+      "date_flagged": "2026-06-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10257"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1235"
+    },
+    "properties": {
+      "date_flagged": "2026-01-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10005"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1236"
+    },
+    "properties": {
+      "date_flagged": "2026-05-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10324"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1237"
+    },
+    "properties": {
+      "date_flagged": "2026-04-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1238"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10379"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1239"
+    },
+    "properties": {
+      "date_flagged": "2026-05-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10069"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1240"
+    },
+    "properties": {
+      "date_flagged": "2026-06-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10150"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1241"
+    },
+    "properties": {
+      "date_flagged": "2026-03-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1242"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10090"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1243"
+    },
+    "properties": {
+      "date_flagged": "2026-06-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1244"
+    },
+    "properties": {
+      "date_flagged": "2026-05-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10085"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1245"
+    },
+    "properties": {
+      "date_flagged": "2026-03-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10029"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1246"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10264"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1247"
+    },
+    "properties": {
+      "date_flagged": "2026-03-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10296"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1248"
+    },
+    "properties": {
+      "date_flagged": "2026-01-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1249"
+    },
+    "properties": {
+      "date_flagged": "2026-05-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10366"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1250"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10105"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1251"
+    },
+    "properties": {
+      "date_flagged": "2026-05-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10103"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1252"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10258"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1253"
+    },
+    "properties": {
+      "date_flagged": "2026-07-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10249"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1254"
+    },
+    "properties": {
+      "date_flagged": "2026-02-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10236"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1255"
+    },
+    "properties": {
+      "date_flagged": "2026-05-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10052"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1256"
+    },
+    "properties": {
+      "date_flagged": "2026-01-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1257"
+    },
+    "properties": {
+      "date_flagged": "2026-05-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10089"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1258"
+    },
+    "properties": {
+      "date_flagged": "2026-04-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10096"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1259"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10298"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1260"
+    },
+    "properties": {
+      "date_flagged": "2026-02-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10212"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1261"
+    },
+    "properties": {
+      "date_flagged": "2026-03-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10253"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1262"
+    },
+    "properties": {
+      "date_flagged": "2026-06-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10040"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1263"
+    },
+    "properties": {
+      "date_flagged": "2026-05-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10297"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1264"
+    },
+    "properties": {
+      "date_flagged": "2026-05-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10001"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1265"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10349"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1266"
+    },
+    "properties": {
+      "date_flagged": "2026-04-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10341"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1267"
+    },
+    "properties": {
+      "date_flagged": "2026-03-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1268"
+    },
+    "properties": {
+      "date_flagged": "2026-05-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1269"
+    },
+    "properties": {
+      "date_flagged": "2026-06-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10260"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1270"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10179"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1271"
+    },
+    "properties": {
+      "date_flagged": "2026-05-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10045"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1272"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10213"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1273"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10393"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1274"
+    },
+    "properties": {
+      "date_flagged": "2026-06-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10081"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1275"
+    },
+    "properties": {
+      "date_flagged": "2026-05-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1276"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1277"
+    },
+    "properties": {
+      "date_flagged": "2026-05-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10355"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1278"
+    },
+    "properties": {
+      "date_flagged": "2026-03-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10078"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1279"
+    },
+    "properties": {
+      "date_flagged": "2026-06-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10276"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1280"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10279"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1281"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10380"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1282"
+    },
+    "properties": {
+      "date_flagged": "2026-06-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10337"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1283"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10034"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1284"
+    },
+    "properties": {
+      "date_flagged": "2026-03-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10215"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1285"
+    },
+    "properties": {
+      "date_flagged": "2026-03-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1286"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10179"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1287"
+    },
+    "properties": {
+      "date_flagged": "2026-05-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1288"
+    },
+    "properties": {
+      "date_flagged": "2026-05-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10030"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1289"
+    },
+    "properties": {
+      "date_flagged": "2026-03-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1290"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10112"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1291"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10345"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1292"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10284"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1293"
+    },
+    "properties": {
+      "date_flagged": "2026-03-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10036"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1294"
+    },
+    "properties": {
+      "date_flagged": "2026-05-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10065"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1295"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10247"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1296"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10149"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1297"
+    },
+    "properties": {
+      "date_flagged": "2026-01-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1298"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10178"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1299"
+    },
+    "properties": {
+      "date_flagged": "2026-03-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1300"
+    },
+    "properties": {
+      "date_flagged": "2026-04-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10230"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1301"
+    },
+    "properties": {
+      "date_flagged": "2026-03-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10184"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1302"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1303"
+    },
+    "properties": {
+      "date_flagged": "2026-04-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1304"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10256"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1305"
+    },
+    "properties": {
+      "date_flagged": "2026-03-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10051"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1306"
+    },
+    "properties": {
+      "date_flagged": "2026-06-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1307"
+    },
+    "properties": {
+      "date_flagged": "2026-06-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10045"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1308"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10245"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1309"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10264"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1310"
+    },
+    "properties": {
+      "date_flagged": "2026-04-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10137"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1311"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10174"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1312"
+    },
+    "properties": {
+      "date_flagged": "2026-05-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1313"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10308"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1314"
+    },
+    "properties": {
+      "date_flagged": "2026-02-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1315"
+    },
+    "properties": {
+      "date_flagged": "2026-05-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10300"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1316"
+    },
+    "properties": {
+      "date_flagged": "2026-06-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10051"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1317"
+    },
+    "properties": {
+      "date_flagged": "2026-05-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10229"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1318"
+    },
+    "properties": {
+      "date_flagged": "2026-06-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10128"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1319"
+    },
+    "properties": {
+      "date_flagged": "2026-02-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10325"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1320"
+    },
+    "properties": {
+      "date_flagged": "2026-05-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10278"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1321"
+    },
+    "properties": {
+      "date_flagged": "2026-05-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10356"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1322"
+    },
+    "properties": {
+      "date_flagged": "2026-02-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10016"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1323"
+    },
+    "properties": {
+      "date_flagged": "2026-04-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10180"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1324"
+    },
+    "properties": {
+      "date_flagged": "2026-03-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10120"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1325"
+    },
+    "properties": {
+      "date_flagged": "2026-03-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10350"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1326"
+    },
+    "properties": {
+      "date_flagged": "2026-06-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10198"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1327"
+    },
+    "properties": {
+      "date_flagged": "2026-03-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10046"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1328"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1329"
+    },
+    "properties": {
+      "date_flagged": "2026-02-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10313"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1330"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10066"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1331"
+    },
+    "properties": {
+      "date_flagged": "2026-06-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10310"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1332"
+    },
+    "properties": {
+      "date_flagged": "2026-03-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10288"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1333"
+    },
+    "properties": {
+      "date_flagged": "2026-06-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10059"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1334"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10326"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1335"
+    },
+    "properties": {
+      "date_flagged": "2026-01-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10201"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1336"
+    },
+    "properties": {
+      "date_flagged": "2026-04-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10259"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1337"
+    },
+    "properties": {
+      "date_flagged": "2026-03-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10004"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1338"
+    },
+    "properties": {
+      "date_flagged": "2026-03-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10180"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1339"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10109"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1340"
+    },
+    "properties": {
+      "date_flagged": "2026-06-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10326"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1341"
+    },
+    "properties": {
+      "date_flagged": "2026-02-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10029"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1342"
+    },
+    "properties": {
+      "date_flagged": "2026-06-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1343"
+    },
+    "properties": {
+      "date_flagged": "2026-03-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1344"
+    },
+    "properties": {
+      "date_flagged": "2026-04-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10082"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1345"
+    },
+    "properties": {
+      "date_flagged": "2026-04-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10082"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1346"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10393"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1347"
+    },
+    "properties": {
+      "date_flagged": "2026-07-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10316"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1348"
+    },
+    "properties": {
+      "date_flagged": "2026-06-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10125"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1349"
+    },
+    "properties": {
+      "date_flagged": "2026-04-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10176"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1350"
+    },
+    "properties": {
+      "date_flagged": "2026-05-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1351"
+    },
+    "properties": {
+      "date_flagged": "2026-02-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10321"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1352"
+    },
+    "properties": {
+      "date_flagged": "2026-03-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10386"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1353"
+    },
+    "properties": {
+      "date_flagged": "2026-06-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10113"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1354"
+    },
+    "properties": {
+      "date_flagged": "2026-03-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10310"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1355"
+    },
+    "properties": {
+      "date_flagged": "2026-03-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10152"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1356"
+    },
+    "properties": {
+      "date_flagged": "2026-06-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10001"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1357"
+    },
+    "properties": {
+      "date_flagged": "2026-07-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10110"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1358"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10067"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1359"
+    },
+    "properties": {
+      "date_flagged": "2026-03-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10222"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1360"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10041"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1361"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1362"
+    },
+    "properties": {
+      "date_flagged": "2026-05-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10062"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1363"
+    },
+    "properties": {
+      "date_flagged": "2026-03-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10252"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1364"
+    },
+    "properties": {
+      "date_flagged": "2026-02-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10387"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1365"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10154"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1366"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1367"
+    },
+    "properties": {
+      "date_flagged": "2026-04-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10030"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1368"
+    },
+    "properties": {
+      "date_flagged": "2026-03-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10143"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1369"
+    },
+    "properties": {
+      "date_flagged": "2026-02-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10107"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1370"
+    },
+    "properties": {
+      "date_flagged": "2026-02-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1371"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10140"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1372"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10037"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1373"
+    },
+    "properties": {
+      "date_flagged": "2026-03-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10328"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1374"
+    },
+    "properties": {
+      "date_flagged": "2026-05-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1375"
+    },
+    "properties": {
+      "date_flagged": "2026-04-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10162"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1376"
+    },
+    "properties": {
+      "date_flagged": "2026-06-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10254"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1377"
+    },
+    "properties": {
+      "date_flagged": "2026-05-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1378"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10352"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1379"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1380"
+    },
+    "properties": {
+      "date_flagged": "2026-03-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10017"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1381"
+    },
+    "properties": {
+      "date_flagged": "2026-02-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1382"
+    },
+    "properties": {
+      "date_flagged": "2026-03-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10198"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1383"
+    },
+    "properties": {
+      "date_flagged": "2026-03-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10071"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1384"
+    },
+    "properties": {
+      "date_flagged": "2026-04-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10187"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1385"
+    },
+    "properties": {
+      "date_flagged": "2026-04-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10188"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1386"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10109"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1387"
+    },
+    "properties": {
+      "date_flagged": "2026-06-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10136"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1388"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10340"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1389"
+    },
+    "properties": {
+      "date_flagged": "2026-06-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10083"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1390"
+    },
+    "properties": {
+      "date_flagged": "2026-05-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1391"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10369"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1392"
+    },
+    "properties": {
+      "date_flagged": "2026-06-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10290"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1393"
+    },
+    "properties": {
+      "date_flagged": "2026-06-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10183"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1394"
+    },
+    "properties": {
+      "date_flagged": "2026-02-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10370"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1395"
+    },
+    "properties": {
+      "date_flagged": "2026-03-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10234"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1396"
+    },
+    "properties": {
+      "date_flagged": "2026-02-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10213"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1397"
+    },
+    "properties": {
+      "date_flagged": "2026-05-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10235"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1398"
+    },
+    "properties": {
+      "date_flagged": "2026-04-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10168"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1399"
+    },
+    "properties": {
+      "date_flagged": "2026-05-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10197"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1400"
+    },
+    "properties": {
+      "date_flagged": "2026-05-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10386"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1401"
+    },
+    "properties": {
+      "date_flagged": "2026-06-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10400"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1402"
+    },
+    "properties": {
+      "date_flagged": "2026-02-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10091"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1403"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10088"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1404"
+    },
+    "properties": {
+      "date_flagged": "2026-01-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10379"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1405"
+    },
+    "properties": {
+      "date_flagged": "2026-04-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10008"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1406"
+    },
+    "properties": {
+      "date_flagged": "2026-05-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10394"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1407"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1408"
+    },
+    "properties": {
+      "date_flagged": "2026-03-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10122"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1409"
+    },
+    "properties": {
+      "date_flagged": "2026-02-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1410"
+    },
+    "properties": {
+      "date_flagged": "2026-03-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10159"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1411"
+    },
+    "properties": {
+      "date_flagged": "2026-04-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10086"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1412"
+    },
+    "properties": {
+      "date_flagged": "2026-04-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10357"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1413"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1414"
+    },
+    "properties": {
+      "date_flagged": "2026-06-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10211"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1415"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10093"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1416"
+    },
+    "properties": {
+      "date_flagged": "2026-03-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1417"
+    },
+    "properties": {
+      "date_flagged": "2026-03-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10022"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1418"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1419"
+    },
+    "properties": {
+      "date_flagged": "2026-04-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10352"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1420"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10303"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1421"
+    },
+    "properties": {
+      "date_flagged": "2026-06-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10296"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1422"
+    },
+    "properties": {
+      "date_flagged": "2026-02-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1423"
+    },
+    "properties": {
+      "date_flagged": "2026-05-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10196"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1424"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10227"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1425"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10111"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1426"
+    },
+    "properties": {
+      "date_flagged": "2026-03-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1427"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10330"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1428"
+    },
+    "properties": {
+      "date_flagged": "2026-04-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10111"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1429"
+    },
+    "properties": {
+      "date_flagged": "2026-03-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10011"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1430"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10145"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1431"
+    },
+    "properties": {
+      "date_flagged": "2026-03-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10146"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1432"
+    },
+    "properties": {
+      "date_flagged": "2026-06-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1433"
+    },
+    "properties": {
+      "date_flagged": "2026-05-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10389"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1434"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10377"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1435"
+    },
+    "properties": {
+      "date_flagged": "2026-05-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1436"
+    },
+    "properties": {
+      "date_flagged": "2026-05-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10053"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1437"
+    },
+    "properties": {
+      "date_flagged": "2026-01-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1438"
+    },
+    "properties": {
+      "date_flagged": "2026-01-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10047"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1439"
+    },
+    "properties": {
+      "date_flagged": "2026-05-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10017"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1440"
+    },
+    "properties": {
+      "date_flagged": "2026-02-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1441"
+    },
+    "properties": {
+      "date_flagged": "2026-02-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10258"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1442"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10360"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1443"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10368"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1444"
+    },
+    "properties": {
+      "date_flagged": "2026-05-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10294"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1445"
+    },
+    "properties": {
+      "date_flagged": "2026-03-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10366"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1446"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1447"
+    },
+    "properties": {
+      "date_flagged": "2026-06-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1448"
+    },
+    "properties": {
+      "date_flagged": "2026-05-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1449"
+    },
+    "properties": {
+      "date_flagged": "2026-03-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10256"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1450"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1451"
+    },
+    "properties": {
+      "date_flagged": "2026-04-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10006"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1452"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10347"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1453"
+    },
+    "properties": {
+      "date_flagged": "2026-03-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10399"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1454"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10361"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1455"
+    },
+    "properties": {
+      "date_flagged": "2026-04-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10025"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1456"
+    },
+    "properties": {
+      "date_flagged": "2026-06-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10194"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1457"
+    },
+    "properties": {
+      "date_flagged": "2026-02-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10298"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1458"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1459"
+    },
+    "properties": {
+      "date_flagged": "2026-06-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10136"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1460"
+    },
+    "properties": {
+      "date_flagged": "2026-06-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10395"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1461"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1462"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10370"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1463"
+    },
+    "properties": {
+      "date_flagged": "2026-03-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10195"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1464"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1465"
+    },
+    "properties": {
+      "date_flagged": "2026-05-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10212"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1466"
+    },
+    "properties": {
+      "date_flagged": "2026-03-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10054"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1467"
+    },
+    "properties": {
+      "date_flagged": "2026-05-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10270"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1468"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10267"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1469"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10053"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1470"
+    },
+    "properties": {
+      "date_flagged": "2026-02-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10372"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1471"
+    },
+    "properties": {
+      "date_flagged": "2026-05-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10084"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1472"
+    },
+    "properties": {
+      "date_flagged": "2026-03-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10206"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1473"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10131"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1474"
+    },
+    "properties": {
+      "date_flagged": "2026-02-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10139"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1475"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10057"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1476"
+    },
+    "properties": {
+      "date_flagged": "2026-05-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10301"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1477"
+    },
+    "properties": {
+      "date_flagged": "2026-01-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10170"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1478"
+    },
+    "properties": {
+      "date_flagged": "2026-07-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1479"
+    },
+    "properties": {
+      "date_flagged": "2026-06-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1480"
+    },
+    "properties": {
+      "date_flagged": "2026-06-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10379"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1481"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10056"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1482"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10071"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1483"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1484"
+    },
+    "properties": {
+      "date_flagged": "2026-07-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10143"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1485"
+    },
+    "properties": {
+      "date_flagged": "2026-02-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10398"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1486"
+    },
+    "properties": {
+      "date_flagged": "2026-06-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10278"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1487"
+    },
+    "properties": {
+      "date_flagged": "2026-04-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10039"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1488"
+    },
+    "properties": {
+      "date_flagged": "2026-06-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10348"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1489"
+    },
+    "properties": {
+      "date_flagged": "2026-02-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10138"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1490"
+    },
+    "properties": {
+      "date_flagged": "2026-03-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1491"
+    },
+    "properties": {
+      "date_flagged": "2026-04-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10158"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1492"
+    },
+    "properties": {
+      "date_flagged": "2026-02-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10210"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1493"
+    },
+    "properties": {
+      "date_flagged": "2026-07-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10151"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1494"
+    },
+    "properties": {
+      "date_flagged": "2026-01-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10064"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1495"
+    },
+    "properties": {
+      "date_flagged": "2026-03-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10050"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1496"
+    },
+    "properties": {
+      "date_flagged": "2026-03-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10316"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1497"
+    },
+    "properties": {
+      "date_flagged": "2026-07-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10218"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1498"
+    },
+    "properties": {
+      "date_flagged": "2026-05-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10325"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1499"
+    },
+    "properties": {
+      "date_flagged": "2026-05-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10048"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1500"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10091"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1501"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10188"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1502"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10098"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1503"
+    },
+    "properties": {
+      "date_flagged": "2026-04-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10127"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1504"
+    },
+    "properties": {
+      "date_flagged": "2026-02-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10285"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1505"
+    },
+    "properties": {
+      "date_flagged": "2026-05-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10005"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1506"
+    },
+    "properties": {
+      "date_flagged": "2026-06-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10073"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1507"
+    },
+    "properties": {
+      "date_flagged": "2026-06-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10148"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1508"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10093"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1509"
+    },
+    "properties": {
+      "date_flagged": "2026-03-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10310"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1510"
+    },
+    "properties": {
+      "date_flagged": "2026-03-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10227"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1511"
+    },
+    "properties": {
+      "date_flagged": "2026-04-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10120"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1512"
+    },
+    "properties": {
+      "date_flagged": "2026-04-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10146"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1513"
+    },
+    "properties": {
+      "date_flagged": "2026-06-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1514"
+    },
+    "properties": {
+      "date_flagged": "2026-05-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10023"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1515"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10382"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1516"
+    },
+    "properties": {
+      "date_flagged": "2026-06-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10124"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1517"
+    },
+    "properties": {
+      "date_flagged": "2026-02-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10360"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1518"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10358"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1519"
+    },
+    "properties": {
+      "date_flagged": "2026-04-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1520"
+    },
+    "properties": {
+      "date_flagged": "2026-05-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10374"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1521"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10343"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1522"
+    },
+    "properties": {
+      "date_flagged": "2026-05-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10186"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1523"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10181"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1524"
+    },
+    "properties": {
+      "date_flagged": "2026-02-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10376"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1525"
+    },
+    "properties": {
+      "date_flagged": "2026-06-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10209"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1526"
+    },
+    "properties": {
+      "date_flagged": "2026-03-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10055"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1527"
+    },
+    "properties": {
+      "date_flagged": "2026-04-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10076"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1528"
+    },
+    "properties": {
+      "date_flagged": "2026-03-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10123"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1529"
+    },
+    "properties": {
+      "date_flagged": "2026-05-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1530"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1531"
+    },
+    "properties": {
+      "date_flagged": "2026-05-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10229"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1532"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10088"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1533"
+    },
+    "properties": {
+      "date_flagged": "2026-02-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10157"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1534"
+    },
+    "properties": {
+      "date_flagged": "2026-06-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10175"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1535"
+    },
+    "properties": {
+      "date_flagged": "2026-04-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10399"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1536"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10026"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1537"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10227"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1538"
+    },
+    "properties": {
+      "date_flagged": "2026-04-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10190"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1539"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10221"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1540"
+    },
+    "properties": {
+      "date_flagged": "2026-04-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10334"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1541"
+    },
+    "properties": {
+      "date_flagged": "2026-02-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10280"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1542"
+    },
+    "properties": {
+      "date_flagged": "2026-03-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10041"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1543"
+    },
+    "properties": {
+      "date_flagged": "2026-03-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10030"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1544"
+    },
+    "properties": {
+      "date_flagged": "2026-03-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10054"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1545"
+    },
+    "properties": {
+      "date_flagged": "2026-06-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10012"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1546"
+    },
+    "properties": {
+      "date_flagged": "2026-04-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10269"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1547"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10327"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1548"
+    },
+    "properties": {
+      "date_flagged": "2026-01-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10084"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1549"
+    },
+    "properties": {
+      "date_flagged": "2026-02-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10014"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1550"
+    },
+    "properties": {
+      "date_flagged": "2026-01-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10400"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1551"
+    },
+    "properties": {
+      "date_flagged": "2026-02-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10091"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1552"
+    },
+    "properties": {
+      "date_flagged": "2026-04-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10319"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1553"
+    },
+    "properties": {
+      "date_flagged": "2026-05-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10391"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1554"
+    },
+    "properties": {
+      "date_flagged": "2026-05-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10274"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1555"
+    },
+    "properties": {
+      "date_flagged": "2026-02-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10291"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1556"
+    },
+    "properties": {
+      "date_flagged": "2026-01-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10176"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1557"
+    },
+    "properties": {
+      "date_flagged": "2026-05-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10250"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1558"
+    },
+    "properties": {
+      "date_flagged": "2026-02-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10215"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1559"
+    },
+    "properties": {
+      "date_flagged": "2026-03-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10348"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1560"
+    },
+    "properties": {
+      "date_flagged": "2026-02-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10263"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1561"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10113"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1562"
+    },
+    "properties": {
+      "date_flagged": "2026-01-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10177"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1563"
+    },
+    "properties": {
+      "date_flagged": "2026-04-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1564"
+    },
+    "properties": {
+      "date_flagged": "2026-04-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1565"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10092"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1566"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10186"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1567"
+    },
+    "properties": {
+      "date_flagged": "2026-04-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10335"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1568"
+    },
+    "properties": {
+      "date_flagged": "2026-05-24"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10138"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1569"
+    },
+    "properties": {
+      "date_flagged": "2026-02-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10147"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1570"
+    },
+    "properties": {
+      "date_flagged": "2026-06-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10240"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1571"
+    },
+    "properties": {
+      "date_flagged": "2026-03-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10312"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1572"
+    },
+    "properties": {
+      "date_flagged": "2026-03-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10117"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1573"
+    },
+    "properties": {
+      "date_flagged": "2026-05-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10187"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1574"
+    },
+    "properties": {
+      "date_flagged": "2026-05-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10116"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1575"
+    },
+    "properties": {
+      "date_flagged": "2026-06-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10138"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1576"
+    },
+    "properties": {
+      "date_flagged": "2026-02-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10172"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1577"
+    },
+    "properties": {
+      "date_flagged": "2026-04-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10155"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1578"
+    },
+    "properties": {
+      "date_flagged": "2026-05-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10378"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1579"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10164"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1580"
+    },
+    "properties": {
+      "date_flagged": "2026-03-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10273"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1581"
+    },
+    "properties": {
+      "date_flagged": "2026-05-22"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10399"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1582"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10390"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1583"
+    },
+    "properties": {
+      "date_flagged": "2026-04-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10219"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1584"
+    },
+    "properties": {
+      "date_flagged": "2026-01-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10003"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1585"
+    },
+    "properties": {
+      "date_flagged": "2026-02-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10016"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1586"
+    },
+    "properties": {
+      "date_flagged": "2026-04-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10135"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1587"
+    },
+    "properties": {
+      "date_flagged": "2026-03-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10292"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1588"
+    },
+    "properties": {
+      "date_flagged": "2026-02-26"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10041"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1589"
+    },
+    "properties": {
+      "date_flagged": "2026-03-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10130"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1590"
+    },
+    "properties": {
+      "date_flagged": "2026-02-23"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10345"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1591"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1592"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10262"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1593"
+    },
+    "properties": {
+      "date_flagged": "2026-04-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10282"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1594"
+    },
+    "properties": {
+      "date_flagged": "2026-02-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10143"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1595"
+    },
+    "properties": {
+      "date_flagged": "2026-02-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10128"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1596"
+    },
+    "properties": {
+      "date_flagged": "2026-02-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10254"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1597"
+    },
+    "properties": {
+      "date_flagged": "2026-06-09"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10362"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1598"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10009"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1599"
+    },
+    "properties": {
+      "date_flagged": "2026-05-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10075"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1600"
+    },
+    "properties": {
+      "date_flagged": "2026-02-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10035"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1601"
+    },
+    "properties": {
+      "date_flagged": "2026-05-14"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10182"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1602"
+    },
+    "properties": {
+      "date_flagged": "2026-03-13"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10028"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1603"
+    },
+    "properties": {
+      "date_flagged": "2026-03-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10398"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1604"
+    },
+    "properties": {
+      "date_flagged": "2026-05-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10356"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1605"
+    },
+    "properties": {
+      "date_flagged": "2026-02-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10343"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1606"
+    },
+    "properties": {
+      "date_flagged": "2026-06-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10173"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1607"
+    },
+    "properties": {
+      "date_flagged": "2026-05-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10115"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1608"
+    },
+    "properties": {
+      "date_flagged": "2026-07-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10382"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1609"
+    },
+    "properties": {
+      "date_flagged": "2026-06-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10090"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1610"
+    },
+    "properties": {
+      "date_flagged": "2026-06-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10318"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1611"
+    },
+    "properties": {
+      "date_flagged": "2026-03-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10113"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1612"
+    },
+    "properties": {
+      "date_flagged": "2026-03-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10156"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1613"
+    },
+    "properties": {
+      "date_flagged": "2026-04-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10133"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1614"
+    },
+    "properties": {
+      "date_flagged": "2026-03-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10330"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1615"
+    },
+    "properties": {
+      "date_flagged": "2026-04-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10210"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1616"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10309"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1617"
+    },
+    "properties": {
+      "date_flagged": "2026-04-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10272"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1618"
+    },
+    "properties": {
+      "date_flagged": "2026-06-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10332"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1619"
+    },
+    "properties": {
+      "date_flagged": "2026-03-16"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10123"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1620"
+    },
+    "properties": {
+      "date_flagged": "2026-05-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10162"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1621"
+    },
+    "properties": {
+      "date_flagged": "2026-06-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10207"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1622"
+    },
+    "properties": {
+      "date_flagged": "2026-05-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10250"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1623"
+    },
+    "properties": {
+      "date_flagged": "2026-03-02"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10166"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1624"
+    },
+    "properties": {
+      "date_flagged": "2026-05-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10114"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1625"
+    },
+    "properties": {
+      "date_flagged": "2026-04-18"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10236"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1626"
+    },
+    "properties": {
+      "date_flagged": "2026-05-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10239"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1627"
+    },
+    "properties": {
+      "date_flagged": "2026-04-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10100"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1628"
+    },
+    "properties": {
+      "date_flagged": "2026-06-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1629"
+    },
+    "properties": {
+      "date_flagged": "2026-06-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10154"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1630"
+    },
+    "properties": {
+      "date_flagged": "2026-03-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10281"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1631"
+    },
+    "properties": {
+      "date_flagged": "2026-06-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10159"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1632"
+    },
+    "properties": {
+      "date_flagged": "2026-04-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10013"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1633"
+    },
+    "properties": {
+      "date_flagged": "2026-04-27"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10205"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1634"
+    },
+    "properties": {
+      "date_flagged": "2026-05-07"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10220"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1635"
+    },
+    "properties": {
+      "date_flagged": "2026-04-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10391"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1636"
+    },
+    "properties": {
+      "date_flagged": "2026-05-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10057"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1637"
+    },
+    "properties": {
+      "date_flagged": "2026-07-01"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10006"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1638"
+    },
+    "properties": {
+      "date_flagged": "2026-05-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1639"
+    },
+    "properties": {
+      "date_flagged": "2026-06-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10256"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1640"
+    },
+    "properties": {
+      "date_flagged": "2026-03-17"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10077"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1641"
+    },
+    "properties": {
+      "date_flagged": "2026-02-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10044"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1642"
+    },
+    "properties": {
+      "date_flagged": "2026-03-28"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10214"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1643"
+    },
+    "properties": {
+      "date_flagged": "2026-07-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Coil",
+      "key": "C10031"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1644"
+    },
+    "properties": {
+      "date_flagged": "2026-04-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1645"
+    },
+    "properties": {
+      "date_flagged": "2026-06-12"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-EAF-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1646"
+    },
+    "properties": {
+      "date_flagged": "2026-03-19"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1647"
+    },
+    "properties": {
+      "date_flagged": "2025-12-05"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1648"
+    },
+    "properties": {
+      "date_flagged": "2026-01-11"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1649"
+    },
+    "properties": {
+      "date_flagged": "2026-03-03"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-HBS-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1650"
+    },
+    "properties": {
+      "date_flagged": "2026-04-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-BF-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1651"
+    },
+    "properties": {
+      "date_flagged": "2025-09-29"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1652"
+    },
+    "properties": {
+      "date_flagged": "2026-04-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1653"
+    },
+    "properties": {
+      "date_flagged": "2025-11-04"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1654"
+    },
+    "properties": {
+      "date_flagged": "2026-03-25"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1655"
+    },
+    "properties": {
+      "date_flagged": "2025-12-15"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RMS-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1656"
+    },
+    "properties": {
+      "date_flagged": "2026-03-20"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-LF-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1657"
+    },
+    "properties": {
+      "date_flagged": "2025-09-06"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CNV-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1658"
+    },
+    "properties": {
+      "date_flagged": "2025-11-10"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1659"
+    },
+    "properties": {
+      "date_flagged": "2026-01-31"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-RHF-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1660"
+    },
+    "properties": {
+      "date_flagged": "2025-11-08"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1661"
+    },
+    "properties": {
+      "date_flagged": "2025-11-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-ROT-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1662"
+    },
+    "properties": {
+      "date_flagged": "2025-10-30"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-FMS-02"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1663"
+    },
+    "properties": {
+      "date_flagged": "2025-08-21"
+    }
+  },
+  {
+    "type": "HAS_DEVIATION",
+    "from": {
+      "label": "Equipment",
+      "key": "EQ-CR-01"
+    },
+    "to": {
+      "label": "Deviation",
+      "key": "DEV1664"
+    },
+    "properties": {
+      "date_flagged": "2025-07-25"
+    }
+  }
+]

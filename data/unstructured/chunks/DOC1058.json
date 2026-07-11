@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1058",
+    "chunk_id": "DOC1058_chunk_0",
+    "chunk_index": 0,
+    "text": "# IS 2062 \u2014 Hot Rolled Medium and High Tensile Structural Steel\n\n> **Scope / Summary Reference \u2014 full standard text is licensed by the Bureau of Indian Standards (BIS) and is not reproduced here.**\n> This document paraphrases only publicly available scope and classification information for use as RAG search context. It intentionally omits copyrighted content such as exact chemical-composition limits, mechanical-property thresholds, tolerances, and numbered clause text. For the authoritative text, purchase the standard from the BIS e-Standards store (see *Where to obtain the full text* below).\n\n- **Standard number:** IS 2062 (current edition commonly referenced: IS 2062:2011, with amendments)\n- **Issuing body:** Bureau of Indian Standards (BIS), India\n- **Title:** Hot Rolled Medium and High Tensile Structural Steel \u2014 Specification\n\n## Scope (high level)\n\nIS 2062 specifies requirements for **hot-rolled structural steel** supplied as plates, strips, sections/shapes (beams, channels, angles), flats, and bars for general structural use \u2014 for example in buildings, bridges, industrial sheds, and heavy fabrication. At a high level it covers manufacture, chemical composition, mechanical properties, and testing for the various grades and sub-qualities. The specific numeric limits are given in the licensed full text and are **not** reproduced here.\n\n## Grade designations (publicly known names)\n\nThe standard organizes structural steel into a set of strength grades (the numeric part broadly corresponds to a specified yield-strength level in MPa). Publicly documented grade names include:\n\n- **E250**\n- **E300**\n- **E350**\n- **E410**\n- **E450**\n- **E550**\n\nEach grade is further offered in **sub-qualities** (commonly labelled with suffixes such as **A / BR / B0 / C**) that differ mainly in weldability and low-temperature impact (toughness) requirements. Only the grade/sub-quality *names* are listed here; the associated numeric property values belong to the copyrighted standard.",
+    "char_count": 1995,
+    "metadata": {
+      "doc_type": "standard_reference",
+      "related_entity_id": "STD-IS2062-01",
+      "source_file_path": "data/unstructured/standards/is_2062.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1058",
+    "chunk_id": "DOC1058_chunk_1",
+    "chunk_index": 1,
+    "text": "## Purpose\n\nTo provide a uniform, testable specification for hot-rolled structural steel so that material from different producers has consistent and verifiable strength, ductility, weldability, and toughness \u2014 supporting safe structural design and fabrication.\n\n## Relationship to IS 226 (supersession) \u2014 search finding\n\n**Finding:** IS 226 is **not** a separately active current standard for new structural-steel design \u2014 it has been **withdrawn and superseded by IS 2062**.\n\n- IS 226 (last edition **IS 226:1975**, \"Structural Steel \u2014 Standard Quality\") was the long-standing Indian specification for general-purpose mild structural steel (historically \"Fe 410-S\" / Grade A type material).\n- It was **officially withdrawn**, with IS 2062 taking its place (public references cite the supersession around **2006**, consolidated into the current **IS 2062:2011**).\n- Its properties are broadly equivalent to IS 2062 **Grade E250 (Fe 410W)**.\n- **Practical guidance:** use **IS 2062** for all new design, procurement, and fabrication. IS 226 remains useful only as a historical reference \u2014 e.g., interpreting old drawings, assessing existing/legacy structures, or reviewing archived mill certificates.\n\n## Where to obtain the full text\n\nThe complete, authoritative standard is available for purchase/download from the **BIS e-Standards / \"Standards\" portal**:\n\n- BIS official site: https://www.bis.gov.in\n- BIS standards catalogue / e-store: https://www.services.bis.gov.in\n\n## Sources (public scope information)\n\n- BIS product manual / listing for IS 2062 \u2014 https://www.bis.gov.in/PDF/cart/PM_IS_2062.pdf\n- Archived BIS record of IS 2062:2011 (bibliographic/scope reference) \u2014 https://archive.org/details/gov.in.is.2062.2011\n- IS 2062 grade overview (E250/E350/E450) \u2014 https://hindustansteel.com/is-2062-grade-breakdown-e250-e350-e450-full-comparison/\n- IS 226:1975 bibliographic record (status) \u2014 https://infralens.in/code/IS-226-1975",
+    "char_count": 1935,
+    "metadata": {
+      "doc_type": "standard_reference",
+      "related_entity_id": "STD-IS2062-01",
+      "source_file_path": "data/unstructured/standards/is_2062.md"
+    }
+  }
+]

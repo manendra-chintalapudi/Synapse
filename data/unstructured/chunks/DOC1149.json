@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1149",
+    "chunk_id": "DOC1149_chunk_0",
+    "chunk_index": 0,
+    "text": "# Work Order & Incident Report \u2014 DOC1149\n**Document type:** Work Order / Incident Narrative (synthetic narrative record)\n**Failure:** F1088 \u2014 Power Failure\n**Equipment:** EQ-RMS-01 \u2014 Roughing Mill Stand R1 (Rajendra Steel Plant, Mumbai Unit - Rolling Mill)\n**Event timestamp:** 2026-04-24 03:35:41  |  **RCA:** RCA1088 (closed 2026-04-27)\n\n## 1. Incident Narrative\nAt 03:35:41 on 2026-04-24, the Roughing Mill Stand R1 raised a power failure alarm and was taken out of normal operation. Condition monitoring captured air temperature 295.5 K, process temperature 306.0 K, rotational speed 1234 rpm, torque 28.0 Nm and accumulated tool wear 162 minutes at the moment of the trip. The shift crew isolated the equipment under the plant permit-to-work system and raised this work order for investigation and repair.\n\n## 2. Response & Diagnosis\nDivya Banerjee (Shift B) attended the equipment and completed the make-safe checks before handover to the investigation team. The root cause analysis RCA1088, performed by Divya Banerjee (equipment engineer, Shift B), concluded: Root cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.",
+    "char_count": 1304,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1088",
+      "source_file_path": "data/unstructured/documents/DOC1149.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1149",
+    "chunk_id": "DOC1149_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Procedure Review\nThe investigation reviewed the governing procedure PROC-017 for this asset and recorded a compliance finding: Step 3 of PROC-017 (\"Isolate energy sources and, if safe, contain any spill or leak.\") \u2014 the electrical isolation/calibration check was missed in the prior PM cycle. This finding is the actionable link between the maintenance routine and the failure mechanism, and it was logged so recurrence checks can compare like-for-like across the fleet.\n\n## 4. Corrective Work Completed\nInspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip. Post-repair verification confirmed return to the qualified operating envelope before release to production. Quality review linked 23 failed quality test(s) across coils C10082, C10098, C10123, C10155, C10173, C10206\u2026 produced on this equipment in the surrounding production window; the associated deviations were referenced back to this work order for disposition tracking.\n\n## 5. Closure\nWork order closed on 2026-04-27 with the corrective action verified in service. This record is a synthetic narrative generated for the Synapse knowledge graph and tagged accordingly. Linked records: failure F1088, RCA RCA1088, procedure PROC-017, equipment EQ-RMS-01.",
+    "char_count": 1287,
+    "metadata": {
+      "doc_type": "work_order",
+      "related_entity_id": "F1088",
+      "source_file_path": "data/unstructured/documents/DOC1149.md"
+    }
+  }
+]

@@ -1,0 +1,4976 @@
+[
+  {
+    "deviation_id": "DEV1001",
+    "coil_id_fk": "C10204",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1002",
+    "coil_id_fk": "C10348",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1003",
+    "coil_id_fk": "C10389",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1004",
+    "coil_id_fk": "C10050",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1117"
+  },
+  {
+    "deviation_id": "DEV1005",
+    "coil_id_fk": "C10139",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1006",
+    "coil_id_fk": "C10045",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1007",
+    "coil_id_fk": "C10244",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1008",
+    "coil_id_fk": "C10076",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1009",
+    "coil_id_fk": "C10080",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1010",
+    "coil_id_fk": "C10209",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1011",
+    "coil_id_fk": "C10116",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1012",
+    "coil_id_fk": "C10068",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1098"
+  },
+  {
+    "deviation_id": "DEV1013",
+    "coil_id_fk": "C10228",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1014",
+    "coil_id_fk": "C10066",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1015",
+    "coil_id_fk": "C10132",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1016",
+    "coil_id_fk": "C10203",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1009"
+  },
+  {
+    "deviation_id": "DEV1017",
+    "coil_id_fk": "C10173",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1018",
+    "coil_id_fk": "C10088",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1019",
+    "coil_id_fk": "C10046",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1020",
+    "coil_id_fk": "C10271",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1129"
+  },
+  {
+    "deviation_id": "DEV1021",
+    "coil_id_fk": "C10068",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1098"
+  },
+  {
+    "deviation_id": "DEV1022",
+    "coil_id_fk": "C10320",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1023",
+    "coil_id_fk": "C10049",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1024",
+    "coil_id_fk": "C10358",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1025",
+    "coil_id_fk": "C10387",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1026",
+    "coil_id_fk": "C10360",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1027",
+    "coil_id_fk": "C10221",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1028",
+    "coil_id_fk": "C10385",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1029",
+    "coil_id_fk": "C10142",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1030",
+    "coil_id_fk": "C10340",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1031",
+    "coil_id_fk": "C10265",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1032",
+    "coil_id_fk": "C10318",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1033",
+    "coil_id_fk": "C10184",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1034",
+    "coil_id_fk": "C10399",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1035",
+    "coil_id_fk": "C10362",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1036",
+    "coil_id_fk": "C10135",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1037",
+    "coil_id_fk": "C10337",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1038",
+    "coil_id_fk": "C10243",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1039",
+    "coil_id_fk": "C10093",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1040",
+    "coil_id_fk": "C10094",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1041",
+    "coil_id_fk": "C10195",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1042",
+    "coil_id_fk": "C10071",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1043",
+    "coil_id_fk": "C10385",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1044",
+    "coil_id_fk": "C10390",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1045",
+    "coil_id_fk": "C10242",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1046",
+    "coil_id_fk": "C10120",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1047",
+    "coil_id_fk": "C10152",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1048",
+    "coil_id_fk": "C10335",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1049",
+    "coil_id_fk": "C10225",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1050",
+    "coil_id_fk": "C10024",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1051",
+    "coil_id_fk": "C10177",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1052",
+    "coil_id_fk": "C10207",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1053",
+    "coil_id_fk": "C10299",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1054",
+    "coil_id_fk": "C10254",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1055",
+    "coil_id_fk": "C10053",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1056",
+    "coil_id_fk": "C10022",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1057",
+    "coil_id_fk": "C10133",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1058",
+    "coil_id_fk": "C10079",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1059",
+    "coil_id_fk": "C10181",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1060",
+    "coil_id_fk": "C10131",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1061",
+    "coil_id_fk": "C10339",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1062",
+    "coil_id_fk": "C10060",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1063",
+    "coil_id_fk": "C10376",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1064",
+    "coil_id_fk": "C10064",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1065",
+    "coil_id_fk": "C10224",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1066",
+    "coil_id_fk": "C10327",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1067",
+    "coil_id_fk": "C10312",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1068",
+    "coil_id_fk": "C10285",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1069",
+    "coil_id_fk": "C10249",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1070",
+    "coil_id_fk": "C10138",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1071",
+    "coil_id_fk": "C10056",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1072",
+    "coil_id_fk": "C10348",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1073",
+    "coil_id_fk": "C10126",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1074",
+    "coil_id_fk": "C10359",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1075",
+    "coil_id_fk": "C10121",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1076",
+    "coil_id_fk": "C10239",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1077",
+    "coil_id_fk": "C10164",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1078",
+    "coil_id_fk": "C10206",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1079",
+    "coil_id_fk": "C10307",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1080",
+    "coil_id_fk": "C10024",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "high",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1081",
+    "coil_id_fk": "C10070",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "medium",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1082",
+    "coil_id_fk": "C10333",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Coating irregularity detected on coil surface during inspection.",
+    "severity": "low",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1083",
+    "coil_id_fk": "C10028",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1084",
+    "coil_id_fk": "C10332",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1085",
+    "coil_id_fk": "C10096",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1086",
+    "coil_id_fk": "C10282",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1087",
+    "coil_id_fk": "C10266",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1168"
+  },
+  {
+    "deviation_id": "DEV1088",
+    "coil_id_fk": "C10347",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1089",
+    "coil_id_fk": "C10201",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1090",
+    "coil_id_fk": "C10373",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1091",
+    "coil_id_fk": "C10319",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1092",
+    "coil_id_fk": "C10329",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1093",
+    "coil_id_fk": "C10213",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1094",
+    "coil_id_fk": "C10131",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1095",
+    "coil_id_fk": "C10175",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1096",
+    "coil_id_fk": "C10262",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1097",
+    "coil_id_fk": "C10219",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1098",
+    "coil_id_fk": "C10290",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1099",
+    "coil_id_fk": "C10291",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1127"
+  },
+  {
+    "deviation_id": "DEV1100",
+    "coil_id_fk": "C10148",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1117"
+  },
+  {
+    "deviation_id": "DEV1101",
+    "coil_id_fk": "C10008",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1102",
+    "coil_id_fk": "C10216",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1103",
+    "coil_id_fk": "C10291",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1127"
+  },
+  {
+    "deviation_id": "DEV1104",
+    "coil_id_fk": "C10359",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1105",
+    "coil_id_fk": "C10384",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1098"
+  },
+  {
+    "deviation_id": "DEV1106",
+    "coil_id_fk": "C10201",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1107",
+    "coil_id_fk": "C10139",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1108",
+    "coil_id_fk": "C10164",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1109",
+    "coil_id_fk": "C10355",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1110",
+    "coil_id_fk": "C10273",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1111",
+    "coil_id_fk": "C10178",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1112",
+    "coil_id_fk": "C10242",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1113",
+    "coil_id_fk": "C10380",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1114",
+    "coil_id_fk": "C10067",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1115",
+    "coil_id_fk": "C10133",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1116",
+    "coil_id_fk": "C10338",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1117",
+    "coil_id_fk": "C10270",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1118",
+    "coil_id_fk": "C10305",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1119",
+    "coil_id_fk": "C10343",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1120",
+    "coil_id_fk": "C10364",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1121",
+    "coil_id_fk": "C10004",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1122",
+    "coil_id_fk": "C10074",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1145"
+  },
+  {
+    "deviation_id": "DEV1123",
+    "coil_id_fk": "C10246",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1124",
+    "coil_id_fk": "C10340",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1125",
+    "coil_id_fk": "C10325",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1126",
+    "coil_id_fk": "C10372",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1127",
+    "coil_id_fk": "C10019",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1128",
+    "coil_id_fk": "C10108",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1129",
+    "coil_id_fk": "C10290",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1130",
+    "coil_id_fk": "C10390",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1131",
+    "coil_id_fk": "C10036",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1132",
+    "coil_id_fk": "C10081",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1133",
+    "coil_id_fk": "C10383",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1134",
+    "coil_id_fk": "C10232",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1135",
+    "coil_id_fk": "C10342",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1136",
+    "coil_id_fk": "C10244",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1137",
+    "coil_id_fk": "C10006",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1138",
+    "coil_id_fk": "C10040",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1139",
+    "coil_id_fk": "C10381",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1140",
+    "coil_id_fk": "C10105",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1141",
+    "coil_id_fk": "C10155",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1142",
+    "coil_id_fk": "C10327",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1143",
+    "coil_id_fk": "C10175",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1144",
+    "coil_id_fk": "C10219",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1145",
+    "coil_id_fk": "C10398",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1146",
+    "coil_id_fk": "C10012",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1147",
+    "coil_id_fk": "C10149",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1148",
+    "coil_id_fk": "C10150",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1149",
+    "coil_id_fk": "C10164",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1150",
+    "coil_id_fk": "C10034",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1151",
+    "coil_id_fk": "C10042",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1152",
+    "coil_id_fk": "C10273",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1153",
+    "coil_id_fk": "C10183",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1166"
+  },
+  {
+    "deviation_id": "DEV1154",
+    "coil_id_fk": "C10098",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1155",
+    "coil_id_fk": "C10383",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1156",
+    "coil_id_fk": "C10245",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1157",
+    "coil_id_fk": "C10007",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1158",
+    "coil_id_fk": "C10276",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1159",
+    "coil_id_fk": "C10307",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1160",
+    "coil_id_fk": "C10192",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1161",
+    "coil_id_fk": "C10359",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1162",
+    "coil_id_fk": "C10387",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1163",
+    "coil_id_fk": "C10332",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1164",
+    "coil_id_fk": "C10292",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1046"
+  },
+  {
+    "deviation_id": "DEV1165",
+    "coil_id_fk": "C10102",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1166",
+    "coil_id_fk": "C10239",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1167",
+    "coil_id_fk": "C10388",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1168",
+    "coil_id_fk": "C10003",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Longitudinal surface marking found on coil C10003 (IS1786-Fe500) at final inspection; the periodic pattern is consistent with work-roll surface condition on the roughing line. Raised against IS 1786 surface-acceptance and held pending roll-change verification.",
+    "severity": "high",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1169",
+    "coil_id_fk": "C10205",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1170",
+    "coil_id_fk": "C10137",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "low",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1171",
+    "coil_id_fk": "C10225",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1172",
+    "coil_id_fk": "C10122",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1173",
+    "coil_id_fk": "C10377",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1174",
+    "coil_id_fk": "C10150",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1175",
+    "coil_id_fk": "C10266",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1168"
+  },
+  {
+    "deviation_id": "DEV1176",
+    "coil_id_fk": "C10291",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1127"
+  },
+  {
+    "deviation_id": "DEV1177",
+    "coil_id_fk": "C10045",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "medium",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1178",
+    "coil_id_fk": "C10388",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface scratch defect identified on coil, non-conforming to visual acceptance.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1179",
+    "coil_id_fk": "C10061",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1180",
+    "coil_id_fk": "C10256",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1181",
+    "coil_id_fk": "C10273",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1182",
+    "coil_id_fk": "C10132",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1183",
+    "coil_id_fk": "C10146",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1184",
+    "coil_id_fk": "C10270",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1185",
+    "coil_id_fk": "C10395",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1186",
+    "coil_id_fk": "C10025",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high",
+    "failure_id_fk": "F1129"
+  },
+  {
+    "deviation_id": "DEV1187",
+    "coil_id_fk": "C10012",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1188",
+    "coil_id_fk": "C10112",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1189",
+    "coil_id_fk": "C10352",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1145"
+  },
+  {
+    "deviation_id": "DEV1190",
+    "coil_id_fk": "C10344",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1191",
+    "coil_id_fk": "C10066",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1192",
+    "coil_id_fk": "C10160",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1193",
+    "coil_id_fk": "C10010",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1194",
+    "coil_id_fk": "C10381",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1195",
+    "coil_id_fk": "C10072",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1196",
+    "coil_id_fk": "C10238",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1197",
+    "coil_id_fk": "C10044",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1198",
+    "coil_id_fk": "C10299",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1199",
+    "coil_id_fk": "C10013",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1200",
+    "coil_id_fk": "C10176",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1201",
+    "coil_id_fk": "C10230",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1202",
+    "coil_id_fk": "C10002",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1046"
+  },
+  {
+    "deviation_id": "DEV1203",
+    "coil_id_fk": "C10116",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1204",
+    "coil_id_fk": "C10268",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1205",
+    "coil_id_fk": "C10220",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1206",
+    "coil_id_fk": "C10014",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1046"
+  },
+  {
+    "deviation_id": "DEV1207",
+    "coil_id_fk": "C10221",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1208",
+    "coil_id_fk": "C10009",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1209",
+    "coil_id_fk": "C10349",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1210",
+    "coil_id_fk": "C10302",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1211",
+    "coil_id_fk": "C10220",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1212",
+    "coil_id_fk": "C10057",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1213",
+    "coil_id_fk": "C10230",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1214",
+    "coil_id_fk": "C10093",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1215",
+    "coil_id_fk": "C10319",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1216",
+    "coil_id_fk": "C10190",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1217",
+    "coil_id_fk": "C10100",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1218",
+    "coil_id_fk": "C10094",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1219",
+    "coil_id_fk": "C10170",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1220",
+    "coil_id_fk": "C10038",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1221",
+    "coil_id_fk": "C10158",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1222",
+    "coil_id_fk": "C10247",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1223",
+    "coil_id_fk": "C10184",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1224",
+    "coil_id_fk": "C10275",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1225",
+    "coil_id_fk": "C10115",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1226",
+    "coil_id_fk": "C10070",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1227",
+    "coil_id_fk": "C10155",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1228",
+    "coil_id_fk": "C10018",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Edge and wrap irregularity on coil C10018 observed at the downcoiler; consistent with tension-control variation during coiling. Raised against ASTM A370 handling/finish expectations and held for disposition.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1229",
+    "coil_id_fk": "C10103",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1230",
+    "coil_id_fk": "C10170",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1231",
+    "coil_id_fk": "C10077",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1232",
+    "coil_id_fk": "C10305",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1233",
+    "coil_id_fk": "C10191",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1234",
+    "coil_id_fk": "C10340",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1235",
+    "coil_id_fk": "C10257",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1236",
+    "coil_id_fk": "C10005",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1237",
+    "coil_id_fk": "C10324",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1238",
+    "coil_id_fk": "C10395",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1239",
+    "coil_id_fk": "C10379",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1240",
+    "coil_id_fk": "C10069",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1241",
+    "coil_id_fk": "C10150",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1242",
+    "coil_id_fk": "C10184",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1243",
+    "coil_id_fk": "C10090",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1244",
+    "coil_id_fk": "C10166",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1245",
+    "coil_id_fk": "C10085",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1246",
+    "coil_id_fk": "C10029",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1247",
+    "coil_id_fk": "C10264",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1248",
+    "coil_id_fk": "C10296",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1249",
+    "coil_id_fk": "C10281",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1250",
+    "coil_id_fk": "C10366",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1251",
+    "coil_id_fk": "C10105",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1252",
+    "coil_id_fk": "C10103",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1253",
+    "coil_id_fk": "C10258",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1254",
+    "coil_id_fk": "C10249",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1255",
+    "coil_id_fk": "C10236",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1256",
+    "coil_id_fk": "C10052",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1257",
+    "coil_id_fk": "C10374",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1258",
+    "coil_id_fk": "C10089",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1259",
+    "coil_id_fk": "C10096",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1260",
+    "coil_id_fk": "C10298",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1261",
+    "coil_id_fk": "C10212",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1262",
+    "coil_id_fk": "C10253",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1263",
+    "coil_id_fk": "C10040",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1264",
+    "coil_id_fk": "C10297",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1265",
+    "coil_id_fk": "C10001",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1266",
+    "coil_id_fk": "C10349",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1267",
+    "coil_id_fk": "C10341",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1268",
+    "coil_id_fk": "C10390",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1269",
+    "coil_id_fk": "C10281",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1270",
+    "coil_id_fk": "C10260",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1271",
+    "coil_id_fk": "C10179",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1272",
+    "coil_id_fk": "C10045",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1273",
+    "coil_id_fk": "C10213",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1274",
+    "coil_id_fk": "C10393",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1275",
+    "coil_id_fk": "C10081",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1276",
+    "coil_id_fk": "C10239",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1277",
+    "coil_id_fk": "C10387",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1278",
+    "coil_id_fk": "C10355",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1279",
+    "coil_id_fk": "C10078",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1280",
+    "coil_id_fk": "C10276",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1281",
+    "coil_id_fk": "C10279",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "high",
+    "failure_id_fk": "F1117"
+  },
+  {
+    "deviation_id": "DEV1282",
+    "coil_id_fk": "C10380",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1283",
+    "coil_id_fk": "C10337",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1284",
+    "coil_id_fk": "C10034",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "medium",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1285",
+    "coil_id_fk": "C10215",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Linear surface defect (scratch-type) found along coil length.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1286",
+    "coil_id_fk": "C10048",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1287",
+    "coil_id_fk": "C10179",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1288",
+    "coil_id_fk": "C10281",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1289",
+    "coil_id_fk": "C10030",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1290",
+    "coil_id_fk": "C10115",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1291",
+    "coil_id_fk": "C10112",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1292",
+    "coil_id_fk": "C10345",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1293",
+    "coil_id_fk": "C10284",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1294",
+    "coil_id_fk": "C10036",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1295",
+    "coil_id_fk": "C10065",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1296",
+    "coil_id_fk": "C10247",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1297",
+    "coil_id_fk": "C10149",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1298",
+    "coil_id_fk": "C10347",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1299",
+    "coil_id_fk": "C10178",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1300",
+    "coil_id_fk": "C10175",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1301",
+    "coil_id_fk": "C10230",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1302",
+    "coil_id_fk": "C10184",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1303",
+    "coil_id_fk": "C10172",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1304",
+    "coil_id_fk": "C10056",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1305",
+    "coil_id_fk": "C10256",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1306",
+    "coil_id_fk": "C10051",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1307",
+    "coil_id_fk": "C10272",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1308",
+    "coil_id_fk": "C10045",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1309",
+    "coil_id_fk": "C10245",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1310",
+    "coil_id_fk": "C10264",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1311",
+    "coil_id_fk": "C10137",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1312",
+    "coil_id_fk": "C10174",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1313",
+    "coil_id_fk": "C10056",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1314",
+    "coil_id_fk": "C10308",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1315",
+    "coil_id_fk": "C10100",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1316",
+    "coil_id_fk": "C10300",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1317",
+    "coil_id_fk": "C10051",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1318",
+    "coil_id_fk": "C10229",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1319",
+    "coil_id_fk": "C10128",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1320",
+    "coil_id_fk": "C10325",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1321",
+    "coil_id_fk": "C10278",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1322",
+    "coil_id_fk": "C10356",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1323",
+    "coil_id_fk": "C10016",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1324",
+    "coil_id_fk": "C10180",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1325",
+    "coil_id_fk": "C10120",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1326",
+    "coil_id_fk": "C10350",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1327",
+    "coil_id_fk": "C10198",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1328",
+    "coil_id_fk": "C10046",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1329",
+    "coil_id_fk": "C10003",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Longitudinal surface marking found on coil C10003 (IS1786-Fe500) at final inspection; the periodic pattern is consistent with work-roll surface condition on the roughing line. Raised against IS 1786 surface-acceptance and held pending roll-change verification.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1330",
+    "coil_id_fk": "C10313",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1331",
+    "coil_id_fk": "C10066",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1332",
+    "coil_id_fk": "C10310",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1333",
+    "coil_id_fk": "C10288",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1334",
+    "coil_id_fk": "C10059",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1335",
+    "coil_id_fk": "C10326",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1336",
+    "coil_id_fk": "C10201",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1337",
+    "coil_id_fk": "C10259",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1338",
+    "coil_id_fk": "C10004",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface staining observed on coil, indicating possible contamination.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1339",
+    "coil_id_fk": "C10180",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1340",
+    "coil_id_fk": "C10109",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1341",
+    "coil_id_fk": "C10326",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1342",
+    "coil_id_fk": "C10029",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1343",
+    "coil_id_fk": "C10064",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1344",
+    "coil_id_fk": "C10347",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1345",
+    "coil_id_fk": "C10082",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1346",
+    "coil_id_fk": "C10082",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1347",
+    "coil_id_fk": "C10393",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1348",
+    "coil_id_fk": "C10316",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1349",
+    "coil_id_fk": "C10125",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1350",
+    "coil_id_fk": "C10176",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1351",
+    "coil_id_fk": "C10003",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Longitudinal surface marking found on coil C10003 (IS1786-Fe500) at final inspection; the periodic pattern is consistent with work-roll surface condition on the roughing line. Raised against IS 1786 surface-acceptance and held pending roll-change verification.",
+    "severity": "high",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1352",
+    "coil_id_fk": "C10321",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1353",
+    "coil_id_fk": "C10386",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1354",
+    "coil_id_fk": "C10113",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1355",
+    "coil_id_fk": "C10310",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1356",
+    "coil_id_fk": "C10152",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1357",
+    "coil_id_fk": "C10001",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1358",
+    "coil_id_fk": "C10110",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1359",
+    "coil_id_fk": "C10067",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1360",
+    "coil_id_fk": "C10222",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1361",
+    "coil_id_fk": "C10041",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1362",
+    "coil_id_fk": "C10173",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1363",
+    "coil_id_fk": "C10062",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1364",
+    "coil_id_fk": "C10252",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1365",
+    "coil_id_fk": "C10387",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1366",
+    "coil_id_fk": "C10154",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1367",
+    "coil_id_fk": "C10395",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1368",
+    "coil_id_fk": "C10030",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1369",
+    "coil_id_fk": "C10143",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1370",
+    "coil_id_fk": "C10107",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1371",
+    "coil_id_fk": "C10115",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1372",
+    "coil_id_fk": "C10140",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high",
+    "failure_id_fk": "F1129"
+  },
+  {
+    "deviation_id": "DEV1373",
+    "coil_id_fk": "C10037",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1374",
+    "coil_id_fk": "C10328",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1375",
+    "coil_id_fk": "C10220",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface contamination / dirtiness detected, cleaning review required.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1376",
+    "coil_id_fk": "C10162",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1377",
+    "coil_id_fk": "C10254",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1378",
+    "coil_id_fk": "C10048",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1379",
+    "coil_id_fk": "C10352",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1145"
+  },
+  {
+    "deviation_id": "DEV1380",
+    "coil_id_fk": "C10133",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1381",
+    "coil_id_fk": "C10017",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Repeating surface blemish on coil C10017 (IS1786-Fe500D) detected downstream of the finishing stand; spacing matches a work-roll defect signature. Flagged against IS 1786 acceptance and segregated for re-inspection after roll grinding.",
+    "severity": "medium",
+    "failure_id_fk": "F1127"
+  },
+  {
+    "deviation_id": "DEV1382",
+    "coil_id_fk": "C10055",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1383",
+    "coil_id_fk": "C10198",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1384",
+    "coil_id_fk": "C10071",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1385",
+    "coil_id_fk": "C10187",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1386",
+    "coil_id_fk": "C10188",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1387",
+    "coil_id_fk": "C10109",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1388",
+    "coil_id_fk": "C10136",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1389",
+    "coil_id_fk": "C10340",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1390",
+    "coil_id_fk": "C10083",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1391",
+    "coil_id_fk": "C10048",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1392",
+    "coil_id_fk": "C10369",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1393",
+    "coil_id_fk": "C10290",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1394",
+    "coil_id_fk": "C10183",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1166"
+  },
+  {
+    "deviation_id": "DEV1395",
+    "coil_id_fk": "C10370",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1396",
+    "coil_id_fk": "C10234",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1397",
+    "coil_id_fk": "C10213",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1398",
+    "coil_id_fk": "C10235",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1399",
+    "coil_id_fk": "C10168",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1400",
+    "coil_id_fk": "C10197",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1401",
+    "coil_id_fk": "C10386",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1402",
+    "coil_id_fk": "C10400",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1403",
+    "coil_id_fk": "C10091",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1404",
+    "coil_id_fk": "C10088",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1405",
+    "coil_id_fk": "C10379",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1406",
+    "coil_id_fk": "C10008",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1407",
+    "coil_id_fk": "C10394",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1408",
+    "coil_id_fk": "C10347",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1409",
+    "coil_id_fk": "C10122",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1410",
+    "coil_id_fk": "C10175",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1411",
+    "coil_id_fk": "C10159",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1412",
+    "coil_id_fk": "C10086",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1413",
+    "coil_id_fk": "C10357",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1414",
+    "coil_id_fk": "C10100",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1415",
+    "coil_id_fk": "C10211",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1416",
+    "coil_id_fk": "C10093",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1417",
+    "coil_id_fk": "C10055",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1418",
+    "coil_id_fk": "C10022",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1419",
+    "coil_id_fk": "C10390",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1420",
+    "coil_id_fk": "C10352",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1145"
+  },
+  {
+    "deviation_id": "DEV1421",
+    "coil_id_fk": "C10303",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1422",
+    "coil_id_fk": "C10296",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1423",
+    "coil_id_fk": "C10098",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1424",
+    "coil_id_fk": "C10196",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1425",
+    "coil_id_fk": "C10227",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1426",
+    "coil_id_fk": "C10111",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1427",
+    "coil_id_fk": "C10389",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1428",
+    "coil_id_fk": "C10330",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1429",
+    "coil_id_fk": "C10111",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1430",
+    "coil_id_fk": "C10011",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1431",
+    "coil_id_fk": "C10145",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1432",
+    "coil_id_fk": "C10146",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1433",
+    "coil_id_fk": "C10098",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1434",
+    "coil_id_fk": "C10389",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1435",
+    "coil_id_fk": "C10377",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1436",
+    "coil_id_fk": "C10273",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1437",
+    "coil_id_fk": "C10053",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1438",
+    "coil_id_fk": "C10219",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1439",
+    "coil_id_fk": "C10047",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1440",
+    "coil_id_fk": "C10017",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Repeating surface blemish on coil C10017 (IS1786-Fe500D) detected downstream of the finishing stand; spacing matches a work-roll defect signature. Flagged against IS 1786 acceptance and segregated for re-inspection after roll grinding.",
+    "severity": "low",
+    "failure_id_fk": "F1127"
+  },
+  {
+    "deviation_id": "DEV1441",
+    "coil_id_fk": "C10131",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1442",
+    "coil_id_fk": "C10258",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1443",
+    "coil_id_fk": "C10360",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1444",
+    "coil_id_fk": "C10368",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high",
+    "failure_id_fk": "F1196"
+  },
+  {
+    "deviation_id": "DEV1445",
+    "coil_id_fk": "C10294",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1446",
+    "coil_id_fk": "C10366",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1447",
+    "coil_id_fk": "C10281",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1448",
+    "coil_id_fk": "C10374",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1449",
+    "coil_id_fk": "C10177",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1450",
+    "coil_id_fk": "C10256",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1451",
+    "coil_id_fk": "C10172",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1452",
+    "coil_id_fk": "C10006",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1453",
+    "coil_id_fk": "C10347",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1454",
+    "coil_id_fk": "C10399",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1455",
+    "coil_id_fk": "C10361",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "high",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1456",
+    "coil_id_fk": "C10025",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1129"
+  },
+  {
+    "deviation_id": "DEV1457",
+    "coil_id_fk": "C10194",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1458",
+    "coil_id_fk": "C10298",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1459",
+    "coil_id_fk": "C10098",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1460",
+    "coil_id_fk": "C10136",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1461",
+    "coil_id_fk": "C10395",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1462",
+    "coil_id_fk": "C10362",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1463",
+    "coil_id_fk": "C10370",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1464",
+    "coil_id_fk": "C10195",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1465",
+    "coil_id_fk": "C10285",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1466",
+    "coil_id_fk": "C10212",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1467",
+    "coil_id_fk": "C10054",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium",
+    "failure_id_fk": "F1168"
+  },
+  {
+    "deviation_id": "DEV1468",
+    "coil_id_fk": "C10270",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1469",
+    "coil_id_fk": "C10267",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Surface bump / raised defect detected on coil.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1470",
+    "coil_id_fk": "C10053",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1471",
+    "coil_id_fk": "C10372",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1472",
+    "coil_id_fk": "C10084",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1473",
+    "coil_id_fk": "C10206",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1474",
+    "coil_id_fk": "C10131",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1475",
+    "coil_id_fk": "C10139",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1476",
+    "coil_id_fk": "C10057",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1477",
+    "coil_id_fk": "C10301",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1478",
+    "coil_id_fk": "C10170",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1479",
+    "coil_id_fk": "C10116",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1480",
+    "coil_id_fk": "C10272",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1481",
+    "coil_id_fk": "C10379",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1482",
+    "coil_id_fk": "C10056",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1483",
+    "coil_id_fk": "C10071",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1484",
+    "coil_id_fk": "C10048",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1485",
+    "coil_id_fk": "C10143",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1486",
+    "coil_id_fk": "C10398",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1487",
+    "coil_id_fk": "C10278",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1488",
+    "coil_id_fk": "C10039",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1489",
+    "coil_id_fk": "C10348",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1490",
+    "coil_id_fk": "C10138",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1491",
+    "coil_id_fk": "C10031",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1492",
+    "coil_id_fk": "C10158",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1493",
+    "coil_id_fk": "C10210",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1494",
+    "coil_id_fk": "C10151",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1495",
+    "coil_id_fk": "C10064",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1496",
+    "coil_id_fk": "C10050",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1117"
+  },
+  {
+    "deviation_id": "DEV1497",
+    "coil_id_fk": "C10316",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1498",
+    "coil_id_fk": "C10218",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1499",
+    "coil_id_fk": "C10325",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1500",
+    "coil_id_fk": "C10048",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1182"
+  },
+  {
+    "deviation_id": "DEV1501",
+    "coil_id_fk": "C10091",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1502",
+    "coil_id_fk": "C10188",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1503",
+    "coil_id_fk": "C10098",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1504",
+    "coil_id_fk": "C10127",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1505",
+    "coil_id_fk": "C10285",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1506",
+    "coil_id_fk": "C10005",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1507",
+    "coil_id_fk": "C10073",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1508",
+    "coil_id_fk": "C10148",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1117"
+  },
+  {
+    "deviation_id": "DEV1509",
+    "coil_id_fk": "C10093",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1510",
+    "coil_id_fk": "C10310",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1511",
+    "coil_id_fk": "C10227",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1512",
+    "coil_id_fk": "C10120",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1513",
+    "coil_id_fk": "C10146",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1514",
+    "coil_id_fk": "C10281",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1515",
+    "coil_id_fk": "C10023",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1516",
+    "coil_id_fk": "C10382",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1517",
+    "coil_id_fk": "C10124",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1518",
+    "coil_id_fk": "C10360",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1519",
+    "coil_id_fk": "C10358",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1520",
+    "coil_id_fk": "C10390",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1521",
+    "coil_id_fk": "C10374",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1522",
+    "coil_id_fk": "C10343",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1523",
+    "coil_id_fk": "C10186",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1009"
+  },
+  {
+    "deviation_id": "DEV1524",
+    "coil_id_fk": "C10181",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1525",
+    "coil_id_fk": "C10376",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1526",
+    "coil_id_fk": "C10209",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1527",
+    "coil_id_fk": "C10055",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1528",
+    "coil_id_fk": "C10076",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1529",
+    "coil_id_fk": "C10123",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1530",
+    "coil_id_fk": "C10115",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1531",
+    "coil_id_fk": "C10272",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1532",
+    "coil_id_fk": "C10229",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1533",
+    "coil_id_fk": "C10088",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1534",
+    "coil_id_fk": "C10157",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1535",
+    "coil_id_fk": "C10175",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1536",
+    "coil_id_fk": "C10399",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1537",
+    "coil_id_fk": "C10026",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1145"
+  },
+  {
+    "deviation_id": "DEV1538",
+    "coil_id_fk": "C10227",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1539",
+    "coil_id_fk": "C10190",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1540",
+    "coil_id_fk": "C10221",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1541",
+    "coil_id_fk": "C10334",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1542",
+    "coil_id_fk": "C10280",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1543",
+    "coil_id_fk": "C10041",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1544",
+    "coil_id_fk": "C10030",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1545",
+    "coil_id_fk": "C10054",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1168"
+  },
+  {
+    "deviation_id": "DEV1546",
+    "coil_id_fk": "C10012",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1547",
+    "coil_id_fk": "C10269",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1548",
+    "coil_id_fk": "C10327",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1549",
+    "coil_id_fk": "C10084",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1550",
+    "coil_id_fk": "C10014",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1046"
+  },
+  {
+    "deviation_id": "DEV1551",
+    "coil_id_fk": "C10400",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1138"
+  },
+  {
+    "deviation_id": "DEV1552",
+    "coil_id_fk": "C10091",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1553",
+    "coil_id_fk": "C10319",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1554",
+    "coil_id_fk": "C10391",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1555",
+    "coil_id_fk": "C10274",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1046"
+  },
+  {
+    "deviation_id": "DEV1556",
+    "coil_id_fk": "C10291",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1127"
+  },
+  {
+    "deviation_id": "DEV1557",
+    "coil_id_fk": "C10176",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1558",
+    "coil_id_fk": "C10250",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1559",
+    "coil_id_fk": "C10215",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1560",
+    "coil_id_fk": "C10348",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1561",
+    "coil_id_fk": "C10263",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1562",
+    "coil_id_fk": "C10113",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1563",
+    "coil_id_fk": "C10177",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1564",
+    "coil_id_fk": "C10044",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1565",
+    "coil_id_fk": "C10031",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1566",
+    "coil_id_fk": "C10092",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1567",
+    "coil_id_fk": "C10186",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1009"
+  },
+  {
+    "deviation_id": "DEV1568",
+    "coil_id_fk": "C10335",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1569",
+    "coil_id_fk": "C10138",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1570",
+    "coil_id_fk": "C10147",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1571",
+    "coil_id_fk": "C10240",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1098"
+  },
+  {
+    "deviation_id": "DEV1572",
+    "coil_id_fk": "C10312",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1573",
+    "coil_id_fk": "C10117",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1574",
+    "coil_id_fk": "C10187",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1575",
+    "coil_id_fk": "C10116",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1576",
+    "coil_id_fk": "C10138",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1577",
+    "coil_id_fk": "C10172",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1578",
+    "coil_id_fk": "C10155",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1579",
+    "coil_id_fk": "C10378",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1580",
+    "coil_id_fk": "C10164",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1581",
+    "coil_id_fk": "C10273",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1582",
+    "coil_id_fk": "C10399",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1583",
+    "coil_id_fk": "C10390",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1584",
+    "coil_id_fk": "C10219",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1585",
+    "coil_id_fk": "C10003",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Longitudinal surface marking found on coil C10003 (IS1786-Fe500) at final inspection; the periodic pattern is consistent with work-roll surface condition on the roughing line. Raised against IS 1786 surface-acceptance and held pending roll-change verification.",
+    "severity": "low",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1586",
+    "coil_id_fk": "C10016",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1587",
+    "coil_id_fk": "C10135",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1019"
+  },
+  {
+    "deviation_id": "DEV1588",
+    "coil_id_fk": "C10292",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1046"
+  },
+  {
+    "deviation_id": "DEV1589",
+    "coil_id_fk": "C10041",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1590",
+    "coil_id_fk": "C10130",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1591",
+    "coil_id_fk": "C10345",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1592",
+    "coil_id_fk": "C10166",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1593",
+    "coil_id_fk": "C10262",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1594",
+    "coil_id_fk": "C10282",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1595",
+    "coil_id_fk": "C10143",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1066"
+  },
+  {
+    "deviation_id": "DEV1596",
+    "coil_id_fk": "C10128",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1038"
+  },
+  {
+    "deviation_id": "DEV1597",
+    "coil_id_fk": "C10254",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1598",
+    "coil_id_fk": "C10362",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1599",
+    "coil_id_fk": "C10009",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1600",
+    "coil_id_fk": "C10075",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1601",
+    "coil_id_fk": "C10035",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1602",
+    "coil_id_fk": "C10182",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1603",
+    "coil_id_fk": "C10028",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1018"
+  },
+  {
+    "deviation_id": "DEV1604",
+    "coil_id_fk": "C10398",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1605",
+    "coil_id_fk": "C10356",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1045"
+  },
+  {
+    "deviation_id": "DEV1606",
+    "coil_id_fk": "C10343",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1607",
+    "coil_id_fk": "C10173",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1608",
+    "coil_id_fk": "C10115",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1609",
+    "coil_id_fk": "C10382",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1092"
+  },
+  {
+    "deviation_id": "DEV1610",
+    "coil_id_fk": "C10090",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1611",
+    "coil_id_fk": "C10318",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1612",
+    "coil_id_fk": "C10113",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1613",
+    "coil_id_fk": "C10156",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1614",
+    "coil_id_fk": "C10133",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1615",
+    "coil_id_fk": "C10330",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1616",
+    "coil_id_fk": "C10210",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1617",
+    "coil_id_fk": "C10309",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1618",
+    "coil_id_fk": "C10272",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high"
+  },
+  {
+    "deviation_id": "DEV1619",
+    "coil_id_fk": "C10332",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1068"
+  },
+  {
+    "deviation_id": "DEV1620",
+    "coil_id_fk": "C10123",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1621",
+    "coil_id_fk": "C10162",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1622",
+    "coil_id_fk": "C10207",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "high",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1623",
+    "coil_id_fk": "C10250",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1624",
+    "coil_id_fk": "C10166",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1625",
+    "coil_id_fk": "C10114",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1626",
+    "coil_id_fk": "C10236",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1088"
+  },
+  {
+    "deviation_id": "DEV1627",
+    "coil_id_fk": "C10239",
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1628",
+    "coil_id_fk": "C10100",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1629",
+    "coil_id_fk": "C10214",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1630",
+    "coil_id_fk": "C10154",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1631",
+    "coil_id_fk": "C10281",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1632",
+    "coil_id_fk": "C10159",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1633",
+    "coil_id_fk": "C10013",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1634",
+    "coil_id_fk": "C10205",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium",
+    "failure_id_fk": "F1114"
+  },
+  {
+    "deviation_id": "DEV1635",
+    "coil_id_fk": "C10220",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1636",
+    "coil_id_fk": "C10391",
+    "equipment_id_fk": "EQ-RMS-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1637",
+    "coil_id_fk": "C10057",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1638",
+    "coil_id_fk": "C10006",
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low"
+  },
+  {
+    "deviation_id": "DEV1639",
+    "coil_id_fk": "C10214",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1640",
+    "coil_id_fk": "C10256",
+    "equipment_id_fk": "EQ-COL-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1184"
+  },
+  {
+    "deviation_id": "DEV1641",
+    "coil_id_fk": "C10077",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1642",
+    "coil_id_fk": "C10044",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1170"
+  },
+  {
+    "deviation_id": "DEV1643",
+    "coil_id_fk": "C10214",
+    "equipment_id_fk": "EQ-COL-01",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "medium"
+  },
+  {
+    "deviation_id": "DEV1644",
+    "coil_id_fk": "C10031",
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unclassified surface defect flagged for further metallurgical review.",
+    "severity": "low",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1645",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Unplanned drive current spike flagged by condition monitoring.",
+    "severity": "medium",
+    "failure_id_fk": "F1128"
+  },
+  {
+    "deviation_id": "DEV1646",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-EAF-01",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "high",
+    "failure_id_fk": "F1181"
+  },
+  {
+    "deviation_id": "DEV1647",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-ROT-01",
+    "description": "Abnormal vibration recorded on equipment beyond alarm threshold.",
+    "severity": "medium",
+    "failure_id_fk": "F1013"
+  },
+  {
+    "deviation_id": "DEV1648",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-RHF-01",
+    "description": "Abnormal vibration recorded on equipment beyond alarm threshold.",
+    "severity": "medium",
+    "failure_id_fk": "F1007"
+  },
+  {
+    "deviation_id": "DEV1649",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-LF-02",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "high",
+    "failure_id_fk": "F1083"
+  },
+  {
+    "deviation_id": "DEV1650",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-HBS-02",
+    "description": "Unplanned drive current spike flagged by condition monitoring.",
+    "severity": "medium",
+    "failure_id_fk": "F1191"
+  },
+  {
+    "deviation_id": "DEV1651",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-BF-01",
+    "description": "Temperature excursion on equipment outside normal operating band.",
+    "severity": "medium",
+    "failure_id_fk": "F1044"
+  },
+  {
+    "deviation_id": "DEV1652",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Unplanned drive current spike flagged by condition monitoring.",
+    "severity": "low",
+    "failure_id_fk": "F1076"
+  },
+  {
+    "deviation_id": "DEV1653",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-LF-01",
+    "description": "Abnormal vibration recorded on equipment beyond alarm threshold.",
+    "severity": "low",
+    "failure_id_fk": "F1081"
+  },
+  {
+    "deviation_id": "DEV1654",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-CNV-02",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "medium",
+    "failure_id_fk": "F1101"
+  },
+  {
+    "deviation_id": "DEV1655",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "medium",
+    "failure_id_fk": "F1005"
+  },
+  {
+    "deviation_id": "DEV1656",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-RMS-02",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "medium",
+    "failure_id_fk": "F1147"
+  },
+  {
+    "deviation_id": "DEV1657",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-LF-01",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "low",
+    "failure_id_fk": "F1081"
+  },
+  {
+    "deviation_id": "DEV1658",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-CNV-01",
+    "description": "Abnormal vibration recorded on equipment beyond alarm threshold.",
+    "severity": "high",
+    "failure_id_fk": "F1137"
+  },
+  {
+    "deviation_id": "DEV1659",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Lubrication pressure deviation detected during routine monitoring.",
+    "severity": "low",
+    "failure_id_fk": "F1025"
+  },
+  {
+    "deviation_id": "DEV1660",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-RHF-01",
+    "description": "Temperature excursion on equipment outside normal operating band.",
+    "severity": "medium",
+    "failure_id_fk": "F1186"
+  },
+  {
+    "deviation_id": "DEV1661",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-FMS-01",
+    "description": "Temperature excursion on equipment outside normal operating band.",
+    "severity": "low",
+    "failure_id_fk": "F1100"
+  },
+  {
+    "deviation_id": "DEV1662",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-ROT-01",
+    "description": "Temperature excursion on equipment outside normal operating band.",
+    "severity": "high",
+    "failure_id_fk": "F1013"
+  },
+  {
+    "deviation_id": "DEV1663",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-FMS-02",
+    "description": "Abnormal vibration recorded on equipment beyond alarm threshold.",
+    "severity": "high",
+    "failure_id_fk": "F1165"
+  },
+  {
+    "deviation_id": "DEV1664",
+    "coil_id_fk": null,
+    "equipment_id_fk": "EQ-CR-01",
+    "description": "Temperature excursion on equipment outside normal operating band.",
+    "severity": "low",
+    "failure_id_fk": "F1197"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1066",
+    "chunk_id": "DOC1066_chunk_0",
+    "chunk_index": 0,
+    "text": "# Equipment Manual \u2014 DOC1066\n**Equipment:** EQ-CR-01 \u2014 Overhead Crane (Rolling Mill Bay) #1\n**Type:** Overhead Crane  |  **Location:** Rajendra Steel Plant, Mumbai Unit - Rolling Mill Bay  |  **Commissioned:** 2020-06-20\n**Preventive-maintenance interval:** monthly\n\n## 1. Overview\nThe Overhead Crane (Rolling Mill Bay) #1 (EQ-CR-01) is the double-girder EOT crane handling ladles, coils, slabs and scrap in the bay. It is installed at Rajendra Steel Plant, Mumbai Unit - Rolling Mill Bay and was\ncommissioned on 2020-06-20. It is a critical asset in the plant's production flow and is managed under the\nCMMS reliability programme, with a formal preventive-maintenance interval of **monthly**. This manual excerpt\nsummarises the machine's key specifications, normal operating envelope, common failure modes and maintenance and safety\nrequirements. It should be read together with the original equipment manufacturer (OEM) documentation and the relevant\nstandard operating procedures; the values quoted here are indicative, industry-typical figures for a machine of this\nclass rather than exact OEM design data.\n\n## 2. Key Specifications\n- **crane type**: double girder EOT\n- **SWL t**: 100\n- **span m**: 28\n- **hoist speed m per min**: 5\n- **duty class**: M8 (heavy)\n\n## 3. Operating Parameters\nThe equipment must be operated within its qualified envelope; representative set-points include crane type = double girder EOT, SWL t = 100, span m = 28. Operators\nlog the principal parameters each shift and compare them against these limits. Any sustained excursion outside the\nnormal band \u2014 particularly on temperature, pressure, tension, cooling-water flow or drive load as applicable to this\nmachine \u2014 must be raised through the CMMS and, where product or safety is affected, escalated for root cause analysis.\nStart-up and shutdown follow the dedicated SOP, bringing the machine to condition gradually while watching for abnormal\nvibration, noise or thermal signatures.",
+    "char_count": 1969,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-CR-01",
+      "source_file_path": "data/unstructured/documents/DOC1066.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1066",
+    "chunk_id": "DOC1066_chunk_1",
+    "chunk_index": 1,
+    "text": "## 4. Common Failure Modes\nThe following failure modes are characteristic of this machine type and drive its inspection and spares strategy:\n- **wire rope wear / breakage**\n- **brake failure**\n- **hoist gearbox fault**\n- **wheel / rail wear**\n- **overload / limit switch fault**\n\nEarly-warning indicators for these modes (temperature drift, abnormal vibration, tension/level instability, water-flow\nloss) are trended in the condition-monitoring system so that developing faults are caught before they cause an\nunplanned outage or a quality deviation on the product.\n\n## 5. Maintenance Schedule\n| Frequency | Task |\n|-----------|------|\n| Daily / per-shift | Operator checks of key parameters, lubrication, cooling flows and abnormal noise/vibration. |\n| Weekly | Inspection of drives, couplings, sensors and instrumentation against reference values. |\n| Monthly (primary PM) | Full preventive-maintenance service per the CMMS schedule for this asset type, including wear-part inspection and calibration. |\n| Annual / campaign | Major inspection, structural/refractory assessment and overhaul of critical sub-assemblies. |\n\nAll maintenance is recorded against EQ-CR-01 in the CMMS. Findings that affect product or safety are raised\nas work orders and, where warranted, as formal deviations.\n\n## 6. Safety Warnings\n- Suspended loads (ladles, coils) \u2014 never travel a load over personnel; observe SWL strictly.\n- Work at height on the crane gantry \u2014 fall-arrest required.\n- Molten-metal handling duty \u2014 inspect brakes and ropes each shift; a brake failure is catastrophic.\n- Only trained, authorised personnel may operate or maintain this equipment, under the plant permit-to-work system and\n  in compliance with The Factories Act, 1948 safety provisions.\n\n## 7. Document Control\nControlled equipment manual \u2014 review at each PM interval (monthly) or after any major modification or related\nincident. Linked to the plant knowledge graph as DOC1066, referencing equipment node EQ-CR-01.",
+    "char_count": 1980,
+    "metadata": {
+      "doc_type": "equipment_manual",
+      "related_entity_id": "EQ-CR-01",
+      "source_file_path": "data/unstructured/documents/DOC1066.md"
+    }
+  }
+]

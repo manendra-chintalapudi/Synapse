@@ -1,0 +1,5980 @@
+[
+  {
+    "coil_id": "C10001",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.34,
+    "width_mm": 1148.4,
+    "weight_kg": 8707.0,
+    "heat_number": "H2026-0049",
+    "production_date": "2026-06-07",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1035",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10002",
+    "grade": "IS2062-E350",
+    "thickness_mm": 24.36,
+    "width_mm": 1079.3,
+    "weight_kg": 20699.0,
+    "heat_number": "H2026-0156",
+    "production_date": "2026-01-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1035",
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10003",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.19,
+    "width_mm": 1198.9,
+    "weight_kg": 10460.7,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-01-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1001",
+      "RM1024",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10004",
+    "grade": "IS2062-E350",
+    "thickness_mm": 6.58,
+    "width_mm": 1046.5,
+    "weight_kg": 18370.3,
+    "heat_number": "H2026-0028",
+    "production_date": "2026-02-08",
+    "status": "on_hold",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10005",
+    "grade": "IS2062-E350",
+    "thickness_mm": 16.0,
+    "width_mm": 1515.2,
+    "weight_kg": 13912.6,
+    "heat_number": "H2026-0031",
+    "production_date": "2026-05-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1030",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10006",
+    "grade": "IS2062-E350",
+    "thickness_mm": 3.12,
+    "width_mm": 1826.7,
+    "weight_kg": 21743.1,
+    "heat_number": "H2026-0068",
+    "production_date": "2026-03-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10007",
+    "grade": "IS2062-E350",
+    "thickness_mm": 14.7,
+    "width_mm": 1206.6,
+    "weight_kg": 23267.9,
+    "heat_number": "H2026-0127",
+    "production_date": "2026-06-24",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10008",
+    "grade": "IS2062-E250",
+    "thickness_mm": 17.7,
+    "width_mm": 1231.1,
+    "weight_kg": 21382.1,
+    "heat_number": "H2026-0152",
+    "production_date": "2026-04-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1037",
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10009",
+    "grade": "IS2062-E350",
+    "thickness_mm": 9.23,
+    "width_mm": 1012.0,
+    "weight_kg": 12529.7,
+    "heat_number": "H2026-0068",
+    "production_date": "2026-04-30",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1015",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10010",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 14.69,
+    "width_mm": 1017.1,
+    "weight_kg": 12989.0,
+    "heat_number": "H2026-0103",
+    "production_date": "2026-05-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1022",
+      "RM1027",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10011",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 23.19,
+    "width_mm": 1763.1,
+    "weight_kg": 22405.1,
+    "heat_number": "H2026-0140",
+    "production_date": "2026-06-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1022",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10012",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 18.52,
+    "width_mm": 910.0,
+    "weight_kg": 17501.7,
+    "heat_number": "H2026-0034",
+    "production_date": "2026-03-12",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1027",
+      "RM1031",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10013",
+    "grade": "IS2062-E250",
+    "thickness_mm": 19.3,
+    "width_mm": 1504.5,
+    "weight_kg": 19231.5,
+    "heat_number": "H2026-0084",
+    "production_date": "2026-03-16",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1033",
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10014",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 10.18,
+    "width_mm": 1428.0,
+    "weight_kg": 11190.1,
+    "heat_number": "H2026-0025",
+    "production_date": "2026-01-09",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1014",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10015",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.08,
+    "width_mm": 980.1,
+    "weight_kg": 15089.7,
+    "heat_number": "H2026-0151",
+    "production_date": "2026-05-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10016",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.55,
+    "width_mm": 1422.7,
+    "weight_kg": 16728.2,
+    "heat_number": "H2026-0121",
+    "production_date": "2026-03-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1023",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10017",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.5,
+    "width_mm": 1739.1,
+    "weight_kg": 22262.3,
+    "heat_number": "H2026-0126",
+    "production_date": "2026-01-16",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1017",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10018",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.93,
+    "width_mm": 1700.1,
+    "weight_kg": 14798.7,
+    "heat_number": "H2026-0149",
+    "production_date": "2026-03-03",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10019",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 19.5,
+    "width_mm": 1183.7,
+    "weight_kg": 16204.2,
+    "heat_number": "H2026-0131",
+    "production_date": "2026-01-30",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1032",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10020",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.96,
+    "width_mm": 974.2,
+    "weight_kg": 17554.7,
+    "heat_number": "H2026-0066",
+    "production_date": "2026-02-20",
+    "status": "on_hold",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1025",
+      "RM1007",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10021",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.18,
+    "width_mm": 1128.9,
+    "weight_kg": 15292.8,
+    "heat_number": "H2026-0033",
+    "production_date": "2026-05-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1032",
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10022",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 21.25,
+    "width_mm": 1209.5,
+    "weight_kg": 24952.3,
+    "heat_number": "H2026-0137",
+    "production_date": "2026-04-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10023",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.06,
+    "width_mm": 1045.5,
+    "weight_kg": 10447.6,
+    "heat_number": "H2026-0147",
+    "production_date": "2026-06-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10024",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 23.61,
+    "width_mm": 1070.0,
+    "weight_kg": 12548.5,
+    "heat_number": "H2026-0092",
+    "production_date": "2026-05-25",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10025",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 17.48,
+    "width_mm": 1293.2,
+    "weight_kg": 18587.6,
+    "heat_number": "H2026-0008",
+    "production_date": "2026-05-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1035",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10026",
+    "grade": "IS2062-E350",
+    "thickness_mm": 19.06,
+    "width_mm": 1047.3,
+    "weight_kg": 13516.6,
+    "heat_number": "H2026-0011",
+    "production_date": "2026-05-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10027",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.06,
+    "width_mm": 1672.8,
+    "weight_kg": 12372.9,
+    "heat_number": "H2026-0042",
+    "production_date": "2026-01-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1028",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10028",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 5.51,
+    "width_mm": 1113.4,
+    "weight_kg": 24454.8,
+    "heat_number": "H2026-0096",
+    "production_date": "2026-03-02",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1028",
+      "RM1030",
+      "RM1024"
+    ]
+  },
+  {
+    "coil_id": "C10029",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.26,
+    "width_mm": 1497.9,
+    "weight_kg": 15488.1,
+    "heat_number": "H2026-0156",
+    "production_date": "2026-05-30",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1013",
+      "RM1008",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10030",
+    "grade": "IS2062-E350",
+    "thickness_mm": 17.46,
+    "width_mm": 1553.5,
+    "weight_kg": 9957.5,
+    "heat_number": "H2026-0111",
+    "production_date": "2026-02-28",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1036"
+    ]
+  },
+  {
+    "coil_id": "C10031",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 16.73,
+    "width_mm": 1768.0,
+    "weight_kg": 21420.7,
+    "heat_number": "H2026-0094",
+    "production_date": "2026-03-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1030",
+      "RM1018",
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10032",
+    "grade": "IS2062-E350",
+    "thickness_mm": 4.74,
+    "width_mm": 1653.7,
+    "weight_kg": 17514.0,
+    "heat_number": "H2026-0117",
+    "production_date": "2026-04-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1004",
+      "RM1036",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10033",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.23,
+    "width_mm": 974.9,
+    "weight_kg": 15965.5,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-05-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1019",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10034",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.48,
+    "width_mm": 1401.3,
+    "weight_kg": 15691.4,
+    "heat_number": "H2026-0099",
+    "production_date": "2026-02-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1030",
+      "RM1040",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10035",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.1,
+    "width_mm": 1202.5,
+    "weight_kg": 8451.9,
+    "heat_number": "H2026-0024",
+    "production_date": "2026-04-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10036",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 3.17,
+    "width_mm": 1471.9,
+    "weight_kg": 10034.5,
+    "heat_number": "H2026-0040",
+    "production_date": "2026-04-02",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10037",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.51,
+    "width_mm": 1130.4,
+    "weight_kg": 12053.3,
+    "heat_number": "H2026-0108",
+    "production_date": "2026-03-28",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1012",
+      "RM1029",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10038",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 15.33,
+    "width_mm": 1461.0,
+    "weight_kg": 16208.2,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-01-11",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1003",
+      "RM1034",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10039",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.42,
+    "width_mm": 1717.6,
+    "weight_kg": 13335.9,
+    "heat_number": "H2026-0149",
+    "production_date": "2026-04-27",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1011",
+      "RM1034",
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10040",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 20.44,
+    "width_mm": 1457.2,
+    "weight_kg": 17429.2,
+    "heat_number": "H2026-0104",
+    "production_date": "2026-05-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10041",
+    "grade": "IS2062-E350",
+    "thickness_mm": 1.64,
+    "width_mm": 1086.8,
+    "weight_kg": 12465.5,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-02-19",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1017"
+    ]
+  },
+  {
+    "coil_id": "C10042",
+    "grade": "IS2062-E250",
+    "thickness_mm": 22.92,
+    "width_mm": 1107.6,
+    "weight_kg": 22316.7,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-05-30",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1003",
+      "RM1023",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10043",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 13.61,
+    "width_mm": 1787.3,
+    "weight_kg": 24268.5,
+    "heat_number": "H2026-0124",
+    "production_date": "2026-02-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10044",
+    "grade": "IS2062-E250",
+    "thickness_mm": 1.67,
+    "width_mm": 1486.9,
+    "weight_kg": 8741.3,
+    "heat_number": "H2026-0019",
+    "production_date": "2026-03-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1011",
+      "RM1036",
+      "RM1034"
+    ]
+  },
+  {
+    "coil_id": "C10045",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.09,
+    "width_mm": 1679.2,
+    "weight_kg": 17208.4,
+    "heat_number": "H2026-0138",
+    "production_date": "2026-03-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10046",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.57,
+    "width_mm": 984.9,
+    "weight_kg": 19472.8,
+    "heat_number": "H2026-0044",
+    "production_date": "2026-02-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10047",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 10.9,
+    "width_mm": 1834.4,
+    "weight_kg": 19144.8,
+    "heat_number": "H2026-0024",
+    "production_date": "2026-05-06",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1009",
+      "RM1037",
+      "RM1034"
+    ]
+  },
+  {
+    "coil_id": "C10048",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 20.83,
+    "width_mm": 1350.6,
+    "weight_kg": 19788.4,
+    "heat_number": "H2026-0083",
+    "production_date": "2026-07-01",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10049",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.42,
+    "width_mm": 1817.5,
+    "weight_kg": 16466.3,
+    "heat_number": "H2026-0146",
+    "production_date": "2026-04-24",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10050",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.43,
+    "width_mm": 1009.8,
+    "weight_kg": 22920.4,
+    "heat_number": "H2026-0153",
+    "production_date": "2026-03-25",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1012",
+      "RM1020",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10051",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.17,
+    "width_mm": 1774.2,
+    "weight_kg": 10983.9,
+    "heat_number": "H2026-0152",
+    "production_date": "2026-05-04",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1011",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10052",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 23.42,
+    "width_mm": 1354.2,
+    "weight_kg": 9147.8,
+    "heat_number": "H2026-0157",
+    "production_date": "2026-01-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1017",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10053",
+    "grade": "IS2062-E350",
+    "thickness_mm": 8.44,
+    "width_mm": 1043.0,
+    "weight_kg": 18769.9,
+    "heat_number": "H2026-0114",
+    "production_date": "2026-01-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10054",
+    "grade": "IS2062-E350",
+    "thickness_mm": 3.1,
+    "width_mm": 1265.9,
+    "weight_kg": 12653.1,
+    "heat_number": "H2026-0077",
+    "production_date": "2026-04-30",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1027",
+      "RM1031",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10055",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 20.72,
+    "width_mm": 996.6,
+    "weight_kg": 17314.6,
+    "heat_number": "H2026-0055",
+    "production_date": "2026-02-28",
+    "status": "on_hold",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1026",
+      "RM1015",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10056",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.89,
+    "width_mm": 1265.9,
+    "weight_kg": 18226.4,
+    "heat_number": "H2026-0138",
+    "production_date": "2026-06-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1020",
+      "RM1035",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10057",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.67,
+    "width_mm": 1776.1,
+    "weight_kg": 12123.6,
+    "heat_number": "H2026-0078",
+    "production_date": "2026-05-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10058",
+    "grade": "IS2062-E250",
+    "thickness_mm": 11.62,
+    "width_mm": 1451.4,
+    "weight_kg": 15562.1,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-04-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1003",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10059",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 14.7,
+    "width_mm": 1694.6,
+    "weight_kg": 11839.1,
+    "heat_number": "H2026-0137",
+    "production_date": "2026-07-02",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1040",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10060",
+    "grade": "IS2062-E350",
+    "thickness_mm": 24.76,
+    "width_mm": 1613.7,
+    "weight_kg": 16937.8,
+    "heat_number": "H2026-0108",
+    "production_date": "2026-01-10",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1024",
+      "RM1016",
+      "RM1036"
+    ]
+  },
+  {
+    "coil_id": "C10061",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.87,
+    "width_mm": 1605.9,
+    "weight_kg": 22817.6,
+    "heat_number": "H2026-0061",
+    "production_date": "2026-02-03",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1026",
+      "RM1031",
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10062",
+    "grade": "IS2062-E350",
+    "thickness_mm": 5.95,
+    "width_mm": 929.5,
+    "weight_kg": 9437.8,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-02-01",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1039",
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10063",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.85,
+    "width_mm": 1494.9,
+    "weight_kg": 15078.2,
+    "heat_number": "H2026-0080",
+    "production_date": "2026-03-30",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10064",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.33,
+    "width_mm": 1293.2,
+    "weight_kg": 18942.0,
+    "heat_number": "H2026-0142",
+    "production_date": "2026-02-24",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1012",
+      "RM1008",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10065",
+    "grade": "IS2062-E350",
+    "thickness_mm": 5.01,
+    "width_mm": 1342.9,
+    "weight_kg": 22531.9,
+    "heat_number": "H2026-0141",
+    "production_date": "2026-02-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10066",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.4,
+    "width_mm": 1732.6,
+    "weight_kg": 9066.1,
+    "heat_number": "H2026-0016",
+    "production_date": "2026-05-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1007",
+      "RM1004",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10067",
+    "grade": "IS2062-E250",
+    "thickness_mm": 16.55,
+    "width_mm": 1143.0,
+    "weight_kg": 17265.4,
+    "heat_number": "H2026-0109",
+    "production_date": "2026-03-11",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10068",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 20.09,
+    "width_mm": 1145.2,
+    "weight_kg": 21626.0,
+    "heat_number": "H2026-0058",
+    "production_date": "2026-02-02",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10069",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 3.45,
+    "width_mm": 1629.9,
+    "weight_kg": 12491.6,
+    "heat_number": "H2026-0158",
+    "production_date": "2026-04-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10070",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.9,
+    "width_mm": 1140.4,
+    "weight_kg": 17443.8,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-03-12",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1017",
+      "RM1014",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10071",
+    "grade": "IS2062-E350",
+    "thickness_mm": 9.91,
+    "width_mm": 1391.3,
+    "weight_kg": 24195.4,
+    "heat_number": "H2026-0029",
+    "production_date": "2026-03-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10072",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.43,
+    "width_mm": 1202.3,
+    "weight_kg": 23658.8,
+    "heat_number": "H2026-0032",
+    "production_date": "2026-06-19",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1028",
+      "RM1040",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10073",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 17.38,
+    "width_mm": 1826.9,
+    "weight_kg": 22779.4,
+    "heat_number": "H2026-0116",
+    "production_date": "2026-04-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1023",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10074",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 10.58,
+    "width_mm": 1233.2,
+    "weight_kg": 12268.5,
+    "heat_number": "H2026-0003",
+    "production_date": "2026-05-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10075",
+    "grade": "IS2062-E250",
+    "thickness_mm": 18.16,
+    "width_mm": 1413.4,
+    "weight_kg": 17259.8,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-01-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10076",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 23.88,
+    "width_mm": 1144.5,
+    "weight_kg": 11506.1,
+    "heat_number": "H2026-0020",
+    "production_date": "2026-01-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1024",
+      "RM1040",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10077",
+    "grade": "IS2062-E350",
+    "thickness_mm": 17.38,
+    "width_mm": 1409.7,
+    "weight_kg": 18758.0,
+    "heat_number": "H2026-0075",
+    "production_date": "2026-01-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10078",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 3.07,
+    "width_mm": 999.7,
+    "weight_kg": 21477.3,
+    "heat_number": "H2026-0100",
+    "production_date": "2026-06-06",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1002",
+      "RM1019",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10079",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 14.58,
+    "width_mm": 1692.9,
+    "weight_kg": 15500.2,
+    "heat_number": "H2026-0107",
+    "production_date": "2026-01-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1035",
+      "RM1011",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10080",
+    "grade": "IS2062-E350",
+    "thickness_mm": 2.65,
+    "width_mm": 1330.7,
+    "weight_kg": 17760.3,
+    "heat_number": "H2026-0113",
+    "production_date": "2026-05-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10081",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 3.72,
+    "width_mm": 1022.3,
+    "weight_kg": 11258.8,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-05-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1011",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10082",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.92,
+    "width_mm": 1343.0,
+    "weight_kg": 9310.0,
+    "heat_number": "H2026-0020",
+    "production_date": "2026-04-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1037",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10083",
+    "grade": "IS2062-E250",
+    "thickness_mm": 6.64,
+    "width_mm": 1223.2,
+    "weight_kg": 9578.2,
+    "heat_number": "H2026-0144",
+    "production_date": "2026-05-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10084",
+    "grade": "IS2062-E350",
+    "thickness_mm": 9.67,
+    "width_mm": 1644.8,
+    "weight_kg": 10340.6,
+    "heat_number": "H2026-0050",
+    "production_date": "2026-02-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10085",
+    "grade": "IS2062-E250",
+    "thickness_mm": 16.7,
+    "width_mm": 1245.0,
+    "weight_kg": 11190.3,
+    "heat_number": "H2026-0093",
+    "production_date": "2026-02-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1009",
+      "RM1040",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10086",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 20.26,
+    "width_mm": 946.8,
+    "weight_kg": 17441.8,
+    "heat_number": "H2026-0071",
+    "production_date": "2026-03-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1010",
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10087",
+    "grade": "IS2062-E350",
+    "thickness_mm": 22.4,
+    "width_mm": 1801.3,
+    "weight_kg": 20133.1,
+    "heat_number": "H2026-0079",
+    "production_date": "2026-03-01",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1005",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10088",
+    "grade": "IS2062-E350",
+    "thickness_mm": 8.52,
+    "width_mm": 1822.8,
+    "weight_kg": 19935.1,
+    "heat_number": "H2026-0018",
+    "production_date": "2026-01-19",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10089",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 23.52,
+    "width_mm": 910.8,
+    "weight_kg": 24736.0,
+    "heat_number": "H2026-0008",
+    "production_date": "2026-02-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1017"
+    ]
+  },
+  {
+    "coil_id": "C10090",
+    "grade": "IS2062-E350",
+    "thickness_mm": 13.74,
+    "width_mm": 1291.3,
+    "weight_kg": 13684.0,
+    "heat_number": "H2026-0057",
+    "production_date": "2026-06-13",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032",
+      "RM1028",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10091",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.54,
+    "width_mm": 1244.9,
+    "weight_kg": 17207.7,
+    "heat_number": "H2026-0143",
+    "production_date": "2026-03-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1035",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10092",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 22.34,
+    "width_mm": 1647.8,
+    "weight_kg": 15367.5,
+    "heat_number": "H2026-0014",
+    "production_date": "2026-06-30",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1010",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10093",
+    "grade": "IS2062-E350",
+    "thickness_mm": 18.27,
+    "width_mm": 1513.2,
+    "weight_kg": 14050.8,
+    "heat_number": "H2026-0068",
+    "production_date": "2026-02-07",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10094",
+    "grade": "IS2062-E250",
+    "thickness_mm": 6.51,
+    "width_mm": 1807.3,
+    "weight_kg": 8152.2,
+    "heat_number": "H2026-0136",
+    "production_date": "2026-01-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1009",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10095",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.59,
+    "width_mm": 1192.4,
+    "weight_kg": 15323.6,
+    "heat_number": "H2026-0112",
+    "production_date": "2026-04-25",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10096",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.15,
+    "width_mm": 1104.4,
+    "weight_kg": 17241.3,
+    "heat_number": "H2026-0147",
+    "production_date": "2026-06-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1021",
+      "RM1016"
+    ]
+  },
+  {
+    "coil_id": "C10097",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 20.47,
+    "width_mm": 1710.4,
+    "weight_kg": 13621.8,
+    "heat_number": "H2026-0050",
+    "production_date": "2026-01-29",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10098",
+    "grade": "IS2062-E250",
+    "thickness_mm": 18.46,
+    "width_mm": 1114.2,
+    "weight_kg": 13249.2,
+    "heat_number": "H2026-0120",
+    "production_date": "2026-04-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1019",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10099",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.98,
+    "width_mm": 1744.9,
+    "weight_kg": 15894.6,
+    "heat_number": "H2026-0018",
+    "production_date": "2026-07-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1028",
+      "RM1021",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10100",
+    "grade": "IS2062-E250",
+    "thickness_mm": 17.93,
+    "width_mm": 1166.1,
+    "weight_kg": 19997.0,
+    "heat_number": "H2026-0034",
+    "production_date": "2026-05-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1021",
+      "RM1015",
+      "RM1017"
+    ]
+  },
+  {
+    "coil_id": "C10101",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.85,
+    "width_mm": 1545.6,
+    "weight_kg": 23476.4,
+    "heat_number": "H2026-0071",
+    "production_date": "2026-05-31",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1034",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10102",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 4.53,
+    "width_mm": 1663.8,
+    "weight_kg": 14759.9,
+    "heat_number": "H2026-0101",
+    "production_date": "2026-02-21",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1026",
+      "RM1036"
+    ]
+  },
+  {
+    "coil_id": "C10103",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.86,
+    "width_mm": 900.4,
+    "weight_kg": 8930.3,
+    "heat_number": "H2026-0011",
+    "production_date": "2026-01-11",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10104",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.71,
+    "width_mm": 916.8,
+    "weight_kg": 24044.5,
+    "heat_number": "H2026-0014",
+    "production_date": "2026-04-30",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1010",
+      "RM1032",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10105",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.41,
+    "width_mm": 1330.3,
+    "weight_kg": 11390.2,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-03-27",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1034",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10106",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 24.21,
+    "width_mm": 1279.8,
+    "weight_kg": 9319.5,
+    "heat_number": "H2026-0079",
+    "production_date": "2026-02-02",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10107",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.17,
+    "width_mm": 1386.1,
+    "weight_kg": 24108.7,
+    "heat_number": "H2026-0079",
+    "production_date": "2026-01-19",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10108",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.67,
+    "width_mm": 1617.4,
+    "weight_kg": 24389.9,
+    "heat_number": "H2026-0127",
+    "production_date": "2026-04-27",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10109",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.55,
+    "width_mm": 1744.9,
+    "weight_kg": 10351.1,
+    "heat_number": "H2026-0011",
+    "production_date": "2026-04-29",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10110",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 12.06,
+    "width_mm": 919.3,
+    "weight_kg": 13766.1,
+    "heat_number": "H2026-0155",
+    "production_date": "2026-05-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1040",
+      "RM1011",
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10111",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.45,
+    "width_mm": 1598.0,
+    "weight_kg": 23244.0,
+    "heat_number": "H2026-0126",
+    "production_date": "2026-02-26",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1007",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10112",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.14,
+    "width_mm": 1730.7,
+    "weight_kg": 10300.9,
+    "heat_number": "H2026-0153",
+    "production_date": "2026-06-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1002",
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10113",
+    "grade": "IS2062-E350",
+    "thickness_mm": 9.51,
+    "width_mm": 1146.8,
+    "weight_kg": 23369.3,
+    "heat_number": "H2026-0109",
+    "production_date": "2026-01-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1007",
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10114",
+    "grade": "IS2062-E350",
+    "thickness_mm": 19.98,
+    "width_mm": 1392.3,
+    "weight_kg": 24786.3,
+    "heat_number": "H2026-0149",
+    "production_date": "2026-03-29",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1006",
+      "RM1009",
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10115",
+    "grade": "IS2062-E250",
+    "thickness_mm": 22.51,
+    "width_mm": 1749.0,
+    "weight_kg": 24836.1,
+    "heat_number": "H2026-0042",
+    "production_date": "2026-07-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1027",
+      "RM1026",
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10116",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.49,
+    "width_mm": 923.6,
+    "weight_kg": 19205.9,
+    "heat_number": "H2026-0045",
+    "production_date": "2026-06-12",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1009",
+      "RM1020",
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10117",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.13,
+    "width_mm": 1179.4,
+    "weight_kg": 14859.1,
+    "heat_number": "H2026-0058",
+    "production_date": "2026-05-20",
+    "status": "on_hold",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10118",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 10.07,
+    "width_mm": 1263.0,
+    "weight_kg": 22909.4,
+    "heat_number": "H2026-0031",
+    "production_date": "2026-06-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1036",
+      "RM1029",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10119",
+    "grade": "IS2062-E250",
+    "thickness_mm": 8.85,
+    "width_mm": 1339.4,
+    "weight_kg": 17111.4,
+    "heat_number": "H2026-0060",
+    "production_date": "2026-02-02",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10120",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 10.53,
+    "width_mm": 1246.3,
+    "weight_kg": 20656.2,
+    "heat_number": "H2026-0121",
+    "production_date": "2026-02-25",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10121",
+    "grade": "IS2062-E350",
+    "thickness_mm": 2.27,
+    "width_mm": 1385.8,
+    "weight_kg": 9623.6,
+    "heat_number": "H2026-0104",
+    "production_date": "2026-06-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10122",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.62,
+    "width_mm": 957.8,
+    "weight_kg": 8711.6,
+    "heat_number": "H2026-0033",
+    "production_date": "2026-02-18",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1038",
+      "RM1026",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10123",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 6.31,
+    "width_mm": 1110.4,
+    "weight_kg": 16342.2,
+    "heat_number": "H2026-0082",
+    "production_date": "2026-04-18",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10124",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 19.03,
+    "width_mm": 1013.2,
+    "weight_kg": 20419.2,
+    "heat_number": "H2026-0112",
+    "production_date": "2026-01-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1005",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10125",
+    "grade": "IS2062-E250",
+    "thickness_mm": 16.65,
+    "width_mm": 1060.6,
+    "weight_kg": 23425.8,
+    "heat_number": "H2026-0058",
+    "production_date": "2026-03-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10126",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.13,
+    "width_mm": 1464.8,
+    "weight_kg": 17455.1,
+    "heat_number": "H2026-0140",
+    "production_date": "2026-04-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1017",
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10127",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.29,
+    "width_mm": 1084.7,
+    "weight_kg": 18666.9,
+    "heat_number": "H2026-0038",
+    "production_date": "2026-01-13",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10128",
+    "grade": "IS2062-E350",
+    "thickness_mm": 5.22,
+    "width_mm": 1249.5,
+    "weight_kg": 20205.3,
+    "heat_number": "H2026-0070",
+    "production_date": "2026-01-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1017",
+      "RM1008",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10129",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 8.29,
+    "width_mm": 1439.0,
+    "weight_kg": 22637.0,
+    "heat_number": "H2026-0055",
+    "production_date": "2026-02-10",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1005",
+      "RM1015",
+      "RM1024"
+    ]
+  },
+  {
+    "coil_id": "C10130",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.7,
+    "width_mm": 1759.2,
+    "weight_kg": 10222.7,
+    "heat_number": "H2026-0056",
+    "production_date": "2026-02-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1014",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10131",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 23.56,
+    "width_mm": 1405.7,
+    "weight_kg": 16253.9,
+    "heat_number": "H2026-0075",
+    "production_date": "2026-01-18",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1011",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10132",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 13.71,
+    "width_mm": 1208.8,
+    "weight_kg": 19548.8,
+    "heat_number": "H2026-0036",
+    "production_date": "2026-03-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1005",
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10133",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 22.6,
+    "width_mm": 1496.7,
+    "weight_kg": 16333.9,
+    "heat_number": "H2026-0114",
+    "production_date": "2026-03-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1030",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10134",
+    "grade": "IS2062-E250",
+    "thickness_mm": 6.85,
+    "width_mm": 1588.1,
+    "weight_kg": 19249.4,
+    "heat_number": "H2026-0006",
+    "production_date": "2026-04-04",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1030",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10135",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.63,
+    "width_mm": 1305.8,
+    "weight_kg": 19831.1,
+    "heat_number": "H2026-0053",
+    "production_date": "2026-03-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1039",
+      "RM1011",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10136",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.88,
+    "width_mm": 1003.8,
+    "weight_kg": 18605.5,
+    "heat_number": "H2026-0103",
+    "production_date": "2026-06-09",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1039",
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10137",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.55,
+    "width_mm": 1131.9,
+    "weight_kg": 11035.2,
+    "heat_number": "H2026-0107",
+    "production_date": "2026-03-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10138",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.63,
+    "width_mm": 1463.1,
+    "weight_kg": 14491.0,
+    "heat_number": "H2026-0105",
+    "production_date": "2026-01-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10139",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.61,
+    "width_mm": 1528.3,
+    "weight_kg": 23125.9,
+    "heat_number": "H2026-0111",
+    "production_date": "2026-06-02",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10140",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 22.32,
+    "width_mm": 1289.3,
+    "weight_kg": 13648.0,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-06-13",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10141",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 19.97,
+    "width_mm": 1287.2,
+    "weight_kg": 8380.7,
+    "heat_number": "H2026-0131",
+    "production_date": "2026-02-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10142",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.56,
+    "width_mm": 1774.7,
+    "weight_kg": 15213.8,
+    "heat_number": "H2026-0038",
+    "production_date": "2026-06-13",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1020",
+      "RM1012"
+    ]
+  },
+  {
+    "coil_id": "C10143",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 13.64,
+    "width_mm": 948.6,
+    "weight_kg": 14448.9,
+    "heat_number": "H2026-0071",
+    "production_date": "2026-02-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10144",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.92,
+    "width_mm": 1787.9,
+    "weight_kg": 14543.7,
+    "heat_number": "H2026-0043",
+    "production_date": "2026-03-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1031",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10145",
+    "grade": "IS2062-E350",
+    "thickness_mm": 5.22,
+    "width_mm": 1172.2,
+    "weight_kg": 19879.2,
+    "heat_number": "H2026-0075",
+    "production_date": "2026-03-03",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1026",
+      "RM1029",
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10146",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 21.75,
+    "width_mm": 960.0,
+    "weight_kg": 23652.4,
+    "heat_number": "H2026-0010",
+    "production_date": "2026-06-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10147",
+    "grade": "IS2062-E250",
+    "thickness_mm": 11.65,
+    "width_mm": 1276.3,
+    "weight_kg": 15084.0,
+    "heat_number": "H2026-0041",
+    "production_date": "2026-06-07",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1006",
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10148",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.11,
+    "width_mm": 1012.8,
+    "weight_kg": 22928.6,
+    "heat_number": "H2026-0126",
+    "production_date": "2026-03-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10149",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 19.54,
+    "width_mm": 1255.3,
+    "weight_kg": 18468.7,
+    "heat_number": "H2026-0126",
+    "production_date": "2026-01-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1021",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10150",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.95,
+    "width_mm": 992.6,
+    "weight_kg": 19856.2,
+    "heat_number": "H2026-0076",
+    "production_date": "2026-03-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10151",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 7.58,
+    "width_mm": 903.6,
+    "weight_kg": 22584.9,
+    "heat_number": "H2026-0075",
+    "production_date": "2026-01-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1027",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10152",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 14.96,
+    "width_mm": 1811.0,
+    "weight_kg": 22260.7,
+    "heat_number": "H2026-0073",
+    "production_date": "2026-05-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10153",
+    "grade": "IS2062-E350",
+    "thickness_mm": 7.81,
+    "width_mm": 1395.4,
+    "weight_kg": 9959.2,
+    "heat_number": "H2026-0140",
+    "production_date": "2026-03-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10154",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 3.0,
+    "width_mm": 1642.9,
+    "weight_kg": 15284.0,
+    "heat_number": "H2026-0008",
+    "production_date": "2026-03-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1033",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10155",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 20.98,
+    "width_mm": 1639.4,
+    "weight_kg": 23800.9,
+    "heat_number": "H2026-0017",
+    "production_date": "2026-04-24",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10156",
+    "grade": "IS2062-E250",
+    "thickness_mm": 18.14,
+    "width_mm": 1763.0,
+    "weight_kg": 13735.3,
+    "heat_number": "H2026-0068",
+    "production_date": "2026-03-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1007",
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10157",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 9.69,
+    "width_mm": 1535.8,
+    "weight_kg": 18510.3,
+    "heat_number": "H2026-0035",
+    "production_date": "2026-06-18",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1011",
+      "RM1023",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10158",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 19.03,
+    "width_mm": 1710.9,
+    "weight_kg": 18375.2,
+    "heat_number": "H2026-0017",
+    "production_date": "2026-02-18",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1004",
+      "RM1019",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10159",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.37,
+    "width_mm": 971.9,
+    "weight_kg": 13080.1,
+    "heat_number": "H2026-0125",
+    "production_date": "2026-03-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1037",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10160",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 21.57,
+    "width_mm": 991.3,
+    "weight_kg": 16917.3,
+    "heat_number": "H2026-0037",
+    "production_date": "2026-03-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1033",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10161",
+    "grade": "IS2062-E350",
+    "thickness_mm": 7.78,
+    "width_mm": 1476.1,
+    "weight_kg": 8768.3,
+    "heat_number": "H2026-0095",
+    "production_date": "2026-04-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1009",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10162",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.9,
+    "width_mm": 1832.0,
+    "weight_kg": 15394.4,
+    "heat_number": "H2026-0108",
+    "production_date": "2026-05-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10163",
+    "grade": "IS2062-E350",
+    "thickness_mm": 6.59,
+    "width_mm": 1370.1,
+    "weight_kg": 14148.4,
+    "heat_number": "H2026-0150",
+    "production_date": "2026-04-22",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1040"
+    ]
+  },
+  {
+    "coil_id": "C10164",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 4.33,
+    "width_mm": 1191.7,
+    "weight_kg": 11554.0,
+    "heat_number": "H2026-0120",
+    "production_date": "2026-01-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1015",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10165",
+    "grade": "IS2062-E350",
+    "thickness_mm": 12.32,
+    "width_mm": 1321.3,
+    "weight_kg": 11306.3,
+    "heat_number": "H2026-0133",
+    "production_date": "2026-05-29",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1005",
+      "RM1035",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10166",
+    "grade": "IS2062-E350",
+    "thickness_mm": 20.2,
+    "width_mm": 1561.3,
+    "weight_kg": 9275.8,
+    "heat_number": "H2026-0018",
+    "production_date": "2026-04-27",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1017",
+      "RM1003",
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10167",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.88,
+    "width_mm": 1796.5,
+    "weight_kg": 9780.0,
+    "heat_number": "H2026-0049",
+    "production_date": "2026-03-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1018",
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10168",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 4.1,
+    "width_mm": 957.5,
+    "weight_kg": 15590.0,
+    "heat_number": "H2026-0098",
+    "production_date": "2026-04-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1010",
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10169",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 10.89,
+    "width_mm": 973.8,
+    "weight_kg": 22732.8,
+    "heat_number": "H2026-0048",
+    "production_date": "2026-01-10",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1022",
+      "RM1009",
+      "RM1036"
+    ]
+  },
+  {
+    "coil_id": "C10170",
+    "grade": "IS2062-E250",
+    "thickness_mm": 5.19,
+    "width_mm": 1248.8,
+    "weight_kg": 18629.7,
+    "heat_number": "H2026-0114",
+    "production_date": "2026-06-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1034",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10171",
+    "grade": "IS2062-E350",
+    "thickness_mm": 7.46,
+    "width_mm": 1446.2,
+    "weight_kg": 24354.0,
+    "heat_number": "H2026-0031",
+    "production_date": "2026-06-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1023",
+      "RM1021",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10172",
+    "grade": "IS2062-E350",
+    "thickness_mm": 11.58,
+    "width_mm": 1610.6,
+    "weight_kg": 14110.5,
+    "heat_number": "H2026-0136",
+    "production_date": "2026-03-22",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1027",
+      "RM1032",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10173",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.5,
+    "width_mm": 1377.1,
+    "weight_kg": 11195.1,
+    "heat_number": "H2026-0048",
+    "production_date": "2026-04-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1030",
+      "RM1005",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10174",
+    "grade": "IS2062-E350",
+    "thickness_mm": 13.74,
+    "width_mm": 1784.7,
+    "weight_kg": 14921.9,
+    "heat_number": "H2026-0011",
+    "production_date": "2026-03-19",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10175",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 11.91,
+    "width_mm": 1691.8,
+    "weight_kg": 18490.2,
+    "heat_number": "H2026-0084",
+    "production_date": "2026-02-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1034",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10176",
+    "grade": "IS2062-E350",
+    "thickness_mm": 13.05,
+    "width_mm": 1381.3,
+    "weight_kg": 24939.1,
+    "heat_number": "H2026-0078",
+    "production_date": "2026-04-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10177",
+    "grade": "IS2062-E250",
+    "thickness_mm": 23.59,
+    "width_mm": 1265.9,
+    "weight_kg": 23192.1,
+    "heat_number": "H2026-0157",
+    "production_date": "2026-02-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1013",
+      "RM1009",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10178",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.83,
+    "width_mm": 1768.0,
+    "weight_kg": 13343.9,
+    "heat_number": "H2026-0071",
+    "production_date": "2026-02-07",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10179",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.22,
+    "width_mm": 1388.7,
+    "weight_kg": 11214.4,
+    "heat_number": "H2026-0124",
+    "production_date": "2026-04-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1020",
+      "RM1031",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10180",
+    "grade": "IS2062-E350",
+    "thickness_mm": 12.49,
+    "width_mm": 1031.3,
+    "weight_kg": 9550.1,
+    "heat_number": "H2026-0095",
+    "production_date": "2026-03-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1032",
+      "RM1031",
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10181",
+    "grade": "IS2062-E250",
+    "thickness_mm": 18.62,
+    "width_mm": 1157.1,
+    "weight_kg": 22867.1,
+    "heat_number": "H2026-0076",
+    "production_date": "2026-01-10",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1027",
+      "RM1018",
+      "RM1012"
+    ]
+  },
+  {
+    "coil_id": "C10182",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.76,
+    "width_mm": 1784.6,
+    "weight_kg": 22066.8,
+    "heat_number": "H2026-0077",
+    "production_date": "2026-02-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1037",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10183",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 13.53,
+    "width_mm": 1625.2,
+    "weight_kg": 23623.0,
+    "heat_number": "H2026-0075",
+    "production_date": "2026-02-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1019",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10184",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.17,
+    "width_mm": 1409.9,
+    "weight_kg": 14709.7,
+    "heat_number": "H2026-0121",
+    "production_date": "2026-06-22",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1010",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10185",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 18.17,
+    "width_mm": 1503.4,
+    "weight_kg": 14722.6,
+    "heat_number": "H2026-0021",
+    "production_date": "2026-01-24",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1012",
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10186",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 16.17,
+    "width_mm": 1849.2,
+    "weight_kg": 17199.8,
+    "heat_number": "H2026-0157",
+    "production_date": "2026-04-08",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1005",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10187",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 9.98,
+    "width_mm": 1412.2,
+    "weight_kg": 21174.7,
+    "heat_number": "H2026-0149",
+    "production_date": "2026-04-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1023",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10188",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 16.31,
+    "width_mm": 1111.4,
+    "weight_kg": 8299.9,
+    "heat_number": "H2026-0010",
+    "production_date": "2026-06-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1021",
+      "RM1024"
+    ]
+  },
+  {
+    "coil_id": "C10189",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 12.06,
+    "width_mm": 1069.7,
+    "weight_kg": 10882.3,
+    "heat_number": "H2026-0134",
+    "production_date": "2026-03-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10190",
+    "grade": "IS2062-E250",
+    "thickness_mm": 18.37,
+    "width_mm": 1143.1,
+    "weight_kg": 21676.6,
+    "heat_number": "H2026-0151",
+    "production_date": "2026-05-19",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10191",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 6.41,
+    "width_mm": 1653.3,
+    "weight_kg": 13788.2,
+    "heat_number": "H2026-0001",
+    "production_date": "2026-06-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1009",
+      "RM1010",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10192",
+    "grade": "IS2062-E350",
+    "thickness_mm": 6.98,
+    "width_mm": 1213.0,
+    "weight_kg": 17509.1,
+    "heat_number": "H2026-0068",
+    "production_date": "2026-03-09",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1023",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10193",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 22.68,
+    "width_mm": 1203.6,
+    "weight_kg": 23910.0,
+    "heat_number": "H2026-0159",
+    "production_date": "2026-04-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1011",
+      "RM1039",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10194",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.57,
+    "width_mm": 1604.2,
+    "weight_kg": 20091.1,
+    "heat_number": "H2026-0049",
+    "production_date": "2026-01-30",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10195",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.02,
+    "width_mm": 1036.0,
+    "weight_kg": 23506.8,
+    "heat_number": "H2026-0002",
+    "production_date": "2026-05-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1004",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10196",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 4.17,
+    "width_mm": 1548.3,
+    "weight_kg": 18976.3,
+    "heat_number": "H2026-0122",
+    "production_date": "2026-03-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1016",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10197",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 20.52,
+    "width_mm": 1575.1,
+    "weight_kg": 21554.6,
+    "heat_number": "H2026-0084",
+    "production_date": "2026-05-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10198",
+    "grade": "IS2062-E250",
+    "thickness_mm": 13.27,
+    "width_mm": 1440.7,
+    "weight_kg": 17142.0,
+    "heat_number": "H2026-0115",
+    "production_date": "2026-02-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1018",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10199",
+    "grade": "IS2062-E250",
+    "thickness_mm": 8.43,
+    "width_mm": 1115.2,
+    "weight_kg": 18797.1,
+    "heat_number": "H2026-0069",
+    "production_date": "2026-01-09",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1007",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10200",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.59,
+    "width_mm": 1551.4,
+    "weight_kg": 10315.5,
+    "heat_number": "H2026-0027",
+    "production_date": "2026-04-02",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10201",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 9.45,
+    "width_mm": 1279.0,
+    "weight_kg": 20593.3,
+    "heat_number": "H2026-0040",
+    "production_date": "2026-04-08",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1036",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10202",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.45,
+    "width_mm": 1230.0,
+    "weight_kg": 21259.7,
+    "heat_number": "H2026-0133",
+    "production_date": "2026-02-25",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1039",
+      "RM1002",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10203",
+    "grade": "IS2062-E350",
+    "thickness_mm": 15.67,
+    "width_mm": 1112.6,
+    "weight_kg": 9461.1,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-04-04",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10204",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.39,
+    "width_mm": 1358.8,
+    "weight_kg": 14542.3,
+    "heat_number": "H2026-0115",
+    "production_date": "2026-03-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10205",
+    "grade": "IS2062-E350",
+    "thickness_mm": 15.15,
+    "width_mm": 1634.0,
+    "weight_kg": 10021.7,
+    "heat_number": "H2026-0111",
+    "production_date": "2026-05-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1009",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10206",
+    "grade": "IS2062-E350",
+    "thickness_mm": 24.63,
+    "width_mm": 1448.1,
+    "weight_kg": 24294.4,
+    "heat_number": "H2026-0012",
+    "production_date": "2026-04-13",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1016",
+      "RM1029",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10207",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.29,
+    "width_mm": 996.1,
+    "weight_kg": 24852.6,
+    "heat_number": "H2026-0122",
+    "production_date": "2026-05-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1013",
+      "RM1030",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10208",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 19.3,
+    "width_mm": 1301.0,
+    "weight_kg": 19372.5,
+    "heat_number": "H2026-0049",
+    "production_date": "2026-07-01",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1017",
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10209",
+    "grade": "IS2062-E250",
+    "thickness_mm": 23.32,
+    "width_mm": 1014.5,
+    "weight_kg": 16604.7,
+    "heat_number": "H2026-0055",
+    "production_date": "2026-03-08",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10210",
+    "grade": "IS2062-E350",
+    "thickness_mm": 1.68,
+    "width_mm": 1606.5,
+    "weight_kg": 18886.4,
+    "heat_number": "H2026-0029",
+    "production_date": "2026-06-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10211",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.81,
+    "width_mm": 1343.7,
+    "weight_kg": 20026.9,
+    "heat_number": "H2026-0068",
+    "production_date": "2026-03-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10212",
+    "grade": "IS2062-E350",
+    "thickness_mm": 11.37,
+    "width_mm": 1356.0,
+    "weight_kg": 9526.7,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-02-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1021",
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10213",
+    "grade": "IS2062-E350",
+    "thickness_mm": 11.83,
+    "width_mm": 1614.9,
+    "weight_kg": 10188.6,
+    "heat_number": "H2026-0011",
+    "production_date": "2026-04-23",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10214",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.63,
+    "width_mm": 1270.2,
+    "weight_kg": 11155.9,
+    "heat_number": "H2026-0119",
+    "production_date": "2026-06-08",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1028",
+      "RM1026",
+      "RM1040"
+    ]
+  },
+  {
+    "coil_id": "C10215",
+    "grade": "IS2062-E350",
+    "thickness_mm": 23.78,
+    "width_mm": 1463.8,
+    "weight_kg": 16218.1,
+    "heat_number": "H2026-0019",
+    "production_date": "2026-02-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1007",
+      "RM1037",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10216",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.84,
+    "width_mm": 929.7,
+    "weight_kg": 22305.3,
+    "heat_number": "H2026-0121",
+    "production_date": "2026-03-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1040",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10217",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 4.7,
+    "width_mm": 1240.2,
+    "weight_kg": 18910.5,
+    "heat_number": "H2026-0012",
+    "production_date": "2026-01-09",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1020",
+      "RM1036",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10218",
+    "grade": "IS2062-E350",
+    "thickness_mm": 14.43,
+    "width_mm": 1290.7,
+    "weight_kg": 24605.0,
+    "heat_number": "H2026-0092",
+    "production_date": "2026-04-05",
+    "status": "on_hold",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10219",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.14,
+    "width_mm": 1744.4,
+    "weight_kg": 12284.8,
+    "heat_number": "H2026-0039",
+    "production_date": "2026-01-10",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1028",
+      "RM1003",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10220",
+    "grade": "IS2062-E350",
+    "thickness_mm": 7.25,
+    "width_mm": 1762.2,
+    "weight_kg": 13337.9,
+    "heat_number": "H2026-0029",
+    "production_date": "2026-04-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1031",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10221",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 22.47,
+    "width_mm": 1825.3,
+    "weight_kg": 21973.1,
+    "heat_number": "H2026-0124",
+    "production_date": "2026-03-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1037",
+      "RM1032",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10222",
+    "grade": "IS2062-E250",
+    "thickness_mm": 5.46,
+    "width_mm": 1527.4,
+    "weight_kg": 24385.0,
+    "heat_number": "H2026-0047",
+    "production_date": "2026-07-05",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10223",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.14,
+    "width_mm": 1424.6,
+    "weight_kg": 16589.3,
+    "heat_number": "H2026-0077",
+    "production_date": "2026-05-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1009",
+      "RM1036",
+      "RM1017"
+    ]
+  },
+  {
+    "coil_id": "C10224",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 4.5,
+    "width_mm": 1056.3,
+    "weight_kg": 18980.9,
+    "heat_number": "H2026-0066",
+    "production_date": "2026-01-13",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1006",
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10225",
+    "grade": "IS2062-E350",
+    "thickness_mm": 20.64,
+    "width_mm": 1157.5,
+    "weight_kg": 12875.0,
+    "heat_number": "H2026-0023",
+    "production_date": "2026-05-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10226",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 6.02,
+    "width_mm": 1492.1,
+    "weight_kg": 13759.9,
+    "heat_number": "H2026-0026",
+    "production_date": "2026-05-18",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10227",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 7.65,
+    "width_mm": 1007.2,
+    "weight_kg": 12009.2,
+    "heat_number": "H2026-0048",
+    "production_date": "2026-03-31",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1024",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10228",
+    "grade": "IS2062-E250",
+    "thickness_mm": 9.77,
+    "width_mm": 1073.1,
+    "weight_kg": 19927.6,
+    "heat_number": "H2026-0117",
+    "production_date": "2026-05-12",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1020",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10229",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 14.25,
+    "width_mm": 934.4,
+    "weight_kg": 9255.2,
+    "heat_number": "H2026-0026",
+    "production_date": "2026-05-16",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10230",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.51,
+    "width_mm": 956.8,
+    "weight_kg": 14369.9,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-03-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10231",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 13.18,
+    "width_mm": 1307.1,
+    "weight_kg": 22968.1,
+    "heat_number": "H2026-0126",
+    "production_date": "2026-05-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10232",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.76,
+    "width_mm": 1686.3,
+    "weight_kg": 11425.7,
+    "heat_number": "H2026-0103",
+    "production_date": "2026-01-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1017"
+    ]
+  },
+  {
+    "coil_id": "C10233",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.84,
+    "width_mm": 1088.4,
+    "weight_kg": 15539.3,
+    "heat_number": "H2026-0009",
+    "production_date": "2026-01-11",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1012"
+    ]
+  },
+  {
+    "coil_id": "C10234",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.67,
+    "width_mm": 1260.3,
+    "weight_kg": 23206.4,
+    "heat_number": "H2026-0038",
+    "production_date": "2026-02-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1022",
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10235",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 21.01,
+    "width_mm": 1570.7,
+    "weight_kg": 17302.0,
+    "heat_number": "H2026-0006",
+    "production_date": "2026-04-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10236",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.05,
+    "width_mm": 1296.2,
+    "weight_kg": 10176.9,
+    "heat_number": "H2026-0091",
+    "production_date": "2026-04-25",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1006",
+      "RM1013",
+      "RM1036"
+    ]
+  },
+  {
+    "coil_id": "C10237",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.87,
+    "width_mm": 1841.2,
+    "weight_kg": 14508.7,
+    "heat_number": "H2026-0012",
+    "production_date": "2026-02-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1033",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10238",
+    "grade": "IS2062-E250",
+    "thickness_mm": 4.71,
+    "width_mm": 993.0,
+    "weight_kg": 24783.9,
+    "heat_number": "H2026-0053",
+    "production_date": "2026-02-24",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1022",
+      "RM1007",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10239",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 5.49,
+    "width_mm": 1179.5,
+    "weight_kg": 18364.5,
+    "heat_number": "H2026-0078",
+    "production_date": "2026-03-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1016",
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10240",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.96,
+    "width_mm": 1348.9,
+    "weight_kg": 16024.6,
+    "heat_number": "H2026-0004",
+    "production_date": "2026-02-02",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10241",
+    "grade": "IS2062-E350",
+    "thickness_mm": 19.21,
+    "width_mm": 1619.2,
+    "weight_kg": 18058.9,
+    "heat_number": "H2026-0032",
+    "production_date": "2026-04-18",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1013",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10242",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.49,
+    "width_mm": 1036.2,
+    "weight_kg": 10008.5,
+    "heat_number": "H2026-0027",
+    "production_date": "2026-06-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10243",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 17.79,
+    "width_mm": 1424.1,
+    "weight_kg": 13561.2,
+    "heat_number": "H2026-0028",
+    "production_date": "2026-01-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1012",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10244",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 21.68,
+    "width_mm": 1004.9,
+    "weight_kg": 22474.4,
+    "heat_number": "H2026-0026",
+    "production_date": "2026-06-29",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10245",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.17,
+    "width_mm": 1230.8,
+    "weight_kg": 18636.0,
+    "heat_number": "H2026-0066",
+    "production_date": "2026-07-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10246",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.94,
+    "width_mm": 1681.9,
+    "weight_kg": 18509.2,
+    "heat_number": "H2026-0152",
+    "production_date": "2026-03-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10247",
+    "grade": "IS2062-E350",
+    "thickness_mm": 16.15,
+    "width_mm": 1709.9,
+    "weight_kg": 23420.1,
+    "heat_number": "H2026-0001",
+    "production_date": "2026-06-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1031",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10248",
+    "grade": "IS2062-E250",
+    "thickness_mm": 20.27,
+    "width_mm": 1522.6,
+    "weight_kg": 8577.4,
+    "heat_number": "H2026-0008",
+    "production_date": "2026-03-22",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1038",
+      "RM1005",
+      "RM1034"
+    ]
+  },
+  {
+    "coil_id": "C10249",
+    "grade": "IS2062-E250",
+    "thickness_mm": 17.38,
+    "width_mm": 1121.1,
+    "weight_kg": 23046.6,
+    "heat_number": "H2026-0017",
+    "production_date": "2026-01-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1021",
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10250",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.31,
+    "width_mm": 1179.8,
+    "weight_kg": 16963.8,
+    "heat_number": "H2026-0001",
+    "production_date": "2026-02-15",
+    "status": "on_hold",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10251",
+    "grade": "IS2062-E350",
+    "thickness_mm": 3.84,
+    "width_mm": 1020.5,
+    "weight_kg": 17861.1,
+    "heat_number": "H2026-0006",
+    "production_date": "2026-05-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1022",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10252",
+    "grade": "IS2062-E250",
+    "thickness_mm": 17.48,
+    "width_mm": 1572.9,
+    "weight_kg": 9016.1,
+    "heat_number": "H2026-0006",
+    "production_date": "2026-01-31",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1015",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10253",
+    "grade": "IS2062-E350",
+    "thickness_mm": 1.78,
+    "width_mm": 1555.2,
+    "weight_kg": 8205.6,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-06-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1039",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10254",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.13,
+    "width_mm": 1753.4,
+    "weight_kg": 10105.6,
+    "heat_number": "H2026-0044",
+    "production_date": "2026-05-06",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1038",
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10255",
+    "grade": "IS2062-E250",
+    "thickness_mm": 22.02,
+    "width_mm": 953.4,
+    "weight_kg": 14359.5,
+    "heat_number": "H2026-0063",
+    "production_date": "2026-06-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10256",
+    "grade": "IS2062-E250",
+    "thickness_mm": 24.27,
+    "width_mm": 904.8,
+    "weight_kg": 18958.2,
+    "heat_number": "H2026-0110",
+    "production_date": "2026-02-15",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1036"
+    ]
+  },
+  {
+    "coil_id": "C10257",
+    "grade": "IS2062-E250",
+    "thickness_mm": 11.46,
+    "width_mm": 1213.4,
+    "weight_kg": 11508.8,
+    "heat_number": "H2026-0098",
+    "production_date": "2026-01-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10258",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.75,
+    "width_mm": 1587.9,
+    "weight_kg": 21326.9,
+    "heat_number": "H2026-0092",
+    "production_date": "2026-06-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1032",
+      "RM1037",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10259",
+    "grade": "IS2062-E350",
+    "thickness_mm": 3.83,
+    "width_mm": 1437.2,
+    "weight_kg": 15193.6,
+    "heat_number": "H2026-0033",
+    "production_date": "2026-03-10",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1030",
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10260",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.01,
+    "width_mm": 1360.2,
+    "weight_kg": 21532.1,
+    "heat_number": "H2026-0012",
+    "production_date": "2026-06-30",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1016",
+      "RM1003",
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10261",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.92,
+    "width_mm": 1108.1,
+    "weight_kg": 10565.2,
+    "heat_number": "H2026-0088",
+    "production_date": "2026-05-01",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1013",
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10262",
+    "grade": "IS2062-E250",
+    "thickness_mm": 20.23,
+    "width_mm": 1242.1,
+    "weight_kg": 13063.2,
+    "heat_number": "H2026-0132",
+    "production_date": "2026-03-03",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1018",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10263",
+    "grade": "IS2062-E250",
+    "thickness_mm": 18.65,
+    "width_mm": 1828.6,
+    "weight_kg": 8605.2,
+    "heat_number": "H2026-0026",
+    "production_date": "2026-04-02",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1002",
+      "RM1034",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10264",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 11.63,
+    "width_mm": 1604.7,
+    "weight_kg": 22478.7,
+    "heat_number": "H2026-0097",
+    "production_date": "2026-03-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1019",
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10265",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 17.28,
+    "width_mm": 1376.1,
+    "weight_kg": 24533.3,
+    "heat_number": "H2026-0118",
+    "production_date": "2026-06-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1024"
+    ]
+  },
+  {
+    "coil_id": "C10266",
+    "grade": "IS2062-E250",
+    "thickness_mm": 20.1,
+    "width_mm": 1514.8,
+    "weight_kg": 9923.3,
+    "heat_number": "H2026-0097",
+    "production_date": "2026-05-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1010",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10267",
+    "grade": "IS2062-E350",
+    "thickness_mm": 3.59,
+    "width_mm": 1317.9,
+    "weight_kg": 11787.4,
+    "heat_number": "H2026-0110",
+    "production_date": "2026-06-22",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1026",
+      "RM1023",
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10268",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.82,
+    "width_mm": 1028.1,
+    "weight_kg": 16069.5,
+    "heat_number": "H2026-0134",
+    "production_date": "2026-04-25",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1014",
+      "RM1019",
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10269",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 9.4,
+    "width_mm": 1695.3,
+    "weight_kg": 14643.6,
+    "heat_number": "H2026-0054",
+    "production_date": "2026-07-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1027",
+      "RM1003",
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10270",
+    "grade": "IS2062-E250",
+    "thickness_mm": 22.18,
+    "width_mm": 1593.6,
+    "weight_kg": 19888.0,
+    "heat_number": "H2026-0020",
+    "production_date": "2026-04-15",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1021",
+      "RM1032",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10271",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 22.27,
+    "width_mm": 1059.8,
+    "weight_kg": 18588.2,
+    "heat_number": "H2026-0132",
+    "production_date": "2026-05-26",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1022",
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10272",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 23.63,
+    "width_mm": 1612.1,
+    "weight_kg": 20607.6,
+    "heat_number": "H2026-0086",
+    "production_date": "2026-05-22",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1038",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10273",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 6.11,
+    "width_mm": 1582.6,
+    "weight_kg": 10389.5,
+    "heat_number": "H2026-0160",
+    "production_date": "2026-04-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1040"
+    ]
+  },
+  {
+    "coil_id": "C10274",
+    "grade": "IS2062-E350",
+    "thickness_mm": 17.06,
+    "width_mm": 1321.6,
+    "weight_kg": 24605.3,
+    "heat_number": "H2026-0036",
+    "production_date": "2026-01-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10275",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 24.91,
+    "width_mm": 985.4,
+    "weight_kg": 23052.4,
+    "heat_number": "H2026-0026",
+    "production_date": "2026-04-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1040",
+      "RM1038",
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10276",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 16.14,
+    "width_mm": 1571.2,
+    "weight_kg": 14494.9,
+    "heat_number": "H2026-0108",
+    "production_date": "2026-03-13",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1021",
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10277",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 9.1,
+    "width_mm": 1619.2,
+    "weight_kg": 15098.9,
+    "heat_number": "H2026-0037",
+    "production_date": "2026-06-19",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1036",
+      "RM1025",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10278",
+    "grade": "IS2062-E350",
+    "thickness_mm": 20.57,
+    "width_mm": 1214.7,
+    "weight_kg": 17732.1,
+    "heat_number": "H2026-0077",
+    "production_date": "2026-04-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1001",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10279",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 19.5,
+    "width_mm": 1094.6,
+    "weight_kg": 12094.8,
+    "heat_number": "H2026-0145",
+    "production_date": "2026-03-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1026",
+      "RM1015",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10280",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 14.29,
+    "width_mm": 946.0,
+    "weight_kg": 15217.8,
+    "heat_number": "H2026-0119",
+    "production_date": "2026-02-06",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1028",
+      "RM1020",
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10281",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.67,
+    "width_mm": 1573.4,
+    "weight_kg": 10068.7,
+    "heat_number": "H2026-0142",
+    "production_date": "2026-05-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10282",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 3.26,
+    "width_mm": 1354.3,
+    "weight_kg": 21194.3,
+    "heat_number": "H2026-0007",
+    "production_date": "2026-02-02",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10283",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.51,
+    "width_mm": 1209.6,
+    "weight_kg": 10077.6,
+    "heat_number": "H2026-0154",
+    "production_date": "2026-02-15",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1012",
+      "RM1019",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10284",
+    "grade": "IS2062-E250",
+    "thickness_mm": 1.79,
+    "width_mm": 946.4,
+    "weight_kg": 16309.8,
+    "heat_number": "H2026-0076",
+    "production_date": "2026-03-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1025",
+      "RM1002",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10285",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 3.36,
+    "width_mm": 1455.0,
+    "weight_kg": 12583.9,
+    "heat_number": "H2026-0131",
+    "production_date": "2026-05-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1018",
+      "RM1024",
+      "RM1016"
+    ]
+  },
+  {
+    "coil_id": "C10286",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 18.5,
+    "width_mm": 991.7,
+    "weight_kg": 13467.7,
+    "heat_number": "H2026-0040",
+    "production_date": "2026-01-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1012"
+    ]
+  },
+  {
+    "coil_id": "C10287",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.79,
+    "width_mm": 1504.7,
+    "weight_kg": 12790.9,
+    "heat_number": "H2026-0082",
+    "production_date": "2026-04-11",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1010",
+      "RM1001",
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10288",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.42,
+    "width_mm": 1299.8,
+    "weight_kg": 16292.4,
+    "heat_number": "H2026-0004",
+    "production_date": "2026-06-08",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10289",
+    "grade": "IS2062-E250",
+    "thickness_mm": 21.07,
+    "width_mm": 1353.9,
+    "weight_kg": 22602.6,
+    "heat_number": "H2026-0119",
+    "production_date": "2026-06-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1017",
+      "RM1033",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10290",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.68,
+    "width_mm": 1664.8,
+    "weight_kg": 16064.2,
+    "heat_number": "H2026-0107",
+    "production_date": "2026-05-29",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10291",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 24.03,
+    "width_mm": 1254.9,
+    "weight_kg": 15299.6,
+    "heat_number": "H2026-0059",
+    "production_date": "2026-01-13",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1033",
+      "RM1040"
+    ]
+  },
+  {
+    "coil_id": "C10292",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 15.6,
+    "width_mm": 1456.5,
+    "weight_kg": 9565.8,
+    "heat_number": "H2026-0092",
+    "production_date": "2026-01-12",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1036",
+      "RM1026",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10293",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 8.7,
+    "width_mm": 1539.8,
+    "weight_kg": 14645.3,
+    "heat_number": "H2026-0089",
+    "production_date": "2026-05-31",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1034",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10294",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.35,
+    "width_mm": 1843.5,
+    "weight_kg": 11389.0,
+    "heat_number": "H2026-0043",
+    "production_date": "2026-02-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1030",
+      "RM1026"
+    ]
+  },
+  {
+    "coil_id": "C10295",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 14.14,
+    "width_mm": 919.3,
+    "weight_kg": 9021.6,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-06-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1033",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10296",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.59,
+    "width_mm": 1072.5,
+    "weight_kg": 20954.0,
+    "heat_number": "H2026-0094",
+    "production_date": "2026-01-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1016",
+      "RM1034"
+    ]
+  },
+  {
+    "coil_id": "C10297",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 18.16,
+    "width_mm": 1462.5,
+    "weight_kg": 11614.2,
+    "heat_number": "H2026-0015",
+    "production_date": "2026-05-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10298",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 16.0,
+    "width_mm": 1124.0,
+    "weight_kg": 22952.6,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-02-20",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10299",
+    "grade": "IS2062-E250",
+    "thickness_mm": 21.37,
+    "width_mm": 1643.4,
+    "weight_kg": 22413.7,
+    "heat_number": "H2026-0158",
+    "production_date": "2026-02-19",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1026",
+      "RM1034",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10300",
+    "grade": "IS2062-E350",
+    "thickness_mm": 7.03,
+    "width_mm": 1652.6,
+    "weight_kg": 12495.3,
+    "heat_number": "H2026-0010",
+    "production_date": "2026-05-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1018",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10301",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.44,
+    "width_mm": 1480.9,
+    "weight_kg": 24540.3,
+    "heat_number": "H2026-0127",
+    "production_date": "2026-01-07",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10302",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 4.89,
+    "width_mm": 1448.5,
+    "weight_kg": 9969.1,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-01-25",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1004",
+      "RM1023",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10303",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 7.69,
+    "width_mm": 1511.1,
+    "weight_kg": 22651.3,
+    "heat_number": "H2026-0108",
+    "production_date": "2026-06-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10304",
+    "grade": "IS2062-E250",
+    "thickness_mm": 16.45,
+    "width_mm": 1422.5,
+    "weight_kg": 8065.0,
+    "heat_number": "H2026-0066",
+    "production_date": "2026-03-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10305",
+    "grade": "IS2062-E250",
+    "thickness_mm": 9.08,
+    "width_mm": 962.5,
+    "weight_kg": 15671.2,
+    "heat_number": "H2026-0058",
+    "production_date": "2026-07-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1019",
+      "RM1027",
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10306",
+    "grade": "IS2062-E250",
+    "thickness_mm": 3.18,
+    "width_mm": 1039.4,
+    "weight_kg": 19428.9,
+    "heat_number": "H2026-0151",
+    "production_date": "2026-05-10",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1004",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10307",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.66,
+    "width_mm": 1536.8,
+    "weight_kg": 24590.5,
+    "heat_number": "H2026-0065",
+    "production_date": "2026-03-18",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10308",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 15.85,
+    "width_mm": 1256.0,
+    "weight_kg": 16324.4,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-01-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1012",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10309",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 21.23,
+    "width_mm": 1760.1,
+    "weight_kg": 24267.6,
+    "heat_number": "H2026-0083",
+    "production_date": "2026-04-04",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1028",
+      "RM1002",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10310",
+    "grade": "IS2062-E250",
+    "thickness_mm": 24.06,
+    "width_mm": 1697.0,
+    "weight_kg": 23185.3,
+    "heat_number": "H2026-0042",
+    "production_date": "2026-02-20",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1021",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10311",
+    "grade": "IS2062-E350",
+    "thickness_mm": 1.57,
+    "width_mm": 1146.4,
+    "weight_kg": 20515.7,
+    "heat_number": "H2026-0039",
+    "production_date": "2026-03-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10312",
+    "grade": "IS2062-E250",
+    "thickness_mm": 24.82,
+    "width_mm": 1186.4,
+    "weight_kg": 24406.5,
+    "heat_number": "H2026-0150",
+    "production_date": "2026-02-12",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1006",
+      "RM1019",
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10313",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.8,
+    "width_mm": 1083.4,
+    "weight_kg": 19091.2,
+    "heat_number": "H2026-0136",
+    "production_date": "2026-07-06",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1011",
+      "RM1033",
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10314",
+    "grade": "IS2062-E350",
+    "thickness_mm": 8.56,
+    "width_mm": 1816.8,
+    "weight_kg": 14373.8,
+    "heat_number": "H2026-0045",
+    "production_date": "2026-01-28",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10315",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 8.23,
+    "width_mm": 1426.0,
+    "weight_kg": 15775.8,
+    "heat_number": "H2026-0055",
+    "production_date": "2026-06-24",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1021",
+      "RM1011",
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10316",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 19.27,
+    "width_mm": 1225.3,
+    "weight_kg": 8214.5,
+    "heat_number": "H2026-0088",
+    "production_date": "2026-05-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1038",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10317",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.69,
+    "width_mm": 1138.3,
+    "weight_kg": 11628.3,
+    "heat_number": "H2026-0061",
+    "production_date": "2026-06-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1033"
+    ]
+  },
+  {
+    "coil_id": "C10318",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 3.83,
+    "width_mm": 1312.3,
+    "weight_kg": 23205.3,
+    "heat_number": "H2026-0019",
+    "production_date": "2026-03-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10319",
+    "grade": "IS2062-E350",
+    "thickness_mm": 16.54,
+    "width_mm": 1268.9,
+    "weight_kg": 14688.9,
+    "heat_number": "H2026-0136",
+    "production_date": "2026-03-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1006",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10320",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 7.7,
+    "width_mm": 1653.7,
+    "weight_kg": 12517.9,
+    "heat_number": "H2026-0158",
+    "production_date": "2026-01-27",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10321",
+    "grade": "IS2062-E350",
+    "thickness_mm": 4.78,
+    "width_mm": 1376.7,
+    "weight_kg": 20000.9,
+    "heat_number": "H2026-0090",
+    "production_date": "2026-02-25",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1007",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10322",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 15.05,
+    "width_mm": 1014.3,
+    "weight_kg": 20846.3,
+    "heat_number": "H2026-0014",
+    "production_date": "2026-04-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1011"
+    ]
+  },
+  {
+    "coil_id": "C10323",
+    "grade": "IS2062-E250",
+    "thickness_mm": 6.65,
+    "width_mm": 995.7,
+    "weight_kg": 9835.8,
+    "heat_number": "H2026-0091",
+    "production_date": "2026-03-14",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1037",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10324",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 3.83,
+    "width_mm": 965.3,
+    "weight_kg": 12967.9,
+    "heat_number": "H2026-0057",
+    "production_date": "2026-02-28",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1040",
+      "RM1017"
+    ]
+  },
+  {
+    "coil_id": "C10325",
+    "grade": "IS2062-E250",
+    "thickness_mm": 15.45,
+    "width_mm": 1384.3,
+    "weight_kg": 12383.7,
+    "heat_number": "H2026-0086",
+    "production_date": "2026-04-14",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1001",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10326",
+    "grade": "IS2062-E250",
+    "thickness_mm": 20.85,
+    "width_mm": 1263.5,
+    "weight_kg": 22414.8,
+    "heat_number": "H2026-0025",
+    "production_date": "2026-01-07",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10327",
+    "grade": "IS2062-E250",
+    "thickness_mm": 21.01,
+    "width_mm": 1047.7,
+    "weight_kg": 13860.9,
+    "heat_number": "H2026-0019",
+    "production_date": "2026-01-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1016",
+      "RM1010",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10328",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.37,
+    "width_mm": 1083.7,
+    "weight_kg": 20035.6,
+    "heat_number": "H2026-0143",
+    "production_date": "2026-04-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1020",
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10329",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 21.28,
+    "width_mm": 1347.4,
+    "weight_kg": 14791.8,
+    "heat_number": "H2026-0064",
+    "production_date": "2026-01-26",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10330",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 23.23,
+    "width_mm": 1849.1,
+    "weight_kg": 24655.1,
+    "heat_number": "H2026-0032",
+    "production_date": "2026-03-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032",
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10331",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.64,
+    "width_mm": 1354.1,
+    "weight_kg": 23161.1,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-04-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10332",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 7.67,
+    "width_mm": 1431.6,
+    "weight_kg": 8460.7,
+    "heat_number": "H2026-0146",
+    "production_date": "2026-02-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1005",
+      "RM1035",
+      "RM1027"
+    ]
+  },
+  {
+    "coil_id": "C10333",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.31,
+    "width_mm": 1188.5,
+    "weight_kg": 15197.4,
+    "heat_number": "H2026-0051",
+    "production_date": "2026-03-19",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1019",
+      "RM1015",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10334",
+    "grade": "IS2062-E250",
+    "thickness_mm": 7.65,
+    "width_mm": 1766.5,
+    "weight_kg": 13211.1,
+    "heat_number": "H2026-0127",
+    "production_date": "2026-02-06",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1011",
+      "RM1001"
+    ]
+  },
+  {
+    "coil_id": "C10335",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 4.4,
+    "width_mm": 960.4,
+    "weight_kg": 24505.3,
+    "heat_number": "H2026-0044",
+    "production_date": "2026-04-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10336",
+    "grade": "IS2062-E350",
+    "thickness_mm": 24.67,
+    "width_mm": 969.2,
+    "weight_kg": 20872.4,
+    "heat_number": "H2026-0136",
+    "production_date": "2026-07-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1006",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10337",
+    "grade": "IS2062-E350",
+    "thickness_mm": 21.08,
+    "width_mm": 1719.8,
+    "weight_kg": 11364.9,
+    "heat_number": "H2026-0106",
+    "production_date": "2026-06-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10338",
+    "grade": "IS2062-E350",
+    "thickness_mm": 5.84,
+    "width_mm": 1183.4,
+    "weight_kg": 16871.0,
+    "heat_number": "H2026-0044",
+    "production_date": "2026-04-20",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1020",
+      "RM1031"
+    ]
+  },
+  {
+    "coil_id": "C10339",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 18.63,
+    "width_mm": 1719.5,
+    "weight_kg": 10374.3,
+    "heat_number": "H2026-0077",
+    "production_date": "2026-05-13",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10340",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.31,
+    "width_mm": 1747.7,
+    "weight_kg": 21077.4,
+    "heat_number": "H2026-0088",
+    "production_date": "2026-05-18",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1035",
+      "RM1034",
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10341",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 3.55,
+    "width_mm": 1392.6,
+    "weight_kg": 10291.8,
+    "heat_number": "H2026-0039",
+    "production_date": "2026-03-10",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1017",
+      "RM1035",
+      "RM1040"
+    ]
+  },
+  {
+    "coil_id": "C10342",
+    "grade": "IS2062-E250",
+    "thickness_mm": 23.48,
+    "width_mm": 1680.6,
+    "weight_kg": 13330.8,
+    "heat_number": "H2026-0030",
+    "production_date": "2026-06-03",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1010",
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10343",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 6.24,
+    "width_mm": 1138.7,
+    "weight_kg": 11984.8,
+    "heat_number": "H2026-0057",
+    "production_date": "2026-04-28",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1031",
+      "RM1025"
+    ]
+  },
+  {
+    "coil_id": "C10344",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 16.3,
+    "width_mm": 1139.8,
+    "weight_kg": 12756.9,
+    "heat_number": "H2026-0086",
+    "production_date": "2026-01-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1006",
+      "RM1036",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10345",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 24.42,
+    "width_mm": 1820.7,
+    "weight_kg": 14756.0,
+    "heat_number": "H2026-0126",
+    "production_date": "2026-06-29",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10346",
+    "grade": "IS2062-E350",
+    "thickness_mm": 16.14,
+    "width_mm": 1526.0,
+    "weight_kg": 13167.1,
+    "heat_number": "H2026-0100",
+    "production_date": "2026-04-11",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10347",
+    "grade": "IS2062-E350",
+    "thickness_mm": 7.58,
+    "width_mm": 1251.9,
+    "weight_kg": 22706.0,
+    "heat_number": "H2026-0002",
+    "production_date": "2026-02-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10348",
+    "grade": "IS2062-E350",
+    "thickness_mm": 9.02,
+    "width_mm": 1481.4,
+    "weight_kg": 23795.3,
+    "heat_number": "H2026-0035",
+    "production_date": "2026-01-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1022"
+    ]
+  },
+  {
+    "coil_id": "C10349",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 14.32,
+    "width_mm": 1215.9,
+    "weight_kg": 23020.0,
+    "heat_number": "H2026-0056",
+    "production_date": "2026-03-30",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1009",
+      "RM1033",
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10350",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.42,
+    "width_mm": 1656.3,
+    "weight_kg": 10805.2,
+    "heat_number": "H2026-0146",
+    "production_date": "2026-05-28",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1035",
+      "RM1031",
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10351",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 14.62,
+    "width_mm": 1311.4,
+    "weight_kg": 10904.0,
+    "heat_number": "H2026-0004",
+    "production_date": "2026-06-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1011",
+      "RM1003",
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10352",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.83,
+    "width_mm": 1789.0,
+    "weight_kg": 13453.4,
+    "heat_number": "H2026-0135",
+    "production_date": "2026-05-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1011",
+      "RM1006"
+    ]
+  },
+  {
+    "coil_id": "C10353",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 21.02,
+    "width_mm": 1080.7,
+    "weight_kg": 15897.7,
+    "heat_number": "H2026-0151",
+    "production_date": "2026-04-10",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1010",
+      "RM1030",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10354",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 19.95,
+    "width_mm": 1845.7,
+    "weight_kg": 8726.1,
+    "heat_number": "H2026-0116",
+    "production_date": "2026-02-04",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1019",
+      "RM1027",
+      "RM1034"
+    ]
+  },
+  {
+    "coil_id": "C10355",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 22.79,
+    "width_mm": 1527.9,
+    "weight_kg": 22833.6,
+    "heat_number": "H2026-0004",
+    "production_date": "2026-03-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1030",
+      "RM1010",
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10356",
+    "grade": "IS2062-E250",
+    "thickness_mm": 2.21,
+    "width_mm": 1569.1,
+    "weight_kg": 15165.9,
+    "heat_number": "H2026-0060",
+    "production_date": "2026-01-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1017",
+      "RM1022",
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10357",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 1.79,
+    "width_mm": 1445.5,
+    "weight_kg": 21262.9,
+    "heat_number": "H2026-0074",
+    "production_date": "2026-02-25",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10358",
+    "grade": "IS2062-E250",
+    "thickness_mm": 21.64,
+    "width_mm": 1039.3,
+    "weight_kg": 18310.9,
+    "heat_number": "H2026-0036",
+    "production_date": "2026-03-06",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10359",
+    "grade": "IS2062-E250",
+    "thickness_mm": 17.61,
+    "width_mm": 1607.1,
+    "weight_kg": 13993.4,
+    "heat_number": "H2026-0057",
+    "production_date": "2026-04-17",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1024",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10360",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 15.09,
+    "width_mm": 900.2,
+    "weight_kg": 17244.4,
+    "heat_number": "H2026-0039",
+    "production_date": "2026-06-23",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10361",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.85,
+    "width_mm": 1104.6,
+    "weight_kg": 24693.9,
+    "heat_number": "H2026-0014",
+    "production_date": "2026-03-24",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10362",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 4.59,
+    "width_mm": 990.0,
+    "weight_kg": 21162.1,
+    "heat_number": "H2026-0132",
+    "production_date": "2026-04-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1012",
+      "RM1024",
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10363",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.31,
+    "width_mm": 1320.6,
+    "weight_kg": 16202.8,
+    "heat_number": "H2026-0006",
+    "production_date": "2026-03-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1003",
+      "RM1039"
+    ]
+  },
+  {
+    "coil_id": "C10364",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 19.66,
+    "width_mm": 1177.9,
+    "weight_kg": 12894.9,
+    "heat_number": "H2026-0128",
+    "production_date": "2026-01-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1038"
+    ]
+  },
+  {
+    "coil_id": "C10365",
+    "grade": "IS2062-E350",
+    "thickness_mm": 8.22,
+    "width_mm": 1204.3,
+    "weight_kg": 8402.7,
+    "heat_number": "H2026-0081",
+    "production_date": "2026-06-19",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1005",
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10366",
+    "grade": "IS2062-E250",
+    "thickness_mm": 12.19,
+    "width_mm": 1217.6,
+    "weight_kg": 19961.3,
+    "heat_number": "H2026-0010",
+    "production_date": "2026-06-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1037",
+      "RM1020"
+    ]
+  },
+  {
+    "coil_id": "C10367",
+    "grade": "IS2062-E250",
+    "thickness_mm": 9.89,
+    "width_mm": 1529.4,
+    "weight_kg": 19244.3,
+    "heat_number": "H2026-0158",
+    "production_date": "2026-04-21",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1035",
+      "RM1014"
+    ]
+  },
+  {
+    "coil_id": "C10368",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.84,
+    "width_mm": 1606.3,
+    "weight_kg": 12142.2,
+    "heat_number": "H2026-0077",
+    "production_date": "2026-04-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1010",
+      "RM1035",
+      "RM1021"
+    ]
+  },
+  {
+    "coil_id": "C10369",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 23.3,
+    "width_mm": 1657.1,
+    "weight_kg": 24547.1,
+    "heat_number": "H2026-0157",
+    "production_date": "2026-06-16",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1032",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10370",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 23.63,
+    "width_mm": 1313.3,
+    "weight_kg": 13169.5,
+    "heat_number": "H2026-0067",
+    "production_date": "2026-02-09",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1024",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10371",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 2.91,
+    "width_mm": 1774.0,
+    "weight_kg": 18232.4,
+    "heat_number": "H2026-0046",
+    "production_date": "2026-03-12",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1023",
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10372",
+    "grade": "IS2062-E350",
+    "thickness_mm": 14.93,
+    "width_mm": 1548.8,
+    "weight_kg": 19819.7,
+    "heat_number": "H2026-0046",
+    "production_date": "2026-05-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1037",
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10373",
+    "grade": "IS2062-E250",
+    "thickness_mm": 21.27,
+    "width_mm": 1298.9,
+    "weight_kg": 23022.2,
+    "heat_number": "H2026-0139",
+    "production_date": "2026-02-05",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1034"
+    ]
+  },
+  {
+    "coil_id": "C10374",
+    "grade": "IS2062-E350",
+    "thickness_mm": 19.93,
+    "width_mm": 1060.6,
+    "weight_kg": 11719.0,
+    "heat_number": "H2026-0062",
+    "production_date": "2026-05-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1024",
+      "RM1023",
+      "RM1015"
+    ]
+  },
+  {
+    "coil_id": "C10375",
+    "grade": "IS2062-E350",
+    "thickness_mm": 4.41,
+    "width_mm": 1574.7,
+    "weight_kg": 14066.3,
+    "heat_number": "H2026-0160",
+    "production_date": "2026-07-01",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1009"
+    ]
+  },
+  {
+    "coil_id": "C10376",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.18,
+    "width_mm": 1534.6,
+    "weight_kg": 15559.4,
+    "heat_number": "H2026-0098",
+    "production_date": "2026-05-02",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1024",
+      "RM1019",
+      "RM1030"
+    ]
+  },
+  {
+    "coil_id": "C10377",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 5.32,
+    "width_mm": 1641.3,
+    "weight_kg": 15364.1,
+    "heat_number": "H2026-0035",
+    "production_date": "2026-05-04",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1032",
+      "RM1002",
+      "RM1005"
+    ]
+  },
+  {
+    "coil_id": "C10378",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 21.27,
+    "width_mm": 1645.9,
+    "weight_kg": 24056.1,
+    "heat_number": "H2026-0151",
+    "production_date": "2026-06-05",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1013",
+      "RM1021",
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10379",
+    "grade": "IS2062-E350",
+    "thickness_mm": 10.41,
+    "width_mm": 1324.0,
+    "weight_kg": 14159.4,
+    "heat_number": "H2026-0085",
+    "production_date": "2026-04-15",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10380",
+    "grade": "IS2062-E250",
+    "thickness_mm": 9.7,
+    "width_mm": 1451.3,
+    "weight_kg": 14380.5,
+    "heat_number": "H2026-0143",
+    "production_date": "2026-06-11",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10381",
+    "grade": "IS2062-E250",
+    "thickness_mm": 24.85,
+    "width_mm": 1567.7,
+    "weight_kg": 15918.9,
+    "heat_number": "H2026-0053",
+    "production_date": "2026-06-06",
+    "status": "in_stock",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10382",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 6.54,
+    "width_mm": 1255.9,
+    "weight_kg": 15944.3,
+    "heat_number": "H2026-0137",
+    "production_date": "2026-05-07",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1026",
+      "RM1008",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10383",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.58,
+    "width_mm": 1075.5,
+    "weight_kg": 20472.4,
+    "heat_number": "H2026-0073",
+    "production_date": "2026-03-11",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10384",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.57,
+    "width_mm": 925.1,
+    "weight_kg": 10235.1,
+    "heat_number": "H2026-0085",
+    "production_date": "2026-02-10",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1029",
+      "RM1019",
+      "RM1002"
+    ]
+  },
+  {
+    "coil_id": "C10385",
+    "grade": "IS2062-E350",
+    "thickness_mm": 1.88,
+    "width_mm": 1424.5,
+    "weight_kg": 24441.7,
+    "heat_number": "H2026-0132",
+    "production_date": "2026-02-22",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1029",
+      "RM1010"
+    ]
+  },
+  {
+    "coil_id": "C10386",
+    "grade": "IS2062-E250",
+    "thickness_mm": 13.03,
+    "width_mm": 1123.8,
+    "weight_kg": 10539.0,
+    "heat_number": "H2026-0102",
+    "production_date": "2026-06-08",
+    "status": "on_hold",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1018"
+    ]
+  },
+  {
+    "coil_id": "C10387",
+    "grade": "IS2062-E250",
+    "thickness_mm": 22.58,
+    "width_mm": 1237.7,
+    "weight_kg": 14901.7,
+    "heat_number": "H2026-0133",
+    "production_date": "2026-04-27",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1032",
+      "RM1004"
+    ]
+  },
+  {
+    "coil_id": "C10388",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 12.88,
+    "width_mm": 1388.6,
+    "weight_kg": 13952.1,
+    "heat_number": "H2026-0065",
+    "production_date": "2026-04-19",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1013"
+    ]
+  },
+  {
+    "coil_id": "C10389",
+    "grade": "IS2062-E350",
+    "thickness_mm": 20.66,
+    "width_mm": 1335.0,
+    "weight_kg": 15317.3,
+    "heat_number": "H2026-0034",
+    "production_date": "2026-06-28",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-02",
+    "material_ids": [
+      "RM1039",
+      "RM1008",
+      "RM1023"
+    ]
+  },
+  {
+    "coil_id": "C10390",
+    "grade": "IS2062-E250",
+    "thickness_mm": 23.38,
+    "width_mm": 925.5,
+    "weight_kg": 15959.1,
+    "heat_number": "H2026-0114",
+    "production_date": "2026-03-31",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1019"
+    ]
+  },
+  {
+    "coil_id": "C10391",
+    "grade": "IS2062-E250",
+    "thickness_mm": 11.21,
+    "width_mm": 1588.5,
+    "weight_kg": 15959.2,
+    "heat_number": "H2026-0053",
+    "production_date": "2026-04-01",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1028",
+      "RM1031",
+      "RM1012"
+    ]
+  },
+  {
+    "coil_id": "C10392",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.44,
+    "width_mm": 1360.9,
+    "weight_kg": 16793.3,
+    "heat_number": "H2026-0127",
+    "production_date": "2026-04-29",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1037"
+    ]
+  },
+  {
+    "coil_id": "C10393",
+    "grade": "IS1786-Fe500D",
+    "thickness_mm": 15.61,
+    "width_mm": 1805.3,
+    "weight_kg": 10589.0,
+    "heat_number": "H2026-0098",
+    "production_date": "2026-06-18",
+    "status": "in_stock",
+    "equipment_id": "EQ-FMS-01",
+    "material_ids": [
+      "RM1016",
+      "RM1029"
+    ]
+  },
+  {
+    "coil_id": "C10394",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 13.75,
+    "width_mm": 1619.8,
+    "weight_kg": 13322.9,
+    "heat_number": "H2026-0067",
+    "production_date": "2026-01-12",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1010",
+      "RM1003"
+    ]
+  },
+  {
+    "coil_id": "C10395",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 24.97,
+    "width_mm": 1073.0,
+    "weight_kg": 21748.3,
+    "heat_number": "H2026-0026",
+    "production_date": "2026-03-17",
+    "status": "dispatched",
+    "equipment_id": "EQ-FMS-02",
+    "material_ids": [
+      "RM1022",
+      "RM1006",
+      "RM1032"
+    ]
+  },
+  {
+    "coil_id": "C10396",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 8.72,
+    "width_mm": 1234.6,
+    "weight_kg": 14592.9,
+    "heat_number": "H2026-0132",
+    "production_date": "2026-03-08",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-02",
+    "material_ids": [
+      "RM1035"
+    ]
+  },
+  {
+    "coil_id": "C10397",
+    "grade": "IS2062-E250",
+    "thickness_mm": 16.33,
+    "width_mm": 976.8,
+    "weight_kg": 23906.9,
+    "heat_number": "H2026-0095",
+    "production_date": "2026-02-12",
+    "status": "on_hold",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1028"
+    ]
+  },
+  {
+    "coil_id": "C10398",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 7.33,
+    "width_mm": 925.8,
+    "weight_kg": 17534.4,
+    "heat_number": "H2026-0002",
+    "production_date": "2026-05-23",
+    "status": "dispatched",
+    "equipment_id": "EQ-COL-01",
+    "material_ids": [
+      "RM1009",
+      "RM1008"
+    ]
+  },
+  {
+    "coil_id": "C10399",
+    "grade": "IS2062-E250",
+    "thickness_mm": 10.09,
+    "width_mm": 1809.3,
+    "weight_kg": 24085.7,
+    "heat_number": "H2026-0081",
+    "production_date": "2026-07-04",
+    "status": "dispatched",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1007"
+    ]
+  },
+  {
+    "coil_id": "C10400",
+    "grade": "IS1786-Fe500",
+    "thickness_mm": 2.92,
+    "width_mm": 1455.9,
+    "weight_kg": 17243.5,
+    "heat_number": "H2026-0122",
+    "production_date": "2026-01-21",
+    "status": "in_stock",
+    "equipment_id": "EQ-RMS-01",
+    "material_ids": [
+      "RM1003"
+    ]
+  }
+]

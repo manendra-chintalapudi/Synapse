@@ -1,0 +1,458 @@
+Project ID,Sr No.,Item Name,Item Category ,Quantity,UOM,  Rate ($)  ,  Amount ($)  ,Weight (kg),Month,Year,Company Name,City,Country
+AG-SEP24,1,CABLE TRAY,Electrical,19,No., $14.00 , $271.00 ,200,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,2,END CLAMP,Electrical,25,No., $0.16 , $4.00 ,250,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,3,MIDDLE CLAMP,Electrical,435,No., $0.20 , $85.00 ,4350,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,4,Activated Carbon,Furnace Material,1,Bag, $29.00 , $29.00 ,25,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,5,Bentonide Powder,Furnace Material,1,Ton, $75.00 , $75.00 ,2000,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,6,Boric Acid ,Furnace Material,3,Bag, $47.00 , $141.00 ,100,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,7,Carbon Rizer,Furnace Material,5,Bag, $43.00 , $214.00 ,125,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,8,Coil Cot Powder,Furnace Material,0.5,Ton, $114.00 , $57.00 ,1000,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,9,Complete Furnace 200/300 kg,Furnace Material,1,NO.," $16,071.00 "," $16,071.00 ",10,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,10,Crucible 100 kg,Furnace Material,1,No., $607.00 , $607.00 ,100,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,11,Ferro Manganese ,Furnace Material,200,kg, $2.00 , $375.00 ,200,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,12,Graphite Powder ,Furnace Material,5,Bag, $22.00 , $111.00 ,125,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,13,Linning Powder,Furnace Material,6,Ton, $89.00 , $536.00 ,6000,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,14,Silicon,Furnace Material,200,kg, $2.00 , $307.00 ,200,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,15,Drill Machine,Mechanical,1,No., $30.00 , $30.00 ,2,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,16,Gear Grarri,Mechanical,1,No., $125.00 , $125.00 ,20,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,17,Lathe machine 5 ft,Mechanical,1,No.," $1,301.00 "," $1,301.00 ",1000,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,18,Magnetic Drill Machine,Mechanical,1,No., $161.00 , $161.00 ,40,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,19,PAD DRILL MACHINE,Mechanical,1,No., $214.00 , $214.00 ,100,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,20,"SILVER PULLY, 4, 18, 20",Mechanical,3,No., $47.00 , $141.00 ,100,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,21,"SILVER PULLY, 8, 12, 12A, 14, 16",Mechanical,5,NO., $36.00 , $179.00 ,100,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,22,Vernier calipers,Mechanical,1,No., $8.00 , $8.00 ,1,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,23,Copper Pipe,Paktharm Matrial,5,KG, $14.00 , $71.00 ,50,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,24,Diode,Paktharm Matrial,1,NO., $89.00 , $89.00 ,10,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,25,Mica Sheet,Paktharm Matrial,1,NO., $18.00 , $18.00 ,25,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,26,Moter Pump,Paktharm Matrial,2,NO., $536.00 ," $1,071.00 ",100,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,27,Thyristor,Paktharm Matrial,2,NO., $71.00 , $143.00 ,20,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,28, Square Bar 6 mm,Raw Material,50,KG, $1.00 , $59.00 ,500,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,29,Ampaler 9 & 12 Inch,Raw Material,2,No., $12.00 , $23.00 ,25,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,30,BRASS Welding Rod,Raw Material,1,kg, $8.00 , $8.00 ,1,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,31,Copper Welding Rod,Raw Material,0.5,kg, $25.00 , $13.00 ,0.5,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,32,FABRICATED C CHENNEL,Raw Material,2,Ton," $1,161.00 "," $2,321.00 ",2000,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,33,L CLEAT,Raw Material,72.3,KG, $1.00 , $71.00 ,72.3,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,34,M12*35 NUT & BOLTS HOT DIP,Raw Material,950,No., $-   , $204.00 ,47.5,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,35,M8*25 SS 304,Raw Material,25,No., $-   , $3.00 ,250,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,36,M8*80 SS 304,Raw Material,435,No., $-   , $155.00 ,4350,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,37,METEL PLIER,Raw Material,13,No., $5.00 , $65.00 ,27,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,38,MOLAS,Raw Material,2,Drum, $64.00 , $129.00 ,580,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,39,Mould Box Sheet 10 Guage (4 Inch*8 ft),Raw Material,12,No., $7.00 , $86.00 ,300,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,40,MS Sheet 16 Guage (4 Ft*8 Ft),Raw Material,5,No., $39.00 , $196.00 ,125,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,41,OMEGA HOT DIP,Raw Material,435,No., $-   , $90.00 ,4350,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,42,Plastic Dori,Raw Material,1,No., $6.00 , $6.00 ,10,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,43,Plastic Shaper,Raw Material,1,No., $29.00 , $29.00 ,10,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,44,Pressure Cooker,Raw Material,1,No., $21.00 , $21.00 ,4,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,45,PVC Pipe Soldering Heater,Raw Material,1,No., $21.00 , $21.00 ,0.5,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,46,PVC Pipe with Fitting,Raw Material,6,No., $21.00 , $125.00 ,60,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,47,SILICATE DRUM,Raw Material,2,Drum, $63.00 , $125.00 ,600,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,48,SLEEVES,Raw Material,94.8,KG, $1.00 , $115.00 ,94.8,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,49,STEEL BOX,Raw Material,10,No., $11.00 , $114.00 ,80,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,50,Steplizer 3000 Watt,Raw Material,1,No., $61.00 , $61.00 ,10,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,51,Welding Rod,Raw Material,1,No., $6.00 , $6.00 ,5,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,52,DC COOLER WITH SOLAR PLATE,Solar Material,2,No., $92.00 , $183.00 ,150,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,53,SOLAR OPERATING PANEL,Solar Material,1,No.," $1,232.00 "," $1,232.00 ",200,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,54,SOLAR PLATE (Trina 590-Watt) ,Solar Material,216,No., $74.00 ," $15,930.00 ",6000,Augest,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-JAN25,55,Buff moter electric,Electrical,1,No., $35.00 , $35.00 ,10,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,56,Copper Stud 10 mm ,Electrical,60,No., $2.00 , $120.00 ,600,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,57,Crusible small ,Furnace Material,16,No., $3.00 , $54.00 ,160,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,58,Mica Sheet 3 mm ,Furnace Material,5,No., $10.00 , $50.00 ,125,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,59,Drum polish machine electric,Mechanical,1,No., $75.00 , $75.00 ,500,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,60,Hydrolic Pump,Mechanical,1,No., $100.00 , $100.00 ,50,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,61,Lathe machine 5 ft,Mechanical,1,No.," $1,500.00 "," $1,500.00 ",500,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,62,Pully 3 inch 2 belts bore 24 mm,Mechanical,516,No., $3.00 ," $1,548.00 ",5160,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,63,Pully 4 inch 3 belts bore 42 + 50 mm ,Mechanical,504,No., $5.00 ," $2,520.00 ",5040,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,64,Vernier calipers,Mechanical,2,No., $10.00 , $20.00 ,20,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,65,Clamp meter,Meter,1,No., $25.00 , $25.00 ,1,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,66,Digital Gauge meter,Meter,5,No., $5.00 , $25.00 ,5,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,67,Presure meter ,Meter,4,No., $1.00 , $4.00 ,4,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,68,Brush ,Raw Material,5,No., $-   , $2.00 ,50,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,69,Buff soap,Raw Material,2,No., $2.00 , $5.00 ,20,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,70,Casting pipe 40 mm dia,Raw Material,1.5,Ton," $1,100.00 "," $1,650.00 ",15,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,71,Casting pipe 45 mm dia,Raw Material,2,Ton," $1,100.00 "," $2,200.00 ",20,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,72,Casting pipe 50 mm dia,Raw Material,2,Ton," $1,100.00 "," $2,200.00 ",20,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,73,Casting pipe 55 mm dia,Raw Material,1,Ton," $1,100.00 "," $1,100.00 ",10,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,74,Copper Braizing Rod,Raw Material,5,No., $2.00 , $10.00 ,125,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,75,"Fiber Glass Rod 2"" * 3/2"" * 28"" ",Raw Material,4,No., $2.00 , $8.00 ,100,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,76,Fiber Glass Sheet 3 mm (4' * 8') 16.8 kg,Raw Material,1,No., $20.00 , $20.00 ,25,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,77,"Glass Bush 3/4"" ",Raw Material,40,No., $2.00 , $80.00 ,400,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,78,Glass Tape,Raw Material,40,No., $1.00 , $40.00 ,40,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,79,Jist (250 gm),Raw Material,1,No., $12.00 , $12.00 ,10,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,80,Luster,Raw Material,1,No., $3.00 , $3.00 ,10,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,81,Measuring Foots,Raw Material,4,No., $1.00 , $4.00 ,40,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,82,Moter Carbon Bush,Raw Material,4,No., $10.00 , $40.00 ,40,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,83,Omni mom (1 kg),Raw Material,1,No., $60.00 , $60.00 ,10,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,84,Patten,Raw Material,4,No., $10.00 , $40.00 ,40,December,2024,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,85,Plastic pipe,Raw Material,4,No., $1.00 , $5.00 ,40,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,86,PS Card,Raw Material,3,No., $25.00 , $75.00 ,30,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,87,Rope,Raw Material,1,No., $3.00 , $3.00 ,10,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,88,Short SCR Card,Raw Material,1,No., $25.00 , $25.00 ,10,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,89,"SS Hexa Nut 3/4""",Raw Material,32,No., $1.00 , $32.00 ,1.6,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,90,SS Nut,Raw Material,60,No., $1.00 , $60.00 ,3,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,91,"SS Rod 3/4"" * 49""",Raw Material,16,No., $5.00 , $80.00 ,400,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,92,SS washer,Raw Material,60,No., $1.00 , $60.00 ,3,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,93,SS Washer 20 mm ,Raw Material,32,No., $1.00 , $32.00 ,1.6,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,94,Steel flask,Raw Material,4,No., $18.00 , $72.00 ,100,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,95,Steel plate small,Raw Material,6,No., $-   , $2.00 ,150,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,96,Wood small,Raw Material,3,No., $1.00 , $3.00 ,30,December,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-SEP24,97,Welding Plant Cable,Cable,20,ft, $2.00 , $32.00 ,5,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,98,Cooling Tower ,Furnace Material,1,No., $518.00 , $518.00 ,300,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,99,HAND GRINDER MACHINE,Mechanical,2,No., $18.00 , $36.00 ,5,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,100,Pully Cast Iron,Mechanical,8,No., $16.00 , $129.00 ,100,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,101,WELDIND PLANT 500 AMP,Mechanical,1,No., $125.00 , $125.00 ,100,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,102,AC Clamp Meter,Meter,1,No., $5.00 , $5.00 ,1,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,103,Baby Air Blower,Raw Material,1,No., $14.00 , $14.00 ,2,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,104,COUPLENE,Raw Material,4,No., $21.00 , $86.00 ,68,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,105,DISTEL WATER EQUIPMENT,Raw Material,1,No., $212.00 , $212.00 ,50,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,106,Gas Cutter,Raw Material,1,No., $80.00 , $80.00 ,5,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,107,HAMMER,Raw Material,3,No., $2.00 , $5.00 ,10,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,108,"J- BOLT 3/4"" * 24""",Raw Material,16,No., $4.00 , $57.00 ,50,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,109,MEASURING TAPE,Raw Material,2,No., $2.00 , $5.00 ,1,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,110,SMALL LADLE WITH HANDLE,Raw Material,4,No., $45.00 , $179.00 ,150,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,111,TRIANGLE,Raw Material,1,No., $2.00 , $2.00 ,1,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,112,ELECTRICAL PANEL,Solar Material,1,No., $500.00 , $500.00 ,100,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,113,MCB 500 Amp WITH PANEL,Solar Material,1,No., $446.00 , $446.00 ,100,July,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,114,DC Cable 120 mm,Cable,20,meter, $15.00 , $295.00 ,15,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,115,DC Cable 6 mm,Cable,20,Coil, $93.00 ," $1,856.00 ",200,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,116,Cable 4 mm,Cable,1,No., $48.00 , $48.00 ,12,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,117,Cable Tie,Cable,11,Packet, $1.00 , $8.00 ,1,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,118,Earthing Wire 25 mm,Cable,11,kg, $11.00 , $126.00 ,11,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,119,COUPLENE SILVER,Raw Material,1,No., $43.00 , $43.00 ,8,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,120,EARTHING BAG,Raw Material,7,No., $1.00 , $8.00 ,50,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,121,EARTHING ROD,Raw Material,2,No., $11.00 , $21.00 ,2,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,122,FLAXIBLE PIPE,Raw Material,2,Bundle, $9.00 , $18.00 ,2,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,123,LIGHTING ARRESTER,Raw Material,2,No., $18.00 , $36.00 ,6,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,124,THIMBLE 6 MM,Raw Material,4,Packet, $2.00 , $9.00 ,1,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,125,TOOL GRINDER 1.5 HP,Raw Material,1,No., $80.00 , $80.00 ,20,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,126,TOOLBOX,Raw Material,1,No., $14.00 , $14.00 ,10,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,127,MC4,Solar Material,100,No., $-   , $43.00 ,1,June,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,128,Cable Themble Punch,Cable,1,No., $4.00 , $4.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,129,Flexible Cable 4 Core ,Cable,41,meter, $4.00 , $161.00 ,7,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,130,DC Clump Meter,Meter,1,No., $21.00 , $21.00 ,0.5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,131,TDS Meter,Meter,1,No., $7.00 , $7.00 ,0.25,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,132,Bench Vice,Raw Material,1,No., $18.00 , $18.00 ,7,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,133,CAM SWITCH 30 Amp,Raw Material,2,No., $5.00 , $10.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,134,Digital Scale 40 Kg,Raw Material,1,No., $18.00 , $18.00 ,2,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,135,Digital Vernier Calliper,Raw Material,1,No., $6.00 , $6.00 ,0.25,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,136,Drill Set Box,Raw Material,1,Box, $12.00 , $12.00 ,3,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,137,FILE,Raw Material,3,No., $2.00 , $5.00 ,0.25,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,138,Grinder disk,Raw Material,30,No., $1.00 , $43.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,139,HECSA,Raw Material,1,No., $1.00 , $1.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,140,HILO DRILL BIT,Raw Material,2,No., $1.00 , $1.00 ,0.25,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,141,Insulation Remover,Raw Material,1,No., $6.00 , $6.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,142,LEVEL 4 Inch,Raw Material,1,No., $1.00 , $1.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,143,L-KEY SET,Raw Material,1,Packet, $3.00 , $3.00 ,0.25,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,144,OIL CAN,Raw Material,1,No., $2.00 , $2.00 ,0.25,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,145,PIPE WRENCH 12 Inch,Raw Material,3,No., $5.00 , $14.00 ,6,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,146,PIPE WRENCH 36 Inch,Raw Material,1,No., $15.00 , $15.00 ,5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,147,PIPE WRENCH 48 Inch,Raw Material,1,No., $23.00 , $23.00 ,5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,148,PLIER,Raw Material,3,No., $2.00 , $6.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,149,Ring Spanner Set (24 pieces),Raw Material,1,Set, $22.00 , $22.00 ,5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,150,RUBBER HAMMER,Raw Material,2,No., $1.00 , $2.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,151,SAW,Raw Material,1,No., $2.00 , $2.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,152,SCREW WRENCH 12 Inch,Raw Material,2,No., $2.00 , $4.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,153,SCREWDRIVER SET,Raw Material,1,No., $11.00 , $11.00 ,1,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,154,Spanner Set (12 pieces),Raw Material,1,Set, $9.00 , $9.00 ,5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,155,SS Clump 3 Inch,Raw Material,12,No., $1.00 , $13.00 ,0.5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,156,TEMPERATURE GUN,Raw Material,1,No., $20.00 , $20.00 ,0.5,May,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-JAN25,157,Electric moter 400 hp,Electrical,1,No.," $5,000.00 "," $5,000.00 ",10,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,158,Thyristor Fast F1800,Electrical,4,No., $100.00 , $400.00 ,40,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,159,Bentonide Powder,Furnace Material,40,Bags, $10.00 , $400.00 ,400,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,160,Boric Acid ,Furnace Material,5,Bags, $50.00 , $250.00 ,50,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,161,Coil Cot Powder,Furnace Material,5,Bags, $25.00 , $125.00 ,50,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,162,Crucible 50 kg,Furnace Material,2,No., $50.00 , $100.00 ,20,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,163,Ferro Manganese ,Furnace Material,40,Bags, $50.00 ," $2,000.00 ",400,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,164,Fire Clay Powder ,Furnace Material,25,Bags, $5.00 , $125.00 ,250,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,165,Graphite Powder,Furnace Material,40,Bags, $25.00 ," $1,000.00 ",400,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,166,Silicon,Furnace Material,4,Bags, $50.00 , $200.00 ,40,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,167,Gear Grarri,Mechanical,4,No., $200.00 , $800.00 ,40,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,168,Berring 22226 K,Raw Material,2,No., $50.00 , $100.00 ,20,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,169,Bracket 526,Raw Material,2,No., $10.00 , $20.00 ,20,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,170,Bush 26 HK,Raw Material,2,No., $5.00 , $10.00 ,20,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,171,Load Cell,Raw Material,4,No., $100.00 , $400.00 ,40,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,172,MS Rolls,Raw Material,12,No., $100.00 ," $1,200.00 ",120,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,173,OPTO Card,Raw Material,2,No., $50.00 , $100.00 ,20,November,2024,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-SEP24,174,Container Balance,Account,1,No.," $3,750.00 "," $3,750.00 ",10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,175,Tyre Repairing,L&T,1,No., $252.00 , $252.00 ,10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,176,C Cheenal Rent,L&T ,1,NO., $43.00 , $43.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,177,Container Freight,L&T ,1,No.," $3,571.00 "," $3,571.00 ",10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,178,Container Loading Rent,L&T ,1,NO., $179.00 , $179.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,179,Cooling Tower Rent,L&T ,1,NO., $30.00 , $30.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,180,Copper Cable Rent,L&T ,1,NO., $16.00 , $16.00 ,1,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,181,Electric Panel Rent,L&T ,3,NO., $18.00 , $54.00 ,30,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,182,Food,L&T ,1,NO., $50.00 , $50.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,183,Lath Machine Rent,L&T ,1,NO., $54.00 , $54.00 ,500,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,184,Linning Powder Rent,L&T ,1,NO., $21.00 , $21.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,185,Loading & Transpotation,L&T ,1,No., $589.00 , $589.00 ,10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,186,Petrol,L&T ,1,No., $536.00 , $536.00 ,10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,187,Shabbir Trader Rent,L&T ,1,NO., $21.00 , $21.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,188,Solar Mechanical Fitting Rent,L&T ,1,NO., $18.00 , $18.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,189,Solar Plates Rent,L&T ,1,NO., $71.00 , $71.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,190,SPD Panel Rent,L&T ,1,NO., $21.00 , $21.00 ,10,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,191,Steel Box Rent,L&T ,1,NO., $11.00 , $11.00 ,25,September,2024,Paktherm Pvt. Ltd.,Sheikhupura,Pakistan
+AG-SEP24,192,Donation,Raw Material,1,No., $89.00 , $89.00 ,10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,193,Medicine,Raw Material,1,No., $60.00 , $60.00 ,10,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-SEP24,194,DC COOLER WITH SOLAR FAIMLY,Solar Material,2,No., $92.00 , $183.00 ,20,September,2024,Foundary Port Sudan,Khartoum,Sudan
+AG-APR25,195,Furnace remote control ,Electrical,1,No., $250.00 , $250.00 ,1,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,196,Crusible small ,Furnace Material,16,No., $3.00 , $54.00 ,160,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,197,Drum polish machine electric,Mechanical,1,No., $75.00 , $75.00 ,500,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,198,Matt machine,Mechanical,1,No., $18.00 , $18.00 ,500,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,199,Megnit machine,Mechanical,2,No., $18.00 , $36.00 ,1000,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,200,Melting machine,Mechanical,1,No., $40.00 , $40.00 ,500,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,201,Phrozen machine printer,Mechanical,1,No., $80.00 , $80.00 ,500,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,202,Pully 4 inch,Mechanical,1200,No., $5.00 ," $6,000.00 ",12000,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,203,Shower casting machine,Mechanical,1,No., $55.00 , $55.00 ,500,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,204,Steel body circle + machine box,Mechanical,2,No., $17.00 , $34.00 ,50,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,205,Vecuum presure pump,Mechanical,2,No., $62.00 , $124.00 ,100,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,206,Presure meter ,Meter,4,No., $1.00 , $4.00 ,4,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,207,Dai press steel,Raw Material,1,No., $36.00 , $36.00 ,25,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,208,Gare Garrari,Raw Material,6,No., $200.00 ," $1,200.00 ",60,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,209,Kalyat steel,Raw Material,2,No., $21.00 , $43.00 ,50,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,210,Mom injecter,Raw Material,1,No., $45.00 , $45.00 ,10,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,211,Pipe conecter,Raw Material,1,No., $1.00 , $1.00 ,10,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,212,Plastic pipe,Raw Material,4,No., $1.00 , $5.00 ,40,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,213,Plastic round ,Raw Material,4,No., $-   , $1.00 ,40,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,214,Rope,Raw Material,1,No., $3.00 , $3.00 ,10,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,215,Rubber for flask ,Raw Material,14,No., $-   , $4.00 ,140,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,216,Steel body kuja ,Raw Material,3,No., $22.00 , $67.00 ,75,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,217,Steel Bubbles,Raw Material,1,No., $120.00 , $120.00 ,25,April,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,218,Steel flask,Raw Material,4,No., $18.00 , $72.00 ,100,April,2025,Shalimar Steels,Soba,Sudan
+AG-FEB26,219,Furnace 150 kg Single Crucible Complete,Furnace Material,1,No.," $7,143.00 "," $7,143.00 ",500,December,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,220,1500 KVA Transformer,Raw Material,3,No.," $1,429.00 "," $4,286.00 ",30,December,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-APR25,221,Air Pressure Hand,Raw Material,1,No., $17.00 , $17.00 ,10,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,222,Ink black colour,Raw Material,2,No., $8.00 , $17.00 ,20,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,223,Pandora alloy (1 kg),Raw Material,1,No., $15.00 , $15.00 ,10,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,224,Pipe connecter,Raw Material,2,No., $1.00 , $2.00 ,20,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,225,Plastic small,Raw Material,1,No., $1.00 , $1.00 ,10,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,226,Pressure gauge,Raw Material,1,No., $2.00 , $2.00 ,10,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,227,Ring sizer,Raw Material,1,No., $6.00 , $6.00 ,10,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,228,Rubber plate die,Raw Material,1,No., $-   , $-   ,10,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,229,Steel for clean,Raw Material,4,No., $1.00 , $4.00 ,100,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,230,Steel polish files,Raw Material,11,No., $1.00 , $14.00 ,275,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,231,Steel small,Raw Material,1,No., $13.00 , $13.00 ,25,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,232,Steel small (500 grm),Raw Material,1,No., $2.00 , $2.00 ,25,February,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,233,Steel small katira for cutting,Raw Material,11,No., $3.00 , $31.00 ,275,February,2025,Shalimar Steels,Soba,Sudan
+AG-JAN25,234,Jewlary making box Zeshan,Account,5,Box, $50.00 , $250.00 ,50,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,235,Cable adapter,Electrical,4,No., $2.00 , $6.00 ,4,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,236,Copper Stud 10 mm ,Electrical,60,No., $2.00 , $120.00 ,600,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,237,Electric moter 400 hp,Electrical,1,No.," $5,000.00 "," $5,000.00 ",10,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,238,Furnace remote control,Electrical,1,No., $250.00 , $250.00 ,1,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,239,Thyristor Fast F1800,Electrical,4,No., $100.00 , $400.00 ,40,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,240,Bentonide Powder,Furnace Material,40,Bags, $10.00 , $400.00 ,400,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,241,Boric Acid ,Furnace Material,5,Bags, $50.00 , $250.00 ,50,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,242,Coil Cot Powder,Furnace Material,5,Bags, $25.00 , $125.00 ,50,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,243,Crucible 50 kg,Furnace Material,2,No., $50.00 , $100.00 ,20,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,244,Ferro Manganese ,Furnace Material,40,Bags, $50.00 ," $2,000.00 ",400,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,245,Fire Clay Powder ,Furnace Material,25,Bags, $5.00 , $125.00 ,250,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,246,Graphite Powder ,Furnace Material,40,Bags, $25.00 ," $1,000.00 ",400,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,247,Mica Sheet 3 mm ,Furnace Material,5,No., $10.00 , $50.00 ,125,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,248,Silicon,Furnace Material,4,Bags, $50.00 , $200.00 ,40,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,249,Fordem machine,Mechanical,1,No., $13.00 , $13.00 ,500,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,250,Gear Grarri,Mechanical,4,No., $200.00 , $800.00 ,40,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,251,Hydrolic Pump,Mechanical,1,No., $100.00 , $100.00 ,50,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,252,Lathe machine 5 ft,Mechanical,1,No.," $1,500.00 "," $1,500.00 ",500,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,253,Lathe machine through chuk,Mechanical,4,No., $50.00 , $200.00 ,2000,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,254,Lathe machine through chuk,Mechanical,4,No., $50.00 , $200.00 ,2000,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,255,Matt machine,Mechanical,1,No., $18.00 , $18.00 ,500,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,256,Megnit machine,Mechanical,2,No., $18.00 , $36.00 ,1000,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,257,Melting machine,Mechanical,1,No., $40.00 , $40.00 ,500,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,258,Phrozen machine printer,Mechanical,1,No., $80.00 , $80.00 ,500,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,259,Pully 3 inch 2 belts bore 24 mm,Mechanical,516,No., $3.00 ," $1,548.00 ",5160,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,260,Pully 4 inch,Mechanical,1200,No., $5.00 ," $6,000.00 ",12000,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,261,Pully 4 inch 3 belts bore 42 + 50 mm ,Mechanical,504,No., $5.00 ," $2,520.00 ",5040,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,262,Shower casting machine,Mechanical,1,No., $55.00 , $55.00 ,500,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,263,Steel body circle + machine box,Mechanical,2,No., $17.00 , $34.00 ,50,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,264,Vecuum presure pump,Mechanical,2,No., $62.00 , $124.00 ,100,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,265,Vernier calipers,Mechanical,2,No., $10.00 , $20.00 ,20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,266,Clamp meter,Meter,1,No., $25.00 , $25.00 ,1,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,267,Digital Gauge meter,Meter,5,No., $5.00 , $25.00 ,5,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,268,Air Pressure Hand,Raw Material,1,No., $17.00 , $17.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,269,Berring 22226 K,Raw Material,2,No., $50.00 , $100.00 ,20,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,270,Bracket 526,Raw Material,2,No., $10.00 , $20.00 ,20,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,271,Bush 26 HK,Raw Material,2,No., $5.00 , $10.00 ,20,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,272,Candle rad,Raw Material,3,No., $2.00 , $5.00 ,30,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,273,Casting pipe 40 mm dia,Raw Material,1.5,Ton," $1,100.00 "," $1,650.00 ",15,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,274,Casting pipe 45 mm dia,Raw Material,2,Ton," $1,100.00 "," $2,200.00 ",20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,275,Casting pipe 50 mm dia,Raw Material,2,Ton," $1,100.00 "," $2,200.00 ",20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,276,Casting pipe 55 mm dia,Raw Material,1,Ton," $1,100.00 "," $1,100.00 ",10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,277,Copper Braizing Rod,Raw Material,5,No., $2.00 , $10.00 ,125,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,278,Dai press steel,Raw Material,1,No., $36.00 , $36.00 ,25,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,279,"Fiber Glass Rod 2"" * 3/2"" * 28"" ",Raw Material,4,No., $2.00 , $8.00 ,100,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,280,Fiber Glass Sheet 3 mm (4' * 8') 16.8 kg,Raw Material,1,No., $20.00 , $20.00 ,25,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,281,Gare Garrari,Raw Material,6,No., $200.00 ," $1,200.00 ",60,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,282,"Glass Bush 3/4"" ",Raw Material,40,No., $2.00 , $80.00 ,400,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,283,Glass Tape,Raw Material,40,No., $1.00 , $40.00 ,40,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,284,Gloves,Raw Material,4,No., $3.00 , $12.00 ,0.2,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,285,Grinder disk,Raw Material,6,No., $50.00 , $300.00 ,60,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,286,Grinder disk,Raw Material,6,No., $50.00 , $300.00 ,60,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,287,Grinder round tools,Raw Material,25,No., $2.00 , $50.00 ,250,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,288,Grinder round tools,Raw Material,25,No., $2.00 , $50.00 ,250,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,289,Grinder tools,Raw Material,25,No., $2.00 , $50.00 ,250,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,290,Grinder tools,Raw Material,25,No., $2.00 , $50.00 ,250,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,291,Ink black colour,Raw Material,2,No., $8.00 , $17.00 ,20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,292,Insulation sleeve,Raw Material,120,No., $2.00 , $240.00 ,1200,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,293,Insulation sleeve,Raw Material,120,No., $2.00 , $240.00 ,1200,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,294,Jain paper,Raw Material,2,No., $1.00 , $3.00 ,20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,295,Kalyat steel,Raw Material,2,No., $21.00 , $43.00 ,50,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,296,Load Cell,Raw Material,4,No., $100.00 , $400.00 ,40,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,297,Measuring Foots,Raw Material,4,No., $1.00 , $4.00 ,40,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,298,Mechanical Tool accessories large Tanzeem,Raw Material,2,Box, $50.00 , $100.00 ,20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,299,Mechanical Tool accessories large Tanzeem,Raw Material,2,Box, $50.00 , $100.00 ,20,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,300,Mechanical Tool accessories small Tanzeem,Raw Material,3,Box, $50.00 , $150.00 ,30,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,301,Mechanical Tool accessories small Tanzeem,Raw Material,3,Box, $50.00 , $150.00 ,30,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,302,Mom injecter,Raw Material,1,No., $45.00 , $45.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,303,Moter Carbon Bush,Raw Material,4,No., $10.00 , $40.00 ,40,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,304,MS Rolls,Raw Material,12,No., $100.00 ," $1,200.00 ",120,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,305,Omni mom (3 kg),Raw Material,1,No., $58.00 , $58.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,306,OPTO Card,Raw Material,2,No., $50.00 , $100.00 ,20,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,307,Pandora alloy (1 kg),Raw Material,1,No., $15.00 , $15.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,308,Patten,Raw Material,4,No., $10.00 , $40.00 ,40,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,309,Pioneer (250 gm),Raw Material,1,No., $4.00 , $4.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,310,Pipe conecter,Raw Material,1,No., $1.00 , $1.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,311,Pipe connecter,Raw Material,2,No., $1.00 , $2.00 ,20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,312,Plastic round ,Raw Material,4,No., $-   , $1.00 ,40,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,313,Plastic small,Raw Material,1,No., $1.00 , $1.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,314,Pressure gauge,Raw Material,1,No., $2.00 , $2.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,315,PS Card,Raw Material,3,No., $25.00 , $75.00 ,30,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,316,Ribber small pcs,Raw Material,9,No., $1.00 , $7.00 ,90,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,317,Ring sizer,Raw Material,1,No., $6.00 , $6.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,318,Rubber for flask ,Raw Material,14,No., $-   , $4.00 ,140,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,319,Rubber plate die,Raw Material,1,No., $-   , $-   ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,320,Short SCR Card,Raw Material,1,No., $25.00 , $25.00 ,10,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,321,Small pipe,Raw Material,2,No., $1.00 , $1.00 ,20,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,322,"SS Hexa Nut 3/4""",Raw Material,32,No., $1.00 , $32.00 ,1.6,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,323,SS Nut,Raw Material,60,No., $1.00 , $60.00 ,3,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,324,"SS Rod 3/4"" * 49""",Raw Material,16,No., $5.00 , $80.00 ,400,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,325,SS washer,Raw Material,60,No., $1.00 , $60.00 ,3,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,326,SS Washer 20 mm ,Raw Material,32,No., $1.00 , $32.00 ,1.6,January,2025,Arfan Kosti Steel Factory,Kosti,Sudan
+AG-JAN25,327,Steel body kuja ,Raw Material,3,No., $22.00 , $67.00 ,75,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,328,Steel Bubbles,Raw Material,1,No., $120.00 , $120.00 ,25,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,329,Steel for clean,Raw Material,4,No., $1.00 , $4.00 ,100,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,330,Steel polish files,Raw Material,11,No., $1.00 , $14.00 ,275,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,331,Steel round pcs,Raw Material,28,No., $1.00 , $34.00 ,700,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,332,Steel small,Raw Material,1,No., $13.00 , $13.00 ,25,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,333,Steel small (500 grm),Raw Material,1,No., $2.00 , $2.00 ,25,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,334,Steel small katira for cutting,Raw Material,11,No., $3.00 , $31.00 ,275,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,335,Steel small pcs,Raw Material,13,No., $2.00 , $30.00 ,325,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,336,Surgical Tools Ashfaq,Raw Material,1,Box, $50.00 , $50.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-JAN25,337,Surgical Tools Ashfaq,Raw Material,1,Box, $50.00 , $50.00 ,10,January,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-JAN25,338,Water colour,Raw Material,1,No., $3.00 , $3.00 ,10,January,2025,Ghazi Abbas Steel Mills,Kosti,Sudan
+AG-APR25,339,Buff moter electric,Electrical,1,No., $35.00 , $35.00 ,10,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,340,Cable adapter,Electrical,4,No., $2.00 , $6.00 ,4,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,341,Fordem machine,Mechanical,1,No., $13.00 , $13.00 ,500,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,342,Brush ,Raw Material,5,No., $-   , $2.00 ,50,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,343,Buff soap,Raw Material,2,No., $2.00 , $5.00 ,20,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,344,Candle rad,Raw Material,3,No., $2.00 , $5.00 ,30,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,345,Gloves,Raw Material,4,No., $3.00 , $12.00 ,0.2,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,346,Jain paper,Raw Material,2,No., $1.00 , $3.00 ,20,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,347,Luster,Raw Material,1,No., $3.00 , $3.00 ,10,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,348,Omni mom (1 kg),Raw Material,1,No., $60.00 , $60.00 ,10,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,349,Omni mom (3 kg),Raw Material,1,No., $58.00 , $58.00 ,10,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,350,Pioneer (250 gm),Raw Material,1,No., $4.00 , $4.00 ,10,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,351,Ribber small pcs,Raw Material,9,No., $1.00 , $7.00 ,90,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,352,Small pipe,Raw Material,2,No., $1.00 , $1.00 ,20,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,353,Steel plate small,Raw Material,6,No., $-   , $2.00 ,150,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,354,Steel round pcs,Raw Material,28,No., $1.00 , $34.00 ,700,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,355,Steel small pcs,Raw Material,13,No., $2.00 , $30.00 ,325,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,356,Water colour,Raw Material,1,No., $3.00 , $3.00 ,10,March,2025,Shalimar Steels,Soba,Sudan
+AG-APR25,357,Wood small,Raw Material,3,No., $1.00 , $3.00 ,30,March,2025,Shalimar Steels,Soba,Sudan
+AG-MAY25,358,Wire 16 mm,Cable,12,meter,,,12,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,359,Wire 4 mm,Cable,10,meter,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,360,Wire 6 mm,Cable,20,meter,,,20,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,361,Button Machine,Mechanical,1,Piece,,,500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,362,Cutter Machine,Mechanical,1,Piece,,,500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,363,Jack Machine,Mechanical,5,Piece,,,2500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,364,Kaj Machine 781 Model,Mechanical,1,Piece,,,500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,365,Kaj Machine Tank,Mechanical,1,Piece,,,500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,366,Machine Parts,Mechanical,3,Box,,,1500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,367,Machine Table,Mechanical,8,Piece,,,4000,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,368,Overlock Machine,Mechanical,1,Piece,,,500,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,369,Puhh Chering Motor,Mechanical,1,Piece,,,50,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,370,Sewing Machine Stands,Mechanical,8,Stand,,,4000,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,371,Kaj Meter,Meter,1,Box,,,1,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,372,Crown Mortor,Raw Material,5,Piece,,,50,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,373,DB Box,Raw Material,1,Piece,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,374,Invertor 4200 W,Raw Material,1,Piece,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,375,Kancheey Shappar,Raw Material,1,Piece,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,376,National Iron,Raw Material,1,Piece,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,377,Stam Iron,Raw Material,1,Piece,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,378,Tharbian,Raw Material,10,Piece,,,100,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,379,TR Battery 1800 Amp,Raw Material,2,Piece,,,20,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,380,Trunk Box,Raw Material,2,Piece,,,20,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,381,MC4,Solar Material,10,Piece,,,10,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,382,Solar Panel Longi 600 W,Solar Material,6,Plates,,,60,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-MAY25,383,Solar Stand ,Solar Material,3,Piece,,,30,May,2025,Ali Global Trading Company,Lahore,Pakistan
+AG-FEB26,384,Face GrInder Machine,Mechanical,1,Machine," $1,429.00 "," $1,429.00 ",500,November,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,385,Lath Machine 5 ft,Mechanical,3,Machine," $1,250.00 "," $3,750.00 ",1500,November,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,386,Lath Machine 8 ft,Mechanical,2,Machine," $2,500.00 "," $5,000.00 ",1000,November,2025,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,387,Boric Acid ,Furnace Material,2,bag, $54.00 , $107.00 ,20,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,388,Coil Cot Powder,Furnace Material,500,kg, $-   , $89.00 ,5000,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,389,Graphite Powder,Furnace Material,10,bag, $29.00 , $286.00 ,100,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,390,Silicon,Furnace Material,200,kg, $2.00 , $357.00 ,2000,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,391,Container Freight,L&T,1,No.," $7,857.00 "," $7,857.00 ",10,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,392,Pully 4 inch 3 belt 38 mm bore,Mechanical,250,No., $4.00 , $893.00 ,2500,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,393,Pully 4 inch 3 belt 42 mm bore,Mechanical,250,No., $4.00 , $893.00 ,2500,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,394,Pully 4 inch 3 belt 48 mm bore,Mechanical,500,No., $4.00 ," $1,786.00 ",5000,February,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,395,Ferro Manganese ,Furnace Material,200,kg, $2.00 , $357.00 ,2000,January,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,396,Linning Powder,Furnace Material,5,Ton, $89.00 , $446.00 ,50,January,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-FEB26,397,Workshop Tools Accessories,Raw Material,1,No., $357.00 , $357.00 ,10,January,2026,PakArab Steel Factory,Khartoum,Sudan
+AG-JUN26,398,Abdul Rehman FM,Account,1,No., $7.00 , $7.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,399,Iqbal S/G Adv,Account,1,No., $18.00 , $18.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,400,Kashif Account,Account,1,No., $71.00 , $71.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,401,Kashif Account,Account,1,No., $68.00 , $68.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,402,PakTherm Amount,Account,1,No.," $3,571.00 "," $3,571.00 ",10,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,403,Rent,Account,1,No.," $1,607.00 "," $1,607.00 ",10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,404,Sagheer Bill,Account,1,No., $63.00 , $63.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,405,Shed Balance Amount,Account,1,No., $893.00 , $893.00 ,10,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,406,Yousaf FM,Account,1,No., $21.00 , $21.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,407,Yousaf FM,Account,1,No., $18.00 , $18.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,408,Flexible Cable (70 mm),Cable,70,meter, $11.00 , $750.00 ,70,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,409,Bentonide Powder,Furnace Material,500,kg, $-   , $41.00 ,500,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,410,Coil Cot Powder,Furnace Material,500,kg, $-   , $75.00 ,500,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,411,Ferro Manganese ,Furnace Material,500,kg, $2.00 , $893.00 ,500,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,412,Graphite Powder,Furnace Material,5,Bag, $28.00 , $138.00 ,125,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,413,Linning Powder,Furnace Material,1,Ton, $446.00 , $446.00 ,50,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,414,Tyre Repairing,L&T,1,No., $11.00 , $11.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,415,Petrol,L&T ,1,No., $46.00 , $46.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,416,Petrol,L&T ,1,No., $41.00 , $41.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,417,Petrol,L&T ,1,No., $36.00 , $36.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,418,Petrol,L&T ,1,No., $37.00 , $37.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,419,Petrol,L&T ,1,No., $29.00 , $29.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,420,Tyre Repairing,L&T ,4,No., $45.00 , $179.00 ,10,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,421,Chiller Water Cooler,Mechanical,1,No., $214.00 , $214.00 ,120,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,422,Hydraulic Oil,Mechanical,1,No., $214.00 , $214.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,423,Motorcycle Brake Shoe Scrap,Mechanical,100,kg, $2.00 , $179.00 ,100,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,424,Scrap Trolley,Mechanical,5,No., $36.00 , $179.00 ,400,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,425,"Water Bore (3"" )",Mechanical,2,No., $893.00 ," $1,786.00 ",300,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,426,Water Drain Bore with Civil Works,Mechanical,1,No., $357.00 , $357.00 ,500,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,427,Water Tank (500 Gallon),Mechanical,4,No., $107.00 , $429.00 ,320,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,428,TDS Meter,Meter,1,No., $3.00 , $3.00 ,0.5,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,429,Alam,Raw Material,1,No., $7.00 , $7.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,430,ATTO 88,Raw Material,1,No.," $3,571.00 "," $3,571.00 ",10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,431,Distilled Water,Raw Material,1,No., $36.00 , $36.00 ,20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,432,Earth Bore,Raw Material,5,No., $107.00 , $536.00 ,500,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,433,Former Sheet,Raw Material,2,No., $21.00 , $43.00 ,40,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,434,Gas Cylinder,Raw Material,1,No., $7.00 , $7.00 ,50,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,435,Kashif Ceiling,Raw Material,1,No., $74.00 , $74.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,436,Laboratory,Raw Material,1,No., $643.00 , $643.00 ,300,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,437,Laboratory,Raw Material,1,No., $643.00 , $643.00 ,300,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,438,Ladle ,Raw Material,2,No., $111.00 , $221.00 ,40,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,439,Long Nose Plaier ,Raw Material,6,No., $11.00 , $64.00 ,2,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,440,Metal Drums,Raw Material,2,No., $25.00 , $50.00 ,60,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,441,Moulding Box,Raw Material,6,No.," $1,143.00 "," $6,857.00 ",250,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,442,MS Rod (1.5'' — 6'),Raw Material,3,No., $6.00 , $18.00 ,80,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,443,M-Tab,Raw Material,1,No., $18.00 , $18.00 ,1,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,444,Oxygen Cylinder,Raw Material,3,No., $36.00 , $107.00 ,200,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,445,PVC,Raw Material,1,No.," $2,346.00 "," $2,346.00 ",20,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,446,Rawal Bolt,Raw Material,1,No., $4.00 , $4.00 ,5,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,447,Rent,Raw Material,1,No., $8.00 , $8.00 ,10,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,448,Sheera Drum,Raw Material,1,No., $56.00 , $56.00 ,250,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,449,Sheet,Raw Material,1,No.," $2,411.00 "," $2,411.00 ",50,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,450,Sheet Rent,Raw Material,1,No., $64.00 , $64.00 ,25,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,451,Silica Sand,Raw Material,1,No.," $1,071.00 "," $1,071.00 ",50,June,2026,Ali Global Trading Company,Lahore,Pakistan
+AG-JUN26,452,Silicate Drum,Raw Material,1,No., $57.00 , $57.00 ,250,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,453,Silver Scrap,Raw Material,250,kg, $2.00 , $536.00 ,250,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+AG-JUN26,454,Stairs (Wood),Raw Material,1,No., $12.00 , $12.00 ,150,June,2026,Ali Global Trading Company,Lahore,Pakistan
+DS-JUN26,455,Yellow Gloves,Raw Material,48,No., $0.35 , $17.00 ,5,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,456,DC Combiner,Solar Material,1,No., $893.00 , $893.00 ,25,June,2026,Dynamic Steels,Sheikhupura,Pakistan
+DS-JUN26,457,Solar Required Min 1 MW,Solar Material,1,No.,,,10,June,2026,Dynamic Steels,Sheikhupura,Pakistan

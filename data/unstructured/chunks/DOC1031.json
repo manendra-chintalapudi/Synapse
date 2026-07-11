@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1031",
+    "chunk_id": "DOC1031_chunk_0",
+    "chunk_index": 0,
+    "text": "# Standard Operating Procedure \u2014 DOC1031\n**Title:** Hot Rolling Mill Preventive Maintenance Checklist\n**Procedure ID:** PROC-020  |  **Applies to:** EQ-HRM-02 \u2014 Hot Rolling Mill Line 2 (Hot Rolling Mill)\n**Location:** Jamshedpur Unit - Furnace Hall\n\n## 1. Purpose\nThis procedure defines the standard method for the task titled \"Hot Rolling Mill Preventive Maintenance Checklist\" on the hot rolling mill. It exists\nto ensure the activity is carried out safely, consistently and in a way that protects personnel, equipment and product\nquality, and to provide a training and audit reference for operators and maintenance staff.\n\n## 2. Scope\nThis SOP applies to all operators, maintenance technicians and supervisors who operate or work on EQ-HRM-02\n(Hot Rolling Mill Line 2) at Jamshedpur Unit - Furnace Hall. It covers the normal execution of the task and the\nassociated safety controls. It does not replace equipment-specific manufacturer instructions or statutory requirements.\n\n## 3. Responsibilities\nThe shift supervisor authorises the activity and confirms isolation where required. The assigned technician executes the\nsteps and records completion. The equipment engineer maintains this procedure and reviews it after any related incident.\n\n## 4. Prerequisites & PPE\nConfirm the correct permit-to-work is in place, required isolations are applied, and standard PPE plus any\ntask-specific protection (as noted below) is worn. Ensure tools, spares and measuring equipment are available and\ncalibrated before starting.",
+    "char_count": 1519,
+    "metadata": {
+      "doc_type": "sop",
+      "related_entity_id": "PROC-020",
+      "source_file_path": "data/unstructured/documents/DOC1031.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1031",
+    "chunk_id": "DOC1031_chunk_1",
+    "chunk_index": 1,
+    "text": "## 5. Procedure Steps\n1. Perform the scheduled preventive maintenance on the hot rolling mill per the maintenance calendar.\n2. Inspect bearings, seals, couplings and drive components for wear, and top up or replace lubricants as specified.\n3. Check sensor and instrumentation calibration against reference values.\n4. Close out the work order with parts used and observations.\n\n## 6. Safety Notes\n- High-temperature strip and rolls - keep clear of the roll gap and pinch points.\n- Stored hydraulic energy - isolate and bleed to zero before intervention.\n- Rotating spindles and couplings - guards must be in place before start.\n- Stop work and escalate to the shift supervisor if any parameter falls outside the normal operating band\n  (reference: Rolling temperature: 1050-1250 degC, Mill stand separating force: up to ~30 MN).\n\n## 7. References\n- Related equipment manual for EQ-HRM-02.\n- Applicable BIS / ASTM quality standards and The Factories Act, 1948 safety provisions.\n- Plant CMMS maintenance schedule for the hot rolling mill.\n\n## 8. Approval\nAuthor: Swati Desai (Equipment Engineer)\nApproved by: Rajesh Naidu (Shift Supervisor, Shift B)\nRevision: 1.0 \u2014 controlled document, review annually or after any related incident.",
+    "char_count": 1231,
+    "metadata": {
+      "doc_type": "sop",
+      "related_entity_id": "PROC-020",
+      "source_file_path": "data/unstructured/documents/DOC1031.md"
+    }
+  }
+]

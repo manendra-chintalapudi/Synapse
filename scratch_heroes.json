@@ -1,0 +1,428 @@
+[
+ {
+  "fid": "F1044",
+  "eqid": "EQ-BF-01",
+  "eqname": "Blast Furnace #1",
+  "typ": "blast_furnace",
+  "mode": "heat_dissipation_failure",
+  "rca": "RCA1044",
+  "tech": "Neha Menon",
+  "techrole": "maintenance_technician",
+  "manual": "DOC1001",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 295.8,
+   "process_temperature_k": 306.3,
+   "rotational_speed_rpm": 2212,
+   "torque_nm": 31.4,
+   "tool_wear_min": 216,
+   "source_failure_flag": "HDF"
+  },
+  "timestamp": "2025-09-29 17:37:52"
+ },
+ {
+  "fid": "F1110",
+  "eqid": "EQ-HBS-02",
+  "eqname": "Hot Blast Stove B",
+  "typ": "hot_blast_stove",
+  "mode": "random_failure",
+  "rca": "RCA1110",
+  "tech": "Naveen Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": null,
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 300.8,
+   "process_temperature_k": 310.8,
+   "rotational_speed_rpm": 1170,
+   "torque_nm": 37.1,
+   "tool_wear_min": 182,
+   "source_failure_flag": "RNF"
+  },
+  "timestamp": "2026-06-27 17:39:01"
+ },
+ {
+  "fid": "F1028",
+  "eqid": "EQ-SPF-01",
+  "eqname": "Sinter Plant Weigh-Belt Feeder #1",
+  "typ": "sinter_plant_feeder",
+  "mode": "tool_wear_failure",
+  "rca": "RCA1028",
+  "tech": "Ravi Singh",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1011",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 301.2,
+   "process_temperature_k": 310.3,
+   "rotational_speed_rpm": 2277,
+   "torque_nm": 37.9,
+   "tool_wear_min": 101,
+   "source_failure_flag": "TWF"
+  },
+  "timestamp": "2026-01-16 18:55:20"
+ },
+ {
+  "fid": "F1064",
+  "eqid": "EQ-EAF-01",
+  "eqname": "Electric Arc Furnace #1",
+  "typ": "electric_arc_furnace",
+  "mode": "power_failure",
+  "rca": "RCA1064",
+  "tech": "Shalini Kulkarni",
+  "techrole": "quality_inspector",
+  "manual": "DOC1016",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 295.5,
+   "process_temperature_k": 304.4,
+   "rotational_speed_rpm": 1393,
+   "torque_nm": 40.7,
+   "tool_wear_min": 29,
+   "source_failure_flag": "PWF"
+  },
+  "timestamp": "2025-10-19 14:57:48"
+ },
+ {
+  "fid": "F1015",
+  "eqid": "EQ-LF-01",
+  "eqname": "Ladle Furnace #1",
+  "typ": "ladle_furnace",
+  "mode": "heat_dissipation_failure",
+  "rca": "RCA1015",
+  "tech": "Suresh Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1033",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 302.5,
+   "process_temperature_k": 311.6,
+   "rotational_speed_rpm": 1917,
+   "torque_nm": 65.5,
+   "tool_wear_min": 108,
+   "source_failure_flag": "HDF"
+  },
+  "timestamp": "2026-05-14 19:40:09"
+ },
+ {
+  "fid": "F1109",
+  "eqid": "EQ-CCM-01",
+  "eqname": "Continuous Casting Machine #1",
+  "typ": "continuous_casting_machine",
+  "mode": "overstrain_failure",
+  "rca": "RCA1109",
+  "tech": "Naveen Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1060",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 303.2,
+   "process_temperature_k": 311.7,
+   "rotational_speed_rpm": 1186,
+   "torque_nm": 12.5,
+   "tool_wear_min": 8,
+   "source_failure_flag": "OSF"
+  },
+  "timestamp": "2026-06-02 04:57:04"
+ },
+ {
+  "fid": "F1030",
+  "eqid": "EQ-RHF-01",
+  "eqname": "Reheating Furnace #1",
+  "typ": "reheating_furnace",
+  "mode": "heat_dissipation_failure",
+  "rca": "RCA1030",
+  "tech": "Naveen Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1061",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 301.7,
+   "process_temperature_k": 312.9,
+   "rotational_speed_rpm": 2447,
+   "torque_nm": 41.8,
+   "tool_wear_min": 188,
+   "source_failure_flag": "HDF"
+  },
+  "timestamp": "2026-05-27 07:41:12"
+ },
+ {
+  "fid": "F1009",
+  "eqid": "EQ-RMS-02",
+  "eqname": "Roughing Mill Stand R2",
+  "typ": "roughing_mill_stand",
+  "mode": "tool_wear_failure",
+  "rca": "RCA1009",
+  "tech": "Ravi Singh",
+  "techrole": "equipment_engineer",
+  "manual": null,
+  "rcarep": null,
+  "coil_chain": {
+   "coil": "C10003",
+   "grade": "IS1786-Fe500",
+   "qt": "QT10333",
+   "std": "STD-IS1786-01",
+   "dev": "DEV1168"
+  },
+  "sensor": {
+   "air_temperature_k": 301.6,
+   "process_temperature_k": 312.5,
+   "rotational_speed_rpm": 1247,
+   "torque_nm": 9.2,
+   "tool_wear_min": 4,
+   "source_failure_flag": "TWF"
+  },
+  "timestamp": "2026-04-07 02:34:55"
+ },
+ {
+  "fid": "F1045",
+  "eqid": "EQ-FMS-01",
+  "eqname": "Finishing Mill Stand F1",
+  "typ": "finishing_mill_stand",
+  "mode": "overstrain_failure",
+  "rca": "RCA1045",
+  "tech": "Naveen Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1063",
+  "rcarep": null,
+  "coil_chain": {
+   "coil": "C10017",
+   "grade": "IS1786-Fe500",
+   "qt": "QT10806",
+   "std": "STD-IS1786-04",
+   "dev": "DEV1381"
+  },
+  "sensor": {
+   "air_temperature_k": 296.1,
+   "process_temperature_k": 305.1,
+   "rotational_speed_rpm": 1833,
+   "torque_nm": 42.4,
+   "tool_wear_min": 184,
+   "source_failure_flag": "OSF"
+  },
+  "timestamp": "2026-01-09 08:42:10"
+ },
+ {
+  "fid": "F1041",
+  "eqid": "EQ-COL-02",
+  "eqname": "Downcoiler #2",
+  "typ": "coiler_unit",
+  "mode": "power_failure",
+  "rca": "RCA1041",
+  "tech": "Ravi Singh",
+  "techrole": "equipment_engineer",
+  "manual": null,
+  "rcarep": "DOC1048",
+  "coil_chain": {
+   "coil": "C10018",
+   "grade": "IS2062-E250",
+   "qt": "QT10353",
+   "std": "STD-ASTMA370-03",
+   "dev": "DEV1228"
+  },
+  "sensor": {
+   "air_temperature_k": 299.4,
+   "process_temperature_k": 308.2,
+   "rotational_speed_rpm": 1902,
+   "torque_nm": 75.0,
+   "tool_wear_min": 215,
+   "source_failure_flag": "PWF"
+  },
+  "timestamp": "2026-01-03 19:39:00"
+ },
+ {
+  "fid": "F1010",
+  "eqid": "EQ-ROT-01",
+  "eqname": "Runout Table Cooling System #1",
+  "typ": "runout_table",
+  "mode": "heat_dissipation_failure",
+  "rca": "RCA1010",
+  "tech": "Sunita Rao",
+  "techrole": "maintenance_technician",
+  "manual": "DOC1065",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 301.7,
+   "process_temperature_k": 310.9,
+   "rotational_speed_rpm": 1880,
+   "torque_nm": 9.5,
+   "tool_wear_min": 219,
+   "source_failure_flag": "HDF"
+  },
+  "timestamp": "2026-04-10 00:06:43"
+ },
+ {
+  "fid": "F1008",
+  "eqid": "EQ-CR-01",
+  "eqname": "Overhead Crane (Rolling Mill Bay) #1",
+  "typ": "overhead_crane",
+  "mode": "overstrain_failure",
+  "rca": "RCA1008",
+  "tech": "Suresh Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1066",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 297.4,
+   "process_temperature_k": 306.3,
+   "rotational_speed_rpm": 1544,
+   "torque_nm": 24.2,
+   "tool_wear_min": 104,
+   "source_failure_flag": "OSF"
+  },
+  "timestamp": "2025-11-10 00:03:17"
+ },
+ {
+  "fid": "F1057",
+  "eqid": "EQ-CNV-02",
+  "eqname": "Raw Material Conveyor #2",
+  "typ": "conveyor_system",
+  "mode": "tool_wear_failure",
+  "rca": "RCA1057",
+  "tech": "Naveen Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": null,
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 302.3,
+   "process_temperature_k": 312.8,
+   "rotational_speed_rpm": 2650,
+   "torque_nm": 25.1,
+   "tool_wear_min": 20,
+   "source_failure_flag": "TWF"
+  },
+  "timestamp": "2026-06-07 03:15:18"
+ },
+ {
+  "fid": "F1038",
+  "eqid": "EQ-RMS-02",
+  "eqname": "Roughing Mill Stand R2",
+  "typ": "roughing_mill_stand",
+  "mode": "power_failure",
+  "rca": "RCA1038",
+  "tech": "Ravi Singh",
+  "techrole": "equipment_engineer",
+  "manual": null,
+  "rcarep": null,
+  "coil_chain": {
+   "coil": "C10003",
+   "grade": "IS1786-Fe500",
+   "qt": "QT10333",
+   "std": "STD-IS1786-01",
+   "dev": "DEV1168"
+  },
+  "sensor": {
+   "air_temperature_k": 298.9,
+   "process_temperature_k": 308.8,
+   "rotational_speed_rpm": 2033,
+   "torque_nm": 51.3,
+   "tool_wear_min": 233,
+   "source_failure_flag": "PWF"
+  },
+  "timestamp": "2026-01-26 18:06:35"
+ },
+ {
+  "fid": "F1035",
+  "eqid": "EQ-FMS-01",
+  "eqname": "Finishing Mill Stand F1",
+  "typ": "finishing_mill_stand",
+  "mode": "tool_wear_failure",
+  "rca": "RCA1035",
+  "tech": "Naveen Pillai",
+  "techrole": "maintenance_technician",
+  "manual": "DOC1063",
+  "rcarep": null,
+  "coil_chain": {
+   "coil": "C10017",
+   "grade": "IS1786-Fe500",
+   "qt": "QT10806",
+   "std": "STD-IS1786-04",
+   "dev": "DEV1381"
+  },
+  "sensor": {
+   "air_temperature_k": 301.9,
+   "process_temperature_k": 312.0,
+   "rotational_speed_rpm": 2507,
+   "torque_nm": 71.0,
+   "tool_wear_min": 129,
+   "source_failure_flag": "TWF"
+  },
+  "timestamp": "2025-10-02 09:26:42"
+ },
+ {
+  "fid": "F1017",
+  "eqid": "EQ-EAF-01",
+  "eqname": "Electric Arc Furnace #1",
+  "typ": "electric_arc_furnace",
+  "mode": "heat_dissipation_failure",
+  "rca": "RCA1017",
+  "tech": "Shalini Naidu",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1016",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 297.4,
+   "process_temperature_k": 307.9,
+   "rotational_speed_rpm": 2738,
+   "torque_nm": 37.9,
+   "tool_wear_min": 123,
+   "source_failure_flag": "HDF"
+  },
+  "timestamp": "2026-01-15 04:21:36"
+ },
+ {
+  "fid": "F1004",
+  "eqid": "EQ-LF-02",
+  "eqname": "Ladle Furnace #2",
+  "typ": "ladle_furnace",
+  "mode": "power_failure",
+  "rca": "RCA1004",
+  "tech": "Suresh Malhotra",
+  "techrole": "equipment_engineer",
+  "manual": null,
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 300.8,
+   "process_temperature_k": 311.9,
+   "rotational_speed_rpm": 1658,
+   "torque_nm": 62.4,
+   "tool_wear_min": 125,
+   "source_failure_flag": "PWF"
+  },
+  "timestamp": "2025-12-24 20:47:28"
+ },
+ {
+  "fid": "F1016",
+  "eqid": "EQ-CR-01",
+  "eqname": "Overhead Crane (Rolling Mill Bay) #1",
+  "typ": "overhead_crane",
+  "mode": "power_failure",
+  "rca": "RCA1016",
+  "tech": "Ravi Singh",
+  "techrole": "equipment_engineer",
+  "manual": "DOC1066",
+  "rcarep": null,
+  "coil_chain": null,
+  "sensor": {
+   "air_temperature_k": 303.0,
+   "process_temperature_k": 312.2,
+   "rotational_speed_rpm": 1226,
+   "torque_nm": 74.8,
+   "tool_wear_min": 67,
+   "source_failure_flag": "PWF"
+  },
+  "timestamp": "2025-09-09 00:22:18"
+ }
+]

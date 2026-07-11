@@ -1,0 +1,530 @@
+[
+  {
+    "equipment_id": "EQ-BF-01",
+    "name": "Blast Furnace #1",
+    "type": "blast_furnace",
+    "installed_date": "2014-05-07",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Ironmaking",
+    "real_data_link": null,
+    "key_specifications": {
+      "useful_volume_m3": 1800,
+      "hot_metal_production_tpd": 3500,
+      "hearth_diameter_m": 9.5,
+      "hot_metal_temp_C": 1500,
+      "top_gas_pressure_bar": 2.0
+    },
+    "typical_failure_modes": [
+      "hearth refractory erosion",
+      "tuyere burn-through",
+      "cooling stave leakage",
+      "burden hanging / scaffolding",
+      "CO gas leakage"
+    ],
+    "maintenance_interval": "6-monthly"
+  },
+  {
+    "equipment_id": "EQ-HBS-01",
+    "name": "Hot Blast Stove A",
+    "type": "hot_blast_stove",
+    "installed_date": "2020-04-08",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Ironmaking",
+    "real_data_link": null,
+    "key_specifications": {
+      "hot_blast_temp_C": 1200,
+      "max_dome_temp_C": 1400,
+      "operating_cycle": "on-gas / on-blast",
+      "heating_medium": "BF gas + coke oven gas",
+      "stoves_per_furnace": 3
+    },
+    "typical_failure_modes": [
+      "checker brick / refractory deterioration",
+      "dome cracking",
+      "burner malfunction",
+      "hot blast valve leakage",
+      "shell hot spot"
+    ],
+    "maintenance_interval": "annual"
+  },
+  {
+    "equipment_id": "EQ-HBS-02",
+    "name": "Hot Blast Stove B",
+    "type": "hot_blast_stove",
+    "installed_date": "2021-03-28",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Ironmaking",
+    "real_data_link": null,
+    "key_specifications": {
+      "hot_blast_temp_C": 1200,
+      "max_dome_temp_C": 1400,
+      "operating_cycle": "on-gas / on-blast",
+      "heating_medium": "BF gas + coke oven gas",
+      "stoves_per_furnace": 3
+    },
+    "typical_failure_modes": [
+      "checker brick / refractory deterioration",
+      "dome cracking",
+      "burner malfunction",
+      "hot blast valve leakage",
+      "shell hot spot"
+    ],
+    "maintenance_interval": "annual"
+  },
+  {
+    "equipment_id": "EQ-SPF-01",
+    "name": "Sinter Plant Weigh-Belt Feeder #1",
+    "type": "sinter_plant_feeder",
+    "installed_date": "2013-03-15",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Sinter Plant",
+    "real_data_link": null,
+    "key_specifications": {
+      "feed_capacity_tph": 400,
+      "feeder_type": "weigh belt feeder",
+      "material": "iron ore fines, coke breeze, flux",
+      "belt_width_mm": 1200
+    },
+    "typical_failure_modes": [
+      "belt mistracking",
+      "weigh load-cell drift",
+      "chute blockage",
+      "idler / roller seizure",
+      "feeder drive failure"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-EAF-01",
+    "name": "Electric Arc Furnace #1",
+    "type": "electric_arc_furnace",
+    "installed_date": "2018-06-08",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Melt Shop",
+    "real_data_link": null,
+    "key_specifications": {
+      "transformer_MVA": 75,
+      "tap_to_tap_min": 55,
+      "heat_size_t": 130,
+      "electrode_dia_mm": 610,
+      "electrode_consumption_kg_per_t": 1.8
+    },
+    "typical_failure_modes": [
+      "electrode breakage",
+      "water-cooled panel leak",
+      "refractory hot spot",
+      "transformer / electrical fault",
+      "tilting hydraulic failure"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-EAF-02",
+    "name": "Electric Arc Furnace #2",
+    "type": "electric_arc_furnace",
+    "installed_date": "2018-10-09",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Melt Shop",
+    "real_data_link": null,
+    "key_specifications": {
+      "transformer_MVA": 75,
+      "tap_to_tap_min": 55,
+      "heat_size_t": 130,
+      "electrode_dia_mm": 610,
+      "electrode_consumption_kg_per_t": 1.8
+    },
+    "typical_failure_modes": [
+      "electrode breakage",
+      "water-cooled panel leak",
+      "refractory hot spot",
+      "transformer / electrical fault",
+      "tilting hydraulic failure"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-LF-01",
+    "name": "Ladle Furnace #1",
+    "type": "ladle_furnace",
+    "installed_date": "2019-01-06",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Melt Shop",
+    "real_data_link": null,
+    "key_specifications": {
+      "transformer_MVA": 18,
+      "heating_rate_C_per_min": 4,
+      "treatment_size_t": 130,
+      "argon_stirring": "bottom porous plug",
+      "electrode_dia_mm": 400
+    },
+    "typical_failure_modes": [
+      "electrode failure",
+      "refractory wear",
+      "transformer overheating",
+      "porous plug / argon line blockage",
+      "roof water-panel leak"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-LF-02",
+    "name": "Ladle Furnace #2",
+    "type": "ladle_furnace",
+    "installed_date": "2019-12-15",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Melt Shop",
+    "real_data_link": null,
+    "key_specifications": {
+      "transformer_MVA": 18,
+      "heating_rate_C_per_min": 4,
+      "treatment_size_t": 130,
+      "argon_stirring": "bottom porous plug",
+      "electrode_dia_mm": 400
+    },
+    "typical_failure_modes": [
+      "electrode failure",
+      "refractory wear",
+      "transformer overheating",
+      "porous plug / argon line blockage",
+      "roof water-panel leak"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-CCM-01",
+    "name": "Continuous Casting Machine #1",
+    "type": "continuous_casting_machine",
+    "installed_date": "2013-04-05",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Melt Shop",
+    "real_data_link": null,
+    "key_specifications": {
+      "machine_type": "billet caster",
+      "strands": 4,
+      "casting_speed_m_per_min": 3.5,
+      "section_mm": "150x150",
+      "metallurgical_length_m": 18
+    },
+    "typical_failure_modes": [
+      "breakout (sticker / mould)",
+      "mould level control fault",
+      "segment / roll wear",
+      "SEN nozzle clogging",
+      "mould oscillation drive fault"
+    ],
+    "maintenance_interval": "quarterly"
+  },
+  {
+    "equipment_id": "EQ-RHF-01",
+    "name": "Reheating Furnace #1",
+    "type": "reheating_furnace",
+    "installed_date": "2020-05-15",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Reheating Bay",
+    "real_data_link": null,
+    "key_specifications": {
+      "capacity_tph": 150,
+      "furnace_type": "walking beam",
+      "fuel": "mixed BF/coke oven gas",
+      "discharge_temp_C": 1200,
+      "max_temp_C": 1250
+    },
+    "typical_failure_modes": [
+      "refractory wear",
+      "burner malfunction",
+      "thermocouple failure",
+      "skid pipe / skid button wear",
+      "walking beam drive fault"
+    ],
+    "maintenance_interval": "quarterly"
+  },
+  {
+    "equipment_id": "EQ-RHF-02",
+    "name": "Reheating Furnace #2",
+    "type": "reheating_furnace",
+    "installed_date": "2013-12-06",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Reheating Bay",
+    "real_data_link": null,
+    "key_specifications": {
+      "capacity_tph": 150,
+      "furnace_type": "walking beam",
+      "fuel": "mixed BF/coke oven gas",
+      "discharge_temp_C": 1200,
+      "max_temp_C": 1250
+    },
+    "typical_failure_modes": [
+      "refractory wear",
+      "burner malfunction",
+      "thermocouple failure",
+      "skid pipe / skid button wear",
+      "walking beam drive fault"
+    ],
+    "maintenance_interval": "quarterly"
+  },
+  {
+    "equipment_id": "EQ-RMS-01",
+    "name": "Roughing Mill Stand R1",
+    "type": "roughing_mill_stand",
+    "installed_date": "2013-03-19",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "stand_type": "4-high reversing",
+      "entry_thickness_mm": 230,
+      "exit_thickness_mm": 35,
+      "rolling_force_MN": 32,
+      "passes": 5
+    },
+    "typical_failure_modes": [
+      "work-roll wear / spalling",
+      "roll bearing (Morgoil) failure",
+      "main drive / motor fault",
+      "screwdown hydraulic fault",
+      "entry guide wear"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-RMS-02",
+    "name": "Roughing Mill Stand R2",
+    "type": "roughing_mill_stand",
+    "installed_date": "2015-05-28",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "stand_type": "4-high reversing",
+      "entry_thickness_mm": 230,
+      "exit_thickness_mm": 35,
+      "rolling_force_MN": 32,
+      "passes": 5
+    },
+    "typical_failure_modes": [
+      "work-roll wear / spalling",
+      "roll bearing (Morgoil) failure",
+      "main drive / motor fault",
+      "screwdown hydraulic fault",
+      "entry guide wear"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-FMS-01",
+    "name": "Finishing Mill Stand F1",
+    "type": "finishing_mill_stand",
+    "installed_date": "2020-07-17",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "configuration": "6-stand tandem",
+      "exit_thickness_mm": 2.5,
+      "exit_speed_m_per_s": 12,
+      "rolling_force_MN": 25,
+      "work_roll_dia_mm": 700
+    },
+    "typical_failure_modes": [
+      "work-roll thermal cracking",
+      "roll bearing failure",
+      "looper / AGC control fault",
+      "strip cobble",
+      "drive / gearbox fault"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-FMS-02",
+    "name": "Finishing Mill Stand F2",
+    "type": "finishing_mill_stand",
+    "installed_date": "2014-11-24",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "configuration": "6-stand tandem",
+      "exit_thickness_mm": 2.5,
+      "exit_speed_m_per_s": 12,
+      "rolling_force_MN": 25,
+      "work_roll_dia_mm": 700
+    },
+    "typical_failure_modes": [
+      "work-roll thermal cracking",
+      "roll bearing failure",
+      "looper / AGC control fault",
+      "strip cobble",
+      "drive / gearbox fault"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-COL-01",
+    "name": "Downcoiler #1",
+    "type": "coiler_unit",
+    "installed_date": "2016-10-14",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "coiler_type": "downcoiler",
+      "coil_weight_capacity_t": 32,
+      "wrapping_tension_kN": "2-14",
+      "mandrel_dia_mm": 762,
+      "strip_entry_temp_C": 600
+    },
+    "typical_failure_modes": [
+      "wrapper arm misalignment",
+      "mandrel wear",
+      "tension control fault",
+      "pinch roll wear",
+      "coil telescoping / cobble"
+    ],
+    "maintenance_interval": "quarterly"
+  },
+  {
+    "equipment_id": "EQ-COL-02",
+    "name": "Downcoiler #2",
+    "type": "coiler_unit",
+    "installed_date": "2021-02-28",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "coiler_type": "downcoiler",
+      "coil_weight_capacity_t": 32,
+      "wrapping_tension_kN": "2-14",
+      "mandrel_dia_mm": 762,
+      "strip_entry_temp_C": 600
+    },
+    "typical_failure_modes": [
+      "wrapper arm misalignment",
+      "mandrel wear",
+      "tension control fault",
+      "pinch roll wear",
+      "coil telescoping / cobble"
+    ],
+    "maintenance_interval": "quarterly"
+  },
+  {
+    "equipment_id": "EQ-ROT-01",
+    "name": "Runout Table Cooling System #1",
+    "type": "runout_table",
+    "installed_date": "2021-03-08",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill",
+    "real_data_link": null,
+    "key_specifications": {
+      "cooling_type": "laminar + ultra-fast cooling",
+      "table_length_m": 120,
+      "header_banks": 20,
+      "finishing_delivery_temp_C": 880,
+      "coiling_temp_C": 600
+    },
+    "typical_failure_modes": [
+      "roller bearing seizure",
+      "header nozzle clogging",
+      "cooling water valve fault",
+      "roller drive motor fault",
+      "scale build-up"
+    ],
+    "maintenance_interval": "quarterly"
+  },
+  {
+    "equipment_id": "EQ-CR-01",
+    "name": "Overhead Crane (Rolling Mill Bay) #1",
+    "type": "overhead_crane",
+    "installed_date": "2020-06-20",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill Bay",
+    "real_data_link": null,
+    "key_specifications": {
+      "crane_type": "double girder EOT",
+      "SWL_t": 100,
+      "span_m": 28,
+      "hoist_speed_m_per_min": 5,
+      "duty_class": "M8 (heavy)"
+    },
+    "typical_failure_modes": [
+      "wire rope wear / breakage",
+      "brake failure",
+      "hoist gearbox fault",
+      "wheel / rail wear",
+      "overload / limit switch fault"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-CR-02",
+    "name": "Overhead Crane (Rolling Mill Bay) #2",
+    "type": "overhead_crane",
+    "installed_date": "2019-01-25",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill Bay",
+    "real_data_link": null,
+    "key_specifications": {
+      "crane_type": "double girder EOT",
+      "SWL_t": 100,
+      "span_m": 28,
+      "hoist_speed_m_per_min": 5,
+      "duty_class": "M8 (heavy)"
+    },
+    "typical_failure_modes": [
+      "wire rope wear / breakage",
+      "brake failure",
+      "hoist gearbox fault",
+      "wheel / rail wear",
+      "overload / limit switch fault"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-CR-03",
+    "name": "Overhead Crane (Rolling Mill Bay) #3",
+    "type": "overhead_crane",
+    "installed_date": "2018-11-29",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Rolling Mill Bay",
+    "real_data_link": null,
+    "key_specifications": {
+      "crane_type": "double girder EOT",
+      "SWL_t": 100,
+      "span_m": 28,
+      "hoist_speed_m_per_min": 5,
+      "duty_class": "M8 (heavy)"
+    },
+    "typical_failure_modes": [
+      "wire rope wear / breakage",
+      "brake failure",
+      "hoist gearbox fault",
+      "wheel / rail wear",
+      "overload / limit switch fault"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-CNV-01",
+    "name": "Raw Material Conveyor #1",
+    "type": "conveyor_system",
+    "installed_date": "2015-11-08",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Raw Material Yard",
+    "real_data_link": null,
+    "key_specifications": {
+      "conveyor_type": "belt conveyor",
+      "capacity_tph": 800,
+      "belt_width_mm": 1400,
+      "belt_speed_m_per_s": 2.5,
+      "material": "iron ore / coke / flux"
+    },
+    "typical_failure_modes": [
+      "belt mistracking",
+      "belt tear / wear",
+      "idler / roller seizure",
+      "drive motor failure",
+      "material carryback / spillage"
+    ],
+    "maintenance_interval": "monthly"
+  },
+  {
+    "equipment_id": "EQ-CNV-02",
+    "name": "Raw Material Conveyor #2",
+    "type": "conveyor_system",
+    "installed_date": "2014-10-08",
+    "location": "Rajendra Steel Plant, Mumbai Unit - Raw Material Yard",
+    "real_data_link": null,
+    "key_specifications": {
+      "conveyor_type": "belt conveyor",
+      "capacity_tph": 800,
+      "belt_width_mm": 1400,
+      "belt_speed_m_per_s": 2.5,
+      "material": "iron ore / coke / flux"
+    },
+    "typical_failure_modes": [
+      "belt mistracking",
+      "belt tear / wear",
+      "idler / roller seizure",
+      "drive motor failure",
+      "material carryback / spillage"
+    ],
+    "maintenance_interval": "monthly"
+  }
+]

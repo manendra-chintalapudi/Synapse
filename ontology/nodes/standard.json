@@ -1,0 +1,93 @@
+[
+  {
+    "standard_id": "STD-IS1786-01",
+    "name": "BIS IS:1786 -- Reinforcement Bars (Scope & Grades)",
+    "clause_text": "Covers cold-worked / thermo-mechanically treated (TMT) high-strength deformed steel bars and wires for concrete reinforcement, spanning grades Fe415, Fe415D, Fe500, Fe500D, Fe550, Fe550D and Fe600 (illustrative grade set per is_1786.md; confirm exact list against the current amendment). Governed by BIS Concrete Reinforcement Sectional Committee CED 54."
+  },
+  {
+    "standard_id": "STD-IS1786-02",
+    "name": "BIS IS:1786 -- Reinforcement Bars (Chemical Composition)",
+    "clause_text": "Sets maximum ladle-analysis limits on carbon, sulphur, phosphorus and combined S+P, with tighter limits for ductile 'D' grades to ensure weldability and ductility (illustrative: C ~0.25-0.30% max, S+P ~0.045-0.055% max depending on grade)."
+  },
+  {
+    "standard_id": "STD-IS1786-03",
+    "name": "BIS IS:1786 -- Reinforcement Bars (Tensile Properties)",
+    "clause_text": "Prescribes minimum 0.2% proof stress, minimum UTS, minimum UTS/YS ratio and minimum elongation per grade (illustrative: yield ~415-550 MPa, elongation ~12-18%)."
+  },
+  {
+    "standard_id": "STD-IS1786-04",
+    "name": "BIS IS:1786 -- Reinforcement Bars (Bend & Rebend Test)",
+    "clause_text": "Requires bars to withstand bending around a specified mandrel (a multiple of bar diameter) without fracture, plus a rebend test after simulated ageing to check resistance to embrittlement (illustrative mandrel multiples)."
+  },
+  {
+    "standard_id": "STD-IS1786-05",
+    "name": "BIS IS:1786 -- Reinforcement Bars (Rib Geometry & Tolerances)",
+    "clause_text": "Specifies rib height, spacing and angle for adequate bond with concrete, plus permissible tolerances on nominal diameter and mass per metre (illustrative dimensional tolerances)."
+  },
+  {
+    "standard_id": "STD-IS2062-01",
+    "name": "BIS IS:2062 -- Hot Rolled Structural Steel (Scope & Grades)",
+    "clause_text": "Covers hot-rolled medium and high tensile structural steel supplied as plates, strips, sections, flats and bars for general structural use, spanning grades E250, E300, E350, E410, E450 and E550 (each offered in sub-qualities differing in weldability and impact toughness). Supersedes the withdrawn IS:226. Current edition IS 2062:2011 (illustrative grade set per is_2062.md)."
+  },
+  {
+    "standard_id": "STD-IS2062-02",
+    "name": "BIS IS:2062 -- Hot Rolled Structural Steel (Chemical Composition)",
+    "clause_text": "Sets maximum ladle-analysis limits on carbon, manganese, sulphur, phosphorus and carbon equivalent by grade and sub-quality to ensure weldability (illustrative; exact limits are in the licensed BIS standard)."
+  },
+  {
+    "standard_id": "STD-IS2062-03",
+    "name": "BIS IS:2062 -- Hot Rolled Structural Steel (Tensile Properties)",
+    "clause_text": "Prescribes minimum yield stress (varying by grade and thickness range), tensile strength and minimum elongation (illustrative: yield levels broadly indicated by grade across E250-E550)."
+  },
+  {
+    "standard_id": "STD-IS2062-04",
+    "name": "BIS IS:2062 -- Hot Rolled Structural Steel (Bend Test)",
+    "clause_text": "Requires test pieces to withstand cold bending around a specified mandrel without cracking on the tension surface, as a ductility check (illustrative mandrel multiples)."
+  },
+  {
+    "standard_id": "STD-IS226-01",
+    "name": "BIS IS:226 -- Structural Steel (WITHDRAWN -- superseded by IS 2062)",
+    "clause_text": "Historical Indian specification for standard-quality structural steel (last edition IS 226:1975, ~Fe 410-S; broadly equivalent to IS 2062 Grade E250). Officially withdrawn and superseded by IS 2062 (supersession ~2006; current edition IS 2062:2011). Retained only as a historical reference for legacy drawings, existing structures and archived mill certificates -- use IS 2062 for all new work. See data/unstructured/standards/is_2062.md.",
+    "superseded_by": "STD-IS2062-01"
+  },
+  {
+    "standard_id": "STD-ASTMA370-01",
+    "name": "ASTM A370 -- Mechanical Testing of Steel Products (Scope)",
+    "clause_text": "Defines standard test methods and terminology for mechanical testing of steel products -- tension, bend, hardness and impact -- and how results are reported and rounded."
+  },
+  {
+    "standard_id": "STD-ASTMA370-02",
+    "name": "ASTM A370 -- Mechanical Testing of Steel Products (Tension Test)",
+    "clause_text": "Describes specimen geometry, gauge length, strain measurement and test speed for the tension test used to determine yield strength, tensile strength, elongation and reduction of area."
+  },
+  {
+    "standard_id": "STD-ASTMA370-03",
+    "name": "ASTM A370 -- Mechanical Testing of Steel Products (Bend Test)",
+    "clause_text": "Covers guided bend-test procedure and acceptance criteria for ductility assessment, including mandrel diameter selection relative to specimen thickness and surface-cracking criteria."
+  },
+  {
+    "standard_id": "STD-ASTMA370-04",
+    "name": "ASTM A370 -- Mechanical Testing of Steel Products (Hardness)",
+    "clause_text": "Specifies Brinell and Rockwell hardness procedures, indenter and load selection, and approximate conversion between hardness scales and tensile strength."
+  },
+  {
+    "standard_id": "STD-ASTMA370-05",
+    "name": "ASTM A370 -- Mechanical Testing of Steel Products (Charpy Impact)",
+    "clause_text": "Describes the Charpy V-notch impact test, specimen orientation and notch preparation, and use of absorbed energy / lateral expansion to assess notch toughness at specified temperatures."
+  },
+  {
+    "standard_id": "STD-FACT1948-01",
+    "name": "The Factories Act, 1948 (India) -- Scope & Applicability",
+    "clause_text": "Statutory framework for occupational health, safety, welfare and working conditions in factories; applies to power-using manufacturing premises at/above a defined workforce size (and non-power premises above a higher size). Full text is public domain. See data/unstructured/standards/factory_act_1948.md (illustrative; exact thresholds are set in the Act and State Factory Rules)."
+  },
+  {
+    "standard_id": "STD-FACT1948-02",
+    "name": "The Factories Act, 1948 (India) -- Hazardous Processes (Integrated Iron & Steel)",
+    "clause_text": "Special provisions for 'hazardous processes'; the First Schedule explicitly names ferrous metallurgical industries -- integrated iron & steel, ferro-alloys and special steels -- placing steel-plant operations within the Act's most stringent duties (hazard disclosure, worker safety participation, medical surveillance, emergency planning)."
+  },
+  {
+    "standard_id": "STD-FACT1948-03",
+    "name": "The Factories Act, 1948 (India) -- Safety Provisions & Safety Officer",
+    "clause_text": "Safety provisions covering guarding of machinery, pressure plant, hoists/lifts, fire precautions and the appointment of qualified Safety Officers in larger and hazardous-process factories; the statutory safety baseline for a steel plant (used in place of petroleum-sector OISD standards)."
+  }
+]

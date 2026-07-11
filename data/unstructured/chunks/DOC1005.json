@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1005",
+    "chunk_id": "DOC1005_chunk_0",
+    "chunk_index": 0,
+    "text": "# Inspection Report \u2014 DOC1005\n**Document type:** Inspection Report\n**Subject:** coil C10320 / EQ-BF-03\n**Related deviation:** DEV1022  |  **Severity:** MEDIUM\n**Equipment:** EQ-BF-03 \u2014 Blast Furnace Line 3 (Blast Furnace)\n\n## 1. Scope of Inspection\nThis report documents a targeted inspection of coil C10320 (grade IS1786-Fe500D, 7.7 mm \u00d7 1653.7 mm, heat H2026-0158) and its production equipment EQ-BF-03 (Blast Furnace Line 3). The inspection was triggered by deviation DEV1022 and aimed to\nconfirm the reported condition, assess its extent, and recommend disposition. It was carried out at\nPune Unit - Bay 2 using visual examination and standard measurement practice.\n\n## 2. Method\nThe inspection combined visual surface examination, dimensional checks where applicable, and a review of the associated\nprocess and maintenance records for EQ-BF-03. Findings were compared against the applicable acceptance\ncriteria for the product grade and the equipment's normal operating condition.\n\n## 3. Findings\nCoating irregularity detected on coil surface during inspection. The condition was verified to be consistent with the raised deviation. The affected region was\ncharacterised and photographed for the record. Surrounding material/equipment was checked for similar indications to\ndetermine whether the issue is isolated or systematic. No additional unrelated defects were noted beyond those\ndescribed here.",
+    "char_count": 1405,
+    "metadata": {
+      "doc_type": "inspection_report",
+      "related_entity_id": "DEV1022",
+      "source_file_path": "data/unstructured/documents/DOC1005.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1005",
+    "chunk_id": "DOC1005_chunk_1",
+    "chunk_index": 1,
+    "text": "## 4. Assessment\nBased on the findings, the condition is classified as **MEDIUM** severity, consistent with the\noriginating deviation. The likely origin is process variation on EQ-BF-03\n(Blast Furnace Line 3); this is referred for root cause analysis where severity or recurrence warrants.\n\n## 5. Recommended Actions\n- Apply the disposition defined in deviation DEV1022 (re-inspection, rework/re-grade or hold as appropriate).\n- Reinforce monitoring on EQ-BF-03 and review the relevant operating procedure.\n- Verify effectiveness at the next production run and close the deviation once confirmed.\n\n## 6. Sign-off\nInspected by: Karthik Iyer (Quality Inspector, Shift B)\nCertification: Welding Inspector (CWI)\nStatus: Findings issued \u2014 actions tracked against deviation DEV1022.",
+    "char_count": 776,
+    "metadata": {
+      "doc_type": "inspection_report",
+      "related_entity_id": "DEV1022",
+      "source_file_path": "data/unstructured/documents/DOC1005.md"
+    }
+  }
+]

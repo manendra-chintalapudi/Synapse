@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1044",
+    "chunk_id": "DOC1044_chunk_0",
+    "chunk_index": 0,
+    "text": "# Standard Operating Procedure \u2014 DOC1044\n**Title:** Hot Rolling Mill Shutdown Procedure\n**Procedure ID:** PROC-024  |  **Applies to:** EQ-HRM-03 \u2014 Hot Rolling Mill Line 3 (Hot Rolling Mill)\n**Location:** Raigarh Unit - Rolling Zone\n\n## 1. Purpose\nThis procedure defines the standard method for the task titled \"Hot Rolling Mill Shutdown Procedure\" on the hot rolling mill. It exists\nto ensure the activity is carried out safely, consistently and in a way that protects personnel, equipment and product\nquality, and to provide a training and audit reference for operators and maintenance staff.\n\n## 2. Scope\nThis SOP applies to all operators, maintenance technicians and supervisors who operate or work on EQ-HRM-03\n(Hot Rolling Mill Line 3) at Raigarh Unit - Rolling Zone. It covers the normal execution of the task and the\nassociated safety controls. It does not replace equipment-specific manufacturer instructions or statutory requirements.\n\n## 3. Responsibilities\nThe shift supervisor authorises the activity and confirms isolation where required. The assigned technician executes the\nsteps and records completion. The equipment engineer maintains this procedure and reviews it after any related incident.\n\n## 4. Prerequisites & PPE\nConfirm the correct permit-to-work is in place, required isolations are applied, and standard PPE plus any\ntask-specific protection (as noted below) is worn. Ensure tools, spares and measuring equipment are available and\ncalibrated before starting.",
+    "char_count": 1485,
+    "metadata": {
+      "doc_type": "sop",
+      "related_entity_id": "PROC-024",
+      "source_file_path": "data/unstructured/documents/DOC1044.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1044",
+    "chunk_id": "DOC1044_chunk_1",
+    "chunk_index": 1,
+    "text": "## 5. Procedure Steps\n1. Reduce load on the hot rolling mill gradually and stop feeding new material into the line.\n2. Allow residual stock to clear before de-energising the main drive.\n3. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero.\n4. Record final temperatures and any anomalies in the shift log.\n\n## 6. Safety Notes\n- High-temperature strip and rolls - keep clear of the roll gap and pinch points.\n- Stored hydraulic energy - isolate and bleed to zero before intervention.\n- Rotating spindles and couplings - guards must be in place before start.\n- Stop work and escalate to the shift supervisor if any parameter falls outside the normal operating band\n  (reference: Rolling temperature: 1050-1250 degC, Mill stand separating force: up to ~30 MN).\n\n## 7. References\n- Related equipment manual for EQ-HRM-03.\n- Applicable BIS / ASTM quality standards and The Factories Act, 1948 safety provisions.\n- Plant CMMS maintenance schedule for the hot rolling mill.\n\n## 8. Approval\nAuthor: Suresh Malhotra (Equipment Engineer)\nApproved by: Rajesh Naidu (Shift Supervisor, Shift B)\nRevision: 1.0 \u2014 controlled document, review annually or after any related incident.",
+    "char_count": 1206,
+    "metadata": {
+      "doc_type": "sop",
+      "related_entity_id": "PROC-024",
+      "source_file_path": "data/unstructured/documents/DOC1044.md"
+    }
+  }
+]

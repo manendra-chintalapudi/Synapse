@@ -1,0 +1,212 @@
+[
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1001"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1004"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1033"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1016"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1038"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1017"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1034"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1038"
+    },
+    "properties": {
+      "version_number": 3
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1019"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1002"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1047"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1032"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1036"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1047"
+    },
+    "properties": {
+      "version_number": 3
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1030"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1048"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1055"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1030"
+    },
+    "properties": {
+      "version_number": 3
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1003"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1052"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1010"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1022"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1021"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1010"
+    },
+    "properties": {
+      "version_number": 3
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1037"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1045"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1043"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1029"
+    },
+    "properties": {
+      "version_number": 2
+    }
+  },
+  {
+    "type": "VERSION_OF",
+    "from": {
+      "label": "Document",
+      "key": "DOC1023"
+    },
+    "to": {
+      "label": "Document",
+      "key": "DOC1043"
+    },
+    "properties": {
+      "version_number": 3
+    }
+  }
+]

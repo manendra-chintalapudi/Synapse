@@ -1,0 +1,2402 @@
+[
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1001"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1001"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1002"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1002"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1003"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1003"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1004"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1004"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1005"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1005"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1006"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1006"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1007"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1007"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1008"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1008"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1009"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1009"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1010"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1010"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1011"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1011"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1012"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1012"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1013"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1013"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1014"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1014"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1015"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1015"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1016"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1016"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1017"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1017"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1018"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1018"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1019"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1019"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1020"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1020"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1021"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1021"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1022"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1022"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1023"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1023"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1024"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1024"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1025"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1025"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1026"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1026"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1027"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1027"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1028"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1028"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1029"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1029"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1030"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1030"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1031"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1031"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1032"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1032"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1033"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1033"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1034"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1034"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1035"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1035"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1036"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1036"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1037"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1037"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1038"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1038"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1039"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1039"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1040"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1040"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1041"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1041"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1042"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1042"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1043"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1043"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1044"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1044"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1045"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1045"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1046"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1046"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1047"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1047"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1048"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1048"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1049"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1049"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1050"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1050"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1051"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1051"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1052"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1052"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1053"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1053"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1054"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1054"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1055"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1055"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1056"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1056"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1057"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1057"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1058"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1058"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1059"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1059"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1060"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1060"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1061"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1061"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1062"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1062"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1063"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1063"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1064"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1064"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1065"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1065"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1066"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1066"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1067"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1067"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1068"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1068"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1069"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1069"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1070"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1070"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1071"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1071"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1072"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1072"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1073"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1073"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1074"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1074"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1075"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1075"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1076"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1076"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1077"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1077"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1078"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1078"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1079"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1079"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1080"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1080"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1081"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1081"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1082"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1082"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1083"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1083"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1084"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1084"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1085"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1085"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1086"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1086"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1087"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1087"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1088"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1088"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1089"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1089"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1090"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1090"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1091"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1091"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1092"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1092"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1093"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1093"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1094"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1094"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1095"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1095"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1096"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1096"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1097"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1097"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1098"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1098"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1099"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1099"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1100"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1100"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1101"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1101"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1102"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1102"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1103"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1103"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1104"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1104"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1105"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1105"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1106"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1106"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1107"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1107"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1108"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1108"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1109"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1109"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1110"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1110"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1111"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1111"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1112"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1112"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1113"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1113"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1114"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1114"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1115"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1115"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1116"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1116"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1117"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1117"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1118"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1118"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1119"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1119"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1120"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1120"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1121"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1121"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1122"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1122"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1123"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1123"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1124"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1124"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1125"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1125"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1126"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1126"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1127"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1127"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1128"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1128"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1129"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1129"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1130"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1130"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1131"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1131"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1132"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1132"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1133"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1133"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1134"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1134"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1135"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1135"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1136"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1136"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1137"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1137"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1138"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1138"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1139"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1139"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1140"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1140"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1141"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1141"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1142"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1142"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1143"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1143"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1144"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1144"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1145"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1145"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1146"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1146"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1147"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1147"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1148"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1148"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1149"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1149"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1150"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1150"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1151"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1151"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1152"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1152"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1153"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1153"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1154"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1154"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1155"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1155"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1156"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1156"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1157"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1157"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1158"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1158"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1159"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1159"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1160"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1160"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1161"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1161"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1162"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1162"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1163"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1163"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1164"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1164"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1165"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1165"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1166"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1166"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1167"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1167"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1168"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1168"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1169"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1169"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1170"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1170"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1171"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1171"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1172"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1172"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1173"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1173"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1174"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1174"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1175"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1175"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1176"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1176"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1177"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1177"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1178"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1178"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1179"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1179"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1180"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1180"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1181"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1181"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1182"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1182"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1183"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1183"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1184"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1184"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1185"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1185"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1186"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1186"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1187"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1187"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1188"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1188"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1189"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1189"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1190"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1190"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1191"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1191"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1192"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1192"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1193"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1193"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1194"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1194"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1195"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1195"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1196"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1196"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1197"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1197"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1198"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1198"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1199"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1199"
+    },
+    "properties": {}
+  },
+  {
+    "type": "DIAGNOSED_BY",
+    "from": {
+      "label": "Failure",
+      "key": "F1200"
+    },
+    "to": {
+      "label": "RCA",
+      "key": "RCA1200"
+    },
+    "properties": {}
+  }
+]

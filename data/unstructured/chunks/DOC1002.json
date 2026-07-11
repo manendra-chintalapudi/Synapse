@@ -1,0 +1,26 @@
+[
+  {
+    "source_document_id": "DOC1002",
+    "chunk_id": "DOC1002_chunk_0",
+    "chunk_index": 0,
+    "text": "# RCA Report \u2014 DOC1002\n**Document type:** Root Cause Analysis Report\n**Related failure:** F1084  |  **RCA record:** RCA1084\n**Equipment:** EQ-CB-02 \u2014 Cooling Bed Line 2 (Cooling Bed)\n**Location:** Mumbai Unit - Bay 1\n**Event timestamp:** 2026-05-24 15:38:29\n**Failure mode:** Power Failure (source flag: PWF)\n\n## 1. Incident Summary\nOn 2026-05-24 15:38:29, EQ-CB-02 (Cooling Bed Line 2) experienced a power failure that\ninterrupted normal operation. The condition-monitoring system captured the following process values at the time of\nthe event: air temperature 295.8 K, process temperature 304.9 K,\nrotational speed 1649 rpm, torque 6.2 Nm, and accumulated tool wear\n182 minutes. The event was logged by the equipment engineer on shift and escalated for formal\nroot cause analysis under the plant's CMMS reliability programme.\n\n## 2. Investigation & Findings\nA cross-functional review examined operating logs, the sensor trace immediately preceding the trip, recent maintenance\nhistory and the applicable operating procedure for the cooling bed. Trends in the minutes before the event were\ncompared against the equipment's qualified operating envelope. The investigation focused on whether the observed values\nrepresented a developing fault or a transient excursion, and whether any preventive-maintenance trigger had been missed.",
+    "char_count": 1331,
+    "metadata": {
+      "doc_type": "rca_report",
+      "related_entity_id": "F1084",
+      "source_file_path": "data/unstructured/documents/DOC1002.md"
+    }
+  },
+  {
+    "source_document_id": "DOC1002",
+    "chunk_id": "DOC1002_chunk_1",
+    "chunk_index": 1,
+    "text": "## 3. Root Cause\nRoot cause was a power-delivery failure: the product of rotational speed and torque pushed process power outside the acceptable window, indicating a drive/supply anomaly. An unstable supply and drive fault were the primary contributors.\n\n## 4. Corrective Action\nInspected and repaired the drive, verified supply stability, and added power-envelope monitoring with an automatic trip.\n\n## 5. Preventive Recommendations\nTo reduce recurrence risk, the team recommends reinforcing the condition-based maintenance thresholds associated with\nthis failure mode, updating the relevant operating procedure, and adding the event to the equipment's reliability\nhistory for trend analysis. Spare-part availability for the affected sub-assembly should be confirmed, and operators\nbriefed on the early-warning indicators identified during this investigation.\n\n## 6. Sign-off\nPrepared by: Divya Banerjee (Equipment Engineer)\nReviewed by: Rajesh Naidu (Shift Supervisor, Shift B)\nStatus: Closed \u2014 corrective action implemented and verified.",
+    "char_count": 1040,
+    "metadata": {
+      "doc_type": "rca_report",
+      "related_entity_id": "F1084",
+      "source_file_path": "data/unstructured/documents/DOC1002.md"
+    }
+  }
+]

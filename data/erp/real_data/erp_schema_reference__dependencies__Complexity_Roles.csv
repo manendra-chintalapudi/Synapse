@@ -1,0 +1,2 @@
+Deep Complex,Middle Complex,Normal Complex,Not Complex
+Dependency Tables Count >= 5 then weight = 2.5,Dependency Tables Count 3 ≤ Td ≤4  then weight = 2,Dependency Tables Count  1 ≤ Td ≤ 2  then weight = 1.5 ,Dependency Tables Count  = 0  then weight = 1

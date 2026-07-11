@@ -1,0 +1,177 @@
+[
+  {
+    "technician_id": "T1001",
+    "name": "Anjali Desai",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "NSQF L4 Mechanical Maintenance"
+  },
+  {
+    "technician_id": "T1002",
+    "name": "Swati Desai",
+    "role": "equipment_engineer",
+    "shift": "A",
+    "certification": "B.Tech Mechanical"
+  },
+  {
+    "technician_id": "T1003",
+    "name": "Sunita Rao",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "ITI Fitter"
+  },
+  {
+    "technician_id": "T1004",
+    "name": "Shalini Naidu",
+    "role": "equipment_engineer",
+    "shift": "B",
+    "certification": "Six Sigma Green Belt"
+  },
+  {
+    "technician_id": "T1005",
+    "name": "Naveen Malhotra",
+    "role": "equipment_engineer",
+    "shift": "C",
+    "certification": "Reliability Engineer (CMRP)"
+  },
+  {
+    "technician_id": "T1006",
+    "name": "Lakshmi Patel",
+    "role": "quality_inspector",
+    "shift": "B",
+    "certification": "Welding Inspector (CWI)"
+  },
+  {
+    "technician_id": "T1007",
+    "name": "Suresh Malhotra",
+    "role": "equipment_engineer",
+    "shift": "C",
+    "certification": "B.Tech Mechanical"
+  },
+  {
+    "technician_id": "T1008",
+    "name": "Shalini Kulkarni",
+    "role": "quality_inspector",
+    "shift": "C",
+    "certification": "IS/ISO 9001 Internal Auditor"
+  },
+  {
+    "technician_id": "T1009",
+    "name": "Arjun Menon",
+    "role": "quality_inspector",
+    "shift": "B",
+    "certification": "ASNT NDT Level II"
+  },
+  {
+    "technician_id": "T1010",
+    "name": "Rekha Pillai",
+    "role": "quality_inspector",
+    "shift": "B",
+    "certification": "Welding Inspector (CWI)"
+  },
+  {
+    "technician_id": "T1011",
+    "name": "Ravi Menon",
+    "role": "shift_supervisor",
+    "shift": "A",
+    "certification": "IS 14489 Safety Audit"
+  },
+  {
+    "technician_id": "T1012",
+    "name": "Naveen Pillai",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "Hydraulics Level 2"
+  },
+  {
+    "technician_id": "T1013",
+    "name": "Ravi Singh",
+    "role": "equipment_engineer",
+    "shift": "C",
+    "certification": "B.Tech Mechanical"
+  },
+  {
+    "technician_id": "T1014",
+    "name": "Anjali Nair",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "Hydraulics Level 2"
+  },
+  {
+    "technician_id": "T1015",
+    "name": "Neha Menon",
+    "role": "maintenance_technician",
+    "shift": "C",
+    "certification": "ITI Fitter"
+  },
+  {
+    "technician_id": "T1016",
+    "name": "Neha Pillai",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "NSQF L4 Mechanical Maintenance"
+  },
+  {
+    "technician_id": "T1017",
+    "name": "Shalini Rao",
+    "role": "shift_supervisor",
+    "shift": "A",
+    "certification": "First-Line Supervisor Cert"
+  },
+  {
+    "technician_id": "T1018",
+    "name": "Rajesh Naidu",
+    "role": "shift_supervisor",
+    "shift": "B",
+    "certification": "IS 14489 Safety Audit"
+  },
+  {
+    "technician_id": "T1019",
+    "name": "Anita Iyer",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "NSQF L4 Mechanical Maintenance"
+  },
+  {
+    "technician_id": "T1020",
+    "name": "Divya Banerjee",
+    "role": "equipment_engineer",
+    "shift": "B",
+    "certification": "B.Tech Mechanical"
+  },
+  {
+    "technician_id": "T1021",
+    "name": "Vijay Reddy",
+    "role": "quality_inspector",
+    "shift": "C",
+    "certification": "ASNT NDT Level II"
+  },
+  {
+    "technician_id": "T1022",
+    "name": "Vijay Verma",
+    "role": "quality_inspector",
+    "shift": "B",
+    "certification": "Welding Inspector (CWI)"
+  },
+  {
+    "technician_id": "T1023",
+    "name": "Karthik Chatterjee",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "Hydraulics Level 2"
+  },
+  {
+    "technician_id": "T1024",
+    "name": "Deepa Banerjee",
+    "role": "maintenance_technician",
+    "shift": "A",
+    "certification": "Hydraulics Level 2"
+  },
+  {
+    "technician_id": "T1025",
+    "name": "Karthik Iyer",
+    "role": "quality_inspector",
+    "shift": "B",
+    "certification": "Welding Inspector (CWI)"
+  }
+]

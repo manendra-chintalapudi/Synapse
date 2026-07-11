@@ -43,3 +43,16 @@ python evaluation/answer_quality_benchmark.py --base-url https://your-synapse.ex
 The automated rubric checks factual anchors, citations, the four-layer synthesis contract and
 execution health. It does not masquerade as expert validation: factual correctness and
 operational usefulness remain explicitly `pending` until a domain expert supplies 1–5 scores.
+
+## Compliance-to-failure patterns
+
+Run:
+
+```bash
+python evaluation/compliance_failure_patterns.py
+```
+
+This reports 30-day directional timing patterns for IS:1786, IS:2062 and ASTM A370
+deviation cohorts, with explicit sample sizes and Wilson 95% confidence intervals. These are
+descriptive linkage metrics—not causal or accuracy claims. Accuracy remains pending until an
+independent expert-labelled event sample is available.

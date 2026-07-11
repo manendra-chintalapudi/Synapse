@@ -1,0 +1,372 @@
+{
+  "benchmark": "compliance deviation to equipment failure timing",
+  "window_days": 30,
+  "patterns": {
+    "IS:2062": {
+      "deviation_cohort_n": 222,
+      "failure_linked_n": 93,
+      "preceded_failure_within_30d_n": 8,
+      "preceded_failure_rate_among_linked": 0.086,
+      "preceded_failure_rate_95pct_wilson": [
+        0.0442,
+        0.1607
+      ],
+      "followed_failure_within_30d_n": 59,
+      "failure_preceded_deviation_rate_among_linked": 0.6344,
+      "failure_preceded_deviation_rate_95pct_wilson": [
+        0.533,
+        0.7251
+      ],
+      "confidence": "medium"
+    },
+    "ASTM A370": {
+      "deviation_cohort_n": 254,
+      "failure_linked_n": 107,
+      "preceded_failure_within_30d_n": 11,
+      "preceded_failure_rate_among_linked": 0.1028,
+      "preceded_failure_rate_95pct_wilson": [
+        0.0584,
+        0.1748
+      ],
+      "followed_failure_within_30d_n": 68,
+      "failure_preceded_deviation_rate_among_linked": 0.6355,
+      "failure_preceded_deviation_rate_95pct_wilson": [
+        0.5411,
+        0.7205
+      ],
+      "confidence": "high"
+    },
+    "IS:1786": {
+      "deviation_cohort_n": 338,
+      "failure_linked_n": 171,
+      "preceded_failure_within_30d_n": 15,
+      "preceded_failure_rate_among_linked": 0.0877,
+      "preceded_failure_rate_95pct_wilson": [
+        0.0539,
+        0.1397
+      ],
+      "followed_failure_within_30d_n": 115,
+      "failure_preceded_deviation_rate_among_linked": 0.6725,
+      "failure_preceded_deviation_rate_95pct_wilson": [
+        0.5991,
+        0.7384
+      ],
+      "confidence": "high"
+    }
+  },
+  "evidence_examples": {
+    "IS:2062": {
+      "preceded_examples": [
+        {
+          "deviation_id": "DEV1051",
+          "failure_id": "F1019",
+          "delta_days": 4
+        },
+        {
+          "deviation_id": "DEV1078",
+          "failure_id": "F1088",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1404",
+          "failure_id": "F1038",
+          "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1503",
+          "failure_id": "F1088",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1285",
+          "failure_id": "F1068",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1559",
+          "failure_id": "F1068",
+          "delta_days": 8
+        },
+        {
+          "deviation_id": "DEV1634",
+          "failure_id": "F1114",
+          "delta_days": 4
+        },
+        {
+          "deviation_id": "DEV1244",
+          "failure_id": "F1114",
+          "delta_days": 3
+        }
+      ],
+      "followed_examples": [
+        {
+          "deviation_id": "DEV1018",
+          "failure_id": "F1038",
+          "delta_days": -27
+        },
+        {
+          "deviation_id": "DEV1019",
+          "failure_id": "F1066",
+          "delta_days": -15
+        },
+        {
+          "deviation_id": "DEV1025",
+          "failure_id": "F1196",
+          "delta_days": -30
+        },
+        {
+          "deviation_id": "DEV1053",
+          "failure_id": "F1184",
+          "delta_days": -20
+        },
+        {
+          "deviation_id": "DEV1075",
+          "failure_id": "F1128",
+          "delta_days": -25
+        },
+        {
+          "deviation_id": "DEV1128",
+          "failure_id": "F1114",
+          "delta_days": -8
+        },
+        {
+          "deviation_id": "DEV1154",
+          "failure_id": "F1088",
+          "delta_days": -12
+        },
+        {
+          "deviation_id": "DEV1198",
+          "failure_id": "F1184",
+          "delta_days": -9
+        },
+        {
+          "deviation_id": "DEV1219",
+          "failure_id": "F1128",
+          "delta_days": -18
+        },
+        {
+          "deviation_id": "DEV1230",
+          "failure_id": "F1128",
+          "delta_days": -29
+        }
+      ]
+    },
+    "ASTM A370": {
+      "preceded_examples": [
+        {
+          "deviation_id": "DEV1049",
+          "failure_id": "F1128",
+          "delta_days": 1
+        },
+        {
+          "deviation_id": "DEV1244",
+          "failure_id": "F1114",
+          "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1345",
+          "failure_id": "F1088",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1487",
+          "failure_id": "F1088",
+          "delta_days": 7
+        },
+        {
+          "deviation_id": "DEV1431",
+          "failure_id": "F1068",
+          "delta_days": 1
+        },
+        {
+          "deviation_id": "DEV1503",
+          "failure_id": "F1088",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1541",
+          "failure_id": "F1184",
+          "delta_days": 9
+        },
+        {
+          "deviation_id": "DEV1078",
+          "failure_id": "F1088",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1404",
+          "failure_id": "F1038",
+          "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1326",
+          "failure_id": "F1128",
+          "delta_days": 7
+        }
+      ],
+      "followed_examples": [
+        {
+          "deviation_id": "DEV1010",
+          "failure_id": "F1170",
+          "delta_days": -29
+        },
+        {
+          "deviation_id": "DEV1037",
+          "failure_id": "F1182",
+          "delta_days": -2
+        },
+        {
+          "deviation_id": "DEV1171",
+          "failure_id": "F1128",
+          "delta_days": -11
+        },
+        {
+          "deviation_id": "DEV1214",
+          "failure_id": "F1025",
+          "delta_days": -13
+        },
+        {
+          "deviation_id": "DEV1255",
+          "failure_id": "F1088",
+          "delta_days": -25
+        },
+        {
+          "deviation_id": "DEV1283",
+          "failure_id": "F1182",
+          "delta_days": -10
+        },
+        {
+          "deviation_id": "DEV1289",
+          "failure_id": "F1066",
+          "delta_days": -21
+        },
+        {
+          "deviation_id": "DEV1321",
+          "failure_id": "F1088",
+          "delta_days": -24
+        },
+        {
+          "deviation_id": "DEV1346",
+          "failure_id": "F1088",
+          "delta_days": -27
+        },
+        {
+          "deviation_id": "DEV1359",
+          "failure_id": "F1170",
+          "delta_days": -12
+        }
+      ]
+    },
+    "IS:1786": {
+      "preceded_examples": [
+        {
+          "deviation_id": "DEV1046",
+          "failure_id": "F1068",
+          "delta_days": 1
+        },
+        {
+          "deviation_id": "DEV1138",
+          "failure_id": "F1114",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1174",
+          "failure_id": "F1170",
+          "delta_days": 6
+        },
+        {
+          "deviation_id": "DEV1186",
+          "failure_id": "F1129",
+          "delta_days": 0
+        },
+        {
+          "deviation_id": "DEV1241",
+          "failure_id": "F1170",
+          "delta_days": 2
+        },
+        {
+          "deviation_id": "DEV1369",
+          "failure_id": "F1066",
+          "delta_days": 1
+        },
+        {
+          "deviation_id": "DEV1409",
+          "failure_id": "F1018",
+          "delta_days": 4
+        },
+        {
+          "deviation_id": "DEV1426",
+          "failure_id": "F1170",
+          "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1462",
+          "failure_id": "F1092",
+          "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1598",
+          "failure_id": "F1092",
+          "delta_days": 5
+        }
+      ],
+      "followed_examples": [
+        {
+          "deviation_id": "DEV1005",
+          "failure_id": "F1128",
+          "delta_days": -20
+        },
+        {
+          "deviation_id": "DEV1012",
+          "failure_id": "F1098",
+          "delta_days": -25
+        },
+        {
+          "deviation_id": "DEV1027",
+          "failure_id": "F1019",
+          "delta_days": -21
+        },
+        {
+          "deviation_id": "DEV1030",
+          "failure_id": "F1114",
+          "delta_days": -18
+        },
+        {
+          "deviation_id": "DEV1032",
+          "failure_id": "F1147",
+          "delta_days": -9
+        },
+        {
+          "deviation_id": "DEV1035",
+          "failure_id": "F1092",
+          "delta_days": -9
+        },
+        {
+          "deviation_id": "DEV1064",
+          "failure_id": "F1019",
+          "delta_days": -13
+        },
+        {
+          "deviation_id": "DEV1092",
+          "failure_id": "F1038",
+          "delta_days": -9
+        },
+        {
+          "deviation_id": "DEV1095",
+          "failure_id": "F1019",
+          "delta_days": -23
+        },
+        {
+          "deviation_id": "DEV1100",
+          "failure_id": "F1117",
+          "delta_days": -23
+        }
+      ]
+    }
+  },
+  "accuracy_validation": {
+    "status": "pending independent expert-labelled event sample",
+    "claim_allowed": false
+  },
+  "scope_note": "Cohorts are deviations on coils with tests linked to the named failed-standard family. Timing uses date_flagged and the explicitly enriched failure_id_fk. Rates are descriptive, not causal."
+}

@@ -44,23 +44,33 @@ function setupAuthPage(){
   const form = document.getElementById("auth-form");
   if (!form || !supabase) return;
   const shell = document.getElementById("auth-shell"), status = document.getElementById("auth-status");
-  const submit = document.getElementById("auth-submit"), switcher = document.getElementById("auth-switch");
+  const submit = document.getElementById("auth-submit"), loginTab = document.getElementById("auth-tab-login"), registerTab = document.getElementById("auth-tab-register");
   let mode = new URLSearchParams(location.search).get("mode") === "register" ? "signup" : "signin";
   const render = () => {
     const signup = mode === "signup"; shell.classList.toggle("signup", signup);
-    document.getElementById("auth-title").textContent = signup ? "Join your plant team" : "Welcome back";
-    document.getElementById("auth-copy").textContent = signup ? "Create your profile and choose the demo role that matches your work." : "Use your user ID and password to enter Synapse.";
-    document.getElementById("visual-title").textContent = signup ? "Meet your new plant copilot." : "Your plant knowledge, securely connected.";
-    document.getElementById("visual-copy").textContent = signup ? "Synapse is taking note of your role so your workspace starts with the right tools and questions." : "Sign in to continue your traceable conversations and operational investigations.";
-    submit.textContent = signup ? "Create Synapse account" : "Sign in to Synapse";
-    switcher.textContent = signup ? "Already registered? Sign in" : "New to Synapse? Register your account";
-    form.full_name.required = signup; form.password.autocomplete = signup ? "new-password" : "current-password";
+    document.getElementById("auth-title").textContent = signup ? "Create account" : "Sign in";
+    document.getElementById("auth-copy").textContent = signup ? "Set up your profile and choose your demo plant role." : "Use your Synapse credentials to continue.";
+    document.getElementById("visual-title").textContent = signup ? "Let’s set up your workspace." : "Welcome back.";
+    document.getElementById("visual-copy").textContent = signup ? "Your Synapse assistant is taking note of your role and access." : "Continue your traceable plant investigations securely.";
+    submit.textContent = signup ? "Create Synapse account" : "Log in to Synapse";
+    loginTab.classList.toggle("active", !signup); registerTab.classList.toggle("active", signup);
+    loginTab.setAttribute("aria-selected", String(!signup)); registerTab.setAttribute("aria-selected", String(signup));
+    form.full_name.required = signup; form.confirm_password.required = signup; form.password.autocomplete = signup ? "new-password" : "current-password";
   };
   render();
-  switcher.onclick = () => { mode = mode === "signin" ? "signup" : "signin"; status.textContent = ""; render(); };
+  loginTab.onclick = () => { mode = "signin"; status.textContent = ""; render(); };
+  registerTab.onclick = () => { mode = "signup"; status.textContent = ""; render(); };
+  document.getElementById("forgot-password").onclick = async () => {
+    const email = form.email.value.trim();
+    if (!email) { status.textContent = "Enter your email first, then choose Forgot password."; status.className = "status error"; return; }
+    const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: `${location.origin}/login` });
+    status.textContent = error ? error.message : "Password reset instructions have been sent to your email.";
+    status.className = error ? "status error" : "status success";
+  };
   form.onsubmit = async event => {
     event.preventDefault(); submit.disabled = true; status.textContent = ""; status.className = "status";
     const email = form.email.value.trim(), password = form.password.value;
+    if (mode === "signup" && password !== form.confirm_password.value) { submit.disabled = false; status.textContent = "Passwords do not match."; status.className = "status error"; return; }
     const result = mode === "signin" ? await supabase.auth.signInWithPassword({ email, password }) : await supabase.auth.signUp({
       email, password, options: { emailRedirectTo: `${location.origin}/app`, data: { full_name: form.full_name.value.trim(), requested_role: form.role.value } }
     });

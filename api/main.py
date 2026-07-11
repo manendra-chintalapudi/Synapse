@@ -2,15 +2,18 @@
 Synapse / Maven demo API.
 
 Thin FastAPI wrapper around ask_synapse() so the browser chat UI can drive the full
-pipeline (router -> graph/Trino/Chroma retrieval -> synthesizer) live.
+pipeline (router -> graph[Neo4j] / structured[DuckDB] / documents[Chroma] retrieval ->
+synthesizer) live.
 
-Run (from the repo root that contains the `synapse/` folder):
-    uvicorn synapse.api.main:app --reload --port 8000
-or (from inside synapse/):
-    uvicorn api.main:app --reload --port 8000
+Run (from inside synapse/):
+    uvicorn api.main:app --host 0.0.0.0 --port 8000      # Railway: --port $PORT
 or simply:
-    python synapse/api/main.py
+    python api/main.py
+
+Environment (see .env.example): NEO4J_URI/NEO4J_USER/NEO4J_PASSWORD, OPENROUTER_API_KEY,
+ALLOWED_ORIGINS (CORS), and optional DUCKDB_DIR / CHROMA_DIR data paths.
 """
+import os
 import sys
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -47,10 +50,14 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Synapse / Maven Demo API", version="1.0", lifespan=lifespan)
 
-# permissive CORS for local demo (file:// origin shows up as 'null')
+# CORS: allow the Vercel frontend origin(s). ALLOWED_ORIGINS is a comma-separated list, or
+# "*" (default) to allow any origin — tighten to the real Vercel domain(s) in production.
+# (file:// origin shows up as 'null'; "*" covers it for local demo use.)
+_origins_env = os.environ.get("ALLOWED_ORIGINS", "*").strip()
+ALLOW_ORIGINS = ["*"] if _origins_env in ("", "*") else [o.strip() for o in _origins_env.split(",") if o.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=ALLOW_ORIGINS,
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -83,9 +90,9 @@ def _neo4j_ok() -> bool:
         return False
 
 
-def _trino_ok() -> bool:
+def _dfs_ok() -> bool:
     try:
-        from structured_store import query_federated
+        from structured_store import query_federated       # direct DuckDB federation
         return query_federated("SELECT 1 AS ok")[0]["ok"] == 1
     except Exception:
         return False
@@ -101,11 +108,11 @@ def _chroma_ok() -> bool:
 
 @app.get("/api/health")
 def health():
-    neo4j, trino, chroma = _neo4j_ok(), _trino_ok(), _chroma_ok()
+    neo4j, dfs, chroma = _neo4j_ok(), _dfs_ok(), _chroma_ok()
     return {
-        "status": "ok" if all((neo4j, trino, chroma)) else "degraded",
+        "status": "ok" if all((neo4j, dfs, chroma)) else "degraded",
         "neo4j": neo4j,
-        "trino": trino,
+        "dfs": dfs,          # DuckDB federated structured store (was "trino")
         "chroma": chroma,
     }
 
@@ -125,6 +132,12 @@ def chat_page():
 @app.get("/landing.html")
 def landing_page():
     return FileResponse(FRONTEND / "landing.html")
+
+
+@app.get("/config.js")
+def frontend_config():
+    # runtime frontend config (window.SYNAPSE_API_URL); served locally, static on Vercel
+    return FileResponse(FRONTEND / "config.js", media_type="text/javascript")
 
 
 app.mount("/assets", StaticFiles(directory=str(FRONTEND / "assets")), name="assets")

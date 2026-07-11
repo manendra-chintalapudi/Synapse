@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Synapse — Plant Brain</title>
+<script src="config.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -512,7 +513,7 @@
 
     <section class="page" id="page-admin"><div class="ph">
       <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3.1"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg></div>
-      <h2>Admin Console</h2><p>Model chain configuration, retrieval tiers, ingest status and connection health for Neo4j, Trino and Chroma.</p>
+      <h2>Admin Console</h2><p>Model chain configuration, retrieval tiers, ingest status and connection health for Neo4j, DuckDB and Chroma.</p>
       <span class="soon">COMING SOON</span></div></section>
 
     <section class="page" id="page-logs"><div class="ph">
@@ -542,8 +543,12 @@
    + localStorage sessions. Backend contract untouched:
    POST /api/ask {question} -> {answer, retrieval_plan, model_used, latency}
    ============================================================ */
-const API = (location.protocol === "http:" || location.protocol === "https:")
-  ? (location.origin + "/api/ask") : "http://localhost:8000/api/ask";
+// Backend origin: window.SYNAPSE_API_URL (config.js) for split frontend/backend deploys
+// (Vercel + Railway); else same origin (FastAPI serving this page); else localhost dev.
+const API_BASE = (window.SYNAPSE_API_URL && window.SYNAPSE_API_URL.trim())
+  ? window.SYNAPSE_API_URL.trim().replace(/\/+$/, "")
+  : ((location.protocol === "http:" || location.protocol === "https:") ? location.origin : "http://localhost:8000");
+const API = API_BASE + "/api/ask";
 
 /* ---------------- demo users & roles ---------------- */
 const USERS = [
@@ -817,7 +822,7 @@ async function ask(text){
     }
   }catch(err){
     clearInterval(timer);
-    renderError(el, "Couldn't reach the backend at localhost:8000 — is the API server running? (" + err.message + ")");
+    renderError(el, "Couldn't reach the backend at " + API_BASE + " — is the API server running? (" + err.message + ")");
   }finally{
     busy = false; document.getElementById("send").disabled = false;
     renderSessions();

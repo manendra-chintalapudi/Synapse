@@ -24,7 +24,9 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
 ROOT = Path(__file__).resolve().parent.parent           # -> synapse/
-CHROMA_PATH = str(ROOT / "data" / "chroma_db")
+# Persist path: env-configurable so it can point at a mounted volume (e.g. /data/chroma on
+# Railway) in production; defaults to the pre-built store bundled at synapse/data/chroma_db.
+CHROMA_PATH = os.environ.get("CHROMA_DIR", str(ROOT / "data" / "chroma_db"))
 COLLECTION_NAME = "synapse_documents"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 EMBED_DIM = 384

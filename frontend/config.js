@@ -13,4 +13,6 @@
  *
  * See .env.example (SYNAPSE_API_URL) for the documented variable.
  * ==========================================================================*/
-window.SYNAPSE_API_URL = "";
+window.SYNAPSE_API_URL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname)
+  ? ""
+  : "https://web-production-a9e7.up.railway.app";

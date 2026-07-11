@@ -11,7 +11,8 @@ import os
 from neo4j import GraphDatabase
 
 NEO4J_URI = os.environ.get("NEO4J_URI", "bolt://localhost:7687")
-NEO4J_USER = os.environ.get("NEO4J_USER", "neo4j")
+# accept NEO4J_USER or NEO4J_USERNAME (the latter is what AuraDB's downloaded creds file uses)
+NEO4J_USER = os.environ.get("NEO4J_USER") or os.environ.get("NEO4J_USERNAME") or "neo4j"
 NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "synapse123")
 
 _driver = None

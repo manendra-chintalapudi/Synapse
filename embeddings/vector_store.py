@@ -18,13 +18,10 @@ os.environ.setdefault("HF_HUB_DISABLE_TELEMETRY", "1")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 os.environ.setdefault("ANONYMIZED_TELEMETRY", "False")
 
-import chromadb
-from chromadb.config import Settings
-from langchain_chroma import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
-
 ROOT = Path(__file__).resolve().parent.parent           # -> synapse/
-CHROMA_PATH = str(ROOT / "data" / "chroma_db")
+# Persist path: env-configurable so it can point at a mounted volume (e.g. /data/chroma on
+# Railway) in production; defaults to the pre-built store bundled at synapse/data/chroma_db.
+CHROMA_PATH = os.environ.get("CHROMA_DIR", str(ROOT / "data" / "chroma_db"))
 COLLECTION_NAME = "synapse_documents"
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 EMBED_DIM = 384
@@ -36,12 +33,16 @@ def get_embeddings():
     """Cached HuggingFace MiniLM embedding function (local model, no API calls)."""
     global _embeddings
     if _embeddings is None:
+        from langchain_huggingface import HuggingFaceEmbeddings
         _embeddings = HuggingFaceEmbeddings(model_name=MODEL_NAME)
     return _embeddings
 
 
 def get_client():
     """Persistent Chroma client rooted at data/chroma_db/."""
+    import chromadb
+    from chromadb.config import Settings
+
     Path(CHROMA_PATH).mkdir(parents=True, exist_ok=True)
     return chromadb.PersistentClient(path=CHROMA_PATH, settings=Settings(anonymized_telemetry=False))
 
@@ -57,6 +58,8 @@ def get_vectorstore(client=None, announce=True):
     named 'synapse_documents' already exists at this path from an earlier ingestion pass,
     it is REUSED (same underlying collection) rather than rebuilt. This is stated at call time.
     """
+    from langchain_chroma import Chroma
+
     client = client or get_client()
     existed = COLLECTION_NAME in _collection_names(client)
     count = client.get_collection(COLLECTION_NAME).count() if existed else 0

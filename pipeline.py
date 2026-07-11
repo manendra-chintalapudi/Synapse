@@ -16,6 +16,9 @@ import os
 import re
 import sys
 import time
+import copy
+import threading
+from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -40,6 +43,42 @@ from synthesize import synthesize_answer       # synthesizer/synthesize.py
 
 MAX_GRAPH_ENTITIES = 4
 DOC_TOP_K = 4
+CACHE_TTL_S = int(os.environ.get("QUERY_CACHE_TTL_S", "300"))
+CACHE_MAX_ENTRIES = int(os.environ.get("QUERY_CACHE_MAX_ENTRIES", "128"))
+_cache = OrderedDict()
+_cache_lock = threading.Lock()
+
+
+def _cache_key(question: str) -> str:
+    return " ".join(question.lower().split())
+
+
+def _cache_get(question: str):
+    if CACHE_TTL_S <= 0 or CACHE_MAX_ENTRIES <= 0:
+        return None
+    key = _cache_key(question)
+    now = time.monotonic()
+    with _cache_lock:
+        item = _cache.get(key)
+        if item is None:
+            return None
+        created, value = item
+        if now - created > CACHE_TTL_S:
+            del _cache[key]
+            return None
+        _cache.move_to_end(key)
+        return copy.deepcopy(value)
+
+
+def _cache_put(question: str, value: dict):
+    if CACHE_TTL_S <= 0 or CACHE_MAX_ENTRIES <= 0:
+        return
+    key = _cache_key(question)
+    with _cache_lock:
+        _cache[key] = (time.monotonic(), copy.deepcopy(value))
+        _cache.move_to_end(key)
+        while len(_cache) > CACHE_MAX_ENTRIES:
+            _cache.popitem(last=False)
 
 # ---------------------------------------------------------------------------
 # structured layer: intent-matched SQL templates (same pattern as graph templates)
@@ -117,6 +156,14 @@ def warm_up():
 
 def ask_synapse(question: str) -> dict:
     """Route -> retrieve (parallel) -> synthesize. Returns the full transparent result."""
+    cached = _cache_get(question)
+    if cached is not None:
+        cached["latency"] = {
+            "routing_s": 0.0, "retrieval_s": 0.0, "synthesis_s": 0.0,
+            "total_s": 0.0, "cache_hit": True,
+        }
+        return cached
+
     t0 = time.perf_counter()
     plan = route(question)
     t_route = time.perf_counter() - t0
@@ -151,7 +198,11 @@ def ask_synapse(question: str) -> dict:
         "retrieval_s": round(t_retrieval, 2),
         "synthesis_s": round(t_synth, 2),
         "total_s": round(time.perf_counter() - t0, 2),
+        "cache_hit": False,
     }
+    # Do not turn a transient provider outage into a five-minute cached outage.
+    if result.get("model_used") != "error":
+        _cache_put(question, result)
     return result
 
 

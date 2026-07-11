@@ -1,1 +1,23 @@
+# secrets
+# Prevent accidental commits of environment files while still allowing example files.
 .env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+frontend/.env
+frontend/.env.*
+
+# python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# os / editor
+.DS_Store
+Thumbs.db
+
+# scratch artifacts
+scratch_*.json

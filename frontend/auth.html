@@ -1,17 +1,48 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Sign in - Synapse</title><script src="config.js"></script><script type="module" src="auth.js"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:"Plus Jakarta Sans",sans-serif;color:#20233a;background:#f4f5fb;display:grid;place-items:center;padding:24px;overflow:hidden}body:before,body:after{content:"";position:fixed;border-radius:50%;filter:blur(30px);opacity:.8;pointer-events:none}body:before{width:44vw;height:44vw;left:-12vw;bottom:-20vw;background:#6bc9ff}body:after{width:42vw;height:42vw;right:-10vw;top:-18vw;background:#ba90ff}.shell{position:relative;width:min(980px,100%);min-height:590px;background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.9);border-radius:30px;box-shadow:0 30px 90px rgba(67,73,150,.16);backdrop-filter:blur(22px);display:grid;grid-template-columns:1.08fr .92fr;overflow:hidden}.visual{padding:42px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(145deg,rgba(229,240,255,.78),rgba(235,225,255,.72))}.brand{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:800;text-decoration:none;color:inherit}.brand img{height:30px}.orb{width:min(330px,80%);aspect-ratio:1;object-fit:contain;align-self:center;filter:drop-shadow(0 22px 35px rgba(75,84,210,.2))}.visual h2{font-size:32px;line-height:1.12;margin:0;letter-spacing:-1px}.visual p{color:#686d87;line-height:1.65;margin:12px 0 0}.auth{padding:58px 54px;display:flex;flex-direction:column;justify-content:center}.back{position:absolute;right:28px;top:24px;color:#6f748e;text-decoration:none;font-size:13px}.auth h1{font-size:34px;letter-spacing:-1.2px;margin:0 0 10px}.copy{color:#777c94;margin:0 0 30px;line-height:1.55}.field{display:grid;gap:8px;margin:0 0 17px}.field label{font-size:12px;font-weight:800;color:#555a74}.field input{width:100%;border:1px solid #e2e4ef;background:#fafbff;border-radius:13px;padding:14px 15px;font:inherit;outline:none}.field input:focus{border-color:#6670e8;box-shadow:0 0 0 4px #eef0ff}.primary{width:100%;border:0;border-radius:13px;background:#20233a;color:white;padding:14px;font:inherit;font-weight:800;cursor:pointer;margin-top:5px}.primary:disabled{opacity:.6}.switch{border:0;background:none;color:#4b54d2;font:inherit;font-size:13px;font-weight:700;cursor:pointer;margin-top:20px}.status{min-height:21px;margin:14px 0 0;font-size:12px;line-height:1.5}.error{color:#bd3d35}.success{color:#08795b}.fine{font-size:11px;color:#9a9eb1;text-align:center;margin-top:20px;line-height:1.55}@media(max-width:720px){body{padding:0;display:block}.shell{min-height:100vh;border-radius:0;display:block}.visual{height:235px;padding:24px}.visual .orb{position:absolute;width:170px;right:5px;top:50px}.visual div:last-child{max-width:65%}.visual h2{font-size:23px}.visual p{font-size:12px}.auth{padding:38px 25px}.auth h1{font-size:29px}.back{top:25px}.copy{margin-bottom:24px}}
-</style></head>
-<body data-auth-page="true"><main class="shell"><section class="visual">
-<a class="brand" href="/"><img src="assets/synapse-logo.png" alt="">Synapse</a>
-<video class="orb" autoplay muted loop playsinline poster="assets/orb-white-poster.jpg"><source src="assets/orb-white.mp4" type="video/mp4"></video>
-<div><h2>One secure brain for your plant.</h2><p>Traceable answers across equipment, quality, failures, and compliance.</p></div>
-</section><section class="auth"><a class="back" href="/">Back to home</a><h1 id="auth-title">Welcome back</h1><p class="copy" id="auth-copy">Sign in to enter the Synapse plant console.</p>
-<form id="auth-form"><div class="field"><label for="email">WORK EMAIL</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div><div class="field"><label for="password">PASSWORD</label><input id="password" name="password" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters"></div><button class="primary" id="auth-submit" type="submit">Sign in</button><p class="status" id="auth-status" role="status"></p></form>
-<button class="switch" id="auth-switch" type="button">New to Synapse? Create an account</button><p class="fine">Protected by Supabase authentication. Access is subject to your organization&rsquo;s plant-security policy.</p>
-</section></main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Sign in - Synapse</title>
+  <script src="config.js"></script>
+  <script type="module" src="auth.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#20233a;--muted:#747991;--accent:#4b54d2;--line:#e6e8f1;--error:#b93832;--success:#08775a}
+    *{box-sizing:border-box}html,body{min-height:100%}body{margin:0;min-height:100dvh;font-family:"Plus Jakarta Sans",sans-serif;color:var(--ink);background:#f4f5fb;display:grid;place-items:center;padding:24px;overflow-x:hidden}
+    body:before,body:after{content:"";position:fixed;border-radius:50%;filter:blur(42px);opacity:.78;pointer-events:none}body:before{width:48vw;height:48vw;left:-15vw;bottom:-23vw;background:#58c7ff}body:after{width:45vw;height:45vw;right:-12vw;top:-20vw;background:#b988ff}
+    .shell{position:relative;width:min(1050px,100%);min-height:640px;background:rgba(255,255,255,.86);border:1px solid rgba(255,255,255,.92);border-radius:32px;box-shadow:0 30px 90px rgba(67,73,150,.17);backdrop-filter:blur(24px);display:grid;grid-template-columns:1.08fr .92fr;overflow:hidden}
+    .visual{position:relative;padding:38px 42px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(145deg,rgba(224,241,255,.83),rgba(234,223,255,.8));overflow:hidden}.visual:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;background:rgba(255,255,255,.42);right:-150px;bottom:-180px;filter:blur(4px)}
+    .brand{position:relative;z-index:2;display:flex;align-items:center;gap:10px;font-size:20px;font-weight:800;text-decoration:none;color:inherit}.brand img{height:30px;width:auto}.art{position:relative;z-index:1;display:grid;place-items:center;height:340px}.art video{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;filter:drop-shadow(0 22px 34px rgba(75,84,210,.12))}.art .signup-art{display:none}.shell.signup .art .login-art{display:none}.shell.signup .art .signup-art{display:block}
+    .visual-copy{position:relative;z-index:2;max-width:450px}.visual-copy h2{font-size:32px;line-height:1.12;margin:0;letter-spacing:-1px}.visual-copy p{color:#626880;line-height:1.65;margin:12px 0 0}.role-pills{display:flex;gap:7px;flex-wrap:wrap;margin-top:17px}.role-pills span{font-size:10px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.66);color:#5660b9}
+    .auth{position:relative;padding:48px 52px;display:flex;flex-direction:column;justify-content:center;overflow-y:auto}.back{position:absolute;right:26px;top:23px;color:#6f748e;text-decoration:none;font-size:12px;font-weight:700}.eyebrow{font-size:11px;font-weight:800;color:var(--accent);letter-spacing:.13em;text-transform:uppercase;margin-bottom:12px}.auth h1{font-size:34px;letter-spacing:-1.2px;margin:0 0 9px}.copy{color:var(--muted);margin:0 0 26px;line-height:1.55;font-size:14px}.field{display:grid;gap:7px;margin:0 0 14px}.field label{font-size:11px;font-weight:800;color:#555a74;letter-spacing:.04em}.field input,.field select{width:100%;border:1px solid var(--line);background:#fafbff;border-radius:12px;padding:12px 14px;font:inherit;font-size:14px;color:var(--ink);outline:none}.field input:focus,.field select:focus{border-color:#6670e8;box-shadow:0 0 0 4px #eef0ff}.signup-only{display:none}.shell.signup .signup-only{display:grid}.primary{width:100%;border:0;border-radius:13px;background:#20233a;color:white;padding:13px;font:inherit;font-size:14px;font-weight:800;cursor:pointer;margin-top:3px;transition:.2s}.primary:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(32,35,58,.2)}.primary:disabled{opacity:.6;transform:none}.switch{border:0;background:none;color:var(--accent);font:inherit;font-size:12.5px;font-weight:800;cursor:pointer;margin-top:15px}.status{min-height:18px;margin:11px 0 0;font-size:11.5px;line-height:1.45}.error{color:var(--error)}.success{color:var(--success)}.fine{font-size:10.5px;color:#989caf;text-align:center;margin:14px 0 0;line-height:1.5}
+    @media(max-width:760px){body{padding:0;display:block;background:#fff}.shell{min-height:100dvh;border-radius:0;display:flex;flex-direction:column;border:0}.visual{min-height:235px;padding:22px 22px 24px;flex:none}.brand{font-size:17px}.brand img{height:25px}.art{position:absolute;width:46%;height:175px;right:3px;top:42px}.visual-copy{max-width:58%;margin-top:auto}.visual-copy h2{font-size:22px}.visual-copy p{font-size:11.5px;line-height:1.5}.role-pills{display:none}.auth{padding:34px 22px calc(30px + env(safe-area-inset-bottom));overflow:visible}.back{top:20px;right:20px}.eyebrow{margin-top:8px}.auth h1{font-size:28px}.copy{margin-bottom:21px}.field input,.field select{padding:13px}.shell.signup .visual{min-height:210px}.shell.signup .art{height:150px}.shell.signup .auth{padding-top:28px}}
+    @media(max-height:720px) and (min-width:761px){.shell{min-height:590px}.art{height:270px}.auth{padding-top:42px;padding-bottom:34px}}
+  </style>
+</head>
+<body data-auth-page="true">
+<main class="shell" id="auth-shell">
+  <section class="visual">
+    <a class="brand" href="/"><img src="assets/synapse-logo.png" alt="Synapse">Synapse</a>
+    <div class="art" aria-hidden="true">
+      <video class="login-art" autoplay muted loop playsinline poster="assets/orb-white-poster.jpg"><source src="assets/orb-white.mp4" type="video/mp4"></video>
+      <video class="signup-art" autoplay muted loop playsinline poster="assets/synapse-mascot-poster.jpg"><source src="assets/synapse-mascot.mp4" type="video/mp4"></video>
+    </div>
+    <div class="visual-copy"><h2 id="visual-title">Your plant knowledge, securely connected.</h2><p id="visual-copy">Sign in to continue your traceable conversations and operational investigations.</p><div class="role-pills"><span>Maintenance</span><span>QA</span><span>Ops</span><span>Admin</span></div></div>
+  </section>
+  <section class="auth">
+    <a class="back" href="/">Back to home</a><div class="eyebrow">Secure plant access</div>
+    <h1 id="auth-title">Welcome back</h1><p class="copy" id="auth-copy">Use your user ID and password to enter Synapse.</p>
+    <form id="auth-form">
+      <div class="field signup-only"><label for="full_name">FULL NAME</label><input id="full_name" name="full_name" autocomplete="name" placeholder="Your name"></div>
+      <div class="field"><label for="email">USER ID / EMAIL</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
+      <div class="field"><label for="password">PASSWORD</label><input id="password" name="password" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters"></div>
+      <div class="field signup-only"><label for="role">PLANT ROLE</label><select id="role" name="role"><option value="maintenance">Maintenance</option><option value="qa">Quality Assurance</option><option value="ops">Operations</option><option value="admin">Admin (demo access)</option></select></div>
+      <button class="primary" id="auth-submit" type="submit">Sign in to Synapse</button><p class="status" id="auth-status" role="status"></p>
+    </form>
+    <button class="switch" id="auth-switch" type="button">New to Synapse? Register your account</button><p class="fine">Passwords are processed by Supabase Auth and are never stored by the Synapse frontend.</p>
+  </section>
+</main>
+</body></html>

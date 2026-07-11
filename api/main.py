@@ -26,13 +26,14 @@ for _p in (SYNAPSE_ROOT, SYNAPSE_ROOT / "retrieval", SYNAPSE_ROOT / "embeddings"
     if _s not in sys.path:
         sys.path.insert(0, _s)
 
-from fastapi import FastAPI
+from fastapi import Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from pipeline import ask_synapse, warm_up
+from api.auth import Identity, require_user
 
 FRONTEND = SYNAPSE_ROOT / "frontend"
 
@@ -74,7 +75,7 @@ class AskRequest(BaseModel):
 
 
 @app.post("/api/ask")
-def ask(req: AskRequest):
+def ask(req: AskRequest, identity: Identity = Depends(require_user)):
     """Run one question through the full Synapse pipeline. Never crashes the server."""
     question = (req.question or "").strip()
     if not question:

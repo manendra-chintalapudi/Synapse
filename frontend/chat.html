@@ -228,7 +228,7 @@
   .voice-orb-stage{position:relative;width:clamp(210px,40vh,350px);aspect-ratio:1;display:grid;place-items:center;margin:-8px 0 -4px}
   .voice-orb-stage:before{content:"";position:absolute;inset:8%;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),rgba(137,230,255,.18) 48%,transparent 72%);
         filter:blur(15px);transform:scale(calc(1 + var(--voice-level)*.22));transition:transform .08s linear}
-  .voice-orb{position:relative;width:100%;height:100%;object-fit:cover;mix-blend-mode:screen;filter:saturate(calc(1.05 + var(--voice-level)*.8)) contrast(1.02);
+  .voice-orb{position:relative;width:100%;height:100%;object-fit:cover;mix-blend-mode:multiply;clip-path:circle(49% at 50% 50%);filter:saturate(calc(1.05 + var(--voice-level)*.8)) contrast(1.02);
         transform:scale(calc(1 + var(--voice-level)*.08));transition:transform .08s linear;animation:voiceOrbFloat 5.5s ease-in-out infinite}
   @keyframes voiceOrbFloat{0%,100%{translate:0 3px}50%{translate:0 -8px}}
   .voice-state{font-size:22px;font-weight:800;letter-spacing:-.02em;text-shadow:0 2px 18px rgba(69,60,153,.18)}
@@ -864,6 +864,13 @@ umenu.innerHTML = USERS.map(u =>
 document.getElementById("userbtn").addEventListener("click", () => umenu.classList.toggle("open"));
 document.addEventListener("click", e => { if (!e.target.closest(".userchip")) umenu.classList.remove("open"); });
 function switchUser(id){ user = USERS.find(u => u.id === id); localStorage.setItem("synapse_user", id); umenu.classList.remove("open"); applyUser(); }
+window.addEventListener("synapse-auth-ready", event => {
+  const auth = event.detail || {};
+  const role = ["admin","qa","maintenance","ops"].includes(auth.role) ? auth.role : "maintenance";
+  const labels = {admin:"Admin",qa:"Quality Assurance",maintenance:"Maintenance",ops:"Operations"};
+  user = {id:auth.session?.user?.id || "authenticated",name:auth.name || "User",role,label:labels[role]};
+  applyUser();
+});
 
 /* ---------------- hash router ---------------- */
 const ROUTES = ["chat","graph","rca","compliance","admin","logs","history"];
@@ -1104,7 +1111,10 @@ async function ask(text){
   appendUser(text); qEl.value = ""; qEl.style.height = "auto";
   const {el, timer} = addThinking();
   try{
-    const res = await fetch(API, {method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({question: text})});
+    const accessToken = await window.synapseGetAccessToken?.();
+    const headers = {"Content-Type":"application/json"};
+    if(accessToken) headers.Authorization = `Bearer ${accessToken}`;
+    const res = await fetch(API, {method:"POST", headers, body: JSON.stringify({question: text})});
     clearInterval(timer);
     let data; try{ data = await res.json(); }catch{ throw new Error("Server returned an invalid response."); }
     if (!res.ok || data.error){ renderError(el, data.error || ("Server error (" + res.status + ").")); }

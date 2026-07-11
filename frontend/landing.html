@@ -65,10 +65,17 @@
   .scroll-hint span{animation:hint 1.8s var(--ease) infinite}
   @keyframes hint{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
   @media(max-width:900px){
-    .hero{min-height:0;padding:70px 0 40px}
-    .hero .panel{width:100%;top:auto;height:34%}
-    .hero .wrap{grid-template-columns:1fr}
-    #graphbox{position:relative;top:0;transform:none;width:100%;margin-top:40px}
+    .hero{min-height:0;padding:54px 0 0;display:flex;flex-direction:column;align-items:stretch}
+    .hero .panel{width:100%;top:auto;height:42%;z-index:0}
+    .hero .wrap{grid-template-columns:1fr;order:1;padding-bottom:20px}
+    #graphbox{position:relative;inset:auto;transform:none;width:110%;max-width:none;margin:10px -5% -5%;order:2;z-index:1}
+    .scroll-hint{display:none}
+  }
+
+  @media(max-width:600px){
+    .wrap{padding-left:20px;padding-right:20px}nav .bar{height:62px}.brand{font-size:16px}.brand img{height:25px}
+    nav .btn{padding:9px 14px;font-size:12px}.hero{padding-top:38px}.hero h1{font-size:clamp(39px,12vw,56px);line-height:1.02;margin-top:14px}.hero .sub{font-size:15.5px;line-height:1.55;margin-top:18px}.hero .cta-row{display:grid;grid-template-columns:1fr;margin-top:25px}.hero .cta-row .btn{justify-content:center;width:100%}
+    #graphbox{width:128%;margin:8px -14% -9%}.problem,.story,.stats,.quote,.faq{padding-top:72px;padding-bottom:72px}.pgrid{margin-top:30px}.pcard{padding:22px}.story .grid{gap:12px}.story-visual{height:340px;border-radius:20px}.step{padding:27px 0}.stats-row{gap:25px 12px}.demo{padding-bottom:75px}.demo .frame{border-radius:14px}.caps{padding-top:55px}.ccard{min-height:285px}.mascot{padding-top:60px}.mascot .grid{gap:12px}.foot{align-items:flex-start;flex-direction:column}.foot .links{gap:14px;flex-wrap:wrap}.footmark{font-size:28vw}
   }
 
   /* graph drawing: edges draw in, nodes float, pulses ripple */
@@ -249,7 +256,7 @@
       <a href="#demo">Demo</a>
       <a href="#faq">FAQ</a>
     </div>
-    <a class="btn btn-dark" href="/app">Launch console</a>
+    <a class="btn btn-dark" href="/login">Sign in</a>
   </div>
 </nav>
 
@@ -270,7 +277,7 @@
       <h1 class="reveal d1">One brain for your entire plant<span class="dot">.</span></h1>
       <p class="sub reveal d2">Synapse connects your knowledge graph, plant databases and technical documents — then answers any question with the evidence chain to prove it.</p>
       <div class="cta-row reveal d3">
-        <a class="btn btn-dark" href="/app">Ask Synapse</a>
+        <a class="btn btn-dark" href="/login">Sign in to Synapse</a>
         <a class="btn btn-ghost" href="#solutions">See how it works</a>
       </div>
     </div>
@@ -448,7 +455,7 @@
         <span class="tag reveal">Meet Synapse</span>
         <h2 class="reveal d1">Your plant's intelligence, with a face.</h2>
         <p class="lead reveal d2">Synapse sits on top of your graph, databases and documents and answers in plain language — every response cited to the exact record behind it. Launch the console and ask it anything about a coil, a failure or a standard.</p>
-        <div class="cta-row reveal d3" style="margin-top:28px"><a class="btn btn-dark" href="/app">Launch console</a></div>
+        <div class="cta-row reveal d3" style="margin-top:28px"><a class="btn btn-dark" href="/login">Launch console</a></div>
       </div>
       <div class="vidwrap reveal d1">
         <video src="assets/synapse-mascot.mp4" poster="assets/synapse-mascot-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
@@ -497,7 +504,7 @@
 <section class="cta">
   <div class="wrap">
     <h2 class="reveal">Ask your plant a hard question<span style="color:var(--indigo)">.</span></h2>
-    <a class="btn btn-dark reveal d1" href="/app">Start asking →</a>
+    <a class="btn btn-dark reveal d1" href="/login?mode=register">Create your account →</a>
   </div>
 </section>
 
@@ -506,7 +513,7 @@
   <div class="wrap foot">
     <a class="brand" href="#top"><img src="assets/synapse-logo.png" alt="" style="height:24px" />Synapse</a>
     <div class="links">
-      <a href="#problem">Why</a><a href="#solutions">Platform</a><a href="#capabilities">Product</a><a href="#demo">Meet Synapse</a><a href="/app">Console</a>
+      <a href="#problem">Why</a><a href="#solutions">Platform</a><a href="#capabilities">Product</a><a href="#demo">Meet Synapse</a><a href="/login">Console</a>
     </div>
     <span class="fine">© 2026 Synapse Intelligence — Rajendra Steel Plant demo</span>
   </div>

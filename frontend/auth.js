@@ -45,17 +45,21 @@ function setupAuthPage(){
   if (!form || !supabase) return;
   const shell = document.getElementById("auth-shell"), status = document.getElementById("auth-status");
   const submit = document.getElementById("auth-submit"), loginTab = document.getElementById("auth-tab-login"), registerTab = document.getElementById("auth-tab-register");
+  const swipe = document.getElementById("auth-swipe"), swipeHandle = document.getElementById("swipe-handle"), swipeLabel = document.getElementById("swipe-label");
   let mode = new URLSearchParams(location.search).get("mode") === "register" ? "signup" : "signin";
+  const resetSwipe = () => { swipe.classList.remove("dragging","complete","loading"); swipe.style.setProperty("--swipe-x","0px"); };
+  const submitSwipe = () => { if (swipe.classList.contains("loading")) return; swipe.classList.add("complete","loading"); form.requestSubmit(submit); };
   const render = () => {
     const signup = mode === "signup"; shell.classList.toggle("signup", signup);
     document.getElementById("auth-title").textContent = signup ? "Create account" : "Sign in";
     document.getElementById("auth-copy").textContent = signup ? "Set up your profile and choose your demo plant role." : "Use your Synapse credentials to continue.";
     document.getElementById("visual-title").textContent = signup ? "Let’s set up your workspace." : "Welcome back.";
     document.getElementById("visual-copy").textContent = signup ? "Your Synapse assistant is taking note of your role and access." : "Continue your traceable plant investigations securely.";
-    submit.textContent = signup ? "Create Synapse account" : "Log in to Synapse";
+    swipeLabel.textContent = signup ? "Swipe to create account" : "Swipe to log in";
+    swipeHandle.setAttribute("aria-label", swipeLabel.textContent);
     loginTab.classList.toggle("active", !signup); registerTab.classList.toggle("active", signup);
     loginTab.setAttribute("aria-selected", String(!signup)); registerTab.setAttribute("aria-selected", String(signup));
-    form.full_name.required = signup; form.confirm_password.required = signup; form.password.autocomplete = signup ? "new-password" : "current-password";
+    form.full_name.required = signup; form.confirm_password.required = signup; form.password.autocomplete = signup ? "new-password" : "current-password"; resetSwipe();
   };
   render();
   loginTab.onclick = () => { mode = "signin"; status.textContent = ""; render(); };
@@ -67,16 +71,23 @@ function setupAuthPage(){
     status.textContent = error ? error.message : "Password reset instructions have been sent to your email.";
     status.className = error ? "status error" : "status success";
   };
+  let dragStart = 0, dragMax = 0;
+  swipeHandle.addEventListener("pointerdown", event => { if (swipe.classList.contains("loading")) return; dragStart = event.clientX; dragMax = Math.max(1, swipe.clientWidth - swipeHandle.offsetWidth - 10); swipe.classList.add("dragging"); swipeHandle.setPointerCapture(event.pointerId); });
+  swipeHandle.addEventListener("pointermove", event => { if (!swipe.classList.contains("dragging")) return; const x = Math.max(0, Math.min(dragMax, event.clientX - dragStart)); swipe.style.setProperty("--swipe-x", `${x}px`); });
+  const finishDrag = event => { if (!swipe.classList.contains("dragging")) return; const x = Math.max(0, Math.min(dragMax, event.clientX - dragStart)); swipe.classList.remove("dragging"); if (x >= dragMax * .72) submitSwipe(); else resetSwipe(); };
+  swipeHandle.addEventListener("pointerup", finishDrag); swipeHandle.addEventListener("pointercancel", resetSwipe);
+  swipeHandle.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); submitSwipe(); } });
+  form.addEventListener("invalid", resetSwipe, true);
   form.onsubmit = async event => {
-    event.preventDefault(); submit.disabled = true; status.textContent = ""; status.className = "status";
+    event.preventDefault(); submit.disabled = true; swipe.classList.add("loading"); status.textContent = ""; status.className = "status";
     const email = form.email.value.trim(), password = form.password.value;
-    if (mode === "signup" && password !== form.confirm_password.value) { submit.disabled = false; status.textContent = "Passwords do not match."; status.className = "status error"; return; }
+    if (mode === "signup" && password !== form.confirm_password.value) { submit.disabled = false; resetSwipe(); status.textContent = "Passwords do not match."; status.className = "status error"; return; }
     const result = mode === "signin" ? await supabase.auth.signInWithPassword({ email, password }) : await supabase.auth.signUp({
       email, password, options: { emailRedirectTo: `${location.origin}/app`, data: { full_name: form.full_name.value.trim(), requested_role: form.role.value } }
     });
     submit.disabled = false;
-    if (result.error) { status.textContent = result.error.message; status.className = "status error"; return; }
-    if (mode === "signup" && !result.data.session) { status.textContent = "Account created. Check your email to confirm it, then sign in."; status.className = "status success"; return; }
+    if (result.error) { resetSwipe(); status.textContent = result.error.message; status.className = "status error"; return; }
+    if (mode === "signup" && !result.data.session) { resetSwipe(); status.textContent = "Account created. Check your email to confirm it, then sign in."; status.className = "status success"; return; }
     const next = new URLSearchParams(location.search).get("next") || "/app";
     location.replace(next.startsWith("/") ? next : "/app");
   };

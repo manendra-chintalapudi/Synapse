@@ -22,7 +22,9 @@ langchain-huggingface==1.2.2
 sentence-transformers==5.6.0
 transformers==5.13.0
 torch==2.12.1
-numpy==2.5.1
+# NumPy 2.5.x requires a newer Python than the Railway Python 3.11 runtime.
+# 2.3.5 publishes CPython 3.11 Linux wheels and remains compatible with this stack.
+numpy==2.3.5
 
 # --- OpenRouter HTTP (router tier-3 + synthesizer) ---
 requests==2.34.2

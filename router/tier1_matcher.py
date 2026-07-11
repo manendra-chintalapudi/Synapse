@@ -16,6 +16,7 @@ import re
 ID_PATTERNS = {
     "coil": re.compile(r"\bC\d{5}\b", re.IGNORECASE),
     "equipment": re.compile(r"\bEQ-[A-Z]{2,4}-\d{2}\b", re.IGNORECASE),
+    "failure": re.compile(r"\bF\d{4}\b", re.IGNORECASE),
     "standard": re.compile(r"\bSTD-[A-Z0-9]+-\d{2}\b", re.IGNORECASE),
     "technician": re.compile(r"\bT\d{4}\b", re.IGNORECASE),
 }

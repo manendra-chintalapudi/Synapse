@@ -46,7 +46,7 @@ SYSTEM_HINTS = [
     ("scada", r"\bequipment\b|\bsensor(s)?\b|\benergy\b|\btemperature\b"),
 ]
 
-ENTITY_LAYER = {"coil": "graph", "equipment": "graph", "standard": "graph",
+ENTITY_LAYER = {"coil": "graph", "equipment": "graph", "failure": "graph", "standard": "graph",
                 "technician": "graph", "doc_type": "documents"}
 
 

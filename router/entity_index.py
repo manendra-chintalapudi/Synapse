@@ -5,7 +5,7 @@ Builds a lookup of every referenceable entity from the existing node JSON files 
 questions can be matched against real IDs and names without any LLM or DB call.
 
 build_entity_index() -> {entity_type: [{"id", "name", "aliases": [...]}, ...]}
-entity types: coil, equipment, standard, technician, doc_type
+entity types: coil, equipment, failure, standard, technician, doc_type
 """
 import json
 import re
@@ -81,6 +81,12 @@ def build_entity_index():
         index["equipment"].append(
             {"id": e["equipment_id"], "name": e["name"], "aliases": sorted(aliases)}
         )
+
+    index["failure"] = [
+        {"id": f["failure_id"], "name": f["failure_id"],
+         "aliases": [f["failure_id"].lower()]}
+        for f in _load("failure")
+    ]
 
     index["standard"] = [
         {"id": s["standard_id"], "name": s["name"],

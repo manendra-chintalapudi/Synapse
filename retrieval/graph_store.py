@@ -56,6 +56,24 @@ TEMPLATES = {
                [x IN collect(DISTINCT r{.rca_id, .rca_date, .root_cause_text, .corrective_action, .industry_reference}) | x][..8] AS rca_records,
                [x IN collect(DISTINCT t.name) | x][..8] AS rca_analysts
     """,
+    "failure": """
+        MATCH (e:Equipment)-[:EXPERIENCED]->(f:Failure {failure_id: $id})
+        OPTIONAL MATCH (f)-[:DIAGNOSED_BY]->(r:RCA)
+        OPTIONAL MATCH (r)-[:PERFORMED_BY]->(t:Technician)
+        OPTIONAL MATCH (f)-[:DOCUMENTED_IN]->(d:Document)
+        OPTIONAL MATCH (p:Procedure {procedure_id: r.procedure_ref})
+        RETURN f{.failure_id, .failure_mode, .timestamp, .sensor_values,
+                 .impacted_coil_ids, .impacted_failed_tests} AS failure,
+               e{.equipment_id, .name, .type, relationship:'EXPERIENCED'} AS equipment,
+               [x IN collect(DISTINCT r{.rca_id, .rca_date, .root_cause_text,
+                    .corrective_action, .violated_step, .procedure_ref,
+                    .industry_reference}) | x][..4] AS rca_records,
+               [x IN collect(DISTINCT t{.technician_id, .name, .role, .shift}) | x][..4] AS rca_analysts,
+               [x IN collect(DISTINCT p{.procedure_id, .title,
+                    relationship:'PROCEDURE_REVIEWED'}) | x][..4] AS procedures,
+               [x IN collect(DISTINCT d{.document_id, .title, .doc_type,
+                    relationship:'DOCUMENTED_IN'}) | x][..4] AS documents
+    """,
     "standard": """
         MATCH (s:Standard {standard_id: $id})
         OPTIONAL MATCH (qt:QualityTest)-[:FAILED_STANDARD]->(s)

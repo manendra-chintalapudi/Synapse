@@ -128,16 +128,21 @@ def build_evidence_block(retrieval_plan, graph_results, structured_results, docu
     """Assemble labeled evidence sections. Layers that were queried but returned nothing
     are explicitly marked 'none found' rather than silently omitted."""
     layers = retrieval_plan.get("layers", [])
+    retrieval_errors = retrieval_plan.get("retrieval_errors", {})
     parts = []
 
     if "graph" in layers:
-        if graph_results:
+        if retrieval_errors.get("graph"):
+            parts.append("[Graph unavailable: Neo4j connection failed; do not infer graph facts]")
+        elif graph_results:
             parts.append("[Graph — Neo4j]\n" + _fmt_rows(graph_results))
         else:
             parts.append("[Graph — Neo4j: none found]")
 
     if "structured" in layers:
-        if structured_results:
+        if retrieval_errors.get("structured"):
+            parts.append("[DFS unavailable: structured store query failed; do not infer SQL facts]")
+        elif structured_results:
             for system, rows in structured_results.items():
                 # system may be a bare catalog ('qms') or a labelled join ('qms+erp (federated)')
                 label = str(system).upper()
@@ -149,7 +154,9 @@ def build_evidence_block(retrieval_plan, graph_results, structured_results, docu
             parts.append("[DFS/Trino: none found]")
 
     if "documents" in layers:
-        if document_results:
+        if retrieval_errors.get("documents"):
+            parts.append("[RAG unavailable: document search failed; do not infer document facts]")
+        elif document_results:
             for chunk in document_results:
                 doc_id = chunk.get("document_id") or chunk.get("source_document_id", "?")
                 parts.append(

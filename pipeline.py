@@ -169,6 +169,7 @@ def ask_synapse(question: str) -> dict:
     t_route = time.perf_counter() - t0
 
     graph_results = structured_results = document_results = None
+    retrieval_errors = {}
     t_retrieval = 0.0
 
     # unresolvable plans short-circuit in the synthesizer -- skip retrieval entirely
@@ -183,16 +184,27 @@ def ask_synapse(question: str) -> dict:
                 futures["structured"] = pool.submit(structured_retrieval, question, details)
             if "documents" in plan["layers"]:
                 futures["documents"] = pool.submit(documents_retrieval, question, details)
-            graph_results = futures["graph"].result() if "graph" in futures else None
-            structured_results = futures["structured"].result() if "structured" in futures else None
-            document_results = futures["documents"].result() if "documents" in futures else None
+            completed = {}
+            for layer, future in futures.items():
+                try:
+                    completed[layer] = future.result()
+                except Exception as exc:
+                    completed[layer] = None
+                    retrieval_errors[layer] = f"{type(exc).__name__}: {str(exc)[:240]}"
+            graph_results = completed.get("graph")
+            structured_results = completed.get("structured")
+            document_results = completed.get("documents")
         t_retrieval = time.perf_counter() - t1
+
+    if retrieval_errors:
+        plan["retrieval_errors"] = retrieval_errors
 
     t2 = time.perf_counter()
     result = synthesize_answer(question, plan, graph_results, structured_results, document_results)
     t_synth = time.perf_counter() - t2
 
     result["retrieval_plan"] = plan
+    result["retrieval_errors"] = retrieval_errors
     result["latency"] = {
         "routing_s": round(t_route, 2),
         "retrieval_s": round(t_retrieval, 2),
@@ -201,7 +213,7 @@ def ask_synapse(question: str) -> dict:
         "cache_hit": False,
     }
     # Do not turn a transient provider outage into a five-minute cached outage.
-    if result.get("model_used") != "error":
+    if result.get("model_used") != "error" and not retrieval_errors:
         _cache_put(question, result)
     return result
 

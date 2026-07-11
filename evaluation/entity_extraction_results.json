@@ -1,0 +1,415 @@
+{
+  "benchmark": "explicit canonical entity-reference extraction",
+  "scope_note": "Does not measure implicit or name-only entity recognition.",
+  "sample_size": 25,
+  "sample_distribution": {
+    "equipment_manual": 9,
+    "sop": 8,
+    "deviation_report": 8
+  },
+  "ontology_inventory_size": 3797,
+  "overall": {
+    "true_positives": 73,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "by_document_type": {
+    "equipment_manual": {
+      "true_positives": 18,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "sop": {
+      "true_positives": 19,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "deviation_report": {
+      "true_positives": 36,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "documents": [
+    {
+      "document_id": "DOC1001",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1001",
+        "EQ-BF-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1004",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1004",
+        "EQ-HBS-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1011",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1011",
+        "EQ-SPF-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1016",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1016",
+        "EQ-EAF-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1033",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1033",
+        "EQ-LF-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1060",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1060",
+        "EQ-CCM-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1061",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1061",
+        "EQ-RHF-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1062",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1062",
+        "EQ-RMS-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1063",
+      "document_type": "equipment_manual",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1063",
+        "EQ-FMS-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "F1"
+      ]
+    },
+    {
+      "document_id": "DOC1008",
+      "document_type": "sop",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1008",
+        "PROC-006"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-CB-01"
+      ]
+    },
+    {
+      "document_id": "DOC1009",
+      "document_type": "sop",
+      "gold_count": 3,
+      "predicted_count": 3,
+      "true_positives": [
+        "DOC1009",
+        "EQ-LF-01",
+        "PROC-001"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1013",
+      "document_type": "sop",
+      "gold_count": 3,
+      "predicted_count": 3,
+      "true_positives": [
+        "DOC1013",
+        "EQ-CR-03",
+        "PROC-014"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1025",
+      "document_type": "sop",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1025",
+        "PROC-007"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-CB-02"
+      ]
+    },
+    {
+      "document_id": "DOC1026",
+      "document_type": "sop",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1026",
+        "PROC-009"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-LF-03"
+      ]
+    },
+    {
+      "document_id": "DOC1027",
+      "document_type": "sop",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1027",
+        "PROC-002"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-CB-01"
+      ]
+    },
+    {
+      "document_id": "DOC1028",
+      "document_type": "sop",
+      "gold_count": 3,
+      "predicted_count": 3,
+      "true_positives": [
+        "DOC1028",
+        "EQ-LF-01",
+        "PROC-011"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1031",
+      "document_type": "sop",
+      "gold_count": 2,
+      "predicted_count": 2,
+      "true_positives": [
+        "DOC1031",
+        "PROC-020"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-HRM-02"
+      ]
+    },
+    {
+      "document_id": "DOC1003",
+      "document_type": "deviation_report",
+      "gold_count": 4,
+      "predicted_count": 4,
+      "true_positives": [
+        "C10298",
+        "DEV1458",
+        "DOC1003",
+        "STD-IS1786-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-LF-03"
+      ]
+    },
+    {
+      "document_id": "DOC1010",
+      "document_type": "deviation_report",
+      "gold_count": 5,
+      "predicted_count": 5,
+      "true_positives": [
+        "C10270",
+        "DEV1117",
+        "DOC1010",
+        "EQ-LF-01",
+        "STD-IS2062-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1021",
+      "document_type": "deviation_report",
+      "gold_count": 5,
+      "predicted_count": 5,
+      "true_positives": [
+        "C10001",
+        "DEV1265",
+        "DOC1021",
+        "EQ-BF-01",
+        "STD-IS1786-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1022",
+      "document_type": "deviation_report",
+      "gold_count": 5,
+      "predicted_count": 5,
+      "true_positives": [
+        "C10344",
+        "DEV1190",
+        "DOC1022",
+        "EQ-LF-02",
+        "STD-IS1786-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1023",
+      "document_type": "deviation_report",
+      "gold_count": 4,
+      "predicted_count": 4,
+      "true_positives": [
+        "C10098",
+        "DEV1154",
+        "DOC1023",
+        "STD-IS2062-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-HRM-01"
+      ]
+    },
+    {
+      "document_id": "DOC1029",
+      "document_type": "deviation_report",
+      "gold_count": 4,
+      "predicted_count": 4,
+      "true_positives": [
+        "C10149",
+        "DEV1297",
+        "DOC1029",
+        "STD-IS1786-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-BF-02"
+      ]
+    },
+    {
+      "document_id": "DOC1035",
+      "document_type": "deviation_report",
+      "gold_count": 5,
+      "predicted_count": 5,
+      "true_positives": [
+        "C10083",
+        "DEV1390",
+        "DOC1035",
+        "EQ-LF-02",
+        "STD-IS2062-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": []
+    },
+    {
+      "document_id": "DOC1037",
+      "document_type": "deviation_report",
+      "gold_count": 4,
+      "predicted_count": 4,
+      "true_positives": [
+        "C10150",
+        "DEV1148",
+        "DOC1037",
+        "STD-IS1786-01"
+      ],
+      "false_positives": [],
+      "false_negatives": [],
+      "rejected_unknown_candidates": [
+        "EQ-BF-03"
+      ]
+    }
+  ]
+}

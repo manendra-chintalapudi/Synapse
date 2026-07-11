@@ -119,6 +119,7 @@ def health():
         "neo4j": neo4j,
         "dfs": dfs,          # DuckDB federated structured store (was "trino")
         "chroma": chroma,
+        "openrouter_configured": bool(os.environ.get("OPENROUTER_API_KEY", "").strip()),
     }
 
 

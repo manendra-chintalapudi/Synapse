@@ -199,7 +199,11 @@ def synthesize_answer(question, retrieval_plan,
 
     api_key = get_openrouter_key()
     if not api_key:
-        return {"answer": ERROR_ANSWER, "sources": [], "model_used": "error"}
+        reason = "OPENROUTER_API_KEY is not configured in the backend environment."
+        return {
+            "answer": f"I couldn't generate the answer because {reason}",
+            "sources": [], "model_used": "error", "generation_error": reason,
+        }
 
     evidence = build_evidence_block(retrieval_plan, graph_results,
                                     structured_results, document_results)
@@ -247,6 +251,7 @@ def synthesize_answer(question, retrieval_plan,
         # production mode: walk the fallback chain, one attempt per model
         candidates = [(m, (0,)) for m in MODEL_CHAIN]
 
+    model_errors = []
     for model, retries in candidates:
         try:
             answer = _call(model, retries)
@@ -255,7 +260,14 @@ def synthesize_answer(question, retrieval_plan,
                 "sources": extract_sources(answer),
                 "model_used": model,
             }
-        except Exception:
+        except Exception as exc:
+            model_errors.append(f"{model}: {type(exc).__name__}: {str(exc)[:180]}")
             continue                            # advance down the chain
 
-    return {"answer": ERROR_ANSWER, "sources": [], "model_used": "error"}
+    reason = "All configured OpenRouter models failed. " + " | ".join(model_errors)
+    return {
+        "answer": ERROR_ANSWER,
+        "sources": [],
+        "model_used": "error",
+        "generation_error": reason,
+    }

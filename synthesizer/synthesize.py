@@ -258,8 +258,10 @@ def synthesize_answer(question, retrieval_plan,
         # deterministic single-model mode (testing): no fallback, but retry 429 bursts
         candidates = [(forced, (20, 40, 0))]
     else:
-        # production mode: walk the fallback chain, one attempt per model
-        candidates = [(m, (0,)) for m in MODEL_CHAIN]
+        # production mode: walk the fallback chain. Give the PRIMARY model a couple of 429
+        # backoff-retries (free-tier rate limits are bursty/transient) so one bad moment
+        # doesn't fail the whole answer; single-shot the fallbacks so latency stays bounded.
+        candidates = [(MODEL_CHAIN[0], (3, 6, 0))] + [(m, (0,)) for m in MODEL_CHAIN[1:]]
 
     model_errors = []
     for model, retries in candidates:

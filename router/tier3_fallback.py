@@ -17,13 +17,14 @@ Override either via the OPENROUTER_MODEL environment variable -- no code change 
 One OPENROUTER_API_KEY works across all OpenRouter models.
 
 Outcome tagging:
-  confidence="ambiguous-resolved"  -- the LLM produced a focused, plannable plan
-  confidence="unresolvable"        -- no specific plannable intent: the model returned a
-                                      generic all-layers plan with no focus, its own
-                                      output signalled low confidence, or the API
-                                      failed/timed out (safe default fired)
-Failure policy: on any API error, timeout, or unparseable JSON -> safe default plan
-querying all three layers. This function NEVER raises to the caller.
+  confidence="ambiguous-resolved"  -- the LLM produced a focused, plannable plan, OR the API
+                                      failed/timed out and we fall back to a best-effort
+                                      all-layers plan (answering beats stalling)
+  confidence="unresolvable"        -- the model responded but the question has no plannable
+                                      intent (generic all-layers plan / low self-confidence)
+Failure policy: on any API error, timeout, or unparseable JSON -> best-effort all-layers plan
+(confidence "ambiguous-resolved", so the pipeline still retrieves + answers rather than
+short-circuiting to a clarification). This function NEVER raises to the caller.
 """
 import json
 import os
@@ -35,7 +36,7 @@ BASE_URL = "https://openrouter.ai/api/v1"
 OPENROUTER_URL = f"{BASE_URL}/chat/completions"
 DEFAULT_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
 BACKUP_MODEL = "nvidia/nemotron-3-nano-30b-a3b:free"   # manual swap option; not auto-used
-TIMEOUT_S = int(os.environ.get("ROUTER_TIMEOUT_S", "20"))
+TIMEOUT_S = int(os.environ.get("ROUTER_TIMEOUT_S", "30"))
 MAX_TOKENS = int(os.environ.get("ROUTER_MAX_TOKENS", "500"))
 ALLOWED_LAYERS = {"graph", "structured", "documents"}
 ALL_LAYERS = ["graph", "structured", "documents"]
@@ -71,18 +72,24 @@ confidence "ambiguous"."""
 
 
 def _safe_default(question, error):
+    # A transient API failure (429 rate-limit, timeout, network) must NOT be reported as
+    # "unresolvable" -- that confidence is reserved for genuinely vague questions and makes the
+    # pipeline short-circuit to a clarification ("I need more detail"), which reads as a "dumb"
+    # assistant. Instead, proceed with a best-effort all-layers plan so the question is still
+    # retrieved and answered. Genuine vagueness is still caught in fallback_plan() when the
+    # model DOES respond.
     return {
         "layers": list(ALL_LAYERS),
         "details": {
-            "reason": "Tier-3 LLM unavailable or failed; querying all layers as a safe default",
+            "reason": "Tier-3 router LLM unavailable; best-effort all-layers retrieval",
             "error": str(error)[:200],
             "structured_systems": ["erp", "scada", "qms", "cmms"],
             "graph_focus": "",
             "document_filters": {},
             "search_text": question,
         },
-        "confidence": "unresolvable",
-        "source": "tier3_default",
+        "confidence": "ambiguous-resolved",
+        "source": "tier3_degraded",
     }
 
 

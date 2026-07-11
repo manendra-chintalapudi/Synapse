@@ -179,10 +179,27 @@
         padding:6px 13px;font-size:12px;font-weight:700;color:var(--muted);cursor:pointer;transition:.13s}
   .modes button svg{width:13px;height:13px}
   .modes button.on{background:var(--accent-soft);border-color:#D9DCFA;color:var(--accent)}
+  .comp-actions{display:flex;align-items:center;gap:8px}
   .send{width:40px;height:40px;border:0;border-radius:12px;cursor:pointer;background:var(--accent);
         display:grid;place-items:center;transition:.15s;box-shadow:0 6px 16px rgba(75,84,210,.35)}
   .send:hover{transform:translateY(-1px)} .send:disabled{opacity:.5;cursor:not-allowed;transform:none}
   .send svg{width:18px;height:18px;color:#fff}
+  /* voice input (Web Speech API) */
+  .mic{position:relative;width:40px;height:40px;border:1px solid var(--line);border-radius:12px;cursor:pointer;
+        background:#fff;color:#6A6E8A;display:grid;place-items:center;transition:.15s;flex:0 0 auto}
+  .mic:hover{border-color:var(--accent-2);color:var(--accent)}
+  .mic .ic-mic{width:19px;height:19px}
+  .mic.listening{background:#FDECEC;border-color:#F3C6C6;color:#C0392B}
+  .mic.listening .ic-mic{display:none}
+  .mic-wave{display:none;align-items:center;gap:2.5px;height:18px}
+  .mic.listening .mic-wave{display:flex}
+  .mic-wave i{width:2.5px;border-radius:2px;background:#C0392B;animation:micwave .9s ease-in-out infinite}
+  .mic-wave i:nth-child(1){height:6px;animation-delay:0s}
+  .mic-wave i:nth-child(2){height:14px;animation-delay:.12s}
+  .mic-wave i:nth-child(3){height:18px;animation-delay:.24s}
+  .mic-wave i:nth-child(4){height:11px;animation-delay:.36s}
+  .mic-wave i:nth-child(5){height:7px;animation-delay:.48s}
+  @keyframes micwave{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
 
   /* ---------- placeholder pages ---------- */
   .ph{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px}
@@ -560,9 +577,15 @@
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M8 11h6M11 8v6"/></svg>
                 Deep Analysis</button>
             </div>
-            <button class="send" id="send" onclick="onSend()" aria-label="Send">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-            </button>
+            <div class="comp-actions">
+              <button class="mic" id="mic" onclick="toggleMic()" aria-label="Voice input" title="Speak your question">
+                <svg class="ic-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+                <span class="mic-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+              </button>
+              <button class="send" id="send" onclick="onSend()" aria-label="Send">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -948,6 +971,40 @@ async function ask(text){
   }
 }
 function onSend(){ ask(qEl.value); }
+
+/* ---------------- speech-to-text (Web Speech API — browser-native, no backend/key) ---------------- */
+const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
+const micBtn = document.getElementById("mic");
+let recog = null, listening = false, micBase = "";
+if (!SpeechRec) {
+  if (micBtn) micBtn.style.display = "none";          // unsupported browser (e.g. Firefox) → hide it
+} else {
+  recog = new SpeechRec();
+  recog.lang = navigator.language || "en-US";
+  recog.interimResults = true;
+  recog.continuous = false;
+  recog.onstart = () => { listening = true; micBtn.classList.add("listening"); micBase = qEl.value ? qEl.value.replace(/\s+$/,"") + " " : ""; };
+  recog.onend = () => { listening = false; if (micBtn) micBtn.classList.remove("listening"); };
+  recog.onerror = (e) => {
+    listening = false; if (micBtn) micBtn.classList.remove("listening");
+    if (e.error === "not-allowed" || e.error === "service-not-allowed") micBtn.title = "Microphone blocked — allow it in the browser to use voice";
+  };
+  recog.onresult = (e) => {
+    let interim = "", finalTxt = "";
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const t = e.results[i][0].transcript;
+      if (e.results[i].isFinal) finalTxt += t; else interim += t;
+    }
+    qEl.value = micBase + finalTxt + interim;
+    qEl.dispatchEvent(new Event("input"));            // trigger the textarea auto-resize
+    if (finalTxt) micBase = qEl.value.replace(/\s+$/,"") + " ";
+  };
+}
+function toggleMic(){
+  if (!recog) return;
+  if (listening) { recog.stop(); return; }
+  try { qEl.focus(); recog.start(); } catch (_) { /* start() throws if already running */ }
+}
 
 /* ---------------- boot ---------------- */
 applyUser();

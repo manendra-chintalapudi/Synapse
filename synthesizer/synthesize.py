@@ -49,7 +49,11 @@ MODEL_CHAIN = [
     "google/gemma-4-31b-it:free",
 ]
 PRIMARY_MODEL = MODEL_CHAIN[0]
-TIMEOUT_S = 120
+TIMEOUT_S = int(os.environ.get("SYNTHESIZER_TIMEOUT_S", "45"))
+MAX_TOKENS = int(os.environ.get("SYNTHESIZER_MAX_TOKENS", "1200"))
+REASONING_EFFORT = os.environ.get("SYNTHESIZER_REASONING_EFFORT", "medium").lower()
+if REASONING_EFFORT not in {"low", "medium", "high"}:
+    REASONING_EFFORT = "medium"
 
 CLARIFYING_ANSWER = (
     "I need a bit more detail to answer that -- could you specify a coil, piece of "
@@ -207,8 +211,8 @@ def synthesize_answer(question, retrieval_plan,
                 {"role": "user", "content": user_msg},
             ],
             "temperature": 0.1,
-            "max_tokens": 4000,
-            "reasoning": {"effort": "high"},   # OpenRouter unified reasoning-depth param
+            "max_tokens": MAX_TOKENS,
+            "reasoning": {"effort": REASONING_EFFORT},
         }
         for backoff in retries:
             resp = requests.post(CHAT_URL, headers=headers, json=payload, timeout=TIMEOUT_S)

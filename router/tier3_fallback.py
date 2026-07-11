@@ -35,7 +35,8 @@ BASE_URL = "https://openrouter.ai/api/v1"
 OPENROUTER_URL = f"{BASE_URL}/chat/completions"
 DEFAULT_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
 BACKUP_MODEL = "nvidia/nemotron-3-nano-30b-a3b:free"   # manual swap option; not auto-used
-TIMEOUT_S = 45
+TIMEOUT_S = int(os.environ.get("ROUTER_TIMEOUT_S", "20"))
+MAX_TOKENS = int(os.environ.get("ROUTER_MAX_TOKENS", "500"))
 ALLOWED_LAYERS = {"graph", "structured", "documents"}
 ALL_LAYERS = ["graph", "structured", "documents"]
 
@@ -127,7 +128,7 @@ def fallback_plan(question: str) -> dict:
                     {"role": "user", "content": question},
                 ],
                 "temperature": 0,
-                "max_tokens": 4000,
+                "max_tokens": MAX_TOKENS,
             },
             timeout=TIMEOUT_S,
         )

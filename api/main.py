@@ -39,6 +39,11 @@ FRONTEND = SYNAPSE_ROOT / "frontend"
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    # Railway must become ready before loading the relatively large embedding stack.
+    # Keep eager warm-up opt-in; the first document query initializes it on demand.
+    if os.environ.get("WARM_UP_ON_STARTUP", "false").lower() not in {"1", "true", "yes"}:
+        yield
+        return
     # pre-load the embedding model + vector store so the first real request is fast
     try:
         warm_up()
@@ -115,6 +120,12 @@ def health():
         "dfs": dfs,          # DuckDB federated structured store (was "trino")
         "chroma": chroma,
     }
+
+
+@app.get("/healthz")
+def readiness():
+    """Lightweight process readiness endpoint for Railway; no dependency probes."""
+    return {"status": "ok"}
 
 
 # ---- serve the front-end from the same origin as the API ----

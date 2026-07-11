@@ -186,6 +186,16 @@ def extract_sources(answer):
     return out
 
 
+def _validate_answer(answer):
+    """Reject corrupted/free-provider output before it can be returned or cached."""
+    if len(answer) < 40:
+        raise ValueError("model answer was too short")
+    if answer.lower().count("<unk>") > 1:
+        raise ValueError("model answer contained corrupted unknown-token output")
+    if not _SOURCE_TAG_RX.search(answer):
+        raise ValueError("model answer contained no evidence citation")
+
+
 def synthesize_answer(question, retrieval_plan,
                       graph_results=None, structured_results=None, document_results=None):
     """Produce a grounded, cited answer from retrieved evidence. Never raises."""
@@ -255,6 +265,7 @@ def synthesize_answer(question, retrieval_plan,
     for model, retries in candidates:
         try:
             answer = _call(model, retries)
+            _validate_answer(answer)
             return {
                 "answer": answer,
                 "sources": extract_sources(answer),

@@ -359,6 +359,125 @@
   .gp-relgroup .it .ra{color:var(--dim);font-weight:700}
   .gp-relgroup .it .rn{flex:1;color:#3B3E5C;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .gp-relgroup .it .rn:hover{color:var(--accent);text-decoration:underline}
+
+  /* ================= RESPONSIVE / MOBILE ================= */
+  @media (max-width:900px){
+    html,body{height:100%;height:100dvh}
+    body{overscroll-behavior:none}
+    .app{height:100dvh;padding:0 0 calc(66px + env(safe-area-inset-bottom));gap:0;background:#fff}
+    .main{min-width:0;border-radius:0;box-shadow:none}
+
+    /* Sidebar becomes a thumb-friendly bottom navigation bar. */
+    .side{position:fixed;z-index:100;left:0;right:0;bottom:0;width:100%;height:calc(66px + env(safe-area-inset-bottom));
+          padding:6px 8px env(safe-area-inset-bottom);border-radius:0;border-top:1px solid var(--line);box-shadow:0 -8px 28px rgba(32,35,58,.08)}
+    .side .logo,.side .search,.side .sess-wrap,.side .userchip{display:none}
+    .nav{height:60px;flex-direction:row;align-items:stretch;gap:3px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+    .nav::-webkit-scrollbar{display:none}
+    .nav a{min-width:68px;flex:1 0 68px;min-height:52px;padding:6px 5px;gap:3px;justify-content:center;flex-direction:column;
+           text-align:center;font-size:0;line-height:1.1;border-radius:11px;white-space:nowrap}
+    .nav a svg{width:20px;height:20px}
+    .nav a:after{font-size:9.5px;font-weight:700}
+    .nav a[data-route="chat"]:after{content:"Chat"}
+    .nav a[data-route="graph"]:after{content:"Graph"}
+    .nav a[data-route="rca"]:after{content:"RCA"}
+    .nav a[data-route="compliance"]:after{content:"Standards"}
+    .nav a[data-route="admin"]:after{content:"Admin"}
+    .nav a[data-route="logs"]:after{content:"Logs"}
+    .nav a[data-route="history"]:after{content:"History"}
+
+    .top{min-height:58px;padding:9px 12px;gap:8px}
+    .modesel{min-width:0;padding:8px 10px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .modesel .chev{display:none}
+    .top .right{gap:7px;min-width:0}
+    .rolebadge{max-width:118px;padding:5px 9px;font-size:10.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .newchat{width:42px;height:42px;padding:0;display:grid;place-items:center;font-size:0;flex:0 0 auto}
+    .newchat svg{width:18px;height:18px}
+
+    .chatcol{max-width:none;padding:0 12px}
+    .log{padding:10px 0 6px}
+    .msg{gap:7px;margin:10px 0}
+    .avatar,.thinkorb{width:28px;height:28px}
+    .bubble{max-width:calc(100% - 35px);padding:11px 12px;border-radius:14px;font-size:13.5px;line-height:1.55;
+            overflow-wrap:anywhere;word-break:normal}
+    .msg.user .bubble{max-width:84%}
+    .badge{white-space:normal;overflow-wrap:anywhere}
+    .da .blk{padding:10px}
+    .plan .body{padding:9px}
+    .plan .row{display:grid;grid-template-columns:82px minmax(0,1fr);gap:5px}
+    .plan .k{min-width:0}
+
+    .empty{justify-content:flex-start;padding:7vh 4px 0;overflow-y:auto}
+    .orbwrap{margin-bottom:0}
+    .orbwrap:before{width:210px;height:210px}
+    .orb{width:164px;height:164px}
+    .empty h2{font-size:22px;line-height:1.3}
+    .sugg{margin-top:15px;gap:7px;padding-bottom:12px}
+    .sugg button{padding:8px 11px;font-size:11.5px;max-width:100%;white-space:normal}
+
+    .composer{margin:7px 0 9px;padding:10px 10px 8px;border-radius:15px}
+    .composer .inrow{gap:7px}
+    .composer .spark{display:none}
+    .composer textarea{font-size:16px;min-height:42px;max-height:112px;padding:8px 2px;scrollbar-width:none}
+    .composer textarea::-webkit-scrollbar{width:0;height:0}
+    .composer .tools{margin-top:4px;gap:7px}
+    .modes{min-width:0;gap:5px}
+    .modes button{min-height:36px;padding:6px 9px;font-size:10.5px;gap:4px}
+    .send{width:42px;height:42px;flex:0 0 auto}
+
+    .histpage{padding:18px 14px}
+    .hrow{padding:11px 12px;gap:8px}
+    .hrow .d{display:none}
+    .ph{padding:24px 18px}
+
+    .kg-tabbar{padding:7px 8px 0;overflow-x:auto}
+    .kg-tabs{min-width:max-content}
+    .kgt{padding:10px 12px 11px;font-size:12px}
+    .kt{padding:16px 12px}
+    .ov-cards{grid-template-columns:1fr;gap:9px}
+    .ov-card{padding:13px 15px}
+    .ov-card b{font-size:24px}
+    .ov-grid{grid-template-columns:1fr;gap:12px}
+    .ov-box{padding:15px}
+    .dt-tools{align-items:stretch}
+    .dt-search{margin-left:0;width:100%}
+    .dt-search input{width:100%;font-size:16px}
+    #kt-data{overflow-x:auto}
+    .dt-table{min-width:650px}
+    .g-top{padding:8px;align-items:stretch;flex-direction:column;gap:7px}
+    .g-search{width:100%}
+    .g-search input{width:100%;min-width:0;font-size:16px}
+    .g-counter{order:2}
+    .g-panel{width:min(88vw,340px)}
+    .g-legend{display:none}
+    .g-zoom{right:8px;bottom:8px}
+    .sc-head{flex-direction:column}
+    .sc-tools{width:100%;overflow-x:auto}
+    #kt-schema{padding:14px 10px}
+    .sc-stage{overflow:auto;-webkit-overflow-scrolling:touch}
+    #scSvg{width:900px;max-width:none;max-height:none}
+  }
+
+  @media (max-width:520px){
+    .modesel{max-width:150px}
+    .rolebadge{max-width:96px}
+    .chatcol{padding:0 9px}
+    .empty{padding-top:4vh}
+    .orb{width:132px;height:132px}
+    .orbwrap:before{width:175px;height:175px}
+    .empty h2{font-size:19px}
+    .sugg button:nth-child(n+4){display:none}
+    .modes button{font-size:0;width:38px;padding:0;justify-content:center}
+    .modes button svg{width:15px;height:15px}
+    .plan .row{grid-template-columns:1fr;gap:1px;padding:5px 0}
+    .msg.bot .bubble{max-width:calc(100% - 31px)}
+  }
+
+  @media (max-height:640px) and (max-width:900px){
+    .empty{padding-top:12px}
+    .orbwrap{display:none}
+    .empty h2{font-size:19px}
+    .sugg{margin-top:10px}
+  }
 </style>
 </head>
 <body>
@@ -430,7 +549,7 @@
         <div class="composer">
           <div class="inrow">
             <svg class="spark" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.9 5.7a4 4 0 002.4 2.4L22 12l-5.7 1.9a4 4 0 00-2.4 2.4L12 22l-1.9-5.7a4 4 0 00-2.4-2.4L2 12l5.7-1.9a4 4 0 002.4-2.4L12 2z"/></svg>
-            <textarea id="q" rows="1" placeholder="Ask about a coil, equipment, failure, or standard…"></textarea>
+            <textarea id="q" rows="1" placeholder="Ask Synapse about your plant…"></textarea>
           </div>
           <div class="tools">
             <div class="modes">

@@ -40,8 +40,10 @@ Run the reproducible offline evidence regression:
 python evaluation/answer_quality_regression.py
 ```
 
-This verifies the three golden answers against exact locked evidence and the six automated
-contract checks. It does not measure public availability or latency.
+This verifies eight deterministic answers against exact locked evidence and the six automated
+contract checks. It covers the three golden paths plus common count, ranking, compliance-rate,
+standard-association and document-inventory questions. It does not measure public availability
+or latency.
 
 Run the three golden-path questions against a deployment:
 
@@ -113,6 +115,16 @@ This measures public wall-clock latency for simple graph, document QA and deep R
 then immediately repeats each query to measure the bounded in-process cache. The sample is
 deliberately labelled `n=3`; it is not presented as a controlled manual-work comparison.
 
+Run the routine deterministic fast-path check separately:
+
+```bash
+python evaluation/deterministic_fastpath_benchmark.py
+```
+
+It verifies that five frequent count, ranking and compliance questions produce cited answers
+with `synthesis_s = 0` and without an OpenRouter call. Answer correctness remains gated by the
+expanded deterministic answer-quality regression above.
+
 The committed `latency_results.json` records an authenticated production-UI run. Its values are
 the server latency displayed by the response panel (routing + retrieval + synthesis), not browser
 rendering or network transit. Cache-busting benchmark prefixes ensured the first pass was uncached;
@@ -146,3 +158,22 @@ python evaluation/rca_failure_validation.py
 The committed result checks `F1114`, `F1019` and `F1186`, including equipment, RCA, technician,
 procedure, deviation, quality-test, standard and document cardinalities. The page and endpoints
 are read-only and never call the LLM synthesizer.
+
+## Compliance browser
+
+The live enrichment precheck resolves 326 of 664 deviations to a same-equipment Failure and RCA
+(644 deviations are coil-sourced and 20 equipment-sourced). The validated global signal is 40 of
+326 linked deviations followed by failure within 30 days (12.27% of linked records; 6.02% of all
+deviations). This is a directional timing association, not a causal claim.
+
+Validate the highest-deviation family projection with:
+
+```bash
+python evaluation/compliance_validation.py
+```
+
+The committed result independently checks IS:1786 at 338 cohort deviations, 171 failure-linked,
+15 downstream within 30 days and mechanical overstrain as the top linked RCA cause (8/15). It also
+checks three real Deviation → Coil → Equipment → Failure → RCA chains and the frontend navigation
+contract that jumps from Compliance to the corresponding RCA detail. All Compliance endpoints are
+authenticated, cached read-only Cypher and never invoke the synthesizer.

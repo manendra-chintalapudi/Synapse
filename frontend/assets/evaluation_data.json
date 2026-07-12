@@ -25,7 +25,7 @@
       "status": "verified",
       "value": "100.0%",
       "metric": "automated contract pass rate",
-      "detail": "3 golden questions \u00b7 offline evidence regression \u00b7 expert review pending",
+      "detail": "8 golden questions \u00b7 offline evidence regression \u00b7 expert review pending",
       "caveat": "Automated rubric results are not a substitute for domain-expert scoring."
     },
     {
@@ -72,6 +72,36 @@
     {
       "id": "is2062_scope_and_action",
       "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
+      "pass_rate": 1.0,
+      "expert_status": "pending"
+    },
+    {
+      "id": "failed_coil_count",
+      "question": "How many coils failed quality testing?",
+      "pass_rate": 1.0,
+      "expert_status": "pending"
+    },
+    {
+      "id": "equipment_failure_rank",
+      "question": "Which equipment failed most this quarter?",
+      "pass_rate": 1.0,
+      "expert_status": "pending"
+    },
+    {
+      "id": "coating_fault_standard",
+      "question": "Which standard do coating faults violate?",
+      "pass_rate": 1.0,
+      "expert_status": "pending"
+    },
+    {
+      "id": "quality_deviation_rate",
+      "question": "What is the quality-test deviation rate?",
+      "pass_rate": 1.0,
+      "expert_status": "pending"
+    },
+    {
+      "id": "document_inventory",
+      "question": "How many documents are in the knowledge base?",
       "pass_rate": 1.0,
       "expert_status": "pending"
     }

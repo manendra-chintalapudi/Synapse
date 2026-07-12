@@ -75,7 +75,7 @@ TEMPLATES = {
                     .industry_reference}) | x][..4] AS rca_records,
                [x IN collect(DISTINCT t{.technician_id, .name, .role, .shift}) | x][..4] AS rca_analysts,
                [x IN collect(DISTINCT p{.procedure_id, .title,
-                    relationship:'PROCEDURE_REVIEWED'}) | x][..4] AS procedures,
+                    linkage:'RCA.procedure_ref'}) | x][..4] AS procedures,
                [x IN collect(DISTINCT d{.document_id, .title, .doc_type,
                     relationship:'DOCUMENTED_IN'}) | x][..4] AS documents
     """,
@@ -150,7 +150,9 @@ def _local_neighborhood(entity_type, entity_id):
             "equipment": _project(equipment, ["equipment_id", "name", "type"], "EXPERIENCED"),
             "rca_records": [_project(row, ["rca_id", "rca_date", "root_cause_text", "corrective_action", "violated_step", "procedure_ref", "industry_reference"]) for row in rcas[:4]],
             "rca_analysts": [_project(technicians.get(row.get("analyst")), ["technician_id", "name", "role", "shift"]) for row in rcas[:4] if technicians.get(row.get("analyst"))],
-            "procedures": [_project(procedures.get(row.get("procedure_ref")), ["procedure_id", "title"], "PROCEDURE_REVIEWED") for row in rcas[:4] if procedures.get(row.get("procedure_ref"))],
+            "procedures": [{**_project(procedures.get(row.get("procedure_ref")), ["procedure_id", "title"]),
+                            "linkage": "RCA.procedure_ref"}
+                           for row in rcas[:4] if procedures.get(row.get("procedure_ref"))],
             "documents": [_project(documents.get(doc_id), ["document_id", "title", "doc_type"], "DOCUMENTED_IN") for doc_id in documented_ids[:4] if documents.get(doc_id)],
             "_evidence_backend": "locked_ontology_snapshot",
         }]

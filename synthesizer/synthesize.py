@@ -210,11 +210,83 @@ def _validate_answer(answer):
         raise ValueError("model answer contained no evidence citation")
 
 
-def _deterministic_evidence_answer(question, graph_results, document_results):
+def _deterministic_evidence_answer(question, graph_results, document_results, structured_results=None):
     """Answer exact, high-confidence entity lookups without an external model call."""
     q = question.lower()
     graph_rows = [row for row in (graph_results or []) if isinstance(row, dict)]
     documents = document_results or []
+    structured = structured_results or {}
+
+    def rows_for(fragment):
+        return next((rows for name, rows in structured.items() if fragment in str(name).lower()), None) or []
+
+    if re.search(r"how many coils.*(fail|defect|deviat|quality)", q):
+        rows = rows_for("qms+erp")
+        metrics = {row.get("metric"): row.get("value") for row in rows}
+        failed = metrics.get("coils_with_at_least_one_failed_test")
+        total = metrics.get("total_coils")
+        tests = metrics.get("total_quality_tests")
+        if failed is not None and total:
+            rate = 100 * failed / total
+            return (
+                f"**Direct answer:** {failed} of {total} coils have at least one recorded quality deviation ({rate:.2f}%) [DFS: qms.deviations.coil_id_fk; erp.coils.coil_id].\n\n"
+                f"**Insight:** The denominator is the full ERP coil population, while the numerator is distinct coil IDs in QMS deviations; {tests or 0} quality tests provide the inspection context. **High confidence** because the counts are pre-aggregated from the source tables.\n\n"
+                "**Recommended action for QA:** Review the affected-coil list by severity and production equipment before deciding whether a targeted hold or a wider process check is required.\n\n"
+                "**Sources used:**\n- [DFS: qms.deviations.coil_id_fk; erp.coils.coil_id] distinct failed-coil numerator and total-coil denominator.\n\n"
+                "**So what:** A denominator-backed rate lets QA size the real exposure without waiting for model synthesis."
+            )
+
+    if re.search(r"which equipment (?:failed|fails) most|most (?:affected|failure-prone) equipment", q):
+        rows = rows_for("equipment failures")
+        if rows:
+            top = rows[0]
+            leaders = ", ".join(f"{row.get('equipment_name') or row.get('equipment_id')} ({row.get('failure_count')})" for row in rows[:3])
+            return (
+                f"**Direct answer:** {top.get('equipment_name') or top.get('equipment_id')} ({top.get('equipment_id')}) has the most recorded failures this quarter: {top.get('failure_count')} [DFS: cmms.failures.equipment_id; scada.equipment.name].\n\n"
+                f"**Insight:** The leading equipment ranking is {leaders}. **High confidence** for the ranking because it is a direct grouped count over the current-quarter CMMS records. The operational implication is concentrated downtime risk on the leading asset.\n\n"
+                f"**Recommended action for Maintenance:** Start the reliability review with {top.get('equipment_id')}, then compare its recurring modes and open corrective work with the next two assets.\n\n"
+                "**Sources used:**\n- [DFS: cmms.failures.equipment_id; scada.equipment.name] current-quarter failure counts.\n\n"
+                "**So what:** Focusing on the highest-frequency asset directs maintenance effort to the largest current downtime signal."
+            )
+
+    if re.search(r"which standard.*(?:coating|fault|defect|violate)", q):
+        rows = rows_for("coating-fault standards")
+        if rows:
+            top = rows[0]
+            return (
+                f"**Direct answer:** {top.get('standard_ref')} is the most frequently associated standard for coating-irregularity tests on coils with recorded deviations: {top.get('associated_test_count')} tests across {top.get('associated_coil_count')} coils [DFS: qms.quality_tests.standard_ref; qms.deviations.coil_id_fk].\n\n"
+                "**Insight:** This is a shared-coil association, not a direct QualityTest-to-Deviation edge. **Medium confidence** for attribution: the standard ranking is exact, but an individual deviation cannot be assigned to one test without an explicit relationship. The compliance implication is a cohort-level clause risk, not proof that one test caused one deviation.\n\n"
+                f"**Recommended action for QA:** Open the {top.get('standard_ref')} clause record, verify the affected coils and keep the attribution at cohort level unless the missing test-to-deviation link is added.\n\n"
+                "**Sources used:**\n- [DFS: qms.quality_tests.standard_ref; qms.deviations.coil_id_fk] coating-test standard counts on deviation-bearing coils.\n\n"
+                "**So what:** The ranking identifies the first compliance clause to investigate while preserving the graph's attribution boundary."
+            )
+
+    if re.search(r"\bdeviation rate\b", q):
+        rows = rows_for("test deviation rate")
+        if rows and rows[0].get("total_tests"):
+            row = rows[0]
+            return (
+                f"**Direct answer:** The quality-test deviation rate is {float(row.get('deviation_rate_pct') or 0):.2f}%: {row.get('failed_tests')} coil-linked deviations over {row.get('total_tests')} quality tests [DFS: qms.deviations.coil_id_fk; qms.quality_tests.test_id].\n\n"
+                "**Insight:** The formula excludes equipment-only deviations from the test numerator, so the numerator and denominator describe the same quality-testing population. **High confidence** because both counts are direct aggregates. The quality-risk implication is that trend changes can be compared without denominator drift.\n\n"
+                "**Recommended action for QA:** Trend this rate by standard and equipment, then inspect any clause whose recent 90-day rate rises above its prior period.\n\n"
+                "**Sources used:**\n- [DFS: qms.deviations.coil_id_fk; qms.quality_tests.test_id] matched compliance numerator and test denominator.\n\n"
+                "**So what:** A consistent denominator makes compliance trend changes actionable instead of anecdotal."
+            )
+
+    if re.search(r"\bhow many\b.*\bdocuments?\b|\bdocuments?\b.*\bcount\b", q):
+        rows = rows_for("document inventory")
+        metrics = {row.get("metric"): row.get("value") for row in rows}
+        if metrics.get("total_documents") is not None:
+            total = metrics["total_documents"]
+            top_types = sorted(((key.split(":", 1)[1], value) for key, value in metrics.items() if str(key).startswith("doc_type:")), key=lambda item: item[1], reverse=True)[:3]
+            breakdown = ", ".join(f"{name}: {count}" for name, count in top_types)
+            return (
+                f"**Direct answer:** The knowledge base tracks {total} managed documents [DFS: document catalog.document_id].\n\n"
+                f"**Insight:** The largest document groups are {breakdown or 'not classified'}. **High confidence** because this is a direct inventory count, not a semantic-search estimate. The retrieval-quality implication is that missing governed document types create evidence-coverage risk.\n\n"
+                "**Recommended action for Admin:** Review document types with low coverage and verify that current procedures, RCA reports and test certificates have vector references.\n\n"
+                "**Sources used:**\n- [DFS: document catalog.document_id] managed-document inventory.\n\n"
+                "**So what:** Inventory coverage shows whether the retrieval layer has enough governed evidence to support plant decisions."
+            )
 
     for row in graph_rows:
         failure = row.get("failure") or {}
@@ -245,7 +317,7 @@ def _deterministic_evidence_answer(question, graph_results, document_results):
                 f"The operational risk is recurrence of the same {failure_label} if the recorded procedure gap remains open.\n\n"
                 f"**Recommended action for Maintenance:** The recorded corrective work was: {corrective} Confirm that this work and the cited {procedure} step are complete and documented, "
                 f"validate the repair under normal load, and review the next operating cycle before returning the asset to unrestricted service.\n\n"
-                f"**Sources used:**\n- [Graph: EXPERIENCED -> DIAGNOSED_BY -> PROCEDURE_REVIEWED] {fid}, {rid}, {procedure}.{rag_line}\n\n"
+                f"**Sources used:**\n- [Graph: EXPERIENCED -> DIAGNOSED_BY; RCA.procedure_ref -> Procedure] {fid}, {rid}, {procedure}.{rag_line}\n\n"
                 f"**So what:** Closing the recorded procedure gap reduces repeat downtime and makes the repair auditable."
             )
             return answer
@@ -263,7 +335,7 @@ def _deterministic_evidence_answer(question, graph_results, document_results):
                 f"**Insight:** This is an exact coil-to-equipment lineage link.{deviation_note} **{confidence} confidence** for operational implication: "
                 f"the lineage is definitive, but attributing any quality risk to the stand requires corroborating roll-condition and batch history.\n\n"
                 f"**Recommended action for Operations:** Use {eid} as the starting asset for shift-log, setup and maintenance checks; have QA compare nearby coils before escalating to a line-wide hold.\n\n"
-                f"**Sources used:**\n- [Graph: Coil -[:PRODUCED_AT]-> Equipment] {cid} -> {eid}.\n\n"
+                f"**Sources used:**\n- [Graph: PRODUCED_AT] {cid} -> {eid}.\n\n"
                 f"**So what:** Exact lineage narrows a cross-system investigation to the responsible production asset in one step."
             )
 
@@ -295,7 +367,9 @@ def synthesize_answer(question, retrieval_plan,
             "model_used": "none (unresolvable short-circuit)",
         }
 
-    deterministic = _deterministic_evidence_answer(question, graph_results, document_results)
+    deterministic = _deterministic_evidence_answer(
+        question, graph_results, document_results, structured_results
+    )
     if deterministic:
         return {
             "answer": deterministic,

@@ -26,6 +26,8 @@ STRUCTURED_PATTERNS = [
     r"\bhow many\b", r"\bcount of\b", r"\bnumber of\b",
     r"\baverage\b", r"\bavg\b", r"\btotal\b", r"\bsum of\b", r"\bper (month|week|day|shift)\b",
     r"\bai4i\b", r"\bpredictive maintenance\b", r"\bmachine failure(s)?\b",
+    r"\bwhich equipment (?:failed|fails) most\b", r"\bmost (?:affected|failure-prone) equipment\b",
+    r"\bdeviation rate\b", r"\bwhich standard\b.*\b(?:fault|defect|violate)",
 ]
 GRAPH_PATTERNS = [
     r"\blinked to\b", r"\btrace\b", r"\bwhich equipment produced\b",

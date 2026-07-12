@@ -1,0 +1,75 @@
+{
+  "benchmark": "routine deterministic fast paths",
+  "generated_at": "2026-07-12T18:44:56.574816+00:00",
+  "case_count": 5,
+  "passed": true,
+  "max_total_s": 0.07,
+  "cases": [
+    {
+      "question": "How many coils failed quality testing?",
+      "model_used": "deterministic/evidence-template",
+      "latency": {
+        "routing_s": 0.02,
+        "retrieval_s": 0.05,
+        "synthesis_s": 0.0,
+        "total_s": 0.07,
+        "cache_hit": false
+      },
+      "citation_count": 1,
+      "passed": true
+    },
+    {
+      "question": "Which equipment failed most this quarter?",
+      "model_used": "deterministic/evidence-template",
+      "latency": {
+        "routing_s": 0.0,
+        "retrieval_s": 0.01,
+        "synthesis_s": 0.0,
+        "total_s": 0.01,
+        "cache_hit": false
+      },
+      "citation_count": 1,
+      "passed": true
+    },
+    {
+      "question": "Which standard do coating faults violate?",
+      "model_used": "deterministic/evidence-template",
+      "latency": {
+        "routing_s": 0.0,
+        "retrieval_s": 0.01,
+        "synthesis_s": 0.0,
+        "total_s": 0.01,
+        "cache_hit": false
+      },
+      "citation_count": 1,
+      "passed": true
+    },
+    {
+      "question": "What is the quality-test deviation rate?",
+      "model_used": "deterministic/evidence-template",
+      "latency": {
+        "routing_s": 0.0,
+        "retrieval_s": 0.01,
+        "synthesis_s": 0.0,
+        "total_s": 0.01,
+        "cache_hit": false
+      },
+      "citation_count": 1,
+      "passed": true
+    },
+    {
+      "question": "How many documents are in the knowledge base?",
+      "model_used": "deterministic/evidence-template",
+      "latency": {
+        "routing_s": 0.0,
+        "retrieval_s": 0.0,
+        "synthesis_s": 0.0,
+        "total_s": 0.0,
+        "cache_hit": false
+      },
+      "citation_count": 1,
+      "passed": true
+    }
+  ],
+  "scope_note": "Local direct structured/ontology retrieval; public network latency and expert review are separate gates."
+}

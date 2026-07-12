@@ -34,6 +34,7 @@ from pydantic import BaseModel
 
 from pipeline import ask_synapse, warm_up
 from api.auth import Identity, require_user
+from api.compliance_store import get_standard_detail, get_summary as get_compliance_summary
 from api.rca_store import get_failure_detail, get_failures, get_summary
 
 FRONTEND = SYNAPSE_ROOT / "frontend"
@@ -118,6 +119,26 @@ def rca_failure_detail(failure_id: str, identity: Identity = Depends(require_use
     detail = get_failure_detail(failure_id)
     if detail is None:
         raise HTTPException(status_code=404, detail=f"Failure {failure_id} not found")
+    return detail
+
+
+# ---- Compliance: direct read-only Neo4j patterns (never calls the synthesizer) ----
+@app.get("/api/compliance/summary")
+def compliance_summary(identity: Identity = Depends(require_user)):
+    return get_compliance_summary()
+
+
+@app.get("/api/compliance/standards")
+def compliance_standards(identity: Identity = Depends(require_user)):
+    summary = get_compliance_summary()
+    return {"count": len(summary["standards"]), "standards": summary["standards"]}
+
+
+@app.get("/api/compliance/standards/{family_id}")
+def compliance_standard_detail(family_id: str, identity: Identity = Depends(require_user)):
+    detail = get_standard_detail(family_id)
+    if detail is None:
+        raise HTTPException(status_code=404, detail=f"Compliance standard {family_id} not found")
     return detail
 
 

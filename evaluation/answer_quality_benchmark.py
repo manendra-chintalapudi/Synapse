@@ -50,6 +50,46 @@ CASES = [
         "expected_role": "qa|quality",
         "ground_truth": "data/unstructured/standards/is_2062.md + DOC1058",
     },
+    {
+        "id": "failed_coil_count",
+        "question": "How many coils failed quality testing?",
+        "expected_fact_patterns": [r"324", r"400", r"81(?:\.0+)?%", r"quality deviation"],
+        "expected_source_layers": ["DFS"],
+        "expected_role": "qa|quality",
+        "ground_truth": "qms.deviations.coil_id_fk + erp.coils.coil_id",
+    },
+    {
+        "id": "equipment_failure_rank",
+        "question": "Which equipment failed most this quarter?",
+        "expected_fact_patterns": [r"EQ-CR-01", r"Overhead Crane", r"1"],
+        "expected_source_layers": ["DFS"],
+        "expected_role": "maintenance",
+        "ground_truth": "cmms.failures + scada.equipment current-quarter aggregate",
+    },
+    {
+        "id": "coating_fault_standard",
+        "question": "Which standard do coating faults violate?",
+        "expected_fact_patterns": [r"STD-IS1786-01", r"15", r"shared-coil|cohort"],
+        "expected_source_layers": ["DFS"],
+        "expected_role": "qa|quality",
+        "ground_truth": "qms.quality_tests.standard_ref + qms.deviations.coil_id_fk",
+    },
+    {
+        "id": "quality_deviation_rate",
+        "question": "What is the quality-test deviation rate?",
+        "expected_fact_patterns": [r"33\.18%", r"644", r"1,?941"],
+        "expected_source_layers": ["DFS"],
+        "expected_role": "qa|quality",
+        "ground_truth": "644 coil-linked deviations / 1,941 quality tests",
+    },
+    {
+        "id": "document_inventory",
+        "question": "How many documents are in the knowledge base?",
+        "expected_fact_patterns": [r"255", r"work_order.*188|work order.*188"],
+        "expected_source_layers": ["DFS"],
+        "expected_role": "admin",
+        "ground_truth": "ontology/nodes/document.json",
+    },
 ]
 
 

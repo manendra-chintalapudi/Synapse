@@ -1,0 +1,93 @@
+{
+  "benchmark": "Compliance UI projection vs independent Cypher",
+  "family_id": "is-1786",
+  "passed": true,
+  "manual_pattern": {
+    "deviationCohort": 338,
+    "failureLinked": 171,
+    "rcaLinked": 171,
+    "downstream30d": 15
+  },
+  "detail_pattern": {
+    "window_days": 30,
+    "deviation_cohort_n": 338,
+    "failure_linked_n": 171,
+    "downstream_failure_n": 15,
+    "downstream_rate_among_linked_pct": 8.77,
+    "downstream_rate_full_cohort_pct": 4.44,
+    "wilson_95pct": [
+      5.39,
+      13.97
+    ],
+    "most_common_root_cause": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "most_common_root_cause_n": 8,
+    "confidence": "high",
+    "scope": "The date test is directional (deviation first, failure 0\u201330 days later) and descriptive, not causal."
+  },
+  "manual_top_cause": {
+    "rootCause": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+    "count": 8
+  },
+  "representative_chains": [
+    {
+      "id": "DEV1020",
+      "dateFlagged": "2026-05-30",
+      "coilId": "C10271",
+      "equipmentId": "EQ-RMS-01",
+      "failureId": "F1129",
+      "rcaId": "RCA1129",
+      "technicianId": "T1020",
+      "failedTests": [
+        [
+          "QT10033",
+          "STD-IS1786-02"
+        ]
+      ]
+    },
+    {
+      "id": "DEV1050",
+      "dateFlagged": "2026-06-03",
+      "coilId": "C10024",
+      "equipmentId": "EQ-RMS-02",
+      "failureId": "F1128",
+      "rcaId": "RCA1128",
+      "technicianId": "T1004",
+      "failedTests": [
+        [
+          "QT10089",
+          "STD-IS1786-01"
+        ],
+        [
+          "QT10154",
+          "STD-IS1786-02"
+        ]
+      ]
+    },
+    {
+      "id": "DEV1174",
+      "dateFlagged": "2026-03-04",
+      "coilId": "C10150",
+      "equipmentId": "EQ-RMS-02",
+      "failureId": "F1170",
+      "rcaId": "RCA1170",
+      "technicianId": "T1020",
+      "failedTests": [
+        [
+          "QT10585",
+          "STD-IS1786-01"
+        ],
+        [
+          "QT10280",
+          "STD-IS1786-02"
+        ],
+        [
+          "QT10341",
+          "STD-IS1786-05"
+        ]
+      ]
+    }
+  ],
+  "chain_projection_matches": true,
+  "cross_pillar_navigation_contract": true,
+  "scope_note": "Navigation validation checks the rendered click contract; live authenticated browser validation remains a separate deployment check."
+}

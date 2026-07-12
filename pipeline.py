@@ -121,13 +121,62 @@ SELECT COUNT(*) AS records,
 FROM scada.main.ai4i_events
 """
 
+EQUIPMENT_FAILURE_RANK_SQL = """
+SELECT f.equipment_id, e.name AS equipment_name, e.type AS equipment_type,
+       COUNT(*) AS failure_count
+FROM cmms.main.failures f
+LEFT JOIN scada.main.equipment e ON e.equipment_id = f.equipment_id
+WHERE CAST(f.timestamp AS DATE) >= date_trunc('quarter', current_date)
+GROUP BY f.equipment_id, e.name, e.type
+ORDER BY failure_count DESC, f.equipment_id
+LIMIT 10
+"""
+
+COATING_STANDARD_SQL = """
+SELECT qt.standard_ref, COUNT(*) AS associated_test_count,
+       COUNT(DISTINCT qt.coil_id) AS associated_coil_count
+FROM qms.main.quality_tests qt
+WHERE lower(qt.fault_type) = 'coating_irregularity'
+  AND qt.coil_id IN (
+      SELECT DISTINCT coil_id_fk FROM qms.main.deviations WHERE coil_id_fk IS NOT NULL
+  )
+GROUP BY qt.standard_ref
+ORDER BY associated_test_count DESC, qt.standard_ref
+"""
+
+DEVIATION_RATE_SQL = """
+SELECT (SELECT COUNT(*) FROM qms.main.quality_tests) AS total_tests,
+       (SELECT COUNT(*) FROM qms.main.deviations WHERE coil_id_fk IS NOT NULL) AS failed_tests,
+       ROUND(100.0 * (SELECT COUNT(*) FROM qms.main.deviations WHERE coil_id_fk IS NOT NULL)
+             / NULLIF((SELECT COUNT(*) FROM qms.main.quality_tests), 0), 2) AS deviation_rate_pct
+"""
+
 
 def structured_retrieval(question, details):
     """Pick intent-matched SQL template(s) and run them through DuckDB federation."""
     q = question.lower()
     results = {}
+    if re.search(r"\bhow many\b.*\bdocuments?\b|\bdocuments?\b.*\bcount\b", q):
+        catalog = json.loads((_BASE / "ontology" / "nodes" / "document.json").read_text(encoding="utf-8"))
+        by_type = {}
+        for row in catalog:
+            by_type[row.get("doc_type") or "Unknown"] = by_type.get(row.get("doc_type") or "Unknown", 0) + 1
+        results["document inventory"] = [
+            {"metric": "total_documents", "value": len(catalog)},
+            *({"metric": f"doc_type:{name}", "value": count} for name, count in sorted(by_type.items())),
+        ]
+        return results
     if re.search(r"how many coils.*(fail|defect|deviat|quality)", q):
         results["qms+erp (federated)"] = query_federated(COILS_FAILED_QC_SQL)
+        return results
+    if re.search(r"which equipment (?:failed|fails) most|most (?:affected|failure-prone) equipment", q):
+        results["cmms+scada (equipment failures this quarter)"] = query_federated(EQUIPMENT_FAILURE_RANK_SQL)
+        return results
+    if re.search(r"which standard.*(?:coating|fault|defect|violate)", q):
+        results["qms (coating-fault standards)"] = query_federated(COATING_STANDARD_SQL)
+        return results
+    if re.search(r"\bdeviation rate\b", q):
+        results["qms (test deviation rate)"] = query_federated(DEVIATION_RATE_SQL)
         return results
     if re.search(r"\bai4i\b|predictive maintenance|machine failure|sensor failure", q):
         results["scada (AI4I 2020 official synthetic reference)"] = query_federated(AI4I_FAILURE_SQL)
@@ -173,6 +222,12 @@ def documents_retrieval(question, details):
                     "retrieval_mode": "exact_entity_link",
                 })
     direct = direct[:DOC_TOP_K]
+    # Exact failure/RCA lookups already have the authoritative linked work-order.
+    # Returning it directly avoids loading the embedding stack and cannot displace
+    # relevant evidence with unrelated semantic neighbours.
+    if direct and any(entity.get("entity_type") == "failure" for entity in entities) \
+            and re.search(r"\bwhy\b|\bcaus|\brca\b|procedure gap", question, re.I):
+        return direct
     try:
         hits = document_search(text, k=DOC_TOP_K, filter=flt)
     except Exception:

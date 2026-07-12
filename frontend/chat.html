@@ -326,6 +326,35 @@
   @media(max-width:700px){.rcapage{padding:16px 10px 28px}.rcahead{flex-direction:column}.rca-source{white-space:normal}.rcastats{grid-template-columns:repeat(2,minmax(0,1fr))}.rca-filters{grid-template-columns:repeat(2,1fr)}
     .rca-detail-head{align-items:flex-start;flex-wrap:wrap}.rca-detail-badges{width:100%;justify-content:flex-start}.rca-chain{flex-direction:column;overflow:visible;gap:16px}.rca-step{width:100%;flex-basis:auto;min-height:68px}.rca-step:not(:last-child):before{content:"↓";right:auto;left:50%;top:auto;bottom:-16px}.rca-preview-grid{grid-template-columns:1fr}}
 
+  /* ---------- Compliance pillar ---------- */
+  .comp-headline{position:relative;overflow:hidden;background:linear-gradient(135deg,#292E82,#5361D8)!important;border-color:transparent!important}
+  .comp-headline:after{content:"";position:absolute;width:110px;height:110px;border-radius:50%;right:-36px;top:-45px;background:rgba(255,255,255,.12)}
+  .comp-headline b,.comp-headline span{color:#fff!important}.comp-headline small{display:block;color:#DDE1FF;font-size:9.5px;margin-top:5px;line-height:1.35}
+  .comp-table{min-width:940px}.comp-table .rate{font-weight:900;color:#3C4261}.comp-scope{max-width:310px;line-height:1.45;color:#656A82}
+  .risk-badge{display:inline-flex;align-items:center;gap:5px;border-radius:999px;padding:4px 8px;font-size:9px;font-weight:900;white-space:nowrap}
+  .risk-badge.warn{background:#FFF0E5;color:#B44C15}.risk-badge.stable{background:#E8F7EE;color:#187747}.risk-badge:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+  .comp-detail-grid{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(310px,.8fr);gap:14px}.comp-detail-grid .rca-panel{margin-bottom:14px}
+  .comp-stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.comp-mini{background:#F8F9FD;border:1px solid #E8EAF3;border-radius:11px;padding:10px}
+  .comp-mini b{display:block;font-size:19px;color:#343A64}.comp-mini span{font-size:9.5px;color:#83889D}.comp-mini.fail b{color:#B83D3D}.comp-mini.pass b{color:#16865B}
+  .comp-spark{width:100%;height:150px;display:block;background:linear-gradient(#FBFCFF,#fff);border-radius:10px}.comp-spark .area{fill:url(#compArea)}.comp-spark .line{fill:none;stroke:#5963D8;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+  .comp-spark .dot{fill:#fff;stroke:#5963D8;stroke-width:2}.comp-spark text{font:9px Inter,sans-serif;fill:#8C91A6}.comp-trend-note{font-size:10px;color:#73788F;margin-top:7px}
+  .comp-pattern{background:linear-gradient(145deg,#F1F2FF,#fff);border-color:#D9DCF7}.comp-pattern-number{display:flex;align-items:baseline;gap:9px;margin:5px 0 9px}
+  .comp-pattern-number b{font-size:36px;letter-spacing:-.05em;color:#424AB4}.comp-pattern-number span{font-size:11px;color:#686E91;font-weight:700}.comp-pattern p{margin:0 0 9px;font-size:11px;line-height:1.55;color:#555B78}
+  .comp-cause{border-left:3px solid #6B72D9;background:#fff;border-radius:8px;padding:9px 10px;font-size:10px;color:#555A75}.comp-cause b{display:block;color:#303653;margin-bottom:3px}
+  .comp-flags{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.comp-flag{border:1px solid #E4E6F0;background:#FAFBFE;border-radius:11px;padding:10px}
+  .comp-flag .dim{font-size:8.5px;text-transform:uppercase;color:#898EA4;font-weight:900}.comp-flag b{display:block;margin:5px 0 3px;font-size:11px;color:#343A58}.comp-flag p{margin:0;font-size:9px;line-height:1.4;color:#7A7F94}
+  .comp-group-tools{display:flex;gap:6px}.comp-group-tools button{border:1px solid #DDE0ED;background:#fff;color:#6F748D;border-radius:8px;padding:6px 9px;font-size:9px;font-weight:850;cursor:pointer}
+  .comp-group-tools button.on{background:#ECEEFF;border-color:#C9CDF4;color:#4D55BE}.comp-groups{display:grid;gap:8px}
+  .comp-group{border:1px solid #E5E7F0;border-radius:11px;background:#FCFCFE;overflow:hidden}.comp-group summary{display:flex;align-items:center;gap:9px;cursor:pointer;padding:10px 12px;list-style:none}
+  .comp-group summary::-webkit-details-marker{display:none}.comp-group summary b{font-size:11px;color:#3D425E}.comp-group summary span{font-size:9px;color:#858A9E}.comp-group summary .grow{flex:1}.comp-group summary:after{content:"+";font-weight:900;color:#777D9B}.comp-group[open] summary:after{content:"−"}
+  .comp-dev-list{border-top:1px solid #EAECF3;background:#fff}.comp-dev{border-bottom:1px solid #EFF0F5}.comp-dev:last-child{border-bottom:0}.comp-dev summary{padding:9px 12px 9px 20px;background:#fff}
+  .comp-dev summary b{min-width:68px}.comp-dev .dev-mode{color:#555B77;font-size:9.5px}.comp-dev-body{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:0 12px 11px 20px}
+  .comp-dev-fact{background:#F7F8FC;border-radius:8px;padding:7px}.comp-dev-fact b{display:block;font-size:8px;text-transform:uppercase;color:#8A8FA4;margin-bottom:3px}.comp-dev-fact span{font-size:9.5px;color:#4E546F;word-break:break-word}
+  .comp-link{border:1px solid #CBCFF0;background:#F2F3FF;color:#4C54BE;border-radius:8px;padding:6px 8px;font-size:9px;font-weight:900;cursor:pointer}.comp-link:hover{background:#E8EAFF}
+  .comp-clauses{width:100%;border-collapse:collapse}.comp-clauses th,.comp-clauses td{text-align:left;border-bottom:1px solid #EEEFF5;padding:8px;font-size:9.5px;color:#555A73}.comp-clauses th{font-size:8px;text-transform:uppercase;color:#8A8FA3}.comp-clauses td:first-child{font-weight:800;color:#343A55}
+  @media(max-width:1050px){.comp-detail-grid{grid-template-columns:1fr}.comp-stat-row{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:700px){.comp-flags{grid-template-columns:1fr}.comp-dev-body{grid-template-columns:1fr}.comp-pattern-number b{font-size:30px}.comp-group-tools{width:100%;margin-top:5px}.comp-group-tools button{flex:1}.comp-spark{height:130px}}
+
   /* ---------- placeholder pages ---------- */
   .ph{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px}
   .ph .ico{width:64px;height:64px;border-radius:18px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;margin-bottom:8px}
@@ -820,10 +849,17 @@
       </div>
     </section>
 
-    <section class="page" id="page-compliance"><div class="ph">
-      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3.5v5.7c0 5-3.4 8.6-8 10.8-4.6-2.2-8-5.8-8-10.8V5.5z"/><path d="M9 12l2 2 4-4.5"/></svg></div>
-      <h2>Compliance</h2><p>Standards coverage, FAILED_STANDARD deviations and audit-ready evidence trails against IS 1786, IS 2062, ASTM A370 and the Factories Act.</p>
-      <span class="soon">COMING SOON</span></div></section>
+    <section class="page" id="page-compliance">
+      <div class="rcapage">
+        <div id="complianceListView">
+          <div class="rcahead"><div><h2>Compliance</h2><p>Track test performance, inspect standard-specific deviation patterns and follow each evidence chain into its linked failure and RCA.</p></div><span class="rca-source"><i></i>Read-only Neo4j · no LLM</span></div>
+          <div class="ov-cards rcastats" id="complianceStats"><div class="kg-load">Loading compliance summary…</div></div>
+          <div class="rca-table-wrap" style="border-top:1px solid var(--line);border-radius:16px"><div class="rca-table-meta"><span id="complianceCount">Loading standards…</span><span>Sorted by failure rate · click a standard for evidence</span></div><div id="complianceTable"><div class="rca-empty">Loading standards…</div></div></div>
+          <div class="rca-gap-note" id="complianceScope" style="margin-top:12px">Temporal relationships are descriptive and do not assert causation.</div>
+        </div>
+        <div id="complianceDetailView" hidden><div id="complianceDetail"><div class="rca-empty">Loading compliance evidence…</div></div></div>
+      </div>
+    </section>
 
     <section class="page" id="page-admin">
       <div class="evalpage">
@@ -948,6 +984,7 @@ window.addEventListener("synapse-auth-ready", event => {
   /* A protected deep-link can render before the deferred auth module restores
      its session. Retry the current data page as soon as auth is ready. */
   if(route === "rca" && !rcaLoaded && !rcaLoading) initRCA();
+  if(route === "compliance" && !complianceLoaded && !complianceLoading) initCompliance();
 });
 
 /* ---------------- hash router ---------------- */
@@ -1081,6 +1118,80 @@ async function openFailure(failureId){
   try{renderFailureDetail(await rcaFetch(`/api/rca/failures/${encodeURIComponent(failureId)}`));}catch(err){document.getElementById("rcaDetail").innerHTML=`<button class="rca-back" onclick="closeFailureDetail()">← All failures</button><div class="rca-empty">Could not load ${esc(failureId)}: ${esc(err.message)}</div>`;}
 }
 function closeFailureDetail(){rcaCurrent=null;document.getElementById("rcaDetailView").hidden=true;document.getElementById("rcaListView").hidden=false;}
+
+/* ---------------- Compliance: direct Neo4j browsing ---------------- */
+let complianceLoaded=false,complianceLoading=false,complianceCurrent=null,complianceGroupMode="month";
+async function complianceFetch(path){return rcaFetch(path);}
+function complianceRisk(risk){const warning=Boolean(risk?.warning);return `<span class="risk-badge ${warning?"warn":"stable"}">${esc(risk?.label||"Stable trend")}</span>`;}
+function renderComplianceSummary(summary){
+  const headline=summary.headline||{};
+  document.getElementById("complianceStats").innerHTML=`
+    <div class="ov-card comp-headline"><b>${Number(headline.value_pct||0).toFixed(2)}%</b><span>30-day downstream signal</span><small>${headline.numerator||0} of ${headline.denominator||0} failure-linked deviations</small></div>
+    <div class="ov-card"><b>${Number(summary.total_standard_nodes||0).toLocaleString()}</b><span>Standards tracked · ${summary.active_clause_count||0} test-active clauses</span></div>
+    <div class="ov-card"><b>${Number(summary.overall_deviation_rate_pct||0).toFixed(2)}%</b><span>Test failure rate · ${summary.failed_tests||0} of ${summary.total_tests||0}</span></div>
+    <div class="ov-card"><b>${Number(summary.total_deviations||0).toLocaleString()}</b><span>Total deviations · ${Number(summary.downstream_failure_pct_all||0).toFixed(2)}% precede failure ≤${summary.window_days||30}d</span></div>`;
+  document.getElementById("complianceScope").textContent=`${summary.provenance?.scope||"Temporal linkage is descriptive, not causal."} ${summary.failure_linked_deviations||0} of ${summary.total_deviations||0} deviations resolve to a linked failure; unlinked records remain visible as evidence gaps.`;
+}
+function renderComplianceTable(summary){
+  const rows=summary.standards||[],target=document.getElementById("complianceTable");
+  document.getElementById("complianceCount").textContent=`${rows.length} active standard families · ${summary.active_clause_count||0} tested clauses`;
+  target.innerHTML=`<table class="rca-table comp-table"><thead><tr><th>Standard</th><th>Scope</th><th>Total tests</th><th>Pass</th><th>Fail</th><th>Failure rate</th><th>Risk / gap</th></tr></thead><tbody>`+
+    rows.map(row=>`<tr tabindex="0" data-standard-family="${esc(row.family_id)}"><td class="rca-equip"><b>${esc(row.name)}</b><span>${row.clause_count} clauses · ${row.deviation_count} deviation cohort</span></td><td class="comp-scope">${esc(row.scope)}</td><td>${Number(row.total_tests||0).toLocaleString()}</td><td><span class="rca-yes">${Number(row.pass_count||0).toLocaleString()}</span></td><td><span class="rca-no" style="color:#B83D3D;font-weight:850">${Number(row.fail_count||0).toLocaleString()}</span></td><td class="rate">${Number(row.failure_rate_pct||0).toFixed(2)}%</td><td>${complianceRisk(row.risk)}</td></tr>`).join("")+`</tbody></table>`;
+  target.querySelectorAll("tr[data-standard-family]").forEach(row=>{const open=()=>openComplianceStandard(row.dataset.standardFamily);row.addEventListener("click",open);row.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" "){event.preventDefault();open();}});});
+}
+async function initCompliance(){
+  if(complianceLoaded||complianceLoading)return;complianceLoading=true;
+  try{const summary=await complianceFetch("/api/compliance/summary");renderComplianceSummary(summary);renderComplianceTable(summary);complianceLoaded=true;}
+  catch(err){document.getElementById("complianceStats").innerHTML=`<div class="rca-empty">Could not load compliance data: ${esc(err.message)}</div>`;document.getElementById("complianceTable").innerHTML=`<div class="rca-empty">The standards API is unavailable.</div>`;}
+  finally{complianceLoading=false;}
+}
+function complianceSparkline(points){
+  if(!points?.length)return `<div class="rca-gap-note">No dated quality-test series is available.</div>`;
+  const w=420,h=120,p=22,values=points.map(point=>Number(point.failure_rate_pct||0)),max=Math.max(50,...values),step=(w-p*2)/Math.max(1,points.length-1);
+  const coords=values.map((value,index)=>[p+index*step,h-p-(value/max)*(h-p*2)]),line=coords.map(pair=>pair.join(",")).join(" ");
+  const area=`M ${coords[0][0]} ${h-p} L ${coords.map(pair=>pair.join(" ")).join(" L ")} L ${coords[coords.length-1][0]} ${h-p} Z`;
+  return `<svg class="comp-spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="Monthly failure-rate trend"><defs><linearGradient id="compArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#747CE6" stop-opacity=".28"/><stop offset="1" stop-color="#747CE6" stop-opacity=".02"/></linearGradient></defs><path class="area" d="${area}"/><polyline class="line" points="${line}"/>${coords.map((pair,index)=>`<circle class="dot" cx="${pair[0]}" cy="${pair[1]}" r="3"><title>${esc(points[index].month)} · ${values[index].toFixed(2)}%</title></circle>`).join("")}${points.map((point,index)=>`<text x="${coords[index][0]}" y="${h-6}" text-anchor="middle">${esc(point.month.slice(5))}</text>`).join("")}</svg>`;
+}
+function complianceDeviationRow(row){
+  const d=row.deviation||{},c=row.coil||{},e=row.equipment||{},f=row.failure||{},r=row.rca||{},t=row.technician||{};
+  const failureLink=f.failure_id?`<button class="comp-link" data-compliance-failure="${esc(f.failure_id)}">Open ${esc(f.failure_id)} / ${esc(r.rca_id||"RCA")}</button>`:`<span class="rca-no">No linked failure</span>`;
+  return `<details class="comp-dev"><summary><b>${esc(d.deviation_id||"Deviation")}</b><span>${esc(row.date_flagged||"No date")}</span><span class="rca-chip sev-${esc(d.severity||"unrated")}">${esc(d.severity||"unrated")}</span><span class="dev-mode grow">${esc(e.name||e.equipment_id||"Unlinked equipment")}</span>${f.failure_id?`<span>${esc(f.failure_id)} · ${row.delta_days}d</span>`:""}</summary><div class="comp-dev-body">
+    <div class="comp-dev-fact"><b>Finding</b><span>${esc(d.description||"No description")}</span></div><div class="comp-dev-fact"><b>Coil / heat</b><span>${esc(c.coil_id||"—")} · ${esc(c.heat_number||"—")} · ${esc(c.grade||"—")}</span></div><div class="comp-dev-fact"><b>Equipment</b><span>${esc(e.name||"—")} (${esc(e.equipment_id||"—")})</span></div>
+    <div class="comp-dev-fact"><b>Linked failure</b><span>${esc(f.failure_id||"—")} · ${esc(rcaLabel(f.failure_mode))}${row.downstream_within_window?` · downstream within ${complianceCurrent?.pattern?.window_days||30}d`:""}</span></div><div class="comp-dev-fact"><b>RCA technician</b><span>${esc(t.name||"—")} ${t.shift?`· assigned shift ${esc(t.shift)}`:""}</span></div><div class="comp-dev-fact"><b>Evidence jump</b><span>${failureLink}</span></div>
+  </div></details>`;
+}
+function renderComplianceGroups(mode="month"){
+  complianceGroupMode=mode;const target=document.getElementById("complianceGroups");if(!target||!complianceCurrent)return;
+  document.querySelectorAll("[data-compliance-group]").forEach(button=>button.classList.toggle("on",button.dataset.complianceGroup===mode));
+  const rows=complianceCurrent.deviations||[],byId=new Map(rows.map(row=>[(row.deviation||{}).deviation_id,row])),groups=complianceCurrent.deviation_groups?.[mode]||[];
+  target.innerHTML=groups.map(group=>`<details class="comp-group"><summary><b>${esc(group.label)}</b><span class="grow">${group.count} deviations</span><span>${group.linked_failures} linked · ${group.downstream_within_window} downstream</span></summary><div class="comp-dev-list">${(group.deviation_ids||[]).map(id=>byId.get(id)).filter(Boolean).map(complianceDeviationRow).join("")}</div></details>`).join("")||`<div class="rca-gap-note">No grouped deviations are available.</div>`;
+  target.querySelectorAll("[data-compliance-failure]").forEach(button=>button.addEventListener("click",()=>openComplianceRca(button.dataset.complianceFailure)));
+}
+function openComplianceRca(failureId){go("rca");setTimeout(()=>openFailure(failureId),0);}
+function renderComplianceDetail(data){
+  complianceCurrent=data;const s=data.standard||{},pattern=data.pattern||{},trend=s.trend||{},flags=data.cross_dimensional_flags||[],clauses=data.clauses||[];
+  const cause=pattern.most_common_root_cause?`<div class="comp-cause"><b>Most common linked root cause · ${pattern.most_common_root_cause_n}/${pattern.downstream_failure_n}</b>${esc(pattern.most_common_root_cause)}</div>`:`<div class="rca-gap-note">No downstream RCA root cause is available for this cohort.</div>`;
+  const flagHtml=flags.map(flag=>`<div class="comp-flag"><span class="dim">${esc(flag.dimension)} · n=${flag.sample_size}</span><b>${esc(flag.value)} · ${flag.share_pct}%</b><p>${esc(flag.note)}</p></div>`).join("");
+  const clauseRows=clauses.map(row=>`<tr><td>${esc(row.standard_id)}</td><td>${row.total_tests}</td><td>${row.fail_count}</td><td>${Number(row.failure_rate_pct).toFixed(2)}%</td><td>${row.rising?`<span class="risk-badge warn">+${Number(row.trend.change_pp).toFixed(2)}pp</span>`:`<span class="risk-badge stable">${Number(row.trend.change_pp).toFixed(2)}pp</span>`}</td></tr>`).join("");
+  document.getElementById("complianceDetail").innerHTML=`
+    <div class="rca-detail-head"><button class="rca-back" id="complianceBack">← All standards</button><div class="rca-detail-title"><h2>${esc(s.name)}</h2><p>${esc(s.scope)} · ${s.clause_count} tested clauses</p></div><div class="rca-detail-badges">${complianceRisk(s.risk)}<span class="confchip conf-${esc(pattern.confidence||"low")}">${esc(pattern.confidence||"low")} pattern confidence</span></div></div>
+    <div class="comp-detail-grid"><div>
+      <section class="rca-panel"><div class="rca-panel-head"><h3>Pass / fail performance</h3><span>Rolling 90-day comparison</span></div><div class="comp-stat-row"><div class="comp-mini"><b>${s.total_tests}</b><span>Total tests</span></div><div class="comp-mini pass"><b>${s.pass_count}</b><span>Pass</span></div><div class="comp-mini fail"><b>${s.fail_count}</b><span>Fail</span></div><div class="comp-mini"><b>${Number(s.failure_rate_pct).toFixed(2)}%</b><span>Failure rate</span></div></div><div style="margin-top:12px">${complianceSparkline(trend.monthly)}</div><div class="comp-trend-note">Recent ${Number(trend.recent_rate_pct||0).toFixed(2)}% (n=${trend.recent_n||0}) vs prior ${Number(trend.prior_rate_pct||0).toFixed(2)}% (n=${trend.prior_n||0}) · ${Number(trend.change_pp||0)>=0?"+":""}${Number(trend.change_pp||0).toFixed(2)} percentage points.</div></section>
+      <section class="rca-panel"><div class="rca-panel-head" style="flex-wrap:wrap"><div><h3>Deviation evidence</h3><span>${pattern.deviation_cohort_n} standard-cohort deviations · grouped before expansion</span></div><div class="comp-group-tools"><button class="on" data-compliance-group="month">By month</button><button data-compliance-group="equipment">By equipment</button></div></div><div class="comp-groups" id="complianceGroups"></div></section>
+      <section class="rca-panel"><div class="rca-panel-head"><h3>Clause performance</h3><span>Warnings use recent vs prior 90 days</span></div><div style="overflow:auto"><table class="comp-clauses"><thead><tr><th>Clause</th><th>Tests</th><th>Fail</th><th>Rate</th><th>Trend</th></tr></thead><tbody>${clauseRows}</tbody></table></div></section>
+    </div><aside>
+      <section class="rca-panel comp-pattern"><div class="rca-panel-head"><h3>30-day pattern detection</h3><span>Direct Cypher · n=${pattern.failure_linked_n}</span></div><div class="comp-pattern-number"><b>${pattern.downstream_failure_n} / ${pattern.failure_linked_n}</b><span>${Number(pattern.downstream_rate_among_linked_pct||0).toFixed(2)}%</span></div><p>Failure-linked deviations followed by an equipment failure within ${pattern.window_days} days. That is ${Number(pattern.downstream_rate_full_cohort_pct||0).toFixed(2)}% of the full ${pattern.deviation_cohort_n}-deviation cohort; 95% Wilson interval ${pattern.wilson_95pct?.[0]}–${pattern.wilson_95pct?.[1]}%.</p>${cause}<p style="margin-top:9px"><strong>Scope:</strong> ${esc(pattern.scope)}</p></section>
+      <section class="rca-panel"><div class="rca-panel-head"><h3>Cross-dimensional flags</h3><span>Descriptive screening only</span></div><div class="comp-flags">${flagHtml||`<div class="rca-gap-note">No linked cross-dimensional records.</div>`}</div></section>
+      <section class="rca-panel"><div class="rca-panel-head"><h3>Risk / gap indicator</h3>${complianceRisk(s.risk)}</div><div class="rca-gap-note">${s.risk?.rising_clause_count?`${s.risk.rising_clause_count} clause(s) have a rising 90-day failure rate.`:"No family clause crosses the rising-rate threshold."} Corrective-action text is recorded, but completion/follow-through status is not modeled and is therefore not inferred.</div></section>
+      <section class="rca-panel"><div class="rca-panel-head"><h3>Evidence provenance</h3><span>No synthesis call</span></div><div class="rca-gap-note">${esc(data.provenance?.standard_link||"")} ${esc(data.provenance?.failure_link||"")}</div></section>
+    </aside></div>`;
+  document.getElementById("complianceBack").addEventListener("click",closeComplianceDetail);document.querySelectorAll("[data-compliance-group]").forEach(button=>button.addEventListener("click",()=>renderComplianceGroups(button.dataset.complianceGroup)));renderComplianceGroups("month");
+}
+async function openComplianceStandard(familyId){
+  document.getElementById("complianceListView").hidden=true;document.getElementById("complianceDetailView").hidden=false;document.getElementById("complianceDetail").innerHTML=`<div class="rca-empty">Loading ${esc(familyId)} compliance evidence…</div>`;
+  try{renderComplianceDetail(await complianceFetch(`/api/compliance/standards/${encodeURIComponent(familyId)}`));}catch(err){document.getElementById("complianceDetail").innerHTML=`<button class="rca-back" onclick="closeComplianceDetail()">← All standards</button><div class="rca-empty">Could not load this standard: ${esc(err.message)}</div>`;}
+}
+function closeComplianceDetail(){complianceCurrent=null;document.getElementById("complianceDetailView").hidden=true;document.getElementById("complianceListView").hidden=false;}
 function applyRoute(){
   const r = (location.hash.replace("#/","") || "chat");
   route = ROUTES.includes(r) ? r : "chat";
@@ -1089,6 +1200,7 @@ function applyRoute(){
   if (route === "history") renderHistoryPage();
   if (route === "graph" && window.initKG) window.initKG();
   if (route === "rca") initRCA();
+  if (route === "compliance") initCompliance();
   if (route === "admin") renderEvaluation();
 }
 document.querySelectorAll("#nav a").forEach(a => a.addEventListener("click", () => go(a.dataset.route)));

@@ -221,7 +221,11 @@
   @keyframes voiceFade{from{opacity:0}to{opacity:1}}
   @keyframes voiceDrift{from{translate:-2% 2%}to{translate:5% -4%}}
   .voice-top{width:100%;display:flex;align-items:center;justify-content:space-between;padding:20px 22px;position:relative;z-index:2}
+  .voice-top-left{display:flex;align-items:center;gap:10px}
   .voice-kicker{font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:rgba(34,39,78,.62)}
+  .voice-lang{max-width:150px;border:1px solid rgba(255,255,255,.48);border-radius:999px;background:rgba(255,255,255,.18);color:#fff;
+        padding:7px 10px;font:700 11px/1 inherit;outline:0;backdrop-filter:blur(12px)}
+  .voice-lang option{color:#222;background:#fff}
   .voice-close{width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.58);background:rgba(255,255,255,.18);
         color:#fff;display:grid;place-items:center;cursor:pointer;backdrop-filter:blur(12px);font-size:22px;line-height:1}
   .voice-close:hover{background:rgba(255,255,255,.3)}
@@ -238,8 +242,12 @@
         transform:scaleY(calc(.35 + var(--bar, .4)*.55 + var(--voice-level)*1.3));transition:transform .08s linear}
   .voice-transcript{width:min(590px,calc(100% - 42px));min-height:104px;max-height:170px;overflow:auto;text-align:center;
         font-size:clamp(19px,3.1vw,28px);line-height:1.42;font-weight:600;letter-spacing:-.025em;padding:12px 10px;color:#fff;
-        text-wrap:balance;text-shadow:0 2px 22px rgba(36,40,105,.25)}
-  .voice-transcript.placeholder{color:rgba(255,255,255,.62);font-weight:500}
+        text-wrap:balance;text-shadow:0 2px 22px rgba(36,40,105,.25);border:0;outline:0;resize:none;background:transparent;
+        font-family:inherit;caret-color:#fff}
+  .voice-transcript::placeholder{color:rgba(255,255,255,.62);font-weight:500;opacity:1}
+  .voice-transcript:focus{background:rgba(255,255,255,.08);border-radius:18px}
+  .voice-fallback{max-width:560px;margin:-3px 20px 8px;padding:9px 13px;border:1px solid rgba(255,255,255,.3);border-radius:14px;
+        background:rgba(255,255,255,.12);font-size:11.5px;line-height:1.45;text-align:center;color:rgba(255,255,255,.9)}
   .voice-error{min-height:18px;font-size:11.5px;color:#fff3f3;text-align:center;padding:0 18px}
   .voice-controls{margin-top:auto;width:100%;display:flex;align-items:center;justify-content:center;gap:18px;padding:16px 20px calc(22px + env(safe-area-inset-bottom))}
   .voice-control{width:52px;height:52px;border-radius:50%;border:1px solid rgba(255,255,255,.62);background:rgba(255,255,255,.2);
@@ -261,6 +269,7 @@
     .voice-transcript{width:calc(100% - 28px);min-height:96px;max-height:150px;font-size:clamp(19px,6vw,25px)}
     .voice-controls{padding-bottom:calc(18px + env(safe-area-inset-bottom))}
   }
+  @media(max-width:420px){.voice-kicker{display:none}.voice-lang{max-width:145px}.voice-top{padding-inline:14px}}
   @media(max-height:660px){
     .voice-orb-stage{width:190px}.voice-transcript{min-height:72px;max-height:100px}.voice-eq{margin:5px 0}.voice-hint{display:none}
   }
@@ -785,7 +794,7 @@
 
 <section class="voice-shell" id="voiceShell" role="dialog" aria-modal="true" aria-labelledby="voiceState" aria-hidden="true">
   <div class="voice-panel" id="voicePanel">
-    <div class="voice-top"><span class="voice-kicker">Synapse Voice</span><button class="voice-close" onclick="closeVoiceMode()" aria-label="Close voice mode">&times;</button></div>
+    <div class="voice-top"><div class="voice-top-left"><span class="voice-kicker">Synapse Voice</span><select class="voice-lang" id="voiceLang" aria-label="Recognition language"><option value="">Auto language</option><option value="en-IN">English (India)</option><option value="en-US">English (US)</option><option value="en-GB">English (UK)</option><option value="hi-IN">Hindi</option></select></div><button class="voice-close" onclick="closeVoiceMode()" aria-label="Close voice mode">&times;</button></div>
     <div class="voice-orb-stage">
       <video class="voice-orb" autoplay muted loop playsinline poster="assets/orb-white-poster.jpg">
         <source src="assets/orb-white.mp4" type="video/mp4">
@@ -794,7 +803,8 @@
     <div class="voice-state" id="voiceState">Listening&hellip;</div>
     <div class="voice-hint" id="voiceHint">Ask about equipment, failures, quality, or compliance</div>
     <div class="voice-eq" id="voiceEq" aria-hidden="true"></div>
-    <div class="voice-transcript placeholder" id="voiceTranscript" aria-live="polite">Start speaking when you&rsquo;re ready</div>
+    <textarea class="voice-transcript" id="voiceTranscript" rows="3" aria-label="Voice transcript" placeholder="Start speaking when you&rsquo;re ready"></textarea>
+    <div class="voice-fallback" id="voiceFallback" hidden>Your browser does not provide live speech recognition. Tap the transcript and use your device keyboard microphone, or type your question.</div>
     <div class="voice-error" id="voiceError" role="status"></div>
     <div class="voice-controls">
       <button class="voice-control" onclick="closeVoiceMode()" aria-label="Cancel voice input" title="Cancel">
@@ -1137,17 +1147,29 @@ async function ask(text){
 }
 function onSend(){ ask(qEl.value); }
 
-/* ---------------- speech-to-text (Web Speech API — browser-native, no backend/key) ---------------- */
+/* ---------------- speech-to-text (Web Speech API + keyboard-dictation fallback) ---------------- */
 const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
 const micBtn = document.getElementById("mic");
-let recog = null, listening = false, micBase = "";
+const voiceLang = document.getElementById("voiceLang");
+const mobileVoice = matchMedia("(pointer:coarse)").matches || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+const chromiumVoice = /Chrome|Chromium|Edg\//i.test(navigator.userAgent) && !/OPR\//i.test(navigator.userAgent);
+const parallelVoiceMeter = Boolean(SpeechRec && chromiumVoice && !mobileVoice);
+let recog = null, listening = false, micBase = ""; // overwritten by the immersive handlers below before user interaction
+try{voiceLang.value=localStorage.getItem("synapse_voice_language")||"";}catch(_){}
+function preferredVoiceLanguage(){
+  if(voiceLang.value)return voiceLang.value;const browserLang=navigator.languages?.[0]||navigator.language||"en-US";
+  let zone="";try{zone=Intl.DateTimeFormat().resolvedOptions().timeZone||"";}catch(_){}
+  return /^en\b/i.test(browserLang)&&/^Asia\/(Kolkata|Calcutta)$/i.test(zone)?"en-IN":browserLang;
+}
+voiceLang.addEventListener("change",()=>{try{localStorage.setItem("synapse_voice_language",voiceLang.value);}catch(_){}if(recog)recog.lang=preferredVoiceLanguage();});
 if (!SpeechRec) {
-  if (micBtn) micBtn.title = "Open voice mode";
+  if (micBtn) micBtn.title = "Open voice mode (keyboard dictation fallback)";
 } else {
   recog = new SpeechRec();
-  recog.lang = navigator.language || "en-US";
+  recog.lang = preferredVoiceLanguage();
   recog.interimResults = true;
-  recog.continuous = false;
+  recog.continuous = !mobileVoice;
+  recog.maxAlternatives = 1;
   recog.onstart = () => { listening = true; micBtn.classList.add("listening"); micBase = qEl.value ? qEl.value.replace(/\s+$/,"") + " " : ""; };
   recog.onend = () => { listening = false; if (micBtn) micBtn.classList.remove("listening"); };
   recog.onerror = (e) => {
@@ -1172,23 +1194,30 @@ function toggleMic(){
 /* immersive voice experience; replaces the compact recognition handlers above */
 const voiceShell=document.getElementById("voiceShell"),voicePanel=document.getElementById("voicePanel"),voiceState=document.getElementById("voiceState");
 const voiceHint=document.getElementById("voiceHint"),voiceTranscript=document.getElementById("voiceTranscript"),voiceError=document.getElementById("voiceError");
-const voiceMic=document.getElementById("voiceMic"),voiceSend=document.getElementById("voiceSend"),voiceEq=document.getElementById("voiceEq");
-let voiceOpen=false,voiceManualStop=false,voiceBase="",voiceFinal="",voiceInterim="",voiceRestart=null;
-let voiceStream=null,voiceAudio=null,voiceAnalyser=null,voiceFrame=null;
+const voiceMic=document.getElementById("voiceMic"),voiceSend=document.getElementById("voiceSend"),voiceEq=document.getElementById("voiceEq"),voiceFallback=document.getElementById("voiceFallback");
+let voiceOpen=false,voiceManualStop=false,voiceBase="",voiceCommitted="",voiceSessionFinal="",voiceInterim="",voiceRestart=null;
+let voiceStream=null,voiceAudio=null,voiceAnalyser=null,voiceFrame=null,voiceSyntheticFrame=null,recognitionStarting=false,voiceSyncing=false;
 voiceEq.innerHTML=Array.from({length:29},(_,i)=>`<i style="--bar:${(.2+((i*7)%11)/12).toFixed(2)}"></i>`).join("");
 function updateVoiceTranscript(){
-  const text=`${voiceBase}${voiceFinal}${voiceInterim}`.trim();voiceTranscript.textContent=text||"Start speaking when you’re ready";
-  voiceTranscript.classList.toggle("placeholder",!text);voiceSend.disabled=!text;qEl.value=text;qEl.dispatchEvent(new Event("input"));
+  const text=`${voiceBase}${voiceCommitted}${voiceSessionFinal}${voiceInterim}`.replace(/\s+/g," ").trim();
+  voiceSyncing=true;voiceTranscript.value=text;voiceSyncing=false;voiceSend.disabled=!text;qEl.value=text;qEl.dispatchEvent(new Event("input"));
 }
+voiceTranscript.addEventListener("input",()=>{if(voiceSyncing)return;voiceBase=voiceTranscript.value.trim();voiceCommitted="";voiceSessionFinal="";voiceInterim="";
+  voiceSend.disabled=!voiceBase;qEl.value=voiceBase;qEl.dispatchEvent(new Event("input"));});
 function setVoiceState(label,hint){
   voiceState.textContent=label;if(hint!==undefined)voiceHint.textContent=hint;voiceMic.classList.toggle("listening",listening);
   micBtn?.classList.toggle("listening",listening);voiceMic.setAttribute("aria-label",listening?"Pause voice input":"Resume voice input");
 }
+function startSyntheticVoiceMotion(){
+  if(voiceSyntheticFrame)return;const bars=[...voiceEq.children];const draw=()=>{if(!voiceOpen)return;const pulse=listening ? .11+Math.abs(Math.sin(performance.now()/310))*.16 : .035;
+    voicePanel.style.setProperty("--voice-level",pulse.toFixed(3));bars.forEach((bar,i)=>bar.style.setProperty("--bar",(.22+pulse*(1.2+Math.abs(Math.sin(i*.67+performance.now()/260)))).toFixed(3)));
+    voiceSyntheticFrame=requestAnimationFrame(draw);};draw();
+}
 async function startVoiceAmplitude(){
-  if(voiceStream||!navigator.mediaDevices?.getUserMedia)return;
+  if(!parallelVoiceMeter||voiceStream||!navigator.mediaDevices?.getUserMedia)return startSyntheticVoiceMotion();
   try{
     voiceStream=await navigator.mediaDevices.getUserMedia({audio:{echoCancellation:true,noiseSuppression:true,autoGainControl:true}});
-    const AudioCtx=window.AudioContext||window.webkitAudioContext;if(!AudioCtx)return;voiceAudio=new AudioCtx();voiceAnalyser=voiceAudio.createAnalyser();
+    const AudioCtx=window.AudioContext||window.webkitAudioContext;if(!AudioCtx)return;voiceAudio=new AudioCtx();if(voiceAudio.state==="suspended")await voiceAudio.resume();voiceAnalyser=voiceAudio.createAnalyser();
     voiceAnalyser.fftSize=256;voiceAnalyser.smoothingTimeConstant=.72;voiceAudio.createMediaStreamSource(voiceStream).connect(voiceAnalyser);
     const samples=new Uint8Array(voiceAnalyser.fftSize),bars=[...voiceEq.children];
     const draw=()=>{if(!voiceOpen||!voiceAnalyser)return;voiceAnalyser.getByteTimeDomainData(samples);let power=0;
@@ -1199,37 +1228,44 @@ async function startVoiceAmplitude(){
 }
 function stopVoiceAudio(){
   if(voiceFrame)cancelAnimationFrame(voiceFrame);voiceFrame=null;voiceStream?.getTracks().forEach(track=>track.stop());voiceStream=null;
+  if(voiceSyntheticFrame)cancelAnimationFrame(voiceSyntheticFrame);voiceSyntheticFrame=null;
   if(voiceAudio&&voiceAudio.state!=="closed")voiceAudio.close();voiceAudio=null;voiceAnalyser=null;voicePanel.style.setProperty("--voice-level",0);
 }
 function startRecognition(){
-  if(!recog){voiceError.textContent="Live transcription is not supported in this browser. Use Chrome, Edge, or your device keyboard microphone.";setVoiceState("Voice mode ready","Speech recognition is unavailable in this browser");return;}
-  voiceManualStop=false;voiceError.textContent="";try{recog.start();}catch(_){}
+  if(!recog){voiceManualStop=true;voiceFallback.hidden=false;voiceError.textContent="";setVoiceState("Dictation fallback","Tap the transcript, then use your keyboard microphone");voiceTranscript.focus();return;}
+  if(!window.isSecureContext){voiceManualStop=true;voiceError.textContent="Microphone input requires a secure HTTPS connection.";setVoiceState("Voice unavailable","Open Synapse over HTTPS and try again");return;}
+  recog.lang=preferredVoiceLanguage();
+  if(listening||recognitionStarting)return;voiceManualStop=false;voiceError.textContent="";recognitionStarting=true;
+  try{recog.start();}catch(err){recognitionStarting=false;voiceManualStop=true;voiceError.textContent=err.name==="InvalidStateError"?"Voice input is already starting. Try again in a moment.":"Voice input could not start. Check microphone permission and try again.";setVoiceState("Voice paused","Tap the microphone to retry");}
 }
 function openVoiceMode(){
-  if(voiceOpen)return;voiceOpen=true;voiceManualStop=false;voiceBase=qEl.value.trim()?qEl.value.trim()+" ":"";voiceFinal="";voiceInterim="";
+  if(voiceOpen)return;voiceOpen=true;voiceManualStop=false;voiceBase=qEl.value.trim()?qEl.value.trim()+" ":"";voiceCommitted="";voiceSessionFinal="";voiceInterim="";
   voiceShell.classList.add("open");voiceShell.setAttribute("aria-hidden","false");document.body.classList.add("voice-open");updateVoiceTranscript();
-  setVoiceState("Listening…","Ask about equipment, failures, quality, or compliance");startVoiceAmplitude();startRecognition();
+  voiceFallback.hidden=Boolean(recog);setVoiceState(recog?"Starting microphone…":"Dictation fallback",recog?"Ask about equipment, failures, quality, or compliance":"Tap the transcript, then use your keyboard microphone");
+  startRecognition();startVoiceAmplitude();
 }
 function closeVoiceMode(){
   if(!voiceOpen)return;voiceOpen=false;voiceManualStop=true;clearTimeout(voiceRestart);try{if(listening)recog?.stop();}catch(_){}listening=false;
+  recognitionStarting=false;
   stopVoiceAudio();micBtn?.classList.remove("listening");voiceMic.classList.remove("listening");voiceShell.classList.remove("open");
   voiceShell.setAttribute("aria-hidden","true");document.body.classList.remove("voice-open");qEl.focus();
 }
 function toggleVoiceListening(){
-  if(listening){voiceManualStop=true;recog?.stop();setVoiceState("Paused","Tap the microphone when you’re ready to continue");return;}
+  if(!recog){voiceTranscript.focus();return;}
+  if(listening||recognitionStarting){voiceManualStop=true;try{recog?.stop();}catch(_){}recognitionStarting=false;setVoiceState("Paused","Tap the microphone when you’re ready to continue");return;}
   if(!voiceOpen){openVoiceMode();return;}startVoiceAmplitude();startRecognition();
 }
 function sendVoiceQuestion(){const text=qEl.value.trim();if(!text)return;closeVoiceMode();ask(text);}
 if(recog){
-  recog.continuous=true;
-  recog.onstart=()=>{listening=true;setVoiceState("Listening…","Speak naturally — Synapse will transcribe as you talk");};
+  recog.onstart=()=>{recognitionStarting=false;listening=true;voiceError.textContent="";setVoiceState("Listening…","Speak naturally — Synapse will transcribe as you talk");};
   recog.onresult=e=>{let finalText="",interimText="";for(let i=0;i<e.results.length;i++){const text=e.results[i][0].transcript;if(e.results[i].isFinal)finalText+=text+" ";else interimText+=text;}
-    voiceFinal=finalText;voiceInterim=interimText;updateVoiceTranscript();};
-  recog.onerror=e=>{listening=false;setVoiceState("Couldn’t hear that","Check microphone access and try again");
-    const messages={"not-allowed":"Microphone permission is blocked in this browser.","service-not-allowed":"Speech recognition is blocked by the browser.","no-speech":"No speech detected. Tap the microphone and try again.","network":"Speech recognition needs a network connection."};
-    voiceError.textContent=messages[e.error]||`Voice input stopped (${e.error}).`;if(e.error==="not-allowed"||e.error==="service-not-allowed")voiceManualStop=true;};
-  recog.onend=()=>{listening=false;setVoiceState(voiceManualStop?"Paused":"Listening…",voiceManualStop?"Tap the microphone to continue":"Keeping the microphone ready");
-    if(voiceOpen&&!voiceManualStop)voiceRestart=setTimeout(startRecognition,350);};
+    voiceSessionFinal=finalText;voiceInterim=interimText;updateVoiceTranscript();};
+  recog.onerror=e=>{recognitionStarting=false;listening=false;if(e.error==="aborted"&&voiceManualStop)return;setVoiceState("Voice paused","Tap the microphone to retry");
+    const messages={"not-allowed":"Microphone permission is blocked. Allow it in site settings, then retry.","service-not-allowed":"Speech recognition is blocked by this browser.","no-speech":"No speech was detected. Move closer to the microphone and retry.","audio-capture":"No working microphone was found. Check the selected input device.","network":"The browser speech service could not connect. Check your connection and retry.","language-not-supported":`Speech recognition does not support ${recog.lang} on this browser.`};
+    voiceError.textContent=messages[e.error]||`Voice input stopped (${e.error}).`;voiceManualStop=true;};
+  recog.onend=()=>{recognitionStarting=false;listening=false;if(voiceSessionFinal){voiceCommitted+=voiceSessionFinal;voiceSessionFinal="";}voiceInterim="";updateVoiceTranscript();
+    setVoiceState(voiceManualStop?"Paused":"Listening…",voiceManualStop?"Tap the microphone to continue":"Keeping the microphone ready");
+    if(voiceOpen&&!voiceManualStop)voiceRestart=setTimeout(startRecognition,mobileVoice?650:350);};
 }
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&voiceOpen)closeVoiceMode();});
 

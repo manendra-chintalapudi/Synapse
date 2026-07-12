@@ -3,7 +3,7 @@ ask_synapse(question) -- the complete Synapse query pipeline in one call.
 
     router.route()  ->  retrieval fan-out (parallel)  ->  synthesizer
       tiers 1-3         graph   : Neo4j  (entity-neighborhood Cypher templates)
-                        structured: Trino federated SQL over erp/scada/qms/cmms
+                        structured: DuckDB federated SQL over erp/scada/qms/cmms
                         documents : Chroma semantic search (MiniLM embeddings)
 
 Returns {answer, sources, model_used, retrieval_plan, latency} -- retrieval_plan is
@@ -123,7 +123,7 @@ FROM scada.main.ai4i_events
 
 
 def structured_retrieval(question, details):
-    """Pick intent-matched SQL template(s) and run them federated via Trino."""
+    """Pick intent-matched SQL template(s) and run them through DuckDB federation."""
     q = question.lower()
     results = {}
     if re.search(r"how many coils.*(fail|defect|deviat|quality)", q):

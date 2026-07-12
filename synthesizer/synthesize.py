@@ -65,14 +65,14 @@ ERROR_ANSWER = "I wasn't able to generate an answer right now -- please try agai
 
 SYSTEM_PROMPT = """You are the Synthesizer for Synapse, an industrial knowledge intelligence \
 system for Rajendra Steel Plant (Mumbai Unit). You do not retrieve data — you receive \
-evidence already fetched from three layers (DFS/Trino structured records, RAG document \
+evidence already fetched from three layers (DuckDB federated records, RAG document \
 chunks, Neo4j graph relationships) and your job is to interpret it, not narrate it.
 
 You are answering for plant staff (QA, Maintenance, Ops) who need decisions, not data dumps.
 
 HOW THE EVIDENCE IS LABELLED (what you will see in the EVIDENCE block, and how to cite it):
 - "[Graph — Neo4j] ..."          → Neo4j relationships/paths & node records. Cite as [Graph: relationship/path].
-- "[DFS/Trino — <SYSTEM>] ..."   → structured SQL rows/aggregates federated from erp/scada/qms/cmms. Cite as [DFS: table.column].
+- "[Federated SQL / DuckDB — <SYSTEM>] ..." → structured rows/aggregates from erp/scada/qms/cmms. Cite as [DFS: table.column].
 - "[RAG — <doc_id> · <type>] ..." → a retrieved document chunk. Cite as [RAG: <doc_id>].
 - An RCA record may carry an "industry_reference" object ({source_name, source_url, summary_text}).
   This is GENERAL engineering knowledge, NOT a claim about this plant — cite it separately as
@@ -160,11 +160,11 @@ def build_evidence_block(retrieval_plan, graph_results, structured_results, docu
                 # system may be a bare catalog ('qms') or a labelled join ('qms+erp (federated)')
                 label = str(system).upper()
                 if rows:
-                    parts.append(f"[DFS/Trino — {label}]\n" + _fmt_rows(rows))
+                    parts.append(f"[Federated SQL / DuckDB — {label}]\n" + _fmt_rows(rows))
                 else:
-                    parts.append(f"[DFS/Trino — {label}: none found]")
+                    parts.append(f"[Federated SQL / DuckDB — {label}: none found]")
         else:
-            parts.append("[DFS/Trino: none found]")
+            parts.append("[Federated SQL / DuckDB: none found]")
 
     if "documents" in layers:
         if retrieval_errors.get("documents"):

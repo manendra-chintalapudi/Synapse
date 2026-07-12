@@ -289,7 +289,7 @@
 <div class="strip" aria-hidden="true">
   <div class="track" id="strip-track">
     <span class="item"><i></i>NEO4J GRAPH</span>
-    <span class="item"><i></i>TRINO FEDERATION</span>
+    <span class="item"><i></i>DUCKDB FEDERATION</span>
     <span class="item"><i></i>DUCKDB MIRRORS</span>
     <span class="item"><i></i>CHROMA VECTORS</span>
     <span class="item"><i></i>LANGCHAIN</span>
@@ -385,8 +385,8 @@
         <div class="step" data-step="1">
           <span class="num">02</span>
           <h3>Federated SQL</h3>
-          <p>Trino joins ERP, SCADA, QMS and CMMS in a single statement. Coil genealogy meets sensor readings meets quality verdicts — without moving a single table.</p>
-          <div class="chips"><span class="chip">Trino</span><span class="chip">DuckDB</span><span class="chip">4 systems, 1 query</span></div>
+          <p>DuckDB federates ERP, SCADA, QMS and CMMS in a single statement. Coil genealogy meets sensor readings meets quality verdicts — without moving a single table.</p>
+          <div class="chips"><span class="chip">DuckDB</span><span class="chip">Read-only federation</span><span class="chip">4 systems, 1 query</span></div>
         </div>
         <div class="step" data-step="2">
           <span class="num">03</span>
@@ -482,7 +482,7 @@
     <div class="list reveal d2">
       <details class="qa" open>
         <summary>What data does the demo run on?<span class="plus">+</span></summary>
-        <div class="a">A full synthetic model of the Rajendra Steel Plant (Mumbai Unit): 400 coils, 200 failures with complete RCA chains, 1,941 quality tests, 255 documents and 18 standards — mirrored across Neo4j, four DuckDB system databases and a Chroma vector store.</div>
+        <div class="a">A hybrid, provenance-labelled demo: a locked synthetic Rajendra Steel Plant ontology is enriched with the real-source Steel Plates Faults dataset (1,941 rows) and Steel Industry Energy Consumption dataset (35,040 rows). AI4I 2020 adds 10,000 official UCI synthetic-reference records for predictive-maintenance analysis. The sources remain distinguishable across Neo4j, four DuckDB system databases and Chroma.</div>
       </details>
       <details class="qa">
         <summary>How are answers cited?<span class="plus">+</span></summary>

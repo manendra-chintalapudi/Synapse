@@ -1,11 +1,12 @@
 {
   "benchmark": "domain-expert answer quality",
+  "status": "historical_pre_fix_production_run",
   "generated_at": "2026-07-11T11:38:23.145545+00:00",
   "base_url": "https://web-production-a9e7.up.railway.app",
   "case_count": 3,
   "automated_mean_pass_rate": 0.333,
   "expert_validation_complete": false,
-  "scope_note": "Automated rubric results are not a substitute for domain-expert scoring.",
+  "scope_note": "Historical pre-fix production run retained as a baseline. The current authenticated production rerun and domain-expert scoring are pending; use answer_quality_regression_results.json for the verified post-fix offline evidence regression.",
   "cases": [
     {
       "id": "rhf_cooling_circuit_rca",

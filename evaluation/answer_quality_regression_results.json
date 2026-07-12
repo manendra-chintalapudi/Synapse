@@ -1,6 +1,6 @@
 {
   "benchmark": "offline deterministic answer-quality regression",
-  "generated_at": "2026-07-12T07:13:52.962299+00:00",
+  "generated_at": "2026-07-12T07:32:00.216183+00:00",
   "case_count": 3,
   "automated_mean_pass_rate": 1.0,
   "expert_validation_complete": false,

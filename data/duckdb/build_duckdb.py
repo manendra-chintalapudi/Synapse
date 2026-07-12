@@ -2,7 +2,7 @@
 Build per-system DuckDB databases from the ontology node JSON files.
 
 These DuckDB files are a PARALLEL, read-optimized representation for the
-Trino/DFS federation layer. The ontology/nodes/*.json files remain the source of
+direct federated-SQL layer. The ontology/nodes/*.json files remain the source of
 truth for Neo4j and are only READ here, never modified.
 
 Nested JSON fields (composition, feature_values, sensor_values) are stored as

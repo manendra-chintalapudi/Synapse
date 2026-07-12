@@ -68,10 +68,10 @@ def run(window_days: int = 30) -> dict:
     evidence = {}
     for family, standard_ids in grouped.items():
         cohort = {}
-        for standard_id in standard_ids:
+        for standard_id in sorted(standard_ids):
             cohort.update(by_standard[standard_id])
         linked, preceded, followed = [], [], []
-        for deviation_id, flagged in cohort.items():
+        for deviation_id, flagged in sorted(cohort.items()):
             failure_id = deviations[deviation_id].get("failure_id_fk")
             if not failure_id or failure_id not in failures:
                 continue

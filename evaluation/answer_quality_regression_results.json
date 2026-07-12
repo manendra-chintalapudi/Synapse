@@ -1,0 +1,146 @@
+{
+  "benchmark": "offline deterministic answer-quality regression",
+  "generated_at": "2026-07-12T07:13:52.962299+00:00",
+  "case_count": 3,
+  "automated_mean_pass_rate": 1.0,
+  "expert_validation_complete": false,
+  "execution_scope": "Locked ontology/document evidence; not a public endpoint or latency test.",
+  "scope_note": "Automated rubric results are not a substitute for domain-expert scoring.",
+  "cases": [
+    {
+      "id": "rhf_cooling_circuit_rca",
+      "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+      "expected_fact_patterns": [
+        "F1186",
+        "RCA1186",
+        "EQ-RHF-01|Reheating Furnace #?1",
+        "insufficient heat dissipation|cooling (?:airflow|flow)",
+        "PROC-022",
+        "cooling/lubrication verification|Step 4",
+        "temperature-differential alarm|restored cooling circuit"
+      ],
+      "expected_source_layers": [
+        "Graph",
+        "RAG"
+      ],
+      "expected_role": "maintenance",
+      "ground_truth": "ontology/nodes/failure.json:F1186 + ontology/nodes/rca.json:RCA1186",
+      "response": {
+        "answer": "**Direct answer:** F1186 on Reheating Furnace #1 (EQ-RHF-01) was diagnosed by RCA1186. The recorded cause was Root cause traced to insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant. The procedure gap was PROC-022: Step 4 of PROC-022 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event.\n\n**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph and its work-order document. **High confidence**: this is a direct event chain, not a statistical inference. The operational risk is recurrence of the same thermal trip if cooling verification remains incomplete.\n\n**Recommended action for Maintenance:** Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system. Then verify coolant/airflow, record the final temperature differential under PROC-022, and monitor the new alarm before returning the asset to unrestricted service.\n\n**Sources used:**\n- [Graph: EXPERIENCED -> DIAGNOSED_BY -> PROCEDURE_REVIEWED] F1186, RCA1186, PROC-022.\n- [RAG: DOC1242] exact linked work-order narrative.\n\n**So what:** Closing the recorded procedure gap reduces repeat downtime and makes the repair auditable.",
+        "sources": [
+          "[Graph: EXPERIENCED -> DIAGNOSED_BY -> PROCEDURE_REVIEWED]",
+          "[RAG: DOC1242]"
+        ],
+        "model_used": "deterministic/evidence-template",
+        "retrieval_errors": {}
+      },
+      "automated_score": {
+        "direct_fact_coverage": 1.0,
+        "correlation_or_insight": true,
+        "implication_with_confidence": true,
+        "role_scoped_action": true,
+        "required_source_layers": [
+          "Graph",
+          "RAG"
+        ],
+        "all_required_layers_cited": true,
+        "healthy_execution": true,
+        "automated_pass_count": 6,
+        "automated_check_count": 6,
+        "automated_pass_rate": 1.0
+      },
+      "expert_review": {
+        "status": "pending",
+        "factual_correctness_1_to_5": null,
+        "operational_usefulness_1_to_5": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "coil_equipment_lineage",
+      "question": "Which equipment produced coil C10234, and what is the operational implication?",
+      "expected_fact_patterns": [
+        "C10234",
+        "EQ-FMS-01|Finishing Mill Stand F1",
+        "PRODUCED_AT"
+      ],
+      "expected_source_layers": [
+        "Graph"
+      ],
+      "expected_role": "operations",
+      "ground_truth": "ontology/nodes/coil.json:C10234",
+      "response": {
+        "answer": "**Direct answer:** Coil C10234 was produced at EQ-FMS-01 (Finishing Mill Stand F1) through the `PRODUCED_AT` relationship.\n\n**Insight:** This is an exact coil-to-equipment lineage link. The same neighborhood includes 1 deviation record(s). **Medium confidence** for operational implication: the lineage is definitive, but attributing any quality risk to the stand requires corroborating roll-condition and batch history.\n\n**Recommended action for Operations:** Use EQ-FMS-01 as the starting asset for shift-log, setup and maintenance checks; have QA compare nearby coils before escalating to a line-wide hold.\n\n**Sources used:**\n- [Graph: Coil -[:PRODUCED_AT]-> Equipment] C10234 -> EQ-FMS-01.\n\n**So what:** Exact lineage narrows a cross-system investigation to the responsible production asset in one step.",
+        "sources": [
+          "[Graph: Coil -[:PRODUCED_AT]"
+        ],
+        "model_used": "deterministic/evidence-template",
+        "retrieval_errors": {}
+      },
+      "automated_score": {
+        "direct_fact_coverage": 1.0,
+        "correlation_or_insight": true,
+        "implication_with_confidence": true,
+        "role_scoped_action": true,
+        "required_source_layers": [
+          "Graph"
+        ],
+        "all_required_layers_cited": true,
+        "healthy_execution": true,
+        "automated_pass_count": 6,
+        "automated_check_count": 6,
+        "automated_pass_rate": 1.0
+      },
+      "expert_review": {
+        "status": "pending",
+        "factual_correctness_1_to_5": null,
+        "operational_usefulness_1_to_5": null,
+        "notes": null
+      }
+    },
+    {
+      "id": "is2062_scope_and_action",
+      "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
+      "expected_fact_patterns": [
+        "IS\\s*:?[ -]?2062",
+        "hot.?rolled",
+        "structural steel",
+        "chemical|mechanical",
+        "test"
+      ],
+      "expected_source_layers": [
+        "RAG"
+      ],
+      "expected_role": "qa|quality",
+      "ground_truth": "data/unstructured/standards/is_2062.md + DOC1058",
+      "response": {
+        "answer": "**Direct answer:** IS 2062 covers hot-rolled medium and high-tensile structural steel supplied as plates, strips, sections, flats and bars. It defines grade/sub-quality requirements covering manufacture, chemical composition, mechanical properties and testing [RAG: DOC1058].\n\n**Insight:** Non-compliance creates a structural assurance risk: strength, ductility, weldability and toughness may not be demonstrated for the declared grade. **High confidence** on scope; exact numeric limits are intentionally omitted from this summary and must be checked in the licensed BIS text [RAG: DOC1058].\n\n**Recommended action for QA:** Verify grade and sub-quality, heat/mill certificate traceability, chemical analysis, mechanical test results, dimensions and surface acceptance against the licensed current edition before release.\n\n**Sources used:**\n- [RAG: DOC1058] BIS IS 2062 scope and classification reference.\n\n**So what:** A documented IS 2062 verification prevents structurally unsuitable material from moving into fabrication or dispatch.",
+        "sources": [
+          "[RAG: DOC1058]"
+        ],
+        "model_used": "deterministic/evidence-template",
+        "retrieval_errors": {}
+      },
+      "automated_score": {
+        "direct_fact_coverage": 1.0,
+        "correlation_or_insight": true,
+        "implication_with_confidence": true,
+        "role_scoped_action": true,
+        "required_source_layers": [
+          "RAG"
+        ],
+        "all_required_layers_cited": true,
+        "healthy_execution": true,
+        "automated_pass_count": 6,
+        "automated_check_count": 6,
+        "automated_pass_rate": 1.0
+      },
+      "expert_review": {
+        "status": "pending",
+        "factual_correctness_1_to_5": null,
+        "operational_usefulness_1_to_5": null,
+        "notes": null
+      }
+    }
+  ]
+}

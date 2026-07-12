@@ -1,0 +1,154 @@
+{
+  "real_csv_file_count": 17,
+  "real_csv_total_rows_including_duplicates": 326653,
+  "files": [
+    {
+      "path": "data/erp/real_data/erp_schema_reference__dependencies__Complexity_Roles.csv",
+      "rows": 1,
+      "columns": 4,
+      "sha256": "e1c70e0e2f279862a3bd000bd6ab05685124231af20f1e3d767ae6b037fc6e61",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/erp/real_data/erp_schema_reference__dependencies__ERP.csv",
+      "rows": 177,
+      "columns": 11,
+      "sha256": "4ec8df102c7f91c805bc77b905307220f1d4f963ac42eb1df241faa287a6fd0d",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/erp/real_data/erp_schema_reference__dependencies__ERP_Dependency_Analysis.csv",
+      "rows": 177,
+      "columns": 11,
+      "sha256": "f0ac12236a191f42e73104cb6b1e61c21cb5d497576684fe276306c0d612da44",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/erp/real_data/inventory_structure_reference.csv",
+      "rows": 106367,
+      "columns": 15,
+      "sha256": "4877493dd4aec09bd87109b3cddd71ded26902382caf356173891ab6c207634d",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/erp/real_data/steel_bom_grades.csv",
+      "rows": 457,
+      "columns": 14,
+      "sha256": "e415c9c298b6c35da8243e127d2a7a298623c1069d5b9bc9b257a4b890d43b5c",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/qms/real_data/steel_plates_faults.csv",
+      "rows": 1941,
+      "columns": 34,
+      "sha256": "315b45ecd2b7ab441335dc83efa0daed49eb97e6eee59f9612b4b7a1048aeb03",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/arc_furnace_data.csv",
+      "rows": 85104,
+      "columns": 4,
+      "sha256": "6644aa5c6611194b783dfbde8f83790a17f0460fd5d79863aae4a99196ee43a1",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__arc.csv",
+      "rows": 14876,
+      "columns": 5,
+      "sha256": "98c9770b4127ddd57a804ed5b01f0c0f56c71d35c9fdb542d5d3c17fa4cfe792",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__bulk.csv",
+      "rows": 3129,
+      "columns": 16,
+      "sha256": "5f39170b5c69d87ad0a2e0c2b5406b0c6cfc8c3b1da778b98f1785ac09ec84d4",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__bulk_time.csv",
+      "rows": 3129,
+      "columns": 16,
+      "sha256": "cf7a315fdc2f08b31fb8cc14a30444a77f764769b2974549a8424ebe529ae657",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__gas.csv",
+      "rows": 3239,
+      "columns": 2,
+      "sha256": "e04505a0f4c14a3d1ede0d319f3b55e332ad3bf1fd73a1dd3a9b68aab6039e23",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__temp.csv",
+      "rows": 15907,
+      "columns": 3,
+      "sha256": "dce1d0476407456b079fb310885eb1a77db88d977ba57ca06245591163b8de75",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__temp_full_with_test.csv",
+      "rows": 15907,
+      "columns": 3,
+      "sha256": "2102176955b1c491fdd76497f44cefd9ae31d39fd5776f331398b8fe825d8dc7",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__wire.csv",
+      "rows": 3081,
+      "columns": 10,
+      "sha256": "eaaffe54d05b790d433d72d4e8115a1bc7b6dcc0d47e27445122027002d11ceb",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/ladle_furnace_data__wire_time.csv",
+      "rows": 3081,
+      "columns": 10,
+      "sha256": "40c22cc3b76c86bb5e5c391011df923352566a4d4d9d93cf3a5ce65903c88ff9",
+      "duplicate_content": false
+    },
+    {
+      "path": "data/scada/real_data/steel_energy_consumption.csv",
+      "rows": 35040,
+      "columns": 11,
+      "sha256": "9b1cee6f9cb9cd9df2b95814ca90a9a2ff15b7f5f1fba0fae3c643e82072eacc",
+      "duplicate_content": true
+    },
+    {
+      "path": "data/scada/real_data/steel_industry_data.csv",
+      "rows": 35040,
+      "columns": 11,
+      "sha256": "9b1cee6f9cb9cd9df2b95814ca90a9a2ff15b7f5f1fba0fae3c643e82072eacc",
+      "duplicate_content": true
+    }
+  ],
+  "named_dataset_claims": {
+    "Steel Plates Faults": {
+      "status": "present_real_source",
+      "path": "data/qms/real_data/steel_plates_faults.csv",
+      "rows": 1941,
+      "used_as": "QualityTest.feature_values and QualityTest.fault_type"
+    },
+    "Steel Industry Energy Consumption": {
+      "status": "present_real_source",
+      "paths": [
+        "data/scada/real_data/steel_energy_consumption.csv",
+        "data/scada/real_data/steel_industry_data.csv"
+      ],
+      "note": "The two files have identical content and must count as one dataset, not two.",
+      "used_as": "SCADA energy/consumption reference data"
+    },
+    "AI4I 2020 Predictive Maintenance": {
+      "status": "not_ingested",
+      "matching_files": [],
+      "used_as": "Failure modes are AI4I-shaped/remapped; sensor values are explicitly synthetic pending ingestion.",
+      "claim_allowed_as_real_ingested_data": false
+    }
+  },
+  "document_source_labels": {
+    "unlabelled": 67,
+    "synthetic": 188
+  },
+  "document_claim_note": "Documents without an explicit source_type must not automatically be called real industrial documents. The 188 work-order narratives labelled synthetic are explicitly synthetic.",
+  "passed": true
+}

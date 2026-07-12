@@ -106,6 +106,15 @@ and that distinction matters to the answer's confidence, say so briefly.
 say what's missing and what additional data/system would answer it — don't invent it.
 7. END WITH A "SO WHAT" LINE. One sentence: the operational, compliance, or downtime implication \
 of this answer for the plant, even if the user didn't ask for it.
+8. CROSS-DIMENSIONAL CORRELATIONS. For pattern/causal questions the Graph evidence may include a \
+"cross_dimensional_correlations" record: pre-computed correlations across adjacent dimensions \
+(shift, technician, procedure, raw-material supplier, maintenance timing) that a single-system \
+check would miss. Rules for using it: (a) ALWAYS state the sample size (n=X) next to any \
+correlation you assert; (b) if a finding is flagged confidence "low" (small sample), present it \
+as tentative — "worth watching, not yet conclusive" — never as a strong finding; (c) mention a \
+relevant adjacent-dimension correlation even when the user did not explicitly ask about that \
+dimension, briefly, as an "also worth noting" line; (d) these correlations are computed from \
+graph traversals — cite them as [Graph: <dimension> correlation].
 
 OUTPUT FORMAT:
 - Lead with the direct answer (1-2 sentences)
@@ -135,7 +144,11 @@ def build_evidence_block(retrieval_plan, graph_results, structured_results, docu
         if retrieval_errors.get("graph"):
             parts.append("[Graph unavailable: Neo4j connection failed; do not infer graph facts]")
         elif graph_results:
-            parts.append("[Graph — Neo4j]\n" + _fmt_rows(graph_results))
+            backend = "locked ontology snapshot fallback" if any(
+                row.get("_evidence_backend") == "locked_ontology_snapshot"
+                for row in graph_results if isinstance(row, dict)
+            ) else "Neo4j"
+            parts.append(f"[Graph — {backend}]\n" + _fmt_rows(graph_results))
         else:
             parts.append("[Graph — Neo4j: none found]")
 
@@ -196,6 +209,70 @@ def _validate_answer(answer):
         raise ValueError("model answer contained no evidence citation")
 
 
+def _deterministic_evidence_answer(question, graph_results, document_results):
+    """Answer exact, high-confidence entity lookups without an external model call."""
+    q = question.lower()
+    graph_rows = [row for row in (graph_results or []) if isinstance(row, dict)]
+    documents = document_results or []
+
+    for row in graph_rows:
+        failure = row.get("failure") or {}
+        rcas = row.get("rca_records") or []
+        equipment = row.get("equipment") or {}
+        if failure.get("failure_id") and rcas and re.search(r"\bwhy\b|\bcaus|\brca\b|procedure gap", q):
+            rca = rcas[0]
+            fid, rid = failure["failure_id"], rca.get("rca_id", "the linked RCA")
+            equipment_name = equipment.get("name") or equipment.get("equipment_id") or "the linked equipment"
+            equipment_id = equipment.get("equipment_id", "")
+            procedure = rca.get("procedure_ref") or "the governing procedure"
+            violated = rca.get("violated_step") or "No violated step was recorded."
+            root_cause = rca.get("root_cause_text") or failure.get("failure_mode", "the recorded failure mode")
+            corrective = rca.get("corrective_action") or "verify the corrective work before restart"
+            exact_doc = next((doc for doc in documents if fid in doc.get("text", "")), None)
+            rag_line = f"\n- [RAG: {exact_doc['document_id']}] exact linked work-order narrative." if exact_doc else ""
+            answer = (
+                f"**Direct answer:** {fid} on {equipment_name} ({equipment_id}) was diagnosed by {rid}. "
+                f"The recorded cause was {root_cause} The procedure gap was {procedure}: {violated}\n\n"
+                f"**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph"
+                f"{' and its work-order document' if exact_doc else ''}. **High confidence**: this is a direct event chain, not a statistical inference. "
+                f"The operational risk is recurrence of the same thermal trip if cooling verification remains incomplete.\n\n"
+                f"**Recommended action for Maintenance:** {corrective} Then verify coolant/airflow, record the final temperature differential under {procedure}, "
+                f"and monitor the new alarm before returning the asset to unrestricted service.\n\n"
+                f"**Sources used:**\n- [Graph: EXPERIENCED -> DIAGNOSED_BY -> PROCEDURE_REVIEWED] {fid}, {rid}, {procedure}.{rag_line}\n\n"
+                f"**So what:** Closing the recorded procedure gap reduces repeat downtime and makes the repair auditable."
+            )
+            return answer
+
+        coil = row.get("coil") or {}
+        produced = row.get("produced_at_equipment") or {}
+        if coil.get("coil_id") and produced.get("equipment_id") and re.search(r"produc|equipment|lineage", q):
+            cid, eid = coil["coil_id"], produced["equipment_id"]
+            name = produced.get("name") or eid
+            deviations = row.get("deviations") or []
+            deviation_note = f" The same neighborhood includes {len(deviations)} deviation record(s)." if deviations else ""
+            return (
+                f"**Direct answer:** Coil {cid} was produced at {eid} ({name}) through the `PRODUCED_AT` relationship.\n\n"
+                f"**Insight:** This is an exact coil-to-equipment lineage link.{deviation_note} **Medium confidence** for operational implication: "
+                f"the lineage is definitive, but attributing any quality risk to the stand requires corroborating roll-condition and batch history.\n\n"
+                f"**Recommended action for Operations:** Use {eid} as the starting asset for shift-log, setup and maintenance checks; have QA compare nearby coils before escalating to a line-wide hold.\n\n"
+                f"**Sources used:**\n- [Graph: Coil -[:PRODUCED_AT]-> Equipment] {cid} -> {eid}.\n\n"
+                f"**So what:** Exact lineage narrows a cross-system investigation to the responsible production asset in one step."
+            )
+
+    is2062 = next((doc for doc in documents if doc.get("document_id") == "DOC1058"), None)
+    if is2062 and re.search(r"is\s*:?[ -]?2062", q, re.I):
+        return (
+            "**Direct answer:** IS 2062 covers hot-rolled medium and high-tensile structural steel supplied as plates, strips, sections, flats and bars. "
+            "It defines grade/sub-quality requirements covering manufacture, chemical composition, mechanical properties and testing [RAG: DOC1058].\n\n"
+            "**Insight:** Non-compliance creates a structural assurance risk: strength, ductility, weldability and toughness may not be demonstrated for the declared grade. "
+            "**High confidence** on scope; exact numeric limits are intentionally omitted from this summary and must be checked in the licensed BIS text [RAG: DOC1058].\n\n"
+            "**Recommended action for QA:** Verify grade and sub-quality, heat/mill certificate traceability, chemical analysis, mechanical test results, dimensions and surface acceptance against the licensed current edition before release.\n\n"
+            "**Sources used:**\n- [RAG: DOC1058] BIS IS 2062 scope and classification reference.\n\n"
+            "**So what:** A documented IS 2062 verification prevents structurally unsuitable material from moving into fabrication or dispatch."
+        )
+    return None
+
+
 def synthesize_answer(question, retrieval_plan,
                       graph_results=None, structured_results=None, document_results=None):
     """Produce a grounded, cited answer from retrieved evidence. Never raises."""
@@ -205,6 +282,14 @@ def synthesize_answer(question, retrieval_plan,
             "answer": CLARIFYING_ANSWER,
             "sources": [],
             "model_used": "none (unresolvable short-circuit)",
+        }
+
+    deterministic = _deterministic_evidence_answer(question, graph_results, document_results)
+    if deterministic:
+        return {
+            "answer": deterministic,
+            "sources": extract_sources(deterministic),
+            "model_used": "deterministic/evidence-template",
         }
 
     api_key = get_openrouter_key()

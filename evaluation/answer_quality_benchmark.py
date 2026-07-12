@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import time
 import urllib.request
@@ -52,11 +53,14 @@ CASES = [
 ]
 
 
-def post_question(base_url: str, question: str, timeout: int) -> dict:
+def post_question(base_url: str, question: str, timeout: int, token: str = "") -> dict:
     payload = json.dumps({"question": question}).encode("utf-8")
+    headers = {"Content-Type": "application/json"}
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
     request = urllib.request.Request(
         base_url.rstrip("/") + "/api/ask", data=payload,
-        headers={"Content-Type": "application/json"}, method="POST",
+        headers=headers, method="POST",
     )
     started = time.perf_counter()
     with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -95,11 +99,11 @@ def score(case: dict, response: dict) -> dict:
     return checks
 
 
-def run(base_url: str, timeout: int) -> dict:
+def run(base_url: str, timeout: int, token: str = "") -> dict:
     rows = []
     for case in CASES:
         try:
-            response = post_question(base_url, case["question"], timeout)
+            response = post_question(base_url, case["question"], timeout, token)
             row = {**case, "response": response, "automated_score": score(case, response)}
         except Exception as exc:
             row = {**case, "error": f"{type(exc).__name__}: {exc}", "automated_score": {"automated_pass_rate": 0}}
@@ -129,8 +133,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-url", default="https://web-production-a9e7.up.railway.app")
     parser.add_argument("--timeout", type=int, default=180)
+    parser.add_argument("--token", default=os.environ.get("SYNAPSE_BENCHMARK_TOKEN", ""), help="Supabase access token; prefer SYNAPSE_BENCHMARK_TOKEN")
     args = parser.parse_args()
-    result = run(args.base_url, args.timeout)
+    result = run(args.base_url, args.timeout, args.token)
     print(json.dumps({
         "benchmark": result["benchmark"],
         "case_count": result["case_count"],

@@ -7,6 +7,8 @@ query templates the router's plans map onto (same template pattern as the struct
 """
 import json
 import os
+from functools import lru_cache
+from pathlib import Path
 
 from neo4j import GraphDatabase
 
@@ -16,6 +18,9 @@ NEO4J_USER = os.environ.get("NEO4J_USER") or os.environ.get("NEO4J_USERNAME") or
 NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "synapse123")
 
 _driver = None
+ROOT = Path(__file__).resolve().parents[1]
+NODE_DIR = ROOT / "ontology" / "nodes"
+REL_DIR = ROOT / "ontology" / "relationships"
 
 
 def get_driver():
@@ -108,12 +113,107 @@ def _rehydrate_industry_reference(records):
     return records
 
 
+@lru_cache(maxsize=None)
+def _node_index(name, key):
+    rows = json.loads((NODE_DIR / f"{name}.json").read_text(encoding="utf-8"))
+    return {row[key]: row for row in rows}
+
+
+@lru_cache(maxsize=None)
+def _relationships(name):
+    return json.loads((REL_DIR / f"{name}.json").read_text(encoding="utf-8"))
+
+
+def _project(row, fields, relationship=None):
+    if not row:
+        return None
+    result = {field: row.get(field) for field in fields if field in row}
+    if relationship:
+        result["relationship"] = relationship
+    return result
+
+
+def _local_neighborhood(entity_type, entity_id):
+    """Read an equivalent neighborhood from the committed, audited ontology snapshot."""
+    if entity_type == "failure":
+        failure = _node_index("failure", "failure_id").get(entity_id)
+        if not failure:
+            return []
+        equipment = _node_index("equipment", "equipment_id").get(failure.get("equipment_id"))
+        rcas = [row for row in _node_index("rca", "rca_id").values() if row.get("failure_id") == entity_id]
+        technicians = _node_index("technician", "technician_id")
+        procedures = _node_index("procedure", "procedure_id")
+        documents = _node_index("document", "document_id")
+        documented_ids = [edge["to"]["key"] for edge in _relationships("documented_in") if edge["from"]["key"] == entity_id]
+        return [{
+            "failure": _project(failure, ["failure_id", "failure_mode", "timestamp", "sensor_values", "impacted_coil_ids", "impacted_failed_tests"]),
+            "equipment": _project(equipment, ["equipment_id", "name", "type"], "EXPERIENCED"),
+            "rca_records": [_project(row, ["rca_id", "rca_date", "root_cause_text", "corrective_action", "violated_step", "procedure_ref", "industry_reference"]) for row in rcas[:4]],
+            "rca_analysts": [_project(technicians.get(row.get("analyst")), ["technician_id", "name", "role", "shift"]) for row in rcas[:4] if technicians.get(row.get("analyst"))],
+            "procedures": [_project(procedures.get(row.get("procedure_ref")), ["procedure_id", "title"], "PROCEDURE_REVIEWED") for row in rcas[:4] if procedures.get(row.get("procedure_ref"))],
+            "documents": [_project(documents.get(doc_id), ["document_id", "title", "doc_type"], "DOCUMENTED_IN") for doc_id in documented_ids[:4] if documents.get(doc_id)],
+            "_evidence_backend": "locked_ontology_snapshot",
+        }]
+
+    if entity_type == "coil":
+        coil = _node_index("coil", "coil_id").get(entity_id)
+        if not coil:
+            return []
+        equipment = _node_index("equipment", "equipment_id").get(coil.get("equipment_id"))
+        materials = _node_index("raw_material", "material_id")
+        deviations = [row for row in _node_index("deviation", "deviation_id").values() if row.get("coil_id_fk") == entity_id]
+        return [{
+            "coil": _project(coil, ["coil_id", "grade", "status", "production_date", "heat_number"]),
+            "produced_at_equipment": _project(equipment, ["equipment_id", "name", "type"], "PRODUCED_AT"),
+            "made_from_materials": [_project(materials.get(mid), ["material_id", "type"]) for mid in coil.get("material_ids", [])[:5] if materials.get(mid)],
+            "deviations": [_project(row, ["deviation_id", "severity", "description"]) for row in deviations[:5]],
+            "_evidence_backend": "locked_ontology_snapshot",
+        }]
+
+    if entity_type == "equipment":
+        equipment = _node_index("equipment", "equipment_id").get(entity_id)
+        if not equipment:
+            return []
+        failures = [row for row in _node_index("failure", "failure_id").values() if row.get("equipment_id") == entity_id]
+        failure_ids = {row["failure_id"] for row in failures}
+        rcas = [row for row in _node_index("rca", "rca_id").values() if row.get("failure_id") in failure_ids]
+        technicians = _node_index("technician", "technician_id")
+        return [{
+            "equipment": _project(equipment, ["equipment_id", "name", "type", "location", "maintenance_interval"]),
+            "failures": [_project(row, ["failure_id", "failure_mode", "timestamp"]) for row in failures[:8]],
+            "rca_records": [_project(row, ["rca_id", "rca_date", "root_cause_text", "corrective_action", "industry_reference"]) for row in rcas[:8]],
+            "rca_analysts": [technicians[row["analyst"]]["name"] for row in rcas[:8] if row.get("analyst") in technicians],
+            "_evidence_backend": "locked_ontology_snapshot",
+        }]
+
+    if entity_type == "standard":
+        standard = _node_index("standard", "standard_id").get(entity_id)
+        if not standard:
+            return []
+        failed_test_ids = {edge["from"]["key"] for edge in _relationships("failed_standard") if edge["to"]["key"] == entity_id}
+        procedure_ids = [edge["from"]["key"] for edge in _relationships("references_standard") if edge["to"]["key"] == entity_id]
+        procedures = _node_index("procedure", "procedure_id")
+        return [{
+            "standard": _project(standard, ["standard_id", "name", "clause_text"]),
+            "tests_that_failed_this_standard": len(failed_test_ids),
+            "referencing_procedures": [procedures[pid]["title"] for pid in procedure_ids[:5] if pid in procedures],
+            "_evidence_backend": "locked_ontology_snapshot",
+        }]
+    return []
+
+
 def entity_neighborhood(entity_type: str, entity_id: str) -> list:
-    """Run the type-appropriate neighborhood template for one matched entity."""
+    """Run Neo4j first, then discloseably fall back to the locked ontology snapshot."""
     template = TEMPLATES.get(entity_type)
     if template is None:                       # e.g. doc_type entities have no graph shape
         return []
-    return _rehydrate_industry_reference(query_graph(template, {"id": entity_id}))
+    try:
+        records = _rehydrate_industry_reference(query_graph(template, {"id": entity_id}))
+        if records:
+            return records
+    except Exception:
+        pass
+    return _rehydrate_industry_reference(_local_neighborhood(entity_type, entity_id))
 
 
 if __name__ == "__main__":

@@ -68,6 +68,16 @@
           "delta_days": 0
         },
         {
+          "deviation_id": "DEV1244",
+          "failure_id": "F1114",
+          "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1285",
+          "failure_id": "F1068",
+          "delta_days": 0
+        },
+        {
           "deviation_id": "DEV1404",
           "failure_id": "F1038",
           "delta_days": 3
@@ -75,11 +85,6 @@
         {
           "deviation_id": "DEV1503",
           "failure_id": "F1088",
-          "delta_days": 0
-        },
-        {
-          "deviation_id": "DEV1285",
-          "failure_id": "F1068",
           "delta_days": 0
         },
         {
@@ -91,14 +96,14 @@
           "deviation_id": "DEV1634",
           "failure_id": "F1114",
           "delta_days": 4
-        },
-        {
-          "deviation_id": "DEV1244",
-          "failure_id": "F1114",
-          "delta_days": 3
         }
       ],
       "followed_examples": [
+        {
+          "deviation_id": "DEV1016",
+          "failure_id": "F1009",
+          "delta_days": -22
+        },
         {
           "deviation_id": "DEV1018",
           "failure_id": "F1038",
@@ -110,9 +115,29 @@
           "delta_days": -15
         },
         {
+          "deviation_id": "DEV1023",
+          "failure_id": "F1196",
+          "delta_days": -4
+        },
+        {
           "deviation_id": "DEV1025",
           "failure_id": "F1196",
           "delta_days": -30
+        },
+        {
+          "deviation_id": "DEV1037",
+          "failure_id": "F1182",
+          "delta_days": -2
+        },
+        {
+          "deviation_id": "DEV1040",
+          "failure_id": "F1038",
+          "delta_days": -8
+        },
+        {
+          "deviation_id": "DEV1052",
+          "failure_id": "F1114",
+          "delta_days": -25
         },
         {
           "deviation_id": "DEV1053",
@@ -120,34 +145,9 @@
           "delta_days": -20
         },
         {
-          "deviation_id": "DEV1075",
-          "failure_id": "F1128",
-          "delta_days": -25
-        },
-        {
-          "deviation_id": "DEV1128",
-          "failure_id": "F1114",
-          "delta_days": -8
-        },
-        {
-          "deviation_id": "DEV1154",
-          "failure_id": "F1088",
-          "delta_days": -12
-        },
-        {
-          "deviation_id": "DEV1198",
-          "failure_id": "F1184",
-          "delta_days": -9
-        },
-        {
-          "deviation_id": "DEV1219",
-          "failure_id": "F1128",
-          "delta_days": -18
-        },
-        {
-          "deviation_id": "DEV1230",
-          "failure_id": "F1128",
-          "delta_days": -29
+          "deviation_id": "DEV1070",
+          "failure_id": "F1038",
+          "delta_days": -7
         }
       ]
     },
@@ -159,9 +159,19 @@
           "delta_days": 1
         },
         {
+          "deviation_id": "DEV1078",
+          "failure_id": "F1088",
+          "delta_days": 0
+        },
+        {
           "deviation_id": "DEV1244",
           "failure_id": "F1114",
           "delta_days": 3
+        },
+        {
+          "deviation_id": "DEV1326",
+          "failure_id": "F1128",
+          "delta_days": 7
         },
         {
           "deviation_id": "DEV1345",
@@ -169,14 +179,19 @@
           "delta_days": 0
         },
         {
-          "deviation_id": "DEV1487",
-          "failure_id": "F1088",
-          "delta_days": 7
+          "deviation_id": "DEV1404",
+          "failure_id": "F1038",
+          "delta_days": 3
         },
         {
           "deviation_id": "DEV1431",
           "failure_id": "F1068",
           "delta_days": 1
+        },
+        {
+          "deviation_id": "DEV1487",
+          "failure_id": "F1088",
+          "delta_days": 7
         },
         {
           "deviation_id": "DEV1503",
@@ -187,28 +202,28 @@
           "deviation_id": "DEV1541",
           "failure_id": "F1184",
           "delta_days": 9
-        },
-        {
-          "deviation_id": "DEV1078",
-          "failure_id": "F1088",
-          "delta_days": 0
-        },
-        {
-          "deviation_id": "DEV1404",
-          "failure_id": "F1038",
-          "delta_days": 3
-        },
-        {
-          "deviation_id": "DEV1326",
-          "failure_id": "F1128",
-          "delta_days": 7
         }
       ],
       "followed_examples": [
         {
+          "deviation_id": "DEV1003",
+          "failure_id": "F1182",
+          "delta_days": -10
+        },
+        {
           "deviation_id": "DEV1010",
           "failure_id": "F1170",
           "delta_days": -29
+        },
+        {
+          "deviation_id": "DEV1018",
+          "failure_id": "F1038",
+          "delta_days": -27
+        },
+        {
+          "deviation_id": "DEV1025",
+          "failure_id": "F1196",
+          "delta_days": -30
         },
         {
           "deviation_id": "DEV1037",
@@ -216,53 +231,58 @@
           "delta_days": -2
         },
         {
-          "deviation_id": "DEV1171",
-          "failure_id": "F1128",
-          "delta_days": -11
-        },
-        {
-          "deviation_id": "DEV1214",
-          "failure_id": "F1025",
-          "delta_days": -13
-        },
-        {
-          "deviation_id": "DEV1255",
-          "failure_id": "F1088",
+          "deviation_id": "DEV1052",
+          "failure_id": "F1114",
           "delta_days": -25
         },
         {
-          "deviation_id": "DEV1283",
-          "failure_id": "F1182",
-          "delta_days": -10
+          "deviation_id": "DEV1053",
+          "failure_id": "F1184",
+          "delta_days": -20
         },
         {
-          "deviation_id": "DEV1289",
-          "failure_id": "F1066",
-          "delta_days": -21
+          "deviation_id": "DEV1070",
+          "failure_id": "F1038",
+          "delta_days": -7
         },
         {
-          "deviation_id": "DEV1321",
-          "failure_id": "F1088",
-          "delta_days": -24
+          "deviation_id": "DEV1082",
+          "failure_id": "F1147",
+          "delta_days": -16
         },
         {
-          "deviation_id": "DEV1346",
-          "failure_id": "F1088",
-          "delta_days": -27
-        },
-        {
-          "deviation_id": "DEV1359",
-          "failure_id": "F1170",
-          "delta_days": -12
+          "deviation_id": "DEV1088",
+          "failure_id": "F1018",
+          "delta_days": -4
         }
       ]
     },
     "IS:1786": {
       "preceded_examples": [
         {
+          "deviation_id": "DEV1020",
+          "failure_id": "F1129",
+          "delta_days": 9
+        },
+        {
           "deviation_id": "DEV1046",
           "failure_id": "F1068",
           "delta_days": 1
+        },
+        {
+          "deviation_id": "DEV1050",
+          "failure_id": "F1128",
+          "delta_days": 5
+        },
+        {
+          "deviation_id": "DEV1065",
+          "failure_id": "F1038",
+          "delta_days": 11
+        },
+        {
+          "deviation_id": "DEV1127",
+          "failure_id": "F1025",
+          "delta_days": 0
         },
         {
           "deviation_id": "DEV1138",
@@ -288,26 +308,6 @@
           "deviation_id": "DEV1369",
           "failure_id": "F1066",
           "delta_days": 1
-        },
-        {
-          "deviation_id": "DEV1409",
-          "failure_id": "F1018",
-          "delta_days": 4
-        },
-        {
-          "deviation_id": "DEV1426",
-          "failure_id": "F1170",
-          "delta_days": 3
-        },
-        {
-          "deviation_id": "DEV1462",
-          "failure_id": "F1092",
-          "delta_days": 3
-        },
-        {
-          "deviation_id": "DEV1598",
-          "failure_id": "F1092",
-          "delta_days": 5
         }
       ],
       "followed_examples": [
@@ -317,9 +317,29 @@
           "delta_days": -20
         },
         {
+          "deviation_id": "DEV1006",
+          "failure_id": "F1068",
+          "delta_days": -18
+        },
+        {
+          "deviation_id": "DEV1008",
+          "failure_id": "F1138",
+          "delta_days": -26
+        },
+        {
           "deviation_id": "DEV1012",
           "failure_id": "F1098",
           "delta_days": -25
+        },
+        {
+          "deviation_id": "DEV1017",
+          "failure_id": "F1088",
+          "delta_days": -27
+        },
+        {
+          "deviation_id": "DEV1022",
+          "failure_id": "F1138",
+          "delta_days": -12
         },
         {
           "deviation_id": "DEV1027",
@@ -340,26 +360,6 @@
           "deviation_id": "DEV1035",
           "failure_id": "F1092",
           "delta_days": -9
-        },
-        {
-          "deviation_id": "DEV1064",
-          "failure_id": "F1019",
-          "delta_days": -13
-        },
-        {
-          "deviation_id": "DEV1092",
-          "failure_id": "F1038",
-          "delta_days": -9
-        },
-        {
-          "deviation_id": "DEV1095",
-          "failure_id": "F1019",
-          "delta_days": -23
-        },
-        {
-          "deviation_id": "DEV1100",
-          "failure_id": "F1117",
-          "delta_days": -23
         }
       ]
     }

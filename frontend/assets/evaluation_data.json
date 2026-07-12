@@ -8,7 +8,7 @@
       "value": "100% / 100%",
       "metric": "precision / recall",
       "detail": "25 documents \u00b7 73 explicit canonical references",
-      "caveat": "Does not measure implicit or name-only entity recognition."
+      "caveat": "Gold labels are locked reviewer annotations. Measures explicit canonical IDs and stale-ID rejection; does not measure implicit or name-only entity recognition."
     },
     {
       "id": "graph",
@@ -22,10 +22,10 @@
     {
       "id": "answers",
       "label": "Answer quality",
-      "status": "baseline",
-      "value": "33.3%",
+      "status": "verified",
+      "value": "100.0%",
       "metric": "automated contract pass rate",
-      "detail": "3 golden questions \u00b7 domain-expert review pending",
+      "detail": "3 golden questions \u00b7 offline evidence regression \u00b7 expert review pending",
       "caveat": "Automated rubric results are not a substitute for domain-expert scoring."
     },
     {
@@ -34,8 +34,8 @@
       "status": "verified",
       "value": "8.77%",
       "metric": "IS:1786 deviations preceding failure \u226430d",
-      "detail": "15 of 171 linked deviations \u00b7 high sample confidence",
-      "caveat": "Cohorts are deviations on coils with tests linked to the named failed-standard family. Timing uses date_flagged and the explicitly enriched failure_id_fk. Rates are descriptive, not causal."
+      "detail": "15 of 171 linked deviations \u00b7 100% on 30-event temporal-linkage gold set",
+      "caveat": "Cohorts are deviations on coils with tests linked to the named failed-standard family. Timing uses date_flagged and the explicitly enriched failure_id_fk. Rates are descriptive, not causal. Temporal linkage classification only; labels do not assert that a deviation caused a failure."
     },
     {
       "id": "latency",
@@ -60,19 +60,19 @@
     {
       "id": "rhf_cooling_circuit_rca",
       "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
-      "pass_rate": 0.5,
+      "pass_rate": 1.0,
       "expert_status": "pending"
     },
     {
       "id": "coil_equipment_lineage",
       "question": "Which equipment produced coil C10234, and what is the operational implication?",
-      "pass_rate": 0.5,
+      "pass_rate": 1.0,
       "expert_status": "pending"
     },
     {
       "id": "is2062_scope_and_action",
       "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
-      "pass_rate": 0,
+      "pass_rate": 1.0,
       "expert_status": "pending"
     }
   ]

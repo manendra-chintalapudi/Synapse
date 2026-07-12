@@ -17,6 +17,7 @@ import re
 import sys
 import time
 import copy
+import json
 import threading
 from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor
@@ -40,6 +41,7 @@ from graph_store import entity_neighborhood    # retrieval/graph_store.py
 from structured_store import query_federated   # retrieval/structured_store.py
 from search import search as document_search   # embeddings/search.py
 from synthesize import synthesize_answer       # synthesizer/synthesize.py
+from patterns import detect_patterns, PATTERN_INTENT_RX   # retrieval/patterns.py
 
 MAX_GRAPH_ENTITIES = 4
 DOC_TOP_K = 4
@@ -134,18 +136,44 @@ def graph_retrieval(details):
 
 
 def documents_retrieval(question, details):
-    """Chroma semantic search; doc_type filter honored when the plan set one."""
+    """Resolve exact entity-linked documents first, then fill remaining slots semantically."""
     text = details.get("search_text") or question
     doc_filter = details.get("document_filters") or {}
     flt = {"doc_type": doc_filter["doc_type"]} if doc_filter.get("doc_type") else None
-    hits = document_search(text, k=DOC_TOP_K, filter=flt)
-    return [{
+    entities = details.get("matched_entities") or details.get("tier1_entities") or []
+    entity_ids = {entity.get("entity_id") for entity in entities if entity.get("entity_id")}
+    direct = []
+    if entity_ids:
+        catalog = json.loads((_BASE / "ontology" / "nodes" / "document.json").read_text(encoding="utf-8"))
+        for document in catalog:
+            if document.get("related_entity_id") not in entity_ids:
+                continue
+            path = _BASE / document["vector_ref"]
+            if path.exists():
+                direct.append({
+                    "document_id": document["document_id"],
+                    "doc_type": document["doc_type"],
+                    "chunk_id": "exact-entity-link",
+                    "text": path.read_text(encoding="utf-8"),
+                    "score": 1.0,
+                    "retrieval_mode": "exact_entity_link",
+                })
+    direct = direct[:DOC_TOP_K]
+    try:
+        hits = document_search(text, k=DOC_TOP_K, filter=flt)
+    except Exception:
+        if direct:
+            return direct
+        raise
+    semantic = [{
         "document_id": h["metadata"]["source_document_id"],
         "doc_type": h["metadata"]["doc_type"],
         "chunk_id": h["metadata"]["chunk_id"],
         "text": h["text"],
         "score": h["score"],
     } for h in hits]
+    seen = {row["document_id"] for row in direct}
+    return direct + [row for row in semantic if row["document_id"] not in seen][:(DOC_TOP_K - len(direct))]
 
 
 def warm_up():
@@ -175,8 +203,12 @@ def ask_synapse(question: str) -> dict:
     # unresolvable plans short-circuit in the synthesizer -- skip retrieval entirely
     if plan["confidence"] != "unresolvable":
         details = plan["details"]
+        # pattern/causal intent -> also sweep the adjacent dimensions (shift, procedure,
+        # supplier, maintenance timing) so cross-system correlations surface even when the
+        # user asked about only one path. This is broader QUERYING, not new relationships.
+        wants_patterns = bool(PATTERN_INTENT_RX.search(question))
         t1 = time.perf_counter()
-        with ThreadPoolExecutor(max_workers=3) as pool:
+        with ThreadPoolExecutor(max_workers=4) as pool:
             futures = {}
             if "graph" in plan["layers"]:
                 futures["graph"] = pool.submit(graph_retrieval, details)
@@ -184,6 +216,8 @@ def ask_synapse(question: str) -> dict:
                 futures["structured"] = pool.submit(structured_retrieval, question, details)
             if "documents" in plan["layers"]:
                 futures["documents"] = pool.submit(documents_retrieval, question, details)
+            if wants_patterns:
+                futures["patterns"] = pool.submit(detect_patterns)
             completed = {}
             for layer, future in futures.items():
                 try:
@@ -194,6 +228,14 @@ def ask_synapse(question: str) -> dict:
             graph_results = completed.get("graph")
             structured_results = completed.get("structured")
             document_results = completed.get("documents")
+            patterns = completed.get("patterns")
+            if patterns:
+                # attach as a labeled graph-evidence record; make sure the graph section
+                # renders in the evidence block even if the router skipped that layer
+                graph_results = (graph_results or [])
+                graph_results.append({"cross_dimensional_correlations": patterns})
+                if "graph" not in plan["layers"]:
+                    plan["layers"] = plan["layers"] + ["graph"]
         t_retrieval = time.perf_counter() - t1
 
     if retrieval_errors:

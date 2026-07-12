@@ -812,11 +812,11 @@ function StandardDetailView({ detail, onBack }: { detail: StandardDetail; onBack
       </header>
 
       <div className="sp-compliance-detail__grid">
-        <main className="sp-compliance-detail__main">
+        <section className="sp-compliance-detail__main" aria-label="Standard performance and deviations">
           <PerformancePanel standard={standard} />
           <DeviationsPanel detail={detail} />
           <ClausePanel clauses={detail.clauses || []} />
-        </main>
+        </section>
         <aside className="sp-compliance-detail__sidebar" aria-label="Pattern, flags, risk, and provenance">
           <PatternPanel pattern={pattern} />
           <CrossFlagsPanel flags={detail.cross_dimensional_flags || []} />

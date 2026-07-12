@@ -161,10 +161,11 @@ function formatRecordValue(value: unknown): string {
 function RecordDialog({ step, onClose }: { step: JsonRecord | null; onClose: () => void }) {
   const records = recordList(step?.record);
   const title = `${stringValue(step?.kind, "Evidence")} record${records.length > 1 ? "s" : ""}`;
+  const portalContainer = document.getElementById("rca-react-root");
 
   return (
     <Dialog.Root open={Boolean(step)} onOpenChange={(open) => !open && onClose()}>
-      <Dialog.Portal>
+      <Dialog.Portal container={portalContainer}>
         <Dialog.Overlay className="sp-dialog-overlay" />
         <Dialog.Content className="sp-dialog" aria-describedby="sp-rca-record-description">
           <div className="sp-dialog__head sp-dialog__header">
@@ -584,6 +585,19 @@ function FailureDetailView({
   const titleRef = React.useRef<HTMLHeadingElement>(null);
 
   React.useEffect(() => {
+    const closeWhenRcaIsInactive = () => {
+      const route = window.location.hash.replace(/^#\//, "").split("/")[0];
+      if (route !== "rca") setPreview(null);
+    };
+    window.addEventListener("hashchange", closeWhenRcaIsInactive);
+    window.addEventListener("popstate", closeWhenRcaIsInactive);
+    return () => {
+      window.removeEventListener("hashchange", closeWhenRcaIsInactive);
+      window.removeEventListener("popstate", closeWhenRcaIsInactive);
+    };
+  }, []);
+
+  React.useEffect(() => {
     setPreview(null);
     setChecked({});
   }, [failureId]);
@@ -783,7 +797,7 @@ export default function RcaApp({ initialFailureId }: { initialFailureId?: string
   };
 
   return (
-    <main className="sp-rca">
+    <section className="sp-rca" aria-label="RCA and failures">
       <AnimatePresence mode="wait" initial={false}>
         {selectedFailureId ? (
           <motion.div
@@ -937,6 +951,6 @@ export default function RcaApp({ initialFailureId }: { initialFailureId?: string
           </motion.div>
         )}
       </AnimatePresence>
-    </main>
+    </section>
   );
 }

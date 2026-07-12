@@ -380,7 +380,7 @@ return(0,re.jsxs)(Y,{className:"sp-compliance-panel sp-provenance-panel",childre
 /* @__PURE__ */
 /* @__PURE__ */(0,re.jsxs)("p",{children:[n.scope," · ",ee(n.clause_count)," tested clauses"]})]}),
 /* @__PURE__ */
-/* @__PURE__ */(0,re.jsxs)("div",{className:"sp-compliance-detail__badges",children:[/* @__PURE__ */ /* @__PURE__ */(0,re.jsx)(Ck,{risk:i}),/* @__PURE__ */ /* @__PURE__ */(0,re.jsx)(Ik,{confidence:r.confidence})]})]}),/* @__PURE__ */ /* @__PURE__ */(0,re.jsxs)("div",{className:"sp-compliance-detail__grid",children:[/* @__PURE__ */ /* @__PURE__ */(0,re.jsxs)("main",{className:"sp-compliance-detail__main",children:[
+/* @__PURE__ */(0,re.jsxs)("div",{className:"sp-compliance-detail__badges",children:[/* @__PURE__ */ /* @__PURE__ */(0,re.jsx)(Ck,{risk:i}),/* @__PURE__ */ /* @__PURE__ */(0,re.jsx)(Ik,{confidence:r.confidence})]})]}),/* @__PURE__ */ /* @__PURE__ */(0,re.jsxs)("div",{className:"sp-compliance-detail__grid",children:[/* @__PURE__ */ /* @__PURE__ */(0,re.jsxs)("section",{className:"sp-compliance-detail__main","aria-label":"Standard performance and deviations",children:[
 /* @__PURE__ */
 /* @__PURE__ */(0,re.jsx)(Bk,{standard:n}),
 /* @__PURE__ */

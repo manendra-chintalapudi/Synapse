@@ -5,8 +5,6 @@ import "./styles.css";
 
 type PillarRoute = "rca" | "compliance";
 const roots = new Map<PillarRoute, Root>();
-let pendingFailureId = "";
-let pendingFamilyId = "";
 
 function hashSelection(route: PillarRoute): string {
   const parts = window.location.hash.replace(/^#\//, "").split("/");
@@ -24,7 +22,7 @@ export async function mount(route: PillarRoute) {
     root = createRoot(element);
     roots.set(route, root);
   }
-  const selection = hashSelection(route) || (route === "rca" ? pendingFailureId : pendingFamilyId);
+  const selection = hashSelection(route);
   root.render(
     <React.StrictMode>
       <Toaster richColors position="top-right" closeButton />
@@ -37,13 +35,11 @@ export async function mount(route: PillarRoute) {
 }
 
 function openFailure(failureId: string) {
-  pendingFailureId = failureId;
   window.location.hash = `#/rca/${encodeURIComponent(failureId)}`;
   void mount("rca").then(() => window.dispatchEvent(new CustomEvent("synapse-open-failure", { detail: failureId })));
 }
 
 function openStandard(familyId: string) {
-  pendingFamilyId = familyId;
   window.location.hash = `#/compliance/${encodeURIComponent(familyId)}`;
   void mount("compliance");
 }

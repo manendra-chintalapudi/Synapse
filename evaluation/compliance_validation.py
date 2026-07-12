@@ -104,9 +104,19 @@ def run() -> dict:
         }
         for row in chains
     )
-    frontend = (ROOT / "frontend" / "chat.html").read_text(encoding="utf-8")
+    frontend = "\n".join(
+        path.read_text(encoding="utf-8")
+        for path in (
+            ROOT / "frontend" / "chat.html",
+            ROOT / "frontend" / "ui" / "src" / "ComplianceApp.tsx",
+            ROOT / "frontend" / "ui" / "src" / "main.tsx",
+        )
+    )
     navigation_contract = all(token in frontend for token in (
-        'data-compliance-failure', 'function openComplianceRca(failureId)', 'go("rca")', 'openFailure(failureId)',
+        'window.SynapsePillars?.openFailure(failureId)',
+        'function openFailure(failureId: string)',
+        '#/rca/${encodeURIComponent(failureId)}',
+        'id="rca-react-root"',
     ))
     passed = (
         manual["deviationCohort"] == pattern["deviation_cohort_n"] == 338

@@ -698,13 +698,13 @@
     </div>
 
     <nav class="nav" id="nav">
-      <a data-route="chat" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 01-8 8H4l2-3a8 8 0 1115-5z"/></svg>Chat</a>
-      <a data-route="graph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="5" cy="6" r="2.4"/><circle cx="19" cy="6" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M7 7.4l3.6 8M17 7.4l-3.6 8M7.4 6h9.2"/></svg>Knowledge Graph</a>
-      <a data-route="rca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="10" cy="10" r="6.5"/><path d="M20.5 20.5L15 15M10 7v3.4l2.2 2.2"/></svg>RCA &amp; Failures</a>
-      <a data-route="compliance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3.5v5.7c0 5-3.4 8.6-8 10.8-4.6-2.2-8-5.8-8-10.8V5.5z"/><path d="M9 12l2 2 4-4.5"/></svg>Compliance</a>
-      <a data-route="admin" data-roles="admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3.1"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>Admin Console</a>
-      <a data-route="logs" data-roles="admin,ops"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M5 4h14v16H5zM9 8h6M9 12h6M9 16h4"/></svg>System Logs</a>
-      <a data-route="history"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>History</a>
+      <a href="#/chat" data-route="chat" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 01-8 8H4l2-3a8 8 0 1115-5z"/></svg>Chat</a>
+      <a href="#/graph" data-route="graph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="5" cy="6" r="2.4"/><circle cx="19" cy="6" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M7 7.4l3.6 8M17 7.4l-3.6 8M7.4 6h9.2"/></svg>Knowledge Graph</a>
+      <a href="#/rca" data-route="rca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="10" cy="10" r="6.5"/><path d="M20.5 20.5L15 15M10 7v3.4l2.2 2.2"/></svg>RCA &amp; Failures</a>
+      <a href="#/compliance" data-route="compliance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3.5v5.7c0 5-3.4 8.6-8 10.8-4.6-2.2-8-5.8-8-10.8V5.5z"/><path d="M9 12l2 2 4-4.5"/></svg>Compliance</a>
+      <a href="#/admin" data-route="admin" data-roles="admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3.1"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>Admin Console</a>
+      <a href="#/logs" data-route="logs" data-roles="admin,ops"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M5 4h14v16H5zM9 8h6M9 12h6M9 16h4"/></svg>System Logs</a>
+      <a href="#/history" data-route="history"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>History</a>
     </nav>
 
     <div class="sess-wrap" id="sesswrap"></div>
@@ -831,34 +831,11 @@
     </section>
 
     <section class="page" id="page-rca">
-      <div class="rcapage">
-        <div id="rcaListView">
-          <div class="rcahead"><div><h2>RCA &amp; Failures</h2><p>Browse failure history and walk every root-cause claim back through its direct Neo4j evidence chain.</p></div><span class="rca-source"><i></i>Read-only Neo4j · no LLM</span></div>
-          <div class="ov-cards rcastats" id="rcaStats"><div class="kg-load">Loading failure summary…</div></div>
-          <div class="rca-filters" id="rcaFilters">
-            <div class="rca-filter"><label for="rfEquipment">Equipment type</label><select id="rfEquipment"><option value="">All equipment</option></select></div>
-            <div class="rca-filter"><label for="rfFrom">From date</label><input id="rfFrom" type="date"></div>
-            <div class="rca-filter"><label for="rfTo">To date</label><input id="rfTo" type="date"></div>
-            <div class="rca-filter"><label for="rfSeverity">Severity</label><select id="rfSeverity"><option value="">All severities</option></select></div>
-            <div class="rca-filter"><label for="rfRca">RCA coverage</label><select id="rfRca"><option value="">All records</option><option value="true">Has RCA</option><option value="false">Missing RCA</option></select></div>
-            <div class="rca-filter"><label for="rfSort">Sort</label><select id="rfSort"><option value="recent">Most recent</option><option value="severe">Most severe</option><option value="recurring">Most recurring</option></select></div>
-          </div>
-          <div class="rca-table-wrap"><div class="rca-table-meta"><span id="rcaCount">Loading failures…</span><span>Click any row to inspect the evidence trail</span></div><div id="rcaTable"><div class="rca-empty">Loading failure records…</div></div></div>
-        </div>
-        <div id="rcaDetailView" hidden><div id="rcaDetail"><div class="rca-empty">Loading failure evidence…</div></div></div>
-      </div>
+      <div id="rca-react-root" class="synapse-pillars-root"><div class="sp-boot-state">Loading the RCA workspace…</div></div>
     </section>
 
     <section class="page" id="page-compliance">
-      <div class="rcapage">
-        <div id="complianceListView">
-          <div class="rcahead"><div><h2>Compliance</h2><p>Track test performance, inspect standard-specific deviation patterns and follow each evidence chain into its linked failure and RCA.</p></div><span class="rca-source"><i></i>Read-only Neo4j · no LLM</span></div>
-          <div class="ov-cards rcastats" id="complianceStats"><div class="kg-load">Loading compliance summary…</div></div>
-          <div class="rca-table-wrap" style="border-top:1px solid var(--line);border-radius:16px"><div class="rca-table-meta"><span id="complianceCount">Loading standards…</span><span>Sorted by failure rate · click a standard for evidence</span></div><div id="complianceTable"><div class="rca-empty">Loading standards…</div></div></div>
-          <div class="rca-gap-note" id="complianceScope" style="margin-top:12px">Temporal relationships are descriptive and do not assert causation.</div>
-        </div>
-        <div id="complianceDetailView" hidden><div id="complianceDetail"><div class="rca-empty">Loading compliance evidence…</div></div></div>
-      </div>
+      <div id="compliance-react-root" class="synapse-pillars-root"><div class="sp-boot-state">Loading the Compliance workspace…</div></div>
     </section>
 
     <section class="page" id="page-admin">
@@ -981,10 +958,6 @@ window.addEventListener("synapse-auth-ready", event => {
   const labels = {admin:"Admin",qa:"Quality Assurance",maintenance:"Maintenance",ops:"Operations"};
   user = {id:auth.session?.user?.id || "authenticated",name:auth.name || "User",role,label:labels[role]};
   applyUser();
-  /* A protected deep-link can render before the deferred auth module restores
-     its session. Retry the current data page as soon as auth is ready. */
-  if(route === "rca" && !rcaLoaded && !rcaLoading) initRCA();
-  if(route === "compliance" && !complianceLoaded && !complianceLoading) initCompliance();
 });
 
 /* ---------------- hash router ---------------- */
@@ -1193,14 +1166,12 @@ async function openComplianceStandard(familyId){
 }
 function closeComplianceDetail(){complianceCurrent=null;document.getElementById("complianceDetailView").hidden=true;document.getElementById("complianceListView").hidden=false;}
 function applyRoute(){
-  const r = (location.hash.replace("#/","") || "chat");
+  const r = (location.hash.replace("#/","") || "chat").split("/")[0];
   route = ROUTES.includes(r) ? r : "chat";
   document.querySelectorAll(".page").forEach(p => p.classList.toggle("on", p.id === "page-" + route));
   document.querySelectorAll("#nav a").forEach(a => a.classList.toggle("active", a.dataset.route === route));
   if (route === "history") renderHistoryPage();
   if (route === "graph" && window.initKG) window.initKG();
-  if (route === "rca") initRCA();
-  if (route === "compliance") initCompliance();
   if (route === "admin") renderEvaluation();
 }
 document.querySelectorAll("#nav a").forEach(a => a.addEventListener("click", () => go(a.dataset.route)));
@@ -1986,6 +1957,25 @@ function closePanel(){ document.getElementById("gPanel").classList.remove("open"
 
 /* deep-link support */
 if (location.hash.replace("#/","") === "graph") initKG();
+</script>
+<script type="module">
+  let pillarsModule;
+  async function loadPillarUI(){
+    const pillarRoute=(location.hash.replace(/^#\//,"").split("/")[0]);
+    if(pillarRoute!=="rca"&&pillarRoute!=="compliance")return;
+    if(!document.querySelector('link[data-synapse-pillars]')){
+      const css=document.createElement("link");css.rel="stylesheet";css.href="ui-dist/synapse-pillars.css";css.dataset.synapsePillars="true";document.head.appendChild(css);
+    }
+    try{
+      pillarsModule ||= await import("./ui-dist/synapse-pillars.js");
+      await pillarsModule.mount(pillarRoute);
+    }catch(error){
+      const root=document.getElementById(`${pillarRoute}-react-root`);
+      if(root)root.innerHTML=`<div class="sp-boot-error"><strong>The enhanced workspace could not load.</strong><span>${String(error?.message||error)}</span><button onclick="location.reload()">Retry</button></div>`;
+    }
+  }
+  addEventListener("hashchange",loadPillarUI);
+  loadPillarUI();
 </script>
 </body>
 </html>

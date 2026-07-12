@@ -210,6 +210,9 @@ def frontend_config():
 
 
 app.mount("/assets", StaticFiles(directory=str(FRONTEND / "assets")), name="assets")
+UI_DIST = FRONTEND / "ui-dist"
+if UI_DIST.exists():
+    app.mount("/ui-dist", StaticFiles(directory=str(UI_DIST)), name="ui-dist")
 
 
 if __name__ == "__main__":

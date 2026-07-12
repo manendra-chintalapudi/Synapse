@@ -945,6 +945,9 @@ window.addEventListener("synapse-auth-ready", event => {
   const labels = {admin:"Admin",qa:"Quality Assurance",maintenance:"Maintenance",ops:"Operations"};
   user = {id:auth.session?.user?.id || "authenticated",name:auth.name || "User",role,label:labels[role]};
   applyUser();
+  /* A protected deep-link can render before the deferred auth module restores
+     its session. Retry the current data page as soon as auth is ready. */
+  if(route === "rca" && !rcaLoaded && !rcaLoading) initRCA();
 });
 
 /* ---------------- hash router ---------------- */
@@ -978,9 +981,29 @@ async function renderEvaluation(){
 let rcaLoaded=false,rcaLoading=false,rcaCurrent=null,rcaFilterBound=false;
 function rcaLabel(value){return String(value||"—").replace(/_/g," ").replace(/\b\w/g,c=>c.toUpperCase());}
 function rcaDate(value){const text=String(value||"");return text?text.slice(0,10):"—";}
+async function rcaAccessToken(timeoutMs=10000){
+  if(typeof window.synapseGetAccessToken === "function"){
+    const token=await window.synapseGetAccessToken();if(token)return token;
+  }
+  await new Promise(resolve=>{
+    let settled=false;const finish=()=>{if(settled)return;settled=true;clearTimeout(timer);resolve();};
+    const timer=setTimeout(finish,timeoutMs);
+    window.addEventListener("synapse-auth-ready",finish,{once:true});
+  });
+  if(typeof window.synapseGetAccessToken !== "function")return "";
+  return await window.synapseGetAccessToken();
+}
 async function rcaFetch(path){
-  const accessToken=await window.synapseGetAccessToken?.();const headers={};if(accessToken)headers.Authorization=`Bearer ${accessToken}`;
-  const res=await fetch(API_BASE+path,{headers});let data;try{data=await res.json();}catch{throw new Error(`Invalid server response (${res.status})`);}
+  let accessToken=await rcaAccessToken();
+  if(!accessToken)throw new Error("Your signed-in session is not ready. Refresh the page or sign in again.");
+  const request=token=>fetch(API_BASE+path,{headers:{Authorization:`Bearer ${token}`}});
+  let res=await request(accessToken);
+  if(res.status===401 && typeof window.synapseRefreshAccessToken === "function"){
+    accessToken=await window.synapseRefreshAccessToken();
+    if(accessToken)res=await request(accessToken);
+  }
+  let data;try{data=await res.json();}catch{throw new Error(`Invalid server response (${res.status})`);}
+  if(res.status===401)throw new Error("Your session expired. Sign in again to view RCA records.");
   if(!res.ok)throw new Error(data.detail||data.error||`HTTP ${res.status}`);return data;
 }
 function renderRcaStats(summary){

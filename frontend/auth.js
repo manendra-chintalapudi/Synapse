@@ -12,6 +12,12 @@ window.synapseGetAccessToken = async () => {
   const { data: { session } } = await supabase.auth.getSession();
   return session?.access_token || "";
 };
+window.synapseRefreshAccessToken = async () => {
+  if (!supabase) return "";
+  const { data: { session }, error } = await supabase.auth.refreshSession();
+  if (error) return "";
+  return session?.access_token || "";
+};
 window.synapseSignOut = async () => {
   if (supabase) await supabase.auth.signOut();
   location.replace("/login");

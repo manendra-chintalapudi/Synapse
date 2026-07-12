@@ -139,9 +139,21 @@
       "used_as": "SCADA energy/consumption reference data"
     },
     "AI4I 2020 Predictive Maintenance": {
-      "status": "not_ingested",
-      "matching_files": [],
-      "used_as": "Failure modes are AI4I-shaped/remapped; sensor values are explicitly synthetic pending ingestion.",
+      "status": "present_official_synthetic_reference",
+      "matching_files": [
+        "data/scada/reference_data/ai4i2020.csv"
+      ],
+      "rows": 10000,
+      "sha256": "dc6630cd9b1f0f853922fad78a1b6436570d3f1ec863f1dd5c4340ac56bc8a8e",
+      "duckdb_validation": {
+        "table_present": true,
+        "rows": 10000,
+        "machine_failures": 339
+      },
+      "doi": "10.24432/C5HS5C",
+      "license": "CC BY 4.0",
+      "used_as": "SCADA predictive-maintenance sensor/failure reference table; explicitly synthetic.",
+      "synthetic": true,
       "claim_allowed_as_real_ingested_data": false
     }
   },

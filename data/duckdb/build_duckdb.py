@@ -13,7 +13,7 @@ push the join down cleanly. Scalars use VARCHAR / DOUBLE / DATE / TIMESTAMP.
 
 Layout:
   data/duckdb/erp.duckdb   : coils, coil_materials, raw_materials
-  data/duckdb/scada.duckdb : equipment
+  data/duckdb/scada.duckdb : equipment, ai4i_events (official synthetic reference)
   data/duckdb/qms.duckdb   : quality_tests, deviations, standards
   data/duckdb/cmms.duckdb  : failures, rca, technicians, procedures
 """
@@ -25,6 +25,7 @@ import duckdb
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 NODES = os.path.join(ROOT, "ontology", "nodes")
+AI4I_CSV = os.path.join(ROOT, "data", "scada", "reference_data", "ai4i2020.csv")
 
 
 def load(name):
@@ -90,7 +91,7 @@ SCHEMAS = {
 # which tables live in which database file
 DB_TABLES = {
     "erp.duckdb": ["coils", "coil_materials", "raw_materials"],
-    "scada.duckdb": ["equipment"],
+    "scada.duckdb": ["equipment", "ai4i_events"],
     "qms.duckdb": ["quality_tests", "deviations", "standards"],
     "cmms.duckdb": ["failures", "rca", "technicians", "procedures"],
 }
@@ -139,8 +140,33 @@ def build_coil_materials(con):
     return len(rows)
 
 
+def build_ai4i_events(con):
+    """Load the official UCI AI4I synthetic reference with stable column names."""
+    con.execute('DROP TABLE IF EXISTS "ai4i_events"')
+    con.execute("""
+        CREATE TABLE ai4i_events AS
+        SELECT
+          CAST("UDI" AS INTEGER) AS uid,
+          CAST("Product ID" AS VARCHAR) AS product_id,
+          CAST("Type" AS VARCHAR) AS product_type,
+          CAST("Air temperature [K]" AS DOUBLE) AS air_temperature_k,
+          CAST("Process temperature [K]" AS DOUBLE) AS process_temperature_k,
+          CAST("Rotational speed [rpm]" AS INTEGER) AS rotational_speed_rpm,
+          CAST("Torque [Nm]" AS DOUBLE) AS torque_nm,
+          CAST("Tool wear [min]" AS INTEGER) AS tool_wear_min,
+          CAST("Machine failure" AS INTEGER) AS machine_failure,
+          CAST("TWF" AS INTEGER) AS tool_wear_failure,
+          CAST("HDF" AS INTEGER) AS heat_dissipation_failure,
+          CAST("PWF" AS INTEGER) AS power_failure,
+          CAST("OSF" AS INTEGER) AS overstrain_failure,
+          CAST("RNF" AS INTEGER) AS random_failure
+        FROM read_csv_auto(?)
+    """, [AI4I_CSV])
+    return con.execute("SELECT COUNT(*) FROM ai4i_events").fetchone()[0]
+
+
 # tables that are derived/normalized rather than loaded 1:1 from a node file
-CUSTOM_BUILDERS = {"coil_materials": build_coil_materials}
+CUSTOM_BUILDERS = {"coil_materials": build_coil_materials, "ai4i_events": build_ai4i_events}
 
 
 def build_all():

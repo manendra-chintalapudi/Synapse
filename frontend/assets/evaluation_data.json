@@ -52,8 +52,8 @@
       "status": "verified",
       "value": "17 files",
       "metric": "real-source CSV inventory",
-      "detail": "Steel Plates Faults: 1,941 rows \u00b7 Steel Industry Energy: 35,040 rows",
-      "caveat": "AI4I 2020 is not ingested; AI4I-shaped sensor values remain synthetic."
+      "detail": "Steel Plates Faults: 1,941 real rows \u00b7 Steel Industry Energy: 35,040 real rows \u00b7 AI4I: 10,000 official synthetic-reference rows",
+      "caveat": "AI4I 2020 is explicitly synthetic according to UCI; it is not presented as real plant measurements."
     }
   ],
   "answer_cases": [

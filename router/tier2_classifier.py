@@ -25,6 +25,7 @@ import re
 STRUCTURED_PATTERNS = [
     r"\bhow many\b", r"\bcount of\b", r"\bnumber of\b",
     r"\baverage\b", r"\bavg\b", r"\btotal\b", r"\bsum of\b", r"\bper (month|week|day|shift)\b",
+    r"\bai4i\b", r"\bpredictive maintenance\b", r"\bmachine failure(s)?\b",
 ]
 GRAPH_PATTERNS = [
     r"\blinked to\b", r"\btrace\b", r"\bwhich equipment produced\b",
@@ -46,7 +47,7 @@ SYSTEM_HINTS = [
     ("qms", r"\bquality\b|\btest(s|ing|ed)?\b|\bdeviation(s)?\b|\bdefect(s)?\b|\bfault(s)?\b"),
     ("cmms", r"\bfail(ed|ure|ures)?\b|\bmaintenance\b|\brca\b|\broot cause\b|\btechnician(s)?\b"),
     ("erp", r"\bcoil(s)?\b|\bmaterial(s)?\b|\bproduction\b|\bproduced\b|\bgrade(s)?\b|\bstock\b"),
-    ("scada", r"\bequipment\b|\bsensor(s)?\b|\benergy\b|\btemperature\b"),
+    ("scada", r"\bequipment\b|\bsensor(s)?\b|\benergy\b|\btemperature\b|\bai4i\b|\bpredictive maintenance\b|\bmachine failure(s)?\b"),
 ]
 
 ENTITY_LAYER = {"coil": "graph", "equipment": "graph", "failure": "graph", "standard": "graph",

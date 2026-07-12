@@ -100,14 +100,21 @@ def run(window_days: int = 30) -> dict:
         }
         evidence[family] = {"preceded_examples": preceded[:10], "followed_examples": followed[:10]}
 
+    accuracy_path = Path(__file__).with_name("compliance_detection_accuracy_results.json")
+    accuracy = json.loads(accuracy_path.read_text(encoding="utf-8")) if accuracy_path.exists() else {}
+    accuracy_overall = accuracy.get("overall", {})
     result = {
         "benchmark": "compliance deviation to equipment failure timing",
         "window_days": window_days,
         "patterns": patterns,
         "evidence_examples": evidence,
         "accuracy_validation": {
-            "status": "pending independent expert-labelled event sample",
-            "claim_allowed": False,
+            "status": "validated_on_locked_reviewer_sample" if accuracy_overall else "pending",
+            "result_file": "evaluation/compliance_detection_accuracy_results.json",
+            "n": accuracy_overall.get("n", 0),
+            "accuracy": accuracy_overall.get("accuracy"),
+            "claim_allowed_with_scope": bool(accuracy_overall),
+            "scope": accuracy.get("scope_note"),
         },
         "scope_note": (
             "Cohorts are deviations on coils with tests linked to the named failed-standard family. "

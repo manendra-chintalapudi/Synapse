@@ -7,6 +7,8 @@ import json
 from collections import Counter
 from pathlib import Path
 
+import duckdb
+
 ROOT = Path(__file__).resolve().parents[1]
 RESULTS = Path(__file__).with_name("data_provenance_results.json")
 
@@ -40,6 +42,26 @@ def run() -> dict:
         path.relative_to(ROOT).as_posix() for path in (ROOT / "data").rglob("*")
         if path.is_file() and any(token in path.name.lower() for token in ("ai4i", "predictive_maintenance"))
     ]
+    ai4i_relative = "data/scada/reference_data/ai4i2020.csv"
+    ai4i_info = csv_info(ai4i_relative) if (ROOT / ai4i_relative).exists() else None
+    ai4i_db = {"table_present": False, "rows": 0, "machine_failures": 0}
+    scada_db = ROOT / "data" / "duckdb" / "scada.duckdb"
+    if scada_db.exists():
+        con = duckdb.connect(str(scada_db), read_only=True)
+        try:
+            row = con.execute(
+                "SELECT COUNT(*), COALESCE(SUM(machine_failure), 0) FROM ai4i_events"
+            ).fetchone()
+            ai4i_db = {
+                "table_present": True,
+                "rows": row[0],
+                "machine_failures": row[1],
+            }
+        except duckdb.CatalogException:
+            pass
+        finally:
+            con.close()
+    ai4i_ingested = bool(ai4i_info and ai4i_info["rows"] == 10000 and ai4i_db["rows"] == 10000)
 
     result = {
         "real_csv_file_count": len(inventory),
@@ -62,9 +84,15 @@ def run() -> dict:
                 "used_as": "SCADA energy/consumption reference data",
             },
             "AI4I 2020 Predictive Maintenance": {
-                "status": "not_ingested",
+                "status": "present_official_synthetic_reference" if ai4i_ingested else "not_ingested",
                 "matching_files": ai4i_files,
-                "used_as": "Failure modes are AI4I-shaped/remapped; sensor values are explicitly synthetic pending ingestion.",
+                "rows": ai4i_info["rows"] if ai4i_info else 0,
+                "sha256": ai4i_info["sha256"] if ai4i_info else None,
+                "duckdb_validation": ai4i_db,
+                "doi": "10.24432/C5HS5C",
+                "license": "CC BY 4.0",
+                "used_as": "SCADA predictive-maintenance sensor/failure reference table; explicitly synthetic.",
+                "synthetic": True,
                 "claim_allowed_as_real_ingested_data": False,
             },
         },
@@ -73,7 +101,7 @@ def run() -> dict:
             "Documents without an explicit source_type must not automatically be called real industrial documents. "
             "The 188 work-order narratives labelled synthetic are explicitly synthetic."
         ),
-        "passed": True,
+        "passed": ai4i_ingested,
     }
     RESULTS.write_text(json.dumps(result, indent=2), encoding="utf-8")
     return result

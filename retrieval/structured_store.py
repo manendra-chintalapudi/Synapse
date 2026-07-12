@@ -9,7 +9,7 @@ identical to the previous Trino implementation — only the connection/execution
 which removes the Trino dependency for deployment (Railway / Vercel / Neo4j AuraDB).
 
     erp    -> erp.duckdb    (coils, coil_materials, raw_materials)
-    scada  -> scada.duckdb  (equipment)
+    scada  -> scada.duckdb  (equipment, AI4I official synthetic reference events)
     qms    -> qms.duckdb    (quality_tests, deviations, standards)
     cmms   -> cmms.duckdb   (failures, rca, technicians, procedures)
 
@@ -32,7 +32,7 @@ DUCKDB_DIR = os.environ.get("DUCKDB_DIR", str(_SYNAPSE_ROOT / "data" / "duckdb")
 
 CATALOGS = {
     "erp": ["coils", "coil_materials", "raw_materials"],
-    "scada": ["equipment"],
+    "scada": ["equipment", "ai4i_events"],
     "qms": ["quality_tests", "deviations", "standards"],
     "cmms": ["failures", "rca", "technicians", "procedures"],
 }

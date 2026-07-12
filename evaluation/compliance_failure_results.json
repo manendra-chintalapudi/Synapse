@@ -365,8 +365,12 @@
     }
   },
   "accuracy_validation": {
-    "status": "pending independent expert-labelled event sample",
-    "claim_allowed": false
+    "status": "validated_on_locked_reviewer_sample",
+    "result_file": "evaluation/compliance_detection_accuracy_results.json",
+    "n": 30,
+    "accuracy": 1.0,
+    "claim_allowed_with_scope": true,
+    "scope": "Temporal linkage classification only; labels do not assert that a deviation caused a failure."
   },
   "scope_note": "Cohorts are deviations on coils with tests linked to the named failed-standard family. Timing uses date_flagged and the explicitly enriched failure_id_fk. Rates are descriptive, not causal."
 }

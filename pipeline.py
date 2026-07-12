@@ -110,6 +110,17 @@ SYSTEM_SUMMARY_SQL = {
               "GROUP BY type ORDER BY value DESC"),
 }
 
+AI4I_FAILURE_SQL = """
+SELECT COUNT(*) AS records,
+       SUM(machine_failure) AS machine_failures,
+       SUM(tool_wear_failure) AS tool_wear_failures,
+       SUM(heat_dissipation_failure) AS heat_dissipation_failures,
+       SUM(power_failure) AS power_failures,
+       SUM(overstrain_failure) AS overstrain_failures,
+       SUM(random_failure) AS random_failures
+FROM scada.main.ai4i_events
+"""
+
 
 def structured_retrieval(question, details):
     """Pick intent-matched SQL template(s) and run them federated via Trino."""
@@ -117,6 +128,9 @@ def structured_retrieval(question, details):
     results = {}
     if re.search(r"how many coils.*(fail|defect|deviat|quality)", q):
         results["qms+erp (federated)"] = query_federated(COILS_FAILED_QC_SQL)
+        return results
+    if re.search(r"\bai4i\b|predictive maintenance|machine failure|sensor failure", q):
+        results["scada (AI4I 2020 official synthetic reference)"] = query_federated(AI4I_FAILURE_SQL)
         return results
     # generic per-system summaries for the systems the router hinted at
     systems = details.get("structured_systems") or ["qms", "cmms"]

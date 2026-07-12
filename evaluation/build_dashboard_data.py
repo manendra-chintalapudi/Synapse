@@ -66,8 +66,8 @@ def run() -> dict:
                 "id": "provenance", "label": "Real-data provenance", "status": "verified",
                 "value": f"{provenance.get('real_csv_file_count', 0)} files",
                 "metric": "real-source CSV inventory",
-                "detail": "Steel Plates Faults: 1,941 rows · Steel Industry Energy: 35,040 rows",
-                "caveat": "AI4I 2020 is not ingested; AI4I-shaped sensor values remain synthetic.",
+                "detail": "Steel Plates Faults: 1,941 real rows · Steel Industry Energy: 35,040 real rows · AI4I: 10,000 official synthetic-reference rows",
+                "caveat": "AI4I 2020 is explicitly synthetic according to UCI; it is not presented as real plant measurements.",
             },
         ],
         "answer_cases": [

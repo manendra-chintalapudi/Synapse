@@ -64,8 +64,8 @@ python evaluation/compliance_failure_patterns.py
 
 This reports 30-day directional timing patterns for IS:1786, IS:2062 and ASTM A370
 deviation cohorts, with explicit sample sizes and Wilson 95% confidence intervals. These are
-descriptive linkage metrics—not causal or accuracy claims. Accuracy remains pending until an
-independent expert-labelled event sample is available.
+descriptive linkage metrics—not causal claims. Temporal-linkage classification accuracy is
+reported separately against the locked reviewer-labelled sample below.
 
 Run the balanced temporal-linkage accuracy test:
 
@@ -86,8 +86,9 @@ python evaluation/data_provenance_audit.py
 ```
 
 This inventories every CSV under a `real_data` directory with row counts and SHA-256 hashes,
-detects duplicate files, and enforces honest named-dataset claims. In particular, AI4I 2020 is
-reported as not ingested while its sensor values remain synthetic-shaped.
+detects duplicate files, and enforces honest named-dataset claims. AI4I 2020 is ingested as an
+official UCI synthetic reference (10,000 rows, CC BY 4.0, DOI 10.24432/C5HS5C), kept separate
+from real-source directories and never described as real plant measurements.
 
 ## Time to answer
 

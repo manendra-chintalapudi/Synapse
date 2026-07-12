@@ -17,7 +17,7 @@ return(0,ve.jsxs)("div",{className:"sp-rca-badges",children:[
 /* @__PURE__ */(0,ve.jsx)(U,{tone:We(e.status),children:G(e.status)}),
 /* @__PURE__ */
 /* @__PURE__ */(0,ve.jsx)(U,{tone:e.has_rca?"green":"neutral",children:e.has_rca?"RCA linked":"RCA missing"})]})}function ss({rows:e,openFailure:s}){/* @__PURE__ */ /* @__PURE__ */
-return(0,ve.jsx)("div",{className:"sp-table-scroll sp-rca__table-wrap",children:/* @__PURE__ */ /* @__PURE__ */(0,ve.jsxs)("table",{className:"sp-table sp-rca__table",children:[
+return(0,ve.jsx)("div",{className:"sp-table-scroll sp-rca__table-wrap sp-desktop-only",children:/* @__PURE__ */ /* @__PURE__ */(0,ve.jsxs)("table",{className:"sp-table sp-rca__table",children:[
 /* @__PURE__ */
 /* @__PURE__ */(0,ve.jsx)("caption",{className:"sp-sr-only",children:"Failure records. Select a row to inspect its evidence and RCA."}),
 /* @__PURE__ */

@@ -230,7 +230,7 @@ function FailureBadges({ row }: { row: Pick<FailureRow, "severity" | "status" | 
 
 function FailureDesktopTable({ rows, openFailure }: { rows: FailureRow[]; openFailure: (id: string) => void }) {
   return (
-    <div className="sp-table-scroll sp-rca__table-wrap">
+    <div className="sp-table-scroll sp-rca__table-wrap sp-desktop-only">
       <table className="sp-table sp-rca__table">
         <caption className="sp-sr-only">Failure records. Select a row to inspect its evidence and RCA.</caption>
         <thead>

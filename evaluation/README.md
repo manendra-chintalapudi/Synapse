@@ -113,6 +113,11 @@ This measures public wall-clock latency for simple graph, document QA and deep R
 then immediately repeats each query to measure the bounded in-process cache. The sample is
 deliberately labelled `n=3`; it is not presented as a controlled manual-work comparison.
 
+The committed `latency_results.json` records an authenticated production-UI run. Its values are
+the server latency displayed by the response panel (routing + retrieval + synthesis), not browser
+rendering or network transit. Cache-busting benchmark prefixes ensured the first pass was uncached;
+the exact same prompts were then repeated to verify the application cache.
+
 ## Evaluation dashboard data
 
 Run after any benchmark changes:

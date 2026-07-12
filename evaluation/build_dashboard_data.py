@@ -58,9 +58,9 @@ def run() -> dict:
             {
                 "id": "latency", "label": "Time to answer", "status": "pending" if not latency else "verified",
                 "value": "Pending" if not latency else f"{latency.get('cold_uncached', {}).get('median_s', 0):.2f}s",
-                "metric": "public uncached median",
-                "detail": "Existing baseline: 26.35s simple graph; 63.12s degraded RCA route. Controlled n=3 rerun pending.",
-                "caveat": "Seconds, not instant search; comparison to manual cross-system work has not been experimentally measured.",
+                "metric": "authenticated production server median",
+                "detail": "n=3 uncached: 0.05–7.66s · median 0.44s · exact cached repeats 0s",
+                "caveat": latency.get("scope_note") or "Comparison to manual cross-system work has not been experimentally measured.",
             },
             {
                 "id": "provenance", "label": "Real-data provenance", "status": "verified",

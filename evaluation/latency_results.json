@@ -1,0 +1,113 @@
+{
+  "benchmark": "authenticated production time to answer",
+  "generated_at": "2026-07-12T08:00:51.0210716Z",
+  "measurement_surface": "authenticated Vercel chat UI",
+  "frontend_url": "https://synapse-cyan-six.vercel.app/chat",
+  "api_base_url": "https://web-production-a9e7.up.railway.app",
+  "sample_size": 3,
+  "cold_uncached": {
+    "n": 3,
+    "min_s": 0.05,
+    "median_s": 0.44,
+    "max_s": 7.66,
+    "mean_s": 2.72
+  },
+  "cached_repeat": {
+    "n": 3,
+    "min_s": 0.0,
+    "median_s": 0.0,
+    "max_s": 0.0,
+    "mean_s": 0.0
+  },
+  "cases": [
+    {
+      "id": "deep_rca",
+      "question": "Benchmark 2026-07-12 A: What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+      "first": {
+        "server": {
+          "routing_s": 0.01,
+          "retrieval_s": 7.65,
+          "synthesis_s": 0.0,
+          "total_s": 7.66,
+          "cache_hit": false
+        },
+        "model": "deterministic/evidence-template",
+        "layers": ["graph", "documents"],
+        "tier": "tier2",
+        "confidence": "confident"
+      },
+      "repeat": {
+        "server": {
+          "routing_s": 0.0,
+          "retrieval_s": 0.0,
+          "synthesis_s": 0.0,
+          "total_s": 0.0,
+          "cache_hit": true
+        },
+        "model": "deterministic/evidence-template"
+      }
+    },
+    {
+      "id": "simple_graph",
+      "question": "Benchmark 2026-07-12 B: Which equipment produced coil C10234, and what is the operational implication?",
+      "first": {
+        "server": {
+          "routing_s": 0.0,
+          "retrieval_s": 0.44,
+          "synthesis_s": 0.0,
+          "total_s": 0.44,
+          "cache_hit": false
+        },
+        "model": "deterministic/evidence-template",
+        "layers": ["graph"],
+        "tier": "tier2",
+        "confidence": "confident"
+      },
+      "repeat": {
+        "server": {
+          "routing_s": 0.0,
+          "retrieval_s": 0.0,
+          "synthesis_s": 0.0,
+          "total_s": 0.0,
+          "cache_hit": true
+        },
+        "model": "deterministic/evidence-template"
+      }
+    },
+    {
+      "id": "document_qa",
+      "question": "Benchmark 2026-07-12 C: What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
+      "first": {
+        "server": {
+          "routing_s": 0.0,
+          "retrieval_s": 0.05,
+          "synthesis_s": 0.0,
+          "total_s": 0.05,
+          "cache_hit": false
+        },
+        "model": "deterministic/evidence-template",
+        "layers": ["documents"],
+        "tier": "tier2",
+        "confidence": "confident"
+      },
+      "repeat": {
+        "server": {
+          "routing_s": 0.0,
+          "retrieval_s": 0.0,
+          "synthesis_s": 0.0,
+          "total_s": 0.0,
+          "cache_hit": true
+        },
+        "model": "deterministic/evidence-template"
+      }
+    }
+  ],
+  "verification": {
+    "authenticated_role": "Maintenance",
+    "ui_answer_structure_verified": true,
+    "expected_citations_verified": true,
+    "cache_repeat_used_exact_same_prompt": true,
+    "recording_method": "Values transcribed from each response's Sources used latency panel in the authenticated production UI."
+  },
+  "scope_note": "Server-reported timing covers routing, retrieval and synthesis. It excludes browser rendering and public-network transit. Small n=3 operational check; not a controlled comparison with manual work or web search."
+}

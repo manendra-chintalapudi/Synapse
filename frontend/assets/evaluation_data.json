@@ -40,11 +40,11 @@
     {
       "id": "latency",
       "label": "Time to answer",
-      "status": "pending",
-      "value": "Pending",
-      "metric": "public uncached median",
-      "detail": "Existing baseline: 26.35s simple graph; 63.12s degraded RCA route. Controlled n=3 rerun pending.",
-      "caveat": "Seconds, not instant search; comparison to manual cross-system work has not been experimentally measured."
+      "status": "verified",
+      "value": "0.44s",
+      "metric": "authenticated production server median",
+      "detail": "n=3 uncached: 0.05\u20137.66s \u00b7 median 0.44s \u00b7 exact cached repeats 0s",
+      "caveat": "Server-reported timing covers routing, retrieval and synthesis. It excludes browser rendering and public-network transit. Small n=3 operational check; not a controlled comparison with manual work or web search."
     },
     {
       "id": "provenance",

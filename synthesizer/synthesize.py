@@ -228,16 +228,18 @@ def _deterministic_evidence_answer(question, graph_results, document_results):
             violated = rca.get("violated_step") or "No violated step was recorded."
             root_cause = rca.get("root_cause_text") or failure.get("failure_mode", "the recorded failure mode")
             corrective = rca.get("corrective_action") or "verify the corrective work before restart"
+            root_cause = re.sub(r"^root cause traced to\s*", "", root_cause, flags=re.I)
+            failure_label = str(failure.get("failure_mode") or "failure").replace("_", " ")
             exact_doc = next((doc for doc in documents if fid in doc.get("text", "")), None)
             rag_line = f"\n- [RAG: {exact_doc['document_id']}] exact linked work-order narrative." if exact_doc else ""
             answer = (
                 f"**Direct answer:** {fid} on {equipment_name} ({equipment_id}) was diagnosed by {rid}. "
-                f"The recorded cause was {root_cause} The procedure gap was {procedure}: {violated}\n\n"
+                f"The recorded root cause was {root_cause} The linked procedure finding was {procedure}: {violated}\n\n"
                 f"**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph"
                 f"{' and its work-order document' if exact_doc else ''}. **High confidence**: this is a direct event chain, not a statistical inference. "
-                f"The operational risk is recurrence of the same thermal trip if cooling verification remains incomplete.\n\n"
-                f"**Recommended action for Maintenance:** {corrective} Then verify coolant/airflow, record the final temperature differential under {procedure}, "
-                f"and monitor the new alarm before returning the asset to unrestricted service.\n\n"
+                f"The operational risk is recurrence of the same {failure_label} if the recorded procedure gap remains open.\n\n"
+                f"**Recommended action for Maintenance:** The recorded corrective work was: {corrective} Confirm that this work and the cited {procedure} step are complete and documented, "
+                f"validate the repair under normal load, and review the next operating cycle before returning the asset to unrestricted service.\n\n"
                 f"**Sources used:**\n- [Graph: EXPERIENCED -> DIAGNOSED_BY -> PROCEDURE_REVIEWED] {fid}, {rid}, {procedure}.{rag_line}\n\n"
                 f"**So what:** Closing the recorded procedure gap reduces repeat downtime and makes the repair auditable."
             )

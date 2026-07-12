@@ -54,6 +54,16 @@ The automated rubric checks factual anchors, citations, the four-layer synthesis
 execution health. It does not masquerade as expert validation: factual correctness and
 operational usefulness remain explicitly `pending` until a domain expert supplies 1–5 scores.
 
+Generate the frozen human-review packet:
+
+```bash
+python evaluation/build_domain_expert_scorecard.py
+```
+
+The resulting `domain_expert_scorecard.md` includes the exact current answers, locked
+ground-truth references, anchored five-dimension scoring and critical-error checks. A reviewer
+must complete every field before Synapse may claim domain-expert validation.
+
 ## Compliance-to-failure patterns
 
 Run:

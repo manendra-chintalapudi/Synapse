@@ -1,0 +1,125 @@
+{
+  "benchmark": "RCA detail versus independent direct Cypher",
+  "generated_at": "2026-07-12T14:09:58.278261+00:00",
+  "sample_size": 3,
+  "failure_ids": [
+    "F1114",
+    "F1019",
+    "F1186"
+  ],
+  "cases": [
+    {
+      "failure_id": "F1114",
+      "expected_direct_cypher": {
+        "failure_id": "F1114",
+        "equipment_id": "EQ-FMS-02",
+        "rca_id": "RCA1114",
+        "technician_id": "T1004",
+        "procedure_id": "PROC-026",
+        "deviation_count": 29,
+        "test_count": 72,
+        "document_count": 1,
+        "standard_count": 14
+      },
+      "observed_detail_projection": {
+        "failure_id": "F1114",
+        "equipment_id": "EQ-FMS-02",
+        "rca_id": "RCA1114",
+        "technician_id": "T1004",
+        "procedure_id": "PROC-026",
+        "deviation_count": 29,
+        "test_count": 72,
+        "document_count": 1,
+        "standard_count": 14
+      },
+      "checks": {
+        "failure_id": true,
+        "equipment_id": true,
+        "rca_id": true,
+        "technician_id": true,
+        "procedure_id": true,
+        "deviation_count": true,
+        "test_count": true,
+        "document_count": true,
+        "standard_count": true
+      },
+      "passed": true
+    },
+    {
+      "failure_id": "F1019",
+      "expected_direct_cypher": {
+        "failure_id": "F1019",
+        "equipment_id": "EQ-RMS-01",
+        "rca_id": "RCA1019",
+        "technician_id": "T1004",
+        "procedure_id": "PROC-017",
+        "deviation_count": 24,
+        "test_count": 67,
+        "document_count": 1,
+        "standard_count": 14
+      },
+      "observed_detail_projection": {
+        "failure_id": "F1019",
+        "equipment_id": "EQ-RMS-01",
+        "rca_id": "RCA1019",
+        "technician_id": "T1004",
+        "procedure_id": "PROC-017",
+        "deviation_count": 24,
+        "test_count": 67,
+        "document_count": 1,
+        "standard_count": 14
+      },
+      "checks": {
+        "failure_id": true,
+        "equipment_id": true,
+        "rca_id": true,
+        "technician_id": true,
+        "procedure_id": true,
+        "deviation_count": true,
+        "test_count": true,
+        "document_count": true,
+        "standard_count": true
+      },
+      "passed": true
+    },
+    {
+      "failure_id": "F1186",
+      "expected_direct_cypher": {
+        "failure_id": "F1186",
+        "equipment_id": "EQ-RHF-01",
+        "rca_id": "RCA1186",
+        "technician_id": "T1002",
+        "procedure_id": "PROC-022",
+        "deviation_count": 1,
+        "test_count": 0,
+        "document_count": 1,
+        "standard_count": 0
+      },
+      "observed_detail_projection": {
+        "failure_id": "F1186",
+        "equipment_id": "EQ-RHF-01",
+        "rca_id": "RCA1186",
+        "technician_id": "T1002",
+        "procedure_id": "PROC-022",
+        "deviation_count": 1,
+        "test_count": 0,
+        "document_count": 1,
+        "standard_count": 0
+      },
+      "checks": {
+        "failure_id": true,
+        "equipment_id": true,
+        "rca_id": true,
+        "technician_id": true,
+        "procedure_id": true,
+        "deviation_count": true,
+        "test_count": true,
+        "document_count": true,
+        "standard_count": true
+      },
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope_note": "Validates IDs and chain cardinalities only; browser click-through is verified separately."
+}

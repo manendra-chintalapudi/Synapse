@@ -26,7 +26,7 @@ for _p in (SYNAPSE_ROOT, SYNAPSE_ROOT / "retrieval", SYNAPSE_ROOT / "embeddings"
     if _s not in sys.path:
         sys.path.insert(0, _s)
 
-from fastapi import Depends, FastAPI
+from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -34,6 +34,7 @@ from pydantic import BaseModel
 
 from pipeline import ask_synapse, warm_up
 from api.auth import Identity, require_user
+from api.rca_store import get_failure_detail, get_failures, get_summary
 
 FRONTEND = SYNAPSE_ROOT / "frontend"
 
@@ -84,6 +85,40 @@ def ask(req: AskRequest, identity: Identity = Depends(require_user)):
         return ask_synapse(question)
     except Exception as exc:
         return JSONResponse(status_code=500, content={"error": f"{type(exc).__name__}: {exc}"})
+
+
+# ---- RCA & Failures: direct read-only Neo4j browsing (never calls the synthesizer) ----
+@app.get("/api/rca/summary")
+def rca_summary(identity: Identity = Depends(require_user)):
+    return get_summary()
+
+
+@app.get("/api/rca/failures")
+def rca_failures(
+    equipment_type: str | None = None,
+    date_from: str | None = None,
+    date_to: str | None = None,
+    severity: str | None = None,
+    has_rca: bool | None = None,
+    sort: str = Query(default="recent", pattern="^(recent|severe|recurring)$"),
+    identity: Identity = Depends(require_user),
+):
+    return get_failures(
+        equipment_type=equipment_type,
+        date_from=date_from,
+        date_to=date_to,
+        severity=severity,
+        has_rca=has_rca,
+        sort=sort,
+    )
+
+
+@app.get("/api/rca/failures/{failure_id}")
+def rca_failure_detail(failure_id: str, identity: Identity = Depends(require_user)):
+    detail = get_failure_detail(failure_id)
+    if detail is None:
+        raise HTTPException(status_code=404, detail=f"Failure {failure_id} not found")
+    return detail
 
 
 # ---- health: is every dependency reachable? ----

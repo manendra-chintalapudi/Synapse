@@ -128,3 +128,21 @@ python evaluation/build_dashboard_data.py
 
 This creates `frontend/assets/evaluation_data.json`, a browser-safe summary with explicit
 verified, baseline and pending statuses. It contains no secrets or raw industrial records.
+
+## RCA & Failures browser
+
+The required Neo4j density precheck returned 200 failures, 200 linked RCAs and 200 linked
+technicians. The literal `RCA-[:FOLLOWS_PROCEDURE]->Procedure` count is zero because the locked
+ontology models that edge from Equipment. All 200 failures resolve their procedure through
+`Failure <-[:EXPERIENCED]- Equipment -[:FOLLOWS_PROCEDURE]-> Procedure`, selected by the RCA's
+`procedure_ref`; the UI labels this path explicitly rather than inventing an RCA edge.
+
+Validate the detail projection against independent direct Cypher with:
+
+```bash
+python evaluation/rca_failure_validation.py
+```
+
+The committed result checks `F1114`, `F1019` and `F1186`, including equipment, RCA, technician,
+procedure, deviation, quality-test, standard and document cardinalities. The page and endpoints
+are read-only and never call the LLM synthesizer.

@@ -41,6 +41,7 @@ from datetime import date
 import requests
 
 from config import CHAT_URL, get_openrouter_key
+from confidence import calibrate_confidence
 
 MODEL_CHAIN = [
     "tencent/hy3:free",                        # primary (promoted 2026-07-08, see above)
@@ -231,12 +232,16 @@ def _deterministic_evidence_answer(question, graph_results, document_results):
             root_cause = re.sub(r"^root cause traced to\s*", "", root_cause, flags=re.I)
             failure_label = str(failure.get("failure_mode") or "failure").replace("_", " ")
             exact_doc = next((doc for doc in documents if fid in doc.get("text", "")), None)
+            confidence = calibrate_confidence(
+                direct_chain=True,
+                corroborating_sources=2 if exact_doc else 1,
+            )["level"].title()
             rag_line = f"\n- [RAG: {exact_doc['document_id']}] exact linked work-order narrative." if exact_doc else ""
             answer = (
                 f"**Direct answer:** {fid} on {equipment_name} ({equipment_id}) was diagnosed by {rid}. "
                 f"The recorded root cause was {root_cause} The linked procedure finding was {procedure}: {violated}\n\n"
                 f"**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph"
-                f"{' and its work-order document' if exact_doc else ''}. **High confidence**: this is a direct event chain, not a statistical inference. "
+                f"{' and its work-order document' if exact_doc else ''}. **{confidence} confidence**: this is a direct event chain, not a statistical inference. "
                 f"The operational risk is recurrence of the same {failure_label} if the recorded procedure gap remains open.\n\n"
                 f"**Recommended action for Maintenance:** The recorded corrective work was: {corrective} Confirm that this work and the cited {procedure} step are complete and documented, "
                 f"validate the repair under normal load, and review the next operating cycle before returning the asset to unrestricted service.\n\n"
@@ -252,9 +257,10 @@ def _deterministic_evidence_answer(question, graph_results, document_results):
             name = produced.get("name") or eid
             deviations = row.get("deviations") or []
             deviation_note = f" The same neighborhood includes {len(deviations)} deviation record(s)." if deviations else ""
+            confidence = calibrate_confidence(direct_chain=True, corroborating_sources=1)["level"].title()
             return (
                 f"**Direct answer:** Coil {cid} was produced at {eid} ({name}) through the `PRODUCED_AT` relationship.\n\n"
-                f"**Insight:** This is an exact coil-to-equipment lineage link.{deviation_note} **Medium confidence** for operational implication: "
+                f"**Insight:** This is an exact coil-to-equipment lineage link.{deviation_note} **{confidence} confidence** for operational implication: "
                 f"the lineage is definitive, but attributing any quality risk to the stand requires corroborating roll-condition and batch history.\n\n"
                 f"**Recommended action for Operations:** Use {eid} as the starting asset for shift-log, setup and maintenance checks; have QA compare nearby coils before escalating to a line-wide hold.\n\n"
                 f"**Sources used:**\n- [Graph: Coil -[:PRODUCED_AT]-> Equipment] {cid} -> {eid}.\n\n"
@@ -263,11 +269,14 @@ def _deterministic_evidence_answer(question, graph_results, document_results):
 
     is2062 = next((doc for doc in documents if doc.get("document_id") == "DOC1058"), None)
     if is2062 and re.search(r"is\s*:?[ -]?2062", q, re.I):
+        confidence = calibrate_confidence(
+            direct_chain=True, corroborating_sources=1, authoritative_source=True
+        )["level"].title()
         return (
             "**Direct answer:** IS 2062 covers hot-rolled medium and high-tensile structural steel supplied as plates, strips, sections, flats and bars. "
             "It defines grade/sub-quality requirements covering manufacture, chemical composition, mechanical properties and testing [RAG: DOC1058].\n\n"
             "**Insight:** Non-compliance creates a structural assurance risk: strength, ductility, weldability and toughness may not be demonstrated for the declared grade. "
-            "**High confidence** on scope; exact numeric limits are intentionally omitted from this summary and must be checked in the licensed BIS text [RAG: DOC1058].\n\n"
+            f"**{confidence} confidence** on scope; exact numeric limits are intentionally omitted from this summary and must be checked in the licensed BIS text [RAG: DOC1058].\n\n"
             "**Recommended action for QA:** Verify grade and sub-quality, heat/mill certificate traceability, chemical analysis, mechanical test results, dimensions and surface acceptance against the licensed current edition before release.\n\n"
             "**Sources used:**\n- [RAG: DOC1058] BIS IS 2062 scope and classification reference.\n\n"
             "**So what:** A documented IS 2062 verification prevents structurally unsuitable material from moving into fabrication or dispatch."

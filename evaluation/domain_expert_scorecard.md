@@ -1,6 +1,6 @@
 # Synapse domain-expert answer scorecard
 
-This scorecard freezes the exact post-fix answers in `answer_quality_regression_results.json` (SHA-256 `a7628988f07a41b7a99160f2244c99f06bad8c8170dad339efefbe8dd02dd79d`).
+This scorecard freezes the exact post-fix answers in `answer_quality_regression_results.json` (SHA-256 `cab05e4f10083ded48c1d9cdd0b82cee15d1dc803666115c70459f7a3de23121`).
 
 ## Reviewer and scoring instructions
 

@@ -365,7 +365,7 @@
     }
   },
   "accuracy_validation": {
-    "status": "validated_on_locked_reviewer_sample",
+    "status": "validated_on_locked_date_label_sample",
     "result_file": "evaluation/compliance_detection_accuracy_results.json",
     "n": 30,
     "accuracy": 1.0,

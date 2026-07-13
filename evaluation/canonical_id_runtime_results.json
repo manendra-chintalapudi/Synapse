@@ -1,0 +1,607 @@
+{
+  "benchmark": "production Tier-1 canonical-ID runtime regression",
+  "scope_note": "Exercises explicit canonical IDs through the production entity index and Tier-1 matcher. It is not a document-extraction accuracy, alias/name-recognition, implicit NER, retrieval, or answer-quality metric.",
+  "deterministic": true,
+  "production_path": [
+    "router/canonical_ids.py:extract_id_candidates",
+    "router/entity_index.py:build_entity_index",
+    "router/tier1_matcher.py:match_entities"
+  ],
+  "source_sha256": {
+    "router/canonical_ids.py": "177b9c90b478c8422ffb2f0d4a595c5293d5f8072e274865756fd1bd4991a7cd",
+    "router/entity_index.py": "8f34bb556387c7284643e48217054360c7c05189e113f0ef3eeb9791f40881a0",
+    "router/tier1_matcher.py": "b2746e99b8ce00e01ac73b0c42c909a92c5dd5d1c39a9391e0f452fb5d4c3a6b",
+    "ontology/schema/node_labels.json": "c324336c434808b5589636eb64015bfd4791cd2b8ef583e5da5dd2e2b98bcd7e"
+  },
+  "ontology_nodes_sha256": "0a6927791d3305512ee79314dcf324049f3e67c69d69e5271eff2996755a62b3",
+  "ontology_type_count": 11,
+  "ontology_types": [
+    "coil",
+    "equipment",
+    "failure",
+    "rca",
+    "procedure",
+    "technician",
+    "quality_test",
+    "standard",
+    "deviation",
+    "raw_material",
+    "document"
+  ],
+  "runtime_index_types": [
+    "coil",
+    "deviation",
+    "document",
+    "equipment",
+    "failure",
+    "procedure",
+    "quality_test",
+    "raw_material",
+    "rca",
+    "standard",
+    "technician"
+  ],
+  "inventory_counts": {
+    "coil": 400,
+    "equipment": 23,
+    "failure": 200,
+    "rca": 200,
+    "procedure": 31,
+    "technician": 25,
+    "quality_test": 1941,
+    "standard": 18,
+    "deviation": 664,
+    "raw_material": 40,
+    "document": 255
+  },
+  "fixture_selection": "lexicographically first canonical ID in each runtime inventory",
+  "selected_valid_ids": {
+    "coil": "C10001",
+    "equipment": "EQ-BF-01",
+    "failure": "F1001",
+    "rca": "RCA1001",
+    "procedure": "PROC-001",
+    "technician": "T1001",
+    "quality_test": "QT10001",
+    "standard": "STD-ASTMA370-01",
+    "deviation": "DEV1001",
+    "raw_material": "RM1001",
+    "document": "DOC1001"
+  },
+  "selected_stale_ids": {
+    "coil": "C999999",
+    "equipment": "EQ-ZZZ-99",
+    "failure": "F999999",
+    "rca": "RCA999999",
+    "procedure": "PROC-999999",
+    "technician": "T999999",
+    "quality_test": "QT999999",
+    "standard": "STD-NOTREAL-99",
+    "deviation": "DEV999999",
+    "raw_material": "RM999999",
+    "document": "DOC999999"
+  },
+  "summary": {
+    "index_type_contract_passed": true,
+    "valid_type_cases_passed": 11,
+    "valid_type_case_count": 11,
+    "lowercase_type_cases_passed": 11,
+    "lowercase_type_case_count": 11,
+    "stale_type_cases_passed": 11,
+    "stale_type_case_count": 11,
+    "combined_valid_query_passed": true,
+    "combined_stale_query_passed": true
+  },
+  "combined_valid_case": {
+    "expected": [
+      [
+        "coil",
+        "C10001"
+      ],
+      [
+        "deviation",
+        "DEV1001"
+      ],
+      [
+        "document",
+        "DOC1001"
+      ],
+      [
+        "equipment",
+        "EQ-BF-01"
+      ],
+      [
+        "failure",
+        "F1001"
+      ],
+      [
+        "procedure",
+        "PROC-001"
+      ],
+      [
+        "quality_test",
+        "QT10001"
+      ],
+      [
+        "raw_material",
+        "RM1001"
+      ],
+      [
+        "rca",
+        "RCA1001"
+      ],
+      [
+        "standard",
+        "STD-ASTMA370-01"
+      ],
+      [
+        "technician",
+        "T1001"
+      ]
+    ],
+    "predicted": [
+      [
+        "coil",
+        "C10001"
+      ],
+      [
+        "deviation",
+        "DEV1001"
+      ],
+      [
+        "document",
+        "DOC1001"
+      ],
+      [
+        "equipment",
+        "EQ-BF-01"
+      ],
+      [
+        "failure",
+        "F1001"
+      ],
+      [
+        "procedure",
+        "PROC-001"
+      ],
+      [
+        "quality_test",
+        "QT10001"
+      ],
+      [
+        "raw_material",
+        "RM1001"
+      ],
+      [
+        "rca",
+        "RCA1001"
+      ],
+      [
+        "standard",
+        "STD-ASTMA370-01"
+      ],
+      [
+        "technician",
+        "T1001"
+      ]
+    ],
+    "passed": true
+  },
+  "combined_stale_case": {
+    "predicted": [],
+    "passed": true
+  },
+  "valid_cases": [
+    {
+      "entity_type": "coil",
+      "fixture_id": "C10001",
+      "uppercase_input": {
+        "surface": "C10001",
+        "predicted": [
+          [
+            "coil",
+            "C10001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "c10001",
+        "predicted": [
+          [
+            "coil",
+            "C10001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "equipment",
+      "fixture_id": "EQ-BF-01",
+      "uppercase_input": {
+        "surface": "EQ-BF-01",
+        "predicted": [
+          [
+            "equipment",
+            "EQ-BF-01"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "eq-bf-01",
+        "predicted": [
+          [
+            "equipment",
+            "EQ-BF-01"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "failure",
+      "fixture_id": "F1001",
+      "uppercase_input": {
+        "surface": "F1001",
+        "predicted": [
+          [
+            "failure",
+            "F1001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "f1001",
+        "predicted": [
+          [
+            "failure",
+            "F1001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "rca",
+      "fixture_id": "RCA1001",
+      "uppercase_input": {
+        "surface": "RCA1001",
+        "predicted": [
+          [
+            "rca",
+            "RCA1001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "rca1001",
+        "predicted": [
+          [
+            "rca",
+            "RCA1001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "procedure",
+      "fixture_id": "PROC-001",
+      "uppercase_input": {
+        "surface": "PROC-001",
+        "predicted": [
+          [
+            "procedure",
+            "PROC-001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "proc-001",
+        "predicted": [
+          [
+            "procedure",
+            "PROC-001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "technician",
+      "fixture_id": "T1001",
+      "uppercase_input": {
+        "surface": "T1001",
+        "predicted": [
+          [
+            "technician",
+            "T1001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "t1001",
+        "predicted": [
+          [
+            "technician",
+            "T1001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "quality_test",
+      "fixture_id": "QT10001",
+      "uppercase_input": {
+        "surface": "QT10001",
+        "predicted": [
+          [
+            "quality_test",
+            "QT10001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "qt10001",
+        "predicted": [
+          [
+            "quality_test",
+            "QT10001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "standard",
+      "fixture_id": "STD-ASTMA370-01",
+      "uppercase_input": {
+        "surface": "STD-ASTMA370-01",
+        "predicted": [
+          [
+            "standard",
+            "STD-ASTMA370-01"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "std-astma370-01",
+        "predicted": [
+          [
+            "standard",
+            "STD-ASTMA370-01"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "deviation",
+      "fixture_id": "DEV1001",
+      "uppercase_input": {
+        "surface": "DEV1001",
+        "predicted": [
+          [
+            "deviation",
+            "DEV1001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "dev1001",
+        "predicted": [
+          [
+            "deviation",
+            "DEV1001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "raw_material",
+      "fixture_id": "RM1001",
+      "uppercase_input": {
+        "surface": "RM1001",
+        "predicted": [
+          [
+            "raw_material",
+            "RM1001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "rm1001",
+        "predicted": [
+          [
+            "raw_material",
+            "RM1001"
+          ]
+        ],
+        "passed": true
+      }
+    },
+    {
+      "entity_type": "document",
+      "fixture_id": "DOC1001",
+      "uppercase_input": {
+        "surface": "DOC1001",
+        "predicted": [
+          [
+            "document",
+            "DOC1001"
+          ]
+        ],
+        "passed": true
+      },
+      "lowercase_input": {
+        "surface": "doc1001",
+        "predicted": [
+          [
+            "document",
+            "DOC1001"
+          ]
+        ],
+        "passed": true
+      }
+    }
+  ],
+  "stale_cases": [
+    {
+      "entity_type": "coil",
+      "stale_id": "C999999",
+      "candidate_parser_output": [
+        [
+          "coil",
+          "C999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "equipment",
+      "stale_id": "EQ-ZZZ-99",
+      "candidate_parser_output": [
+        [
+          "equipment",
+          "EQ-ZZZ-99"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "failure",
+      "stale_id": "F999999",
+      "candidate_parser_output": [
+        [
+          "failure",
+          "F999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "rca",
+      "stale_id": "RCA999999",
+      "candidate_parser_output": [
+        [
+          "rca",
+          "RCA999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "procedure",
+      "stale_id": "PROC-999999",
+      "candidate_parser_output": [
+        [
+          "procedure",
+          "PROC-999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "technician",
+      "stale_id": "T999999",
+      "candidate_parser_output": [
+        [
+          "technician",
+          "T999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "quality_test",
+      "stale_id": "QT999999",
+      "candidate_parser_output": [
+        [
+          "quality_test",
+          "QT999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "standard",
+      "stale_id": "STD-NOTREAL-99",
+      "candidate_parser_output": [
+        [
+          "standard",
+          "STD-NOTREAL-99"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "deviation",
+      "stale_id": "DEV999999",
+      "candidate_parser_output": [
+        [
+          "deviation",
+          "DEV999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "raw_material",
+      "stale_id": "RM999999",
+      "candidate_parser_output": [
+        [
+          "raw_material",
+          "RM999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    },
+    {
+      "entity_type": "document",
+      "stale_id": "DOC999999",
+      "candidate_parser_output": [
+        [
+          "document",
+          "DOC999999"
+        ]
+      ],
+      "absent_from_inventory": true,
+      "runtime_predictions": [],
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}

@@ -109,7 +109,7 @@ def run(window_days: int = 30) -> dict:
         "patterns": patterns,
         "evidence_examples": evidence,
         "accuracy_validation": {
-            "status": "validated_on_locked_reviewer_sample" if accuracy_overall else "pending",
+            "status": "validated_on_locked_date_label_sample" if accuracy_overall else "pending",
             "result_file": "evaluation/compliance_detection_accuracy_results.json",
             "n": accuracy_overall.get("n", 0),
             "accuracy": accuracy_overall.get("accuracy"),

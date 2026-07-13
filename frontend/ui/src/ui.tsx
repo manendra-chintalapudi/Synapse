@@ -13,7 +13,7 @@ declare global {
     synapseGetAccessToken?: () => Promise<string>;
     synapseRefreshAccessToken?: () => Promise<string>;
     SynapsePillars?: {
-      mount: (route: "rca" | "compliance") => Promise<void>;
+      mount: (route: "rca" | "compliance" | "admin") => Promise<void>;
       openFailure: (failureId: string) => void;
       openStandard: (familyId: string) => void;
     };

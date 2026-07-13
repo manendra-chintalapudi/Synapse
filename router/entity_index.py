@@ -5,7 +5,8 @@ Builds a lookup of every referenceable entity from the existing node JSON files 
 questions can be matched against real IDs and names without any LLM or DB call.
 
 build_entity_index() -> {entity_type: [{"id", "name", "aliases": [...]}, ...]}
-entity types: coil, equipment, failure, standard, technician, doc_type
+ontology entity types: coil, equipment, failure, standard, technician, procedure, deviation,
+RCA, raw material, quality test and document; doc_type is an additional routing vocabulary.
 """
 import json
 import re
@@ -99,6 +100,28 @@ def build_entity_index():
          "aliases": [t["technician_id"].lower(), t["name"].lower()]}
         for t in _load("technician")
     ]
+
+    simple_id_types = {
+        "procedure": ("procedure", "procedure_id", "title"),
+        "deviation": ("deviation", "deviation_id", None),
+        "rca": ("rca", "rca_id", None),
+        "raw_material": ("raw_material", "material_id", None),
+        "quality_test": ("quality_test", "test_id", None),
+        "document": ("document", "document_id", None),
+    }
+    for entity_type, (file_name, id_key, name_key) in simple_id_types.items():
+        index[entity_type] = []
+        for record in _load(file_name):
+            entity_id = record[id_key]
+            name = record.get(name_key) if name_key else entity_id
+            aliases = {entity_id.lower()}
+            if name_key and name:
+                aliases.add(str(name).lower())
+            index[entity_type].append({
+                "id": entity_id,
+                "name": name or entity_id,
+                "aliases": sorted(aliases),
+            })
 
     doc_types = sorted({d["doc_type"] for d in _load("document")})
     index["doc_type"] = [

@@ -1,16 +1,15 @@
-"""Reproducible 25-document canonical entity-reference extraction benchmark.
+"""Reproducible 25-document canonical entity-reference resolution benchmark.
 
-The benchmark deliberately measures the capability that exists today: extracting explicit,
+The benchmark deliberately measures the capability that exists today: resolving explicit,
 plant-canonical identifiers (equipment, procedures, deviations, failures, RCAs, coils, etc.)
-from manuals, SOPs and deviation reports. Gold labels are produced independently by matching
-the locked ontology's complete ID inventory against each document. Predictions come from the
-runtime regex extractor below. This is not a claim about implicit/name-only NER.
+from manuals, SOPs and deviation reports. Predictions use the same explicit-ID candidate
+extractor as the production Tier-1 router. This is not a claim about implicit/name-only NER.
 """
 from __future__ import annotations
 
 import json
-import re
 import hashlib
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -19,6 +18,9 @@ NODES = ROOT / "ontology" / "nodes"
 DOCUMENTS = ROOT / "data" / "unstructured" / "documents"
 RESULTS = Path(__file__).with_name("entity_extraction_results.json")
 GOLD = Path(__file__).with_name("entity_extraction_gold.json")
+sys.path.insert(0, str(ROOT / "router"))
+
+from canonical_ids import extract_id_candidates, unique_candidate_ids  # noqa: E402
 
 SAMPLE = {
     "equipment_manual": [
@@ -35,14 +37,6 @@ SAMPLE = {
     ],
 }
 
-# Candidate extraction is intentionally independent of the ontology inventory.
-ENTITY_ID = re.compile(
-    r"(?<![A-Z0-9-])(?:EQ-[A-Z0-9-]+|PROC-\d+|DEV\d+|RCA\d+|F\d+|"
-    r"C\d+|RM\d+|DOC\d+|STD-[A-Z0-9-]+|TECH-?\d+|TEST-?\d+)(?![A-Z0-9-])",
-    re.IGNORECASE,
-)
-
-
 def ontology_ids() -> set[str]:
     ids: set[str] = set()
     for path in sorted(NODES.glob("*.json")):
@@ -55,7 +49,7 @@ def ontology_ids() -> set[str]:
 
 
 def extract_candidates(text: str) -> set[str]:
-    return {m.group(0).upper() for m in ENTITY_ID.finditer(text)}
+    return unique_candidate_ids(text)
 
 
 def extract(text: str, inventory: set[str]) -> set[str]:
@@ -84,6 +78,8 @@ def run() -> dict:
     totals = Counter()
     by_type = defaultdict(Counter)
     unknown_totals = Counter()
+    entity_type_support = Counter()
+    self_document_ids = 0
     documents = []
 
     for doc_type, doc_ids in SAMPLE.items():
@@ -98,6 +94,14 @@ def run() -> dict:
             expected_unknown = {value.upper() for value in annotation["expected_unknown_ids"]}
             predicted = extract(text, inventory)
             predicted_unknown = candidates - inventory
+            candidate_types = {
+                candidate["entity_id"]: candidate["entity_type"]
+                for candidate in extract_id_candidates(text)
+            }
+            for entity_id in gold:
+                entity_type_support[candidate_types.get(entity_id, "unclassified")] += 1
+            if doc_id in gold:
+                self_document_ids += 1
             tp, fp, fn = gold & predicted, predicted - gold, gold - predicted
             unknown_tp = expected_unknown & predicted_unknown
             unknown_fp = predicted_unknown - expected_unknown
@@ -121,14 +125,20 @@ def run() -> dict:
 
     result = {
         "benchmark": "explicit canonical entity-reference extraction",
-        "scope_note": "Gold labels are locked reviewer annotations. Measures explicit canonical IDs and stale-ID rejection; does not measure implicit or name-only entity recognition.",
+        "scope_note": "Locked ontology-assisted labels over a synthetic/demo corpus. Measures explicit canonical IDs and stale-ID rejection only; it does not measure implicit/name-only recognition, and no independent annotator-agreement record is available.",
         "gold_annotation_file": str(GOLD.relative_to(ROOT)).replace("\\", "/"),
         "gold_annotation_sha256": hashlib.sha256(GOLD.read_bytes()).hexdigest(),
         "gold_annotation_method": gold_manifest["annotation_method"],
+        "extractor_module": "router/canonical_ids.py",
+        "production_usage": "router/tier1_matcher.py",
+        "corpus_label": "synthetic/demo document corpus; source provenance is not asserted as real plant documentation",
         "sample_size": len(documents),
         "sample_distribution": {key: len(value) for key, value in SAMPLE.items()},
         "ontology_inventory_size": len(inventory),
         "overall": scores(totals["tp"], totals["fp"], totals["fn"]),
+        "self_document_id_count": self_document_ids,
+        "non_self_reference_count": totals["tp"] - self_document_ids,
+        "entity_type_support": dict(sorted(entity_type_support.items())),
         "unknown_candidate_rejection": scores(unknown_totals["tp"], unknown_totals["fp"], unknown_totals["fn"]),
         "by_document_type": {
             key: scores(value["tp"], value["fp"], value["fn"])

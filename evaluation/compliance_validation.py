@@ -1,17 +1,17 @@
 """Validate the highest-deviation compliance family against independent Cypher."""
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from datetime import date, datetime
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 ROOT = Path(__file__).resolve().parents[1]
 for path in (ROOT, ROOT / "retrieval", ROOT / "synthesizer"):
     sys.path.insert(0, str(path))
-
-from api.compliance_store import get_standard_detail  # noqa: E402
-from graph_store import query_graph  # noqa: E402
 
 RESULTS = Path(__file__).with_name("compliance_validation_results.json")
 FAMILY_ID = "is-1786"
@@ -80,6 +80,9 @@ def plain(value):
 
 
 def run() -> dict:
+    from api.compliance_store import get_standard_detail
+    from graph_store import query_graph
+
     detail = get_standard_detail(FAMILY_ID)
     manual = plain(query_graph(MANUAL_QUERY)[0])
     top_cause = plain(query_graph(CAUSE_QUERY)[0])
@@ -144,4 +147,10 @@ def run() -> dict:
 
 
 if __name__ == "__main__":
-    print(json.dumps(run(), indent=2))
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--credentials", help="Optional dotenv credential file; omitted in configured environments")
+    args = parser.parse_args()
+    load_dotenv(args.credentials, override=True)
+    result = run()
+    print(json.dumps(result, indent=2))
+    raise SystemExit(0 if result["passed"] else 1)

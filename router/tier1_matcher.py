@@ -13,13 +13,7 @@ Dedupes to one hit per (entity_type, entity_id), keeping the longest matched tex
 """
 import re
 
-ID_PATTERNS = {
-    "coil": re.compile(r"\bC\d{5}\b", re.IGNORECASE),
-    "equipment": re.compile(r"\bEQ-[A-Z]{2,4}-\d{2}\b", re.IGNORECASE),
-    "failure": re.compile(r"\bF\d{4}\b", re.IGNORECASE),
-    "standard": re.compile(r"\bSTD-[A-Z0-9]+-\d{2}\b", re.IGNORECASE),
-    "technician": re.compile(r"\bT\d{4}\b", re.IGNORECASE),
-}
+from canonical_ids import extract_id_candidates
 
 
 def _alias_regex(alias):
@@ -37,7 +31,10 @@ def _compiled_aliases(index):
         for etype, items in index.items():
             for item in items:
                 for alias in item["aliases"]:
-                    if len(alias) >= 3 and not ID_PATTERNS.get(etype, re.compile(r"$^")).fullmatch(alias.upper()):
+                    if len(alias) >= 3 and not any(
+                        candidate["entity_id"] == alias.upper()
+                        for candidate in extract_id_candidates(alias)
+                    ):
                         compiled.append((etype, item["id"], _alias_regex(alias)))
         _ALIAS_CACHE[key] = compiled
     return _ALIAS_CACHE[key]
@@ -54,11 +51,11 @@ def match_entities(question: str, index: dict) -> list:
 
     # pass 1: explicit IDs
     id_sets = {etype: {item["id"].upper() for item in items} for etype, items in index.items()}
-    for etype, pattern in ID_PATTERNS.items():
-        for m in pattern.finditer(question):
-            token = m.group(0).upper()
-            if token in id_sets.get(etype, set()):
-                record(etype, token, m.group(0))
+    for candidate in extract_id_candidates(question):
+        etype = candidate["entity_type"]
+        token = candidate["entity_id"]
+        if token in id_sets.get(etype, set()):
+            record(etype, token, candidate["surface_text"])
 
     # pass 2: names / aliases
     for etype, eid, rx in _compiled_aliases(index):

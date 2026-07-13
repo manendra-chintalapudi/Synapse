@@ -1,6 +1,6 @@
 # Synapse domain-expert answer scorecard
 
-This scorecard freezes the exact post-fix answers in `answer_quality_regression_results.json` (SHA-256 `fcc69dfe4e3d227c2225d5658c69d192a3290f7b7aeb5600a08fc48625156f53`).
+This scorecard freezes the exact post-fix answers in `answer_quality_regression_results.json` (SHA-256 `af6a2dab188602243930574e5376acd19f2b1cb9a74a76ab5928131277b0ed52`).
 
 ## Reviewer and scoring instructions
 
@@ -18,17 +18,17 @@ Score each dimension from 1 to 5: **1 = unsafe or materially wrong**, **3 = usab
 
 ### Synapse answer under review
 
-**Direct answer:** F1186 on Reheating Furnace #1 (EQ-RHF-01) was diagnosed by RCA1186. The recorded root cause was insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant. The linked procedure finding was PROC-022: Step 4 of PROC-022 ("Record final temperatures and any anomalies in the shift log.") — cooling/lubrication verification was not completed at the required interval before the event.
+**Direct answer:** F1186 on Reheating Furnace #1 (EQ-RHF-01) has the recorded diagnosis RCA1186: insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant. The records associate that event with the PROC-022 procedure finding: Step 4 of PROC-022 ("Record final temperatures and any anomalies in the shift log.") — cooling/lubrication verification was not completed at the required interval before the event. This linked record does not prove that the procedure gap caused the failure.
 
-**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph and its work-order document. **High confidence**: this is a direct event chain, not a statistical inference. The operational risk is recurrence of the same heat dissipation failure if the recorded procedure gap remains open.
+**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph and its work-order document. **High confidence in the record lineage and recorded fields only.** **Low confidence for causal attribution**: one associated event chain has no control, counterfactual, or independent incident corroboration. The linked work-order narrative is explicitly synthetic/demo evidence, not an independently observed plant incident. The operational risk is treating a recorded association as proof about the heat dissipation failure.
 
-**Recommended action for Maintenance:** The recorded corrective work was: Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system. Confirm that this work and the cited PROC-022 step are complete and documented, validate the repair under normal load, and review the next operating cycle before returning the asset to unrestricted service.
+**Recommended action for Maintenance:** Treat the recorded PROC-022 procedure gap as a hypothesis. Verify the original shift log, cooling-airflow and coolant-flow measurements, and maintenance history independently. The recorded corrective work was: Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system. Confirm and validate that work under normal load, but do not attribute recurrence or change the procedure until independent evidence corroborates the mechanism.
 
 **Sources used:**
 - [Graph: EXPERIENCED -> DIAGNOSED_BY; RCA.procedure_ref -> Procedure] F1186, RCA1186, PROC-022.
 - [RAG: DOC1242] exact linked work-order narrative.
 
-**So what:** Closing the recorded procedure gap reduces repeat downtime and makes the repair auditable.
+**So what:** If independent records corroborate the procedure gap, correcting it may reduce recurrence risk; the evidence here does not establish that effect.
 
 ### Reviewer scores
 
@@ -260,6 +260,111 @@ Required correction or missing evidence: _______________________________________
 - [DFS: document catalog.document_id] managed-document inventory.
 
 **So what:** Inventory coverage shows whether the retrieval layer has enough governed evidence to support plant decisions.
+
+### Reviewer scores
+
+| Dimension | Score (1–5) | Reviewer note |
+|---|---:|---|
+| Factual correctness |  |  |
+| Evidence traceability |  |  |
+| Operational usefulness |  |  |
+| Role/action appropriateness |  |  |
+| Confidence calibration |  |  |
+
+Critical error (yes/no): ________
+
+Required correction or missing evidence: ________________________________________________
+
+## Case 9: `is1786_failure_pattern`
+
+**Question:** Across IS:1786 deviations, how many preceded a linked equipment failure within 30 days, which RCA cause dominated, and what should QA and Maintenance do?
+
+**Locked ground-truth reference:** `evaluation/compliance_validation_results.json:detail_pattern`
+
+### Synapse answer under review
+
+**Direct answer:** 15 of 171 failure-linked IS:1786 deviations preceded an equipment failure within 30 days (8.77%); the 95% Wilson interval is 5.39%–13.97%. The dominant linked RCA finding was Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits. (8 of 15 within-window cases).
+
+**Insight:** This is a direct date-window pattern across a 171-record linked sample. **High confidence** in the computed association and sample counts, but the relationship is descriptive, not causal; the operational risk is a repeated quality-to-reliability signal that warrants joint review rather than a causal claim.
+
+**Recommended action for QA:** Review the 15 within-window deviations by failed IS:1786 clause and hold or retest affected material when release evidence is incomplete.
+
+**Recommended action for Maintenance:** Inspect the linked assets for the recorded mechanical-overstrain mechanism and verify corrective work before treating the pattern as closed.
+
+**Sources used:**
+- [Graph: Deviation -> Coil -> Equipment -> Failure -> RCA, directional 30-day window] locked IS:1786 cohort and RCA counts.
+
+**So what:** The bounded correlation prioritizes 15 concrete investigations without misstating an observed timing pattern as causation.
+
+### Reviewer scores
+
+| Dimension | Score (1–5) | Reviewer note |
+|---|---:|---|
+| Factual correctness |  |  |
+| Evidence traceability |  |  |
+| Operational usefulness |  |  |
+| Role/action appropriateness |  |  |
+| Confidence calibration |  |  |
+
+Critical error (yes/no): ________
+
+Required correction or missing evidence: ________________________________________________
+
+## Case 10: `dev1050_full_chain`
+
+**Question:** Trace DEV1050 through its coil, equipment, failure, RCA, technician and failed standards, then give separate actions for QA and Maintenance.
+
+**Locked ground-truth reference:** `evaluation/compliance_validation_results.json:representative_chains[DEV1050] + ontology/nodes/{deviation,failure,rca,technician}.json`
+
+### Synapse answer under review
+
+**Direct answer:** DEV1050 is linked through coil C10024 and equipment EQ-RMS-02 to failure F1128, RCA RCA1128, and technician T1004 (Shalini Naidu). Its failed-standard evidence is QT10089 against STD-IS1786-01; QT10154 against STD-IS1786-02. The failure mode was tool wear failure, and the RCA records Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.
+
+**Insight:** The deviation, production asset, failure, RCA, technician and test records form one exact linked chain. **High confidence** in the lineage; the operational implication is combined coil-release exposure and recurrence risk on EQ-RMS-02 if the tool-wear control is not verified.
+
+**Recommended action for QA:** Keep C10024 under review and verify QT10089 against STD-IS1786-01 and QT10154 against STD-IS1786-02 before release.
+
+**Recommended action for Maintenance:** On EQ-RMS-02, confirm the recorded corrective action—Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.—and review the next wear cycle.
+
+**Sources used:**
+- [Graph: HAS_DEVIATION -> PRODUCED_AT -> EXPERIENCED -> DIAGNOSED_BY -> PERFORMED_BY] DEV1050 to T1004.
+- [Graph: TESTED_BY -> TESTED_AGAINST] QT10089/STD-IS1786-01 and QT10154/STD-IS1786-02.
+
+**So what:** One traceable chain gives QA and Maintenance a shared, bounded response instead of two disconnected investigations.
+
+### Reviewer scores
+
+| Dimension | Score (1–5) | Reviewer note |
+|---|---:|---|
+| Factual correctness |  |  |
+| Evidence traceability |  |  |
+| Operational usefulness |  |  |
+| Role/action appropriateness |  |  |
+| Confidence calibration |  |  |
+
+Critical error (yes/no): ________
+
+Required correction or missing evidence: ________________________________________________
+
+## Case 11: `f1186_causality_boundary`
+
+**Question:** Does the evidence prove that the PROC-022 gap caused F1186? Explain the evidence boundary and what Maintenance should do.
+
+**Locked ground-truth reference:** `ontology/nodes/{failure,rca,document}.json:F1186/RCA1186/DOC1242 + data/unstructured/documents/DOC1242.md`
+
+### Synapse answer under review
+
+**Direct answer:** No. The graph records an association between F1186, RCA1186 and the PROC-022 procedure finding, but that linked event record does not prove that the procedure gap caused the failure. The supporting work-order DOC1242 is explicitly marked synthetic; it is demonstration evidence, not an independently observed plant incident.
+
+**Insight:** **Low confidence** for causal attribution because there is no control, counterfactual or independent event corroboration. Confidence is high only that the locked records contain the association. The operational risk is acting on a generated narrative as if it proved causality.
+
+**Recommended action for Maintenance:** Treat the PROC-022 gap as a hypothesis: verify the original shift log, cooling measurements and maintenance history, then document independent corroboration before changing the procedure or attributing recurrence.
+
+**Sources used:**
+- [Graph: EXPERIENCED -> DIAGNOSED_BY; RCA.procedure_ref] F1186 -> RCA1186 -> PROC-022.
+- [RAG: DOC1242] generated work-order narrative, source_type=synthetic.
+
+**So what:** Preserving the evidence boundary prevents a useful demo correlation from becoming an unsafe causal maintenance claim.
 
 ### Reviewer scores
 

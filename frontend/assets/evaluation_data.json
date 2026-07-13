@@ -1,109 +1,1515 @@
 {
+  "schema_version": 2,
   "generated_from": "committed reproducible evaluation artifacts",
+  "generated_at": "2026-07-13T07:43:15.065269+00:00",
+  "repository_base": "https://github.com/manendra-chintalapudi/Synapse/blob/main/",
+  "headline": {
+    "criterion_count": 6,
+    "verified_or_scoped_count": 3,
+    "partial_count": 3,
+    "expert_validation_complete": false,
+    "statement": "Every headline is tied to a committed artifact and every missing external gate stays visible."
+  },
   "cards": [
     {
       "id": "entity_extraction",
-      "label": "Entity extraction",
-      "status": "verified",
+      "criterion": 1,
+      "label": "Canonical ID extraction",
+      "status": "scoped_verified",
+      "status_label": "Scoped verified",
       "value": "100% / 100%",
       "metric": "precision / recall",
-      "detail": "25 documents \u00b7 73 explicit canonical references",
-      "caveat": "Gold labels are locked reviewer annotations. Measures explicit canonical IDs and stale-ID rejection; does not measure implicit or name-only entity recognition."
-    },
-    {
-      "id": "graph",
-      "label": "Knowledge graph",
-      "status": "verified",
-      "value": "3,797 / 6,724",
-      "metric": "nodes / relationships",
-      "detail": "11 entity types \u00b7 17 directed schema links \u00b7 zero broken endpoints",
-      "caveat": "Validated against the locked ontology; no duplicate or schema-invalid edges."
+      "detail": "25 demo documents \u00b7 73 references \u00b7 production runtime recognizes 11/11 ontology ID types",
+      "caveat": "Locked ontology-assisted labels over a synthetic/demo corpus. Measures explicit canonical IDs and stale-ID rejection only; it does not measure implicit/name-only recognition, and no independent annotator-agreement record is available.",
+      "next_gate": "Independent span/type annotation for implicit and name-only entities."
     },
     {
       "id": "answers",
+      "criterion": 2,
       "label": "Answer quality",
-      "status": "verified",
-      "value": "100.0%",
-      "metric": "automated contract pass rate",
-      "detail": "8 golden questions \u00b7 offline evidence regression \u00b7 expert review pending",
-      "caveat": "Automated rubric results are not a substitute for domain-expert scoring."
+      "status": "partial",
+      "status_label": "Automated verified",
+      "value": "11/11",
+      "metric": "locked-evidence cases passed",
+      "detail": "Six checks per answer: direct facts, insight, confidence, role action, citations and execution health.",
+      "caveat": "Automated rubric results are not a substitute for domain-expert scoring. The F1186 causality challenge explicitly evaluates synthetic-data disclosure rather than a real-incident claim.",
+      "next_gate": "A domain expert must complete the frozen five-dimension scorecard."
     },
     {
-      "id": "compliance",
-      "label": "Compliance \u2192 failure",
-      "status": "verified",
-      "value": "8.77%",
-      "metric": "IS:1786 deviations preceding failure \u226430d",
-      "detail": "15 of 171 linked deviations \u00b7 100% on 30-event temporal-linkage gold set",
-      "caveat": "Cohorts are deviations on coils with tests linked to the named failed-standard family. Timing uses date_flagged and the explicitly enriched failure_id_fk. Rates are descriptive, not causal. Temporal linkage classification only; labels do not assert that a deviation caused a failure."
+      "id": "graph",
+      "criterion": 3,
+      "label": "Knowledge graph structural integrity",
+      "status": "scoped_verified",
+      "status_label": "Scoped verified",
+      "value": "3,797 / 6,724",
+      "metric": "nodes / relationships",
+      "detail": "11 node types \u00b7 14 relationship names \u00b7 17 directed schema links \u00b7 0 broken endpoints",
+      "caveat": "Compares deployed totals, per-label/per-relationship counts and primary-ID uniqueness with the committed locked ontology; semantic property equality is outside this audit. Domain-coverage recall against an external plant truth set is not measured.",
+      "next_gate": "External domain coverage review and semantic property-level parity."
     },
     {
       "id": "latency",
+      "criterion": 4,
       "label": "Time to answer",
-      "status": "verified",
+      "status": "partial",
+      "status_label": "Operational baseline",
       "value": "0.44s",
-      "metric": "authenticated production server median",
-      "detail": "n=3 uncached: 0.05\u20137.66s \u00b7 median 0.44s \u00b7 exact cached repeats 0s",
-      "caveat": "Server-reported timing covers routing, retrieval and synthesis. It excludes browser rendering and public-network transit. Small n=3 operational check; not a controlled comparison with manual work or web search."
+      "metric": "production server median \u00b7 n=3",
+      "detail": "Deep RCA 7.66s \u00b7 exact cached repeats 0.00s",
+      "caveat": "Server-reported timing covers routing, retrieval and synthesis. It excludes browser rendering and public-network transit. Small n=3 operational check; not a controlled comparison with manual work or web search.",
+      "next_gate": "Controlled user study for manual-search time and correctness."
     },
     {
-      "id": "provenance",
-      "label": "Real-data provenance",
-      "status": "verified",
-      "value": "17 files",
-      "metric": "real-source CSV inventory",
-      "detail": "Steel Plates Faults: 1,941 real rows \u00b7 Steel Industry Energy: 35,040 real rows \u00b7 AI4I: 10,000 official synthetic-reference rows",
-      "caveat": "AI4I 2020 is explicitly synthetic according to UCI; it is not presented as real plant measurements."
+      "id": "compliance",
+      "criterion": 5,
+      "label": "Compliance gap detection",
+      "value": "8.77%",
+      "metric": "IS:1786 linked deviations \u2192 failure \u226430d",
+      "status": "scoped_verified",
+      "status_label": "Scoped verified",
+      "detail": "15 of 171 \u00b7 Wilson 95% 5.39\u201313.97% \u00b7 30/30 locked temporal labels matched",
+      "caveat": "Cohorts are deviations on coils with tests linked to the named failed-standard family. Timing uses date_flagged and the explicitly enriched failure_id_fk. Rates are descriptive, not causal. Temporal linkage classification only; labels do not assert that a deviation caused a failure.",
+      "next_gate": "Prospective validation is required before treating the association as predictive."
+    },
+    {
+      "id": "discovery",
+      "criterion": 6,
+      "label": "Cross-functional discovery",
+      "status": "partial",
+      "status_label": "Integration demonstrated",
+      "value": "4 + 2",
+      "metric": "operational catalogs + graph/RAG layers",
+      "detail": "ERP, SCADA, QMS and CMMS can be joined with Neo4j graph and document evidence; two named, locally designated source dataset families are present and used as project evidence.",
+      "caveat": "No before/after user study exists. Local naming and presence do not independently verify upstream provenance for either named dataset family; AI4I is synthetic and the extraction corpus is demo/synthetic.",
+      "next_gate": "Measure discovery time and correctness with QA, Maintenance and Operations users on real documents."
     }
   ],
-  "answer_cases": [
+  "entity_extraction": {
+    "sample_size": 25,
+    "precision_pct": 100.0,
+    "recall_pct": 100.0,
+    "f1_pct": 100.0,
+    "true_positives": 73,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "self_document_id_count": 25,
+    "non_self_reference_count": 48,
+    "unknown_rejection": {
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "breakdown": [
+      {
+        "id": "equipment_manual",
+        "label": "Equipment manuals",
+        "documents": 9,
+        "references": 18,
+        "precision_pct": 100.0,
+        "recall_pct": 100.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      {
+        "id": "sop",
+        "label": "SOPs",
+        "documents": 8,
+        "references": 19,
+        "precision_pct": 100.0,
+        "recall_pct": 100.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      },
+      {
+        "id": "deviation_report",
+        "label": "Deviation reports",
+        "documents": 8,
+        "references": 36,
+        "precision_pct": 100.0,
+        "recall_pct": 100.0,
+        "false_positives": 0,
+        "false_negatives": 0
+      }
+    ],
+    "entity_type_support": {
+      "coil": 8,
+      "deviation": 8,
+      "document": 25,
+      "equipment": 16,
+      "procedure": 8,
+      "standard": 8
+    },
+    "gold_sha256": "1715d3ecf1360c7f059dc8728a7d066814b736c3a39e274c3ae9813d2230a2bc",
+    "annotation_method": "Locked ontology-assisted manifest of explicit identifier references. Independent annotator agreement and adjudication records are not available; this file is input to, never generated by, the benchmark.",
+    "extractor_module": "router/canonical_ids.py",
+    "production_usage": "router/tier1_matcher.py",
+    "runtime_contract": {
+      "benchmark": "production Tier-1 canonical-ID runtime regression",
+      "scope_note": "Exercises explicit canonical IDs through the production entity index and Tier-1 matcher. It is not a document-extraction accuracy, alias/name-recognition, implicit NER, retrieval, or answer-quality metric.",
+      "deterministic": true,
+      "production_path": [
+        "router/canonical_ids.py:extract_id_candidates",
+        "router/entity_index.py:build_entity_index",
+        "router/tier1_matcher.py:match_entities"
+      ],
+      "source_sha256": {
+        "router/canonical_ids.py": "177b9c90b478c8422ffb2f0d4a595c5293d5f8072e274865756fd1bd4991a7cd",
+        "router/entity_index.py": "8f34bb556387c7284643e48217054360c7c05189e113f0ef3eeb9791f40881a0",
+        "router/tier1_matcher.py": "b2746e99b8ce00e01ac73b0c42c909a92c5dd5d1c39a9391e0f452fb5d4c3a6b",
+        "ontology/schema/node_labels.json": "c324336c434808b5589636eb64015bfd4791cd2b8ef583e5da5dd2e2b98bcd7e"
+      },
+      "ontology_nodes_sha256": "0a6927791d3305512ee79314dcf324049f3e67c69d69e5271eff2996755a62b3",
+      "ontology_type_count": 11,
+      "ontology_types": [
+        "coil",
+        "equipment",
+        "failure",
+        "rca",
+        "procedure",
+        "technician",
+        "quality_test",
+        "standard",
+        "deviation",
+        "raw_material",
+        "document"
+      ],
+      "runtime_index_types": [
+        "coil",
+        "deviation",
+        "document",
+        "equipment",
+        "failure",
+        "procedure",
+        "quality_test",
+        "raw_material",
+        "rca",
+        "standard",
+        "technician"
+      ],
+      "inventory_counts": {
+        "coil": 400,
+        "equipment": 23,
+        "failure": 200,
+        "rca": 200,
+        "procedure": 31,
+        "technician": 25,
+        "quality_test": 1941,
+        "standard": 18,
+        "deviation": 664,
+        "raw_material": 40,
+        "document": 255
+      },
+      "fixture_selection": "lexicographically first canonical ID in each runtime inventory",
+      "selected_valid_ids": {
+        "coil": "C10001",
+        "equipment": "EQ-BF-01",
+        "failure": "F1001",
+        "rca": "RCA1001",
+        "procedure": "PROC-001",
+        "technician": "T1001",
+        "quality_test": "QT10001",
+        "standard": "STD-ASTMA370-01",
+        "deviation": "DEV1001",
+        "raw_material": "RM1001",
+        "document": "DOC1001"
+      },
+      "selected_stale_ids": {
+        "coil": "C999999",
+        "equipment": "EQ-ZZZ-99",
+        "failure": "F999999",
+        "rca": "RCA999999",
+        "procedure": "PROC-999999",
+        "technician": "T999999",
+        "quality_test": "QT999999",
+        "standard": "STD-NOTREAL-99",
+        "deviation": "DEV999999",
+        "raw_material": "RM999999",
+        "document": "DOC999999"
+      },
+      "summary": {
+        "index_type_contract_passed": true,
+        "valid_type_cases_passed": 11,
+        "valid_type_case_count": 11,
+        "lowercase_type_cases_passed": 11,
+        "lowercase_type_case_count": 11,
+        "stale_type_cases_passed": 11,
+        "stale_type_case_count": 11,
+        "combined_valid_query_passed": true,
+        "combined_stale_query_passed": true
+      },
+      "combined_valid_case": {
+        "expected": [
+          [
+            "coil",
+            "C10001"
+          ],
+          [
+            "deviation",
+            "DEV1001"
+          ],
+          [
+            "document",
+            "DOC1001"
+          ],
+          [
+            "equipment",
+            "EQ-BF-01"
+          ],
+          [
+            "failure",
+            "F1001"
+          ],
+          [
+            "procedure",
+            "PROC-001"
+          ],
+          [
+            "quality_test",
+            "QT10001"
+          ],
+          [
+            "raw_material",
+            "RM1001"
+          ],
+          [
+            "rca",
+            "RCA1001"
+          ],
+          [
+            "standard",
+            "STD-ASTMA370-01"
+          ],
+          [
+            "technician",
+            "T1001"
+          ]
+        ],
+        "predicted": [
+          [
+            "coil",
+            "C10001"
+          ],
+          [
+            "deviation",
+            "DEV1001"
+          ],
+          [
+            "document",
+            "DOC1001"
+          ],
+          [
+            "equipment",
+            "EQ-BF-01"
+          ],
+          [
+            "failure",
+            "F1001"
+          ],
+          [
+            "procedure",
+            "PROC-001"
+          ],
+          [
+            "quality_test",
+            "QT10001"
+          ],
+          [
+            "raw_material",
+            "RM1001"
+          ],
+          [
+            "rca",
+            "RCA1001"
+          ],
+          [
+            "standard",
+            "STD-ASTMA370-01"
+          ],
+          [
+            "technician",
+            "T1001"
+          ]
+        ],
+        "passed": true
+      },
+      "combined_stale_case": {
+        "predicted": [],
+        "passed": true
+      },
+      "valid_cases": [
+        {
+          "entity_type": "coil",
+          "fixture_id": "C10001",
+          "uppercase_input": {
+            "surface": "C10001",
+            "predicted": [
+              [
+                "coil",
+                "C10001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "c10001",
+            "predicted": [
+              [
+                "coil",
+                "C10001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "equipment",
+          "fixture_id": "EQ-BF-01",
+          "uppercase_input": {
+            "surface": "EQ-BF-01",
+            "predicted": [
+              [
+                "equipment",
+                "EQ-BF-01"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "eq-bf-01",
+            "predicted": [
+              [
+                "equipment",
+                "EQ-BF-01"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "failure",
+          "fixture_id": "F1001",
+          "uppercase_input": {
+            "surface": "F1001",
+            "predicted": [
+              [
+                "failure",
+                "F1001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "f1001",
+            "predicted": [
+              [
+                "failure",
+                "F1001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "rca",
+          "fixture_id": "RCA1001",
+          "uppercase_input": {
+            "surface": "RCA1001",
+            "predicted": [
+              [
+                "rca",
+                "RCA1001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "rca1001",
+            "predicted": [
+              [
+                "rca",
+                "RCA1001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "procedure",
+          "fixture_id": "PROC-001",
+          "uppercase_input": {
+            "surface": "PROC-001",
+            "predicted": [
+              [
+                "procedure",
+                "PROC-001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "proc-001",
+            "predicted": [
+              [
+                "procedure",
+                "PROC-001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "technician",
+          "fixture_id": "T1001",
+          "uppercase_input": {
+            "surface": "T1001",
+            "predicted": [
+              [
+                "technician",
+                "T1001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "t1001",
+            "predicted": [
+              [
+                "technician",
+                "T1001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "quality_test",
+          "fixture_id": "QT10001",
+          "uppercase_input": {
+            "surface": "QT10001",
+            "predicted": [
+              [
+                "quality_test",
+                "QT10001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "qt10001",
+            "predicted": [
+              [
+                "quality_test",
+                "QT10001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "standard",
+          "fixture_id": "STD-ASTMA370-01",
+          "uppercase_input": {
+            "surface": "STD-ASTMA370-01",
+            "predicted": [
+              [
+                "standard",
+                "STD-ASTMA370-01"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "std-astma370-01",
+            "predicted": [
+              [
+                "standard",
+                "STD-ASTMA370-01"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "deviation",
+          "fixture_id": "DEV1001",
+          "uppercase_input": {
+            "surface": "DEV1001",
+            "predicted": [
+              [
+                "deviation",
+                "DEV1001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "dev1001",
+            "predicted": [
+              [
+                "deviation",
+                "DEV1001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "raw_material",
+          "fixture_id": "RM1001",
+          "uppercase_input": {
+            "surface": "RM1001",
+            "predicted": [
+              [
+                "raw_material",
+                "RM1001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "rm1001",
+            "predicted": [
+              [
+                "raw_material",
+                "RM1001"
+              ]
+            ],
+            "passed": true
+          }
+        },
+        {
+          "entity_type": "document",
+          "fixture_id": "DOC1001",
+          "uppercase_input": {
+            "surface": "DOC1001",
+            "predicted": [
+              [
+                "document",
+                "DOC1001"
+              ]
+            ],
+            "passed": true
+          },
+          "lowercase_input": {
+            "surface": "doc1001",
+            "predicted": [
+              [
+                "document",
+                "DOC1001"
+              ]
+            ],
+            "passed": true
+          }
+        }
+      ],
+      "stale_cases": [
+        {
+          "entity_type": "coil",
+          "stale_id": "C999999",
+          "candidate_parser_output": [
+            [
+              "coil",
+              "C999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "equipment",
+          "stale_id": "EQ-ZZZ-99",
+          "candidate_parser_output": [
+            [
+              "equipment",
+              "EQ-ZZZ-99"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "failure",
+          "stale_id": "F999999",
+          "candidate_parser_output": [
+            [
+              "failure",
+              "F999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "rca",
+          "stale_id": "RCA999999",
+          "candidate_parser_output": [
+            [
+              "rca",
+              "RCA999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "procedure",
+          "stale_id": "PROC-999999",
+          "candidate_parser_output": [
+            [
+              "procedure",
+              "PROC-999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "technician",
+          "stale_id": "T999999",
+          "candidate_parser_output": [
+            [
+              "technician",
+              "T999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "quality_test",
+          "stale_id": "QT999999",
+          "candidate_parser_output": [
+            [
+              "quality_test",
+              "QT999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "standard",
+          "stale_id": "STD-NOTREAL-99",
+          "candidate_parser_output": [
+            [
+              "standard",
+              "STD-NOTREAL-99"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "deviation",
+          "stale_id": "DEV999999",
+          "candidate_parser_output": [
+            [
+              "deviation",
+              "DEV999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "raw_material",
+          "stale_id": "RM999999",
+          "candidate_parser_output": [
+            [
+              "raw_material",
+              "RM999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        },
+        {
+          "entity_type": "document",
+          "stale_id": "DOC999999",
+          "candidate_parser_output": [
+            [
+              "document",
+              "DOC999999"
+            ]
+          ],
+          "absent_from_inventory": true,
+          "runtime_predictions": [],
+          "passed": true
+        }
+      ],
+      "failures": [],
+      "passed": true
+    },
+    "corpus_label": "synthetic/demo document corpus; source provenance is not asserted as real plant documentation",
+    "limitations": [
+      "Explicit canonical identifiers only; implicit/name-only entity recognition is not scored.",
+      "The corpus is synthetic/demo documentation, not a real-plant document sample.",
+      "Independent annotator agreement and adjudication records are not available."
+    ]
+  },
+  "answer_benchmark": {
+    "case_count": 11,
+    "automated_mean_pass_rate_pct": 100.0,
+    "expert_validation_complete": false,
+    "generated_at": "2026-07-13T07:42:55.317576+00:00",
+    "execution_scope": "Locked ontology/document/evaluation evidence, including correlation, full-chain and causal-boundary cases; not a public endpoint or latency test.",
+    "showcase_answers": [
+      {
+        "id": "rhf_cooling_circuit_rca",
+        "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+        "role": "maintenance",
+        "source_layers": [
+          "Graph",
+          "RAG"
+        ],
+        "ground_truth": "ontology/nodes/failure.json:F1186 + ontology/nodes/rca.json:RCA1186",
+        "model": "deterministic/evidence-template",
+        "sections": {
+          "direct": "F1186 on Reheating Furnace #1 (EQ-RHF-01) has the recorded diagnosis RCA1186: insufficient heat dissipation: cooling airflow and coolant flow were below the required rate while process temperature rose relative to ambient, exceeding the tool's thermal limit. Contributing factors included clogged cooling passages and degraded coolant. The records associate that event with the PROC-022 procedure finding: Step 4 of PROC-022 (\"Record final temperatures and any anomalies in the shift log.\") \u2014 cooling/lubrication verification was not completed at the required interval before the event. This linked record does not prove that the procedure gap caused the failure.",
+          "insight": "The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph and its work-order document. **High confidence in the record lineage and recorded fields only.** **Low confidence for causal attribution**: one associated event chain has no control, counterfactual, or independent incident corroboration. The linked work-order narrative is explicitly synthetic/demo evidence, not an independently observed plant incident. The operational risk is treating a recorded association as proof about the heat dissipation failure.",
+          "action": "Treat the recorded PROC-022 procedure gap as a hypothesis. Verify the original shift log, cooling-airflow and coolant-flow measurements, and maintenance history independently. The recorded corrective work was: Cleaned and restored cooling circuit, replaced coolant, and added a temperature-differential alarm to the monitoring system. Confirm and validate that work under normal load, but do not attribute recurrence or change the procedure until independent evidence corroborates the mechanism.",
+          "sources": [
+            "[Graph: EXPERIENCED -> DIAGNOSED_BY; RCA.procedure_ref -> Procedure] F1186, RCA1186, PROC-022.",
+            "[RAG: DOC1242] exact linked work-order narrative."
+          ],
+          "so_what": "If independent records corroborate the procedure gap, correcting it may reduce recurrence risk; the evidence here does not establish that effect."
+        },
+        "score": {
+          "pass_count": 6,
+          "check_count": 6,
+          "pass_rate_pct": 100.0,
+          "fact_coverage_pct": 100.0,
+          "insight": true,
+          "confidence": true,
+          "role_action": true,
+          "citations": true,
+          "healthy_execution": true
+        },
+        "expert_status": "pending",
+        "corpus_status": "locked_synthetic_demo_evidence",
+        "routes": {
+          "chat": "#/chat",
+          "rca": "#/rca/F1186",
+          "compliance": null
+        }
+      },
+      {
+        "id": "is1786_failure_pattern",
+        "question": "Across IS:1786 deviations, how many preceded a linked equipment failure within 30 days, which RCA cause dominated, and what should QA and Maintenance do?",
+        "role": "qa|maintenance",
+        "source_layers": [
+          "Graph"
+        ],
+        "ground_truth": "evaluation/compliance_validation_results.json:detail_pattern",
+        "model": "deterministic/evidence-template",
+        "sections": {
+          "direct": "15 of 171 failure-linked IS:1786 deviations preceded an equipment failure within 30 days (8.77%); the 95% Wilson interval is 5.39%\u201313.97%. The dominant linked RCA finding was Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits. (8 of 15 within-window cases).",
+          "insight": "This is a direct date-window pattern across a 171-record linked sample. **High confidence** in the computed association and sample counts, but the relationship is descriptive, not causal; the operational risk is a repeated quality-to-reliability signal that warrants joint review rather than a causal claim.",
+          "action": "Inspect the linked assets for the recorded mechanical-overstrain mechanism and verify corrective work before treating the pattern as closed.",
+          "sources": [
+            "[Graph: Deviation -> Coil -> Equipment -> Failure -> RCA, directional 30-day window] locked IS:1786 cohort and RCA counts."
+          ],
+          "so_what": "The bounded correlation prioritizes 15 concrete investigations without misstating an observed timing pattern as causation."
+        },
+        "score": {
+          "pass_count": 6,
+          "check_count": 6,
+          "pass_rate_pct": 100.0,
+          "fact_coverage_pct": 100.0,
+          "insight": true,
+          "confidence": true,
+          "role_action": true,
+          "citations": true,
+          "healthy_execution": true
+        },
+        "expert_status": "pending",
+        "corpus_status": "locked_synthetic_demo_evidence",
+        "routes": {
+          "chat": "#/chat",
+          "rca": null,
+          "compliance": "#/compliance/is-1786"
+        }
+      },
+      {
+        "id": "dev1050_full_chain",
+        "question": "Trace DEV1050 through its coil, equipment, failure, RCA, technician and failed standards, then give separate actions for QA and Maintenance.",
+        "role": "qa|maintenance",
+        "source_layers": [
+          "Graph"
+        ],
+        "ground_truth": "evaluation/compliance_validation_results.json:representative_chains[DEV1050] + ontology/nodes/{deviation,failure,rca,technician}.json",
+        "model": "deterministic/evidence-template",
+        "sections": {
+          "direct": "DEV1050 is linked through coil C10024 and equipment EQ-RMS-02 to failure F1128, RCA RCA1128, and technician T1004 (Shalini Naidu). Its failed-standard evidence is QT10089 against STD-IS1786-01; QT10154 against STD-IS1786-02. The failure mode was tool wear failure, and the RCA records Root cause was excessive tool wear: accumulated tool-wear minutes exceeded the qualified service life, degrading process capability and surface quality before scheduled replacement. Extended run time between changes was the main driver.",
+          "insight": "The deviation, production asset, failure, RCA, technician and test records form one exact linked chain. **High confidence** in the lineage; the operational implication is combined coil-release exposure and recurrence risk on EQ-RMS-02 if the tool-wear control is not verified.",
+          "action": "On EQ-RMS-02, confirm the recorded corrective action\u2014Replaced the worn tool and implemented tool-wear-based (rather than purely time-based) replacement scheduling.\u2014and review the next wear cycle.",
+          "sources": [
+            "[Graph: HAS_DEVIATION -> PRODUCED_AT -> EXPERIENCED -> DIAGNOSED_BY -> PERFORMED_BY] DEV1050 to T1004.",
+            "[Graph: TESTED_BY -> TESTED_AGAINST] QT10089/STD-IS1786-01 and QT10154/STD-IS1786-02."
+          ],
+          "so_what": "One traceable chain gives QA and Maintenance a shared, bounded response instead of two disconnected investigations."
+        },
+        "score": {
+          "pass_count": 6,
+          "check_count": 6,
+          "pass_rate_pct": 100.0,
+          "fact_coverage_pct": 100.0,
+          "insight": true,
+          "confidence": true,
+          "role_action": true,
+          "citations": true,
+          "healthy_execution": true
+        },
+        "expert_status": "pending",
+        "corpus_status": "locked_synthetic_demo_evidence",
+        "routes": {
+          "chat": "#/chat",
+          "rca": "#/rca/F1128",
+          "compliance": "#/compliance/is-1786"
+        }
+      },
+      {
+        "id": "f1186_causality_boundary",
+        "question": "Does the evidence prove that the PROC-022 gap caused F1186? Explain the evidence boundary and what Maintenance should do.",
+        "role": "maintenance",
+        "source_layers": [
+          "Graph",
+          "RAG"
+        ],
+        "ground_truth": "ontology/nodes/{failure,rca,document}.json:F1186/RCA1186/DOC1242 + data/unstructured/documents/DOC1242.md",
+        "model": "deterministic/evidence-template",
+        "sections": {
+          "direct": "No. The graph records an association between F1186, RCA1186 and the PROC-022 procedure finding, but that linked event record does not prove that the procedure gap caused the failure. The supporting work-order DOC1242 is explicitly marked synthetic; it is demonstration evidence, not an independently observed plant incident.",
+          "insight": "**Low confidence** for causal attribution because there is no control, counterfactual or independent event corroboration. Confidence is high only that the locked records contain the association. The operational risk is acting on a generated narrative as if it proved causality.",
+          "action": "Treat the PROC-022 gap as a hypothesis: verify the original shift log, cooling measurements and maintenance history, then document independent corroboration before changing the procedure or attributing recurrence.",
+          "sources": [
+            "[Graph: EXPERIENCED -> DIAGNOSED_BY; RCA.procedure_ref] F1186 -> RCA1186 -> PROC-022.",
+            "[RAG: DOC1242] generated work-order narrative, source_type=synthetic."
+          ],
+          "so_what": "Preserving the evidence boundary prevents a useful demo correlation from becoming an unsafe causal maintenance claim."
+        },
+        "score": {
+          "pass_count": 6,
+          "check_count": 6,
+          "pass_rate_pct": 100.0,
+          "fact_coverage_pct": 100.0,
+          "insight": true,
+          "confidence": true,
+          "role_action": true,
+          "citations": true,
+          "healthy_execution": true
+        },
+        "expert_status": "pending",
+        "corpus_status": "locked_synthetic_demo_evidence",
+        "routes": {
+          "chat": "#/chat",
+          "rca": "#/rca/F1186",
+          "compliance": null
+        }
+      }
+    ],
+    "all_cases": [
+      {
+        "id": "rhf_cooling_circuit_rca",
+        "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "coil_equipment_lineage",
+        "question": "Which equipment produced coil C10234, and what is the operational implication?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "is2062_scope_and_action",
+        "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "failed_coil_count",
+        "question": "How many coils failed quality testing?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "equipment_failure_rank",
+        "question": "Which equipment failed most this quarter?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "coating_fault_standard",
+        "question": "Which standard do coating faults violate?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "quality_deviation_rate",
+        "question": "What is the quality-test deviation rate?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "document_inventory",
+        "question": "How many documents are in the knowledge base?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "is1786_failure_pattern",
+        "question": "Across IS:1786 deviations, how many preceded a linked equipment failure within 30 days, which RCA cause dominated, and what should QA and Maintenance do?",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "dev1050_full_chain",
+        "question": "Trace DEV1050 through its coil, equipment, failure, RCA, technician and failed standards, then give separate actions for QA and Maintenance.",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      },
+      {
+        "id": "f1186_causality_boundary",
+        "question": "Does the evidence prove that the PROC-022 gap caused F1186? Explain the evidence boundary and what Maintenance should do.",
+        "pass_rate_pct": 100.0,
+        "expert_status": "pending"
+      }
+    ]
+  },
+  "graph": {
+    "node_total": 3797,
+    "edge_total": 6724,
+    "node_type_count": 11,
+    "relationship_type_count": 14,
+    "directed_schema_link_count": 17,
+    "node_counts": {
+      "Coil": 400,
+      "Deviation": 664,
+      "Document": 255,
+      "Equipment": 23,
+      "Failure": 200,
+      "Procedure": 31,
+      "QualityTest": 1941,
+      "RCA": 200,
+      "RawMaterial": 40,
+      "Standard": 18,
+      "Technician": 25
+    },
+    "relationship_counts": {
+      "DIAGNOSED_BY": 200,
+      "DOCUMENTED_IN": 226,
+      "EXPERIENCED": 200,
+      "FAILED_STANDARD": 644,
+      "FOLLOWS_PROCEDURE": 73,
+      "HAS_DEVIATION": 664,
+      "MADE_FROM": 778,
+      "MAINTAINED_BY": 48,
+      "PERFORMED_BY": 200,
+      "PRODUCED_AT": 400,
+      "REFERENCES_STANDARD": 38,
+      "TESTED_AGAINST": 1297,
+      "TESTED_BY": 1941,
+      "VERSION_OF": 15
+    },
+    "checks": {
+      "duplicate_nodes": 0,
+      "duplicate_edges": 0,
+      "broken_endpoints": 0,
+      "invalid_schema_edges": 0
+    },
+    "passed": true,
+    "live_parity": {
+      "benchmark": "live Neo4j parity with locked ontology",
+      "generated_at": "2026-07-13T07:34:29.357333+00:00",
+      "passed": true,
+      "checks": {
+        "node_total": true,
+        "relationship_total": true,
+        "node_counts": true,
+        "relationship_counts": true,
+        "id_integrity": true
+      },
+      "live": {
+        "node_total": 3797,
+        "relationship_total": 6724,
+        "node_counts": {
+          "Coil": 400,
+          "Deviation": 664,
+          "Document": 255,
+          "Equipment": 23,
+          "Failure": 200,
+          "Procedure": 31,
+          "QualityTest": 1941,
+          "RCA": 200,
+          "RawMaterial": 40,
+          "Standard": 18,
+          "Technician": 25
+        },
+        "relationship_counts": {
+          "DIAGNOSED_BY": 200,
+          "DOCUMENTED_IN": 226,
+          "EXPERIENCED": 200,
+          "FAILED_STANDARD": 644,
+          "FOLLOWS_PROCEDURE": 73,
+          "HAS_DEVIATION": 664,
+          "MADE_FROM": 778,
+          "MAINTAINED_BY": 48,
+          "PERFORMED_BY": 200,
+          "PRODUCED_AT": 400,
+          "REFERENCES_STANDARD": 38,
+          "TESTED_AGAINST": 1297,
+          "TESTED_BY": 1941,
+          "VERSION_OF": 15
+        },
+        "id_integrity": {
+          "Coil": {
+            "id_key": "coil_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Deviation": {
+            "id_key": "deviation_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Document": {
+            "id_key": "document_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Equipment": {
+            "id_key": "equipment_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Failure": {
+            "id_key": "failure_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Procedure": {
+            "id_key": "procedure_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "QualityTest": {
+            "id_key": "test_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "RCA": {
+            "id_key": "rca_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "RawMaterial": {
+            "id_key": "material_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Standard": {
+            "id_key": "standard_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          },
+          "Technician": {
+            "id_key": "technician_id",
+            "null_ids": 0,
+            "duplicate_ids": 0
+          }
+        }
+      },
+      "locked": {
+        "node_total": 3797,
+        "relationship_total": 6724,
+        "node_counts": {
+          "Coil": 400,
+          "Deviation": 664,
+          "Document": 255,
+          "Equipment": 23,
+          "Failure": 200,
+          "Procedure": 31,
+          "QualityTest": 1941,
+          "RCA": 200,
+          "RawMaterial": 40,
+          "Standard": 18,
+          "Technician": 25
+        },
+        "relationship_counts": {
+          "DIAGNOSED_BY": 200,
+          "DOCUMENTED_IN": 226,
+          "EXPERIENCED": 200,
+          "FAILED_STANDARD": 644,
+          "FOLLOWS_PROCEDURE": 73,
+          "HAS_DEVIATION": 664,
+          "MADE_FROM": 778,
+          "MAINTAINED_BY": 48,
+          "PERFORMED_BY": 200,
+          "PRODUCED_AT": 400,
+          "REFERENCES_STANDARD": 38,
+          "TESTED_AGAINST": 1297,
+          "TESTED_BY": 1941,
+          "VERSION_OF": 15
+        }
+      },
+      "scope_note": "Compares deployed totals, per-label/per-relationship counts and primary-ID uniqueness with the committed locked ontology; semantic property equality is outside this audit."
+    }
+  },
+  "latency": {
+    "measurement_surface": "authenticated Vercel chat UI",
+    "generated_at": "2026-07-12T08:00:51.0210716Z",
+    "sample_size": 3,
+    "cold_uncached": {
+      "n": 3,
+      "min_s": 0.05,
+      "median_s": 0.44,
+      "max_s": 7.66,
+      "mean_s": 2.72
+    },
+    "cached_repeat": {
+      "n": 3,
+      "min_s": 0.0,
+      "median_s": 0.0,
+      "max_s": 0.0,
+      "mean_s": 0.0
+    },
+    "cases": [
+      {
+        "id": "deep_rca",
+        "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
+        "total_s": 7.66,
+        "routing_s": 0.01,
+        "retrieval_s": 7.65,
+        "synthesis_s": 0.0,
+        "cached_repeat_s": 0.0,
+        "layers": [
+          "graph",
+          "documents"
+        ],
+        "model": "deterministic/evidence-template"
+      },
+      {
+        "id": "simple_graph",
+        "question": "Which equipment produced coil C10234, and what is the operational implication?",
+        "total_s": 0.44,
+        "routing_s": 0.0,
+        "retrieval_s": 0.44,
+        "synthesis_s": 0.0,
+        "cached_repeat_s": 0.0,
+        "layers": [
+          "graph"
+        ],
+        "model": "deterministic/evidence-template"
+      },
+      {
+        "id": "document_qa",
+        "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
+        "total_s": 0.05,
+        "routing_s": 0.0,
+        "retrieval_s": 0.05,
+        "synthesis_s": 0.0,
+        "cached_repeat_s": 0.0,
+        "layers": [
+          "documents"
+        ],
+        "model": "deterministic/evidence-template"
+      }
+    ],
+    "scope_note": "Server-reported timing covers routing, retrieval and synthesis. It excludes browser rendering and public-network transit. Small n=3 operational check; not a controlled comparison with manual work or web search.",
+    "fast_path": {
+      "case_count": 5,
+      "passed": true,
+      "max_total_s": 0.12,
+      "cases": [
+        {
+          "question": "How many coils failed quality testing?",
+          "model_used": "deterministic/evidence-template",
+          "latency": {
+            "routing_s": 0.08,
+            "retrieval_s": 0.04,
+            "synthesis_s": 0.0,
+            "total_s": 0.12,
+            "cache_hit": false
+          },
+          "citation_count": 1,
+          "passed": true
+        },
+        {
+          "question": "Which equipment failed most this quarter?",
+          "model_used": "deterministic/evidence-template",
+          "latency": {
+            "routing_s": 0.0,
+            "retrieval_s": 0.02,
+            "synthesis_s": 0.0,
+            "total_s": 0.02,
+            "cache_hit": false
+          },
+          "citation_count": 1,
+          "passed": true
+        },
+        {
+          "question": "Which standard do coating faults violate?",
+          "model_used": "deterministic/evidence-template",
+          "latency": {
+            "routing_s": 0.0,
+            "retrieval_s": 0.02,
+            "synthesis_s": 0.0,
+            "total_s": 0.02,
+            "cache_hit": false
+          },
+          "citation_count": 1,
+          "passed": true
+        },
+        {
+          "question": "What is the quality-test deviation rate?",
+          "model_used": "deterministic/evidence-template",
+          "latency": {
+            "routing_s": 0.0,
+            "retrieval_s": 0.01,
+            "synthesis_s": 0.0,
+            "total_s": 0.01,
+            "cache_hit": false
+          },
+          "citation_count": 1,
+          "passed": true
+        },
+        {
+          "question": "How many documents are in the knowledge base?",
+          "model_used": "deterministic/evidence-template",
+          "latency": {
+            "routing_s": 0.0,
+            "retrieval_s": 0.0,
+            "synthesis_s": 0.0,
+            "total_s": 0.0,
+            "cache_hit": false
+          },
+          "citation_count": 1,
+          "passed": true
+        }
+      ],
+      "scope_note": "Local direct structured/ontology retrieval; public network latency and expert review are separate gates."
+    }
+  },
+  "compliance": {
+    "window_days": 30,
+    "patterns": {
+      "IS:2062": {
+        "deviation_cohort_n": 222,
+        "failure_linked_n": 93,
+        "preceded_failure_within_30d_n": 8,
+        "preceded_failure_rate_among_linked": 0.086,
+        "preceded_failure_rate_95pct_wilson": [
+          0.0442,
+          0.1607
+        ],
+        "followed_failure_within_30d_n": 59,
+        "failure_preceded_deviation_rate_among_linked": 0.6344,
+        "failure_preceded_deviation_rate_95pct_wilson": [
+          0.533,
+          0.7251
+        ],
+        "confidence": "medium"
+      },
+      "ASTM A370": {
+        "deviation_cohort_n": 254,
+        "failure_linked_n": 107,
+        "preceded_failure_within_30d_n": 11,
+        "preceded_failure_rate_among_linked": 0.1028,
+        "preceded_failure_rate_95pct_wilson": [
+          0.0584,
+          0.1748
+        ],
+        "followed_failure_within_30d_n": 68,
+        "failure_preceded_deviation_rate_among_linked": 0.6355,
+        "failure_preceded_deviation_rate_95pct_wilson": [
+          0.5411,
+          0.7205
+        ],
+        "confidence": "high"
+      },
+      "IS:1786": {
+        "deviation_cohort_n": 338,
+        "failure_linked_n": 171,
+        "preceded_failure_within_30d_n": 15,
+        "preceded_failure_rate_among_linked": 0.0877,
+        "preceded_failure_rate_95pct_wilson": [
+          0.0539,
+          0.1397
+        ],
+        "followed_failure_within_30d_n": 115,
+        "failure_preceded_deviation_rate_among_linked": 0.6725,
+        "failure_preceded_deviation_rate_95pct_wilson": [
+          0.5991,
+          0.7384
+        ],
+        "confidence": "high"
+      }
+    },
+    "accuracy": {
+      "n": 30,
+      "true_positive": 15,
+      "false_positive": 0,
+      "true_negative": 15,
+      "false_negative": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "specificity": 1.0
+    },
+    "accuracy_scope": "Temporal linkage classification only; labels do not assert that a deviation caused a failure.",
+    "is1786": {
+      "deviation_cohort_n": 338,
+      "failure_linked_n": 171,
+      "downstream_n": 15,
+      "rate_among_linked_pct": 8.77,
+      "rate_full_cohort_pct": 4.44,
+      "wilson_95pct": [
+        5.39,
+        13.97
+      ],
+      "confidence": "high",
+      "top_root_cause": "Root cause identified as mechanical overstrain: the product of tool wear and applied torque exceeded the overstrain threshold for the material variant being processed. Worn tooling combined with high torque demand drove the strain beyond safe limits.",
+      "top_root_cause_n": 8
+    }
+  },
+  "provenance": {
+    "real_csv_file_count": 17,
+    "unique_real_payload_count": 16,
+    "document_source_labels": {
+      "unlabelled": 67,
+      "synthetic": 188
+    },
+    "datasets": [
+      {
+        "name": "Steel Plates Faults",
+        "status": "locally_designated_real_source",
+        "rows": 1941,
+        "used_as": "QualityTest.feature_values and QualityTest.fault_type",
+        "note": "The repository does not pin an upstream URL, citation, license or expected source hash for this local file; external origin is not independently verified by this audit."
+      },
+      {
+        "name": "Steel Industry Energy Consumption",
+        "status": "locally_designated_real_source",
+        "rows": 35040,
+        "used_as": "SCADA energy/consumption reference data",
+        "note": "The two local files have identical content and must count as one dataset, not two. The repository does not pin an upstream URL, citation, license or expected source hash; external origin is not independently verified by this audit."
+      },
+      {
+        "name": "AI4I 2020 Predictive Maintenance",
+        "status": "official_synthetic_reference",
+        "rows": 10000,
+        "machine_failures": 339,
+        "doi": "10.24432/C5HS5C",
+        "license": "CC BY 4.0",
+        "used_as": "SCADA predictive-maintenance sensor/failure reference table; explicitly synthetic."
+      }
+    ]
+  },
+  "artifacts": [
     {
-      "id": "rhf_cooling_circuit_rca",
-      "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Canonical ID benchmark",
+      "file": "evaluation/entity_extraction_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/entity_extraction_results.json",
+      "status": "scoped_verified",
+      "scope": "25-document explicit-ID resolution"
     },
     {
-      "id": "coil_equipment_lineage",
-      "question": "Which equipment produced coil C10234, and what is the operational implication?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Production ID runtime contract",
+      "file": "evaluation/canonical_id_runtime_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/canonical_id_runtime_results.json",
+      "status": "verified",
+      "scope": "All 11 ontology ID types and stale-ID rejection"
     },
     {
-      "id": "is2062_scope_and_action",
-      "question": "What does IS 2062 cover, what risk does non-compliance create, and what should QA verify?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Locked extraction labels",
+      "file": "evaluation/entity_extraction_gold.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/entity_extraction_gold.json",
+      "status": "method_gap",
+      "scope": "Ontology-assisted manifest; no inter-annotator agreement record"
     },
     {
-      "id": "failed_coil_count",
-      "question": "How many coils failed quality testing?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Graph integrity audit",
+      "file": "evaluation/graph_completeness_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/graph_completeness_results.json",
+      "status": "scoped_verified",
+      "scope": "Locked local ontology structural integrity"
     },
     {
-      "id": "equipment_failure_rank",
-      "question": "Which equipment failed most this quarter?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Live graph parity",
+      "file": "evaluation/live_graph_parity_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/live_graph_parity_results.json",
+      "status": "scoped_verified",
+      "scope": "Deployed totals, distributions and primary-ID integrity"
     },
     {
-      "id": "coating_fault_standard",
-      "question": "Which standard do coating faults violate?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Answer regression",
+      "file": "evaluation/answer_quality_regression_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/answer_quality_regression_results.json",
+      "status": "partial",
+      "scope": "Offline deterministic evidence contract"
     },
     {
-      "id": "quality_deviation_rate",
-      "question": "What is the quality-test deviation rate?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Expert scorecard",
+      "file": "evaluation/domain_expert_scorecard.md",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/domain_expert_scorecard.md",
+      "status": "pending",
+      "scope": "Requires an independent domain reviewer"
     },
     {
-      "id": "document_inventory",
-      "question": "How many documents are in the knowledge base?",
-      "pass_rate": 1.0,
-      "expert_status": "pending"
+      "label": "Compliance pattern cohort",
+      "file": "evaluation/compliance_failure_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/compliance_failure_results.json",
+      "status": "scoped_verified",
+      "scope": "30-day directional timing with denominators and intervals"
+    },
+    {
+      "label": "Compliance correlation",
+      "file": "evaluation/compliance_validation_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/compliance_validation_results.json",
+      "status": "scoped_verified",
+      "scope": "Direct Cypher and 30-day directional timing"
+    },
+    {
+      "label": "Compliance temporal-rule test",
+      "file": "evaluation/compliance_detection_accuracy_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/compliance_detection_accuracy_results.json",
+      "status": "scoped_verified",
+      "scope": "Balanced n=30 locked time-window labels"
+    },
+    {
+      "label": "Production latency",
+      "file": "evaluation/latency_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/latency_results.json",
+      "status": "partial",
+      "scope": "Server timing n=3; no manual comparison"
+    },
+    {
+      "label": "Deterministic fast paths",
+      "file": "evaluation/deterministic_fastpath_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/deterministic_fastpath_results.json",
+      "status": "scoped_verified",
+      "scope": "Five local cited routine-answer contracts"
+    },
+    {
+      "label": "Data provenance",
+      "file": "evaluation/data_provenance_results.json",
+      "url": "https://github.com/manendra-chintalapudi/Synapse/blob/main/evaluation/data_provenance_results.json",
+      "status": "partial",
+      "scope": "Named source audit and synthetic-reference disclosure"
     }
   ]
 }

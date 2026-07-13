@@ -69,19 +69,22 @@ def run() -> dict:
         "files": inventory,
         "named_dataset_claims": {
             "Steel Plates Faults": {
-                "status": "present_real_source",
+                "status": "present_locally_designated_real_source",
                 "path": "data/qms/real_data/steel_plates_faults.csv",
                 "rows": next(item["rows"] for item in inventory if item["path"].endswith("steel_plates_faults.csv")),
                 "used_as": "QualityTest.feature_values and QualityTest.fault_type",
+                "external_provenance_verified": False,
+                "provenance_note": "The repository does not pin an upstream URL, citation, license or expected source hash for this local file; external origin is not independently verified by this audit.",
             },
             "Steel Industry Energy Consumption": {
-                "status": "present_real_source",
+                "status": "present_locally_designated_real_source",
                 "paths": [
                     "data/scada/real_data/steel_energy_consumption.csv",
                     "data/scada/real_data/steel_industry_data.csv",
                 ],
-                "note": "The two files have identical content and must count as one dataset, not two.",
+                "note": "The two local files have identical content and must count as one dataset, not two. The repository does not pin an upstream URL, citation, license or expected source hash; external origin is not independently verified by this audit.",
                 "used_as": "SCADA energy/consumption reference data",
+                "external_provenance_verified": False,
             },
             "AI4I 2020 Predictive Maintenance": {
                 "status": "present_official_synthetic_reference" if ai4i_ingested else "not_ingested",
@@ -100,6 +103,9 @@ def run() -> dict:
         "document_claim_note": (
             "Documents without an explicit source_type must not automatically be called real industrial documents. "
             "The 188 work-order narratives labelled synthetic are explicitly synthetic."
+        ),
+        "real_source_scope_note": (
+            "Files under real_data are locally designated real-source inputs. This inventory verifies local content, row counts and hashes only; it does not independently establish upstream provenance without pinned source metadata."
         ),
         "passed": ai4i_ingested,
     }

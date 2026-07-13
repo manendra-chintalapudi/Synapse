@@ -1,0 +1,29 @@
+{
+  "benchmark": "evaluation dashboard source fidelity",
+  "generated_at": "2026-07-13T07:43:22.913777+00:00",
+  "passed": true,
+  "checks": {
+    "schema_version": true,
+    "six_criteria": true,
+    "headline_status_counts": true,
+    "entity_and_runtime": true,
+    "graph_structural_scope": true,
+    "answer_scope": true,
+    "answer_showcase_source_fidelity": true,
+    "latency_and_fast_path": true,
+    "compliance_scope": true,
+    "card_source_claims": true,
+    "provenance_scope": true,
+    "artifact_coverage": true
+  },
+  "prohibited_claims_present": {
+    "domain-expert validated": false,
+    "17 relationship types": false,
+    "7 systems": false,
+    "validated on real plant documents": false,
+    "real plant document benchmark": false,
+    "real-source industrial datasets": false,
+    "hours saved": false
+  },
+  "scope_note": "This validates committed dashboard claims against every consumed evidence artifact; it does not replace external expert review, upstream source verification or a user study."
+}

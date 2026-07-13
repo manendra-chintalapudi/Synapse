@@ -1,8 +1,8 @@
 {
   "benchmark": "30-day compliance-to-failure temporal linkage detection",
   "gold_file": "evaluation/compliance_detection_gold.json",
-  "gold_sha256": "c9672532bd045987443d53755b9074664c58f5c8789d479b4da49a15cdf5e79b",
-  "annotation_method": "Balanced reviewer-labelled sample using recorded deviation and failure dates; label is directional deviation-before-failure within 0..30 days.",
+  "gold_sha256": "6e7df5abeabf48582571bc3e89908ab4c0610957ecac48ce11fa3f6de2f7d311",
+  "annotation_method": "Balanced locked date-labelled sample using recorded deviation and failure dates; label is the deterministic directional rule deviation-before-failure within 0..30 days. Independent reviewer identity and annotation-agreement metadata are not available.",
   "overall": {
     "n": 30,
     "true_positive": 15,

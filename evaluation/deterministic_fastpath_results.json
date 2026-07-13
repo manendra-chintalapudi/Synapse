@@ -1,18 +1,18 @@
 {
   "benchmark": "routine deterministic fast paths",
-  "generated_at": "2026-07-12T18:44:56.574816+00:00",
+  "generated_at": "2026-07-12T20:36:10.456216+00:00",
   "case_count": 5,
   "passed": true,
-  "max_total_s": 0.07,
+  "max_total_s": 0.12,
   "cases": [
     {
       "question": "How many coils failed quality testing?",
       "model_used": "deterministic/evidence-template",
       "latency": {
-        "routing_s": 0.02,
-        "retrieval_s": 0.05,
+        "routing_s": 0.08,
+        "retrieval_s": 0.04,
         "synthesis_s": 0.0,
-        "total_s": 0.07,
+        "total_s": 0.12,
         "cache_hit": false
       },
       "citation_count": 1,
@@ -23,9 +23,9 @@
       "model_used": "deterministic/evidence-template",
       "latency": {
         "routing_s": 0.0,
-        "retrieval_s": 0.01,
+        "retrieval_s": 0.02,
         "synthesis_s": 0.0,
-        "total_s": 0.01,
+        "total_s": 0.02,
         "cache_hit": false
       },
       "citation_count": 1,
@@ -36,9 +36,9 @@
       "model_used": "deterministic/evidence-template",
       "latency": {
         "routing_s": 0.0,
-        "retrieval_s": 0.01,
+        "retrieval_s": 0.02,
         "synthesis_s": 0.0,
-        "total_s": 0.01,
+        "total_s": 0.02,
         "cache_hit": false
       },
       "citation_count": 1,

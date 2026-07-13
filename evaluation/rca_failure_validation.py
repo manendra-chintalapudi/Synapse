@@ -100,3 +100,4 @@ if __name__ == "__main__":
         "failure_ids": result["failure_ids"],
         "passed": result["passed"],
     }, indent=2))
+    raise SystemExit(0 if result["passed"] else 1)

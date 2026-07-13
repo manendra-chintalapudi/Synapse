@@ -1,5 +1,5 @@
 {
-  "annotation_method": "Balanced reviewer-labelled sample using recorded deviation and failure dates; label is directional deviation-before-failure within 0..30 days.",
+  "annotation_method": "Balanced locked date-labelled sample using recorded deviation and failure dates; label is the deterministic directional rule deviation-before-failure within 0..30 days. Independent reviewer identity and annotation-agreement metadata are not available.",
   "scope": "Temporal linkage classification only; labels do not assert that a deviation caused a failure.",
   "events": [
     {"standard_family":"IS:2062","deviation_id":"DEV1051","failure_id":"F1019","date_flagged":"2026-02-27","failure_date":"2026-03-03","within_30d":true},

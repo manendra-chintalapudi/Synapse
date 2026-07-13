@@ -22,9 +22,21 @@ CASES = [
         "id": "rhf_cooling_circuit_rca",
         "question": "What caused failure F1186, what procedure gap contributed, and what should Maintenance do next?",
         "expected_fact_patterns": [
-            r"F1186", r"RCA1186", r"EQ-RHF-01|Reheating Furnace #?1",
-            r"insufficient heat dissipation|cooling (?:airflow|flow)", r"PROC-022",
-            r"cooling/lubrication verification|Step 4", r"temperature-differential alarm|restored cooling circuit",
+            # Keep this causal-safety case binary: it cannot pass after retaining the
+            # identifiers and action while dropping the synthetic-data disclosure,
+            # confidence split, non-causal boundary, or conditional benefit language.
+            r"(?=[\s\S]*F1186)(?=[\s\S]*RCA1186)"
+            r"(?=[\s\S]*(?:EQ-RHF-01|Reheating Furnace #?1))"
+            r"(?=[\s\S]*(?:insufficient heat dissipation|cooling (?:airflow|flow)))"
+            r"(?=[\s\S]*PROC-022)(?=[\s\S]*(?:cooling/lubrication verification|Step 4))"
+            r"(?=[\s\S]*(?:temperature-differential alarm|restored cooling circuit))"
+            r"(?=[\s\S]*(?:synthetic|demo))"
+            r"(?=[\s\S]*[Hh]igh confidence[^\n]*(?:record|lineage))"
+            r"(?=[\s\S]*[Ll]ow confidence[^\n]*causal)"
+            r"(?=[\s\S]*does not prove[^\n]*caus)"
+            r"(?=[\s\S]*procedure gap[^\n]*hypothesis)"
+            r"(?=[\s\S]*independent(?:ly)?[^\n]*corroborat)"
+            r"(?=[\s\S]*may reduce)",
         ],
         "expected_source_layers": ["Graph", "RAG"],
         "expected_role": "maintenance",

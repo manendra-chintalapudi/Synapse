@@ -127,14 +127,14 @@
   },
   {
     "procedure_id": "PROC-022",
-    "title": "Electric Arc Furnace Shutdown Procedure",
-    "steps_text": "Reduce load on the electric arc furnace gradually and stop feeding new material into the line. Allow residual stock to clear before de-energising the main drive. Isolate power and apply lockout-tagout, then bleed hydraulic and pneumatic pressure to zero. Record final temperatures and any anomalies in the shift log.",
+    "title": "Reheating Furnace Shutdown Procedure",
+    "steps_text": "Stop billet charging and reduce firing on the reheating furnace in a controlled sequence. Allow billets to clear and complete the prescribed controlled cool-down. Isolate fuel, combustion air, electrical power and cooling circuits under lockout-tagout. Record final temperatures and any anomalies in the shift log.",
     "equipment_ref": "EQ-RHF-01"
   },
   {
     "procedure_id": "PROC-023",
-    "title": "Electric Arc Furnace Startup Procedure",
-    "steps_text": "Confirm all interlocks and emergency stops on the electric arc furnace are healthy before energising. Verify lubrication, coolant and hydraulic pressures are within the specified operating band. Ramp the drive to idle speed and hold while checking for abnormal vibration or noise. Only release to production once temperatures and pressures have stabilised and the shift supervisor has signed off.",
+    "title": "Reheating Furnace Startup Procedure",
+    "steps_text": "Confirm all reheating-furnace interlocks, flame safeguards and emergency stops are healthy before ignition. Verify fuel, combustion-air and cooling-water flow and pressure are within the specified operating band. Complete the purge and ignition sequence, then ramp zone temperatures while checking refractory and skid-cooling conditions. Release to production only after soak-zone temperatures are stable and the shift supervisor has signed off.",
     "equipment_ref": "EQ-RHF-01"
   },
   {

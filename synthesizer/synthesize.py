@@ -304,21 +304,35 @@ def _deterministic_evidence_answer(question, graph_results, document_results, st
             root_cause = re.sub(r"^root cause traced to\s*", "", root_cause, flags=re.I)
             failure_label = str(failure.get("failure_mode") or "failure").replace("_", " ")
             exact_doc = next((doc for doc in documents if fid in doc.get("text", "")), None)
-            confidence = calibrate_confidence(
+            lineage_confidence = calibrate_confidence(
                 direct_chain=True,
                 corroborating_sources=2 if exact_doc else 1,
             )["level"].title()
+            exact_doc_text = str(exact_doc.get("text") or "") if exact_doc else ""
+            synthetic_disclosure = (
+                " The linked work-order narrative is explicitly synthetic/demo evidence, not "
+                "an independently observed plant incident."
+                if re.search(r"\bsynthetic\b", exact_doc_text, re.I)
+                else ""
+            )
             rag_line = f"\n- [RAG: {exact_doc['document_id']}] exact linked work-order narrative." if exact_doc else ""
             answer = (
-                f"**Direct answer:** {fid} on {equipment_name} ({equipment_id}) was diagnosed by {rid}. "
-                f"The recorded root cause was {root_cause} The linked procedure finding was {procedure}: {violated}\n\n"
+                f"**Direct answer:** {fid} on {equipment_name} ({equipment_id}) has the recorded "
+                f"diagnosis {rid}: {root_cause} The records associate that event with the "
+                f"{procedure} procedure finding: {violated} This linked record does not prove "
+                "that the procedure gap caused the failure.\n\n"
                 f"**Insight:** The failure, RCA, procedure finding and corrective work are linked by exact IDs across the audited graph"
-                f"{' and its work-order document' if exact_doc else ''}. **{confidence} confidence**: this is a direct event chain, not a statistical inference. "
-                f"The operational risk is recurrence of the same {failure_label} if the recorded procedure gap remains open.\n\n"
-                f"**Recommended action for Maintenance:** The recorded corrective work was: {corrective} Confirm that this work and the cited {procedure} step are complete and documented, "
-                f"validate the repair under normal load, and review the next operating cycle before returning the asset to unrestricted service.\n\n"
+                f"{' and its work-order document' if exact_doc else ''}. **{lineage_confidence} confidence in the record lineage and recorded fields only.** "
+                "**Low confidence for causal attribution**: one associated event chain has no "
+                f"control, counterfactual, or independent incident corroboration.{synthetic_disclosure} "
+                f"The operational risk is treating a recorded association as proof about the {failure_label}.\n\n"
+                f"**Recommended action for Maintenance:** Treat the recorded {procedure} procedure gap as a hypothesis. "
+                "Verify the original shift log, cooling-airflow and coolant-flow measurements, and maintenance history independently. "
+                f"The recorded corrective work was: {corrective} Confirm and validate that work under normal load, "
+                "but do not attribute recurrence or change the procedure until independent evidence corroborates the mechanism.\n\n"
                 f"**Sources used:**\n- [Graph: EXPERIENCED -> DIAGNOSED_BY; RCA.procedure_ref -> Procedure] {fid}, {rid}, {procedure}.{rag_line}\n\n"
-                f"**So what:** Closing the recorded procedure gap reduces repeat downtime and makes the repair auditable."
+                "**So what:** If independent records corroborate the procedure gap, correcting it may reduce recurrence risk; "
+                "the evidence here does not establish that effect."
             )
             return answer
 

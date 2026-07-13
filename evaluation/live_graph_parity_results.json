@@ -1,0 +1,136 @@
+{
+  "benchmark": "live Neo4j parity with locked ontology",
+  "generated_at": "2026-07-13T07:34:29.357333+00:00",
+  "passed": true,
+  "checks": {
+    "node_total": true,
+    "relationship_total": true,
+    "node_counts": true,
+    "relationship_counts": true,
+    "id_integrity": true
+  },
+  "live": {
+    "node_total": 3797,
+    "relationship_total": 6724,
+    "node_counts": {
+      "Coil": 400,
+      "Deviation": 664,
+      "Document": 255,
+      "Equipment": 23,
+      "Failure": 200,
+      "Procedure": 31,
+      "QualityTest": 1941,
+      "RCA": 200,
+      "RawMaterial": 40,
+      "Standard": 18,
+      "Technician": 25
+    },
+    "relationship_counts": {
+      "DIAGNOSED_BY": 200,
+      "DOCUMENTED_IN": 226,
+      "EXPERIENCED": 200,
+      "FAILED_STANDARD": 644,
+      "FOLLOWS_PROCEDURE": 73,
+      "HAS_DEVIATION": 664,
+      "MADE_FROM": 778,
+      "MAINTAINED_BY": 48,
+      "PERFORMED_BY": 200,
+      "PRODUCED_AT": 400,
+      "REFERENCES_STANDARD": 38,
+      "TESTED_AGAINST": 1297,
+      "TESTED_BY": 1941,
+      "VERSION_OF": 15
+    },
+    "id_integrity": {
+      "Coil": {
+        "id_key": "coil_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Deviation": {
+        "id_key": "deviation_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Document": {
+        "id_key": "document_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Equipment": {
+        "id_key": "equipment_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Failure": {
+        "id_key": "failure_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Procedure": {
+        "id_key": "procedure_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "QualityTest": {
+        "id_key": "test_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "RCA": {
+        "id_key": "rca_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "RawMaterial": {
+        "id_key": "material_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Standard": {
+        "id_key": "standard_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      },
+      "Technician": {
+        "id_key": "technician_id",
+        "null_ids": 0,
+        "duplicate_ids": 0
+      }
+    }
+  },
+  "locked": {
+    "node_total": 3797,
+    "relationship_total": 6724,
+    "node_counts": {
+      "Coil": 400,
+      "Deviation": 664,
+      "Document": 255,
+      "Equipment": 23,
+      "Failure": 200,
+      "Procedure": 31,
+      "QualityTest": 1941,
+      "RCA": 200,
+      "RawMaterial": 40,
+      "Standard": 18,
+      "Technician": 25
+    },
+    "relationship_counts": {
+      "DIAGNOSED_BY": 200,
+      "DOCUMENTED_IN": 226,
+      "EXPERIENCED": 200,
+      "FAILED_STANDARD": 644,
+      "FOLLOWS_PROCEDURE": 73,
+      "HAS_DEVIATION": 664,
+      "MADE_FROM": 778,
+      "MAINTAINED_BY": 48,
+      "PERFORMED_BY": 200,
+      "PRODUCED_AT": 400,
+      "REFERENCES_STANDARD": 38,
+      "TESTED_AGAINST": 1297,
+      "TESTED_BY": 1941,
+      "VERSION_OF": 15
+    }
+  },
+  "scope_note": "Compares deployed totals, per-label/per-relationship counts and primary-ID uniqueness with the committed locked ontology; semantic property equality is outside this audit."
+}

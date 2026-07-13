@@ -1,4 +1,4 @@
-"""Evaluate 30-day temporal compliance-gap linkage against locked reviewer labels."""
+"""Evaluate 30-day temporal compliance-gap linkage against locked date-rule labels."""
 from __future__ import annotations
 
 import hashlib

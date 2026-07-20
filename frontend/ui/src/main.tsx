@@ -3,7 +3,7 @@ import { createRoot, type Root } from "react-dom/client";
 import { Toaster } from "sonner";
 import "./styles.css";
 
-type PillarRoute = "rca" | "compliance" | "admin";
+type PillarRoute = "rca" | "compliance" | "admin" | "knowledge-transfer";
 const roots = new Map<PillarRoute, Root>();
 let toasterRoot: Root | null = null;
 
@@ -35,8 +35,11 @@ export async function mount(route: PillarRoute) {
   } else if (route === "compliance") {
     const Component = (await import("./ComplianceApp")).default;
     content = <Component key={selection || "compliance-list"} initialFamilyId={selection || undefined} />;
-  } else {
+  } else if (route === "admin") {
     const Component = (await import("./EvaluationApp")).default;
+    content = <Component />;
+  } else {
+    const Component = (await import("./KnowledgeTransferApp")).default;
     content = <Component />;
   }
   let root = roots.get(route);

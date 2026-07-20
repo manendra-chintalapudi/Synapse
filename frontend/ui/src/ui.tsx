@@ -13,7 +13,7 @@ declare global {
     synapseGetAccessToken?: () => Promise<string>;
     synapseRefreshAccessToken?: () => Promise<string>;
     SynapsePillars?: {
-      mount: (route: "rca" | "compliance" | "admin") => Promise<void>;
+      mount: (route: "rca" | "compliance" | "admin" | "knowledge-transfer") => Promise<void>;
       openFailure: (failureId: string) => void;
       openStandard: (familyId: string) => void;
     };
@@ -62,6 +62,35 @@ export async function apiFetch<T>(path: string): Promise<T> {
   if (!response.ok) {
     const detail = payload && typeof payload === "object" && "detail" in payload
       ? String((payload as { detail: unknown }).detail)
+      : `HTTP ${response.status}`;
+    throw new Error(detail);
+  }
+  return payload as T;
+}
+
+export async function apiPost<T>(path: string, body: unknown): Promise<T> {
+  let token = await accessToken();
+  if (!token) throw new Error("Your signed-in session is not ready. Refresh or sign in again.");
+  const base = (window.SYNAPSE_API_URL || window.location.origin).replace(/\/+$/, "");
+  const request = (value: string) => fetch(`${base}${path}`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${value}`, "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  let response = await request(token);
+  if (response.status === 401 && window.synapseRefreshAccessToken) {
+    token = await window.synapseRefreshAccessToken();
+    if (token) response = await request(token);
+  }
+  let payload: unknown;
+  try {
+    payload = await response.json();
+  } catch {
+    throw new Error(`Invalid server response (${response.status})`);
+  }
+  if (!response.ok) {
+    const detail = payload && typeof payload === "object"
+      ? String("detail" in payload ? (payload as { detail: unknown }).detail : "error" in payload ? (payload as { error: unknown }).error : `HTTP ${response.status}`)
       : `HTTP ${response.status}`;
     throw new Error(detail);
   }

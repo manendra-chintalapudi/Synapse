@@ -702,6 +702,7 @@
       <a href="#/graph" data-route="graph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="5" cy="6" r="2.4"/><circle cx="19" cy="6" r="2.4"/><circle cx="12" cy="18" r="2.4"/><path d="M7 7.4l3.6 8M17 7.4l-3.6 8M7.4 6h9.2"/></svg>Knowledge Graph</a>
       <a href="#/rca" data-route="rca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="10" cy="10" r="6.5"/><path d="M20.5 20.5L15 15M10 7v3.4l2.2 2.2"/></svg>RCA &amp; Failures</a>
       <a href="#/compliance" data-route="compliance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 3.5v5.7c0 5-3.4 8.6-8 10.8-4.6-2.2-8-5.8-8-10.8V5.5z"/><path d="M9 12l2 2 4-4.5"/></svg>Compliance</a>
+      <a href="#/knowledge-transfer" data-route="knowledge-transfer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v16h4.5a2.5 2.5 0 0 1 2.5 2.5z"/></svg>Knowledge Transfer</a>
       <a href="#/admin" data-route="admin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3.1"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>Evaluation Lab</a>
       <a href="#/logs" data-route="logs" data-roles="admin,ops"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M5 4h14v16H5zM9 8h6M9 12h6M9 16h4"/></svg>System Logs</a>
       <a href="#/history" data-route="history"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>History</a>
@@ -838,6 +839,10 @@
       <div id="compliance-react-root" class="synapse-pillars-root"><div class="sp-boot-state">Loading the Compliance workspace…</div></div>
     </section>
 
+    <section class="page" id="page-knowledge-transfer">
+      <div id="knowledge-transfer-react-root" class="synapse-pillars-root"><div class="sp-boot-state">Loading the Knowledge Transfer interview...</div></div>
+    </section>
+
     <section class="page" id="page-admin">
       <div id="admin-react-root" class="synapse-pillars-root"><div class="sp-boot-state">Loading the Evaluation Lab…</div></div>
     </section>
@@ -954,7 +959,7 @@ window.addEventListener("synapse-auth-ready", event => {
 });
 
 /* ---------------- hash router ---------------- */
-const ROUTES = ["chat","graph","rca","compliance","admin","logs","history"];
+const ROUTES = ["chat","graph","rca","compliance","knowledge-transfer","admin","logs","history"];
 let route = "chat";
 function go(r){ location.hash = "#/" + r; }
 /* ---------------- RCA & Failures: direct Neo4j browsing ---------------- */
@@ -1144,7 +1149,7 @@ function applyRoute(){
     a.classList.toggle("active",current);
     if(current)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current");
   });
-  const routeTitles={chat:"Chat",history:"History",graph:"Knowledge Graph",rca:"RCA & Failures",compliance:"Compliance",admin:"Evaluation Lab"};
+  const routeTitles={chat:"Chat",history:"History",graph:"Knowledge Graph",rca:"RCA & Failures",compliance:"Compliance","knowledge-transfer":"Knowledge Transfer",admin:"Evaluation Lab"};
   document.title=`${routeTitles[route]||"Synapse"} — Synapse`;
   const activePage=document.getElementById("page-"+route),heading=activePage?.querySelector("h1,h2");
   if(heading){heading.setAttribute("tabindex","-1");requestAnimationFrame(()=>heading.focus({preventScroll:true}));}
@@ -1939,7 +1944,7 @@ if (location.hash.replace("#/","") === "graph") initKG();
   let pillarsModule;
   async function loadPillarUI(){
     const pillarRoute=(location.hash.replace(/^#\//,"").split("/")[0]);
-    if(pillarRoute!=="rca"&&pillarRoute!=="compliance"&&pillarRoute!=="admin")return;
+    if(pillarRoute!=="rca"&&pillarRoute!=="compliance"&&pillarRoute!=="admin"&&pillarRoute!=="knowledge-transfer")return;
     if(!document.querySelector('link[data-synapse-pillars]')){
       const css=document.createElement("link");css.rel="stylesheet";css.href="ui-dist/synapse-pillars.css";css.dataset.synapsePillars="true";document.head.appendChild(css);
     }

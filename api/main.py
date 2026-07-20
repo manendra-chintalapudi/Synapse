@@ -30,11 +30,12 @@ from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from pipeline import ask_synapse, warm_up
 from api.auth import Identity, require_user
 from api.compliance_store import get_standard_detail, get_summary as get_compliance_summary
+from api.knowledge_transfer import extract_knowledge_cards, next_interview_turn
 from api.rca_store import get_failure_detail, get_failures, get_summary
 
 FRONTEND = SYNAPSE_ROOT / "frontend"
@@ -76,6 +77,22 @@ class AskRequest(BaseModel):
     question: str
 
 
+class InterviewEntry(BaseModel):
+    question: str
+    answer: str
+
+
+class KnowledgeTransferRequest(BaseModel):
+    profile: dict
+    plan: list[str]
+    transcript: list[InterviewEntry] = Field(default_factory=list)
+
+
+class KnowledgeExtractionRequest(BaseModel):
+    profile: dict
+    transcript: list[InterviewEntry]
+
+
 @app.post("/api/ask")
 def ask(req: AskRequest, identity: Identity = Depends(require_user)):
     """Run one question through the full Synapse pipeline. Never crashes the server."""
@@ -86,6 +103,28 @@ def ask(req: AskRequest, identity: Identity = Depends(require_user)):
         return ask_synapse(question)
     except Exception as exc:
         return JSONResponse(status_code=500, content={"error": f"{type(exc).__name__}: {exc}"})
+
+
+@app.post("/api/knowledge-transfer/interview")
+def knowledge_transfer_interview(req: KnowledgeTransferRequest, identity: Identity = Depends(require_user)):
+    """Generate one short, spoken interview turn with Tencent HY3 on OpenRouter."""
+    try:
+        message = next_interview_turn(req.profile, req.plan, [entry.model_dump() for entry in req.transcript])
+        return {"message": message, "complete": "[INTERVIEW_COMPLETE]" in message, "model": "tencent/hy3:free"}
+    except Exception as exc:
+        return JSONResponse(status_code=502, content={"error": f"{type(exc).__name__}: {exc}"})
+
+
+@app.post("/api/knowledge-transfer/extract")
+def knowledge_transfer_extract(req: KnowledgeExtractionRequest, identity: Identity = Depends(require_user)):
+    """Extract unverified knowledge cards from the completed transcript."""
+    if not req.transcript:
+        return JSONResponse(status_code=400, content={"error": "the interview transcript is empty"})
+    try:
+        cards = extract_knowledge_cards(req.profile, [entry.model_dump() for entry in req.transcript])
+        return {"cards": cards, "model": "tencent/hy3:free"}
+    except Exception as exc:
+        return JSONResponse(status_code=502, content={"error": f"{type(exc).__name__}: {exc}"})
 
 
 # ---- RCA & Failures: direct read-only Neo4j browsing (never calls the synthesizer) ----

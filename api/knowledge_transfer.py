@@ -3,13 +3,18 @@
 from __future__ import annotations
 
 import json
+import os
+import time
 from typing import Any
 
 import requests
 from synthesizer.config import CHAT_URL, get_openrouter_key
 
 
-OPENROUTER_MODEL = "tencent/hy3:free"
+# OpenRouter retired the old ``tencent/hy3:free`` route. Keep the model
+# configurable so a future provider migration does not require a code deploy.
+OPENROUTER_MODEL = os.environ.get("KNOWLEDGE_TRANSFER_MODEL", "tencent/hy3").strip() or "tencent/hy3"
+TRANSIENT_STATUS_CODES = {408, 409, 429, 500, 502, 503, 504}
 
 INTERVIEWER_SYSTEM_PROMPT = """You are the Synapse Knowledge Transfer Interviewer, an AI conducting a
 structured knowledge-capture interview with a retiring or experienced
@@ -102,23 +107,37 @@ def _openrouter_message(system: str, user_content: str, max_tokens: int) -> str:
     if not api_key:
         raise RuntimeError("OPENROUTER_API_KEY is not configured on the Synapse server")
 
-    response = requests.post(
-        CHAT_URL,
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "content-type": "application/json",
-        },
-        json={
-            "model": OPENROUTER_MODEL,
-            "max_tokens": max_tokens,
-            "temperature": 0.2,
-            "messages": [
-                {"role": "system", "content": system},
-                {"role": "user", "content": user_content},
-            ],
-        },
-        timeout=60,
-    )
+    response = None
+    for attempt in range(3):
+        try:
+            response = requests.post(
+                CHAT_URL,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "content-type": "application/json",
+                },
+                json={
+                    "model": OPENROUTER_MODEL,
+                    "max_tokens": max_tokens,
+                    "temperature": 0.2,
+                    "messages": [
+                        {"role": "system", "content": system},
+                        {"role": "user", "content": user_content},
+                    ],
+                },
+                timeout=60,
+            )
+        except requests.RequestException as exc:
+            if attempt == 2:
+                raise RuntimeError("The Tencent HY3 service could not be reached. Please retry.") from exc
+            time.sleep(0.5 * (attempt + 1))
+            continue
+        if response.status_code not in TRANSIENT_STATUS_CODES or attempt == 2:
+            break
+        time.sleep(0.5 * (attempt + 1))
+
+    if response is None:  # Defensive guard; the loop either returns a response or raises.
+        raise RuntimeError("The Tencent HY3 service did not return a response")
     try:
         payload = response.json()
     except ValueError as exc:
@@ -166,9 +185,9 @@ def extract_knowledge_cards(profile: dict[str, Any], transcript: list[dict[str, 
     try:
         cards = json.loads(cleaned)
     except json.JSONDecodeError as exc:
-        raise RuntimeError("Claude did not return a valid knowledge-card JSON array") from exc
+        raise RuntimeError("Tencent HY3 did not return a valid knowledge-card JSON array") from exc
     if not isinstance(cards, list):
-        raise RuntimeError("Claude knowledge extraction did not return a JSON array")
+        raise RuntimeError("Tencent HY3 knowledge extraction did not return a JSON array")
 
     required = {
         "title", "asset", "situation", "symptoms", "diagnostic_reasoning",

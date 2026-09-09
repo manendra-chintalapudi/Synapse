@@ -9,7 +9,7 @@ from collections import Counter
 from datetime import date, datetime
 
 from confidence import calibrate_confidence
-from graph_store import query_graph
+from graph_store import _local_neighborhood, _node_index, query_graph
 
 SEVERITY_RANK = {"critical": 4, "high": 3, "medium": 2, "low": 1, "unrated": 0}
 _CACHE_SECONDS = 30
@@ -81,6 +81,55 @@ ORDER BY other.timestamp DESC
 """
 
 
+def _local_failure_rows() -> list[dict]:
+    """Build the RCA list from the committed ontology when Neo4j is unavailable."""
+    failures = _node_index("failure", "failure_id")
+    equipment = _node_index("equipment", "equipment_id")
+    rcas = _node_index("rca", "rca_id").values()
+    deviations = _node_index("deviation", "deviation_id").values()
+    rcas_by_failure = {}
+    for rca in rcas:
+        rcas_by_failure.setdefault(rca.get("failure_id"), []).append(rca)
+    deviations_by_failure = {}
+    for deviation in deviations:
+        failure_id = deviation.get("failure_id_fk")
+        if failure_id:
+            deviations_by_failure.setdefault(failure_id, []).append(deviation)
+    rows = []
+    for failure in failures.values():
+        fid = failure.get("failure_id")
+        eq = equipment.get(failure.get("equipment_id"), {})
+        linked_rcas = rcas_by_failure.get(fid, [])
+        rows.append({
+            "equipment": {"equipment_id": eq.get("equipment_id"), "name": eq.get("name"), "type": eq.get("type")},
+            "failure": {key: failure.get(key) for key in ("failure_id", "failure_mode", "timestamp")},
+            "rca": linked_rcas[0] if linked_rcas else {},
+            "deviations": [{"deviation_id": d.get("deviation_id"), "severity": d.get("severity")}
+                           for d in deviations_by_failure.get(fid, [])],
+        })
+    return rows
+
+
+def _local_failure_detail(failure_id: str) -> dict | None:
+    records = _local_neighborhood("failure", failure_id)
+    if not records:
+        return None
+    row = records[0]
+    rca_records = row.get("rca_records") or []
+    analysts = row.get("rca_analysts") or []
+    procedures = row.get("procedures") or []
+    return {
+        "equipment": row.get("equipment") or {},
+        "failure": row.get("failure") or {},
+        "rca": rca_records[0] if rca_records else {},
+        "technician": analysts[0] if analysts else {},
+        "procedure": procedures[0] if procedures else {},
+        "documents": row.get("documents") or [],
+        "deviations": [], "coils": [], "downstream_tests": [],
+        "_evidence_backend": "locked_ontology_snapshot",
+    }
+
+
 def _plain(value):
     if isinstance(value, dict):
         return {key: _plain(item) for key, item in value.items()}
@@ -115,7 +164,16 @@ def _load_failures(force: bool = False) -> list[dict]:
     with _cache_lock:
         if not force and _cache_rows is not None and now - _cache_at < _CACHE_SECONDS:
             return [dict(row) for row in _cache_rows]
-    raw = [_plain(row) for row in query_graph(LIST_QUERY)]
+    try:
+        raw = [_plain(row) for row in query_graph(LIST_QUERY)]
+        if not raw:
+            raw = _local_failure_rows()
+            snapshot_fallback = True
+        else:
+            snapshot_fallback = False
+    except Exception:
+        raw = _local_failure_rows()
+        snapshot_fallback = True
     cause_counts = Counter(
         _normalise((row.get("rca") or {}).get("root_cause_text"))
         for row in raw if (row.get("rca") or {}).get("root_cause_text")
@@ -141,6 +199,7 @@ def _load_failures(force: bool = False) -> list[dict]:
             "has_rca": has_rca,
             "rca_id": rca.get("rca_id"),
             "recurrence_count": recurrence_count,
+            "evidence_backend": "locked_ontology_snapshot" if snapshot_fallback else "Neo4j",
         })
     with _cache_lock:
         _cache_rows, _cache_at = rows, time.monotonic()
@@ -212,9 +271,34 @@ def _actions(rca: dict, recurrence_count: int, downstream_count: int) -> list[di
 
 
 def get_failure_detail(failure_id: str) -> dict | None:
-    rows = [_plain(row) for row in query_graph(DETAIL_QUERY, {"failure_id": failure_id})]
+    try:
+        rows = [_plain(row) for row in query_graph(DETAIL_QUERY, {"failure_id": failure_id})]
+    except Exception:
+        rows = []
     if not rows:
-        return None
+        local = _local_failure_detail(failure_id)
+        if local is None:
+            return None
+        local["provenance"] = {
+            "query_mode": "locked_ontology_snapshot_fallback",
+            "procedure_path": "Failure <-[:EXPERIENCED]- Equipment -[:FOLLOWS_PROCEDURE]-> Procedure",
+            "llm_used": False,
+        }
+        local["evidence_chain"] = [
+            {"kind": "Failure", "id": (local.get("failure") or {}).get("failure_id"),
+             "label": (local.get("failure") or {}).get("failure_mode"), "record": local.get("failure"), "citation": "Graph"},
+            {"kind": "RCA", "id": (local.get("rca") or {}).get("rca_id"),
+             "label": "Root cause analysis", "record": local.get("rca"), "citation": "Graph"},
+        ]
+        local["recurrences"] = []
+        local["recurrence_count"] = 0
+        local["confidence"] = calibrate_confidence(
+            direct_chain=bool((local.get("rca") or {}).get("rca_id")), corroborating_sources=0, sample_size=1
+        )
+        local["severity"] = "unrated"
+        local["status"] = "resolved" if (local.get("rca") or {}).get("rca_id") else "open"
+        local["recommended_actions"] = _actions(local.get("rca") or {}, 0, 0)
+        return local
     row = rows[0]
     failure, equipment = row.get("failure") or {}, row.get("equipment") or {}
     rca, technician, procedure = row.get("rca") or {}, row.get("technician") or {}, row.get("procedure") or {}

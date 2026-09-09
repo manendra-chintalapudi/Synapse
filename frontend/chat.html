@@ -1363,7 +1363,15 @@ async function ask(text){
     const accessToken = await window.synapseGetAccessToken?.();
     const headers = {"Content-Type":"application/json"};
     if(accessToken) headers.Authorization = `Bearer ${accessToken}`;
-    const res = await fetch(API, {method:"POST", headers, body: JSON.stringify({question: text})});
+    // Send prior user turns so the backend can resolve "why?", "it", and
+    // similar follow-ups into a standalone domain query before routing.
+    const history = current.thread
+      .filter(turn => turn.role === "user" && turn.text)
+      .slice(0, -1)
+      .slice(-8)
+      .map(turn => ({role: "user", content: turn.text}));
+    const res = await fetch(API, {method:"POST", headers,
+      body: JSON.stringify({question: text, history})});
     clearInterval(timer);
     let data; try{ data = await res.json(); }catch{ throw new Error("Server returned an invalid response."); }
     if (!res.ok || data.error){ renderError(el, data.error || ("Server error (" + res.status + ").")); }

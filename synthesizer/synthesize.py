@@ -44,11 +44,15 @@ from config import CHAT_URL, get_openrouter_key
 from confidence import calibrate_confidence
 
 MODEL_CHAIN = [
-    "tencent/hy3:free",                        # primary (promoted 2026-07-08, see above)
+    "tencent/hy3:free",                        # primary
     "nvidia/nemotron-3-super-120b-a12b:free",  # first fallback
     "openai/gpt-oss-120b:free",
     "google/gemma-4-31b-it:free",
+    "openrouter/free",                         # final live free-model router
 ]
+_configured_chain = os.environ.get("OPENROUTER_MODEL_CHAIN")
+if _configured_chain:
+    MODEL_CHAIN = [m.strip() for m in _configured_chain.split(",") if m.strip()]
 PRIMARY_MODEL = MODEL_CHAIN[0]
 TIMEOUT_S = int(os.environ.get("SYNTHESIZER_TIMEOUT_S", "45"))
 MAX_TOKENS = int(os.environ.get("SYNTHESIZER_MAX_TOKENS", "1200"))
@@ -249,6 +253,31 @@ def _deterministic_evidence_answer(question, graph_results, document_results, st
                 "**So what:** Focusing on the highest-frequency asset directs maintenance effort to the largest current downtime signal."
             )
 
+    if re.search(r"\bhow many\b.*\b(fail|fails|failed|failing|failures)\b", q):
+        count_rows = rows_for("failure count")
+        equipment_rows = rows_for("failures by equipment")
+        metrics = {row.get("metric"): row.get("value") for row in count_rows}
+        total = metrics.get("total_failures")
+        affected = metrics.get("affected_equipment")
+        if total is not None:
+            breakdown = ", ".join(
+                f"{row.get('equipment_name') or row.get('equipment_id')} ({row.get('failure_count')})"
+                for row in equipment_rows[:8]
+            ) or "No equipment IDs are attached to the failure records."
+            return (
+                f"**Direct answer:** The CMMS contains {total} recorded failures involving "
+                f"{affected or 0} distinct equipment assets [DFS: cmms.failures].\n\n"
+                f"**Breakdown by equipment:** {breakdown} [DFS: cmms.failures.equipment_id; scada.equipment.name].\n\n"
+                "**Insight:** The earlier failure-mode totals describe the kinds of failures, "
+                "not which assets experienced them. This equipment grouping is the correct "
+                "basis for identifying problematic assets.\n\n"
+                "**Recommended action for Maintenance:** Start with the highest-count asset, "
+                "then compare its recurring failure modes and open corrective work.\n\n"
+                "**Sources used:**\n- [DFS: cmms.failures] total and distinct affected-equipment count.\n"
+                "- [DFS: cmms.failures.equipment_id; scada.equipment.name] equipment breakdown.\n\n"
+                "**So what:** This converts the failure total into an actionable maintenance priority list."
+            )
+
     if re.search(r"which standard.*(?:coating|fault|defect|violate)", q):
         rows = rows_for("coating-fault standards")
         if rows:
@@ -370,6 +399,64 @@ def _deterministic_evidence_answer(question, graph_results, document_results, st
     return None
 
 
+GENERAL_SYSTEM_PROMPT = """You are Synapse's general-purpose assistant. Answer the user's
+question clearly and practically using your general knowledge. Do not invent private
+Rajendra Steel Plant facts, current measurements, or citations. If the question is
+plant-specific and no evidence is supplied, explain what information is needed. Keep
+the answer concise and distinguish general guidance from verified plant facts."""
+
+PRODUCT_SYSTEM_PROMPT = """You are Synapse's product guide. Answer only from the supplied
+Synapse product context. Explain what Synapse is, its history, data layers, routing,
+retrieval, citations, limitations, and how users should ask questions. Do not claim
+live plant facts. Cite the context as [Synapse Context]."""
+
+
+def _call_unrestricted(question, system_prompt, context=""):
+    """Call the same failover chain for general/product answers, without plant evidence rules."""
+    api_key = get_openrouter_key()
+    if not api_key:
+        return "OpenRouter is not configured. Please provide OPENROUTER_API_KEY.", "error"
+    user_msg = question if not context else f"QUESTION: {question}\n\nCONTEXT:\n{context}"
+    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    forced = os.environ.get("SYNTHESIZER_MODEL")
+    models = ([forced] + [m for m in MODEL_CHAIN if m != forced]) if forced else MODEL_CHAIN
+    errors = []
+    for model in models:
+        try:
+            resp = requests.post(
+                CHAT_URL, headers=headers,
+                json={"models": [model] + [m for m in models if m != model],
+                      "messages": [{"role": "system", "content": system_prompt},
+                                   {"role": "user", "content": user_msg}],
+                      "temperature": 0.2, "max_tokens": MAX_TOKENS},
+                timeout=TIMEOUT_S,
+            )
+            body = resp.json()
+            resp.raise_for_status()
+            if body.get("error"):
+                raise ValueError(str(body["error"])[:180])
+            answer = (body.get("choices", [{}])[0].get("message", {}).get("content") or "").strip()
+            if len(answer) < 20:
+                raise ValueError("model returned an empty or unusable answer")
+            return answer, body.get("model", model)
+        except Exception as exc:
+            errors.append(f"{model}: {type(exc).__name__}")
+    return "I couldn't generate an answer right now. " + "; ".join(errors), "error"
+
+
+def synthesize_general_answer(question):
+    answer, model = _call_unrestricted(question, GENERAL_SYSTEM_PROMPT)
+    return {"answer": answer, "sources": [], "model_used": model, "answer_mode": "general"}
+
+
+def synthesize_product_answer(question, context):
+    answer, model = _call_unrestricted(question, PRODUCT_SYSTEM_PROMPT, context)
+    if model != "error" and "[Synapse Context]" not in answer:
+        answer += "\n\n[Synapse Context]"
+    return {"answer": answer, "sources": ["[Synapse Context]"],
+            "model_used": model, "answer_mode": "synapse"}
+
+
 def synthesize_answer(question, retrieval_plan,
                       graph_results=None, structured_results=None, document_results=None):
     """Produce a grounded, cited answer from retrieved evidence. Never raises."""
@@ -410,7 +497,9 @@ def synthesize_answer(question, retrieval_plan,
     def _call(model, retries=(0,)):
         """One model, optional 429 retries. Returns answer text or raises."""
         payload = {
-            "model": model,
+            # Native OpenRouter failover handles a model cap/provider outage
+            # inside the request before our application-level retry loop.
+            "models": [model] + [m for m in MODEL_CHAIN if m != model],
             "messages": [
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_msg},
@@ -435,27 +524,25 @@ def synthesize_answer(question, retrieval_plan,
         answer = (body["choices"][0]["message"].get("content") or "").strip()
         if not answer:
             raise ValueError("model returned empty content")
-        return answer
+        return answer, body.get("model", model)
 
     forced = os.environ.get("SYNTHESIZER_MODEL")
-    if forced:
-        # deterministic single-model mode (testing): no fallback, but retry 429 bursts
-        candidates = [(forced, (20, 40, 0))]
-    else:
-        # production mode: walk the fallback chain. Give the PRIMARY model a couple of 429
-        # backoff-retries (free-tier rate limits are bursty/transient) so one bad moment
-        # doesn't fail the whole answer; single-shot the fallbacks so latency stays bounded.
-        candidates = [(MODEL_CHAIN[0], (3, 6, 0))] + [(m, (0,)) for m in MODEL_CHAIN[1:]]
+    # SYNTHESIZER_MODEL is a preferred first model, not a single point of failure.
+    # Every candidate still gets the remaining chain as OpenRouter-native fallbacks.
+    ordered_models = ([forced] + [m for m in MODEL_CHAIN if m != forced]
+                      if forced else MODEL_CHAIN)
+    candidates = [(m, (3, 6, 0) if i == 0 else (0,))
+                  for i, m in enumerate(ordered_models)]
 
     model_errors = []
     for model, retries in candidates:
         try:
-            answer = _call(model, retries)
+            answer, actual_model = _call(model, retries)
             _validate_answer(answer)
             return {
                 "answer": answer,
                 "sources": extract_sources(answer),
-                "model_used": model,
+                "model_used": actual_model,
             }
         except Exception as exc:
             model_errors.append(f"{model}: {type(exc).__name__}: {str(exc)[:180]}")

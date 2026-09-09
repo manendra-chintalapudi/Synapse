@@ -35,7 +35,15 @@ import requests
 BASE_URL = "https://openrouter.ai/api/v1"
 OPENROUTER_URL = f"{BASE_URL}/chat/completions"
 DEFAULT_MODEL = "nvidia/nemotron-3-super-120b-a12b:free"
-BACKUP_MODEL = "nvidia/nemotron-3-nano-30b-a3b:free"   # manual swap option; not auto-used
+BACKUP_MODEL = "nvidia/nemotron-3-nano-30b-a3b:free"
+MODEL_CHAIN = [
+    model.strip() for model in os.environ.get(
+        "OPENROUTER_MODEL_CHAIN",
+        ",".join((os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL), BACKUP_MODEL,
+                  "openai/gpt-oss-120b:free", "google/gemma-4-31b-it:free",
+                  "openrouter/free")),
+    ).split(",") if model.strip()
+]
 TIMEOUT_S = int(os.environ.get("ROUTER_TIMEOUT_S", "30"))
 MAX_TOKENS = int(os.environ.get("ROUTER_MAX_TOKENS", "500"))
 ALLOWED_LAYERS = {"graph", "structured", "documents"}
@@ -122,14 +130,17 @@ def fallback_plan(question: str) -> dict:
     if not api_key:
         return _safe_default(question, "OPENROUTER_API_KEY not set")
 
-    model = os.environ.get("OPENROUTER_MODEL", DEFAULT_MODEL)
+    models = MODEL_CHAIN or [DEFAULT_MODEL]
+    model = models[0]
     try:
         resp = requests.post(
             OPENROUTER_URL,
             headers={"Authorization": f"Bearer {api_key}",
                      "Content-Type": "application/json"},
             json={
-                "model": model,
+                # OpenRouter fails over in priority order on rate limits (429),
+                # provider downtime, moderation refusals, and other errors.
+                "models": models,
                 "messages": [
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": question},
@@ -160,7 +171,7 @@ def fallback_plan(question: str) -> dict:
             "details": details,
             "confidence": confidence,
             "source": "tier3_llm",
-            "model": model,
+            "model": resp.json().get("model", model),
         }
     except Exception as exc:                      # network, HTTP, JSON, validation
         return _safe_default(question, exc)

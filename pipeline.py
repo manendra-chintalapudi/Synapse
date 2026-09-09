@@ -40,11 +40,13 @@ from router import route                       # router/router.py
 from graph_store import entity_neighborhood    # retrieval/graph_store.py
 from structured_store import query_federated   # retrieval/structured_store.py
 from search import search as document_search   # embeddings/search.py
-from synthesize import synthesize_answer       # synthesizer/synthesize.py
+from synthesize import (synthesize_answer, synthesize_general_answer,
+                        synthesize_product_answer)  # synthesizer/synthesize.py
 from patterns import detect_patterns, PATTERN_INTENT_RX   # retrieval/patterns.py
 
 MAX_GRAPH_ENTITIES = 4
 DOC_TOP_K = 4
+PRODUCT_CONTEXT = (_BASE / "docs" / "synapse_context.md")
 CACHE_TTL_S = int(os.environ.get("QUERY_CACHE_TTL_S", "300"))
 CACHE_MAX_ENTRIES = int(os.environ.get("QUERY_CACHE_MAX_ENTRIES", "128"))
 _cache = OrderedDict()
@@ -132,6 +134,24 @@ ORDER BY failure_count DESC, f.equipment_id
 LIMIT 10
 """
 
+FAILURE_COUNT_SQL = """
+SELECT 'total_failures' AS metric, COUNT(*) AS value
+FROM cmms.main.failures
+UNION ALL
+SELECT 'affected_equipment', COUNT(DISTINCT equipment_id)
+FROM cmms.main.failures
+WHERE equipment_id IS NOT NULL
+"""
+
+FAILURE_BY_EQUIPMENT_SQL = """
+SELECT f.equipment_id, e.name AS equipment_name, e.type AS equipment_type,
+       COUNT(*) AS failure_count
+FROM cmms.main.failures f
+LEFT JOIN scada.main.equipment e ON e.equipment_id = f.equipment_id
+GROUP BY f.equipment_id, e.name, e.type
+ORDER BY failure_count DESC, f.equipment_id
+"""
+
 COATING_STANDARD_SQL = """
 SELECT qt.standard_ref, COUNT(*) AS associated_test_count,
        COUNT(DISTINCT qt.coil_id) AS associated_coil_count
@@ -168,6 +188,10 @@ def structured_retrieval(question, details):
         return results
     if re.search(r"how many coils.*(fail|defect|deviat|quality)", q):
         results["qms+erp (federated)"] = query_federated(COILS_FAILED_QC_SQL)
+        return results
+    if re.search(r"\bhow many\b.*\b(fail|fails|failed|failing|failures)\b", q):
+        results["cmms (failure count)"] = query_federated(FAILURE_COUNT_SQL)
+        results["cmms+scada (failures by equipment)"] = query_federated(FAILURE_BY_EQUIPMENT_SQL)
         return results
     if re.search(r"which equipment (?:failed|fails) most|most (?:affected|failure-prone) equipment", q):
         results["cmms+scada (equipment failures this quarter)"] = query_federated(EQUIPMENT_FAILURE_RANK_SQL)
@@ -251,8 +275,69 @@ def warm_up():
     document_search("warm up", k=1)
 
 
-def ask_synapse(question: str) -> dict:
+def _resolve_follow_up(question: str, history: list[dict] | None) -> str:
+    """Turn a short conversational follow-up into a routable standalone query.
+
+    The router is intentionally stateless and domain-focused. Keep that property,
+    but give it the last user turn when the new message contains a reference such
+    as "it", "that", or is otherwise too short to identify an entity.
+    """
+    if not history:
+        return question
+    previous = next(
+        (str(turn.get("content") or turn.get("text") or "").strip()
+         for turn in reversed(history)
+         if turn.get("role") == "user" and (turn.get("content") or turn.get("text"))),
+        "",
+    )
+    if not previous:
+        return question
+    q = question.lower().strip()
+    words = q.split()
+    reference = bool(re.search(r"\b(it|this|that|they|them|same|above|again)\b", q))
+    follow_up = reference or len(words) <= 6 or bool(
+        re.match(r"^(why|how|what about|and|also|then|so)\b", q)
+    )
+    return f"{previous}\nFollow-up question: {question}" if follow_up else question
+
+
+def _classify_query_mode(question: str) -> str:
+    """Choose the answer source before the plant router runs."""
+    q = question.lower()
+    if re.search(r"\b(synapse|this system|this assistant|how do you work|what can you do)\b", q):
+        return "synapse"
+    plant_scope = bool(re.search(
+        r"\b(our plant|rajendra|plant records?|this quarter|last month|show me|how many|which)\b"
+        r"|\b(?:eq|c|dev|rca|doc|std|qt|f)\s*[-]?\d+\b", q
+    ))
+    asks_method = bool(re.search(r"\b(how should|how do i|what should|steps|approach|tackle|investigate)\b", q))
+    if plant_scope:
+        return "plant"
+    if asks_method and re.search(r"\b(equipment|failure|quality|maintenance|production|coil)\b", q):
+        return "general"
+    # Domain vocabulary alone is not proof that the user wants plant data. In
+    # that case answer the concept generally instead of inventing a plant scope.
+    return "general"
+
+
+def ask_synapse(question: str, history: list[dict] | None = None) -> dict:
     """Route -> retrieve (parallel) -> synthesize. Returns the full transparent result."""
+    question = _resolve_follow_up(question, history)
+    mode = _classify_query_mode(question)
+    if mode in {"general", "synapse"}:
+        started = time.perf_counter()
+        if mode == "synapse":
+            context = PRODUCT_CONTEXT.read_text(encoding="utf-8") if PRODUCT_CONTEXT.exists() else ""
+            result = synthesize_product_answer(question, context)
+        else:
+            result = synthesize_general_answer(question)
+        result["retrieval_plan"] = {"mode": mode, "layers": [], "confidence": "not_applicable"}
+        result["retrieval_errors"] = {}
+        result["latency"] = {"routing_s": 0.0, "retrieval_s": 0.0,
+                              "synthesis_s": round(time.perf_counter() - started, 2),
+                              "total_s": round(time.perf_counter() - started, 2),
+                              "cache_hit": False}
+        return result
     cached = _cache_get(question)
     if cached is not None:
         cached["latency"] = {

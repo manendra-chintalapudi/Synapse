@@ -75,6 +75,9 @@ app.add_middleware(
 
 class AskRequest(BaseModel):
     question: str
+    # The chat client sends recent turns so short follow-ups such as "why?"
+    # can be resolved before the domain router runs.
+    history: list[dict] = Field(default_factory=list)
 
 
 class InterviewEntry(BaseModel):
@@ -100,7 +103,7 @@ def ask(req: AskRequest, identity: Identity = Depends(require_user)):
     if not question:
         return JSONResponse(status_code=400, content={"error": "question is empty"})
     try:
-        return ask_synapse(question)
+        return ask_synapse(question, history=req.history)
     except Exception as exc:
         return JSONResponse(status_code=500, content={"error": f"{type(exc).__name__}: {exc}"})
 
